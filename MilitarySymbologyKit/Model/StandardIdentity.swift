@@ -11,7 +11,7 @@ enum StandardIdentity: String, CaseIterable, Identifiable {
     case friend = "3"
     case neutral = "4"
     case suspect = "5"
-    case hotile = "6"
+    case hostile = "6"
     
     var id: String { rawValue }
     
@@ -29,7 +29,7 @@ enum StandardIdentity: String, CaseIterable, Identifiable {
             return String(localized: "Neutral", comment: "Standard identity")
         case .suspect:
             return String(localized: "Suspect/Joker", comment: "Standard identity")
-        case .hotile:
+        case .hostile:
             return String(localized: "Hostile/Faker", comment: "Standard identity")
         }
     }

@@ -7,7 +7,7 @@ import SwiftUI
 
 struct Symbol {
     var context: Context = .reality
-    var standartIdentity: StandardIdentity = .hotile
+    var standartIdentity: StandardIdentity = .hostile
     var dimention: Dimension = .landUnits
     var status: Status = .present
     var hqtfDummy: HQTFDummy = .notApplicable
@@ -45,7 +45,7 @@ struct Symbol {
         case .assumedFriend:
             firsDigit = StandardIdentity.friend.id
         case .suspect:
-            firsDigit = StandardIdentity.hotile.id
+            firsDigit = StandardIdentity.hostile.id
         default:
             firsDigit = standartIdentity.id
         }
