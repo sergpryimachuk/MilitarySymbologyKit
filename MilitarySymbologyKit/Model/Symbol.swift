@@ -6,6 +6,7 @@ import Foundation
 import SwiftUI
 
 struct Symbol {
+    private let version: String = "01"
     var context: Context = .reality
     var standartIdentity: StandardIdentity = .hostile
     var dimention: Dimension = .landUnits
@@ -15,6 +16,10 @@ struct Symbol {
     var descriptor: AnyDescriptor = AnyDescriptor(NotApplicableDescriptor.notApplicable)
     
     var isCivilian: Bool = false
+    
+    func makeSIDC() -> String {
+        version + context.id + standartIdentity.id + dimention.id + status.id + hqtfDummy.id + amplifier.id + descriptor.id + "0000000000"
+    }
     
     func makeFrame() -> Image {
         

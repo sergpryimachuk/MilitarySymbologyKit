@@ -24,6 +24,7 @@ struct ContentView: View {
                             .frame(width: 200)
                         Spacer()
                     }
+                    LabeledContent("SIDC:", value: symbol.makeSIDC())
                 }
                 .listRowBackground(Color.clear)
                 
