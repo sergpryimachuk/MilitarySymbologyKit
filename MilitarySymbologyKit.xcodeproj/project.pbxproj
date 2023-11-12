@@ -7,18 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930218172B00FE5E004FA3D5 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218162B00FE5E004FA3D5 /* Context.swift */; };
+		930218192B00FE7C004FA3D5 /* StandardIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218182B00FE7C004FA3D5 /* StandardIdentity.swift */; };
+		9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302181A2B00FEB2004FA3D5 /* Dimension.swift */; };
+		9302181D2B00FF8C004FA3D5 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302181C2B00FF8C004FA3D5 /* Status.swift */; };
+		9302181F2B00FFC2004FA3D5 /* HQTFDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302181E2B00FFC2004FA3D5 /* HQTFDummy.swift */; };
+		930218222B010058004FA3D5 /* Amplifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218212B010058004FA3D5 /* Amplifier.swift */; };
+		930218252B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218242B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift */; };
+		930218272B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218262B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift */; };
+		930218292B010174004FA3D5 /* EquipmentMobilityLandDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218282B010174004FA3D5 /* EquipmentMobilityLandDescriptor.swift */; };
+		9302182B2B0101AD004FA3D5 /* EquipmentMobilitySnowDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302182A2B0101AD004FA3D5 /* EquipmentMobilitySnowDescriptor.swift */; };
+		9302182D2B0101BD004FA3D5 /* EquipmentMobilityWaterDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302182C2B0101BD004FA3D5 /* EquipmentMobilityWaterDescriptor.swift */; };
+		9302182F2B0101C8004FA3D5 /* NavalTowedArrayDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302182E2B0101C8004FA3D5 /* NavalTowedArrayDescriptor.swift */; };
+		930218312B010FBA004FA3D5 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218302B010FBA004FA3D5 /* Entity.swift */; };
+		930218372B012DBD004FA3D5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218362B012DBD004FA3D5 /* TestView.swift */; };
+		930218392B012EB9004FA3D5 /* Descriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218382B012EB9004FA3D5 /* Descriptor.swift */; };
+		9302183B2B012EF5004FA3D5 /* NotApplicableDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302183A2B012EF5004FA3D5 /* NotApplicableDescriptor.swift */; };
+		9302183E2B01349A004FA3D5 /* EntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302183D2B01349A004FA3D5 /* EntityType.swift */; };
+		930218412B013502004FA3D5 /* CommandAndControlEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218402B013502004FA3D5 /* CommandAndControlEntityType.swift */; };
+		930218432B013685004FA3D5 /* MovementAndManeuverEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218422B013685004FA3D5 /* MovementAndManeuverEntityType.swift */; };
+		930218452B013835004FA3D5 /* FiresEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218442B013835004FA3D5 /* FiresEntityType.swift */; };
 		939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */; };
 		939B44A72AFE39C700A67880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A62AFE39C700A67880 /* ContentView.swift */; };
 		939B44A92AFE39C900A67880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44A82AFE39C900A67880 /* Assets.xcassets */; };
 		939B44AC2AFE39C900A67880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */; };
+		939B44BA2AFE485C00A67880 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44B92AFE485C00A67880 /* Symbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		930218162B00FE5E004FA3D5 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		930218182B00FE7C004FA3D5 /* StandardIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardIdentity.swift; sourceTree = "<group>"; };
+		9302181A2B00FEB2004FA3D5 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		9302181C2B00FF8C004FA3D5 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		9302181E2B00FFC2004FA3D5 /* HQTFDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQTFDummy.swift; sourceTree = "<group>"; };
+		930218212B010058004FA3D5 /* Amplifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplifier.swift; sourceTree = "<group>"; };
+		930218242B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchelonBrigadeBelowDescriptor.swift; sourceTree = "<group>"; };
+		930218262B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchelonDivisionAboveDescriptor.swift; sourceTree = "<group>"; };
+		930218282B010174004FA3D5 /* EquipmentMobilityLandDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentMobilityLandDescriptor.swift; sourceTree = "<group>"; };
+		9302182A2B0101AD004FA3D5 /* EquipmentMobilitySnowDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentMobilitySnowDescriptor.swift; sourceTree = "<group>"; };
+		9302182C2B0101BD004FA3D5 /* EquipmentMobilityWaterDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentMobilityWaterDescriptor.swift; sourceTree = "<group>"; };
+		9302182E2B0101C8004FA3D5 /* NavalTowedArrayDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavalTowedArrayDescriptor.swift; sourceTree = "<group>"; };
+		930218302B010FBA004FA3D5 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		930218362B012DBD004FA3D5 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		930218382B012EB9004FA3D5 /* Descriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Descriptor.swift; sourceTree = "<group>"; };
+		9302183A2B012EF5004FA3D5 /* NotApplicableDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotApplicableDescriptor.swift; sourceTree = "<group>"; };
+		9302183D2B01349A004FA3D5 /* EntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityType.swift; sourceTree = "<group>"; };
+		930218402B013502004FA3D5 /* CommandAndControlEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandAndControlEntityType.swift; sourceTree = "<group>"; };
+		930218422B013685004FA3D5 /* MovementAndManeuverEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementAndManeuverEntityType.swift; sourceTree = "<group>"; };
+		930218442B013835004FA3D5 /* FiresEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiresEntityType.swift; sourceTree = "<group>"; };
 		939B44A12AFE39C700A67880 /* MilitarySymbologyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilitarySymbologyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbologyKitApp.swift; sourceTree = "<group>"; };
 		939B44A62AFE39C700A67880 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		939B44A82AFE39C900A67880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		939B44B92AFE485C00A67880 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +74,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		930218202B01004C004FA3D5 /* Amplifier */ = {
+			isa = PBXGroup;
+			children = (
+				930218212B010058004FA3D5 /* Amplifier.swift */,
+				930218382B012EB9004FA3D5 /* Descriptor.swift */,
+				930218232B0100A9004FA3D5 /* Descriptors */,
+			);
+			path = Amplifier;
+			sourceTree = "<group>";
+		};
+		930218232B0100A9004FA3D5 /* Descriptors */ = {
+			isa = PBXGroup;
+			children = (
+				930218242B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift */,
+				930218262B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift */,
+				930218282B010174004FA3D5 /* EquipmentMobilityLandDescriptor.swift */,
+				9302182C2B0101BD004FA3D5 /* EquipmentMobilityWaterDescriptor.swift */,
+				9302182A2B0101AD004FA3D5 /* EquipmentMobilitySnowDescriptor.swift */,
+				9302182E2B0101C8004FA3D5 /* NavalTowedArrayDescriptor.swift */,
+				9302183A2B012EF5004FA3D5 /* NotApplicableDescriptor.swift */,
+			);
+			path = Descriptors;
+			sourceTree = "<group>";
+		};
+		9302183C2B013461004FA3D5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				930218302B010FBA004FA3D5 /* Entity.swift */,
+				9302183D2B01349A004FA3D5 /* EntityType.swift */,
+				9302183F2B0134F4004FA3D5 /* EntityTypes */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9302183F2B0134F4004FA3D5 /* EntityTypes */ = {
+			isa = PBXGroup;
+			children = (
+				930218402B013502004FA3D5 /* CommandAndControlEntityType.swift */,
+				930218422B013685004FA3D5 /* MovementAndManeuverEntityType.swift */,
+				930218442B013835004FA3D5 /* FiresEntityType.swift */,
+			);
+			path = EntityTypes;
+			sourceTree = "<group>";
+		};
 		939B44982AFE39C700A67880 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +139,8 @@
 			children = (
 				939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */,
 				939B44A62AFE39C700A67880 /* ContentView.swift */,
+				930218362B012DBD004FA3D5 /* TestView.swift */,
+				939B44B22AFE39D600A67880 /* Model */,
 				939B44A82AFE39C900A67880 /* Assets.xcassets */,
 				939B44AA2AFE39C900A67880 /* Preview Content */,
 			);
@@ -65,6 +153,21 @@
 				939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		939B44B22AFE39D600A67880 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				939B44B92AFE485C00A67880 /* Symbol.swift */,
+				930218162B00FE5E004FA3D5 /* Context.swift */,
+				930218182B00FE7C004FA3D5 /* StandardIdentity.swift */,
+				9302181A2B00FEB2004FA3D5 /* Dimension.swift */,
+				9302181C2B00FF8C004FA3D5 /* Status.swift */,
+				9302181E2B00FFC2004FA3D5 /* HQTFDummy.swift */,
+				930218202B01004C004FA3D5 /* Amplifier */,
+				9302183C2B013461004FA3D5 /* Entity */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +240,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930218192B00FE7C004FA3D5 /* StandardIdentity.swift in Sources */,
+				930218222B010058004FA3D5 /* Amplifier.swift in Sources */,
+				930218272B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift in Sources */,
+				9302183B2B012EF5004FA3D5 /* NotApplicableDescriptor.swift in Sources */,
+				930218252B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift in Sources */,
+				930218452B013835004FA3D5 /* FiresEntityType.swift in Sources */,
+				930218312B010FBA004FA3D5 /* Entity.swift in Sources */,
+				939B44BA2AFE485C00A67880 /* Symbol.swift in Sources */,
+				9302181D2B00FF8C004FA3D5 /* Status.swift in Sources */,
 				939B44A72AFE39C700A67880 /* ContentView.swift in Sources */,
+				930218372B012DBD004FA3D5 /* TestView.swift in Sources */,
+				930218432B013685004FA3D5 /* MovementAndManeuverEntityType.swift in Sources */,
+				9302183E2B01349A004FA3D5 /* EntityType.swift in Sources */,
+				930218292B010174004FA3D5 /* EquipmentMobilityLandDescriptor.swift in Sources */,
+				9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */,
+				930218172B00FE5E004FA3D5 /* Context.swift in Sources */,
 				939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */,
+				9302181F2B00FFC2004FA3D5 /* HQTFDummy.swift in Sources */,
+				930218392B012EB9004FA3D5 /* Descriptor.swift in Sources */,
+				930218412B013502004FA3D5 /* CommandAndControlEntityType.swift in Sources */,
+				9302182F2B0101C8004FA3D5 /* NavalTowedArrayDescriptor.swift in Sources */,
+				9302182D2B0101BD004FA3D5 /* EquipmentMobilityWaterDescriptor.swift in Sources */,
+				9302182B2B0101AD004FA3D5 /* EquipmentMobilitySnowDescriptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
