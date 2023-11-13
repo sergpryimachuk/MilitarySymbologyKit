@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum HQTFDummy: String, CaseIterable, Identifiable {
+enum HQTFD: String, CaseIterable, Identifiable {
     case notApplicable = "0"
     case feintDummy = "1"
     case headquarters = "2"

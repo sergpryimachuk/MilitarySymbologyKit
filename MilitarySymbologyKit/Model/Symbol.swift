@@ -8,21 +8,20 @@ import SwiftUI
 struct Symbol {
     private let version: String = "01"
     var context: Context = .reality
-    var standartIdentity: StandardIdentity = .hostile
-    var dimention: Dimension = .landUnits
+    var standartIdentity: StandardIdentity = .unknown
+    var dimention: Dimension = .air
     var status: Status = .present
-    var hqtfDummy: HQTFDummy = .notApplicable
+    var hqtfd: HQTFD = .taskForceHeadquarters
     var amplifier: Amplifier = .notApplicable
     var descriptor: AnyDescriptor = AnyDescriptor(NotApplicableDescriptor.notApplicable)
     
     var isCivilian: Bool = false
     
     func makeSIDC() -> String {
-        version + context.id + standartIdentity.id + dimention.id + status.id + hqtfDummy.id + amplifier.id + descriptor.id + "0000000000"
+        version + context.id + standartIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + "0000000000"
     }
     
-    func makeFrame() -> Image {
-        
+    func makeFrame() -> some View {
         var lastDigit: String {
             let initial = if Int(status.id)! > 1 {
                 "0"
@@ -37,25 +36,20 @@ struct Symbol {
             }
         }
         
-        return Image(context.id + "_" + standartIdentity.id + dimention.id + "_" + lastDigit)
+        return Image(context.id + "_" + standartIdentity.id + dimention.assetDigit + "_" + lastDigit)
+            .resizable()
+            .scaledToFit()
     }
     
     func makeAmplifier() -> some View {
-        
-        var firsDigit: String!
-        
-        switch standartIdentity {
-        case .pending:
-            firsDigit = StandardIdentity.unknown.id
-        case .assumedFriend:
-            firsDigit = StandardIdentity.friend.id
-        case .suspect:
-            firsDigit = StandardIdentity.hostile.id
-        default:
-            firsDigit = standartIdentity.id
-        }
-        
-        return Image(firsDigit + amplifier.id + descriptor.id)
+        return Image(standartIdentity.assetGigit + amplifier.id + descriptor.id)
+            .resizable()
+            .scaledToFit()
+    }
+    
+    // Uses SIDC positions 4-6 (standartIdentity-dimention) and position 8 (hqtfd).
+    func makeHQTFFD() -> some View {
+        return Image(standartIdentity.assetGigit + dimention.assetDigit + hqtfd.id)
             .resizable()
             .scaledToFit()
     }

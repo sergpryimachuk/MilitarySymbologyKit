@@ -11,7 +11,7 @@
 		930218192B00FE7C004FA3D5 /* StandardIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218182B00FE7C004FA3D5 /* StandardIdentity.swift */; };
 		9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302181A2B00FEB2004FA3D5 /* Dimension.swift */; };
 		9302181D2B00FF8C004FA3D5 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302181C2B00FF8C004FA3D5 /* Status.swift */; };
-		9302181F2B00FFC2004FA3D5 /* HQTFDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302181E2B00FFC2004FA3D5 /* HQTFDummy.swift */; };
+		9302181F2B00FFC2004FA3D5 /* HQTFD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302181E2B00FFC2004FA3D5 /* HQTFD.swift */; };
 		930218222B010058004FA3D5 /* Amplifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218212B010058004FA3D5 /* Amplifier.swift */; };
 		930218252B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218242B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift */; };
 		930218272B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218262B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift */; };
@@ -39,7 +39,7 @@
 		930218182B00FE7C004FA3D5 /* StandardIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardIdentity.swift; sourceTree = "<group>"; };
 		9302181A2B00FEB2004FA3D5 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
 		9302181C2B00FF8C004FA3D5 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
-		9302181E2B00FFC2004FA3D5 /* HQTFDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQTFDummy.swift; sourceTree = "<group>"; };
+		9302181E2B00FFC2004FA3D5 /* HQTFD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQTFD.swift; sourceTree = "<group>"; };
 		930218212B010058004FA3D5 /* Amplifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplifier.swift; sourceTree = "<group>"; };
 		930218242B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchelonBrigadeBelowDescriptor.swift; sourceTree = "<group>"; };
 		930218262B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchelonDivisionAboveDescriptor.swift; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 				930218182B00FE7C004FA3D5 /* StandardIdentity.swift */,
 				9302181A2B00FEB2004FA3D5 /* Dimension.swift */,
 				9302181C2B00FF8C004FA3D5 /* Status.swift */,
-				9302181E2B00FFC2004FA3D5 /* HQTFDummy.swift */,
+				9302181E2B00FFC2004FA3D5 /* HQTFD.swift */,
 				930218202B01004C004FA3D5 /* Amplifier */,
 				9302183C2B013461004FA3D5 /* Entity */,
 			);
@@ -257,7 +257,7 @@
 				9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */,
 				930218172B00FE5E004FA3D5 /* Context.swift in Sources */,
 				939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */,
-				9302181F2B00FFC2004FA3D5 /* HQTFDummy.swift in Sources */,
+				9302181F2B00FFC2004FA3D5 /* HQTFD.swift in Sources */,
 				930218392B012EB9004FA3D5 /* Descriptor.swift in Sources */,
 				930218412B013502004FA3D5 /* CommandAndControlEntityType.swift in Sources */,
 				9302182F2B0101C8004FA3D5 /* NavalTowedArrayDescriptor.swift in Sources */,

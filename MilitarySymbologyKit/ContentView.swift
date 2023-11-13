@@ -16,12 +16,10 @@ struct ContentView: View {
                         Spacer()
                         ZStack {
                             symbol.makeFrame()
-                                .resizable()
-                                .scaledToFit()
-                            
                             symbol.makeAmplifier()
+                            symbol.makeHQTFFD()
                         }
-                            .frame(width: 200)
+                        .frame(width: 200)
                         Spacer()
                     }
                     LabeledContent("SIDC:", value: symbol.makeSIDC())
@@ -53,9 +51,9 @@ struct ContentView: View {
                         }
                     }
                     
-                    Picker("HQ / Task Force / Dummy", selection: $symbol.hqtfDummy) {
-                        ForEach(HQTFDummy.allCases) { hqtfDummy in
-                            Text(hqtfDummy.id + " " + hqtfDummy.name).tag(hqtfDummy)
+                    Picker("HQ / Task Force / Dummy", selection: $symbol.hqtfd) {
+                        ForEach(HQTFD.allCases) { hqtfd in
+                            Text(hqtfd.id + " " + hqtfd.name).tag(hqtfd)
                         }
                     }
                     

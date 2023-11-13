@@ -33,4 +33,18 @@ enum StandardIdentity: String, CaseIterable, Identifiable {
             return String(localized: "Hostile/Faker", comment: "Standard identity")
         }
     }
+    
+    /// Gigit used to retireve svg asset.
+    var assetGigit: String {
+        switch self {
+        case .pending:
+            StandardIdentity.unknown.id
+        case .assumedFriend:
+            StandardIdentity.friend.id
+        case .suspect:
+            StandardIdentity.hostile.id
+        default:
+            self.id
+        }
+    }
 }
