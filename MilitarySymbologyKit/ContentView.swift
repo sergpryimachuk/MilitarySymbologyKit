@@ -70,6 +70,12 @@ struct ContentView: View {
                     }
                     
                     Toggle("Civilian", isOn: $symbol.isCivilian)
+                        .disabled(symbol.standartIdentity == .suspect || symbol.standartIdentity == .hostile)
+                        .onChange(of: symbol.standartIdentity) { _, newValue in
+                            if symbol.standartIdentity == .suspect || symbol.standartIdentity == .hostile {
+                                symbol.isCivilian = false
+                            }
+                        }
                 }
             }
         }
