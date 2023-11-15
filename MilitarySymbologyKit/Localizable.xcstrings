@@ -1,0 +1,420 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Activities" : {
+      "comment" : "Dimension"
+    },
+    "Air" : {
+      "comment" : "Dimension"
+    },
+    "Air Assault with Organic Lift" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Air Defense" : {
+
+    },
+    "Air Missile" : {
+      "comment" : "Dimension"
+    },
+    "Air Traffic Services/Airfield Operations" : {
+
+    },
+    "Air/Land Naval Gunfire Liaison" : {
+
+    },
+    "Amphibious" : {
+      "comment" : "Equipment mobility on water amplifier descriptor"
+    },
+    "Amplifier" : {
+
+    },
+    "Antitank/Antiarmor" : {
+
+    },
+    "Armor/Armored/Mechanized/Self-Propelled/Tracked" : {
+
+    },
+    "Army" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Army Aviation/Aviation Rotary Wing" : {
+
+    },
+    "Army Group/Front" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Assumed Friend" : {
+      "comment" : "Standard identity"
+    },
+    "Aviation Composite" : {
+
+    },
+    "Aviation Fixed Wing" : {
+
+    },
+    "Barge" : {
+      "comment" : "Equipment mobility on water amplifier descriptor"
+    },
+    "Battalion/Squadron" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Brigade" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Broadcast Transmitter Antennae" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Civil Affairs" : {
+
+    },
+    "Civil-Military Cooperation" : {
+
+    },
+    "Civilian" : {
+
+    },
+    "Combat" : {
+
+    },
+    "Combined Arms" : {
+
+    },
+    "Command" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Command and Control" : {
+
+    },
+    "Company/Battery/Troop" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Context" : {
+
+    },
+    "Control Measure" : {
+      "comment" : "Dimension"
+    },
+    "Corps/MEF" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Cyberspace" : {
+      "comment" : "Dimension"
+    },
+    "Descriptor" : {
+
+    },
+    "Dimention" : {
+
+    },
+    "Division" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Echelon at brigade and below" : {
+      "comment" : "Amplifier"
+    },
+    "Echelon at division and above" : {
+      "comment" : "Amplifier"
+    },
+    "Emergency Operation" : {
+
+    },
+    "Equipment mobility on land" : {
+      "comment" : "Amplifier"
+    },
+    "Equipment mobility on snow" : {
+      "comment" : "Amplifier"
+    },
+    "Equipment mobility on water" : {
+      "comment" : "Amplifier"
+    },
+    "Exercise" : {
+      "comment" : "Context"
+    },
+    "Feint/Dummy" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Feint/Dummy Headquarters" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Feint/Dummy Task Force" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Feint/Dummy Task Force Headquarters" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Field Artillery" : {
+
+    },
+    "Field Artillery Observer" : {
+
+    },
+    "Fires" : {
+
+    },
+    "Friend" : {
+      "comment" : "Standard identity"
+    },
+    "Headquarters" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Hostile/Faker" : {
+      "comment" : "Standard identity"
+    },
+    "HQ / Task Force / Dummy" : {
+
+    },
+    "Infantry" : {
+
+    },
+    "Information Operations" : {
+
+    },
+    "Intelligence" : {
+
+    },
+    "Joint Fire Support" : {
+
+    },
+    "Land Civilian" : {
+      "comment" : "Dimension"
+    },
+    "Land Equipment" : {
+      "comment" : "Dimension"
+    },
+    "Land Installation" : {
+      "comment" : "Dimension"
+    },
+    "Land Units" : {
+      "comment" : "Dimension"
+    },
+    "Law Enforcement" : {
+
+    },
+    "Liaison" : {
+
+    },
+    "Long Towed Array" : {
+      "comment" : "Naval towed array amplifier descriptor"
+    },
+    "Meteorological" : {
+
+    },
+    "Meteorological - Atmospheric" : {
+      "comment" : "Dimension"
+    },
+    "Meteorological - Oceanographic" : {
+      "comment" : "Dimension"
+    },
+    "Meteorological - Space" : {
+      "comment" : "Dimension"
+    },
+    "Military Information Support Operations (MISO)" : {
+
+    },
+    "Mine Warfare" : {
+      "comment" : "Dimension"
+    },
+    "Missile" : {
+
+    },
+    "Mortar" : {
+
+    },
+    "Movement and Maneuver" : {
+
+    },
+    "Named Headquarters" : {
+
+    },
+    "Naval" : {
+
+    },
+    "Naval towed array" : {
+      "comment" : "Amplifier"
+    },
+    "Neutral" : {
+      "comment" : "Standard identity"
+    },
+    "None" : {
+      "comment" : " Fires Entity Type"
+    },
+    "Not Applicable" : {
+      "comment" : "Amplifier\nHeadquarters/Task force/Dummy\nNot Applicable amplifier descriptor"
+    },
+    "Observer" : {
+
+    },
+    "Over snow (prime mover)" : {
+      "comment" : "Equipment mobility on snow amplifier descriptor"
+    },
+    "Pack animals" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Pending" : {
+      "comment" : "Standard identity"
+    },
+    "Planned/Anticipated/Suspect" : {
+      "comment" : "Status"
+    },
+    "Platoon/Detachment" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Present" : {
+      "comment" : "Status"
+    },
+    "Present/Damaged" : {
+      "comment" : "Status"
+    },
+    "Present/Destroyed" : {
+      "comment" : "Status"
+    },
+    "Present/Full to Capacity" : {
+      "comment" : "Status"
+    },
+    "Present/Fully Capable" : {
+      "comment" : "Status"
+    },
+    "Protection" : {
+
+    },
+    "Radio" : {
+
+    },
+    "Radio Relay" : {
+
+    },
+    "Radio Teletype Center" : {
+
+    },
+    "Rail" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Reality" : {
+      "comment" : "Context"
+    },
+    "Reconnaissance/Cavalry/Scout" : {
+
+    },
+    "Regiment/Group" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Region/Theater" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Sea Air Land (SEAL)" : {
+
+    },
+    "Sea Subsurface" : {
+      "comment" : "Dimension"
+    },
+    "Sea Surface" : {
+      "comment" : "Dimension"
+    },
+    "Section" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Short Towed Array" : {
+      "comment" : "Naval towed array amplifier descriptor"
+    },
+    "SIDC:" : {
+
+    },
+    "Signal" : {
+
+    },
+    "Signals Intelligence - Air" : {
+      "comment" : "Dimension"
+    },
+    "Signals Intelligence - Land" : {
+      "comment" : "Dimension"
+    },
+    "Signals Intelligence - Space" : {
+      "comment" : "Dimension"
+    },
+    "Signals Intelligence - Subsurface" : {
+      "comment" : "Dimension"
+    },
+    "Signals Intelligence - Surface" : {
+      "comment" : "Dimension"
+    },
+    "Simulation" : {
+      "comment" : "Context"
+    },
+    "Sled" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Sniper" : {
+
+    },
+    "Space" : {
+      "comment" : "Dimension"
+    },
+    "Space Missile" : {
+      "comment" : "Dimension"
+    },
+    "Special Forces" : {
+
+    },
+    "Special Operations Forces (SOF)" : {
+
+    },
+    "Squad" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Standard Identity" : {
+
+    },
+    "Status" : {
+
+    },
+    "Surveillance" : {
+
+    },
+    "Survey" : {
+
+    },
+    "Suspect/Joker" : {
+      "comment" : "Standard identity"
+    },
+    "Sustainment" : {
+
+    },
+    "Tactical Satellite" : {
+
+    },
+    "Task Force" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Task Force Headquarters" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Team/Crew" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Towed" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Tracked" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Unknown" : {
+      "comment" : "Standard identity"
+    },
+    "Unmanned Aerial Systems" : {
+
+    },
+    "Video Imagery (Combat Camera)" : {
+
+    },
+    "Wheeled and tracked combination" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Wheeled cross country" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Wheeled limited cross country" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    }
+  },
+  "version" : "1.0"
+}

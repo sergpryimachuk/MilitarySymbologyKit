@@ -18,6 +18,7 @@ struct ContentView: View {
                             symbol.makeFrame()
                             symbol.makeAmplifier()
                             symbol.makeHQTFFD()
+                            symbol.makeOCA()
                         }
                         .frame(width: 200)
                         Spacer()

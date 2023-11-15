@@ -9,12 +9,12 @@ protocol EntityType: Identifiable {
     var name: String { get }
 }
 
-struct AnyEntityType: Descriptor, Hashable, Identifiable {
+struct AnyEntityType: EntityType, Hashable, Identifiable {
     var id: String
     var name: String
     
-    init<T: Descriptor>(_ descriptor: T) {
-        self.id = descriptor.id
-        self.name = descriptor.name
+    init<T: EntityType>(_ entityType: T) {
+        self.id = entityType.id
+        self.name = entityType.name
     }
 }

@@ -53,4 +53,20 @@ struct Symbol {
             .resizable()
             .scaledToFit()
     }
+    
+    @ViewBuilder
+    func makeOCA() -> some View {
+        switch status {
+        case .presentDamaged:
+            Image(status.id)
+                .resizable()
+                .scaledToFit()
+        case .presentDestroyed:
+            Image(status.id)
+                .resizable()
+                .scaledToFit()
+        default:
+            EmptyView()
+        }
+    }
 }
