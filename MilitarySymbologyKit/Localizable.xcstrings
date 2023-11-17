@@ -71,7 +71,7 @@
 
     },
     "Civilian" : {
-
+      "comment" : "Air Unit Entity"
     },
     "Combat" : {
 
@@ -83,7 +83,7 @@
       "comment" : "Echelon at division and above amplifier descriptor"
     },
     "Command and Control" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Company/Battery/Troop" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
@@ -116,7 +116,7 @@
       "comment" : "Amplifier"
     },
     "Emergency Operation" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Equipment mobility on land" : {
       "comment" : "Amplifier"
@@ -149,7 +149,7 @@
 
     },
     "Fires" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Friend" : {
       "comment" : "Standard identity"
@@ -170,7 +170,7 @@
 
     },
     "Intelligence" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Joint Fire Support" : {
 
@@ -188,13 +188,16 @@
       "comment" : "Dimension"
     },
     "Law Enforcement" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Liaison" : {
 
     },
     "Long Towed Array" : {
       "comment" : "Naval towed array amplifier descriptor"
+    },
+    "Manual Track" : {
+      "comment" : "Air Unit Entity"
     },
     "Meteorological" : {
 
@@ -207,6 +210,9 @@
     },
     "Meteorological - Space" : {
       "comment" : "Dimension"
+    },
+    "Military" : {
+      "comment" : "Air Unit Entity"
     },
     "Military Information Support Operations (MISO)" : {
 
@@ -221,13 +227,13 @@
 
     },
     "Movement and Maneuver" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Named Headquarters" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Naval" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Naval towed array" : {
       "comment" : "Amplifier"
@@ -239,7 +245,7 @@
       "comment" : " Fires Entity Type"
     },
     "Not Applicable" : {
-      "comment" : "Amplifier\nHeadquarters/Task force/Dummy\nNot Applicable amplifier descriptor"
+      "comment" : "Not Applicable amplifier descriptor\nAmplifier\nHeadquarters/Task force/Dummy"
     },
     "Observer" : {
 
@@ -275,7 +281,7 @@
       "comment" : "Status"
     },
     "Protection" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Radio" : {
 
@@ -309,6 +315,9 @@
     },
     "Sea Surface" : {
       "comment" : "Dimension"
+    },
+    "Search" : {
+
     },
     "Section" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
@@ -377,7 +386,7 @@
       "comment" : "Standard identity"
     },
     "Sustainment" : {
-
+      "comment" : "Land Unit Entity"
     },
     "Tactical Satellite" : {
 
@@ -403,8 +412,14 @@
     "Unmanned Aerial Systems" : {
 
     },
+    "Use alternate status amplifiers" : {
+
+    },
     "Video Imagery (Combat Camera)" : {
 
+    },
+    "Weapon" : {
+      "comment" : "Air Unit Entity"
     },
     "Wheeled and tracked combination" : {
       "comment" : "Equipment mobility on land amplifier descriptor"

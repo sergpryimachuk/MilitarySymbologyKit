@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum FiresEntityType: String, CaseIterable, EntityType {
+enum FiresEntityType: String, CaseIterable, Identifiable {
     case none = "00"
     case airDefense = "01"
     case airLandNavalGunfireLiaison = "02"
@@ -19,37 +19,36 @@ enum FiresEntityType: String, CaseIterable, EntityType {
     var id: String { rawValue }
     
     var name: String {
-        let localizationValue: String.LocalizationValue = switch self {
+        switch self {
         case .none:
-            "None"
+            return String(localized: "None", comment: "Fire Support Entity Type")
+            
         case .airDefense:
-            "Air Defense"
-
+            return String(localized: "Air Defense", comment: "Fire Support Entity Type")
+            
         case .airLandNavalGunfireLiaison:
-            "Air/Land Naval Gunfire Liaison"
-
+            return String(localized: "Air-Land-Naval Gunfire Liaison", comment: "Fire Support Entity Type")
+            
         case .fieldArtillery:
-            "Field Artillery"
-
+            return String(localized: "Field Artillery", comment: "Fire Support Entity Type")
+            
         case .fieldArtilleryObserver:
-            "Field Artillery Observer"
-
+            return String(localized: "Field Artillery Observer", comment: "Fire Support Entity Type")
+            
         case .jointFireSupport:
-            "Joint Fire Support"
-
+            return String(localized: "Joint Fire Support", comment: "Fire Support Entity Type")
+            
         case .meteorological:
-            "Meteorological"
-
+            return String(localized: "Meteorological", comment: "Fire Support Entity Type")
+            
         case .missile:
-            "Missile"
-
+            return String(localized: "Missile", comment: "Fire Support Entity Type")
+            
         case .mortar:
-            "Mortar"
-
+            return String(localized: "Mortar", comment: "Fire Support Entity Type")
+            
         case .survey:
-            "Survey"
+            return String(localized: "Survey", comment: "Fire Support Entity Type")
         }
-        
-        return String(localized: localizationValue, comment: " Fires Entity Type")
     }
 }

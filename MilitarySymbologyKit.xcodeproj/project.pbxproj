@@ -27,13 +27,17 @@
 		930218412B013502004FA3D5 /* CommandAndControlEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218402B013502004FA3D5 /* CommandAndControlEntityType.swift */; };
 		930218432B013685004FA3D5 /* MovementAndManeuverEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218422B013685004FA3D5 /* MovementAndManeuverEntityType.swift */; };
 		930218452B013835004FA3D5 /* FiresEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218442B013835004FA3D5 /* FiresEntityType.swift */; };
+		9330114F2B07B01C0053E2C2 /* ProtectionEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330114E2B07B01C0053E2C2 /* ProtectionEntityType.swift */; };
+		933011512B07B0D80053E2C2 /* IntelligenceEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933011502B07B0D80053E2C2 /* IntelligenceEntityType.swift */; };
+		933011532B07B1EC0053E2C2 /* SustainmentEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933011522B07B1EC0053E2C2 /* SustainmentEntityType.swift */; };
 		939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */; };
 		939B44A72AFE39C700A67880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A62AFE39C700A67880 /* ContentView.swift */; };
 		939B44A92AFE39C900A67880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44A82AFE39C900A67880 /* Assets.xcassets */; };
 		939B44AC2AFE39C900A67880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */; };
-		939B44BA2AFE485C00A67880 /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44B92AFE485C00A67880 /* Symbol.swift */; };
+		939B44BA2AFE485C00A67880 /* MilitarySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44B92AFE485C00A67880 /* MilitarySymbol.swift */; };
 		93DF9AA52B04C47700BD4D9C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93DF9AA42B04C47700BD4D9C /* Localizable.xcstrings */; };
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
+		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,14 +61,18 @@
 		930218402B013502004FA3D5 /* CommandAndControlEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandAndControlEntityType.swift; sourceTree = "<group>"; };
 		930218422B013685004FA3D5 /* MovementAndManeuverEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementAndManeuverEntityType.swift; sourceTree = "<group>"; };
 		930218442B013835004FA3D5 /* FiresEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiresEntityType.swift; sourceTree = "<group>"; };
+		9330114E2B07B01C0053E2C2 /* ProtectionEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectionEntityType.swift; sourceTree = "<group>"; };
+		933011502B07B0D80053E2C2 /* IntelligenceEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceEntityType.swift; sourceTree = "<group>"; };
+		933011522B07B1EC0053E2C2 /* SustainmentEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainmentEntityType.swift; sourceTree = "<group>"; };
 		939B44A12AFE39C700A67880 /* MilitarySymbologyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilitarySymbologyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbologyKitApp.swift; sourceTree = "<group>"; };
 		939B44A62AFE39C700A67880 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		939B44A82AFE39C900A67880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		939B44B92AFE485C00A67880 /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		939B44B92AFE485C00A67880 /* MilitarySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbol.swift; sourceTree = "<group>"; };
 		93DF9AA42B04C47700BD4D9C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,7 @@
 			children = (
 				93DF9AA62B04C6DA00BD4D9C /* Entity.swift */,
 				930218302B010FBA004FA3D5 /* LandUnitEntity.swift */,
+				93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */,
 				9302183F2B0134F4004FA3D5 /* EntityTypes */,
 			);
 			path = Entity;
@@ -119,6 +128,9 @@
 				930218402B013502004FA3D5 /* CommandAndControlEntityType.swift */,
 				930218422B013685004FA3D5 /* MovementAndManeuverEntityType.swift */,
 				930218442B013835004FA3D5 /* FiresEntityType.swift */,
+				9330114E2B07B01C0053E2C2 /* ProtectionEntityType.swift */,
+				933011502B07B0D80053E2C2 /* IntelligenceEntityType.swift */,
+				933011522B07B1EC0053E2C2 /* SustainmentEntityType.swift */,
 			);
 			path = EntityTypes;
 			sourceTree = "<group>";
@@ -164,7 +176,7 @@
 		939B44B22AFE39D600A67880 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				939B44B92AFE485C00A67880 /* Symbol.swift */,
+				939B44B92AFE485C00A67880 /* MilitarySymbol.swift */,
 				930218162B00FE5E004FA3D5 /* Context.swift */,
 				930218182B00FE7C004FA3D5 /* StandardIdentity.swift */,
 				9302181A2B00FEB2004FA3D5 /* Dimension.swift */,
@@ -250,14 +262,17 @@
 			files = (
 				930218192B00FE7C004FA3D5 /* StandardIdentity.swift in Sources */,
 				930218222B010058004FA3D5 /* Amplifier.swift in Sources */,
+				93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */,
 				930218272B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift in Sources */,
 				9302183B2B012EF5004FA3D5 /* NotApplicableDescriptor.swift in Sources */,
 				930218252B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift in Sources */,
 				930218452B013835004FA3D5 /* FiresEntityType.swift in Sources */,
 				930218312B010FBA004FA3D5 /* LandUnitEntity.swift in Sources */,
-				939B44BA2AFE485C00A67880 /* Symbol.swift in Sources */,
+				939B44BA2AFE485C00A67880 /* MilitarySymbol.swift in Sources */,
 				9302181D2B00FF8C004FA3D5 /* Status.swift in Sources */,
 				939B44A72AFE39C700A67880 /* ContentView.swift in Sources */,
+				9330114F2B07B01C0053E2C2 /* ProtectionEntityType.swift in Sources */,
+				933011532B07B1EC0053E2C2 /* SustainmentEntityType.swift in Sources */,
 				930218372B012DBD004FA3D5 /* TestView.swift in Sources */,
 				930218432B013685004FA3D5 /* MovementAndManeuverEntityType.swift in Sources */,
 				9302183E2B01349A004FA3D5 /* EntityType.swift in Sources */,
@@ -265,6 +280,7 @@
 				9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */,
 				930218172B00FE5E004FA3D5 /* Context.swift in Sources */,
 				939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */,
+				933011512B07B0D80053E2C2 /* IntelligenceEntityType.swift in Sources */,
 				9302181F2B00FFC2004FA3D5 /* HQTFD.swift in Sources */,
 				930218392B012EB9004FA3D5 /* Descriptor.swift in Sources */,
 				930218412B013502004FA3D5 /* CommandAndControlEntityType.swift in Sources */,

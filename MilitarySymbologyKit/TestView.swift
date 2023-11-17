@@ -6,7 +6,7 @@ import SwiftUI
 
 struct TestView: View {
     
-    @State private var symbol = Symbol()
+    @State private var symbol = MilitarySymbol()
     var body: some View {
         Picker("Descriptor", selection: $symbol.descriptor) {
             ForEach(symbol.amplifier.possibleDescriptors) { descriptor in

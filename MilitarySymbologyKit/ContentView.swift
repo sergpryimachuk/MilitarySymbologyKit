@@ -6,11 +6,19 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var symbol = Symbol()
+    @State private var symbol = MilitarySymbol()
+    @State private var searchText = ""
     
     var body: some View {
         NavigationStack {
             Form {
+                TextField("Search", text: $searchText)
+                if !searchText.isEmpty {
+                    ForEach(LandUnitEntity.allCases.filter { $0.name.localizedStandardContains(searchText)}) {
+                        Text($0.name)
+                    }
+                }
+                
                 Section {
                     HStack {
                         Spacer()
@@ -77,6 +85,14 @@ struct ContentView: View {
                                 symbol.isCivilian = false
                             }
                         }
+                    
+                    Toggle("Use alternate status amplifiers", isOn: $symbol.isAlternateStatusAmplifiers)
+//                        .disabled(symbol.standartIdentity == .suspect || symbol.standartIdentity == .hostile)
+//                        .onChange(of: symbol.standartIdentity) { _, newValue in
+//                            if symbol.standartIdentity == .suspect || symbol.standartIdentity == .hostile {
+//                                symbol.isCivilian = false
+//                            }
+//                        }
                 }
             }
         }

@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 12.11.2023.
-//  
+//
 
 import Foundation
 
@@ -28,65 +28,63 @@ enum MovementAndManeuverEntityType: String, CaseIterable, EntityType {
     var id: String { rawValue }
     
     var name: String {
-        let localizationValue: String.LocalizationValue = switch self {
+        switch self {
         case .airAssaultWithOrganicLift:
-            "Air Assault with Organic Lift"
+            String(localized: "Air Assault with Organic Lift", comment: "Movement and Maneuver Entity Type")
 
         case .airTrafficServicesAirfieldOperations:
-            "Air Traffic Services/Airfield Operations"
+            String(localized: "Air Traffic Services/Airfield Operations", comment: "Movement and Maneuver Entity Type")
 
         case .amphibious:
-            "Amphibious"
+            String(localized: "Amphibious", comment: "Movement and Maneuver Entity Type")
 
         case .antitankAntiarmor:
-            "Antitank/Antiarmor"
+            String(localized: "Antitank/Antiarmor", comment: "Movement and Maneuver Entity Type")
 
         case .armorArmoredMechanizedSelfPropelledTracked:
-            "Armor/Armored/Mechanized/Self-Propelled/Tracked"
+            String(localized: "Armor/Armored/Mechanized/Self-Propelled/Tracked", comment: "Movement and Maneuver Entity Type")
 
         case .armyAviationAviationRotaryWing:
-            "Army Aviation/Aviation Rotary Wing"
+            String(localized: "Army Aviation/Aviation Rotary Wing", comment: "Movement and Maneuver Entity Type")
 
         case .aviationComposite:
-            "Aviation Composite"
+            String(localized: "Aviation Composite", comment: "Movement and Maneuver Entity Type")
 
         case .aviationFixedWing:
-            "Aviation Fixed Wing"
+            String(localized: "Aviation Fixed Wing", comment: "Movement and Maneuver Entity Type")
 
         case .combat:
-            "Combat"
+            String(localized: "Combat", comment: "Movement and Maneuver Entity Type")
 
         case .combinedArms:
-            "Combined Arms"
+            String(localized: "Combined Arms", comment: "Movement and Maneuver Entity Type")
 
         case .infantry:
-            "Infantry"
+            String(localized: "Infantry", comment: "Movement and Maneuver Entity Type")
 
         case .observer:
-            "Observer"
+            String(localized: "Observer", comment: "Movement and Maneuver Entity Type")
 
         case .reconnaissanceCavalryScout:
-            "Reconnaissance/Cavalry/Scout"
+            String(localized: "Reconnaissance/Cavalry/Scout", comment: "Movement and Maneuver Entity Type")
 
         case .seaAirLandSEAL:
-            "Sea Air Land (SEAL)"
+            String(localized: "Sea Air Land (SEAL)", comment: "Movement and Maneuver Entity Type")
 
         case .sniper:
-            "Sniper"
+            String(localized: "Sniper", comment: "Movement and Maneuver Entity Type")
 
         case .surveillance:
-            "Surveillance"
+            String(localized: "Surveillance", comment: "Movement and Maneuver Entity Type")
 
         case .specialForces:
-            "Special Forces"
+            String(localized: "Special Forces", comment: "Movement and Maneuver Entity Type")
 
         case .specialOperationsForcesSOF:
-            "Special Operations Forces (SOF)"
+            String(localized: "Special Operations Forces (SOF)", comment: "Movement and Maneuver Entity Type")
 
         case .unmannedAerialSystems:
-            "Unmanned Aerial Systems"
+            String(localized: "Unmanned Aerial Systems", comment: "Movement and Maneuver Entity Type")
         }
-        
-        return String(localized: localizationValue, comment: "Movement and Maneuver Entity Type")
     }
 }

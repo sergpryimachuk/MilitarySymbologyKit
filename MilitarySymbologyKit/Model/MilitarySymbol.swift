@@ -5,7 +5,7 @@
 import Foundation
 import SwiftUI
 
-struct Symbol {
+struct MilitarySymbol {
     private let version: String = "01"
     var context: Context = .reality
     var standartIdentity: StandardIdentity = .unknown
@@ -16,6 +16,7 @@ struct Symbol {
     var descriptor: AnyDescriptor = AnyDescriptor(NotApplicableDescriptor.notApplicable)
     
     var isCivilian: Bool = false
+    var  isAlternateStatusAmplifiers: Bool = false
     
     func makeSIDC() -> String {
         version + context.id + standartIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + "0000000000"
@@ -56,17 +57,23 @@ struct Symbol {
     
     @ViewBuilder
     func makeOCA() -> some View {
-        switch status {
-        case .presentDamaged:
-            Image(status.id)
+        if isAlternateStatusAmplifiers {
+            Image(context.id + standartIdentity.assetGigit + dimention.assetDigit + status.id + "2")
                 .resizable()
                 .scaledToFit()
-        case .presentDestroyed:
-            Image(status.id)
-                .resizable()
-                .scaledToFit()
-        default:
-            EmptyView()
+        } else {
+            switch status {
+            case .presentDamaged:
+                Image(status.id)
+                    .resizable()
+                    .scaledToFit()
+            case .presentDestroyed:
+                Image(status.id)
+                    .resizable()
+                    .scaledToFit()
+            default:
+                EmptyView()
+            }
         }
     }
 }
