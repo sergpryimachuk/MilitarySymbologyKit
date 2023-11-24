@@ -12,6 +12,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             Form {
+                
+                SearchView(searchText: $searchText, selectedSymbol: $symbol)
+                
                 Section {
                     HStack {
                         Spacer()
@@ -65,6 +68,12 @@ struct ContentView: View {
                         }
                     }
                     
+                    Picker("Entity", selection: $symbol.entity) {
+                        ForEach(symbol.dimention.entities) { entity in
+                            Text(entity.id + " " + entity.name).tag(entity)
+                        }
+                    }
+                    
                     Toggle("Civilian", isOn: $symbol.isCivilian)
                         .disabled(symbol.standartIdentity == .suspect || symbol.standartIdentity == .hostile)
                         .onChange(of: symbol.standartIdentity) { _, newValue in
@@ -82,6 +91,7 @@ struct ContentView: View {
 //                        }
                 }
             }
+            .searchable(text: $searchText, isPresented: .constant(true))
         }
     }
 }

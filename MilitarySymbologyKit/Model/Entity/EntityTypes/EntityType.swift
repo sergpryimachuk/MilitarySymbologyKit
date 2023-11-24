@@ -12,9 +12,16 @@ protocol EntityType: Identifiable {
 struct AnyEntityType: EntityType, Hashable, Identifiable {
     var id: String
     var name: String
-    
+}
+
+extension AnyEntityType {
     init<T: EntityType>(_ entityType: T) {
         self.id = entityType.id
         self.name = entityType.name
     }
+}
+
+extension AnyEntityType {
+    static let empty: AnyEntityType = AnyEntityType(id: "00", 
+                                                    name: String(localized: "None"))
 }

@@ -11,9 +11,10 @@ struct MilitarySymbol: Identifiable {
     var standartIdentity: StandardIdentity = .unknown
     var dimention: Dimension = .air
     var status: Status = .present
-    var hqtfd: HQTFD = .taskForceHeadquarters
+    var hqtfd: HQTFD = .notApplicable
     var amplifier: Amplifier = .notApplicable
     var descriptor: AnyDescriptor = AnyDescriptor(NotApplicableDescriptor.notApplicable)
+    var entity: AnyEntity = AnyEntity(AirUnitEntity.military)
     
     var isCivilian: Bool = false
     var isAlternateStatusAmplifiers: Bool = false
@@ -30,6 +31,26 @@ extension MilitarySymbol {
                 true
             } else {
                 symbol.dimention.name.localizedStandardContains(text)
+            }
+        }
+    }
+    
+    static func searched(text: String, standartIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
+        var result: [MilitarySymbol] = []
+        Dimension.allCases.forEach { dimention in
+            dimention.entities.forEach { entity in
+                result.append(
+                    MilitarySymbol(standartIdentity: standartIdentity, 
+                                   dimention: dimention,
+                                   entity: entity)
+                )
+            }
+        }
+        return result.filter { symbol in
+            if text.isEmpty {
+                false
+            } else {
+                symbol.entity.name.localizedStandardContains(text)
             }
         }
     }

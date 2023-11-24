@@ -117,7 +117,7 @@ enum Dimension: String, CaseIterable, Identifiable {
         }
     }
     
-    var possibleEntities: [AnyEntity] {
+    var entities: [AnyEntity] {
         switch self {
         case .air:
             AirUnitEntity.allCases.map { AnyEntity($0) }
@@ -142,7 +142,7 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .seaSubsurface:
             []
         case .mineWarfare:
-            []
+            MineWarfareEntity.allCases.map { AnyEntity($0) }
         case .activities:
             []
         case .meteorologicalAtmospheric:
@@ -151,18 +151,10 @@ enum Dimension: String, CaseIterable, Identifiable {
             []
         case .meteorologicalSpace:
             []
-        case .signalsIntelligenceSpace:
-            []
-        case .signalsIntelligenceAir:
-            []
-        case .signalsIntelligenceLand:
-            []
-        case .signalsIntelligenceSurface:
-            []
-        case .signalsIntelligenceSubsurface:
-            []
+        case .signalsIntelligenceSpace, .signalsIntelligenceAir, .signalsIntelligenceLand, .signalsIntelligenceSurface, .signalsIntelligenceSubsurface:
+            SignalsIntelligenceEntity.allCases.map { AnyEntity($0) }
         case .cyberspace:
-            []
+            CyberspaceEntity.allCases.map { AnyEntity($0) }
         }
     }
 }

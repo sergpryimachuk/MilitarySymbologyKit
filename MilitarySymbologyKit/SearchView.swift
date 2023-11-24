@@ -12,17 +12,15 @@ struct SearchView: View {
     //    @State private var selectedIdentity: StandardIdentity = .unknown
     
     var body: some View {
-        ForEach(MilitarySymbol.search(text: searchText)) { symbol in
+        ForEach(MilitarySymbol.searched(text: searchText, standartIdentity: selectedSymbol.standartIdentity)) { symbol in
             Button {
                 selectedSymbol = symbol
+                searchText = ""
             } label: {
                 LabeledContent {
-                    Text(symbol.dimention.name)
+                    Text("\(symbol.dimention.name) - \(symbol.entity.name)")
                 } label: {
-                    symbol.makeFrame()
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 60, height: 60)
+                    symbol.makeView(frameWidth: 50)
                 }
             }
         }
