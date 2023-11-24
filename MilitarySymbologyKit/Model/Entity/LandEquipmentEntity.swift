@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum LandEquipmentEntity: String, CaseIterable, Identifiable {
+enum LandEquipmentEntity: String, CaseIterable, Entity {
     case weaponWeaponSystem = "11"
     case vehicle = "12"
     case engineerVehiclesAndEquipment = "13"
