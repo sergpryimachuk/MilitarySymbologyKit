@@ -395,7 +395,7 @@
       "comment" : "Fire Support Entity Type\nCommand and Control Entity Type"
     },
     "Not Applicable" : {
-      "comment" : "Headquarters/Task force/Dummy\nNot Applicable amplifier descriptor\nAmplifier"
+      "comment" : "Not Applicable amplifier descriptor\nAmplifier\nHeadquarters/Task force/Dummy"
     },
     "Observer" : {
       "comment" : "Movement and Maneuver Entity Type"
@@ -567,9 +567,6 @@
     },
     "Squad" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
-    },
-    "Standard identity" : {
-
     },
     "Standard Identity" : {
 

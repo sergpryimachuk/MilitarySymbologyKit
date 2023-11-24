@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0533959F2B10DC3B0097F767 /* NamedHeadquartersEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533959E2B10DC3B0097F767 /* NamedHeadquartersEntityType.swift */; };
+		053395A12B10DCF10097F767 /* LawEnforcementEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053395A02B10DCF10097F767 /* LawEnforcementEntityType.swift */; };
 		930218172B00FE5E004FA3D5 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218162B00FE5E004FA3D5 /* Context.swift */; };
 		930218192B00FE7C004FA3D5 /* StandardIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930218182B00FE7C004FA3D5 /* StandardIdentity.swift */; };
 		9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9302181A2B00FEB2004FA3D5 /* Dimension.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0533959E2B10DC3B0097F767 /* NamedHeadquartersEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedHeadquartersEntityType.swift; sourceTree = "<group>"; };
+		053395A02B10DCF10097F767 /* LawEnforcementEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawEnforcementEntityType.swift; sourceTree = "<group>"; };
 		930218162B00FE5E004FA3D5 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		930218182B00FE7C004FA3D5 /* StandardIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardIdentity.swift; sourceTree = "<group>"; };
 		9302181A2B00FEB2004FA3D5 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				9330114E2B07B01C0053E2C2 /* ProtectionEntityType.swift */,
 				933011502B07B0D80053E2C2 /* IntelligenceEntityType.swift */,
 				933011522B07B1EC0053E2C2 /* SustainmentEntityType.swift */,
+				0533959E2B10DC3B0097F767 /* NamedHeadquartersEntityType.swift */,
+				053395A02B10DCF10097F767 /* LawEnforcementEntityType.swift */,
 			);
 			path = EntityTypes;
 			sourceTree = "<group>";
@@ -280,12 +286,14 @@
 				930218372B012DBD004FA3D5 /* TestView.swift in Sources */,
 				930218432B013685004FA3D5 /* MovementAndManeuverEntityType.swift in Sources */,
 				9302183E2B01349A004FA3D5 /* EntityType.swift in Sources */,
+				0533959F2B10DC3B0097F767 /* NamedHeadquartersEntityType.swift in Sources */,
 				930218292B010174004FA3D5 /* EquipmentMobilityLandDescriptor.swift in Sources */,
 				9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */,
 				930218172B00FE5E004FA3D5 /* Context.swift in Sources */,
 				939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */,
 				933011512B07B0D80053E2C2 /* IntelligenceEntityType.swift in Sources */,
 				9302181F2B00FFC2004FA3D5 /* HQTFD.swift in Sources */,
+				053395A12B10DCF10097F767 /* LawEnforcementEntityType.swift in Sources */,
 				930218392B012EB9004FA3D5 /* Descriptor.swift in Sources */,
 				930218412B013502004FA3D5 /* CommandAndControlEntityType.swift in Sources */,
 				93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */,
@@ -425,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MilitarySymbologyKit/Preview Content\"";
-				DEVELOPMENT_TEAM = 4D7954KMWH;
+				DEVELOPMENT_TEAM = U6LJ73DDJU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -454,7 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MilitarySymbologyKit/Preview Content\"";
-				DEVELOPMENT_TEAM = 4D7954KMWH;
+				DEVELOPMENT_TEAM = U6LJ73DDJU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
