@@ -134,9 +134,9 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .landEquipment:
             LandEquipmentEntity.allCases.map { AnyEntity($0) }
         case .landInstallation:
-            []
+            LandInstallationEntity.allCases.map { AnyEntity($0) }
         case .controlMeasure:
-            []
+            ControlMeasureEntity.allCases.map { AnyEntity($0) }
         case .seaSurface:
             []
         case .seaSubsurface:
