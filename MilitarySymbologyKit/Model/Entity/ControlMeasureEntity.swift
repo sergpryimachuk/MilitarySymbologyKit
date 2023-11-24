@@ -110,4 +110,57 @@ enum ControlMeasureEntity: String, CaseIterable, Entity {
             return String(localized: "Mission Tasks", comment: "Control Measure Entity")
         }
     }
+    
+    var types: [AnyEntityType] {
+        switch self {
+        case .commandAndControlLines:
+            []
+        case .commandAndControlAreas:
+            []
+        case .commandAndControlPoints:
+            []
+        case .maneuverLines:
+            []
+        case .maneuverAreas:
+            []
+        case .maneuverPoints:
+            []
+        case .airspaceControlCorridorsAreas:
+            []
+        case .airspaceControlPoints:
+            []
+        case .airspaceControlLines:
+            []
+        case .maritimeControlAreas:
+            []
+        case .maritimeControlPoints:
+            []
+        case .maritimeControlLines:
+            []
+        case .deception:
+            []
+        case .firesAreas:
+            []
+        case .firesPoints:
+            []
+        case .fireLines:
+            []
+        case .protectionAreas:
+            []
+        case .protectionPoints:
+            []
+        case .protectionLines:
+            []
+        case .intelligenceLines:
+            []
+        case .sustainmentAreas:
+            []
+        case .sustainmentPoints:
+            []
+        case .sustainmentLines:
+            []
+        case .missionTasks:
+            []
+        }
+    }
 }
