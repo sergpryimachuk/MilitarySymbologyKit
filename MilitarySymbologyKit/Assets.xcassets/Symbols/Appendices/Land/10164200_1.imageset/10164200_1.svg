@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Version_1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+
+<g id="main">
+	<line fill="none" stroke="#000000" stroke-width="5" x1="126" y1="445.295" x2="486" y2="445.295"/>
+	<g>
+		<ellipse fill="none" stroke="#000000" stroke-width="5" cx="307" cy="364.778" rx="12.808" ry="12.808"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="284.586" y1="390.394" x2="329.414" y2="390.394"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="307" y1="377.585" x2="307" y2="422.412"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="307" y1="419.211" x2="287.788" y2="438.424"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="307" y1="419.211" x2="326.213" y2="438.424"/>
+	</g>
+</g>
+<rect id="greyBox" x="126.5" y="276" display="none" fill="none" stroke="#C8C8C8" stroke-width="10" width="359" height="240"/>
+</svg>

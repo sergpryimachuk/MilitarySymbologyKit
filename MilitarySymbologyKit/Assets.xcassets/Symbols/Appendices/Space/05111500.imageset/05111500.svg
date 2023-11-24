@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Version_1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+
+<g id="main">
+	<g id="Satellite">
+		<rect x="205.674" y="348.992" width="73.745" height="44.014"/>
+		<rect x="287.997" y="348.992" width="33.845" height="44.014"/>
+		<rect x="330.42" y="348.992" width="73.747" height="44.014"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="278.515" y1="371" x2="332.213" y2="371"/>
+	</g>
+	<g id="Recon">
+		<line fill="none" stroke="#000000" stroke-width="5" x1="290.5" y1="391.167" x2="278.419" y2="441.833"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="319.507" y1="391.167" x2="331.085" y2="441.833"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="300.5" y1="391.167" x2="295.833" y2="441.833"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="311.167" y1="391.167" x2="316.834" y2="441.833"/>
+	</g>
+</g>
+</svg>

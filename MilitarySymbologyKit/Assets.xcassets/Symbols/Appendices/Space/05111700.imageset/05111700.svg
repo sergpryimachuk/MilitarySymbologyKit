@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Version_1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+
+<g id="main">
+	<g id="Satellite">
+		<rect x="205.674" y="398.992" width="73.745" height="44.014"/>
+		<rect x="287.997" y="398.992" width="33.845" height="44.014"/>
+		<rect x="330.42" y="398.992" width="73.747" height="44.014"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="278.515" y1="421" x2="332.213" y2="421"/>
+	</g>
+	<g id="tethered">
+		<circle stroke="#000000" stroke-width="5" cx="367.293" cy="367.5" r="17.019"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="305.083" y1="403.167" x2="357.167" y2="373.833"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Version_1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+
+<g id="main">
+	<g id="Bio">
+		<circle stroke="#000000" stroke-width="5" cx="285.964" cy="370.881" r="19.13"/>
+		
+			<rect x="286.228" y="365.871" transform="matrix(-0.869 -0.4948 0.4948 -0.869 401.9549 849.9518)" stroke="#000000" stroke-width="5" width="54.518" height="11.795"/>
+	</g>
+	<g id="Satellite">
+		<rect x="204.216" y="395.136" width="75.362" height="44.979"/>
+		<rect x="288.345" y="395.135" width="34.588" height="44.98"/>
+		<rect x="331.699" y="395.135" width="75.365" height="44.98"/>
+		<line fill="none" stroke="#000000" stroke-width="5" x1="278.656" y1="417.625" x2="333.532" y2="417.625"/>
+	</g>
+</g>
+</svg>
