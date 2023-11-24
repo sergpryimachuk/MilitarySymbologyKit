@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ProtectionPointsEntityType: String, CaseIterable, Identifiable {
+enum ProtectionPointsEntityType: String, CaseIterable, EntityType {
     case abatis = "01"
     case antipersonnelMine = "02"
     case antitankMine = "03"

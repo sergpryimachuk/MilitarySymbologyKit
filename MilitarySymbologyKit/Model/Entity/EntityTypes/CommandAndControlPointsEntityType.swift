@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum CommandAndControlPointsEntityType: String, CaseIterable, Identifiable {
+enum CommandAndControlPointsEntityType: String, CaseIterable, EntityType {
     case actionPointGeneral = "01"
     case amnestyPoint = "02"
     case checkpoint = "03"

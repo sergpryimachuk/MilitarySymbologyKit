@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum AirspaceControlPointsEntityType: String, CaseIterable, Identifiable {
+enum AirspaceControlPointsEntityType: String, CaseIterable, EntityType {
     case airControlPoint = "01"
     case communicationsCheckpoint = "02"
     case downedAircraftPickupPoint = "03"

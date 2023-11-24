@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum FiresPointsEntityType: String, CaseIterable, Identifiable {
+enum FiresPointsEntityType: String, CaseIterable, EntityType {
     case firingPoint = "01"
     case hidePoint = "02"
     case launchPoint = "03"

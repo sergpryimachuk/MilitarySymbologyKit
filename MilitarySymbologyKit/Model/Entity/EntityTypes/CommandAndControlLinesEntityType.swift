@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum CommandAndControlLinesEntityType: String, CaseIterable, Identifiable {
+enum CommandAndControlLinesEntityType: String, CaseIterable, EntityType {
     case boundary = "01"
     case lightLine = "02"
     

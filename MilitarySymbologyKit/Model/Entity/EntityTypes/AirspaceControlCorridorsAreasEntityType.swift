@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum AirspaceControlCorridorsAreasEntityType: String, CaseIterable, Identifiable {
+enum AirspaceControlCorridorsAreasEntityType: String, CaseIterable, EntityType {
     case airCorridor = "01"
     case lowLevelTransitRoute = "02"
     case minimumRiskRoute = "03"

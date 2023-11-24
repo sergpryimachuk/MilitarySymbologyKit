@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum IntelligenceLinesEntityType: String, CaseIterable, Identifiable {
+enum IntelligenceLinesEntityType: String, CaseIterable, EntityType {
     case intelligenceCoordinationLine = "01"
     
     var id: String { rawValue }

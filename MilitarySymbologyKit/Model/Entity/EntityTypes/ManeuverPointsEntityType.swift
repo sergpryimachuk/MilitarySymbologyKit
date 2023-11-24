@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ManeuverPointsEntityType: String, CaseIterable, Identifiable {
+enum ManeuverPointsEntityType: String, CaseIterable, EntityType {
     case observationPostOutpostUnspecified = "01"
     case observationPostOutpostSpecified = "02"
     case targetReferencePoint = "03"

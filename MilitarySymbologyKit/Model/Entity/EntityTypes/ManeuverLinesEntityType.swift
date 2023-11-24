@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ManeuverLinesEntityType: String, CaseIterable, Identifiable {
+enum ManeuverLinesEntityType: String, CaseIterable, EntityType {
     case forwardLineOfTroops = "01"
     case lineOfContact = "02"
     case phaseLine = "03"

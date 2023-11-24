@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum CommandAndControlAreasEntityType: String, CaseIterable, Identifiable {
+enum CommandAndControlAreasEntityType: String, CaseIterable, EntityType {
     case areaOfOperations = "01"
     case namedAreaOfInterest = "02"
     case targetedAreaOfInterest = "03"
