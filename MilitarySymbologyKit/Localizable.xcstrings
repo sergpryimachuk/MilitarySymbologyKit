@@ -51,7 +51,7 @@
       "comment" : "Sustainment Entity Type"
     },
     "Amphibious" : {
-      "comment" : "Equipment mobility on water amplifier descriptor\nMovement and Maneuver Entity Type"
+      "comment" : "Movement and Maneuver Entity Type\nEquipment mobility on water amplifier descriptor"
     },
     "Amplifier" : {
 
@@ -477,7 +477,7 @@
       "comment" : "Turbulence Entity Type"
     },
     "Limits" : {
-      "comment" : "Oceanographic Entity Type\nIce Systems Entity Type"
+      "comment" : "Ice Systems Entity Type\nOceanographic Entity Type"
     },
     "Lines" : {
       "comment" : "Pressure Systems Entity Type"
@@ -529,6 +529,18 @@
     },
     "Meteorological - Space" : {
       "comment" : "Dimension"
+    },
+    "MILCO - Bottom" : {
+      "comment" : "Mine-Like Contact Entity Type"
+    },
+    "MILCO - Floating" : {
+      "comment" : "Mine-Like Contact Entity Type"
+    },
+    "MILCO - General" : {
+      "comment" : "Mine-Like Contact Entity Type"
+    },
+    "MILCO - Moored" : {
+      "comment" : "Mine-Like Contact Entity Type"
     },
     "Military" : {
       "comment" : "Air Unit Entity"
@@ -639,13 +651,13 @@
       "comment" : "Mine Warfare Entity"
     },
     "None" : {
-      "comment" : "Command and Control Entity Type\nFire Support Entity Type"
+      "comment" : "Sea Mine Decoy Entity Type\nCommand and Control Entity Type\nMine-Like Contact Entity Type\nFire Support Entity Type"
     },
     "Normal" : {
       "comment" : "Health and Status Entity Type"
     },
     "Not Applicable" : {
-      "comment" : "Headquarters/Task force/Dummy\nNot Applicable amplifier descriptor\nAmplifier"
+      "comment" : "Amplifier\nHeadquarters/Task force/Dummy\nNot Applicable amplifier descriptor"
     },
     "Observer" : {
       "comment" : "Movement and Maneuver Entity Type"
@@ -796,6 +808,12 @@
     },
     "Sea Mine Decoy" : {
       "comment" : "Mine Warfare Entity"
+    },
+    "Sea Mine Decoy-Bottom" : {
+      "comment" : "Sea Mine Decoy Entity Type"
+    },
+    "Sea Mine Decoy-Moored" : {
+      "comment" : "Sea Mine Decoy Entity Type"
     },
     "Sea Mine-Bottom" : {
       "comment" : "Sea Mine General Entity Type"
@@ -990,7 +1008,7 @@
       "comment" : "Mine Warfare Entity"
     },
     "Unknown" : {
-      "comment" : "Health and Status Entity Type\nStandard identity"
+      "comment" : "Standard identity\nHealth and Status Entity Type"
     },
     "Unmanned Aerial Systems" : {
       "comment" : "Movement and Maneuver Entity Type"

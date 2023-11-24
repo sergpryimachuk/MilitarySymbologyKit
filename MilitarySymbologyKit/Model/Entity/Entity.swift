@@ -12,14 +12,15 @@ protocol Entity: Identifiable {
 struct AnyEntity: Entity, Hashable, Identifiable {
     var id: String
     var name: String
-    
+}
+
+extension AnyEntity {
     init<T: Entity>(_ descriptor: T) {
         self.id = descriptor.id
         self.name = descriptor.name
     }
-    
-    init(id: String, name: String) {
-        self.id = id
-        self.name = name
-    }
+}
+
+extension AnyEntity {
+    static let empty: AnyEntity = .init(id: "00", name: String(localized: "None"))
 }
