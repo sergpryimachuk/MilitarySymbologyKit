@@ -52,7 +52,7 @@ enum LandUnitEntity: String, CaseIterable, Identifiable, Entity {
         }
     }
     
-    var possibleTypes: [AnyEntityType] {
+    var types: [AnyEntityType] {
         switch self {
         case .commandAndControl:
             CommandAndControlEntityType.allCases.map { AnyEntityType($0) }
