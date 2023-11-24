@@ -31,6 +31,13 @@
 		933011512B07B0D80053E2C2 /* IntelligenceEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933011502B07B0D80053E2C2 /* IntelligenceEntityType.swift */; };
 		933011532B07B1EC0053E2C2 /* SustainmentEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933011522B07B1EC0053E2C2 /* SustainmentEntityType.swift */; };
 		934495D12B10CA9000AD1B73 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934495D02B10CA9000AD1B73 /* SearchView.swift */; };
+		934495D42B10E07800AD1B73 /* CyberspaceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934495D32B10E07800AD1B73 /* CyberspaceEntity.swift */; };
+		934495D72B10E0E900AD1B73 /* BotnetEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934495D62B10E0E900AD1B73 /* BotnetEntityType.swift */; };
+		934495D92B10E17500AD1B73 /* InfectionEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934495D82B10E17500AD1B73 /* InfectionEntityType.swift */; };
+		934495DB2B10E1D000AD1B73 /* HealthAndStatusEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934495DA2B10E1D000AD1B73 /* HealthAndStatusEntityType.swift */; };
+		934495DD2B10E2EF00AD1B73 /* DeviceTypeEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934495DC2B10E2EF00AD1B73 /* DeviceTypeEntityType.swift */; };
+		934495DF2B10E39800AD1B73 /* DeviceDomainEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934495DE2B10E39800AD1B73 /* DeviceDomainEntityType.swift */; };
+		934495E12B10E3D700AD1B73 /* EffectEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934495E02B10E3D700AD1B73 /* EffectEntityType.swift */; };
 		939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */; };
 		939B44A72AFE39C700A67880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A62AFE39C700A67880 /* ContentView.swift */; };
 		939B44A92AFE39C900A67880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44A82AFE39C900A67880 /* Assets.xcassets */; };
@@ -66,6 +73,13 @@
 		933011502B07B0D80053E2C2 /* IntelligenceEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceEntityType.swift; sourceTree = "<group>"; };
 		933011522B07B1EC0053E2C2 /* SustainmentEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainmentEntityType.swift; sourceTree = "<group>"; };
 		934495D02B10CA9000AD1B73 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		934495D32B10E07800AD1B73 /* CyberspaceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberspaceEntity.swift; sourceTree = "<group>"; };
+		934495D62B10E0E900AD1B73 /* BotnetEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotnetEntityType.swift; sourceTree = "<group>"; };
+		934495D82B10E17500AD1B73 /* InfectionEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectionEntityType.swift; sourceTree = "<group>"; };
+		934495DA2B10E1D000AD1B73 /* HealthAndStatusEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAndStatusEntityType.swift; sourceTree = "<group>"; };
+		934495DC2B10E2EF00AD1B73 /* DeviceTypeEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTypeEntityType.swift; sourceTree = "<group>"; };
+		934495DE2B10E39800AD1B73 /* DeviceDomainEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDomainEntityType.swift; sourceTree = "<group>"; };
+		934495E02B10E3D700AD1B73 /* EffectEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectEntityType.swift; sourceTree = "<group>"; };
 		939B44A12AFE39C700A67880 /* MilitarySymbologyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilitarySymbologyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbologyKitApp.swift; sourceTree = "<group>"; };
 		939B44A62AFE39C700A67880 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +129,7 @@
 		9302183C2B013461004FA3D5 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				934495D22B10E03200AD1B73 /* Cyberspace */,
 				93DF9AA62B04C6DA00BD4D9C /* Entity.swift */,
 				930218302B010FBA004FA3D5 /* LandUnitEntity.swift */,
 				93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */,
@@ -135,6 +150,28 @@
 				933011522B07B1EC0053E2C2 /* SustainmentEntityType.swift */,
 			);
 			path = EntityTypes;
+			sourceTree = "<group>";
+		};
+		934495D22B10E03200AD1B73 /* Cyberspace */ = {
+			isa = PBXGroup;
+			children = (
+				934495D32B10E07800AD1B73 /* CyberspaceEntity.swift */,
+				934495D52B10E0CB00AD1B73 /* Types */,
+			);
+			path = Cyberspace;
+			sourceTree = "<group>";
+		};
+		934495D52B10E0CB00AD1B73 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				934495D62B10E0E900AD1B73 /* BotnetEntityType.swift */,
+				934495D82B10E17500AD1B73 /* InfectionEntityType.swift */,
+				934495DA2B10E1D000AD1B73 /* HealthAndStatusEntityType.swift */,
+				934495DC2B10E2EF00AD1B73 /* DeviceTypeEntityType.swift */,
+				934495DE2B10E39800AD1B73 /* DeviceDomainEntityType.swift */,
+				934495E02B10E3D700AD1B73 /* EffectEntityType.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 		939B44982AFE39C700A67880 = {
@@ -268,6 +305,8 @@
 				93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */,
 				934495D12B10CA9000AD1B73 /* SearchView.swift in Sources */,
 				930218272B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift in Sources */,
+				934495E12B10E3D700AD1B73 /* EffectEntityType.swift in Sources */,
+				934495D42B10E07800AD1B73 /* CyberspaceEntity.swift in Sources */,
 				9302183B2B012EF5004FA3D5 /* NotApplicableDescriptor.swift in Sources */,
 				930218252B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift in Sources */,
 				930218452B013835004FA3D5 /* FiresEntityType.swift in Sources */,
@@ -276,18 +315,23 @@
 				9302181D2B00FF8C004FA3D5 /* Status.swift in Sources */,
 				939B44A72AFE39C700A67880 /* ContentView.swift in Sources */,
 				9330114F2B07B01C0053E2C2 /* ProtectionEntityType.swift in Sources */,
+				934495DD2B10E2EF00AD1B73 /* DeviceTypeEntityType.swift in Sources */,
 				933011532B07B1EC0053E2C2 /* SustainmentEntityType.swift in Sources */,
 				930218372B012DBD004FA3D5 /* TestView.swift in Sources */,
 				930218432B013685004FA3D5 /* MovementAndManeuverEntityType.swift in Sources */,
+				934495DB2B10E1D000AD1B73 /* HealthAndStatusEntityType.swift in Sources */,
 				9302183E2B01349A004FA3D5 /* EntityType.swift in Sources */,
+				934495D92B10E17500AD1B73 /* InfectionEntityType.swift in Sources */,
 				930218292B010174004FA3D5 /* EquipmentMobilityLandDescriptor.swift in Sources */,
 				9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */,
 				930218172B00FE5E004FA3D5 /* Context.swift in Sources */,
 				939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */,
+				934495D72B10E0E900AD1B73 /* BotnetEntityType.swift in Sources */,
 				933011512B07B0D80053E2C2 /* IntelligenceEntityType.swift in Sources */,
 				9302181F2B00FFC2004FA3D5 /* HQTFD.swift in Sources */,
 				930218392B012EB9004FA3D5 /* Descriptor.swift in Sources */,
 				930218412B013502004FA3D5 /* CommandAndControlEntityType.swift in Sources */,
+				934495DF2B10E39800AD1B73 /* DeviceDomainEntityType.swift in Sources */,
 				93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */,
 				9302182F2B0101C8004FA3D5 /* NavalTowedArrayDescriptor.swift in Sources */,
 				9302182D2B0101BD004FA3D5 /* EquipmentMobilityWaterDescriptor.swift in Sources */,

@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum CyberspaceEntityType: String, CaseIterable, Identifiable, EntityType {
+enum CyberspaceEntity: String, CaseIterable, Identifiable, Entity {
     case botnet = "11"
     case infection = "12"
     case healthAndStatus = "13"
@@ -33,6 +33,23 @@ enum CyberspaceEntityType: String, CaseIterable, Identifiable, EntityType {
             
         case .effect:
             return String(localized: "Effect", comment: "Cyberspace Entity Type")
+        }
+    }
+    
+    var types: [AnyEntityType] {
+        switch self {
+        case .botnet:
+            BotnetEntityType.allCases.map { AnyEntityType($0) }
+        case .infection:
+            InfectionEntityType.allCases.map { AnyEntityType($0) }
+        case .healthAndStatus:
+            HealthAndStatusEntityType.allCases.map { AnyEntityType($0) }
+        case .deviceType:
+            DeviceTypeEntityType.allCases.map { AnyEntityType($0) }
+        case .deviceDomain:
+            DeviceDomainEntityType.allCases.map { AnyEntityType($0) }
+        case .effect:
+            EffectEntityType.allCases.map { AnyEntityType($0) }
         }
     }
 }
