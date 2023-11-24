@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum EchelonBrigadeBelowDescriptor: String, CaseIterable, Identifiable, Descriptor {
+enum EchelonBrigadeBelowDescriptor: String, CaseIterable, Descriptor {
     case teamCrew = "1"
     case squad = "2"
     case section = "3"

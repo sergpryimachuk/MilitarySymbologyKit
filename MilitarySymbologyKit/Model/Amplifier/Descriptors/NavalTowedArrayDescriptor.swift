@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum NavalTowedArrayDescriptor: String, CaseIterable, Identifiable, Descriptor {
+enum NavalTowedArrayDescriptor: String, CaseIterable, Descriptor {
     case shortTowedArray = "1"
     case longTowedArray = "2"
     

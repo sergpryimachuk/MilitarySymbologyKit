@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum EquipmentMobilityWaterDescriptor: String, CaseIterable, Identifiable, Descriptor {
+enum EquipmentMobilityWaterDescriptor: String, CaseIterable, Descriptor {
     case barge = "1"
     case amphibious = "2"
     

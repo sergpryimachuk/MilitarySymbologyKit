@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum NotApplicableDescriptor: String, CaseIterable, Identifiable, Descriptor {
+enum NotApplicableDescriptor: String, CaseIterable, Descriptor {
     case notApplicable = "0"
     
     var id: String { rawValue }

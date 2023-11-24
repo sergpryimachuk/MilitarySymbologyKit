@@ -4,7 +4,7 @@
 
 import Foundation
 
-protocol Descriptor {
+protocol Descriptor: Identifiable {
     var id: String { get }
     var name: String { get }
 }

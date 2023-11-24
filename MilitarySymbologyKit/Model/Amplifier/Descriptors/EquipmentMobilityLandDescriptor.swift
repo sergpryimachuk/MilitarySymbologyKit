@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum EquipmentMobilityLandDescriptor: String, CaseIterable, Identifiable, Descriptor {
+enum EquipmentMobilityLandDescriptor: String, CaseIterable, Descriptor {
     case wheeledLimitedCrossCountry = "1"
     case wheeledCrossCountry = "2"
     case tracked = "3"
