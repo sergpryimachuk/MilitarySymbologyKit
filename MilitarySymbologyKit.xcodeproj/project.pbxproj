@@ -62,7 +62,6 @@
 		939B44A92AFE39C900A67880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44A82AFE39C900A67880 /* Assets.xcassets */; };
 		939B44AC2AFE39C900A67880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */; };
 		939B44BA2AFE485C00A67880 /* MilitarySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44B92AFE485C00A67880 /* MilitarySymbol.swift */; };
-		93DF9AA52B04C47700BD4D9C /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93DF9AA42B04C47700BD4D9C /* Localizable.xcstrings */; };
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
 		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
 /* End PBXBuildFile section */
@@ -124,7 +123,6 @@
 		939B44A82AFE39C900A67880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		939B44B92AFE485C00A67880 /* MilitarySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbol.swift; sourceTree = "<group>"; };
-		93DF9AA42B04C47700BD4D9C /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -321,7 +319,6 @@
 				939B44B22AFE39D600A67880 /* Model */,
 				939B44A82AFE39C900A67880 /* Assets.xcassets */,
 				939B44AA2AFE39C900A67880 /* Preview Content */,
-				93DF9AA42B04C47700BD4D9C /* Localizable.xcstrings */,
 			);
 			path = MilitarySymbologyKit;
 			sourceTree = "<group>";
@@ -410,7 +407,6 @@
 			files = (
 				939B44AC2AFE39C900A67880 /* Preview Assets.xcassets in Resources */,
 				939B44A92AFE39C900A67880 /* Assets.xcassets in Resources */,
-				93DF9AA52B04C47700BD4D9C /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
