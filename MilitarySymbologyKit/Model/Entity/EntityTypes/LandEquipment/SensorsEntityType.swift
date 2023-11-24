@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum SensorsEntityType: String, CaseIterable, Identifiable {
+enum SensorsEntityType: String, CaseIterable, EntityType {
     case sensor = "01"
     case sensorEmplaced = "02"
     case radar = "03"

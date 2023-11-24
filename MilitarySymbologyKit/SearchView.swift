@@ -18,7 +18,7 @@ struct SearchView: View {
                 searchText = ""
             } label: {
                 LabeledContent {
-                    Text("\(symbol.dimention.name) - \(symbol.entity.name)")
+                    Text("\(symbol.entity.name) - \(symbol.entityType.name)")
                 } label: {
                     symbol.makeView(frameWidth: 50)
                 }

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum TrainEntityType: String, CaseIterable, Identifiable {
+enum TrainEntityType: String, CaseIterable, EntityType {
     case locomotive = "01"
     case railcar = "02"
     

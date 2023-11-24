@@ -72,6 +72,9 @@ struct ContentView: View {
                         ForEach(symbol.dimention.entities) { entity in
                             Text(entity.id + " " + entity.name).tag(entity)
                         }
+                        .onChange(of: symbol.entity) {
+                            symbol.entityType = .empty
+                        }
                     }
                     
                     Picker("Entity Type", selection: $symbol.entityType) {
@@ -97,7 +100,7 @@ struct ContentView: View {
 //                        }
                 }
             }
-            .searchable(text: $searchText, isPresented: .constant(true))
+            .searchable(text: $searchText)
         }
     }
 }

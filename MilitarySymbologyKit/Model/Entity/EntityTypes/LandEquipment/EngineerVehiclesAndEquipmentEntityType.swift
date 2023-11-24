@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, Identifiable {
+enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
     case bridge = "01"
     case bridgeMountedOnUtilityVehicle = "02"
     case fixedBridge = "03"

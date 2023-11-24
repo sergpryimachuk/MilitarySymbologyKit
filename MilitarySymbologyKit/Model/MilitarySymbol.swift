@@ -37,21 +37,29 @@ extension MilitarySymbol {
     }
     
     static func searched(text: String, standartIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
-        var result: [MilitarySymbol] = []
-        Dimension.allCases.forEach { dimention in
-            dimention.entities.forEach { entity in
-                result.append(
-                    MilitarySymbol(standartIdentity: standartIdentity,
-                                   dimention: dimention,
-                                   entity: entity)
-                )
+        if text.isEmpty {
+            return []
+        } else {
+            var result: [MilitarySymbol] = []
+            Dimension.allCases.forEach { dimention in
+                dimention.entities.forEach { entity in
+                    entity.types.forEach { entityType in
+                        result.append(
+                            MilitarySymbol(standartIdentity: standartIdentity,
+                                           dimention: dimention,
+                                           entity: entity,
+                                           entityType: entityType)
+                        )
+                    }
+                }
             }
-        }
-        return result.filter { symbol in
-            if text.isEmpty {
-                false
-            } else {
-                symbol.entity.name.localizedStandardContains(text)
+            return result.filter { symbol in
+                if text.isEmpty {
+                    false
+                } else {
+                    symbol.entity.name.localizedStandardContains(text) 
+                    || symbol.entityType.name.localizedStandardContains(text)
+                }
             }
         }
     }
@@ -59,7 +67,7 @@ extension MilitarySymbol {
 
 extension MilitarySymbol {
     func makeSIDC() -> String {
-        version + context.id + standartIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + "0000000000"
+        version + context.id + standartIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + entity.id + entityType.id + "00000000"
     }
     
     func makeFrame() -> Image {
@@ -89,17 +97,53 @@ extension MilitarySymbol {
         return Image(standartIdentity.assetGigit + dimention.assetDigit + hqtfd.id)
     }
     
-    func makeOCA() -> Image {
+    //    func makeOCA() -> Image {
+    //        if isAlternateStatusAmplifiers {
+    //            return Image(context.id + standartIdentity.assetGigit + dimention.assetDigit + status.id + "2")
+    //        } else {
+    //            switch status {
+    //            case .presentDamaged:
+    //                return Image(status.id)
+    //            case .presentDestroyed:
+    //                return Image(status.id)
+    //            default:
+    //                // TODO: Figure out here
+    //                return Image("")
+    //            }
+    //        }
+    //    }
+    
+    func makeOCA(
+        contextDigits: String,
+        standardIdentityDigits: String,
+        symbolSetDigits: String,
+        statusDigits: String,
+        isAlternateStatusAmplifiers: Bool = true
+    ) -> Image {
         if isAlternateStatusAmplifiers {
-            return Image(context.id + standartIdentity.assetGigit + dimention.assetDigit + status.id + "2")
+            
+            if statusDigits != "0"
+                || statusDigits != "1" {
+                
+                var assetName: String {
+                    let string = contextDigits
+                    + standardIdentityDigits
+                    + symbolSetDigits
+                    + statusDigits
+                    + "2"
+                    return string
+                }
+                
+                return Image(assetName)
+            } else {
+                return Image("")
+            }
         } else {
-            switch status {
-            case .presentDamaged:
-                return Image(status.id)
-            case .presentDestroyed:
-                return Image(status.id)
-            default:
-                // TODO: Figure out here
+            if statusDigits == "3"
+                || statusDigits == "4" {
+                
+                return Image(statusDigits)
+            } else {
                 return Image("")
             }
         }
@@ -167,7 +211,7 @@ extension MilitarySymbol {
             makeMainIcon(
                 symbolSetDigits: dimention.id,
                 entityDigits: entity.id,
-                entityTypeDigits: "00",
+                entityTypeDigits: entityType.id,
                 entitySubTypeDigits: "00"
             )
             .resizable()
@@ -177,15 +221,21 @@ extension MilitarySymbol {
                 statusDigits: status.id,
                 symbolSetDigits: dimention.id,
                 entityDigits: entity.id,
-                entityTypeDigits: "",
-                entitySubTypeDigits: ""
+                entityTypeDigits: entityType.id,
+                entitySubTypeDigits: "00"
             )
             .resizable()
             .scaledToFit()
             
-            makeOCA()
-                .resizable()
-                .scaledToFit()
+            makeOCA(
+                contextDigits: context.id,
+                standardIdentityDigits: standartIdentity.id,
+                symbolSetDigits: dimention.id,
+                statusDigits: status.id,
+                isAlternateStatusAmplifiers: isAlternateStatusAmplifiers
+            )
+            .resizable()
+            .scaledToFit()
         }
         .frame(width: frameWidth)
     }

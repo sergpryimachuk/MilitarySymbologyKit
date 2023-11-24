@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum WeaponSystemEntityType: String, CaseIterable, Identifiable {
+enum WeaponSystemEntityType: String, CaseIterable, EntityType {
     case rifle = "01"
     case machineGun = "02"
     case grenadeLauncher = "03"

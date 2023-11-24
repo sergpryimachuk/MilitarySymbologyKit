@@ -75,33 +75,33 @@ enum LandEquipmentEntity: String, CaseIterable, Entity {
     var types: [AnyEntityType] {
         switch self {
         case .weaponWeaponSystem:
-            []
+            WeaponSystemEntityType.allCases.map { AnyEntityType($0) }
         case .vehicle:
-            []
+            VehicleEntityType.allCases.map { AnyEntityType($0) }
         case .engineerVehiclesAndEquipment:
-            []
+            EngineerVehiclesAndEquipmentEntityType.allCases.map { AnyEntityType($0) }
         case .utilityVehicles:
-            []
+            UtilityVehiclesEntityType.allCases.map { AnyEntityType($0) }
         case .train:
-            []
+            TrainEntityType.allCases.map { AnyEntityType($0) }
         case .civilianVehicle:
-            []
+            CivilianVehicleEntityType.allCases.map { AnyEntityType($0) }
         case .lawEnforcement:
-            []
+            LawEnforcementEntityType.allCases.map { AnyEntityType($0) }
         case .packAnimals:
-            []
+            [.empty]
         case .missileSupport:
-            []
+            MissileSupportEntityType.allCases.map { AnyEntityType($0) }
         case .otherEquipment:
-            []
+            OtherEquipmentEntityType.allCases.map { AnyEntityType($0) }
         case .landMines:
-            []
+            LandMinesEntityType.allCases.map { AnyEntityType($0) }
         case .sensors:
-            []
+            SensorsEntityType.allCases.map { AnyEntityType($0) }
         case .emergencyOperation:
-            []
+            EmergencyOperationEntityType.allCases.map { AnyEntityType($0) }
         case .manualTrack:
-            []
+            [.empty]
         }
     }
 }

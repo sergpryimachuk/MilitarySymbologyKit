@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum OtherEquipmentEntityType: String, CaseIterable, Identifiable {
+enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
     case antennae = "01"
     case bomb = "02"
     case boobyTrap = "03"

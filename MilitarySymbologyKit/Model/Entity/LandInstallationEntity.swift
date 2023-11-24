@@ -8,6 +8,7 @@
 import Foundation
 
 enum LandInstallationEntity: String, CaseIterable, Entity {
+    
     case installation = "11"
     case infrastructure = "12"
     
@@ -20,6 +21,15 @@ enum LandInstallationEntity: String, CaseIterable, Entity {
             
         case .infrastructure:
             return String(localized: "Infrastructure", comment: "Land Installation Entity")
+        }
+    }
+    
+    var types: [AnyEntityType] {
+        switch self {
+        case .installation:
+            InstallationEntityType.allCases.map { AnyEntityType($0) }
+        case .infrastructure:
+            InfrastructureEntityType.allCases.map { AnyEntityType($0) }
         }
     }
 }

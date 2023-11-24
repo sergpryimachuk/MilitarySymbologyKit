@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum InfrastructureEntityType: String, CaseIterable, Identifiable {
+enum InfrastructureEntityType: String, CaseIterable, EntityType {
     case agricultureAndFoodInfrastructure = "01"
     case bankingFinanceAndInsuranceInfrastructure = "02"
     case commercialInfrastructure = "03"

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum LandMinesEntityType: String, CaseIterable, Identifiable {
+enum LandMinesEntityType: String, CaseIterable, EntityType {
     case landMine = "01"
     case antipersonnelLandMineAPL = "02"
     case antitankMine = "03"

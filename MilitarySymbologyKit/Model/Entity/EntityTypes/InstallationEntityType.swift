@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum InstallationEntityType: String, CaseIterable, Identifiable {
+enum InstallationEntityType: String, CaseIterable, EntityType {
     case aircraftProductionAssembly = "01"
     case ammunitionAndExplosivesAssembly = "02"
     case ammunitionCache = "03"

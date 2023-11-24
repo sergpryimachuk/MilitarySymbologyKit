@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum MissileSupportEntityType: String, CaseIterable, Identifiable {
+enum MissileSupportEntityType: String, CaseIterable, EntityType {
     case transloader = "01"
     case transporter = "02"
     case craneLoadingDevice = "03"
