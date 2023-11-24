@@ -99,6 +99,11 @@
 		9344964C2B10FE2100AD1B73 /* PressureSystemsEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934496322B10FE2100AD1B73 /* PressureSystemsEntityType.swift */; };
 		9344964D2B10FE2100AD1B73 /* WindsEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934496332B10FE2100AD1B73 /* WindsEntityType.swift */; };
 		9344964E2B10FE2100AD1B73 /* AtmosphericEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934496342B10FE2100AD1B73 /* AtmosphericEntity.swift */; };
+		9344AFD72B11329200BFFBC6 /* MineLikeEchoMILECGeneralEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344AFD62B11329200BFFBC6 /* MineLikeEchoMILECGeneralEntityType.swift */; };
+		9344AFD92B11332F00BFFBC6 /* NegativeReacquisitionGeneralEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344AFD82B11332F00BFFBC6 /* NegativeReacquisitionGeneralEntityType.swift */; };
+		9344AFDB2B11337500BFFBC6 /* ObstructorEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344AFDA2B11337500BFFBC6 /* ObstructorEntityType.swift */; };
+		9344AFDD2B11343D00BFFBC6 /* NonMineMineLikeObjectNMLOGeneralEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344AFDC2B11343D00BFFBC6 /* NonMineMineLikeObjectNMLOGeneralEntityType.swift */; };
+		9344AFDF2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344AFDE2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift */; };
 		939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */; };
 		939B44A72AFE39C700A67880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A62AFE39C700A67880 /* ContentView.swift */; };
 		939B44A92AFE39C900A67880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44A82AFE39C900A67880 /* Assets.xcassets */; };
@@ -201,6 +206,11 @@
 		934496322B10FE2100AD1B73 /* PressureSystemsEntityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressureSystemsEntityType.swift; sourceTree = "<group>"; };
 		934496332B10FE2100AD1B73 /* WindsEntityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindsEntityType.swift; sourceTree = "<group>"; };
 		934496342B10FE2100AD1B73 /* AtmosphericEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtmosphericEntity.swift; sourceTree = "<group>"; };
+		9344AFD62B11329200BFFBC6 /* MineLikeEchoMILECGeneralEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineLikeEchoMILECGeneralEntityType.swift; sourceTree = "<group>"; };
+		9344AFD82B11332F00BFFBC6 /* NegativeReacquisitionGeneralEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeReacquisitionGeneralEntityType.swift; sourceTree = "<group>"; };
+		9344AFDA2B11337500BFFBC6 /* ObstructorEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstructorEntityType.swift; sourceTree = "<group>"; };
+		9344AFDC2B11343D00BFFBC6 /* NonMineMineLikeObjectNMLOGeneralEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonMineMineLikeObjectNMLOGeneralEntityType.swift; sourceTree = "<group>"; };
+		9344AFDE2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaSubsurfaceEntity.swift; sourceTree = "<group>"; };
 		939B44A12AFE39C700A67880 /* MilitarySymbologyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilitarySymbologyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbologyKitApp.swift; sourceTree = "<group>"; };
 		939B44A62AFE39C700A67880 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -317,6 +327,7 @@
 				05A57B192B11000500F98863 /* LandEquipmentEntity.swift */,
 				054C27722B111AC900324A82 /* LandInstallationEntity.swift */,
 				054C27792B111CD500324A82 /* ControlMeasureEntity.swift */,
+				9344AFDE2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift */,
 				9302183F2B0134F4004FA3D5 /* EntityTypes */,
 			);
 			path = Entity;
@@ -337,6 +348,7 @@
 				05A57B1D2B1101A600F98863 /* LandEquipment */,
 				054C27712B111A5100324A82 /* LandInstallation */,
 				054C27782B111C6900324A82 /* ControlMeasure */,
+				9344AFE02B11367800BFFBC6 /* SeaSubsurface */,
 			);
 			path = EntityTypes;
 			sourceTree = "<group>";
@@ -385,8 +397,12 @@
 			isa = PBXGroup;
 			children = (
 				9344961F2B10FE2100AD1B73 /* MineLikeContactEntityType.swift */,
+				9344AFDC2B11343D00BFFBC6 /* NonMineMineLikeObjectNMLOGeneralEntityType.swift */,
+				9344AFD62B11329200BFFBC6 /* MineLikeEchoMILECGeneralEntityType.swift */,
 				934496202B10FE2100AD1B73 /* SeaMineDecoyEntityType.swift */,
 				934496212B10FE2100AD1B73 /* SeaMineGeneralEntityType.swift */,
+				9344AFD82B11332F00BFFBC6 /* NegativeReacquisitionGeneralEntityType.swift */,
+				9344AFDA2B11337500BFFBC6 /* ObstructorEntityType.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -441,6 +457,13 @@
 				934496332B10FE2100AD1B73 /* WindsEntityType.swift */,
 			);
 			path = Types;
+			sourceTree = "<group>";
+		};
+		9344AFE02B11367800BFFBC6 /* SeaSubsurface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SeaSubsurface;
 			sourceTree = "<group>";
 		};
 		939B44982AFE39C700A67880 = {
@@ -574,6 +597,7 @@
 				930218192B00FE7C004FA3D5 /* StandardIdentity.swift in Sources */,
 				930218222B010058004FA3D5 /* Amplifier.swift in Sources */,
 				93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */,
+				9344AFD72B11329200BFFBC6 /* MineLikeEchoMILECGeneralEntityType.swift in Sources */,
 				054C27842B11200200324A82 /* ManeuverAreasEntityType.swift in Sources */,
 				934495D12B10CA9000AD1B73 /* SearchView.swift in Sources */,
 				930218272B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift in Sources */,
@@ -583,6 +607,7 @@
 				9302183B2B012EF5004FA3D5 /* NotApplicableDescriptor.swift in Sources */,
 				054C27942B11266700324A82 /* DeceptionEntityType.swift in Sources */,
 				05A57B272B11082000F98863 /* CivilianVehicleEntityType.swift in Sources */,
+				9344AFDF2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift in Sources */,
 				9344964B2B10FE2100AD1B73 /* IcingEntityType.swift in Sources */,
 				054C277E2B111E9600324A82 /* CommandAndControlAreasEntityType.swift in Sources */,
 				054C27732B111AC900324A82 /* LandInstallationEntity.swift in Sources */,
@@ -605,8 +630,10 @@
 				939B44BA2AFE485C00A67880 /* MilitarySymbol.swift in Sources */,
 				9302181D2B00FF8C004FA3D5 /* Status.swift in Sources */,
 				054C27A42B11296F00324A82 /* SustainmentAreasEntityType.swift in Sources */,
+				9344AFDB2B11337500BFFBC6 /* ObstructorEntityType.swift in Sources */,
 				939B44A72AFE39C700A67880 /* ContentView.swift in Sources */,
 				9344964A2B10FE2100AD1B73 /* TurbulenceEntityType.swift in Sources */,
+				9344AFDD2B11343D00BFFBC6 /* NonMineMineLikeObjectNMLOGeneralEntityType.swift in Sources */,
 				934496372B10FE2100AD1B73 /* DeviceTypeEntityType.swift in Sources */,
 				9330114F2B07B01C0053E2C2 /* ProtectionEntityType.swift in Sources */,
 				054C27802B111F0D00324A82 /* CommandAndControlPointsEntityType.swift in Sources */,
@@ -648,6 +675,7 @@
 				934496452B10FE2100AD1B73 /* OceanographyEntityType.swift in Sources */,
 				054C27882B1120CE00324A82 /* AirspaceControlCorridorsAreasEntityType.swift in Sources */,
 				9344963F2B10FE2100AD1B73 /* SeaMineDecoyEntityType.swift in Sources */,
+				9344AFD92B11332F00BFFBC6 /* NegativeReacquisitionGeneralEntityType.swift in Sources */,
 				053395A12B10DCF10097F767 /* LawEnforcementEntityType.swift in Sources */,
 				05A57B1C2B11019200F98863 /* WeaponSystemEntityType.swift in Sources */,
 				054C27A02B1128AE00324A82 /* ProtectionLinesEntityType.swift in Sources */,
