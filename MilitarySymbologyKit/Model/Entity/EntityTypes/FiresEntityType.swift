@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum FiresEntityType: String, CaseIterable, Identifiable {
+enum FiresEntityType: String, CaseIterable, Identifiable, EntityType {
     case none = "00"
     case airDefense = "01"
     case airLandNavalGunfireLiaison = "02"

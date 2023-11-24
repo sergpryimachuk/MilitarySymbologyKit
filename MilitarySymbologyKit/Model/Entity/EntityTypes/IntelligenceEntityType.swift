@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum IntelligenceEntityType: String, CaseIterable, Identifiable {
+enum IntelligenceEntityType: String, CaseIterable, Identifiable, EntityType {
     case analysis = "01"
     case counterintelligence = "02"
     case directionFinding = "03"

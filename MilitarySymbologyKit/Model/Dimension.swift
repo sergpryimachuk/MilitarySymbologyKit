@@ -116,4 +116,53 @@ enum Dimension: String, CaseIterable, Identifiable {
             self.id
         }
     }
+    
+    var possibleEntities: [AnyEntity] {
+        switch self {
+        case .air:
+            AirUnitEntity.allCases.map { AnyEntity($0) }
+        case .airMissile:
+            []
+        case .space:
+            []
+        case .spaceMissile:
+            []
+        case .landUnits:
+            LandUnitEntity.allCases.map { AnyEntity($0) }
+         case .landCivilian:
+            []
+        case .landEquipment:
+            []
+        case .landInstallation:
+            []
+        case .controlMeasure:
+            []
+        case .seaSurface:
+            []
+        case .seaSubsurface:
+            []
+        case .mineWarfare:
+            []
+        case .activities:
+            []
+        case .meteorologicalAtmospheric:
+            []
+        case .meteorologicalOceanographic:
+            []
+        case .meteorologicalSpace:
+            []
+        case .signalsIntelligenceSpace:
+            []
+        case .signalsIntelligenceAir:
+            []
+        case .signalsIntelligenceLand:
+            []
+        case .signalsIntelligenceSurface:
+            []
+        case .signalsIntelligenceSubsurface:
+            []
+        case .cyberspace:
+            []
+        }
+    }
 }

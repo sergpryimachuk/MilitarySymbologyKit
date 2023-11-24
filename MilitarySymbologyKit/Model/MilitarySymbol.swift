@@ -5,7 +5,7 @@
 import Foundation
 import SwiftUI
 
-struct MilitarySymbol {
+struct MilitarySymbol: Identifiable {
     private let version: String = "01"
     var context: Context = .reality
     var standartIdentity: StandardIdentity = .unknown
@@ -16,13 +16,31 @@ struct MilitarySymbol {
     var descriptor: AnyDescriptor = AnyDescriptor(NotApplicableDescriptor.notApplicable)
     
     var isCivilian: Bool = false
-    var  isAlternateStatusAmplifiers: Bool = false
+    var isAlternateStatusAmplifiers: Bool = false
     
+    var id: String { makeSIDC() }
+}
+
+extension MilitarySymbol {
+    static func search(text: String, standartIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
+        Dimension.allCases.map { dimention in
+            MilitarySymbol(standartIdentity: standartIdentity, dimention: dimention)
+        }.filter { symbol in
+            if text.isEmpty {
+                true
+            } else {
+                symbol.dimention.name.localizedStandardContains(text)
+            }
+        }
+    }
+}
+
+extension MilitarySymbol {
     func makeSIDC() -> String {
         version + context.id + standartIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + "0000000000"
     }
     
-    func makeFrame() -> some View {
+    func makeFrame() -> Image {
         var lastDigit: String {
             let initial = if Int(status.id)! > 1 {
                 "0"
@@ -38,42 +56,48 @@ struct MilitarySymbol {
         }
         
         return Image(context.id + "_" + standartIdentity.id + dimention.assetDigit + "_" + lastDigit)
-            .resizable()
-            .scaledToFit()
     }
     
-    func makeAmplifier() -> some View {
+    func makeAmplifier() -> Image {
         return Image(standartIdentity.assetGigit + amplifier.id + descriptor.id)
-            .resizable()
-            .scaledToFit()
     }
     
     // Uses SIDC positions 4-6 (standartIdentity-dimention) and position 8 (hqtfd).
-    func makeHQTFFD() -> some View {
+    func makeHQTFFD() -> Image {
         return Image(standartIdentity.assetGigit + dimention.assetDigit + hqtfd.id)
-            .resizable()
-            .scaledToFit()
     }
     
-    @ViewBuilder
-    func makeOCA() -> some View {
+    func makeOCA() -> Image {
         if isAlternateStatusAmplifiers {
-            Image(context.id + standartIdentity.assetGigit + dimention.assetDigit + status.id + "2")
-                .resizable()
-                .scaledToFit()
+            return Image(context.id + standartIdentity.assetGigit + dimention.assetDigit + status.id + "2")
         } else {
             switch status {
             case .presentDamaged:
-                Image(status.id)
-                    .resizable()
-                    .scaledToFit()
+                return Image(status.id)
             case .presentDestroyed:
-                Image(status.id)
-                    .resizable()
-                    .scaledToFit()
+                return Image(status.id)
             default:
-                EmptyView()
+                // TODO: Figure out here
+                return Image("")
             }
         }
+    }
+    
+    func makeView(frameWidth: CGFloat? = nil) -> some View {
+        ZStack {
+            makeFrame()
+                .resizable()
+                .scaledToFit()
+            makeAmplifier()
+                .resizable()
+                .scaledToFit()
+            makeHQTFFD()
+                .resizable()
+                .scaledToFit()
+            makeOCA()
+                .resizable()
+                .scaledToFit()
+        }
+        .frame(width: frameWidth)
     }
 }

@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum ProtectionEntityType: String, CaseIterable, Identifiable {
+enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
     case chemicalBiologicalRadiologicalNuclearDefense = "01"
     case combatSupportManeuverEnhancement = "02"
     case criminalInvestigationDivision = "03"

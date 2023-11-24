@@ -12,23 +12,10 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             Form {
-                TextField("Search", text: $searchText)
-                if !searchText.isEmpty {
-                    ForEach(LandUnitEntity.allCases.filter { $0.name.localizedStandardContains(searchText)}) {
-                        Text($0.name)
-                    }
-                }
-                
                 Section {
                     HStack {
                         Spacer()
-                        ZStack {
-                            symbol.makeFrame()
-                            symbol.makeAmplifier()
-                            symbol.makeHQTFFD()
-                            symbol.makeOCA()
-                        }
-                        .frame(width: 200)
+                        symbol.makeView(frameWidth: 200)
                         Spacer()
                     }
                     LabeledContent("SIDC:", value: symbol.makeSIDC())

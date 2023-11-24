@@ -18,9 +18,8 @@ struct AnyEntity: Entity, Hashable, Identifiable {
         self.name = descriptor.name
     }
     
-    init(id: String, name: String.LocalizationValue) {
-        let string = String(localized: name, comment: "Any entity")
+    init(id: String, name: String) {
         self.id = id
-        self.name = string
+        self.name = name
     }
 }

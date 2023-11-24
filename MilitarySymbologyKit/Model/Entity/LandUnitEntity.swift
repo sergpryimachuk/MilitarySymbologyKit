@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum LandUnitEntity: String, CaseIterable, Identifiable {
+enum LandUnitEntity: String, CaseIterable, Identifiable, Entity {
     case commandAndControl = "11"
     case movementAndManeuver = "12"
     case fires = "13"
@@ -49,6 +49,31 @@ enum LandUnitEntity: String, CaseIterable, Identifiable {
             
         case .lawEnforcement:
             return String(localized: "Law Enforcement", comment: "Land Unit Entity")
+        }
+    }
+    
+    var possibleTypes: [AnyEntityType] {
+        switch self {
+        case .commandAndControl:
+            CommandAndControlEntityType.allCases.map { AnyEntityType($0) }
+        case .movementAndManeuver:
+            MovementAndManeuverEntityType.allCases.map { AnyEntityType($0)}
+        case .fires:
+            FiresEntityType.allCases.map { AnyEntityType($0) }
+        case .protection:
+            ProtectionEntityType.allCases.map { AnyEntityType($0) }
+        case .intelligence:
+            IntelligenceEntityType.allCases.map { AnyEntityType($0) }
+        case .sustainment:
+            SustainmentEntityType.allCases.map { AnyEntityType($0) }
+        case .naval:
+            []
+        case .namedHeadquarters:
+            []
+        case .emergencyOperation:
+            []
+        case .lawEnforcement:
+            []
         }
     }
 }

@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum SustainmentEntityType: String, CaseIterable, Identifiable {
+enum SustainmentEntityType: String, CaseIterable, Identifiable, EntityType {
     case administrative = "01"
     case allClassesOfSupply = "02"
     case airportOfDebarkationEmbarkation = "03"

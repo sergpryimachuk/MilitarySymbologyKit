@@ -4,6 +4,9 @@
     "Activities" : {
       "comment" : "Dimension"
     },
+    "Administrative" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Air" : {
       "comment" : "Dimension"
     },
@@ -11,34 +14,46 @@
       "comment" : "Movement and Maneuver Entity Type"
     },
     "Air Defense" : {
-
+      "comment" : "Fire Support Entity Type"
     },
     "Air Missile" : {
       "comment" : "Dimension"
     },
     "Air Traffic Services/Airfield Operations" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
-    "Air/Land Naval Gunfire Liaison" : {
-
+    "Air-Land-Naval Gunfire Liaison" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Airport of Debarkation/Airport of Embarkation" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "All Classes of Supply" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Ammunition" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Amphibious" : {
-      "comment" : "Equipment mobility on water amplifier descriptor"
+      "comment" : "Movement and Maneuver Entity Type\nEquipment mobility on water amplifier descriptor"
     },
     "Amplifier" : {
 
     },
+    "Analysis" : {
+      "comment" : "Intelligence Entity Type"
+    },
     "Antitank/Antiarmor" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Armor/Armored/Mechanized/Self-Propelled/Tracked" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Army" : {
       "comment" : "Echelon at division and above amplifier descriptor"
     },
     "Army Aviation/Aviation Rotary Wing" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Army Group/Front" : {
       "comment" : "Echelon at division and above amplifier descriptor"
@@ -47,10 +62,13 @@
       "comment" : "Standard identity"
     },
     "Aviation Composite" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Aviation Fixed Wing" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Band" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Barge" : {
       "comment" : "Equipment mobility on water amplifier descriptor"
@@ -61,23 +79,35 @@
     "Brigade" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
     },
+    "Broadcast" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Broadcast Transmitter Antennae" : {
       "comment" : "Command and Control Entity Type"
     },
-    "Civil Affairs" : {
-
+    "Chemical Biological Radiological Nuclear Defense" : {
+      "comment" : "Protection Entity Type"
     },
-    "Civil-Military Cooperation" : {
-
+    "Civil Affairs" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Civil Military Cooperation" : {
+      "comment" : "Command and Control Entity Type"
     },
     "Civilian" : {
       "comment" : "Air Unit Entity"
     },
     "Combat" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Combat Service Support" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Combat Support (Maneuver Enhancement)" : {
+      "comment" : "Protection Entity Type"
     },
     "Combined Arms" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Command" : {
       "comment" : "Echelon at division and above amplifier descriptor"
@@ -97,6 +127,12 @@
     "Corps/MEF" : {
       "comment" : "Echelon at division and above amplifier descriptor"
     },
+    "Counterintelligence" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Criminal Investigation Division" : {
+      "comment" : "Protection Entity Type"
+    },
     "Cyberspace" : {
       "comment" : "Dimension"
     },
@@ -106,8 +142,20 @@
     "Dimention" : {
 
     },
+    "Direction Finding" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Diving" : {
+      "comment" : "Protection Entity Type"
+    },
     "Division" : {
       "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Dog" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Drilling" : {
+      "comment" : "Protection Entity Type"
     },
     "Echelon at brigade and below" : {
       "comment" : "Amplifier"
@@ -115,8 +163,17 @@
     "Echelon at division and above" : {
       "comment" : "Amplifier"
     },
+    "Electronic Ranging" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Electronic Warfare" : {
+      "comment" : "Intelligence Entity Type"
+    },
     "Emergency Operation" : {
       "comment" : "Land Unit Entity"
+    },
+    "Engineer" : {
+      "comment" : "Protection Entity Type"
     },
     "Equipment mobility on land" : {
       "comment" : "Amplifier"
@@ -129,6 +186,9 @@
     },
     "Exercise" : {
       "comment" : "Context"
+    },
+    "Explosive Ordnance Disposal (EOD)" : {
+      "comment" : "Protection Entity Type"
     },
     "Feint/Dummy" : {
       "comment" : "Headquarters/Task force/Dummy"
@@ -143,16 +203,28 @@
       "comment" : "Headquarters/Task force/Dummy"
     },
     "Field Artillery" : {
-
+      "comment" : "Fire Support Entity Type"
     },
     "Field Artillery Observer" : {
-
+      "comment" : "Fire Support Entity Type"
+    },
+    "Field Camp Construction" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Finance" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Fire Fighting/Fire Protection" : {
+      "comment" : "Protection Entity Type"
     },
     "Fires" : {
       "comment" : "Land Unit Entity"
     },
     "Friend" : {
       "comment" : "Standard identity"
+    },
+    "Geospatial Support/Geospatial Information Support" : {
+      "comment" : "Protection Entity Type"
     },
     "Headquarters" : {
       "comment" : "Headquarters/Task force/Dummy"
@@ -164,16 +236,37 @@
 
     },
     "Infantry" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Information Operations" : {
-
+      "comment" : "Command and Control Entity Type"
     },
     "Intelligence" : {
       "comment" : "Land Unit Entity"
     },
+    "Intercept (Search and Recording)" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Interrogation" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Jamming" : {
+      "comment" : "Intelligence Entity Type"
+    },
     "Joint Fire Support" : {
-
+      "comment" : "Fire Support Entity Type"
+    },
+    "Joint Information Bureau" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Joint Intelligence Center" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Judge Advocate General" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Labor" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Land Civilian" : {
       "comment" : "Dimension"
@@ -187,20 +280,35 @@
     "Land Units" : {
       "comment" : "Dimension"
     },
+    "Laundry/Bath" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Law Enforcement" : {
       "comment" : "Land Unit Entity"
     },
     "Liaison" : {
-
+      "comment" : "Command and Control Entity Type"
     },
     "Long Towed Array" : {
       "comment" : "Naval towed array amplifier descriptor"
     },
+    "Maintenance" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Manual Track" : {
       "comment" : "Air Unit Entity"
     },
+    "Material" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Medical" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Medical Treatment Facility" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Meteorological" : {
-
+      "comment" : "Fire Support Entity Type"
     },
     "Meteorological - Atmospheric" : {
       "comment" : "Dimension"
@@ -214,23 +322,65 @@
     "Military" : {
       "comment" : "Air Unit Entity"
     },
-    "Military Information Support Operations (MISO)" : {
-
+    "Military Information Support Operations" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Military Intelligence" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Military Police" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Mine" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Mine Clearing" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Mine Launching" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Mine Laying" : {
+      "comment" : "Protection Entity Type"
     },
     "Mine Warfare" : {
       "comment" : "Dimension"
     },
     "Missile" : {
-
+      "comment" : "Fire Support Entity Type"
+    },
+    "Morale Welfare and Recreation" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Mortar" : {
-
+      "comment" : "Fire Support Entity Type"
+    },
+    "Mortuary Affairs/Graves Registration" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Movement and Maneuver" : {
       "comment" : "Land Unit Entity"
     },
+    "Multiple Classes of Supply" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Named Headquarters" : {
       "comment" : "Land Unit Entity"
+    },
+    "NATO Supply Class I" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "NATO Supply Class I|" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "NATO Supply Class III" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "NATO Supply Class IV" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "NATO Supply Class V" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Naval" : {
       "comment" : "Land Unit Entity"
@@ -242,13 +392,16 @@
       "comment" : "Standard identity"
     },
     "None" : {
-      "comment" : " Fires Entity Type"
+      "comment" : "Fire Support Entity Type\nCommand and Control Entity Type"
     },
     "Not Applicable" : {
-      "comment" : "Not Applicable amplifier descriptor\nAmplifier\nHeadquarters/Task force/Dummy"
+      "comment" : "Headquarters/Task force/Dummy\nNot Applicable amplifier descriptor\nAmplifier"
     },
     "Observer" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Ordnance" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Over snow (prime mover)" : {
       "comment" : "Equipment mobility on snow amplifier descriptor"
@@ -259,11 +412,23 @@
     "Pending" : {
       "comment" : "Standard identity"
     },
+    "Personnel Services" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Petroleum Oil and Lubricants" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Pipeline" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Planned/Anticipated/Suspect" : {
       "comment" : "Status"
     },
     "Platoon/Detachment" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Postal" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Present" : {
       "comment" : "Status"
@@ -283,23 +448,32 @@
     "Protection" : {
       "comment" : "Land Unit Entity"
     },
+    "Public Affairs/Public Information" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Quartermaster" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Radio" : {
-
+      "comment" : "Command and Control Entity Type"
     },
     "Radio Relay" : {
-
+      "comment" : "Command and Control Entity Type"
     },
     "Radio Teletype Center" : {
-
+      "comment" : "Command and Control Entity Type"
     },
     "Rail" : {
       "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Railhead" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Reality" : {
       "comment" : "Context"
     },
     "Reconnaissance/Cavalry/Scout" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Regiment/Group" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
@@ -307,8 +481,17 @@
     "Region/Theater" : {
       "comment" : "Echelon at division and above amplifier descriptor"
     },
+    "Religious Support" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Replacement Holding Unit" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Sea Air Land (SEAL)" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Sea Port of Debarkation/Sea Port of Embarkation" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Sea Subsurface" : {
       "comment" : "Dimension"
@@ -317,10 +500,25 @@
       "comment" : "Dimension"
     },
     "Search" : {
-
+      "comment" : "Intelligence Entity Type"
+    },
+    "Search and Rescue" : {
+      "comment" : "Protection Entity Type"
     },
     "Section" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Security" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Security Police (Air)" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Sensor" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Shore Patrol" : {
+      "comment" : "Protection Entity Type"
     },
     "Short Towed Array" : {
       "comment" : "Naval towed array amplifier descriptor"
@@ -329,7 +527,7 @@
 
     },
     "Signal" : {
-
+      "comment" : "Command and Control Entity Type"
     },
     "Signals Intelligence - Air" : {
       "comment" : "Dimension"
@@ -353,7 +551,7 @@
       "comment" : "Equipment mobility on land amplifier descriptor"
     },
     "Sniper" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Space" : {
       "comment" : "Dimension"
@@ -362,13 +560,16 @@
       "comment" : "Dimension"
     },
     "Special Forces" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Special Operations Forces (SOF)" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Squad" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Standard identity" : {
+
     },
     "Standard Identity" : {
 
@@ -376,11 +577,14 @@
     "Status" : {
 
     },
+    "Supply" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Surveillance" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
     },
     "Survey" : {
-
+      "comment" : "Fire Support Entity Type"
     },
     "Suspect/Joker" : {
       "comment" : "Standard identity"
@@ -389,7 +593,7 @@
       "comment" : "Land Unit Entity"
     },
     "Tactical Satellite" : {
-
+      "comment" : "Command and Control Entity Type"
     },
     "Task Force" : {
       "comment" : "Headquarters/Task force/Dummy"
@@ -400,23 +604,65 @@
     "Team/Crew" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
     },
+    "Topographic" : {
+      "comment" : "Protection Entity Type"
+    },
     "Towed" : {
       "comment" : "Equipment mobility on land amplifier descriptor"
     },
     "Tracked" : {
       "comment" : "Equipment mobility on land amplifier descriptor"
     },
+    "Transportation" : {
+      "comment" : "Sustainment Entity Type"
+    },
     "Unknown" : {
       "comment" : "Standard identity"
     },
     "Unmanned Aerial Systems" : {
-
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "US Supply Class I" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class II" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class III" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class IV" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class IX" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class V" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class VI" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class VII" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class VIII" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class X" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Use alternate status amplifiers" : {
 
     },
-    "Video Imagery (Combat Camera)" : {
-
+    "Video Imagery Combat Camera" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Water" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Water Purification" : {
+      "comment" : "Sustainment Entity Type"
     },
     "Weapon" : {
       "comment" : "Air Unit Entity"
