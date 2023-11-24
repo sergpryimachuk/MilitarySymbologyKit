@@ -1,0 +1,1072 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ - %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ - %2$@"
+          }
+        }
+      }
+    },
+    "Activities" : {
+      "comment" : "Dimension"
+    },
+    "Administrative" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Advanced Persistent Threat (APT)" : {
+      "comment" : "Infection Entity Type"
+    },
+    "Aids to Navigation" : {
+      "comment" : "Hydrography Entity Type"
+    },
+    "Air" : {
+      "comment" : "Dimension"
+    },
+    "Air Assault with Organic Lift" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Air Defense" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Air Missile" : {
+      "comment" : "Dimension"
+    },
+    "Air Traffic Services/Airfield Operations" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Air-Land-Naval Gunfire Liaison" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Airport of Debarkation/Airport of Embarkation" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "All Classes of Supply" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Ammunition" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Amphibious" : {
+      "comment" : "Equipment mobility on water amplifier descriptor\nMovement and Maneuver Entity Type"
+    },
+    "Amplifier" : {
+
+    },
+    "Analysis" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Antitank/Antiarmor" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Armor/Armored/Mechanized/Self-Propelled/Tracked" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Army" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Army Aviation/Aviation Rotary Wing" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Army Group/Front" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Assumed Friend" : {
+      "comment" : "Standard identity"
+    },
+    "Aviation Composite" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Aviation Fixed Wing" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Band" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Barge" : {
+      "comment" : "Equipment mobility on water amplifier descriptor"
+    },
+    "Battalion/Squadron" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Beach Slope" : {
+      "comment" : "Oceanography Entity Type"
+    },
+    "Bioluminescence" : {
+      "comment" : "Oceanography Entity Type"
+    },
+    "Botnet" : {
+      "comment" : "Cyberspace Entity Type"
+    },
+    "Bottom Features" : {
+      "comment" : "Hydrography Entity Type"
+    },
+    "Bounded Areas of Weather" : {
+      "comment" : "Atmospheric Entity Type"
+    },
+    "Brigade" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Broadcast" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Broadcast Transmitter Antennae" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Callback Domain" : {
+      "comment" : "Botnet Entity Type"
+    },
+    "Calm Winds" : {
+      "comment" : "Winds Entity Type"
+    },
+    "Canal" : {
+      "comment" : "Man-Made Structures Entity Type"
+    },
+    "Chemical Biological Radiological Nuclear Defense" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Civil Affairs" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Civil Military Cooperation" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Civilian" : {
+      "comment" : "Air Unit Entity"
+    },
+    "Clear Icing" : {
+      "comment" : "Icing Entity Type"
+    },
+    "Cloud Cover" : {
+      "comment" : "Atmospheric Entity Type"
+    },
+    "Coastal Hydrography" : {
+      "comment" : "Hydrography Entity Type"
+    },
+    "Combat" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Combat Service Support" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Combat Support (Maneuver Enhancement)" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Combined Arms" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Command" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Command and Control" : {
+      "comment" : "Land Unit Entity"
+    },
+    "Command and Control (C2)" : {
+      "comment" : "Botnet Entity Type"
+    },
+    "Communications" : {
+      "comment" : "Signal Intercept Entity Type"
+    },
+    "Company/Battery/Troop" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Context" : {
+
+    },
+    "Contractor" : {
+      "comment" : "Device Domain Entity Type"
+    },
+    "Control Measure" : {
+      "comment" : "Dimension"
+    },
+    "Core Router" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Corps/MEF" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Counterintelligence" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Criminal Investigation Division" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Cross Domain Solution" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Cyberspace" : {
+      "comment" : "Dimension"
+    },
+    "Dangers/Hazards" : {
+      "comment" : "Hydrography Entity Type"
+    },
+    "Data Manipulation" : {
+      "comment" : "Effect Entity Type"
+    },
+    "Data Spoofing" : {
+      "comment" : "Effect Entity Type"
+    },
+    "Degradation" : {
+      "comment" : "Effect Entity Type"
+    },
+    "Department of Defense (DoD)" : {
+      "comment" : "Device Domain Entity Type"
+    },
+    "Depth" : {
+      "comment" : "Hydrography Entity Type"
+    },
+    "Descriptor" : {
+
+    },
+    "Device Domain" : {
+      "comment" : "Cyberspace Entity Type"
+    },
+    "Device Outage" : {
+      "comment" : "Effect Entity Type"
+    },
+    "Device Type" : {
+      "comment" : "Cyberspace Entity Type"
+    },
+    "Dimention" : {
+
+    },
+    "Direction Finding" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Dive Report Location" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Diving" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Division" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Dog" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Domain Server" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Drilling" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Dynamic Processes" : {
+      "comment" : "Ice Systems Entity Type"
+    },
+    "Echelon at brigade and below" : {
+      "comment" : "Amplifier"
+    },
+    "Echelon at division and above" : {
+      "comment" : "Amplifier"
+    },
+    "Effect" : {
+      "comment" : "Cyberspace Entity Type"
+    },
+    "Electronic Ranging" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Electronic Warfare" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Emergency Operation" : {
+      "comment" : "Land Unit Entity"
+    },
+    "Engineer" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Entity" : {
+
+    },
+    "Environmental Report Location" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Equipment mobility on land" : {
+      "comment" : "Amplifier"
+    },
+    "Equipment mobility on snow" : {
+      "comment" : "Amplifier"
+    },
+    "Equipment mobility on water" : {
+      "comment" : "Amplifier"
+    },
+    "Exercise" : {
+      "comment" : "Context"
+    },
+    "Exercise Mine-General" : {
+      "comment" : "Sea Mine General Entity Type"
+    },
+    "Exfiltration" : {
+      "comment" : "Effect Entity Type"
+    },
+    "Explosive Ordnance Disposal (EOD)" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Extreme" : {
+      "comment" : "Turbulence Entity Type"
+    },
+    "Feint/Dummy" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Feint/Dummy Headquarters" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Feint/Dummy Task Force" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Feint/Dummy Task Force Headquarters" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Field Artillery" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Field Artillery Observer" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Field Camp Construction" : {
+      "comment" : "Protection Entity Type"
+    },
+    "File Server" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Finance" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Fire Fighting/Fire Protection" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Fires" : {
+      "comment" : "Land Unit Entity"
+    },
+    "Firewall" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Ford" : {
+      "comment" : "Man-Made Structures Entity Type"
+    },
+    "Friend" : {
+      "comment" : "Standard identity"
+    },
+    "Frontal Systems" : {
+      "comment" : "Pressure Systems Entity Type"
+    },
+    "General Mine Anchor" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Geophysics/Acoustics" : {
+      "comment" : "Oceanographic Entity Type"
+    },
+    "Geospatial Support/Geospatial Information Support" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Government" : {
+      "comment" : "Device Domain Entity Type"
+    },
+    "Headquarters" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Health and Status" : {
+      "comment" : "Cyberspace Entity Type"
+    },
+    "Herder" : {
+      "comment" : "Botnet Entity Type"
+    },
+    "High Pressure Center" : {
+      "comment" : "Pressure Systems Entity Type"
+    },
+    "Host" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Hostile/Faker" : {
+      "comment" : "Standard identity"
+    },
+    "HQ / Task Force / Dummy" : {
+
+    },
+    "Hydrography" : {
+      "comment" : "Oceanographic Entity Type"
+    },
+    "Ice Concentration" : {
+      "comment" : "Ice Systems Entity Type"
+    },
+    "Ice Systems" : {
+      "comment" : "Oceanographic Entity Type"
+    },
+    "Icebergs" : {
+      "comment" : "Ice Systems Entity Type"
+    },
+    "Icing" : {
+      "comment" : "Atmospheric Entity Type"
+    },
+    "Impaired" : {
+      "comment" : "Health and Status Entity Type"
+    },
+    "Infantry" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Infection" : {
+      "comment" : "Effect Entity Type\nCyberspace Entity Type"
+    },
+    "Information Operations" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Intelligence" : {
+      "comment" : "Land Unit Entity"
+    },
+    "Intercept (Search and Recording)" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Interrogation" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Isopleths" : {
+      "comment" : "Atmospheric Entity Type"
+    },
+    "Jammer" : {
+      "comment" : "Signal Intercept Entity Type"
+    },
+    "Jamming" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Jet Stream" : {
+      "comment" : "Winds Entity Type"
+    },
+    "Joint Fire Support" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Joint Information Bureau" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Joint Intelligence Center" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Judge Advocate General" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Kingfisher" : {
+      "comment" : "Sea Mine General Entity Type"
+    },
+    "Labor" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Land Civilian" : {
+      "comment" : "Dimension"
+    },
+    "Land Equipment" : {
+      "comment" : "Dimension"
+    },
+    "Land Installation" : {
+      "comment" : "Dimension"
+    },
+    "Land Units" : {
+      "comment" : "Dimension"
+    },
+    "Laundry/Bath" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Law Enforcement" : {
+      "comment" : "Land Unit Entity"
+    },
+    "Liaison" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Light" : {
+      "comment" : "Turbulence Entity Type"
+    },
+    "Limits" : {
+      "comment" : "Oceanographic Entity Type\nIce Systems Entity Type"
+    },
+    "Lines" : {
+      "comment" : "Pressure Systems Entity Type"
+    },
+    "Lock" : {
+      "comment" : "Man-Made Structures Entity Type"
+    },
+    "Long Towed Array" : {
+      "comment" : "Naval towed array amplifier descriptor"
+    },
+    "Low Pressure Center" : {
+      "comment" : "Pressure Systems Entity Type"
+    },
+    "Mail Server" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Maintenance" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Man-Made Structures" : {
+      "comment" : "Oceanographic Entity Type"
+    },
+    "Manual Track" : {
+      "comment" : "Air Unit Entity"
+    },
+    "Maritime Area" : {
+      "comment" : "Limits Entity Type"
+    },
+    "Maritime Limit Boundary" : {
+      "comment" : "Limits Entity Type"
+    },
+    "Material" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Medical" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Medical Treatment Facility" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Meteorological" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Meteorological - Atmospheric" : {
+      "comment" : "Dimension"
+    },
+    "Meteorological - Oceanographic" : {
+      "comment" : "Dimension"
+    },
+    "Meteorological - Space" : {
+      "comment" : "Dimension"
+    },
+    "Military" : {
+      "comment" : "Air Unit Entity"
+    },
+    "Military Information Support Operations" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Military Intelligence" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Military Police" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Mine" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Mine Clearing" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Mine Launching" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Mine Laying" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Mine Warfare" : {
+      "comment" : "Dimension"
+    },
+    "Mine Warfare (MIW) Bottom Descriptors" : {
+      "comment" : "Geophysics/Acoustics Entity Type"
+    },
+    "Mine-Like Contact (MILCO)" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Mine-Like Echo (MILEC)-General" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Missile" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Mixed Icing" : {
+      "comment" : "Icing Entity Type"
+    },
+    "Moderate" : {
+      "comment" : "Turbulence Entity Type"
+    },
+    "Morale Welfare and Recreation" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Mortar" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Mortuary Affairs/Graves Registration" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Mountain Waves" : {
+      "comment" : "Turbulence Entity Type"
+    },
+    "Movement and Maneuver" : {
+      "comment" : "Land Unit Entity"
+    },
+    "Multiple Classes of Supply" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Named Headquarters" : {
+      "comment" : "Land Unit Entity"
+    },
+    "NATO Supply Class I" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "NATO Supply Class I|" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "NATO Supply Class III" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "NATO Supply Class IV" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "NATO Supply Class V" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Naval" : {
+      "comment" : "Land Unit Entity"
+    },
+    "Naval towed array" : {
+      "comment" : "Amplifier"
+    },
+    "Negative Reacquisition-General" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Network Outage" : {
+      "comment" : "Effect Entity Type\nHealth and Status Entity Type"
+    },
+    "Neutral" : {
+      "comment" : "Standard identity"
+    },
+    "Neutralized Mine-General" : {
+      "comment" : "Sea Mine General Entity Type"
+    },
+    "Non-Advanced Persistent Threat (NAPT)" : {
+      "comment" : "Infection Entity Type"
+    },
+    "Non-Government" : {
+      "comment" : "Device Domain Entity Type"
+    },
+    "Non-Mine Mine-Like Object (NMLO)-General" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "None" : {
+      "comment" : "Command and Control Entity Type\nFire Support Entity Type"
+    },
+    "Normal" : {
+      "comment" : "Health and Status Entity Type"
+    },
+    "Not Applicable" : {
+      "comment" : "Not Applicable amplifier descriptor\nAmplifier\nHeadquarters/Task force/Dummy"
+    },
+    "Observer" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Obstructor" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Oceanography" : {
+      "comment" : "Oceanographic Entity Type"
+    },
+    "Oil/Gas Rig" : {
+      "comment" : "Man-Made Structures Entity Type"
+    },
+    "Oil/Gas Rig Field" : {
+      "comment" : "Man-Made Structures Entity Type"
+    },
+    "Openings in the Ice" : {
+      "comment" : "Ice Systems Entity Type"
+    },
+    "Operator-Defined" : {
+      "comment" : "Limits Entity Type"
+    },
+    "Ordnance" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Over snow (prime mover)" : {
+      "comment" : "Equipment mobility on snow amplifier descriptor"
+    },
+    "Pack animals" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Peer-to-Peer Node" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Pending" : {
+      "comment" : "Standard identity"
+    },
+    "Personnel Services" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Petroleum Oil and Lubricants" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Pile/Piling/Post" : {
+      "comment" : "Man-Made Structures Entity Type"
+    },
+    "Pipeline" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Pipelines/Pipe" : {
+      "comment" : "Man-Made Structures Entity Type"
+    },
+    "Planned/Anticipated/Suspect" : {
+      "comment" : "Status"
+    },
+    "Platoon/Detachment" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Ports and Harbors" : {
+      "comment" : "Hydrography Entity Type"
+    },
+    "Postal" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Power Outage" : {
+      "comment" : "Effect Entity Type"
+    },
+    "Present" : {
+      "comment" : "Status"
+    },
+    "Present/Damaged" : {
+      "comment" : "Status"
+    },
+    "Present/Destroyed" : {
+      "comment" : "Status"
+    },
+    "Present/Full to Capacity" : {
+      "comment" : "Status"
+    },
+    "Present/Fully Capable" : {
+      "comment" : "Status"
+    },
+    "Pressure Systems" : {
+      "comment" : "Atmospheric Entity Type"
+    },
+    "Pressure Tendency" : {
+      "comment" : "Pressure Systems Entity Type"
+    },
+    "Protection" : {
+      "comment" : "Land Unit Entity"
+    },
+    "Public Affairs/Public Information" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Quartermaster" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Radar" : {
+      "comment" : "Signal Intercept Entity Type"
+    },
+    "Radio" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Radio Relay" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Radio Teletype Center" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Rail" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Railhead" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Reality" : {
+      "comment" : "Context"
+    },
+    "Reconnaissance/Cavalry/Scout" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Regiment/Group" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Region/Theater" : {
+      "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Religious Support" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Replacement Holding Unit" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Restricted Area" : {
+      "comment" : "Limits Entity Type"
+    },
+    "Rime Icing" : {
+      "comment" : "Icing Entity Type"
+    },
+    "Router" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Sea Air Land (SEAL)" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Sea Ice" : {
+      "comment" : "Ice Systems Entity Type"
+    },
+    "Sea Mine Decoy" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Sea Mine-Bottom" : {
+      "comment" : "Sea Mine General Entity Type"
+    },
+    "Sea Mine-Floating" : {
+      "comment" : "Sea Mine General Entity Type"
+    },
+    "Sea Mine-General" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Sea Mine-Moored" : {
+      "comment" : "Sea Mine General Entity Type"
+    },
+    "Sea Mine-Other Position" : {
+      "comment" : "Sea Mine General Entity Type"
+    },
+    "Sea Mine-Rising" : {
+      "comment" : "Sea Mine General Entity Type"
+    },
+    "Sea Port of Debarkation/Sea Port of Embarkation" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Sea Subsurface" : {
+      "comment" : "Dimension"
+    },
+    "Sea Surface" : {
+      "comment" : "Dimension"
+    },
+    "Search" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Search and Rescue" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Section" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Security" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Security Police (Air)" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Sensor" : {
+      "comment" : "Intelligence Entity Type"
+    },
+    "Service Outage" : {
+      "comment" : "Effect Entity Type"
+    },
+    "Severe" : {
+      "comment" : "Turbulence Entity Type"
+    },
+    "Shore Patrol" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Short Towed Array" : {
+      "comment" : "Naval towed array amplifier descriptor"
+    },
+    "SIDC:" : {
+
+    },
+    "Signal" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Signal Intercept" : {
+      "comment" : "Signals Intelligence Entity"
+    },
+    "Signals Intelligence - Air" : {
+      "comment" : "Dimension"
+    },
+    "Signals Intelligence - Land" : {
+      "comment" : "Dimension"
+    },
+    "Signals Intelligence - Space" : {
+      "comment" : "Dimension"
+    },
+    "Signals Intelligence - Subsurface" : {
+      "comment" : "Dimension"
+    },
+    "Signals Intelligence - Surface" : {
+      "comment" : "Dimension"
+    },
+    "Simulation" : {
+      "comment" : "Context"
+    },
+    "Sled" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Small Object-Mine-Like" : {
+      "comment" : "Sea Mine General Entity Type"
+    },
+    "Sniper" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Snow Cover" : {
+      "comment" : "Ice Systems Entity Type"
+    },
+    "Space" : {
+      "comment" : "Space Entity\nDimension"
+    },
+    "Space Missile" : {
+      "comment" : "Dimension"
+    },
+    "Special Forces" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Special Operations Forces (SOF)" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Squad" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Standard Identity" : {
+
+    },
+    "State of the Ground" : {
+      "comment" : "Atmospheric Entity Type"
+    },
+    "Status" : {
+
+    },
+    "Stream Line" : {
+      "comment" : "Winds Entity Type"
+    },
+    "Submarine Cable" : {
+      "comment" : "Man-Made Structures Entity Type"
+    },
+    "Submerged Crib" : {
+      "comment" : "Man-Made Structures Entity Type"
+    },
+    "Supervisory Control and Data Acquisition (SCADA)" : {
+      "comment" : "Device Domain Entity Type"
+    },
+    "Supply" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Surveillance" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Survey" : {
+      "comment" : "Fire Support Entity Type"
+    },
+    "Suspect/Joker" : {
+      "comment" : "Standard identity"
+    },
+    "Sustainment" : {
+      "comment" : "Land Unit Entity"
+    },
+    "Swept Area" : {
+      "comment" : "Limits Entity Type"
+    },
+    "Switch" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Tactical Satellite" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Task Force" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Task Force Headquarters" : {
+      "comment" : "Headquarters/Task force/Dummy"
+    },
+    "Team/Crew" : {
+      "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Tide and Current" : {
+      "comment" : "Hydrography Entity Type"
+    },
+    "Topographic" : {
+      "comment" : "Protection Entity Type"
+    },
+    "Topographical Features" : {
+      "comment" : "Ice Systems Entity Type"
+    },
+    "Towed" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Tracked" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Training Area" : {
+      "comment" : "Limits Entity Type"
+    },
+    "Transportation" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Turbulence" : {
+      "comment" : "Atmospheric Entity Type"
+    },
+    "Unexploded Ordnance" : {
+      "comment" : "Mine Warfare Entity"
+    },
+    "Unknown" : {
+      "comment" : "Health and Status Entity Type\nStandard identity"
+    },
+    "Unmanned Aerial Systems" : {
+      "comment" : "Movement and Maneuver Entity Type"
+    },
+    "US Supply Class I" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class II" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class III" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class IV" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class IX" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class V" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class VI" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class VII" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class VIII" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "US Supply Class X" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Use alternate status amplifiers" : {
+
+    },
+    "Video Imagery Combat Camera" : {
+      "comment" : "Command and Control Entity Type"
+    },
+    "Virtual Private Network (VPN)" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Water" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Water Purification" : {
+      "comment" : "Sustainment Entity Type"
+    },
+    "Weapon" : {
+      "comment" : "Air Unit Entity"
+    },
+    "Weather Symbols" : {
+      "comment" : "Atmospheric Entity Type"
+    },
+    "Web Server" : {
+      "comment" : "Device Type Entity Type"
+    },
+    "Wheeled and tracked combination" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Wheeled cross country" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Wheeled limited cross country" : {
+      "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Wind Plot" : {
+      "comment" : "Winds Entity Type"
+    },
+    "Winds" : {
+      "comment" : "Atmospheric Entity Type"
+    },
+    "Zombie" : {
+      "comment" : "Botnet Entity Type"
+    }
+  },
+  "version" : "1.0"
+}
