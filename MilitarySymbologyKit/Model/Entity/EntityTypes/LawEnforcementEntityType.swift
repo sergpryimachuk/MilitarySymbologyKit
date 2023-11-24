@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum LawEnforcementEntityType: String, CaseIterable, Identifiable {
+enum LawEnforcementEntityType: String, CaseIterable, EntityType {
     case alcoholTobaccoFirearmsExplosivesATF = "01"
     case borderPatrol = "02"
     case customsService = "03"

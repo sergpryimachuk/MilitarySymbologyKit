@@ -67,13 +67,13 @@ enum LandUnitEntity: String, CaseIterable, Identifiable, Entity {
         case .sustainment:
             SustainmentEntityType.allCases.map { AnyEntityType($0) }
         case .naval:
-            []
+            [.empty]
         case .namedHeadquarters:
-            []
+            NamedHeadquartersEntityType.allCases.map { AnyEntityType($0) }
         case .emergencyOperation:
-            []
+            EmergencyOperationEntityType.allCases.map { AnyEntityType($0) }
         case .lawEnforcement:
-            []
+            LawEnforcementEntityType.allCases.map { AnyEntityType($0) }
         }
     }
 }

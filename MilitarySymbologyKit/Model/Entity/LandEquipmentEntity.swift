@@ -8,6 +8,7 @@
 import Foundation
 
 enum LandEquipmentEntity: String, CaseIterable, Entity {
+    
     case weaponWeaponSystem = "11"
     case vehicle = "12"
     case engineerVehiclesAndEquipment = "13"
@@ -68,6 +69,39 @@ enum LandEquipmentEntity: String, CaseIterable, Entity {
             
         case .manualTrack:
             return String(localized: "Manual Track", comment: "Land Equipment Entity")
+        }
+    }
+    
+    var types: [AnyEntityType] {
+        switch self {
+        case .weaponWeaponSystem:
+            []
+        case .vehicle:
+            []
+        case .engineerVehiclesAndEquipment:
+            []
+        case .utilityVehicles:
+            []
+        case .train:
+            []
+        case .civilianVehicle:
+            []
+        case .lawEnforcement:
+            []
+        case .packAnimals:
+            []
+        case .missileSupport:
+            []
+        case .otherEquipment:
+            []
+        case .landMines:
+            []
+        case .sensors:
+            []
+        case .emergencyOperation:
+            []
+        case .manualTrack:
+            []
         }
     }
 }

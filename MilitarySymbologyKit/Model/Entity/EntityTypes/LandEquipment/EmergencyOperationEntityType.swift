@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum EmergencyOperationEntityType: String, CaseIterable, Identifiable {
+enum EmergencyOperationEntityType: String, CaseIterable, EntityType {
     case ambulance = "01"
     case fireFightingFireProtection = "02"
     

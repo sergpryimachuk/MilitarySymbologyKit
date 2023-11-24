@@ -27,4 +27,17 @@ enum AirUnitEntity: String, CaseIterable, Identifiable, Entity {
             return String(localized: "Manual Track", comment: "Air Unit Entity")
         }
     }
+    
+    var types: [AnyEntityType] {
+        switch self {
+        case .military:
+            []
+        case .civilian:
+            []
+        case .weapon:
+            []
+        case .manualTrack:
+            []
+        }
+    }
 }

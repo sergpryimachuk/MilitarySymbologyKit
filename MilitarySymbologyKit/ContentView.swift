@@ -74,6 +74,12 @@ struct ContentView: View {
                         }
                     }
                     
+                    Picker("Entity Type", selection: $symbol.entityType) {
+                        ForEach(symbol.entity.types) { entityType in
+                            Text(entityType.id + " " + entityType.name).tag(entityType)
+                        }
+                    }
+                    
                     Toggle("Civilian", isOn: $symbol.isCivilian)
                         .disabled(symbol.standartIdentity == .suspect || symbol.standartIdentity == .hostile)
                         .onChange(of: symbol.standartIdentity) { _, newValue in
