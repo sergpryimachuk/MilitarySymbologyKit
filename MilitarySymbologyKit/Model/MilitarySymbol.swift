@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 10.11.2023.
-//  
+//
 
 import Foundation
 import SwiftUI
@@ -40,7 +40,7 @@ extension MilitarySymbol {
         Dimension.allCases.forEach { dimention in
             dimention.entities.forEach { entity in
                 result.append(
-                    MilitarySymbol(standartIdentity: standartIdentity, 
+                    MilitarySymbol(standartIdentity: standartIdentity,
                                    dimention: dimention,
                                    entity: entity)
                 )
@@ -104,6 +104,53 @@ extension MilitarySymbol {
         }
     }
     
+    func makeMainIcon(
+        symbolSetDigits: String?,
+        entityDigits: String?,
+        entityTypeDigits: String?,
+        entitySubTypeDigits: String?
+    ) -> Image {
+        if let symbolSetDigits,
+           let entityDigits {
+            var assetName: String {
+                let string = symbolSetDigits
+                + entityDigits
+                + (entityTypeDigits ?? "00")
+                + (entitySubTypeDigits ?? "00")
+                return string
+            }
+            
+            return Image(assetName)
+        } else {
+            return Image("")
+        }
+    }
+    
+    func makeFullFrameMainIcon(
+        statusDigits: String?,
+        symbolSetDigits: String?,
+        entityDigits: String?,
+        entityTypeDigits: String?,
+        entitySubTypeDigits: String?
+    ) -> Image {
+        if let symbolSetDigits,
+           let entityDigits {
+            var assetName: String {
+                let string = symbolSetDigits
+                + entityDigits
+                + (entityTypeDigits ?? "00")
+                + (entitySubTypeDigits ?? "00")
+                //                + "_"
+                //                + (statusDigits ?? "00")
+                return string
+            }
+            
+            return Image(assetName)
+        } else {
+            return Image("")
+        }
+    }
+    
     func makeView(frameWidth: CGFloat? = nil) -> some View {
         ZStack {
             makeFrame()
@@ -115,6 +162,26 @@ extension MilitarySymbol {
             makeHQTFFD()
                 .resizable()
                 .scaledToFit()
+            
+            makeMainIcon(
+                symbolSetDigits: dimention.id,
+                entityDigits: entity.id,
+                entityTypeDigits: "00",
+                entitySubTypeDigits: "00"
+            )
+            .resizable()
+            .scaledToFit()
+            
+            makeFullFrameMainIcon(
+                statusDigits: status.id,
+                symbolSetDigits: dimention.id,
+                entityDigits: entity.id,
+                entityTypeDigits: "",
+                entitySubTypeDigits: ""
+            )
+            .resizable()
+            .scaledToFit()
+            
             makeOCA()
                 .resizable()
                 .scaledToFit()
