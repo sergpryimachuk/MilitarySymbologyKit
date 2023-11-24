@@ -14,6 +14,9 @@
 		054C276C2B110E2900324A82 /* LandMinesEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C276B2B110E2900324A82 /* LandMinesEntityType.swift */; };
 		054C276E2B110E7600324A82 /* SensorsEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C276D2B110E7600324A82 /* SensorsEntityType.swift */; };
 		054C27702B110EC400324A82 /* EmergencyOperationEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C276F2B110EC400324A82 /* EmergencyOperationEntityType.swift */; };
+		054C27732B111AC900324A82 /* LandInstallationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C27722B111AC900324A82 /* LandInstallationEntity.swift */; };
+		054C27752B111B4600324A82 /* InstallationEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C27742B111B4600324A82 /* InstallationEntityType.swift */; };
+		054C27772B111BAD00324A82 /* InfrastructureEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C27762B111BAD00324A82 /* InfrastructureEntityType.swift */; };
 		05A57B1A2B11000500F98863 /* LandEquipmentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A57B192B11000500F98863 /* LandEquipmentEntity.swift */; };
 		05A57B1C2B11019200F98863 /* WeaponSystemEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A57B1B2B11019200F98863 /* WeaponSystemEntityType.swift */; };
 		05A57B1F2B11048900F98863 /* VehicleEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A57B1E2B11048900F98863 /* VehicleEntityType.swift */; };
@@ -88,6 +91,9 @@
 		054C276B2B110E2900324A82 /* LandMinesEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMinesEntityType.swift; sourceTree = "<group>"; };
 		054C276D2B110E7600324A82 /* SensorsEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsEntityType.swift; sourceTree = "<group>"; };
 		054C276F2B110EC400324A82 /* EmergencyOperationEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyOperationEntityType.swift; sourceTree = "<group>"; };
+		054C27722B111AC900324A82 /* LandInstallationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandInstallationEntity.swift; sourceTree = "<group>"; };
+		054C27742B111B4600324A82 /* InstallationEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationEntityType.swift; sourceTree = "<group>"; };
+		054C27762B111BAD00324A82 /* InfrastructureEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureEntityType.swift; sourceTree = "<group>"; };
 		05A57B192B11000500F98863 /* LandEquipmentEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandEquipmentEntity.swift; sourceTree = "<group>"; };
 		05A57B1B2B11019200F98863 /* WeaponSystemEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponSystemEntityType.swift; sourceTree = "<group>"; };
 		05A57B1E2B11048900F98863 /* VehicleEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleEntityType.swift; sourceTree = "<group>"; };
@@ -166,6 +172,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054C27712B111A5100324A82 /* LandInstallation */ = {
+			isa = PBXGroup;
+			children = (
+				054C27742B111B4600324A82 /* InstallationEntityType.swift */,
+				054C27762B111BAD00324A82 /* InfrastructureEntityType.swift */,
+			);
+			name = LandInstallation;
+			sourceTree = "<group>";
+		};
 		05A57B1D2B1101A600F98863 /* LandEquipment */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +234,7 @@
 				930218302B010FBA004FA3D5 /* LandUnitEntity.swift */,
 				93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */,
 				05A57B192B11000500F98863 /* LandEquipmentEntity.swift */,
+				054C27722B111AC900324A82 /* LandInstallationEntity.swift */,
 				9302183F2B0134F4004FA3D5 /* EntityTypes */,
 			);
 			path = Entity;
@@ -237,6 +253,7 @@
 				0533959E2B10DC3B0097F767 /* NamedHeadquartersEntityType.swift */,
 				053395A02B10DCF10097F767 /* LawEnforcementEntityType.swift */,
 				05A57B1D2B1101A600F98863 /* LandEquipment */,
+				054C27712B111A5100324A82 /* LandInstallation */,
 			);
 			path = EntityTypes;
 			sourceTree = "<group>";
@@ -467,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054C27752B111B4600324A82 /* InstallationEntityType.swift in Sources */,
 				930218192B00FE7C004FA3D5 /* StandardIdentity.swift in Sources */,
 				930218222B010058004FA3D5 /* Amplifier.swift in Sources */,
 				93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */,
@@ -478,6 +496,7 @@
 				9302183B2B012EF5004FA3D5 /* NotApplicableDescriptor.swift in Sources */,
 				05A57B272B11082000F98863 /* CivilianVehicleEntityType.swift in Sources */,
 				9344964B2B10FE2100AD1B73 /* IcingEntityType.swift in Sources */,
+				054C27732B111AC900324A82 /* LandInstallationEntity.swift in Sources */,
 				934496352B10FE2100AD1B73 /* HealthAndStatusEntityType.swift in Sources */,
 				054C276C2B110E2900324A82 /* LandMinesEntityType.swift in Sources */,
 				930218252B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift in Sources */,
@@ -498,6 +517,7 @@
 				934496372B10FE2100AD1B73 /* DeviceTypeEntityType.swift in Sources */,
 				9330114F2B07B01C0053E2C2 /* ProtectionEntityType.swift in Sources */,
 				933011532B07B1EC0053E2C2 /* SustainmentEntityType.swift in Sources */,
+				054C27772B111BAD00324A82 /* InfrastructureEntityType.swift in Sources */,
 				9344963C2B10FE2100AD1B73 /* SignalInterceptEntityType.swift in Sources */,
 				9344964C2B10FE2100AD1B73 /* PressureSystemsEntityType.swift in Sources */,
 				930218372B012DBD004FA3D5 /* TestView.swift in Sources */,
