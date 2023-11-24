@@ -23,6 +23,65 @@ struct MilitarySymbol: Identifiable {
     var id: String { makeSIDC() }
 }
 
+extension StringProtocol {
+    subscript(offset: Int) -> String {
+        String(self[index(startIndex, offsetBy: offset)])
+    }
+}
+
+extension MilitarySymbol {
+    init?(sidc: String) {
+        if sidc.count != 20 {
+            print("It's not 20.")
+            return nil
+        } else {
+            guard let context = Context.init(rawValue: sidc[2]) else {
+                print("Context")
+                return nil
+            }
+            self.context = context
+            
+            guard let standardIdentity = StandardIdentity.init(rawValue: sidc[3]) else {
+                print("StandardIdentity")
+                return nil
+            }
+            self.standartIdentity = standardIdentity
+            
+            guard let dimention = Dimension.init(rawValue: sidc[4] + sidc[5]) else {
+                print("Dimension")
+                return nil
+            }
+            self.dimention = dimention
+            
+            guard let status = Status.init(rawValue: sidc[6]) else {
+                print("Status")
+                return nil
+            }
+            self.status = status
+            
+            guard let hqtfd = HQTFD.init(rawValue: sidc[7]) else {
+                print("HQTFD")
+                return nil
+            }
+            self.hqtfd = hqtfd
+            
+            guard let amplifier = Amplifier.init(rawValue: sidc[8]) else {
+                print("Amplifier")
+                return nil
+            }
+            self.amplifier = amplifier
+            
+            self.descriptor = AnyDescriptor(id: sidc[9], name: "")
+            
+            let entityDigits: String = sidc[10] + sidc[11]
+            self.entity = AnyEntity(id: entityDigits, name: "", types: [])
+            
+            let entityTypeDigits: String =  sidc[12] + sidc[13]
+            self.entityType = AnyEntityType(id: entityTypeDigits, name: "")
+        }
+    }
+}
+
 extension MilitarySymbol {
     static func search(text: String, standartIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
         Dimension.allCases.map { dimention in

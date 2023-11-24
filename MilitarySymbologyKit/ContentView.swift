@@ -6,7 +6,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var symbol = MilitarySymbol()
+    @State var symbol = MilitarySymbol()
     @State private var searchText = ""
     
     var body: some View {

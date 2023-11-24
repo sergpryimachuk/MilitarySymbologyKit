@@ -8,7 +8,7 @@ import SwiftUI
 struct MilitarySymbologyKitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           TestView()
         }
     }
 }
