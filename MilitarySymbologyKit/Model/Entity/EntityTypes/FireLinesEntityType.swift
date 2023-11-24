@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum FireLinesEntityType: String, CaseIterable, Identifiable {
+enum FireLinesEntityType: String, CaseIterable, EntityType {
     case fireSupportCoordinationLine = "01"
     case coordinatedFireLine = "02"
     case noFireLine = "03"

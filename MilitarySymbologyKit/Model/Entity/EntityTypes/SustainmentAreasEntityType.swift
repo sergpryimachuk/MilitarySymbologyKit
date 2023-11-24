@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum SustainmentAreasEntityType: String, CaseIterable, Identifiable {
+enum SustainmentAreasEntityType: String, CaseIterable, EntityType {
     case detaineeHoldingArea = "01"
     case enemyPrisonerOfWarHoldingArea = "02"
     case forwardArmingAndRefuelingPoint = "03"

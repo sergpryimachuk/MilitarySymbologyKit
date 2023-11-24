@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum FiresAreasEntityType: String, CaseIterable, Identifiable {
+enum FiresAreasEntityType: String, CaseIterable, EntityType {
     case airspaceCoordinationArea = "01"
     case freeFireArea = "02"
     case noFireArea = "03"

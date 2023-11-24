@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum AirspaceControlLinesEntityType: String, CaseIterable, Identifiable {
+enum AirspaceControlLinesEntityType: String, CaseIterable, EntityType {
     case identificationFriendOrFoeOffLine = "01"
     case identificationFriendOrFoeOnLine = "02"
     

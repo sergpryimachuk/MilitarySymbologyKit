@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum SustainmentLinesEntityType: String, CaseIterable, Identifiable {
+enum SustainmentLinesEntityType: String, CaseIterable, EntityType {
     case movingConvoy = "01"
     case haltedConvoy = "02"
     case mainSupplyRoute = "03"

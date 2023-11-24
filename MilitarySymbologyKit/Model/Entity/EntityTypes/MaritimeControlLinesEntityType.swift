@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum MaritimeControlLinesEntityType: String, CaseIterable, Identifiable {
+enum MaritimeControlLinesEntityType: String, CaseIterable, EntityType {
     case bearingLine = "01"
     
     var id: String { rawValue }

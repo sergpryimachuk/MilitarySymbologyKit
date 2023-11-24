@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ProtectionAreasEntityType: String, CaseIterable, Identifiable {
+enum ProtectionAreasEntityType: String, CaseIterable, EntityType {
     case obstacleBelt = "01"
     case obstacleZone = "02"
     case obstacleFreeZone = "03"

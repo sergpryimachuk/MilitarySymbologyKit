@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum DeceptionEntityType: String, CaseIterable, Identifiable {
+enum DeceptionEntityType: String, CaseIterable, EntityType {
     case decoyDummy = "01"
     case decoyDummyFeint = "02"
     

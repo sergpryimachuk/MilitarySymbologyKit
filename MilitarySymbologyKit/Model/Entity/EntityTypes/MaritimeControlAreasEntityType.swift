@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum MaritimeControlAreasEntityType: String, CaseIterable, Identifiable {
+enum MaritimeControlAreasEntityType: String, CaseIterable, EntityType {
     case launchArea = "01"
     case defendedArea = "02"
     case noAttackNOTACKZone = "03"

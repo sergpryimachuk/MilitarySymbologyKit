@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum MissionTasksEntityType: String, CaseIterable, Identifiable {
+enum MissionTasksEntityType: String, CaseIterable, EntityType {
     case block = "01"
     case breach = "02"
     case bypass = "03"

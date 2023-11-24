@@ -114,53 +114,53 @@ enum ControlMeasureEntity: String, CaseIterable, Entity {
     var types: [AnyEntityType] {
         switch self {
         case .commandAndControlLines:
-            []
+            CommandAndControlLinesEntityType.allCases.map { AnyEntityType($0) }
         case .commandAndControlAreas:
-            []
+            CommandAndControlAreasEntityType.allCases.map { AnyEntityType($0) }
         case .commandAndControlPoints:
-            []
+            CommandAndControlPointsEntityType.allCases.map { AnyEntityType($0) }
         case .maneuverLines:
-            []
+            ManeuverLinesEntityType.allCases.map { AnyEntityType($0) }
         case .maneuverAreas:
-            []
+            ManeuverAreasEntityType.allCases.map { AnyEntityType($0) }
         case .maneuverPoints:
-            []
+            ManeuverPointsEntityType.allCases.map { AnyEntityType($0) }
         case .airspaceControlCorridorsAreas:
-            []
+            AirspaceControlCorridorsAreasEntityType.allCases.map { AnyEntityType($0) }
         case .airspaceControlPoints:
-            []
+            AirspaceControlPointsEntityType.allCases.map { AnyEntityType($0) }
         case .airspaceControlLines:
-            []
+            AirspaceControlLinesEntityType.allCases.map { AnyEntityType($0) }
         case .maritimeControlAreas:
-            []
+            MaritimeControlAreasEntityType.allCases.map { AnyEntityType($0) }
         case .maritimeControlPoints:
-            []
+            MaritimeControlPointsEntityType.allCases.map { AnyEntityType($0) }
         case .maritimeControlLines:
-            []
+            MaritimeControlLinesEntityType.allCases.map { AnyEntityType($0) }
         case .deception:
-            []
+            DeceptionEntityType.allCases.map { AnyEntityType($0) }
         case .firesAreas:
-            []
+            FiresAreasEntityType.allCases.map { AnyEntityType($0) }
         case .firesPoints:
-            []
+            FiresPointsEntityType.allCases.map { AnyEntityType($0) }
         case .fireLines:
-            []
+            FireLinesEntityType.allCases.map { AnyEntityType($0) }
         case .protectionAreas:
-            []
+            ProtectionAreasEntityType.allCases.map { AnyEntityType($0) }
         case .protectionPoints:
-            []
+            ProtectionPointsEntityType.allCases.map { AnyEntityType($0) }
         case .protectionLines:
-            []
+            ProtectionLinesEntityType.allCases.map { AnyEntityType($0) }
         case .intelligenceLines:
-            []
+            IntelligenceLinesEntityType.allCases.map { AnyEntityType($0) }
         case .sustainmentAreas:
-            []
+            SustainmentAreasEntityType.allCases.map { AnyEntityType($0) }
         case .sustainmentPoints:
-            []
+            SustainmentPointsEntityType.allCases.map { AnyEntityType($0) }
         case .sustainmentLines:
-            []
+            SustainmentLinesEntityType.allCases.map { AnyEntityType($0) }
         case .missionTasks:
-            []
+            MissionTasksEntityType.allCases.map { AnyEntityType($0) }
         }
     }
 }

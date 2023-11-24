@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum ManeuverAreasEntityType: String, CaseIterable, Identifiable {
+enum ManeuverAreasEntityType: String, CaseIterable, EntityType {
     case area = "01"
     case assemblyArea = "02"
     case occupiedAssemblyArea = "03"
