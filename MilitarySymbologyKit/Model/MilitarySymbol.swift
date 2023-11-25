@@ -23,12 +23,6 @@ struct MilitarySymbol: Identifiable, Hashable {
     var id: String { makeSIDC() }
 }
 
-extension StringProtocol {
-    subscript(offset: Int) -> String {
-        String(self[index(startIndex, offsetBy: offset)])
-    }
-}
-
 extension MilitarySymbol {
     init?(sidc: String) {
         if sidc.count != 20 {
@@ -71,13 +65,25 @@ extension MilitarySymbol {
             }
             self.amplifier = amplifier
             
-            self.descriptor = AnyDescriptor(id: sidc[9], name: "")
+            guard let descriptor = amplifier.descriptors.first(where: {$0.id == sidc[9] }) else {
+                print("Descriptor")
+                return nil
+            }
+            self.descriptor = descriptor
             
             let entityDigits: String = sidc[10] + sidc[11]
-            self.entity = AnyEntity(id: entityDigits, name: "", types: [])
+            guard let entity = dimention.entities.first(where: { $0.id == entityDigits } ) else {
+                print("Entity")
+                return nil
+            }
+            self.entity = entity
             
             let entityTypeDigits: String =  sidc[12] + sidc[13]
-            self.entityType = AnyEntityType(id: entityTypeDigits, name: "")
+            guard let entityType = entity.types.first(where: { $0.id == entityTypeDigits } ) else {
+                print("EntityType")
+                return nil
+            }
+            self.entityType = entityType
         }
     }
 }

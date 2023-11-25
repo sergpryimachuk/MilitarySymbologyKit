@@ -62,7 +62,7 @@ struct ContentView: View {
                 }
                 
                 Picker("Descriptor", selection: $symbol.descriptor) {
-                    ForEach(symbol.amplifier.possibleDescriptors) { descriptor in
+                    ForEach(symbol.amplifier.descriptors) { descriptor in
                         Text(descriptor.id + " " + descriptor.name).tag(AnyDescriptor(descriptor))
                     }
                 }

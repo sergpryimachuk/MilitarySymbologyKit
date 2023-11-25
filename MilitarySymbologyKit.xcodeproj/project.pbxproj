@@ -111,6 +111,7 @@
 		939B44BA2AFE485C00A67880 /* MilitarySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44B92AFE485C00A67880 /* MilitarySymbol.swift */; };
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
 		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
+		93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -219,6 +220,7 @@
 		939B44B92AFE485C00A67880 /* MilitarySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbol.swift; sourceTree = "<group>"; };
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
+		93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,6 +487,7 @@
 		939B44A32AFE39C700A67880 /* MilitarySymbologyKit */ = {
 			isa = PBXGroup;
 			children = (
+				93F703EB2B1239C800EC73C9 /* Extensions */,
 				939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */,
 				939B44A62AFE39C700A67880 /* ContentView.swift */,
 				934495D02B10CA9000AD1B73 /* SearchView.swift */,
@@ -517,6 +520,14 @@
 				9302183C2B013461004FA3D5 /* Entity */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		93F703EB2B1239C800EC73C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -608,6 +619,7 @@
 				054C27942B11266700324A82 /* DeceptionEntityType.swift in Sources */,
 				05A57B272B11082000F98863 /* CivilianVehicleEntityType.swift in Sources */,
 				9344AFDF2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift in Sources */,
+				93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */,
 				9344964B2B10FE2100AD1B73 /* IcingEntityType.swift in Sources */,
 				054C277E2B111E9600324A82 /* CommandAndControlAreasEntityType.swift in Sources */,
 				054C27732B111AC900324A82 /* LandInstallationEntity.swift in Sources */,

@@ -40,7 +40,7 @@ enum Amplifier: String, CaseIterable, Identifiable {
         }
     }
     
-    var possibleDescriptors: [AnyDescriptor] {
+    var descriptors: [AnyDescriptor] {
         switch self {
         case .notApplicable:
             NotApplicableDescriptor.allCases.map { AnyDescriptor($0) }
