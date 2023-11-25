@@ -35,6 +35,8 @@ struct TestView: View {
                                 symbol.makeView(frameWidth: 60)
                             }
                         }
+                    } else {
+                        Text("\(code) is broken.")
                     }
                 }
             }
