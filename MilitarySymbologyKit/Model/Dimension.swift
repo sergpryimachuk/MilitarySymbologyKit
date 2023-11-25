@@ -138,9 +138,9 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .controlMeasure:
             ControlMeasureEntity.allCases.map { AnyEntity($0) }
         case .seaSurface:
-            []
+            SeaSurfaceEntity.allCases.map { AnyEntity($0) }
         case .seaSubsurface:
-            []
+            SeaSubsurfaceEntity.allCases.map { AnyEntity($0) }
         case .mineWarfare:
             MineWarfareEntity.allCases.map { AnyEntity($0) }
         case .activities:
