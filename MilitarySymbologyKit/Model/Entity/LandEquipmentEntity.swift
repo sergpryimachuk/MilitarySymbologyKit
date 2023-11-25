@@ -89,7 +89,7 @@ enum LandEquipmentEntity: String, CaseIterable, Entity {
         case .lawEnforcement:
             LawEnforcementEntityType.allCases.map { AnyEntityType($0) }
         case .packAnimals:
-            [.empty]
+            [.none]
         case .missileSupport:
             MissileSupportEntityType.allCases.map { AnyEntityType($0) }
         case .otherEquipment:
@@ -101,7 +101,7 @@ enum LandEquipmentEntity: String, CaseIterable, Entity {
         case .emergencyOperation:
             EmergencyOperationEntityType.allCases.map { AnyEntityType($0) }
         case .manualTrack:
-            [.empty]
+            [.none]
         }
     }
 }

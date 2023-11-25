@@ -72,7 +72,7 @@ struct ContentView: View {
                         Text(entity.id + " " + entity.name).tag(entity)
                     }
                     .onChange(of: symbol.entity) {
-                        symbol.entityType = .empty
+                        symbol.entityType = .none
                     }
                 }
                 

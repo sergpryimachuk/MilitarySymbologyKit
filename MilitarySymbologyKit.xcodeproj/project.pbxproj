@@ -112,6 +112,9 @@
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
 		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
 		93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */; };
+		93F703F02B123FD500EC73C9 /* MilitaryEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703EF2B123FD500EC73C9 /* MilitaryEntityType.swift */; };
+		93F703F22B1240C400EC73C9 /* CivilianEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703F12B1240C400EC73C9 /* CivilianEntityType.swift */; };
+		93F703F42B12411600EC73C9 /* WeaponEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703F32B12411600EC73C9 /* WeaponEntityType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -221,6 +224,9 @@
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
 		93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Ext.swift"; sourceTree = "<group>"; };
+		93F703EF2B123FD500EC73C9 /* MilitaryEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitaryEntityType.swift; sourceTree = "<group>"; };
+		93F703F12B1240C400EC73C9 /* CivilianEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CivilianEntityType.swift; sourceTree = "<group>"; };
+		93F703F32B12411600EC73C9 /* WeaponEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponEntityType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -464,6 +470,9 @@
 		9344AFE02B11367800BFFBC6 /* SeaSubsurface */ = {
 			isa = PBXGroup;
 			children = (
+				93F703EF2B123FD500EC73C9 /* MilitaryEntityType.swift */,
+				93F703F12B1240C400EC73C9 /* CivilianEntityType.swift */,
+				93F703F32B12411600EC73C9 /* WeaponEntityType.swift */,
 			);
 			name = SeaSubsurface;
 			sourceTree = "<group>";
@@ -638,6 +647,7 @@
 				930218312B010FBA004FA3D5 /* LandUnitEntity.swift in Sources */,
 				9344963B2B10FE2100AD1B73 /* CyberspaceEntity.swift in Sources */,
 				934496472B10FE2100AD1B73 /* ManMadeStructuresEntityType.swift in Sources */,
+				93F703F02B123FD500EC73C9 /* MilitaryEntityType.swift in Sources */,
 				054C27902B1122BB00324A82 /* MaritimeControlPointsEntityType.swift in Sources */,
 				939B44BA2AFE485C00A67880 /* MilitarySymbol.swift in Sources */,
 				9302181D2B00FF8C004FA3D5 /* Status.swift in Sources */,
@@ -657,6 +667,7 @@
 				930218372B012DBD004FA3D5 /* TestView.swift in Sources */,
 				934496392B10FE2100AD1B73 /* InfectionEntityType.swift in Sources */,
 				054C276E2B110E7600324A82 /* SensorsEntityType.swift in Sources */,
+				93F703F22B1240C400EC73C9 /* CivilianEntityType.swift in Sources */,
 				9344964E2B10FE2100AD1B73 /* AtmosphericEntity.swift in Sources */,
 				930218432B013685004FA3D5 /* MovementAndManeuverEntityType.swift in Sources */,
 				054C27862B11205B00324A82 /* ManeuverPointsEntityType.swift in Sources */,
@@ -701,6 +712,7 @@
 				934496402B10FE2100AD1B73 /* SeaMineGeneralEntityType.swift in Sources */,
 				054C279E2B11284100324A82 /* ProtectionPointsEntityType.swift in Sources */,
 				054C278C2B1121A400324A82 /* AirspaceControlLinesEntityType.swift in Sources */,
+				93F703F42B12411600EC73C9 /* WeaponEntityType.swift in Sources */,
 				054C279A2B11278700324A82 /* FireLinesEntityType.swift in Sources */,
 				9302182B2B0101AD004FA3D5 /* EquipmentMobilitySnowDescriptor.swift in Sources */,
 				054C27AA2B112A5D00324A82 /* MissionTasksEntityType.swift in Sources */,

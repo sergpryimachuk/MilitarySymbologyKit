@@ -22,6 +22,6 @@ extension AnyEntityType {
 }
 
 extension AnyEntityType {
-    static let empty: AnyEntityType = AnyEntityType(id: "00", 
+    static let none: AnyEntityType = AnyEntityType(id: "00", 
                                                     name: String(localized: "None"))
 }

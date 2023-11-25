@@ -15,7 +15,7 @@ struct MilitarySymbol: Identifiable, Hashable {
     var amplifier: Amplifier = .notApplicable
     var descriptor: AnyDescriptor = AnyDescriptor(NotApplicableDescriptor.notApplicable)
     var entity: AnyEntity = AnyEntity(AirUnitEntity.military)
-    var entityType: AnyEntityType = .empty
+    var entityType: AnyEntityType = .none
     
     var isCivilian: Bool = false
     var isAlternateStatusAmplifiers: Bool = false

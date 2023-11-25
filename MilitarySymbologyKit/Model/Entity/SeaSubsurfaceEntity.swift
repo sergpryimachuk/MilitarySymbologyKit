@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum SeaSubsurfaceEntity: String, CaseIterable, Identifiable {
+enum SeaSubsurfaceEntity: String, CaseIterable, Entity {
     case military = "11"
     case civilian = "12"
     case weapon = "13"
@@ -35,5 +35,21 @@ enum SeaSubsurfaceEntity: String, CaseIterable, Identifiable {
             return String(localized: "Manual Track", comment: "Sea Subsurface Entity")
         }
     }
+    
+    var types: [AnyEntityType] {
+        switch self {
+        case .military:
+            MilitaryEntityType.allCases.map { AnyEntityType($0) }
+        case .civilian:
+            CivilianEntityType.allCases.map { AnyEntityType($0) }
+        case .weapon:
+            WeaponEntityType.allCases.map { AnyEntityType($0) }
+        case .echoTrackerClassifier:
+            [.none]
+        case .fusedTrack:
+            [.none]
+        case .manualTrack:
+            [.none]
+        }
+    }
 }
-

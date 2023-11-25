@@ -17,6 +17,6 @@ enum SpaceEntity: String, CaseIterable, Entity {
     }
     
     var types: [AnyEntityType] {
-        [.empty]
+        [.none]
     }
 }

@@ -61,7 +61,7 @@ enum MineWarfareEntity: String, CaseIterable, Entity {
         case .seaMineGeneral:
             SeaMineGeneralEntityType.allCases.map { AnyEntityType($0) }
         case .unexplodedOrdnance:
-            [.empty]
+            [.none]
         case .seaMineDecoy:
             SeaMineDecoyEntityType.allCases.map { AnyEntityType($0) }
         case .mineLikeContactMILCO:
@@ -73,13 +73,13 @@ enum MineWarfareEntity: String, CaseIterable, Entity {
         case .obstructor:
             ObstructorEntityType.allCases.map { AnyEntityType($0) }
         case .generalMineAnchor:
-            [.empty]
+            [.none]
         case .nonMineMineLikeObjectNMLOGeneral:
             NonMineMineLikeObjectNMLOGeneralEntityType.allCases.map { AnyEntityType($0) }
         case .environmentalReportLocation:
-            [.empty]
+            [.none]
         case .diveReportLocation:
-            [.empty]
+            [.none]
         }
     }
 }
