@@ -1,0 +1,48 @@
+//
+//  Created with ♥ by Serhii Pryimachuk on 25.11.2023.
+//  
+
+import Foundation
+
+extension AirUnitEntity {
+    enum MilitaryEntityType: String, CaseIterable, EntityType {
+        case none = "00"
+        case fixedWing = "01"
+        case rotaryWing = "02"
+        case unmannedAircraftUA_UAV_UAS_RPV = "03"
+        case verticalTakeoffUAVVT_UAV = "04"
+        case lighterThanAir = "05"
+        case airship = "06"
+        case tetheredLighterThanAir = "07"
+        
+        var id: String { rawValue }
+        
+        var name: String {
+            switch self {
+            case .none:
+                return String(localized: "None")
+                
+            case .fixedWing:
+                return String(localized: "Fixed-Wing", comment: "Military Entity Type")
+                
+            case .rotaryWing:
+                return String(localized: "Rotary-Wing", comment: "Military Entity Type")
+                
+            case .unmannedAircraftUA_UAV_UAS_RPV:
+                return String(localized: "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)", comment: "Military Entity Type")
+                
+            case .verticalTakeoffUAVVT_UAV:
+                return String(localized: "Vertical-Takeoff UAV (VT-UAV)", comment: "Military Entity Type")
+                
+            case .lighterThanAir:
+                return String(localized: "Lighter Than Air", comment: "Military Entity Type")
+                
+            case .airship:
+                return String(localized: "Airship", comment: "Military Entity Type")
+                
+            case .tetheredLighterThanAir:
+                return String(localized: "Tethered Lighter Than Air", comment: "Military Entity Type")
+            }
+        }
+    }
+}

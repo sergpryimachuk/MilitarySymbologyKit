@@ -31,13 +31,13 @@ enum AirUnitEntity: String, CaseIterable, Identifiable, Entity {
     var types: [AnyEntityType] {
         switch self {
         case .military:
-            []
+            MilitaryEntityType.allCases.map { AnyEntityType($0) }
         case .civilian:
-            []
+            CivilianEntityType.allCases.map { AnyEntityType($0) }
         case .weapon:
-            []
+            WeaponEntityType.allCases.map { AnyEntityType($0) }
         case .manualTrack:
-            []
+            [.none]
         }
     }
 }

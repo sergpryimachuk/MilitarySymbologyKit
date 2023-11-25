@@ -59,15 +59,15 @@ enum AtmosphericEntity: String, CaseIterable, Entity {
         case .winds:
             WindsEntityType.allCases.map { AnyEntityType($0) }
         case .cloudCover:
-            []
+            CloudCoverEntityType.allCases.map { AnyEntityType($0) }
         case .weatherSymbols:
-            []
+            WeatherSymbolsEntityType.allCases.map { AnyEntityType($0) }
         case .boundedAreasOfWeather:
-            []
+            BoundedAreasOfWeatherEntityType.allCases.map { AnyEntityType($0) }
         case .isopleths:
-            []
+            IsoplethsEntityType.allCases.map { AnyEntityType($0) }
         case .stateOfTheGround:
-            []
+            StateOfGroundEntityType.allCases.map { AnyEntityType($0) }
         }
     }
 }

@@ -71,7 +71,7 @@ enum LandUnitEntity: String, CaseIterable, Identifiable, Entity {
         case .namedHeadquarters:
             NamedHeadquartersEntityType.allCases.map { AnyEntityType($0) }
         case .emergencyOperation:
-            EmergencyOperationEntityType.allCases.map { AnyEntityType($0) }
+            [.none]
         case .lawEnforcement:
             LawEnforcementEntityType.allCases.map { AnyEntityType($0) }
         }
