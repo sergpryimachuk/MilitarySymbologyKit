@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MilitarySymbolPicker: View {
     
     @State var symbol = MilitarySymbol()
     @State private var searchText = ""
@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         Form {
             
-            SearchView(searchText: $searchText, selectedSymbol: $symbol)
+            MilitarySymbolSearchResults(searchText: $searchText, selectedSymbol: $symbol)
             
             Section {
                 HStack {
@@ -105,5 +105,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MilitarySymbolPicker()
 }

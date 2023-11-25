@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct SearchView: View {
+struct MilitarySymbolSearchResults: View {
     
     @Binding var searchText: String
     @Binding var selectedSymbol: MilitarySymbol
@@ -34,7 +34,7 @@ fileprivate struct PreviewWprapper: View {
     
     var body: some View {
         Form {
-            SearchView(searchText: $text, selectedSymbol: $symbol)
+            MilitarySymbolSearchResults(searchText: $text, selectedSymbol: $symbol)
         }
         .searchable(text: $text, isPresented: .constant(true))
     }

@@ -39,7 +39,7 @@ struct TestView: View {
                 }
             }
             .navigationDestination(for: MilitarySymbol.self) { symbol in
-                ContentView(symbol: symbol)
+                MilitarySymbolPicker(symbol: symbol)
             }
         }
     }
