@@ -5,10 +5,10 @@
 import Foundation
 import SwiftUI
 
-struct MilitarySymbol: Identifiable {
+struct MilitarySymbol: Identifiable, Hashable {
     private let version: String = "01"
     var context: Context = .reality
-    var standartIdentity: StandardIdentity = .unknown
+    var standardIdentity: StandardIdentity = .unknown
     var dimention: Dimension = .air
     var status: Status = .present
     var hqtfd: HQTFD = .notApplicable
@@ -45,7 +45,7 @@ extension MilitarySymbol {
                 print("StandardIdentity")
                 return nil
             }
-            self.standartIdentity = standardIdentity
+            self.standardIdentity = standardIdentity
             
             guard let dimention = Dimension.init(rawValue: sidc[4] + sidc[5]) else {
                 print("Dimension")
@@ -83,9 +83,9 @@ extension MilitarySymbol {
 }
 
 extension MilitarySymbol {
-    static func search(text: String, standartIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
+    static func search(text: String, standardIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
         Dimension.allCases.map { dimention in
-            MilitarySymbol(standartIdentity: standartIdentity, dimention: dimention)
+            MilitarySymbol(standardIdentity: standardIdentity, dimention: dimention)
         }.filter { symbol in
             if text.isEmpty {
                 true
@@ -95,7 +95,7 @@ extension MilitarySymbol {
         }
     }
     
-    static func searched(text: String, standartIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
+    static func searched(text: String, standardIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
         if text.isEmpty {
             return []
         } else {
@@ -104,7 +104,7 @@ extension MilitarySymbol {
                 dimention.entities.forEach { entity in
                     entity.types.forEach { entityType in
                         result.append(
-                            MilitarySymbol(standartIdentity: standartIdentity,
+                            MilitarySymbol(standardIdentity: standardIdentity,
                                            dimention: dimention,
                                            entity: entity,
                                            entityType: entityType)
@@ -126,7 +126,7 @@ extension MilitarySymbol {
 
 extension MilitarySymbol {
     func makeSIDC() -> String {
-        version + context.id + standartIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + entity.id + entityType.id + "00000000"
+        version + context.id + standardIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + entity.id + entityType.id + "00000000"
     }
     
     func makeFrame() -> Image {
@@ -144,21 +144,21 @@ extension MilitarySymbol {
             }
         }
         
-        return Image(context.id + "_" + standartIdentity.id + dimention.assetDigit + "_" + lastDigit)
+        return Image(context.id + "_" + standardIdentity.id + dimention.assetDigit + "_" + lastDigit)
     }
     
     func makeAmplifier() -> Image {
-        return Image(standartIdentity.assetGigit + amplifier.id + descriptor.id)
+        return Image(standardIdentity.assetGigit + amplifier.id + descriptor.id)
     }
     
-    // Uses SIDC positions 4-6 (standartIdentity-dimention) and position 8 (hqtfd).
+    // Uses SIDC positions 4-6 (standardIdentity-dimention) and position 8 (hqtfd).
     func makeHQTFFD() -> Image {
-        return Image(standartIdentity.assetGigit + dimention.assetDigit + hqtfd.id)
+        return Image(standardIdentity.assetGigit + dimention.assetDigit + hqtfd.id)
     }
     
     //    func makeOCA() -> Image {
     //        if isAlternateStatusAmplifiers {
-    //            return Image(context.id + standartIdentity.assetGigit + dimention.assetDigit + status.id + "2")
+    //            return Image(context.id + standardIdentity.assetGigit + dimention.assetDigit + status.id + "2")
     //        } else {
     //            switch status {
     //            case .presentDamaged:
@@ -288,7 +288,7 @@ extension MilitarySymbol {
             
             makeOCA(
                 contextDigits: context.id,
-                standardIdentityDigits: standartIdentity.id,
+                standardIdentityDigits: standardIdentity.id,
                 symbolSetDigits: dimention.id,
                 statusDigits: status.id,
                 isAlternateStatusAmplifiers: isAlternateStatusAmplifiers

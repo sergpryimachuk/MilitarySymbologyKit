@@ -12,7 +12,7 @@ struct SearchView: View {
     //    @State private var selectedIdentity: StandardIdentity = .unknown
     
     var body: some View {
-        ForEach(MilitarySymbol.searched(text: searchText, standartIdentity: selectedSymbol.standartIdentity)) { symbol in
+        ForEach(MilitarySymbol.searched(text: searchText, standardIdentity: selectedSymbol.standardIdentity)) { symbol in
             Button {
                 selectedSymbol = symbol
                 searchText = ""
