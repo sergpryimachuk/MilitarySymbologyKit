@@ -128,6 +128,7 @@
 		93F7041A2B124CF000EC73C9 /* BoundedAreasOfWeatherEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F704192B124CF000EC73C9 /* BoundedAreasOfWeatherEntityType.swift */; };
 		93F7041C2B124D5200EC73C9 /* IsoplethsEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7041B2B124D5200EC73C9 /* IsoplethsEntityType.swift */; };
 		93F7041E2B124DCE00EC73C9 /* StateOfGroundEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7041D2B124DCE00EC73C9 /* StateOfGroundEntityType.swift */; };
+		93F704202B1252D500EC73C9 /* MissileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7041F2B1252D500EC73C9 /* MissileEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -253,6 +254,7 @@
 		93F704192B124CF000EC73C9 /* BoundedAreasOfWeatherEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundedAreasOfWeatherEntityType.swift; sourceTree = "<group>"; };
 		93F7041B2B124D5200EC73C9 /* IsoplethsEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsoplethsEntityType.swift; sourceTree = "<group>"; };
 		93F7041D2B124DCE00EC73C9 /* StateOfGroundEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateOfGroundEntityType.swift; sourceTree = "<group>"; };
+		93F7041F2B1252D500EC73C9 /* MissileEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissileEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +315,7 @@
 		9302183F2B0134F4004FA3D5 /* EntityTypes */ = {
 			isa = PBXGroup;
 			children = (
+				93F7041F2B1252D500EC73C9 /* MissileEntity.swift */,
 				93F7040D2B12498300EC73C9 /* AirUnit */,
 				93F7040B2B1248F600EC73C9 /* LandUnit */,
 				9344961A2B10FE2100AD1B73 /* Signals Intelligence */,
@@ -801,6 +804,7 @@
 				054C278E2B1121FA00324A82 /* MaritimeControlAreasEntityType.swift in Sources */,
 				054C279C2B1127DD00324A82 /* ProtectionAreasEntityType.swift in Sources */,
 				9302183E2B01349A004FA3D5 /* EntityType.swift in Sources */,
+				93F704202B1252D500EC73C9 /* MissileEntity.swift in Sources */,
 				0533959F2B10DC3B0097F767 /* NamedHeadquartersEntityType.swift in Sources */,
 				934496382B10FE2100AD1B73 /* BotnetEntityType.swift in Sources */,
 				9344963A2B10FE2100AD1B73 /* DeviceDomainEntityType.swift in Sources */,

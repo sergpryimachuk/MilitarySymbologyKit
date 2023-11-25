@@ -122,11 +122,11 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .air:
             AirUnitEntity.allCases.map { AnyEntity($0) }
         case .airMissile:
-            []
+            MissileEntity.allCases.map { AnyEntity($0) }
         case .space:
             []
         case .spaceMissile:
-            []
+            MissileEntity.allCases.map { AnyEntity($0) }
         case .landUnits:
             LandUnitEntity.allCases.map { AnyEntity($0) }
          case .landCivilian:
@@ -146,11 +146,11 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .activities:
             []
         case .meteorologicalAtmospheric:
-            []
+            AtmosphericEntity.allCases.map { AnyEntity($0) }
         case .meteorologicalOceanographic:
-            []
+            OceanographicEntity.allCases.map { AnyEntity($0) }
         case .meteorologicalSpace:
-            []
+            SpaceEntity.allCases.map { AnyEntity($0) }
         case .signalsIntelligenceSpace, .signalsIntelligenceAir, .signalsIntelligenceLand, .signalsIntelligenceSurface, .signalsIntelligenceSubsurface:
             SignalsIntelligenceEntity.allCases.map { AnyEntity($0) }
         case .cyberspace:
