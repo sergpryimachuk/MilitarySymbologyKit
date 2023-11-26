@@ -16,10 +16,10 @@ enum TrainEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .locomotive:
-            return String(localized: "Locomotive", comment: "Train Entity Type")
+            String(localized: "Locomotive", comment: "Train Entity Type")
             
         case .railcar:
-            return String(localized: "Railcar", comment: "Train Entity Type")
+            String(localized: "Railcar", comment: "Train Entity Type")
         }
     }
 }

@@ -20,31 +20,31 @@ enum AtmosphericEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .pressureSystems:
-            return String(localized: "Pressure Systems", comment: "Atmospheric Entity Type")
+            String(localized: "Pressure Systems", comment: "Atmospheric Entity Type")
             
         case .turbulence:
-            return String(localized: "Turbulence", comment: "Atmospheric Entity Type")
+            String(localized: "Turbulence", comment: "Atmospheric Entity Type")
             
         case .icing:
-            return String(localized: "Icing", comment: "Atmospheric Entity Type")
+            String(localized: "Icing", comment: "Atmospheric Entity Type")
             
         case .winds:
-            return String(localized: "Winds", comment: "Atmospheric Entity Type")
+            String(localized: "Winds", comment: "Atmospheric Entity Type")
             
         case .cloudCover:
-            return String(localized: "Cloud Cover", comment: "Atmospheric Entity Type")
+            String(localized: "Cloud Cover", comment: "Atmospheric Entity Type")
             
         case .weatherSymbols:
-            return String(localized: "Weather Symbols", comment: "Atmospheric Entity Type")
+            String(localized: "Weather Symbols", comment: "Atmospheric Entity Type")
             
         case .boundedAreasOfWeather:
-            return String(localized: "Bounded Areas of Weather", comment: "Atmospheric Entity Type")
+            String(localized: "Bounded Areas of Weather", comment: "Atmospheric Entity Type")
             
         case .isopleths:
-            return String(localized: "Isopleths", comment: "Atmospheric Entity Type")
+            String(localized: "Isopleths", comment: "Atmospheric Entity Type")
             
         case .stateOfTheGround:
-            return String(localized: "State of the Ground", comment: "Atmospheric Entity Type")
+            String(localized: "State of the Ground", comment: "Atmospheric Entity Type")
         }
     }
     

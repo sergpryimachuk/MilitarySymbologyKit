@@ -36,70 +36,70 @@ enum InstallationEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .aircraftProductionAssembly:
-            return String(localized: "Aircraft Production/Assembly", comment: "Installation Entity Type")
+            String(localized: "Aircraft Production/Assembly", comment: "Installation Entity Type")
             
         case .ammunitionAndExplosivesAssembly:
-            return String(localized: "Ammunition and Explosives/Assembly", comment: "Installation Entity Type")
+            String(localized: "Ammunition and Explosives/Assembly", comment: "Installation Entity Type")
             
         case .ammunitionCache:
-            return String(localized: "Ammunition Cache", comment: "Installation Entity Type")
+            String(localized: "Ammunition Cache", comment: "Installation Entity Type")
             
         case .armamentProduction:
-            return String(localized: "Armament Production", comment: "Installation Entity Type")
+            String(localized: "Armament Production", comment: "Installation Entity Type")
             
         case .blackListLocation:
-            return String(localized: "Black List Location", comment: "Installation Entity Type")
+            String(localized: "Black List Location", comment: "Installation Entity Type")
             
         case .chemicalBiologicalRadiologicalNuclearCBRN:
-            return String(localized: "Chemical-Biological-Radiological and Nuclear (CBRN)", comment: "Installation Entity Type")
+            String(localized: "Chemical-Biological-Radiological and Nuclear (CBRN)", comment: "Installation Entity Type")
             
         case .engineeringEquipmentProduction:
-            return String(localized: "Engineering Equipment Production", comment: "Installation Entity Type")
+            String(localized: "Engineering Equipment Production", comment: "Installation Entity Type")
             
         case .equipmentManufacture:
-            return String(localized: "Equipment Manufacture", comment: "Installation Entity Type")
+            String(localized: "Equipment Manufacture", comment: "Installation Entity Type")
             
         case .governmentLeadership:
-            return String(localized: "Government Leadership", comment: "Installation Entity Type")
+            String(localized: "Government Leadership", comment: "Installation Entity Type")
             
         case .grayListLocation:
-            return String(localized: "Gray List Location", comment: "Installation Entity Type")
+            String(localized: "Gray List Location", comment: "Installation Entity Type")
             
         case .massGraveSite:
-            return String(localized: "Mass Grave Site", comment: "Installation Entity Type")
+            String(localized: "Mass Grave Site", comment: "Installation Entity Type")
             
         case .materiel:
-            return String(localized: "Materiel", comment: "Installation Entity Type")
+            String(localized: "Materiel", comment: "Installation Entity Type")
             
         case .mine:
-            return String(localized: "Mine", comment: "Installation Entity Type")
+            String(localized: "Mine", comment: "Installation Entity Type")
             
         case .missileAndSpaceSystemProduction:
-            return String(localized: "Missile and Space System Production", comment: "Installation Entity Type")
+            String(localized: "Missile and Space System Production", comment: "Installation Entity Type")
             
         case .nuclearNonCBRNDefense:
-            return String(localized: "Nuclear (Non CBRN Defense)", comment: "Installation Entity Type")
+            String(localized: "Nuclear (Non CBRN Defense)", comment: "Installation Entity Type")
             
         case .printedMedia:
-            return String(localized: "Printed Media", comment: "Installation Entity Type")
+            String(localized: "Printed Media", comment: "Installation Entity Type")
             
         case .safeHouse:
-            return String(localized: "Safe House", comment: "Installation Entity Type")
+            String(localized: "Safe House", comment: "Installation Entity Type")
             
         case .whiteListLocation:
-            return String(localized: "White List Location", comment: "Installation Entity Type")
+            String(localized: "White List Location", comment: "Installation Entity Type")
             
         case .tentedCamp:
-            return String(localized: "Tented Camp", comment: "Installation Entity Type")
+            String(localized: "Tented Camp", comment: "Installation Entity Type")
             
         case .warehouseStorageFacility:
-            return String(localized: "Warehouse/Storage Facility", comment: "Installation Entity Type")
+            String(localized: "Warehouse/Storage Facility", comment: "Installation Entity Type")
             
         case .lawEnforcement:
-            return String(localized: "Law Enforcement", comment: "Installation Entity Type")
+            String(localized: "Law Enforcement", comment: "Installation Entity Type")
             
         case .emergencyOperation:
-            return String(localized: "Emergency Operation", comment: "Installation Entity Type")
+            String(localized: "Emergency Operation", comment: "Installation Entity Type")
         }
     }
 }

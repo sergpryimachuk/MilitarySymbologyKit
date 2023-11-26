@@ -24,40 +24,40 @@ extension SeaSurfaceEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .carrier:
-                return String(localized: "Carrier", comment: "Military Combatant Entity Type")
+                String(localized: "Carrier", comment: "Military Combatant Entity Type")
                 
             case .surfaceCombatantLine:
-                return String(localized: "Surface Combatant, Line", comment: "Military Combatant Entity Type")
+                String(localized: "Surface Combatant, Line", comment: "Military Combatant Entity Type")
                 
             case .amphibiousWarfareShip:
-                return String(localized: "Amphibious Warfare Ship", comment: "Military Combatant Entity Type")
+                String(localized: "Amphibious Warfare Ship", comment: "Military Combatant Entity Type")
                 
             case .mineWarfareShip:
-                return String(localized: "Mine Warfare Ship", comment: "Military Combatant Entity Type")
+                String(localized: "Mine Warfare Ship", comment: "Military Combatant Entity Type")
                 
             case .patrolBoat:
-                return String(localized: "Patrol Boat", comment: "Military Combatant Entity Type")
+                String(localized: "Patrol Boat", comment: "Military Combatant Entity Type")
                 
             case .decoy:
-                return String(localized: "Decoy", comment: "Military Combatant Entity Type")
+                String(localized: "Decoy", comment: "Military Combatant Entity Type")
                 
             case .unmannedSurfaceWaterVehicleUSV:
-                return String(localized: "Unmanned Surface Water Vehicle (USV)", comment: "Military Combatant Entity Type")
+                String(localized: "Unmanned Surface Water Vehicle (USV)", comment: "Military Combatant Entity Type")
                 
             case .speedboat:
-                return String(localized: "Speedboat", comment: "Military Combatant Entity Type")
+                String(localized: "Speedboat", comment: "Military Combatant Entity Type")
                 
             case .jetSki:
-                return String(localized: "Jet Ski", comment: "Military Combatant Entity Type")
+                String(localized: "Jet Ski", comment: "Military Combatant Entity Type")
                 
             case .navyTaskOrganization:
-                return String(localized: "Navy Task Organization", comment: "Military Combatant Entity Type")
+                String(localized: "Navy Task Organization", comment: "Military Combatant Entity Type")
                 
             case .seaBasedXBandSBXRadar:
-                return String(localized: "Sea-Based X-Band (SBX) Radar", comment: "Military Combatant Entity Type")
+                String(localized: "Sea-Based X-Band (SBX) Radar", comment: "Military Combatant Entity Type")
             }
         }
     }

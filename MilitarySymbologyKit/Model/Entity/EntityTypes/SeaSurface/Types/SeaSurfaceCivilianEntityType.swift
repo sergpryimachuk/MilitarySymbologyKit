@@ -20,28 +20,28 @@ extension SeaSurfaceEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .merchantShip:
-                return String(localized: "Merchant Ship", comment: "Civilian Entity Type")
+                String(localized: "Merchant Ship", comment: "Civilian Entity Type")
                 
             case .fishingVessel:
-                return String(localized: "Fishing Vessel", comment: "Civilian Entity Type")
+                String(localized: "Fishing Vessel", comment: "Civilian Entity Type")
                 
             case .lawEnforcementVessel:
-                return String(localized: "Law Enforcement Vessel", comment: "Civilian Entity Type")
+                String(localized: "Law Enforcement Vessel", comment: "Civilian Entity Type")
                 
             case .leisureCraftSailing:
-                return String(localized: "Leisure Craft, Sailing", comment: "Civilian Entity Type")
+                String(localized: "Leisure Craft, Sailing", comment: "Civilian Entity Type")
                 
             case .leisureCraftMotorized:
-                return String(localized: "Leisure Craft, Motorized", comment: "Civilian Entity Type")
+                String(localized: "Leisure Craft, Motorized", comment: "Civilian Entity Type")
                 
             case .jetSki:
-                return String(localized: "Jet Ski", comment: "Civilian Entity Type")
+                String(localized: "Jet Ski", comment: "Civilian Entity Type")
                 
             case .unmannedSurfaceWaterVehicleUSV:
-                return String(localized: "Unmanned Surface Water Vehicle (USV)", comment: "Civilian Entity Type")
+                String(localized: "Unmanned Surface Water Vehicle (USV)", comment: "Civilian Entity Type")
             }
         }
     }

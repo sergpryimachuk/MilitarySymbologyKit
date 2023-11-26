@@ -21,34 +21,34 @@ enum LandUnitEntity: String, CaseIterable, Identifiable, Entity {
     var name: String {
         switch self {
         case .commandAndControl:
-            return String(localized: "Command and Control", comment: "Land Unit Entity")
+            String(localized: "Command and Control", comment: "Land Unit Entity")
             
         case .movementAndManeuver:
-            return String(localized: "Movement and Maneuver", comment: "Land Unit Entity")
+            String(localized: "Movement and Maneuver", comment: "Land Unit Entity")
             
         case .fires:
-            return String(localized: "Fires", comment: "Land Unit Entity")
+            String(localized: "Fires", comment: "Land Unit Entity")
             
         case .protection:
-            return String(localized: "Protection", comment: "Land Unit Entity")
+            String(localized: "Protection", comment: "Land Unit Entity")
             
         case .intelligence:
-            return String(localized: "Intelligence", comment: "Land Unit Entity")
+            String(localized: "Intelligence", comment: "Land Unit Entity")
             
         case .sustainment:
-            return String(localized: "Sustainment", comment: "Land Unit Entity")
+            String(localized: "Sustainment", comment: "Land Unit Entity")
             
         case .naval:
-            return String(localized: "Naval", comment: "Land Unit Entity")
+            String(localized: "Naval", comment: "Land Unit Entity")
             
         case .namedHeadquarters:
-            return String(localized: "Named Headquarters", comment: "Land Unit Entity")
+            String(localized: "Named Headquarters", comment: "Land Unit Entity")
             
         case .emergencyOperation:
-            return String(localized: "Emergency Operation", comment: "Land Unit Entity")
+            String(localized: "Emergency Operation", comment: "Land Unit Entity")
             
         case .lawEnforcement:
-            return String(localized: "Law Enforcement", comment: "Land Unit Entity")
+            String(localized: "Law Enforcement", comment: "Land Unit Entity")
         }
     }
     

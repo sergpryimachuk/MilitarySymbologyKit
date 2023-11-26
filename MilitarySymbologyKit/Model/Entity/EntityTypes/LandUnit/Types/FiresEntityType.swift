@@ -22,34 +22,34 @@ extension LandUnitEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None", comment: "Fire Support Entity Type")
+                String(localized: "None", comment: "Fire Support Entity Type")
                 
             case .airDefense:
-                return String(localized: "Air Defense", comment: "Fire Support Entity Type")
+                String(localized: "Air Defense", comment: "Fire Support Entity Type")
                 
             case .airLandNavalGunfireLiaison:
-                return String(localized: "Air-Land-Naval Gunfire Liaison", comment: "Fire Support Entity Type")
+                String(localized: "Air-Land-Naval Gunfire Liaison", comment: "Fire Support Entity Type")
                 
             case .fieldArtillery:
-                return String(localized: "Field Artillery", comment: "Fire Support Entity Type")
+                String(localized: "Field Artillery", comment: "Fire Support Entity Type")
                 
             case .fieldArtilleryObserver:
-                return String(localized: "Field Artillery Observer", comment: "Fire Support Entity Type")
+                String(localized: "Field Artillery Observer", comment: "Fire Support Entity Type")
                 
             case .jointFireSupport:
-                return String(localized: "Joint Fire Support", comment: "Fire Support Entity Type")
+                String(localized: "Joint Fire Support", comment: "Fire Support Entity Type")
                 
             case .meteorological:
-                return String(localized: "Meteorological", comment: "Fire Support Entity Type")
+                String(localized: "Meteorological", comment: "Fire Support Entity Type")
                 
             case .missile:
-                return String(localized: "Missile", comment: "Fire Support Entity Type")
+                String(localized: "Missile", comment: "Fire Support Entity Type")
                 
             case .mortar:
-                return String(localized: "Mortar", comment: "Fire Support Entity Type")
+                String(localized: "Mortar", comment: "Fire Support Entity Type")
                 
             case .survey:
-                return String(localized: "Survey", comment: "Fire Support Entity Type")
+                String(localized: "Survey", comment: "Fire Support Entity Type")
             }
         }
         

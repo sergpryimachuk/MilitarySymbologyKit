@@ -14,11 +14,11 @@ enum Context: String, CaseIterable, Identifiable {
      var name: String {
         switch self {
         case .reality:
-            return String(localized: "Reality", comment: "Context")
+            String(localized: "Reality", comment: "Context")
         case .exercise:
-            return String(localized: "Exercise", comment: "Context")
+            String(localized: "Exercise", comment: "Context")
         case .simulation:
-            return String(localized: "Simulation", comment: "Context")
+            String(localized: "Simulation", comment: "Context")
         }
     }
 }

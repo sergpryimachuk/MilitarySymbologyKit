@@ -13,7 +13,7 @@ extension OceanographicEntity {
         var name: String {
             switch self {
             case .mineWarfareBottomDescriptors:
-                return String(localized: "Mine Warfare (MIW) Bottom Descriptors", comment: "Geophysics/Acoustics Entity Type")
+                String(localized: "Mine Warfare (MIW) Bottom Descriptors", comment: "Geophysics/Acoustics Entity Type")
             }
         }
     }

@@ -17,19 +17,19 @@ extension AtmosphericEntity {
         var name: String {
             switch self {
             case .light:
-                return String(localized: "Light", comment: "Turbulence Entity Type")
+                String(localized: "Light", comment: "Turbulence Entity Type")
                 
             case .moderate:
-                return String(localized: "Moderate", comment: "Turbulence Entity Type")
+                String(localized: "Moderate", comment: "Turbulence Entity Type")
                 
             case .severe:
-                return String(localized: "Severe", comment: "Turbulence Entity Type")
+                String(localized: "Severe", comment: "Turbulence Entity Type")
                 
             case .extreme:
-                return String(localized: "Extreme", comment: "Turbulence Entity Type")
+                String(localized: "Extreme", comment: "Turbulence Entity Type")
                 
             case .mountainWaves:
-                return String(localized: "Mountain Waves", comment: "Turbulence Entity Type")
+                String(localized: "Mountain Waves", comment: "Turbulence Entity Type")
             }
         }
     }

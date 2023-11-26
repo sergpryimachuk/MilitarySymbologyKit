@@ -16,16 +16,16 @@ extension CyberspaceEntity {
         var name: String {
             switch self {
             case .normal:
-                return String(localized: "Normal", comment: "Health and Status Entity Type")
+                String(localized: "Normal", comment: "Health and Status Entity Type")
                 
             case .networkOutage:
-                return String(localized: "Network Outage", comment: "Health and Status Entity Type")
+                String(localized: "Network Outage", comment: "Health and Status Entity Type")
                 
             case .unknown:
-                return String(localized: "Unknown", comment: "Health and Status Entity Type")
+                String(localized: "Unknown", comment: "Health and Status Entity Type")
                 
             case .impaired:
-                return String(localized: "Impaired", comment: "Health and Status Entity Type")
+                String(localized: "Impaired", comment: "Health and Status Entity Type")
             }
         }
     }

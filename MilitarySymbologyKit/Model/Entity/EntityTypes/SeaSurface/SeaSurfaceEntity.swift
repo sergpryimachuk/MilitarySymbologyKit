@@ -18,25 +18,25 @@ enum SeaSurfaceEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .military:
-            return String(localized: "Military", comment: "Sea Surface Entity")
+            String(localized: "Military", comment: "Sea Surface Entity")
             
         case .militaryCombatant:
-            return String(localized: "Military Combatant", comment: "Sea Surface Entity")
+            String(localized: "Military Combatant", comment: "Sea Surface Entity")
             
         case .militaryNoncombatant:
-            return String(localized: "Military Noncombatant", comment: "Sea Surface Entity")
+            String(localized: "Military Noncombatant", comment: "Sea Surface Entity")
             
         case .civilian:
-            return String(localized: "Civilian", comment: "Sea Surface Entity")
+            String(localized: "Civilian", comment: "Sea Surface Entity")
             
         case .ownShip:
-            return String(localized: "Own Ship", comment: "Sea Surface Entity")
+            String(localized: "Own Ship", comment: "Sea Surface Entity")
             
         case .fusedTrack:
-            return String(localized: "Fused Track", comment: "Sea Surface Entity")
+            String(localized: "Fused Track", comment: "Sea Surface Entity")
             
         case .manualTrack:
-            return String(localized: "Manual Track", comment: "Sea Surface Entity")
+            String(localized: "Manual Track", comment: "Sea Surface Entity")
         }
     }
     

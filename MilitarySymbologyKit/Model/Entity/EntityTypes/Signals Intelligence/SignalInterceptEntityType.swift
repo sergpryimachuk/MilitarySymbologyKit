@@ -14,13 +14,13 @@ enum SignalInterceptEntityType: String, CaseIterable, Identifiable, EntityType {
     var name: String {
         switch self {
         case .communications:
-            return String(localized: "Communications", comment: "Signal Intercept Entity Type")
+            String(localized: "Communications", comment: "Signal Intercept Entity Type")
             
         case .jammer:
-            return String(localized: "Jammer", comment: "Signal Intercept Entity Type")
+            String(localized: "Jammer", comment: "Signal Intercept Entity Type")
             
         case .radar:
-            return String(localized: "Radar", comment: "Signal Intercept Entity Type")
+            String(localized: "Radar", comment: "Signal Intercept Entity Type")
         }
     }
 }

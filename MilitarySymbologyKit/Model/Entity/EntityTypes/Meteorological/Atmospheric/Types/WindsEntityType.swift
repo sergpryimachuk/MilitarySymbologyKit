@@ -16,16 +16,16 @@ extension AtmosphericEntity {
         var name: String {
             switch self {
             case .calmWinds:
-                return String(localized: "Calm Winds", comment: "Winds Entity Type")
+                String(localized: "Calm Winds", comment: "Winds Entity Type")
                 
             case .windPlot:
-                return String(localized: "Wind Plot", comment: "Winds Entity Type")
+                String(localized: "Wind Plot", comment: "Winds Entity Type")
                 
             case .jetStream:
-                return String(localized: "Jet Stream", comment: "Winds Entity Type")
+                String(localized: "Jet Stream", comment: "Winds Entity Type")
                 
             case .streamLine:
-                return String(localized: "Stream Line", comment: "Winds Entity Type")
+                String(localized: "Stream Line", comment: "Winds Entity Type")
             }
         }
     }

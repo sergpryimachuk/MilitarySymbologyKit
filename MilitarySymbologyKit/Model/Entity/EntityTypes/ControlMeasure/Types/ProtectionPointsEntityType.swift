@@ -34,45 +34,45 @@ enum ProtectionPointsEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .abatis:
-            return String(localized: "Abatis", comment: "Protection Points Entity Type")
+            String(localized: "Abatis", comment: "Protection Points Entity Type")
         case .antipersonnelMine:
-            return String(localized: "Antipersonnel Mine", comment: "Protection Points Entity Type")
+            String(localized: "Antipersonnel Mine", comment: "Protection Points Entity Type")
         case .antitankMine:
-            return String(localized: "Antitank Mine", comment: "Protection Points Entity Type")
+            String(localized: "Antitank Mine", comment: "Protection Points Entity Type")
         case .antitankMineWithAntiHandlingDevice:
-            return String(localized: "Antitank Mine with Anti-handling Device", comment: "Protection Points Entity Type")
+            String(localized: "Antitank Mine with Anti-handling Device", comment: "Protection Points Entity Type")
         case .wideAreaAntitankMine:
-            return String(localized: "Wide Area Antitank Mine", comment: "Protection Points Entity Type")
+            String(localized: "Wide Area Antitank Mine", comment: "Protection Points Entity Type")
         case .unspecifiedMine:
-            return String(localized: "Unspecified Mine", comment: "Protection Points Entity Type")
+            String(localized: "Unspecified Mine", comment: "Protection Points Entity Type")
         case .boobyTrap:
-            return String(localized: "Booby Trap", comment: "Protection Points Entity Type")
+            String(localized: "Booby Trap", comment: "Protection Points Entity Type")
         case .engineerRegulatingPoint:
-            return String(localized: "Engineer Regulating Point", comment: "Protection Points Entity Type")
+            String(localized: "Engineer Regulating Point", comment: "Protection Points Entity Type")
         case .shelter:
-            return String(localized: "Shelter", comment: "Protection Points Entity Type")
+            String(localized: "Shelter", comment: "Protection Points Entity Type")
         case .shelterAboveGround:
-            return String(localized: "Above Ground Shelter", comment: "Protection Points Entity Type")
+            String(localized: "Above Ground Shelter", comment: "Protection Points Entity Type")
         case .belowGroundShelter:
-            return String(localized: "Below Ground Shelter", comment: "Protection Points Entity Type")
+            String(localized: "Below Ground Shelter", comment: "Protection Points Entity Type")
         case .fort:
-            return String(localized: "Fort", comment: "Protection Points Entity Type")
+            String(localized: "Fort", comment: "Protection Points Entity Type")
         case .chemicalEvent:
-            return String(localized: "Chemical Event", comment: "Protection Points Entity Type")
+            String(localized: "Chemical Event", comment: "Protection Points Entity Type")
         case .biologicalEvent:
-            return String(localized: "Biological Event", comment: "Protection Points Entity Type")
+            String(localized: "Biological Event", comment: "Protection Points Entity Type")
         case .nuclearEvent:
-            return String(localized: "Nuclear Event", comment: "Protection Points Entity Type")
+            String(localized: "Nuclear Event", comment: "Protection Points Entity Type")
         case .nuclearFalloutProducingEvent:
-            return String(localized: "Nuclear Fallout Producing Event", comment: "Protection Points Entity Type")
+            String(localized: "Nuclear Fallout Producing Event", comment: "Protection Points Entity Type")
         case .radiological:
-            return String(localized: "Radiological", comment: "Protection Points Entity Type")
+            String(localized: "Radiological", comment: "Protection Points Entity Type")
         case .generalDecontaminationPoint:
-            return String(localized: "General Decontamination Point/Site", comment: "Protection Points Entity Type")
+            String(localized: "General Decontamination Point/Site", comment: "Protection Points Entity Type")
         case .tetrahedronsDragonsTeethObstacles:
-            return String(localized: "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles", comment: "Protection Points Entity Type")
+            String(localized: "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles", comment: "Protection Points Entity Type")
         case .verticalObstructions:
-            return String(localized: "Vertical Obstructions", comment: "Protection Points Entity Type")
+            String(localized: "Vertical Obstructions", comment: "Protection Points Entity Type")
         }
     }
 }

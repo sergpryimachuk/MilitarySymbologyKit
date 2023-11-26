@@ -16,16 +16,16 @@ extension CyberspaceEntity {
         var name: String {
             switch self {
             case .commandAndControl:
-                return String(localized: "Command and Control (C2)", comment: "Botnet Entity Type")
+                String(localized: "Command and Control (C2)", comment: "Botnet Entity Type")
                 
             case .herder:
-                return String(localized: "Herder", comment: "Botnet Entity Type")
+                String(localized: "Herder", comment: "Botnet Entity Type")
                 
             case .callbackDomain:
-                return String(localized: "Callback Domain", comment: "Botnet Entity Type")
+                String(localized: "Callback Domain", comment: "Botnet Entity Type")
                 
             case .zombie:
-                return String(localized: "Zombie", comment: "Botnet Entity Type")
+                String(localized: "Zombie", comment: "Botnet Entity Type")
             }
         }
     }

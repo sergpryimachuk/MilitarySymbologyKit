@@ -15,16 +15,16 @@ enum AirUnitEntity: String, CaseIterable, Identifiable, Entity {
     var name: String {
         switch self {
         case .military:
-            return String(localized: "Military", comment: "Air Unit Entity")
+            String(localized: "Military", comment: "Air Unit Entity")
             
         case .civilian:
-            return String(localized: "Civilian", comment: "Air Unit Entity")
+            String(localized: "Civilian", comment: "Air Unit Entity")
             
         case .weapon:
-            return String(localized: "Weapon", comment: "Air Unit Entity")
+            String(localized: "Weapon", comment: "Air Unit Entity")
             
         case .manualTrack:
-            return String(localized: "Manual Track", comment: "Air Unit Entity")
+            String(localized: "Manual Track", comment: "Air Unit Entity")
         }
     }
     

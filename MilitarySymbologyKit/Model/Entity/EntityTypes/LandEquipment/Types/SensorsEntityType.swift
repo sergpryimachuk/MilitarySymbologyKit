@@ -17,13 +17,13 @@ enum SensorsEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .sensor:
-            return String(localized: "Sensor", comment: "Sensors Entity Type")
+            String(localized: "Sensor", comment: "Sensors Entity Type")
             
         case .sensorEmplaced:
-            return String(localized: "Sensor Emplaced", comment: "Sensors Entity Type")
+            String(localized: "Sensor Emplaced", comment: "Sensors Entity Type")
             
         case .radar:
-            return String(localized: "Radar", comment: "Sensors Entity Type")
+            String(localized: "Radar", comment: "Sensors Entity Type")
         }
     }
 }

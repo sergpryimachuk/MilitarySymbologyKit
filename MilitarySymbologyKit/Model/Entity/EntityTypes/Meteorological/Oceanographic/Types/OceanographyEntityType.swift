@@ -14,10 +14,10 @@ extension OceanographicEntity {
         var name: String {
             switch self {
             case .bioluminescence:
-                return String(localized: "Bioluminescence", comment: "Oceanography Entity Type")
+                String(localized: "Bioluminescence", comment: "Oceanography Entity Type")
                 
             case .beachSlope:
-                return String(localized: "Beach Slope", comment: "Oceanography Entity Type")
+                String(localized: "Beach Slope", comment: "Oceanography Entity Type")
             }
         }
     }

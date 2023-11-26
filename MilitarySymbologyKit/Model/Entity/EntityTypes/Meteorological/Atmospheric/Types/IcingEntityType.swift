@@ -15,13 +15,13 @@ extension AtmosphericEntity {
         var name: String {
             switch self {
             case .clearIcing:
-                return String(localized: "Clear Icing", comment: "Icing Entity Type")
+                String(localized: "Clear Icing", comment: "Icing Entity Type")
                 
             case .rimeIcing:
-                return String(localized: "Rime Icing", comment: "Icing Entity Type")
+                String(localized: "Rime Icing", comment: "Icing Entity Type")
                 
             case .mixedIcing:
-                return String(localized: "Mixed Icing", comment: "Icing Entity Type")
+                String(localized: "Mixed Icing", comment: "Icing Entity Type")
             }
         }
     }

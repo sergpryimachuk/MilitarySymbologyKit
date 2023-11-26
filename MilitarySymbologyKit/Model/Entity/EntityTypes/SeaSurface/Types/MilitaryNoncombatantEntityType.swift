@@ -15,13 +15,13 @@ extension SeaSurfaceEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .auxiliaryShip:
-                return String(localized: "Auxiliary Ship", comment: "Military Noncombatant Entity Type")
+                String(localized: "Auxiliary Ship", comment: "Military Noncombatant Entity Type")
                 
             case .serviceCraftYard:
-                return String(localized: "Service Craft/Yard", comment: "Military Noncombatant Entity Type")
+                String(localized: "Service Craft/Yard", comment: "Military Noncombatant Entity Type")
             }
         }
     }

@@ -17,19 +17,19 @@ extension MineWarfareEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None", comment: "Mine-Like Contact Entity Type")
+                String(localized: "None", comment: "Mine-Like Contact Entity Type")
                 
             case .milcoGeneral:
-                return String(localized: "MILCO - General", comment: "Mine-Like Contact Entity Type")
+                String(localized: "MILCO - General", comment: "Mine-Like Contact Entity Type")
                 
             case .milcoBottom:
-                return String(localized: "MILCO - Bottom", comment: "Mine-Like Contact Entity Type")
+                String(localized: "MILCO - Bottom", comment: "Mine-Like Contact Entity Type")
                 
             case .milcoMoored:
-                return String(localized: "MILCO - Moored", comment: "Mine-Like Contact Entity Type")
+                String(localized: "MILCO - Moored", comment: "Mine-Like Contact Entity Type")
                 
             case .milcoFloating:
-                return String(localized: "MILCO - Floating", comment: "Mine-Like Contact Entity Type")
+                String(localized: "MILCO - Floating", comment: "Mine-Like Contact Entity Type")
             }
         }
     }

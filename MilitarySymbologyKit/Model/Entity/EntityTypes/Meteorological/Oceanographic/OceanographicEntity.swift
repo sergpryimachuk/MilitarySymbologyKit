@@ -17,22 +17,22 @@ enum OceanographicEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .iceSystems:
-            return String(localized: "Ice Systems", comment: "Oceanographic Entity Type")
+            String(localized: "Ice Systems", comment: "Oceanographic Entity Type")
             
         case .hydrography:
-            return String(localized: "Hydrography", comment: "Oceanographic Entity Type")
+            String(localized: "Hydrography", comment: "Oceanographic Entity Type")
             
         case .oceanography:
-            return String(localized: "Oceanography", comment: "Oceanographic Entity Type")
+            String(localized: "Oceanography", comment: "Oceanographic Entity Type")
             
         case .geophysicsAcoustics:
-            return String(localized: "Geophysics/Acoustics", comment: "Oceanographic Entity Type")
+            String(localized: "Geophysics/Acoustics", comment: "Oceanographic Entity Type")
             
         case .limits:
-            return String(localized: "Limits", comment: "Oceanographic Entity Type")
+            String(localized: "Limits", comment: "Oceanographic Entity Type")
             
         case .manMadeStructures:
-            return String(localized: "Man-Made Structures", comment: "Oceanographic Entity Type")
+            String(localized: "Man-Made Structures", comment: "Oceanographic Entity Type")
         }
     }
     

@@ -31,55 +31,55 @@ enum ManeuverLinesEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .forwardLineOfTroops:
-            return String(localized: "Forward Line of Troops", comment: "Maneuver Lines Entity Type")
+            String(localized: "Forward Line of Troops", comment: "Maneuver Lines Entity Type")
             
         case .lineOfContact:
-            return String(localized: "Line of Contact", comment: "Maneuver Lines Entity Type")
+            String(localized: "Line of Contact", comment: "Maneuver Lines Entity Type")
             
         case .phaseLine:
-            return String(localized: "Phase Line", comment: "Maneuver Lines Entity Type")
+            String(localized: "Phase Line", comment: "Maneuver Lines Entity Type")
             
         case .forwardEdgeOfTheBattleArea:
-            return String(localized: "Forward Edge of the Battle Area", comment: "Maneuver Lines Entity Type")
+            String(localized: "Forward Edge of the Battle Area", comment: "Maneuver Lines Entity Type")
             
         case .principleDirectionOfFire:
-            return String(localized: "Principle Direction of Fire", comment: "Maneuver Lines Entity Type")
+            String(localized: "Principle Direction of Fire", comment: "Maneuver Lines Entity Type")
             
         case .directionOfAttack:
-            return String(localized: "Direction of Attack", comment: "Maneuver Lines Entity Type")
+            String(localized: "Direction of Attack", comment: "Maneuver Lines Entity Type")
             
         case .finalCoordinationLine:
-            return String(localized: "Final Coordination Line", comment: "Maneuver Lines Entity Type")
+            String(localized: "Final Coordination Line", comment: "Maneuver Lines Entity Type")
             
         case .infiltrationLane:
-            return String(localized: "Infiltration Lane", comment: "Maneuver Lines Entity Type")
+            String(localized: "Infiltration Lane", comment: "Maneuver Lines Entity Type")
             
         case .limitOfAdvance:
-            return String(localized: "Limit of Advance", comment: "Maneuver Lines Entity Type")
+            String(localized: "Limit of Advance", comment: "Maneuver Lines Entity Type")
             
         case .lineOfDeparture:
-            return String(localized: "Line of Departure", comment: "Maneuver Lines Entity Type")
+            String(localized: "Line of Departure", comment: "Maneuver Lines Entity Type")
             
         case .lineOfDepartureLineOfContact:
-            return String(localized: "Line of Departure/Line of Contact", comment: "Maneuver Lines Entity Type")
+            String(localized: "Line of Departure/Line of Contact", comment: "Maneuver Lines Entity Type")
             
         case .probableLineOfDeployment:
-            return String(localized: "Probable Line of Deployment", comment: "Maneuver Lines Entity Type")
+            String(localized: "Probable Line of Deployment", comment: "Maneuver Lines Entity Type")
             
         case .airheadLine:
-            return String(localized: "Airhead Line", comment: "Maneuver Lines Entity Type")
+            String(localized: "Airhead Line", comment: "Maneuver Lines Entity Type")
             
         case .bridgeheadLine:
-            return String(localized: "Bridgehead Line", comment: "Maneuver Lines Entity Type")
+            String(localized: "Bridgehead Line", comment: "Maneuver Lines Entity Type")
             
         case .holdingLine:
-            return String(localized: "Holding Line", comment: "Maneuver Lines Entity Type")
+            String(localized: "Holding Line", comment: "Maneuver Lines Entity Type")
             
         case .releaseLine:
-            return String(localized: "Release Line", comment: "Maneuver Lines Entity Type")
+            String(localized: "Release Line", comment: "Maneuver Lines Entity Type")
             
         case .ambush:
-            return String(localized: "Ambush", comment: "Maneuver Lines Entity Type")
+            String(localized: "Ambush", comment: "Maneuver Lines Entity Type")
         }
     }
 }

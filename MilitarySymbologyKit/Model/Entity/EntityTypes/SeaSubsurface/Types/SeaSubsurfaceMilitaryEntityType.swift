@@ -18,22 +18,22 @@ extension SeaSubsurfaceEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .submarine:
-                return String(localized: "Submarine", comment: "Military Entity Type")
+                String(localized: "Submarine", comment: "Military Entity Type")
                 
             case .otherSubmersible:
-                return String(localized: "Other Submersible", comment: "Military Entity Type")
+                String(localized: "Other Submersible", comment: "Military Entity Type")
                 
             case .nonsubmarine:
-                return String(localized: "Nonsubmarine", comment: "Military Entity Type")
+                String(localized: "Nonsubmarine", comment: "Military Entity Type")
                 
             case .autonomousUnderwaterVehicleAUV_UUV:
-                return String(localized: "Autonomous Underwater Vehicle (AUV)/Unmanned Underwater Vehicle (UUV)", comment: "Military Entity Type")
+                String(localized: "Autonomous Underwater Vehicle (AUV)/Unmanned Underwater Vehicle (UUV)", comment: "Military Entity Type")
                 
             case .diver:
-                return String(localized: "Diver", comment: "Military Entity Type")
+                String(localized: "Diver", comment: "Military Entity Type")
             }
         }
     }

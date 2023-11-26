@@ -16,16 +16,16 @@ extension MineWarfareEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None", comment: "Non-Mine Mine-Like Object (NMLO) - General Entity Type")
+                String(localized: "None", comment: "Non-Mine Mine-Like Object (NMLO) - General Entity Type")
                 
             case .bottom:
-                return String(localized: "Non-Mine Mine-Like Object-Bottom", comment: "Non-Mine Mine-Like Object (NMLO) - General Entity Type")
+                String(localized: "Non-Mine Mine-Like Object-Bottom", comment: "Non-Mine Mine-Like Object (NMLO) - General Entity Type")
                 
             case .moored:
-                return String(localized: "Non-Mine Mine-Like Object-Moored", comment: "Non-Mine Mine-Like Object (NMLO) - General Entity Type")
+                String(localized: "Non-Mine Mine-Like Object-Moored", comment: "Non-Mine Mine-Like Object (NMLO) - General Entity Type")
                 
             case .floating:
-                return String(localized: "Non-Mine Mine-Like Object-Floating", comment: "Non-Mine Mine-Like Object (NMLO) - General Entity Type")
+                String(localized: "Non-Mine Mine-Like Object-Floating", comment: "Non-Mine Mine-Like Object (NMLO) - General Entity Type")
             }
         }
     }

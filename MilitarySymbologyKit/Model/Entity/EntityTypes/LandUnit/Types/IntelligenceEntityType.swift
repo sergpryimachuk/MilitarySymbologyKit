@@ -23,40 +23,40 @@ enum IntelligenceEntityType: String, CaseIterable, Identifiable, EntityType {
     var name: String {
         switch self {
         case .analysis:
-            return String(localized: "Analysis", comment: "Intelligence Entity Type")
+            String(localized: "Analysis", comment: "Intelligence Entity Type")
             
         case .counterintelligence:
-            return String(localized: "Counterintelligence", comment: "Intelligence Entity Type")
+            String(localized: "Counterintelligence", comment: "Intelligence Entity Type")
             
         case .directionFinding:
-            return String(localized: "Direction Finding", comment: "Intelligence Entity Type")
+            String(localized: "Direction Finding", comment: "Intelligence Entity Type")
             
         case .electronicRanging:
-            return String(localized: "Electronic Ranging", comment: "Intelligence Entity Type")
+            String(localized: "Electronic Ranging", comment: "Intelligence Entity Type")
             
         case .electronicWarfare:
-            return String(localized: "Electronic Warfare", comment: "Intelligence Entity Type")
+            String(localized: "Electronic Warfare", comment: "Intelligence Entity Type")
             
         case .interceptSearchAndRecording:
-            return String(localized: "Intercept (Search and Recording)", comment: "Intelligence Entity Type")
+            String(localized: "Intercept (Search and Recording)", comment: "Intelligence Entity Type")
             
         case .interrogation:
-            return String(localized: "Interrogation", comment: "Intelligence Entity Type")
+            String(localized: "Interrogation", comment: "Intelligence Entity Type")
             
         case .jamming:
-            return String(localized: "Jamming", comment: "Intelligence Entity Type")
+            String(localized: "Jamming", comment: "Intelligence Entity Type")
             
         case .jointIntelligenceCenter:
-            return String(localized: "Joint Intelligence Center", comment: "Intelligence Entity Type")
+            String(localized: "Joint Intelligence Center", comment: "Intelligence Entity Type")
             
         case .militaryIntelligence:
-            return String(localized: "Military Intelligence", comment: "Intelligence Entity Type")
+            String(localized: "Military Intelligence", comment: "Intelligence Entity Type")
             
         case .search:
-            return String(localized: "Search", comment: "Intelligence Entity Type")
+            String(localized: "Search", comment: "Intelligence Entity Type")
             
         case .sensor:
-            return String(localized: "Sensor", comment: "Intelligence Entity Type")
+            String(localized: "Sensor", comment: "Intelligence Entity Type")
         }
     }
 }

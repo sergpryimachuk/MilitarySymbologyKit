@@ -19,19 +19,19 @@ enum MissileSupportEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .transloader:
-            return String(localized: "Transloader", comment: "Missile Support Entity Type")
+            String(localized: "Transloader", comment: "Missile Support Entity Type")
             
         case .transporter:
-            return String(localized: "Transporter", comment: "Missile Support Entity Type")
+            String(localized: "Transporter", comment: "Missile Support Entity Type")
             
         case .craneLoadingDevice:
-            return String(localized: "Crane/Loading Device", comment: "Missile Support Entity Type")
+            String(localized: "Crane/Loading Device", comment: "Missile Support Entity Type")
             
         case .propellantTransporter:
-            return String(localized: "Propellant Transporter", comment: "Missile Support Entity Type")
+            String(localized: "Propellant Transporter", comment: "Missile Support Entity Type")
             
         case .warheadTransporter:
-            return String(localized: "Warhead Transporter", comment: "Missile Support Entity Type")
+            String(localized: "Warhead Transporter", comment: "Missile Support Entity Type")
         }
     }
 }

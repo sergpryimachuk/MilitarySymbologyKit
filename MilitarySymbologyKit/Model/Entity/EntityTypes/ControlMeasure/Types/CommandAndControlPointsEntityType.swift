@@ -33,61 +33,61 @@ enum CommandAndControlPointsEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .actionPointGeneral:
-            return String(localized: "Action Point (General)", comment: "Command and Control Points Entity Type")
+            String(localized: "Action Point (General)", comment: "Command and Control Points Entity Type")
             
         case .amnestyPoint:
-            return String(localized: "Amnesty Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Amnesty Point", comment: "Command and Control Points Entity Type")
             
         case .checkpoint:
-            return String(localized: "Checkpoint", comment: "Command and Control Points Entity Type")
+            String(localized: "Checkpoint", comment: "Command and Control Points Entity Type")
             
         case .centerOfMainEffort:
-            return String(localized: "Center of Main Effort", comment: "Command and Control Points Entity Type")
+            String(localized: "Center of Main Effort", comment: "Command and Control Points Entity Type")
             
         case .contactPoint:
-            return String(localized: "Contact Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Contact Point", comment: "Command and Control Points Entity Type")
             
         case .coordinatingPoint:
-            return String(localized: "Coordinating Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Coordinating Point", comment: "Command and Control Points Entity Type")
             
         case .decisionPoint:
-            return String(localized: "Decision Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Decision Point", comment: "Command and Control Points Entity Type")
             
         case .distressCall:
-            return String(localized: "Distress Call", comment: "Command and Control Points Entity Type")
+            String(localized: "Distress Call", comment: "Command and Control Points Entity Type")
             
         case .entryControlPoint:
-            return String(localized: "Entry Control Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Entry Control Point", comment: "Command and Control Points Entity Type")
             
         case .flyToPoint:
-            return String(localized: "Fly-To-Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Fly-To-Point", comment: "Command and Control Points Entity Type")
             
         case .linkupPoint:
-            return String(localized: "Linkup Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Linkup Point", comment: "Command and Control Points Entity Type")
             
         case .passagePoint:
-            return String(localized: "Passage Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Passage Point", comment: "Command and Control Points Entity Type")
             
         case .pointOfInterest:
-            return String(localized: "Point of Interest", comment: "Command and Control Points Entity Type")
+            String(localized: "Point of Interest", comment: "Command and Control Points Entity Type")
             
         case .rallyPoint:
-            return String(localized: "Rally Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Rally Point", comment: "Command and Control Points Entity Type")
             
         case .releasePoint:
-            return String(localized: "Release Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Release Point", comment: "Command and Control Points Entity Type")
             
         case .startPoint:
-            return String(localized: "Start Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Start Point", comment: "Command and Control Points Entity Type")
             
         case .specialPoint:
-            return String(localized: "Special Point", comment: "Command and Control Points Entity Type")
+            String(localized: "Special Point", comment: "Command and Control Points Entity Type")
             
         case .waypoint:
-            return String(localized: "Waypoint", comment: "Command and Control Points Entity Type")
+            String(localized: "Waypoint", comment: "Command and Control Points Entity Type")
             
         case .airfield:
-            return String(localized: "Airfield", comment: "Command and Control Points Entity Type")
+            String(localized: "Airfield", comment: "Command and Control Points Entity Type")
         }
     }
 }

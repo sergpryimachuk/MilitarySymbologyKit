@@ -21,19 +21,19 @@ enum SustainmentAreasEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .detaineeHoldingArea:
-            return String(localized: "Detainee Holding Area", comment: "Sustainment Areas Entity Type")
+            String(localized: "Detainee Holding Area", comment: "Sustainment Areas Entity Type")
         case .enemyPrisonerOfWarHoldingArea:
-            return String(localized: "Enemy Prisoner of War Holding Area", comment: "Sustainment Areas Entity Type")
+            String(localized: "Enemy Prisoner of War Holding Area", comment: "Sustainment Areas Entity Type")
         case .forwardArmingAndRefuelingPoint:
-            return String(localized: "Forward Arming and Refueling Point", comment: "Sustainment Areas Entity Type")
+            String(localized: "Forward Arming and Refueling Point", comment: "Sustainment Areas Entity Type")
         case .refugeeHoldingArea:
-            return String(localized: "Refugee Holding Area", comment: "Sustainment Areas Entity Type")
+            String(localized: "Refugee Holding Area", comment: "Sustainment Areas Entity Type")
         case .regimentalSupportArea:
-            return String(localized: "Regimental Support Area", comment: "Sustainment Areas Entity Type")
+            String(localized: "Regimental Support Area", comment: "Sustainment Areas Entity Type")
         case .brigadeSupportArea:
-            return String(localized: "Brigade Support Area", comment: "Sustainment Areas Entity Type")
+            String(localized: "Brigade Support Area", comment: "Sustainment Areas Entity Type")
         case .divisionSupportArea:
-            return String(localized: "Division Support Area", comment: "Sustainment Areas Entity Type")
+            String(localized: "Division Support Area", comment: "Sustainment Areas Entity Type")
         }
     }
 }

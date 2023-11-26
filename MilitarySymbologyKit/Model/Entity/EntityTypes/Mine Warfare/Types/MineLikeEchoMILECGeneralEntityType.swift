@@ -16,16 +16,16 @@ extension MineWarfareEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None", comment: "Mine-Like Echo (MILEC) - General Entity Type")
+                String(localized: "None", comment: "Mine-Like Echo (MILEC) - General Entity Type")
                 
             case .mineLikeEchoBottom:
-                return String(localized: "Mine-Like Echo-Bottom", comment: "Mine-Like Echo (MILEC) - General Entity Type")
+                String(localized: "Mine-Like Echo-Bottom", comment: "Mine-Like Echo (MILEC) - General Entity Type")
                 
             case .mineLikeEchoMoored:
-                return String(localized: "Mine-Like Echo-Moored", comment: "Mine-Like Echo (MILEC) - General Entity Type")
+                String(localized: "Mine-Like Echo-Moored", comment: "Mine-Like Echo (MILEC) - General Entity Type")
                 
             case .mineLikeEchoFloating:
-                return String(localized: "Mine-Like Echo-Floating", comment: "Mine-Like Echo (MILEC) - General Entity Type")
+                String(localized: "Mine-Like Echo-Floating", comment: "Mine-Like Echo (MILEC) - General Entity Type")
             }
         }
     }

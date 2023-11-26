@@ -22,37 +22,37 @@ enum MineWarfareEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .seaMineGeneral:
-            return String(localized: "Sea Mine-General", comment: "Mine Warfare Entity")
+            String(localized: "Sea Mine-General", comment: "Mine Warfare Entity")
             
         case .unexplodedOrdnance:
-            return String(localized: "Unexploded Ordnance", comment: "Mine Warfare Entity")
+            String(localized: "Unexploded Ordnance", comment: "Mine Warfare Entity")
             
         case .seaMineDecoy:
-            return String(localized: "Sea Mine Decoy", comment: "Mine Warfare Entity")
+            String(localized: "Sea Mine Decoy", comment: "Mine Warfare Entity")
             
         case .mineLikeContactMILCO:
-            return String(localized: "Mine-Like Contact (MILCO)", comment: "Mine Warfare Entity")
+            String(localized: "Mine-Like Contact (MILCO)", comment: "Mine Warfare Entity")
             
         case .mineLikeEchoMILECGeneral:
-            return String(localized: "Mine-Like Echo (MILEC)-General", comment: "Mine Warfare Entity")
+            String(localized: "Mine-Like Echo (MILEC)-General", comment: "Mine Warfare Entity")
             
         case .negativeReacquisitionGeneral:
-            return String(localized: "Negative Reacquisition-General", comment: "Mine Warfare Entity")
+            String(localized: "Negative Reacquisition-General", comment: "Mine Warfare Entity")
             
         case .obstructor:
-            return String(localized: "Obstructor", comment: "Mine Warfare Entity")
+            String(localized: "Obstructor", comment: "Mine Warfare Entity")
             
         case .generalMineAnchor:
-            return String(localized: "General Mine Anchor", comment: "Mine Warfare Entity")
+            String(localized: "General Mine Anchor", comment: "Mine Warfare Entity")
             
         case .nonMineMineLikeObjectNMLOGeneral:
-            return String(localized: "Non-Mine Mine-Like Object (NMLO)-General", comment: "Mine Warfare Entity")
+            String(localized: "Non-Mine Mine-Like Object (NMLO)-General", comment: "Mine Warfare Entity")
             
         case .environmentalReportLocation:
-            return String(localized: "Environmental Report Location", comment: "Mine Warfare Entity")
+            String(localized: "Environmental Report Location", comment: "Mine Warfare Entity")
             
         case .diveReportLocation:
-            return String(localized: "Dive Report Location", comment: "Mine Warfare Entity")
+            String(localized: "Dive Report Location", comment: "Mine Warfare Entity")
         }
     }
     

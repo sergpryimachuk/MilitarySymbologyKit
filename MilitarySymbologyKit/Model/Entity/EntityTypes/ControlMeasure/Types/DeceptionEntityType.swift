@@ -16,9 +16,9 @@ enum DeceptionEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .decoyDummy:
-            return String(localized: "Decoy/Dummy", comment: "Deception Entity Type")
+            String(localized: "Decoy/Dummy", comment: "Deception Entity Type")
         case .decoyDummyFeint:
-            return String(localized: "Decoy/Dummy/Feint", comment: "Deception Entity Type")
+            String(localized: "Decoy/Dummy/Feint", comment: "Deception Entity Type")
         }
     }
 }

@@ -23,37 +23,37 @@ extension AtmosphericEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .instrumentFlightRuleIFR:
-                return String(localized: "Instrument Flight Rule (IFR)", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Instrument Flight Rule (IFR)", comment: "Bounded Areas of Weather Entity Type")
                 
             case .marginalVisualFlightRuleMVFR:
-                return String(localized: "Marginal Visual Flight Rule (MVFR)", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Marginal Visual Flight Rule (MVFR)", comment: "Bounded Areas of Weather Entity Type")
                 
             case .turbulence:
-                return String(localized: "Turbulence", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Turbulence", comment: "Bounded Areas of Weather Entity Type")
                 
             case .icing:
-                return String(localized: "Icing", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Icing", comment: "Bounded Areas of Weather Entity Type")
                 
             case .liquidPrecipitationNonConvectiveContinuousOrIntermittent:
-                return String(localized: "Liquid Precipitation - Non-Convective Continuous or Intermittent", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Liquid Precipitation - Non-Convective Continuous or Intermittent", comment: "Bounded Areas of Weather Entity Type")
                 
             case .freezingFrozenPrecipitation:
-                return String(localized: "Freezing/Frozen Precipitation", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Freezing/Frozen Precipitation", comment: "Bounded Areas of Weather Entity Type")
                 
             case .thunderstorm:
-                return String(localized: "Thunderstorm", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Thunderstorm", comment: "Bounded Areas of Weather Entity Type")
                 
             case .fog:
-                return String(localized: "Fog", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Fog", comment: "Bounded Areas of Weather Entity Type")
                 
             case .dustOrSand:
-                return String(localized: "Dust or Sand", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Dust or Sand", comment: "Bounded Areas of Weather Entity Type")
                 
             case .operatorDefinedFreeform:
-                return String(localized: "Operator-Defined Freeform", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Operator-Defined Freeform", comment: "Bounded Areas of Weather Entity Type")
             }
         }
     }

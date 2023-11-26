@@ -15,13 +15,13 @@ extension AirUnitEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .bomb:
-                return String(localized: "Bomb", comment: "Weapon Entity Type")
+                String(localized: "Bomb", comment: "Weapon Entity Type")
                 
             case .decoy:
-                return String(localized: "Decoy", comment: "Weapon Entity Type")
+                String(localized: "Decoy", comment: "Weapon Entity Type")
             }
         }
         

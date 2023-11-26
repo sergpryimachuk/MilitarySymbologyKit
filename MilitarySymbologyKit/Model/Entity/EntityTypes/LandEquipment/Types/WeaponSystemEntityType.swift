@@ -34,64 +34,64 @@ enum WeaponSystemEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .rifle:
-            return String(localized: "Rifle", comment: "Weapon System Entity Type")
+            String(localized: "Rifle", comment: "Weapon System Entity Type")
             
         case .machineGun:
-            return String(localized: "Machine Gun", comment: "Weapon System Entity Type")
+            String(localized: "Machine Gun", comment: "Weapon System Entity Type")
             
         case .grenadeLauncher:
-            return String(localized: "Grenade Launcher", comment: "Weapon System Entity Type")
+            String(localized: "Grenade Launcher", comment: "Weapon System Entity Type")
             
         case .flameThrower:
-            return String(localized: "Flame Thrower", comment: "Weapon System Entity Type")
+            String(localized: "Flame Thrower", comment: "Weapon System Entity Type")
             
         case .airDefenseGun:
-            return String(localized: "Air Defense Gun", comment: "Weapon System Entity Type")
+            String(localized: "Air Defense Gun", comment: "Weapon System Entity Type")
             
         case .antitankGun:
-            return String(localized: "Antitank Gun", comment: "Weapon System Entity Type")
+            String(localized: "Antitank Gun", comment: "Weapon System Entity Type")
             
         case .directFireGun:
-            return String(localized: "Direct Fire Gun", comment: "Weapon System Entity Type")
+            String(localized: "Direct Fire Gun", comment: "Weapon System Entity Type")
             
         case .recoillessGun:
-            return String(localized: "Recoilless Gun", comment: "Weapon System Entity Type")
+            String(localized: "Recoilless Gun", comment: "Weapon System Entity Type")
             
         case .howitzer:
-            return String(localized: "Howitzer", comment: "Weapon System Entity Type")
+            String(localized: "Howitzer", comment: "Weapon System Entity Type")
             
         case .missileLauncher:
-            return String(localized: "Missile Launcher", comment: "Weapon System Entity Type")
+            String(localized: "Missile Launcher", comment: "Weapon System Entity Type")
             
         case .airDefenseMissileLauncher:
-            return String(localized: "Air Defense Missile Launcher", comment: "Weapon System Entity Type")
+            String(localized: "Air Defense Missile Launcher", comment: "Weapon System Entity Type")
             
         case .antitankMissileLauncher:
-            return String(localized: "Antitank Missile Launcher", comment: "Weapon System Entity Type")
+            String(localized: "Antitank Missile Launcher", comment: "Weapon System Entity Type")
             
         case .surfaceToSurfaceMissileLauncher:
-            return String(localized: "Surface-to-Surface Missile Launcher", comment: "Weapon System Entity Type")
+            String(localized: "Surface-to-Surface Missile Launcher", comment: "Weapon System Entity Type")
             
         case .mortar:
-            return String(localized: "Mortar", comment: "Weapon System Entity Type")
+            String(localized: "Mortar", comment: "Weapon System Entity Type")
             
         case .singleRocketLauncher:
-            return String(localized: "Single Rocket Launcher", comment: "Weapon System Entity Type")
+            String(localized: "Single Rocket Launcher", comment: "Weapon System Entity Type")
             
         case .multipleRocketLauncher:
-            return String(localized: "Multiple Rocket Launcher", comment: "Weapon System Entity Type")
+            String(localized: "Multiple Rocket Launcher", comment: "Weapon System Entity Type")
             
         case .antitankRocketLauncher:
-            return String(localized: "Antitank Rocket Launcher", comment: "Weapon System Entity Type")
+            String(localized: "Antitank Rocket Launcher", comment: "Weapon System Entity Type")
             
         case .nonlethalWeapon:
-            return String(localized: "Nonlethal Weapon", comment: "Weapon System Entity Type")
+            String(localized: "Nonlethal Weapon", comment: "Weapon System Entity Type")
             
         case .taser:
-            return String(localized: "Taser", comment: "Weapon System Entity Type")
+            String(localized: "Taser", comment: "Weapon System Entity Type")
             
         case .waterCannon:
-            return String(localized: "Water Cannon", comment: "Weapon System Entity Type")
+            String(localized: "Water Cannon", comment: "Weapon System Entity Type")
         }
     }
 }

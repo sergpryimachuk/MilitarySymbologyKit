@@ -25,43 +25,43 @@ extension LandUnitEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None", comment: "Command and Control Entity Type")
+                String(localized: "None", comment: "Command and Control Entity Type")
                 
             case .broadcastTransmitterAntennae:
-                return String(localized: "Broadcast Transmitter Antennae", comment: "Command and Control Entity Type")
+                String(localized: "Broadcast Transmitter Antennae", comment: "Command and Control Entity Type")
                 
             case .civilAffairs:
-                return String(localized: "Civil Affairs", comment: "Command and Control Entity Type")
+                String(localized: "Civil Affairs", comment: "Command and Control Entity Type")
                 
             case .civilMilitaryCooperation:
-                return String(localized: "Civil Military Cooperation", comment: "Command and Control Entity Type")
+                String(localized: "Civil Military Cooperation", comment: "Command and Control Entity Type")
                 
             case .informationOperations:
-                return String(localized: "Information Operations", comment: "Command and Control Entity Type")
+                String(localized: "Information Operations", comment: "Command and Control Entity Type")
                 
             case .liaison:
-                return String(localized: "Liaison", comment: "Command and Control Entity Type")
+                String(localized: "Liaison", comment: "Command and Control Entity Type")
                 
             case .militaryInformationSupportOperations:
-                return String(localized: "Military Information Support Operations", comment: "Command and Control Entity Type")
+                String(localized: "Military Information Support Operations", comment: "Command and Control Entity Type")
                 
             case .radio:
-                return String(localized: "Radio", comment: "Command and Control Entity Type")
+                String(localized: "Radio", comment: "Command and Control Entity Type")
                 
             case .radioRelay:
-                return String(localized: "Radio Relay", comment: "Command and Control Entity Type")
+                String(localized: "Radio Relay", comment: "Command and Control Entity Type")
                 
             case .radioTeletypeCenter:
-                return String(localized: "Radio Teletype Center", comment: "Command and Control Entity Type")
+                String(localized: "Radio Teletype Center", comment: "Command and Control Entity Type")
                 
             case .signal:
-                return String(localized: "Signal", comment: "Command and Control Entity Type")
+                String(localized: "Signal", comment: "Command and Control Entity Type")
                 
             case .tacticalSatellite:
-                return String(localized: "Tactical Satellite", comment: "Command and Control Entity Type")
+                String(localized: "Tactical Satellite", comment: "Command and Control Entity Type")
                 
             case .videoImageryCombatCamera:
-                return String(localized: "Video Imagery Combat Camera", comment: "Command and Control Entity Type")
+                String(localized: "Video Imagery Combat Camera", comment: "Command and Control Entity Type")
             }
         }
         

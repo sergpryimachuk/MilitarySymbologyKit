@@ -16,16 +16,16 @@ extension SeaSubsurfaceEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .submersible:
-                return String(localized: "Submersible", comment: "Civilian Entity Type")
+                String(localized: "Submersible", comment: "Civilian Entity Type")
                 
             case .autonomousUnderwaterVehicleAUV_UUV:
-                return String(localized: "Autonomous Underwater Vehicle (AUV)/Underwater Vehicle (UUV)", comment: "Civilian Entity Type")
+                String(localized: "Autonomous Underwater Vehicle (AUV)/Underwater Vehicle (UUV)", comment: "Civilian Entity Type")
                 
             case .diver:
-                return String(localized: "Diver", comment: "Civilian Entity Type")
+                String(localized: "Diver", comment: "Civilian Entity Type")
             }
         }
     }

@@ -21,31 +21,31 @@ extension MineWarfareEntity {
         var name: String {
             switch self {
             case .seaMineBottom:
-                return String(localized: "Sea Mine-Bottom", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Bottom", comment: "Sea Mine General Entity Type")
                 
             case .seaMineMoored:
-                return String(localized: "Sea Mine-Moored", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Moored", comment: "Sea Mine General Entity Type")
                 
             case .seaMineFloating:
-                return String(localized: "Sea Mine-Floating", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Floating", comment: "Sea Mine General Entity Type")
                 
             case .seaMineRising:
-                return String(localized: "Sea Mine-Rising", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Rising", comment: "Sea Mine General Entity Type")
                 
             case .seaMineOtherPosition:
-                return String(localized: "Sea Mine-Other Position", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Other Position", comment: "Sea Mine General Entity Type")
                 
             case .kingfisher:
-                return String(localized: "Kingfisher", comment: "Sea Mine General Entity Type")
+                String(localized: "Kingfisher", comment: "Sea Mine General Entity Type")
                 
             case .smallObjectMineLike:
-                return String(localized: "Small Object-Mine-Like", comment: "Sea Mine General Entity Type")
+                String(localized: "Small Object-Mine-Like", comment: "Sea Mine General Entity Type")
                 
             case .exerciseMineGeneral:
-                return String(localized: "Exercise Mine-General", comment: "Sea Mine General Entity Type")
+                String(localized: "Exercise Mine-General", comment: "Sea Mine General Entity Type")
                 
             case .neutralizedMineGeneral:
-                return String(localized: "Neutralized Mine-General", comment: "Sea Mine General Entity Type")
+                String(localized: "Neutralized Mine-General", comment: "Sea Mine General Entity Type")
             }
         }
     }

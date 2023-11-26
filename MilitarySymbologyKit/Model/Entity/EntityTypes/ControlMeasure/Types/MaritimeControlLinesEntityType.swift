@@ -15,7 +15,7 @@ enum MaritimeControlLinesEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .bearingLine:
-            return String(localized: "Bearing Line", comment: "Maritime Control Lines Entity Type")
+            String(localized: "Bearing Line", comment: "Maritime Control Lines Entity Type")
         }
     }
 }

@@ -32,41 +32,41 @@ enum SustainmentPointsEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .ambulanceExchangePoint:
-            return String(localized: "Ambulance Exchange Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Ambulance Exchange Point", comment: "Sustainment Points Entity Type")
         case .ammunitionSupplyPoint:
-            return String(localized: "Ammunition Supply Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Ammunition Supply Point", comment: "Sustainment Points Entity Type")
         case .ammunitionTransferPoint:
-            return String(localized: "Ammunition Transfer Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Ammunition Transfer Point", comment: "Sustainment Points Entity Type")
         case .cannibalizationPoint:
-            return String(localized: "Cannibalization Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Cannibalization Point", comment: "Sustainment Points Entity Type")
         case .casualtyCollectionPoint:
-            return String(localized: "Casualty Collection Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Casualty Collection Point", comment: "Sustainment Points Entity Type")
         case .civilianCollectionPoint:
-            return String(localized: "Civilian Collection Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Civilian Collection Point", comment: "Sustainment Points Entity Type")
         case .detaineeCollectionPoint:
-            return String(localized: "Detainee Collection Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Detainee Collection Point", comment: "Sustainment Points Entity Type")
         case .enemyPrisonerOfWarCollectionPoint:
-            return String(localized: "Enemy Prisoner of War Collection Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Enemy Prisoner of War Collection Point", comment: "Sustainment Points Entity Type")
         case .logisticsReleasePoint:
-            return String(localized: "Logistics Release Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Logistics Release Point", comment: "Sustainment Points Entity Type")
         case .maintenanceCollectionPoint:
-            return String(localized: "Maintenance Collection Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Maintenance Collection Point", comment: "Sustainment Points Entity Type")
         case .medicalEvacuationPickUpPoint:
-            return String(localized: "Medical Evacuation Pick-up Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Medical Evacuation Pick-up Point", comment: "Sustainment Points Entity Type")
         case .rearmRefuelResupplyPoint:
-            return String(localized: "Rearm-Refuel and Resupply Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Rearm-Refuel and Resupply Point", comment: "Sustainment Points Entity Type")
         case .refuelOnTheMovePoint:
-            return String(localized: "Refuel on the Move Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Refuel on the Move Point", comment: "Sustainment Points Entity Type")
         case .trafficControlPost:
-            return String(localized: "Traffic Control Post", comment: "Sustainment Points Entity Type")
+            String(localized: "Traffic Control Post", comment: "Sustainment Points Entity Type")
         case .trailerTransferPoint:
-            return String(localized: "Trailer Transfer Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Trailer Transfer Point", comment: "Sustainment Points Entity Type")
         case .unitMaintenanceCollectionPoint:
-            return String(localized: "Unit Maintenance Collection Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Unit Maintenance Collection Point", comment: "Sustainment Points Entity Type")
         case .generalSupplyPoint:
-            return String(localized: "General Supply Point", comment: "Sustainment Points Entity Type")
+            String(localized: "General Supply Point", comment: "Sustainment Points Entity Type")
         case .medicalSupplyPoint:
-            return String(localized: "Medical Supply Point", comment: "Sustainment Points Entity Type")
+            String(localized: "Medical Supply Point", comment: "Sustainment Points Entity Type")
         }
     }
 }

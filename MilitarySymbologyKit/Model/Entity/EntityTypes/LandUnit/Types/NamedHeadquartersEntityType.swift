@@ -18,16 +18,16 @@ enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .alliedCommandEuropeRapidReactionCorps:
-            return String(localized: "Allied Command Europe Rapid Reaction Corps (ARRC)", comment: "Named Headquarters Entity Type")
+            String(localized: "Allied Command Europe Rapid Reaction Corps (ARRC)", comment: "Named Headquarters Entity Type")
             
         case .alliedCommandOperations:
-            return String(localized: "Allied Command Operations", comment: "Named Headquarters Entity Type")
+            String(localized: "Allied Command Operations", comment: "Named Headquarters Entity Type")
             
         case .internationalSecurityAssistanceForce:
-            return String(localized: "International Security Assistance Force (ISAF)", comment: "Named Headquarters Entity Type")
+            String(localized: "International Security Assistance Force (ISAF)", comment: "Named Headquarters Entity Type")
             
         case .multinational:
-            return String(localized: "Multinational (MN)", comment: "Named Headquarters Entity Type")
+            String(localized: "Multinational (MN)", comment: "Named Headquarters Entity Type")
         }
     }
 }

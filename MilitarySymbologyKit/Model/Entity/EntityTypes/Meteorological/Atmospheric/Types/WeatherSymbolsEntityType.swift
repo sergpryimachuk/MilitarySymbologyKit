@@ -37,79 +37,79 @@ extension AtmosphericEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .rain:
-                return String(localized: "Rain", comment: "Weather Symbols Entity Type")
+                String(localized: "Rain", comment: "Weather Symbols Entity Type")
                 
             case .freezingRain:
-                return String(localized: "Freezing Rain", comment: "Weather Symbols Entity Type")
+                String(localized: "Freezing Rain", comment: "Weather Symbols Entity Type")
                 
             case .rainShowers:
-                return String(localized: "Rain Showers", comment: "Weather Symbols Entity Type")
+                String(localized: "Rain Showers", comment: "Weather Symbols Entity Type")
                 
             case .drizzle:
-                return String(localized: "Drizzle", comment: "Weather Symbols Entity Type")
+                String(localized: "Drizzle", comment: "Weather Symbols Entity Type")
                 
             case .freezingDrizzle:
-                return String(localized: "Freezing Drizzle", comment: "Weather Symbols Entity Type")
+                String(localized: "Freezing Drizzle", comment: "Weather Symbols Entity Type")
                 
             case .rainAndSnowMixed:
-                return String(localized: "Rain and Snow Mixed", comment: "Weather Symbols Entity Type")
+                String(localized: "Rain and Snow Mixed", comment: "Weather Symbols Entity Type")
                 
             case .snow:
-                return String(localized: "Snow", comment: "Weather Symbols Entity Type")
+                String(localized: "Snow", comment: "Weather Symbols Entity Type")
                 
             case .snowGrains:
-                return String(localized: "Snow Grains", comment: "Weather Symbols Entity Type")
+                String(localized: "Snow Grains", comment: "Weather Symbols Entity Type")
                 
             case .snowShowers:
-                return String(localized: "Snow Showers", comment: "Weather Symbols Entity Type")
+                String(localized: "Snow Showers", comment: "Weather Symbols Entity Type")
                 
             case .hail:
-                return String(localized: "Hail", comment: "Weather Symbols Entity Type")
+                String(localized: "Hail", comment: "Weather Symbols Entity Type")
                 
             case .iceCrystalsDiamondDust:
-                return String(localized: "Ice Crystals (Diamond Dust)", comment: "Weather Symbols Entity Type")
+                String(localized: "Ice Crystals (Diamond Dust)", comment: "Weather Symbols Entity Type")
                 
             case .icePelletsSleet:
-                return String(localized: "Ice Pellets (Sleet)", comment: "Weather Symbols Entity Type")
+                String(localized: "Ice Pellets (Sleet)", comment: "Weather Symbols Entity Type")
                 
             case .inversion:
-                return String(localized: "Inversion", comment: "Weather Symbols Entity Type")
+                String(localized: "Inversion", comment: "Weather Symbols Entity Type")
                 
             case .storms:
-                return String(localized: "Storms", comment: "Weather Symbols Entity Type")
+                String(localized: "Storms", comment: "Weather Symbols Entity Type")
                 
             case .fog:
-                return String(localized: "Fog", comment: "Weather Symbols Entity Type")
+                String(localized: "Fog", comment: "Weather Symbols Entity Type")
                 
             case .mist:
-                return String(localized: "Mist", comment: "Weather Symbols Entity Type")
+                String(localized: "Mist", comment: "Weather Symbols Entity Type")
                 
             case .smoke:
-                return String(localized: "Smoke", comment: "Weather Symbols Entity Type")
+                String(localized: "Smoke", comment: "Weather Symbols Entity Type")
                 
             case .haze:
-                return String(localized: "Haze", comment: "Weather Symbols Entity Type")
+                String(localized: "Haze", comment: "Weather Symbols Entity Type")
                 
             case .dustOrSand:
-                return String(localized: "Dust or Sand", comment: "Weather Symbols Entity Type")
+                String(localized: "Dust or Sand", comment: "Weather Symbols Entity Type")
                 
             case .tropicalStormSystems:
-                return String(localized: "Tropical Storm Systems", comment: "Weather Symbols Entity Type")
+                String(localized: "Tropical Storm Systems", comment: "Weather Symbols Entity Type")
                 
             case .volcanicEruption:
-                return String(localized: "Volcanic Eruption", comment: "Weather Symbols Entity Type")
+                String(localized: "Volcanic Eruption", comment: "Weather Symbols Entity Type")
                 
             case .tropopauseLevel:
-                return String(localized: "Tropopause Level", comment: "Weather Symbols Entity Type")
+                String(localized: "Tropopause Level", comment: "Weather Symbols Entity Type")
                 
             case .freezingLevel:
-                return String(localized: "Freezing Level", comment: "Weather Symbols Entity Type")
+                String(localized: "Freezing Level", comment: "Weather Symbols Entity Type")
                 
             case .precipitationUnknownTypeAndIntensity:
-                return String(localized: "Precipitation of Unknown Type and Intensity", comment: "Weather Symbols Entity Type")
+                String(localized: "Precipitation of Unknown Type and Intensity", comment: "Weather Symbols Entity Type")
             }
         }
     }

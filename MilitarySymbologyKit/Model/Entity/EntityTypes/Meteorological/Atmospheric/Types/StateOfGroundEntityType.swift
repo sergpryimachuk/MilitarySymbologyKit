@@ -15,13 +15,13 @@ extension AtmosphericEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .withoutSnowOrMeasurableIceCover:
-                return String(localized: "Without Snow or Measurable Ice Cover", comment: "State of Ground Entity Type")
+                String(localized: "Without Snow or Measurable Ice Cover", comment: "State of Ground Entity Type")
                 
             case .withSnowOrMeasurableIceCover:
-                return String(localized: "With Snow or Measurable Ice Cover", comment: "State of Ground Entity Type")
+                String(localized: "With Snow or Measurable Ice Cover", comment: "State of Ground Entity Type")
             }
         }
     }

@@ -15,12 +15,12 @@ extension MineWarfareEntity {
         var name: String {
             switch self {
             case .seaMineDecoyBottom:
-                return String(localized: "Sea Mine Decoy-Bottom", comment: "Sea Mine Decoy Entity Type")
+                String(localized: "Sea Mine Decoy-Bottom", comment: "Sea Mine Decoy Entity Type")
                 
             case .seaMineDecoyMoored:
-                return String(localized: "Sea Mine Decoy-Moored", comment: "Sea Mine Decoy Entity Type")
+                String(localized: "Sea Mine Decoy-Moored", comment: "Sea Mine Decoy Entity Type")
             case .none:
-                return String(localized: "None", comment: "Sea Mine Decoy Entity Type")
+                String(localized: "None", comment: "Sea Mine Decoy Entity Type")
             }
         }
     }

@@ -24,25 +24,25 @@ enum ProtectionLinesEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .obstacleLine:
-            return String(localized: "Obstacle Line", comment: "Protection Lines Entity Type")
+            String(localized: "Obstacle Line", comment: "Protection Lines Entity Type")
         case .antitankObstacles:
-            return String(localized: "Antitank Obstacles", comment: "Protection Lines Entity Type")
+            String(localized: "Antitank Obstacles", comment: "Protection Lines Entity Type")
         case .wireObstacles:
-            return String(localized: "Wire Obstacles", comment: "Protection Lines Entity Type")
+            String(localized: "Wire Obstacles", comment: "Protection Lines Entity Type")
         case .mineCluster:
-            return String(localized: "Mine Cluster", comment: "Protection Lines Entity Type")
+            String(localized: "Mine Cluster", comment: "Protection Lines Entity Type")
         case .tripWire:
-            return String(localized: "Trip Wire", comment: "Protection Lines Entity Type")
+            String(localized: "Trip Wire", comment: "Protection Lines Entity Type")
         case .lane:
-            return String(localized: "Lane", comment: "Protection Lines Entity Type")
+            String(localized: "Lane", comment: "Protection Lines Entity Type")
         case .ferry:
-            return String(localized: "Ferry", comment: "Protection Lines Entity Type")
+            String(localized: "Ferry", comment: "Protection Lines Entity Type")
         case .raftSite:
-            return String(localized: "Raft Site", comment: "Protection Lines Entity Type")
+            String(localized: "Raft Site", comment: "Protection Lines Entity Type")
         case .fortifiedLine:
-            return String(localized: "Fortified Line", comment: "Protection Lines Entity Type")
+            String(localized: "Fortified Line", comment: "Protection Lines Entity Type")
         case .fortifiedPosition:
-            return String(localized: "Fortified Position", comment: "Protection Lines Entity Type")
+            String(localized: "Fortified Position", comment: "Protection Lines Entity Type")
         }
     }
 }

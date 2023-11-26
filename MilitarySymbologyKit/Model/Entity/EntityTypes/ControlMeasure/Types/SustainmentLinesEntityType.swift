@@ -18,13 +18,13 @@ enum SustainmentLinesEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .movingConvoy:
-            return String(localized: "Moving Convoy", comment: "Sustainment Lines Entity Type")
+            String(localized: "Moving Convoy", comment: "Sustainment Lines Entity Type")
         case .haltedConvoy:
-            return String(localized: "Halted Convoy", comment: "Sustainment Lines Entity Type")
+            String(localized: "Halted Convoy", comment: "Sustainment Lines Entity Type")
         case .mainSupplyRoute:
-            return String(localized: "Main Supply Route", comment: "Sustainment Lines Entity Type")
+            String(localized: "Main Supply Route", comment: "Sustainment Lines Entity Type")
         case .alternateSupplyRoute:
-            return String(localized: "Alternate Supply Route", comment: "Sustainment Lines Entity Type")
+            String(localized: "Alternate Supply Route", comment: "Sustainment Lines Entity Type")
         }
     }
 }

@@ -108,189 +108,189 @@ enum MaritimeControlPointsEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .planShip:
-            return String(localized: "Plan Ship", comment: "Maritime Control Points Entity Type")
+            String(localized: "Plan Ship", comment: "Maritime Control Points Entity Type")
         case .aimPoint:
-            return String(localized: "Aim Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Aim Point", comment: "Maritime Control Points Entity Type")
         case .defendedAsset:
-            return String(localized: "Defended Asset", comment: "Maritime Control Points Entity Type")
+            String(localized: "Defended Asset", comment: "Maritime Control Points Entity Type")
         case .dropPoint:
-            return String(localized: "Drop Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Drop Point", comment: "Maritime Control Points Entity Type")
         case .entryPoint:
-            return String(localized: "Entry Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Entry Point", comment: "Maritime Control Points Entity Type")
         case .airDetonation:
-            return String(localized: "Air Detonation", comment: "Maritime Control Points Entity Type")
+            String(localized: "Air Detonation", comment: "Maritime Control Points Entity Type")
         case .groundZero:
-            return String(localized: "Ground Zero", comment: "Maritime Control Points Entity Type")
+            String(localized: "Ground Zero", comment: "Maritime Control Points Entity Type")
         case .impactPoint:
-            return String(localized: "Impact Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Impact Point", comment: "Maritime Control Points Entity Type")
         case .predictedImpactPoint:
-            return String(localized: "Predicted Impact Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Predicted Impact Point", comment: "Maritime Control Points Entity Type")
         case .launchedTorpedo:
-            return String(localized: "Launched Torpedo", comment: "Maritime Control Points Entity Type")
+            String(localized: "Launched Torpedo", comment: "Maritime Control Points Entity Type")
         case .missileDetectionPoint:
-            return String(localized: "Missile Detection Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Missile Detection Point", comment: "Maritime Control Points Entity Type")
         case .acousticCountermeasureDecoy:
-            return String(localized: "Acoustic Countermeasure (Decoy)", comment: "Maritime Control Points Entity Type")
+            String(localized: "Acoustic Countermeasure (Decoy)", comment: "Maritime Control Points Entity Type")
         case .electronicCountermeasuresECMDecoy:
-            return String(localized: "Electronic Countermeasures (ECM) Decoy", comment: "Maritime Control Points Entity Type")
+            String(localized: "Electronic Countermeasures (ECM) Decoy", comment: "Maritime Control Points Entity Type")
         case .briefContact:
-            return String(localized: "Brief Contact", comment: "Maritime Control Points Entity Type")
+            String(localized: "Brief Contact", comment: "Maritime Control Points Entity Type")
         case .datumLostContact:
-            return String(localized: "Datum Lost Contact", comment: "Maritime Control Points Entity Type")
+            String(localized: "Datum Lost Contact", comment: "Maritime Control Points Entity Type")
         case .btBuoyDrop:
-            return String(localized: "BT Buoy Drop", comment: "Maritime Control Points Entity Type")
+            String(localized: "BT Buoy Drop", comment: "Maritime Control Points Entity Type")
         case .reportedBottomSub:
-            return String(localized: "Reported Bottom Sub", comment: "Maritime Control Points Entity Type")
+            String(localized: "Reported Bottom Sub", comment: "Maritime Control Points Entity Type")
         case .movingHaven:
-            return String(localized: "Moving Haven", comment: "Maritime Control Points Entity Type")
+            String(localized: "Moving Haven", comment: "Maritime Control Points Entity Type")
         case .screenCenter:
-            return String(localized: "Screen Center", comment: "Maritime Control Points Entity Type")
+            String(localized: "Screen Center", comment: "Maritime Control Points Entity Type")
         case .lostContact:
-            return String(localized: "Lost Contact", comment: "Maritime Control Points Entity Type")
+            String(localized: "Lost Contact", comment: "Maritime Control Points Entity Type")
         case .sinker:
-            return String(localized: "Sinker", comment: "Maritime Control Points Entity Type")
+            String(localized: "Sinker", comment: "Maritime Control Points Entity Type")
         case .trialTrack:
-            return String(localized: "Trial Track", comment: "Maritime Control Points Entity Type")
+            String(localized: "Trial Track", comment: "Maritime Control Points Entity Type")
         case .acousticFix:
-            return String(localized: "Acoustic Fix", comment: "Maritime Control Points Entity Type")
+            String(localized: "Acoustic Fix", comment: "Maritime Control Points Entity Type")
         case .electromagneticFix:
-            return String(localized: "Electromagnetic Fix", comment: "Maritime Control Points Entity Type")
+            String(localized: "Electromagnetic Fix", comment: "Maritime Control Points Entity Type")
         case .electromagneticMagneticAnomalyDetectionMAD:
-            return String(localized: "Electromagnetic - Magnetic Anomaly Detection (MAD)", comment: "Maritime Control Points Entity Type")
+            String(localized: "Electromagnetic - Magnetic Anomaly Detection (MAD)", comment: "Maritime Control Points Entity Type")
         case .opticalFix:
-            return String(localized: "Optical Fix", comment: "Maritime Control Points Entity Type")
+            String(localized: "Optical Fix", comment: "Maritime Control Points Entity Type")
         case .formation:
-            return String(localized: "Formation", comment: "Maritime Control Points Entity Type")
+            String(localized: "Formation", comment: "Maritime Control Points Entity Type")
         case .harbor:
-            return String(localized: "Harbor", comment: "Maritime Control Points Entity Type")
+            String(localized: "Harbor", comment: "Maritime Control Points Entity Type")
         case .harborEntrancePoint:
-            return String(localized: "Harbor Entrance Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Harbor Entrance Point", comment: "Maritime Control Points Entity Type")
         case .dipPosition:
-            return String(localized: "Dip Position", comment: "Maritime Control Points Entity Type")
+            String(localized: "Dip Position", comment: "Maritime Control Points Entity Type")
         case .search:
-            return String(localized: "Search", comment: "Maritime Control Points Entity Type")
+            String(localized: "Search", comment: "Maritime Control Points Entity Type")
         case .searchArea:
-            return String(localized: "Search Area", comment: "Maritime Control Points Entity Type")
+            String(localized: "Search Area", comment: "Maritime Control Points Entity Type")
         case .searchCenter:
-            return String(localized: "Search Center", comment: "Maritime Control Points Entity Type")
+            String(localized: "Search Center", comment: "Maritime Control Points Entity Type")
         case .navigationalReferencePoint:
-            return String(localized: "Navigational Reference Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Navigational Reference Point", comment: "Maritime Control Points Entity Type")
         case .sonobuoy:
-            return String(localized: "Sonobuoy", comment: "Maritime Control Points Entity Type")
+            String(localized: "Sonobuoy", comment: "Maritime Control Points Entity Type")
         case .referencePoint:
-            return String(localized: "Reference Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Reference Point", comment: "Maritime Control Points Entity Type")
         case .specialPoint:
-            return String(localized: "Special Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Special Point", comment: "Maritime Control Points Entity Type")
         case .navigationalReferencePoint2:
-            return String(localized: "Navigational Reference Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Navigational Reference Point", comment: "Maritime Control Points Entity Type")
         case .dataLinkReferencePoint:
-            return String(localized: "Data Link Reference Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Data Link Reference Point", comment: "Maritime Control Points Entity Type")
         case .forwardObserverSpotterPosition:
-            return String(localized: "Forward Observer / Spotter Position", comment: "Maritime Control Points Entity Type")
+            String(localized: "Forward Observer / Spotter Position", comment: "Maritime Control Points Entity Type")
         case .vitalAreaCenter:
-            return String(localized: "Vital Area Center", comment: "Maritime Control Points Entity Type")
+            String(localized: "Vital Area Center", comment: "Maritime Control Points Entity Type")
         case .corridorTabPoint:
-            return String(localized: "Corridor Tab Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Corridor Tab Point", comment: "Maritime Control Points Entity Type")
         case .enemyPoint:
-            return String(localized: "Enemy Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Enemy Point", comment: "Maritime Control Points Entity Type")
         case .marshallPoint:
-            return String(localized: "Marshall Point", comment: "Maritime Control Points Entity Type")
+            String(localized: "Marshall Point", comment: "Maritime Control Points Entity Type")
         case .positionAndIntendedMovementPIM:
-            return String(localized: "Position and Intended Movement (PIM)", comment: "Maritime Control Points Entity Type")
+            String(localized: "Position and Intended Movement (PIM)", comment: "Maritime Control Points Entity Type")
         case .preLandfallWaypoint:
-            return String(localized: "Pre-Landfall Waypoint", comment: "Maritime Control Points Entity Type")
+            String(localized: "Pre-Landfall Waypoint", comment: "Maritime Control Points Entity Type")
         case .estimatedPositionEP:
-            return String(localized: "Estimated Position (EP)", comment: "Maritime Control Points Entity Type")
+            String(localized: "Estimated Position (EP)", comment: "Maritime Control Points Entity Type")
         case .waypoint:
-            return String(localized: "Waypoint", comment: "Maritime Control Points Entity Type")
+            String(localized: "Waypoint", comment: "Maritime Control Points Entity Type")
         case .generalSubsurfaceStation:
-            return String(localized: "General Subsurface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "General Subsurface Station", comment: "Maritime Control Points Entity Type")
         case .submarineSubsurfaceStation:
-            return String(localized: "Submarine Subsurface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Submarine Subsurface Station", comment: "Maritime Control Points Entity Type")
         case .submarineAntisubmarineWarfareSubsurfaceStation:
-            return String(localized: "Submarine Antisubmarine Warfare Subsurface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Submarine Antisubmarine Warfare Subsurface Station", comment: "Maritime Control Points Entity Type")
         case .unmannedUnderwaterVehicleSubsurfaceStation:
-            return String(localized: "Unmanned Underwater Vehicle Subsurface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Unmanned Underwater Vehicle Subsurface Station", comment: "Maritime Control Points Entity Type")
         case .antisubmarineWarfareASWUnmannedUnderwaterVehicleSubsurfaceStation:
-            return String(localized: "Antisubmarine Warfare (ASW) Unmanned Underwater Vehicle Subsurface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Antisubmarine Warfare (ASW) Unmanned Underwater Vehicle Subsurface Station", comment: "Maritime Control Points Entity Type")
         case .mineWarfareUnmannedUnderwaterVehicleSubsurfaceStation:
-            return String(localized: "Mine Warfare Unmanned Underwater Vehicle Subsurface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Mine Warfare Unmanned Underwater Vehicle Subsurface Station", comment: "Maritime Control Points Entity Type")
         case .surfaceWarfareUnmannedUnderwaterVehicleSubsurfaceStation:
-            return String(localized: "Surface Warfare Unmanned Underwater Vehicle Subsurface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Surface Warfare Unmanned Underwater Vehicle Subsurface Station", comment: "Maritime Control Points Entity Type")
         case .generalSurfaceStation:
-            return String(localized: "General Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "General Surface Station", comment: "Maritime Control Points Entity Type")
         case .antisubmarineWarfareASWSurfaceStation:
-            return String(localized: "Antisubmarine Warfare (ASW) Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Antisubmarine Warfare (ASW) Surface Station", comment: "Maritime Control Points Entity Type")
         case .mineWarfareSurfaceStation:
-            return String(localized: "Mine Warfare Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Mine Warfare Surface Station", comment: "Maritime Control Points Entity Type")
         case .nonCombatantSurfaceStation:
-            return String(localized: "Non-Combatant Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Non-Combatant Surface Station", comment: "Maritime Control Points Entity Type")
         case .picketSurfaceStation:
-            return String(localized: "Picket Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Picket Surface Station", comment: "Maritime Control Points Entity Type")
         case .rendezvousSurfaceStation:
-            return String(localized: "Rendezvous Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Rendezvous Surface Station", comment: "Maritime Control Points Entity Type")
         case .replenishmentAtSeaSurfaceStation:
-            return String(localized: "Replenishment at Sea Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Replenishment at Sea Surface Station", comment: "Maritime Control Points Entity Type")
         case .rescueSurfaceStation:
-            return String(localized: "Rescue Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Rescue Surface Station", comment: "Maritime Control Points Entity Type")
         case .surfaceWarfareSurfaceStation:
-            return String(localized: "Surface Warfare Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Surface Warfare Surface Station", comment: "Maritime Control Points Entity Type")
         case .unmannedUnderwaterVehicleSurfaceStation:
-            return String(localized: "Unmanned Underwater Vehicle Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Unmanned Underwater Vehicle Surface Station", comment: "Maritime Control Points Entity Type")
         case .antisubmarineWarfareASWUnmannedUnderwaterVehicleSurfaceStation:
-            return String(localized: "Antisubmarine Warfare (ASW) Unmanned Underwater Vehicle Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Antisubmarine Warfare (ASW) Unmanned Underwater Vehicle Surface Station", comment: "Maritime Control Points Entity Type")
         case .mineWarfareUnmannedUnderwaterVehicleSurfaceStation:
-            return String(localized: "Mine Warfare Unmanned Underwater Vehicle Surface Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Mine Warfare Unmanned Underwater Vehicle Surface Station", comment: "Maritime Control Points Entity Type")
         case .remoteMultiMissionVehicleMineWarfareUnmannedUnderwaterVehicle:
-            return String(localized: "Remote Multi-Mission Vehicle Mine Warfare Unmanned Underwater Vehicle", comment: "Maritime Control Points Entity Type")
+            String(localized: "Remote Multi-Mission Vehicle Mine Warfare Unmanned Underwater Vehicle", comment: "Maritime Control Points Entity Type")
         case .surfaceWarfareMineWarfareUnmannedUnderwaterVehicle:
-            return String(localized: "Surface Warfare Mine Warfare Unmanned Underwater Vehicle", comment: "Maritime Control Points Entity Type")
+            String(localized: "Surface Warfare Mine Warfare Unmanned Underwater Vehicle", comment: "Maritime Control Points Entity Type")
         case .shoreControlStation:
-            return String(localized: "Shore Control Station", comment: "Maritime Control Points Entity Type")
+            String(localized: "Shore Control Station", comment: "Maritime Control Points Entity Type")
         case .generalRoute:
-            return String(localized: "General Route", comment: "Maritime Control Points Entity Type")
+            String(localized: "General Route", comment: "Maritime Control Points Entity Type")
         case .diversionRoute:
-            return String(localized: "Diversion Route", comment: "Maritime Control Points Entity Type")
+            String(localized: "Diversion Route", comment: "Maritime Control Points Entity Type")
         case .positionAndIntendedMovementPIMRoute:
-            return String(localized: "Position and Intended Movement (PIM) Route", comment: "Maritime Control Points Entity Type")
+            String(localized: "Position and Intended Movement (PIM) Route", comment: "Maritime Control Points Entity Type")
         case .picketRoute:
-            return String(localized: "Picket Route", comment: "Maritime Control Points Entity Type")
+            String(localized: "Picket Route", comment: "Maritime Control Points Entity Type")
         case .pointRRoute:
-            return String(localized: "Point R Route", comment: "Maritime Control Points Entity Type")
+            String(localized: "Point R Route", comment: "Maritime Control Points Entity Type")
         case .rendezvousRoute:
-            return String(localized: "Rendezvous Route", comment: "Maritime Control Points Entity Type")
+            String(localized: "Rendezvous Route", comment: "Maritime Control Points Entity Type")
         case .waypointRoute:
-            return String(localized: "Waypoint Route", comment: "Maritime Control Points Entity Type")
+            String(localized: "Waypoint Route", comment: "Maritime Control Points Entity Type")
         case .clutterStationaryOrCeaseReporting:
-            return String(localized: "Clutter-Stationary or Cease Reporting", comment: "Maritime Control Points Entity Type")
+            String(localized: "Clutter-Stationary or Cease Reporting", comment: "Maritime Control Points Entity Type")
         case .tentativeOrProvisionalTrack:
-            return String(localized: "Tentative or Provisional Track", comment: "Maritime Control Points Entity Type")
+            String(localized: "Tentative or Provisional Track", comment: "Maritime Control Points Entity Type")
         case .distressedVessel:
-            return String(localized: "Distressed Vessel", comment: "Maritime Control Points Entity Type")
+            String(localized: "Distressed Vessel", comment: "Maritime Control Points Entity Type")
         case .ditchedAircraftDownedAircraft:
-            return String(localized: "Ditched Aircraft/Downed Aircraft", comment: "Maritime Control Points Entity Type")
+            String(localized: "Ditched Aircraft/Downed Aircraft", comment: "Maritime Control Points Entity Type")
         case .personInWaterBailout:
-            return String(localized: "Person in Water/Bailout", comment: "Maritime Control Points Entity Type")
+            String(localized: "Person in Water/Bailout", comment: "Maritime Control Points Entity Type")
         case .iceberg:
-            return String(localized: "Iceberg", comment: "Maritime Control Points Entity Type")
+            String(localized: "Iceberg", comment: "Maritime Control Points Entity Type")
         case .navigational:
-            return String(localized: "Navigational", comment: "Maritime Control Points Entity Type")
+            String(localized: "Navigational", comment: "Maritime Control Points Entity Type")
         case .oilRig:
-            return String(localized: "Oil Rig", comment: "Maritime Control Points Entity Type")
+            String(localized: "Oil Rig", comment: "Maritime Control Points Entity Type")
         case .seaMineLike:
-            return String(localized: "Sea Mine-Like", comment: "Maritime Control Points Entity Type")
+            String(localized: "Sea Mine-Like", comment: "Maritime Control Points Entity Type")
         case .bottomReturnNonMineLikeBottomObjectNOMBO:
-            return String(localized: "Bottom Return/Non-Mine Like Bottom Object (NOMBO)", comment: "Maritime Control Points Entity Type")
+            String(localized: "Bottom Return/Non-Mine Like Bottom Object (NOMBO)", comment: "Maritime Control Points Entity Type")
         case .bottomReturnNonMineLikeBottomObjectNOMBOInstallationManmade:
-            return String(localized: "Bottom Return/Non-Mine Like Bottom Object (NOMBO)/Installation Manmade", comment: "Maritime Control Points Entity Type")
+            String(localized: "Bottom Return/Non-Mine Like Bottom Object (NOMBO)/Installation Manmade", comment: "Maritime Control Points Entity Type")
         case .marineLife:
-            return String(localized: "Marine Life", comment: "Maritime Control Points Entity Type")
+            String(localized: "Marine Life", comment: "Maritime Control Points Entity Type")
         case .seaAnomalyWakeCurrentKnuckle:
-            return String(localized: "Sea Anomaly (Wake-Current-Knuckle)", comment: "Maritime Control Points Entity Type")
+            String(localized: "Sea Anomaly (Wake-Current-Knuckle)", comment: "Maritime Control Points Entity Type")
         case .bottomReturnNonMILCOWreckDangerous:
-            return String(localized: "Bottom Return/Non-MILCO-Wreck-Dangerous", comment: "Maritime Control Points Entity Type")
+            String(localized: "Bottom Return/Non-MILCO-Wreck-Dangerous", comment: "Maritime Control Points Entity Type")
         case .bottomReturnNonMILCOWreckNonDangerous:
-            return String(localized: "Bottom Return/Non-MILCO-Wreck-Non Dangerous", comment: "Maritime Control Points Entity Type")
+            String(localized: "Bottom Return/Non-MILCO-Wreck-Non Dangerous", comment: "Maritime Control Points Entity Type")
         }
     }
 }

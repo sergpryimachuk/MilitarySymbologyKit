@@ -20,17 +20,17 @@ enum FireLinesEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .fireSupportCoordinationLine:
-            return String(localized: "Fire Support Coordination Line (FSCL)", comment: "Fire Lines Entity Type")
+            String(localized: "Fire Support Coordination Line (FSCL)", comment: "Fire Lines Entity Type")
         case .coordinatedFireLine:
-            return String(localized: "Coordinated Fire Line (CFL)", comment: "Fire Lines Entity Type")
+            String(localized: "Coordinated Fire Line (CFL)", comment: "Fire Lines Entity Type")
         case .noFireLine:
-            return String(localized: "No Fire Line", comment: "Fire Lines Entity Type")
+            String(localized: "No Fire Line", comment: "Fire Lines Entity Type")
         case .battlefieldCoordinationLine:
-            return String(localized: "Battlefield Coordination Line", comment: "Fire Lines Entity Type")
+            String(localized: "Battlefield Coordination Line", comment: "Fire Lines Entity Type")
         case .restrictiveFireLine:
-            return String(localized: "Restrictive Fire Line", comment: "Fire Lines Entity Type")
+            String(localized: "Restrictive Fire Line", comment: "Fire Lines Entity Type")
         case .munitionFlightPath:
-            return String(localized: "Munition Flight Path", comment: "Fire Lines Entity Type")
+            String(localized: "Munition Flight Path", comment: "Fire Lines Entity Type")
         }
     }
 }

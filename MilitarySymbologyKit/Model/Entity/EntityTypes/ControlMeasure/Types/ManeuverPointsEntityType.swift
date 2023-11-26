@@ -18,16 +18,16 @@ enum ManeuverPointsEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .observationPostOutpostUnspecified:
-            return String(localized: "Observation Post/Outpost (Unspecified)", comment: "Maneuver Points Entity Type")
+            String(localized: "Observation Post/Outpost (Unspecified)", comment: "Maneuver Points Entity Type")
             
         case .observationPostOutpostSpecified:
-            return String(localized: "Observation Post/Outpost (Specified)", comment: "Maneuver Points Entity Type")
+            String(localized: "Observation Post/Outpost (Specified)", comment: "Maneuver Points Entity Type")
             
         case .targetReferencePoint:
-            return String(localized: "Target Reference Point", comment: "Maneuver Points Entity Type")
+            String(localized: "Target Reference Point", comment: "Maneuver Points Entity Type")
             
         case .pointOfDeparture:
-            return String(localized: "Point of Departure", comment: "Maneuver Points Entity Type")
+            String(localized: "Point of Departure", comment: "Maneuver Points Entity Type")
         }
     }
 }

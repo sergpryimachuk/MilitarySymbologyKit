@@ -19,15 +19,15 @@ enum FiresPointsEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .firingPoint:
-            return String(localized: "Firing Point", comment: "Fires Points Entity Type")
+            String(localized: "Firing Point", comment: "Fires Points Entity Type")
         case .hidePoint:
-            return String(localized: "Hide Point", comment: "Fires Points Entity Type")
+            String(localized: "Hide Point", comment: "Fires Points Entity Type")
         case .launchPoint:
-            return String(localized: "Launch Point", comment: "Fires Points Entity Type")
+            String(localized: "Launch Point", comment: "Fires Points Entity Type")
         case .reloadPoint:
-            return String(localized: "Reload Point", comment: "Fires Points Entity Type")
+            String(localized: "Reload Point", comment: "Fires Points Entity Type")
         case .surveyControlPoint:
-            return String(localized: "Survey Control Point", comment: "Fires Points Entity Type")
+            String(localized: "Survey Control Point", comment: "Fires Points Entity Type")
         }
     }
 }

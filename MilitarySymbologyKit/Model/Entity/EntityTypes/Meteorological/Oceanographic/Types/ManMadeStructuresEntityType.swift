@@ -21,31 +21,31 @@ extension OceanographicEntity {
         var name: String {
             switch self {
             case .submarineCable:
-                return String(localized: "Submarine Cable", comment: "Man-Made Structures Entity Type")
+                String(localized: "Submarine Cable", comment: "Man-Made Structures Entity Type")
                 
             case .submergedCrib:
-                return String(localized: "Submerged Crib", comment: "Man-Made Structures Entity Type")
+                String(localized: "Submerged Crib", comment: "Man-Made Structures Entity Type")
                 
             case .canal:
-                return String(localized: "Canal", comment: "Man-Made Structures Entity Type")
+                String(localized: "Canal", comment: "Man-Made Structures Entity Type")
                 
             case .ford:
-                return String(localized: "Ford", comment: "Man-Made Structures Entity Type")
+                String(localized: "Ford", comment: "Man-Made Structures Entity Type")
                 
             case .lock:
-                return String(localized: "Lock", comment: "Man-Made Structures Entity Type")
+                String(localized: "Lock", comment: "Man-Made Structures Entity Type")
                 
             case .oilGasRig:
-                return String(localized: "Oil/Gas Rig", comment: "Man-Made Structures Entity Type")
+                String(localized: "Oil/Gas Rig", comment: "Man-Made Structures Entity Type")
                 
             case .oilGasRigField:
-                return String(localized: "Oil/Gas Rig Field", comment: "Man-Made Structures Entity Type")
+                String(localized: "Oil/Gas Rig Field", comment: "Man-Made Structures Entity Type")
                 
             case .pipelinesPipe:
-                return String(localized: "Pipelines/Pipe", comment: "Man-Made Structures Entity Type")
+                String(localized: "Pipelines/Pipe", comment: "Man-Made Structures Entity Type")
                 
             case .pilePilingPost:
-                return String(localized: "Pile/Piling/Post", comment: "Man-Made Structures Entity Type")
+                String(localized: "Pile/Piling/Post", comment: "Man-Made Structures Entity Type")
             }
         }
     }

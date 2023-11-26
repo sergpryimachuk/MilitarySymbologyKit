@@ -18,16 +18,16 @@ enum CommandAndControlAreasEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .areaOfOperations:
-            return String(localized: "Area of Operations", comment: "Command and Control Areas Entity Type")
+            String(localized: "Area of Operations", comment: "Command and Control Areas Entity Type")
             
         case .namedAreaOfInterest:
-            return String(localized: "Named Area of Interest", comment: "Command and Control Areas Entity Type")
+            String(localized: "Named Area of Interest", comment: "Command and Control Areas Entity Type")
             
         case .targetedAreaOfInterest:
-            return String(localized: "Targeted Area of Interest", comment: "Command and Control Areas Entity Type")
+            String(localized: "Targeted Area of Interest", comment: "Command and Control Areas Entity Type")
             
         case .airfieldZone:
-            return String(localized: "Airfield Zone", comment: "Command and Control Areas Entity Type")
+            String(localized: "Airfield Zone", comment: "Command and Control Areas Entity Type")
         }
     }
 }

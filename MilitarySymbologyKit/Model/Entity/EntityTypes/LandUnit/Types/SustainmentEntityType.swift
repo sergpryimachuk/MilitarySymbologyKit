@@ -60,151 +60,151 @@ enum SustainmentEntityType: String, CaseIterable, Identifiable, EntityType {
     var name: String {
         switch self {
         case .administrative:
-            return String(localized: "Administrative", comment: "Sustainment Entity Type")
+            String(localized: "Administrative", comment: "Sustainment Entity Type")
             
         case .allClassesOfSupply:
-            return String(localized: "All Classes of Supply", comment: "Sustainment Entity Type")
+            String(localized: "All Classes of Supply", comment: "Sustainment Entity Type")
             
         case .airportOfDebarkationEmbarkation:
-            return String(localized: "Airport of Debarkation/Airport of Embarkation", comment: "Sustainment Entity Type")
+            String(localized: "Airport of Debarkation/Airport of Embarkation", comment: "Sustainment Entity Type")
             
         case .ammunition:
-            return String(localized: "Ammunition", comment: "Sustainment Entity Type")
+            String(localized: "Ammunition", comment: "Sustainment Entity Type")
             
         case .band:
-            return String(localized: "Band", comment: "Sustainment Entity Type")
+            String(localized: "Band", comment: "Sustainment Entity Type")
             
         case .combatServiceSupport:
-            return String(localized: "Combat Service Support", comment: "Sustainment Entity Type")
+            String(localized: "Combat Service Support", comment: "Sustainment Entity Type")
             
         case .finance:
-            return String(localized: "Finance", comment: "Sustainment Entity Type")
+            String(localized: "Finance", comment: "Sustainment Entity Type")
             
         case .judgeAdvocateGeneral:
-            return String(localized: "Judge Advocate General", comment: "Sustainment Entity Type")
+            String(localized: "Judge Advocate General", comment: "Sustainment Entity Type")
             
         case .labor:
-            return String(localized: "Labor", comment: "Sustainment Entity Type")
+            String(localized: "Labor", comment: "Sustainment Entity Type")
             
         case .laundryBath:
-            return String(localized: "Laundry/Bath", comment: "Sustainment Entity Type")
+            String(localized: "Laundry/Bath", comment: "Sustainment Entity Type")
             
         case .maintenance:
-            return String(localized: "Maintenance", comment: "Sustainment Entity Type")
+            String(localized: "Maintenance", comment: "Sustainment Entity Type")
             
         case .material:
-            return String(localized: "Material", comment: "Sustainment Entity Type")
+            String(localized: "Material", comment: "Sustainment Entity Type")
             
         case .medical:
-            return String(localized: "Medical", comment: "Sustainment Entity Type")
+            String(localized: "Medical", comment: "Sustainment Entity Type")
             
         case .medicalTreatmentFacility:
-            return String(localized: "Medical Treatment Facility", comment: "Sustainment Entity Type")
+            String(localized: "Medical Treatment Facility", comment: "Sustainment Entity Type")
             
         case .moraleWelfareRecreation:
-            return String(localized: "Morale Welfare and Recreation", comment: "Sustainment Entity Type")
+            String(localized: "Morale Welfare and Recreation", comment: "Sustainment Entity Type")
             
         case .mortuaryAffairsGravesRegistration:
-            return String(localized: "Mortuary Affairs/Graves Registration", comment: "Sustainment Entity Type")
+            String(localized: "Mortuary Affairs/Graves Registration", comment: "Sustainment Entity Type")
             
         case .multipleClassesOfSupply:
-            return String(localized: "Multiple Classes of Supply", comment: "Sustainment Entity Type")
+            String(localized: "Multiple Classes of Supply", comment: "Sustainment Entity Type")
             
         case .natoSupplyClassI:
-            return String(localized: "NATO Supply Class I", comment: "Sustainment Entity Type")
+            String(localized: "NATO Supply Class I", comment: "Sustainment Entity Type")
             
         case .natoSupplyClassI1:
-            return String(localized: "NATO Supply Class I|", comment: "Sustainment Entity Type")
+            String(localized: "NATO Supply Class I|", comment: "Sustainment Entity Type")
             
         case .natoSupplyClassIII:
-            return String(localized: "NATO Supply Class III", comment: "Sustainment Entity Type")
+            String(localized: "NATO Supply Class III", comment: "Sustainment Entity Type")
             
         case .natoSupplyClassIV:
-            return String(localized: "NATO Supply Class IV", comment: "Sustainment Entity Type")
+            String(localized: "NATO Supply Class IV", comment: "Sustainment Entity Type")
             
         case .natoSupplyClassV:
-            return String(localized: "NATO Supply Class V", comment: "Sustainment Entity Type")
+            String(localized: "NATO Supply Class V", comment: "Sustainment Entity Type")
             
         case .ordnance:
-            return String(localized: "Ordnance", comment: "Sustainment Entity Type")
+            String(localized: "Ordnance", comment: "Sustainment Entity Type")
             
         case .personnelServices:
-            return String(localized: "Personnel Services", comment: "Sustainment Entity Type")
+            String(localized: "Personnel Services", comment: "Sustainment Entity Type")
             
         case .petroleumOilAndLubricants:
-            return String(localized: "Petroleum Oil and Lubricants", comment: "Sustainment Entity Type")
+            String(localized: "Petroleum Oil and Lubricants", comment: "Sustainment Entity Type")
             
         case .pipeline:
-            return String(localized: "Pipeline", comment: "Sustainment Entity Type")
+            String(localized: "Pipeline", comment: "Sustainment Entity Type")
             
         case .postal:
-            return String(localized: "Postal", comment: "Sustainment Entity Type")
+            String(localized: "Postal", comment: "Sustainment Entity Type")
             
         case .publicAffairsPublicInformation:
-            return String(localized: "Public Affairs/Public Information", comment: "Sustainment Entity Type")
+            String(localized: "Public Affairs/Public Information", comment: "Sustainment Entity Type")
             
         case .quartermaster:
-            return String(localized: "Quartermaster", comment: "Sustainment Entity Type")
+            String(localized: "Quartermaster", comment: "Sustainment Entity Type")
             
         case .railhead:
-            return String(localized: "Railhead", comment: "Sustainment Entity Type")
+            String(localized: "Railhead", comment: "Sustainment Entity Type")
             
         case .religiousSupport:
-            return String(localized: "Religious Support", comment: "Sustainment Entity Type")
+            String(localized: "Religious Support", comment: "Sustainment Entity Type")
             
         case .replacementHoldingUnit:
-            return String(localized: "Replacement Holding Unit", comment: "Sustainment Entity Type")
+            String(localized: "Replacement Holding Unit", comment: "Sustainment Entity Type")
             
         case .seaPortOfDebarkationEmbarkation:
-            return String(localized: "Sea Port of Debarkation/Sea Port of Embarkation", comment: "Sustainment Entity Type")
+            String(localized: "Sea Port of Debarkation/Sea Port of Embarkation", comment: "Sustainment Entity Type")
             
         case .supply:
-            return String(localized: "Supply", comment: "Sustainment Entity Type")
+            String(localized: "Supply", comment: "Sustainment Entity Type")
             
         case .jointInformationBureau:
-            return String(localized: "Joint Information Bureau", comment: "Sustainment Entity Type")
+            String(localized: "Joint Information Bureau", comment: "Sustainment Entity Type")
             
         case .transportation:
-            return String(localized: "Transportation", comment: "Sustainment Entity Type")
+            String(localized: "Transportation", comment: "Sustainment Entity Type")
             
         case .usSupplyClassI:
-            return String(localized: "US Supply Class I", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class I", comment: "Sustainment Entity Type")
             
         case .usSupplyClassII:
-            return String(localized: "US Supply Class II", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class II", comment: "Sustainment Entity Type")
             
         case .usSupplyClassIII:
-            return String(localized: "US Supply Class III", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class III", comment: "Sustainment Entity Type")
             
         case .usSupplyClassIV:
-            return String(localized: "US Supply Class IV", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class IV", comment: "Sustainment Entity Type")
             
         case .usSupplyClassV:
-            return String(localized: "US Supply Class V", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class V", comment: "Sustainment Entity Type")
             
         case .usSupplyClassVI:
-            return String(localized: "US Supply Class VI", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class VI", comment: "Sustainment Entity Type")
             
         case .usSupplyClassVII:
-            return String(localized: "US Supply Class VII", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class VII", comment: "Sustainment Entity Type")
             
         case .usSupplyClassVIII:
-            return String(localized: "US Supply Class VIII", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class VIII", comment: "Sustainment Entity Type")
             
         case .usSupplyClassIX:
-            return String(localized: "US Supply Class IX", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class IX", comment: "Sustainment Entity Type")
             
         case .usSupplyClassX:
-            return String(localized: "US Supply Class X", comment: "Sustainment Entity Type")
+            String(localized: "US Supply Class X", comment: "Sustainment Entity Type")
             
         case .water:
-            return String(localized: "Water", comment: "Sustainment Entity Type")
+            String(localized: "Water", comment: "Sustainment Entity Type")
             
         case .waterPurification:
-            return String(localized: "Water Purification", comment: "Sustainment Entity Type")
+            String(localized: "Water Purification", comment: "Sustainment Entity Type")
             
         case .broadcast:
-            return String(localized: "Broadcast", comment: "Sustainment Entity Type")
+            String(localized: "Broadcast", comment: "Sustainment Entity Type")
         }
     }
 }

@@ -39,79 +39,79 @@ enum AirspaceControlPointsEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .airControlPoint:
-            return String(localized: "Air Control Point", comment: "Airspace Control Points Entity Type")
+            String(localized: "Air Control Point", comment: "Airspace Control Points Entity Type")
             
         case .communicationsCheckpoint:
-            return String(localized: "Communications Checkpoint", comment: "Airspace Control Points Entity Type")
+            String(localized: "Communications Checkpoint", comment: "Airspace Control Points Entity Type")
             
         case .downedAircraftPickupPoint:
-            return String(localized: "Downed Aircraft Pick-up Point", comment: "Airspace Control Points Entity Type")
+            String(localized: "Downed Aircraft Pick-up Point", comment: "Airspace Control Points Entity Type")
             
         case .popUpPoint:
-            return String(localized: "Pop-up Point", comment: "Airspace Control Points Entity Type")
+            String(localized: "Pop-up Point", comment: "Airspace Control Points Entity Type")
             
         case .airControlRendezvous:
-            return String(localized: "Air Control Rendezvous", comment: "Airspace Control Points Entity Type")
+            String(localized: "Air Control Rendezvous", comment: "Airspace Control Points Entity Type")
             
         case .tacan:
-            return String(localized: "TACAN", comment: "Airspace Control Points Entity Type")
+            String(localized: "TACAN", comment: "Airspace Control Points Entity Type")
             
         case .capStation:
-            return String(localized: "CAP Station", comment: "Airspace Control Points Entity Type")
+            String(localized: "CAP Station", comment: "Airspace Control Points Entity Type")
             
         case .aewStation:
-            return String(localized: "AEW Station", comment: "Airspace Control Points Entity Type")
+            String(localized: "AEW Station", comment: "Airspace Control Points Entity Type")
             
         case .aswHeloAndFWStation:
-            return String(localized: "ASW (Helo and F/W) Station", comment: "Airspace Control Points Entity Type")
+            String(localized: "ASW (Helo and F/W) Station", comment: "Airspace Control Points Entity Type")
             
         case .strikeInitialPoint:
-            return String(localized: "Strike Initial Point", comment: "Airspace Control Points Entity Type")
+            String(localized: "Strike Initial Point", comment: "Airspace Control Points Entity Type")
             
         case .replenishmentStation:
-            return String(localized: "Replenishment Station", comment: "Airspace Control Points Entity Type")
+            String(localized: "Replenishment Station", comment: "Airspace Control Points Entity Type")
             
         case .tanking:
-            return String(localized: "Tanking", comment: "Airspace Control Points Entity Type")
+            String(localized: "Tanking", comment: "Airspace Control Points Entity Type")
             
         case .antisubmarineWarfareRotaryWing:
-            return String(localized: "Antisubmarine Warfare, Rotary Wing", comment: "Airspace Control Points Entity Type")
+            String(localized: "Antisubmarine Warfare, Rotary Wing", comment: "Airspace Control Points Entity Type")
             
         case .sucapFixedWing:
-            return String(localized: "SUCAP - Fixed Wing", comment: "Airspace Control Points Entity Type")
+            String(localized: "SUCAP - Fixed Wing", comment: "Airspace Control Points Entity Type")
             
         case .sucapRotaryWing:
-            return String(localized: "SUCAP - Rotary Wing", comment: "Airspace Control Points Entity Type")
+            String(localized: "SUCAP - Rotary Wing", comment: "Airspace Control Points Entity Type")
             
         case .miwFixedWing:
-            return String(localized: "MIW - Fixed Wing", comment: "Airspace Control Points Entity Type")
+            String(localized: "MIW - Fixed Wing", comment: "Airspace Control Points Entity Type")
             
         case .miwRotaryWing:
-            return String(localized: "MIW - Rotary Wing", comment: "Airspace Control Points Entity Type")
+            String(localized: "MIW - Rotary Wing", comment: "Airspace Control Points Entity Type")
             
         case .tomcat:
-            return String(localized: "Tomcat", comment: "Airspace Control Points Entity Type")
+            String(localized: "Tomcat", comment: "Airspace Control Points Entity Type")
             
         case .rescue:
-            return String(localized: "Rescue", comment: "Airspace Control Points Entity Type")
+            String(localized: "Rescue", comment: "Airspace Control Points Entity Type")
             
         case .unmannedAerialSystemUASUA:
-            return String(localized: "Unmanned Aerial System (UAS/UA)", comment: "Airspace Control Points Entity Type")
+            String(localized: "Unmanned Aerial System (UAS/UA)", comment: "Airspace Control Points Entity Type")
             
         case .vtua:
-            return String(localized: "VTUA", comment: "Airspace Control Points Entity Type")
+            String(localized: "VTUA", comment: "Airspace Control Points Entity Type")
             
         case .orbit:
-            return String(localized: "Orbit", comment: "Airspace Control Points Entity Type")
+            String(localized: "Orbit", comment: "Airspace Control Points Entity Type")
             
         case .orbitFigureEight:
-            return String(localized: "Orbit - Figure Eight", comment: "Airspace Control Points Entity Type")
+            String(localized: "Orbit - Figure Eight", comment: "Airspace Control Points Entity Type")
             
         case .orbitRaceTrack:
-            return String(localized: "Orbit - Race Track", comment: "Airspace Control Points Entity Type")
+            String(localized: "Orbit - Race Track", comment: "Airspace Control Points Entity Type")
             
         case .orbitRandomClosed:
-            return String(localized: "Orbit - Random Closed", comment: "Airspace Control Points Entity Type")
+            String(localized: "Orbit - Random Closed", comment: "Airspace Control Points Entity Type")
         }
     }
 }

@@ -17,13 +17,13 @@ enum VehicleEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .armoredVehicle:
-            return String(localized: "Armored Vehicle", comment: "Vehicle Entity Type")
+            String(localized: "Armored Vehicle", comment: "Vehicle Entity Type")
             
         case .tank:
-            return String(localized: "Tank", comment: "Vehicle Entity Type")
+            String(localized: "Tank", comment: "Vehicle Entity Type")
             
         case .tankRecoveryVehicle:
-            return String(localized: "Tank Recovery Vehicle", comment: "Vehicle Entity Type")
+            String(localized: "Tank Recovery Vehicle", comment: "Vehicle Entity Type")
         }
     }
 }

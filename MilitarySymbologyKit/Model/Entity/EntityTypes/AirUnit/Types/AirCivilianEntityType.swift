@@ -19,25 +19,25 @@ extension AirUnitEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .fixedWing:
-                return String(localized: "Fixed Wing", comment: "Civilian Entity Type")
+                String(localized: "Fixed Wing", comment: "Civilian Entity Type")
                 
             case .rotaryWing:
-                return String(localized: "Rotary Wing", comment: "Civilian Entity Type")
+                String(localized: "Rotary Wing", comment: "Civilian Entity Type")
                 
             case .unmannedAircraftUA_UAV_UAS_RPV:
-                return String(localized: "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)", comment: "Civilian Entity Type")
+                String(localized: "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)", comment: "Civilian Entity Type")
                 
             case .lighterThanAir:
-                return String(localized: "Lighter Than Air", comment: "Civilian Entity Type")
+                String(localized: "Lighter Than Air", comment: "Civilian Entity Type")
                 
             case .airship:
-                return String(localized: "Airship", comment: "Civilian Entity Type")
+                String(localized: "Airship", comment: "Civilian Entity Type")
                 
             case .tetheredLighterThanAir:
-                return String(localized: "Tethered Lighter than Air", comment: "Civilian Entity Type")
+                String(localized: "Tethered Lighter than Air", comment: "Civilian Entity Type")
             }
         }
         

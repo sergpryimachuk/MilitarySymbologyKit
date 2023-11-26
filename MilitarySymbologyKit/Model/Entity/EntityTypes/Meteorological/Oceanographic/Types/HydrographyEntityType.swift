@@ -19,25 +19,25 @@ extension OceanographicEntity {
         var name: String {
             switch self {
             case .depth:
-                return String(localized: "Depth", comment: "Hydrography Entity Type")
+                String(localized: "Depth", comment: "Hydrography Entity Type")
                 
             case .coastalHydrography:
-                return String(localized: "Coastal Hydrography", comment: "Hydrography Entity Type")
+                String(localized: "Coastal Hydrography", comment: "Hydrography Entity Type")
                 
             case .portsAndHarbors:
-                return String(localized: "Ports and Harbors", comment: "Hydrography Entity Type")
+                String(localized: "Ports and Harbors", comment: "Hydrography Entity Type")
                 
             case .aidsToNavigation:
-                return String(localized: "Aids to Navigation", comment: "Hydrography Entity Type")
+                String(localized: "Aids to Navigation", comment: "Hydrography Entity Type")
                 
             case .dangersHazards:
-                return String(localized: "Dangers/Hazards", comment: "Hydrography Entity Type")
+                String(localized: "Dangers/Hazards", comment: "Hydrography Entity Type")
                 
             case .bottomFeatures:
-                return String(localized: "Bottom Features", comment: "Hydrography Entity Type")
+                String(localized: "Bottom Features", comment: "Hydrography Entity Type")
                 
             case .tideAndCurrent:
-                return String(localized: "Tide and Current", comment: "Hydrography Entity Type")
+                String(localized: "Tide and Current", comment: "Hydrography Entity Type")
             }
         }
     }

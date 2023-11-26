@@ -21,34 +21,34 @@ enum SignalEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None", comment: "Signal Entity Subtype")
+            String(localized: "None", comment: "Signal Entity Subtype")
             
         case .radio:
-            return String(localized: "Radio", comment: "Signal Entity Subtype")
+            String(localized: "Radio", comment: "Signal Entity Subtype")
             
         case .radioRelay:
-            return String(localized: "Radio Relay", comment: "Signal Entity Subtype")
+            String(localized: "Radio Relay", comment: "Signal Entity Subtype")
             
         case .teletype:
-            return String(localized: "Teletype", comment: "Signal Entity Subtype")
+            String(localized: "Teletype", comment: "Signal Entity Subtype")
             
         case .tacticalSatellite:
-            return String(localized: "Tactical Satellite", comment: "Signal Entity Subtype")
+            String(localized: "Tactical Satellite", comment: "Signal Entity Subtype")
             
         case .videoImageryCombatCamera:
-            return String(localized: "Video Imagery (Combat Camera)", comment: "Signal Entity Subtype")
+            String(localized: "Video Imagery (Combat Camera)", comment: "Signal Entity Subtype")
             
         case .headquartersElement:
-            return String(localized: "Headquarters Element", comment: "Signal Entity Subtype")
+            String(localized: "Headquarters Element", comment: "Signal Entity Subtype")
             
         case .divisionAndBelowSupport:
-            return String(localized: "Division and Below Support", comment: "Signal Entity Subtype")
+            String(localized: "Division and Below Support", comment: "Signal Entity Subtype")
             
         case .corpsSupport:
-            return String(localized: "Corps Support", comment: "Signal Entity Subtype")
+            String(localized: "Corps Support", comment: "Signal Entity Subtype")
             
         case .theaterEchelonsAboveCorpsSupport:
-            return String(localized: "Theater/Echelons Above Corps Support", comment: "Signal Entity Subtype")
+            String(localized: "Theater/Echelons Above Corps Support", comment: "Signal Entity Subtype")
         }
     }
 }

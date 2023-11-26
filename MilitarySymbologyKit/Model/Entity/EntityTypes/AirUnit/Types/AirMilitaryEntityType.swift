@@ -20,28 +20,28 @@ extension AirUnitEntity {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
                 
             case .fixedWing:
-                return String(localized: "Fixed-Wing", comment: "Military Entity Type")
+                String(localized: "Fixed-Wing", comment: "Military Entity Type")
                 
             case .rotaryWing:
-                return String(localized: "Rotary-Wing", comment: "Military Entity Type")
+                String(localized: "Rotary-Wing", comment: "Military Entity Type")
                 
             case .unmannedAircraftUA_UAV_UAS_RPV:
-                return String(localized: "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)", comment: "Military Entity Type")
+                String(localized: "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)", comment: "Military Entity Type")
                 
             case .verticalTakeoffUAVVT_UAV:
-                return String(localized: "Vertical-Takeoff UAV (VT-UAV)", comment: "Military Entity Type")
+                String(localized: "Vertical-Takeoff UAV (VT-UAV)", comment: "Military Entity Type")
                 
             case .lighterThanAir:
-                return String(localized: "Lighter Than Air", comment: "Military Entity Type")
+                String(localized: "Lighter Than Air", comment: "Military Entity Type")
                 
             case .airship:
-                return String(localized: "Airship", comment: "Military Entity Type")
+                String(localized: "Airship", comment: "Military Entity Type")
                 
             case .tetheredLighterThanAir:
-                return String(localized: "Tethered Lighter Than Air", comment: "Military Entity Type")
+                String(localized: "Tethered Lighter Than Air", comment: "Military Entity Type")
             }
         }
         

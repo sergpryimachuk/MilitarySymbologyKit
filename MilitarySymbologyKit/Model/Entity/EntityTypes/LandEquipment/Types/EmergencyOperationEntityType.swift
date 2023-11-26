@@ -17,10 +17,10 @@ extension LandEquipmentEntity {
         var name: String {
             switch self {
             case .ambulance:
-                return String(localized: "Ambulance", comment: "Emergency Operation Entity Type")
+                String(localized: "Ambulance", comment: "Emergency Operation Entity Type")
                 
             case .fireFightingFireProtection:
-                return String(localized: "Fire Fighting/Fire Protection", comment: "Emergency Operation Entity Type")
+                String(localized: "Fire Fighting/Fire Protection", comment: "Emergency Operation Entity Type")
             }
         }
     }

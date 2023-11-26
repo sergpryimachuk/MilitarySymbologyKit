@@ -21,25 +21,25 @@ enum MaritimeControlAreasEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .launchArea:
-            return String(localized: "Launch Area", comment: "Maritime Control Areas Entity Type")
+            String(localized: "Launch Area", comment: "Maritime Control Areas Entity Type")
             
         case .defendedArea:
-            return String(localized: "Defended Area", comment: "Maritime Control Areas Entity Type")
+            String(localized: "Defended Area", comment: "Maritime Control Areas Entity Type")
             
         case .noAttackNOTACKZone:
-            return String(localized: "No Attack (NOTACK) Zone", comment: "Maritime Control Areas Entity Type")
+            String(localized: "No Attack (NOTACK) Zone", comment: "Maritime Control Areas Entity Type")
             
         case .shipAreaOfInterest:
-            return String(localized: "Ship Area of Interest", comment: "Maritime Control Areas Entity Type")
+            String(localized: "Ship Area of Interest", comment: "Maritime Control Areas Entity Type")
             
         case .activeManeuverArea:
-            return String(localized: "Active Maneuver Area", comment: "Maritime Control Areas Entity Type")
+            String(localized: "Active Maneuver Area", comment: "Maritime Control Areas Entity Type")
             
         case .cuedAcquisitionDoctrine:
-            return String(localized: "Cued Acquisition Doctrine", comment: "Maritime Control Areas Entity Type")
+            String(localized: "Cued Acquisition Doctrine", comment: "Maritime Control Areas Entity Type")
             
         case .radarSearchDoctrine:
-            return String(localized: "Radar Search Doctrine", comment: "Maritime Control Areas Entity Type")
+            String(localized: "Radar Search Doctrine", comment: "Maritime Control Areas Entity Type")
         }
     }
 }

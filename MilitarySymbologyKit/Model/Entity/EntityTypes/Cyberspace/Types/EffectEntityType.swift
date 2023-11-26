@@ -21,31 +21,31 @@ extension CyberspaceEntity {
         var name: String {
             switch self {
             case .infection:
-                return String(localized: "Infection", comment: "Effect Entity Type")
+                String(localized: "Infection", comment: "Effect Entity Type")
                 
             case .degradation:
-                return String(localized: "Degradation", comment: "Effect Entity Type")
+                String(localized: "Degradation", comment: "Effect Entity Type")
                 
             case .dataSpoofing:
-                return String(localized: "Data Spoofing", comment: "Effect Entity Type")
+                String(localized: "Data Spoofing", comment: "Effect Entity Type")
                 
             case .dataManipulation:
-                return String(localized: "Data Manipulation", comment: "Effect Entity Type")
+                String(localized: "Data Manipulation", comment: "Effect Entity Type")
                 
             case .exfiltration:
-                return String(localized: "Exfiltration", comment: "Effect Entity Type")
+                String(localized: "Exfiltration", comment: "Effect Entity Type")
                 
             case .powerOutage:
-                return String(localized: "Power Outage", comment: "Effect Entity Type")
+                String(localized: "Power Outage", comment: "Effect Entity Type")
                 
             case .networkOutage:
-                return String(localized: "Network Outage", comment: "Effect Entity Type")
+                String(localized: "Network Outage", comment: "Effect Entity Type")
                 
             case .serviceOutage:
-                return String(localized: "Service Outage", comment: "Effect Entity Type")
+                String(localized: "Service Outage", comment: "Effect Entity Type")
                 
             case .deviceOutage:
-                return String(localized: "Device Outage", comment: "Effect Entity Type")
+                String(localized: "Device Outage", comment: "Effect Entity Type")
             }
         }
     }

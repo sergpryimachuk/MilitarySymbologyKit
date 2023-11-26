@@ -16,19 +16,19 @@ enum AmplifierEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None", comment: "Amplifier Entity Subtype")
+            String(localized: "None", comment: "Amplifier Entity Subtype")
             
         case .headquartersElement:
-            return String(localized: "Headquarters Element", comment: "Amplifier Entity Subtype")
+            String(localized: "Headquarters Element", comment: "Amplifier Entity Subtype")
             
         case .divisionAndBelowSupport:
-            return String(localized: "Division and Below Support", comment: "Amplifier Entity Subtype")
+            String(localized: "Division and Below Support", comment: "Amplifier Entity Subtype")
             
         case .corpsSupport:
-            return String(localized: "Corps Support", comment: "Amplifier Entity Subtype")
+            String(localized: "Corps Support", comment: "Amplifier Entity Subtype")
             
         case .theaterEchelonsAboveCorpsSupport:
-            return String(localized: "Theater/Echelons Above Corps Support", comment: "Amplifier Entity Subtype")
+            String(localized: "Theater/Echelons Above Corps Support", comment: "Amplifier Entity Subtype")
         }
     }
 }

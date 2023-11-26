@@ -15,7 +15,7 @@ enum IntelligenceLinesEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .intelligenceCoordinationLine:
-            return String(localized: "Intelligence Coordination Line", comment: "Intelligence Lines Entity Type")
+            String(localized: "Intelligence Coordination Line", comment: "Intelligence Lines Entity Type")
         }
     }
 }

@@ -16,10 +16,10 @@ enum AirspaceControlLinesEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .identificationFriendOrFoeOffLine:
-            return String(localized: "Identification Friend or Foe Off Line", comment: "Airspace Control Lines Entity Type")
+            String(localized: "Identification Friend or Foe Off Line", comment: "Airspace Control Lines Entity Type")
             
         case .identificationFriendOrFoeOnLine:
-            return String(localized: "Identification Friend or Foe On Line", comment: "Airspace Control Lines Entity Type")
+            String(localized: "Identification Friend or Foe On Line", comment: "Airspace Control Lines Entity Type")
         }
     }
 }

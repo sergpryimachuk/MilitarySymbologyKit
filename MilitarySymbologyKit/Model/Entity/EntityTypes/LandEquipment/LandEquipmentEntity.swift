@@ -29,46 +29,46 @@ enum LandEquipmentEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .weaponWeaponSystem:
-            return String(localized: "Weapon/Weapon System", comment: "Land Equipment Entity")
+            String(localized: "Weapon/Weapon System", comment: "Land Equipment Entity")
             
         case .vehicle:
-            return String(localized: "Vehicle", comment: "Land Equipment Entity")
+            String(localized: "Vehicle", comment: "Land Equipment Entity")
             
         case .engineerVehiclesAndEquipment:
-            return String(localized: "Engineer Vehicles and Equipment", comment: "Land Equipment Entity")
+            String(localized: "Engineer Vehicles and Equipment", comment: "Land Equipment Entity")
             
         case .utilityVehicles:
-            return String(localized: "Utility Vehicles", comment: "Land Equipment Entity")
+            String(localized: "Utility Vehicles", comment: "Land Equipment Entity")
             
         case .train:
-            return String(localized: "Train", comment: "Land Equipment Entity")
+            String(localized: "Train", comment: "Land Equipment Entity")
             
         case .civilianVehicle:
-            return String(localized: "Civilian Vehicle", comment: "Land Equipment Entity")
+            String(localized: "Civilian Vehicle", comment: "Land Equipment Entity")
             
         case .lawEnforcement:
-            return String(localized: "Law Enforcement", comment: "Land Equipment Entity")
+            String(localized: "Law Enforcement", comment: "Land Equipment Entity")
             
         case .packAnimals:
-            return String(localized: "Pack Animals", comment: "Land Equipment Entity")
+            String(localized: "Pack Animals", comment: "Land Equipment Entity")
             
         case .missileSupport:
-            return String(localized: "Missile Support", comment: "Land Equipment Entity")
+            String(localized: "Missile Support", comment: "Land Equipment Entity")
             
         case .otherEquipment:
-            return String(localized: "Other Equipment", comment: "Land Equipment Entity")
+            String(localized: "Other Equipment", comment: "Land Equipment Entity")
             
         case .landMines:
-            return String(localized: "Land Mines", comment: "Land Equipment Entity")
+            String(localized: "Land Mines", comment: "Land Equipment Entity")
             
         case .sensors:
-            return String(localized: "Sensors", comment: "Land Equipment Entity")
+            String(localized: "Sensors", comment: "Land Equipment Entity")
             
         case .emergencyOperation:
-            return String(localized: "Emergency Operation", comment: "Land Equipment Entity")
+            String(localized: "Emergency Operation", comment: "Land Equipment Entity")
             
         case .manualTrack:
-            return String(localized: "Manual Track", comment: "Land Equipment Entity")
+            String(localized: "Manual Track", comment: "Land Equipment Entity")
         }
     }
     
