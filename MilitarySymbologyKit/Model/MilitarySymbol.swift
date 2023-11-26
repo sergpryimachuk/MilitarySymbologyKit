@@ -85,6 +85,13 @@ extension MilitarySymbol {
                 return nil
             }
             self.entityType = entityType
+            
+            let entitySybTypeDigits = sidc[14] + sidc[15]
+            guard let entitySubtype = entityType.subtypes.first(where: { $0.id == entitySybTypeDigits } ) else {
+                print("EntitySubtype")
+                return nil
+            }
+            self.entitySubtype = entitySubtype
         }
     }
 }
