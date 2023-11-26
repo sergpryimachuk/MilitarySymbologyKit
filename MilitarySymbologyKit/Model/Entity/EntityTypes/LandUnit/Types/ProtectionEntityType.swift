@@ -95,4 +95,20 @@ enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
             String(localized: "Topographic", comment: "Protection Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        switch self {
+        case .chemicalBiologicalRadiologicalNuclearDefense:
+            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            + ChemicalBiologicalRadiologicalNuclearDefenseEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        case .engineer:
+            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            + EngineerEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        case .security:
+            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            + EngineerEntitySubtype.allCases.map { AnyEntitySubtype($0) }.dropLast()
+        default:
+            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        }
+    }
 }

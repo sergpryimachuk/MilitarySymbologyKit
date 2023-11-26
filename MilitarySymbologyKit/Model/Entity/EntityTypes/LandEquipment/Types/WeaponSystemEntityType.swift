@@ -94,4 +94,17 @@ enum WeaponSystemEntityType: String, CaseIterable, EntityType {
             String(localized: "Water Cannon", comment: "Weapon System Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        switch self {
+        case .rifle:
+            RifleEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        case .airDefenseMissileLauncher:
+            AirDefenseMissileLauncherEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        case .flameThrower, .nonlethalWeapon, .taser, .waterCannon:
+            [.none]
+        default:
+            LightMediumHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        }
+    }
 }

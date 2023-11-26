@@ -82,6 +82,12 @@ struct MilitarySymbolPicker: View {
                     }
                 }
                 
+                Picker("Entity Subtype", selection: $symbol.entitySubtype) {
+                    ForEach(symbol.entityType.subtypes) { entitySubtype in
+                        Text(entitySubtype.id + " " + entitySubtype.name).tag(entitySubtype)
+                    }
+                }
+                
                 Toggle("Civilian", isOn: $symbol.isCivilian)
                     .disabled(symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile)
                     .onChange(of: symbol.standardIdentity) { _, newValue in

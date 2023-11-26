@@ -59,4 +59,14 @@ enum IntelligenceEntityType: String, CaseIterable, Identifiable, EntityType {
             String(localized: "Sensor", comment: "Intelligence Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        switch self {
+        case .electronicWarfare:
+            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            + ElectronicWarfareEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        default:
+            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        }
+    }
 }

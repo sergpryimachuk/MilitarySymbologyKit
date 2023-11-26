@@ -30,4 +30,8 @@ enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
             String(localized: "Multinational (MN)", comment: "Named Headquarters Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+    }
 }

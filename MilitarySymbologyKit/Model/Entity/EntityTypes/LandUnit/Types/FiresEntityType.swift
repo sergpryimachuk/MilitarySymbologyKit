@@ -54,8 +54,21 @@ extension LandUnitEntity {
         }
         
         var subtypes: [AnyEntitySubtype] {
-            // TODO: Add extra casess...
-            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            switch self {
+            case .none:
+                [.none]
+            case .airDefense:
+                AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+                + AirDefenseEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .fieldArtillery:
+                AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+                + FieldArtilleryEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .mortar:
+                AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+                + MortarEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            default:
+                AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            }
         }
     }
 }

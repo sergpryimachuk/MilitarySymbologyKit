@@ -207,4 +207,8 @@ enum SustainmentEntityType: String, CaseIterable, Identifiable, EntityType {
             String(localized: "Broadcast", comment: "Sustainment Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+    }
 }

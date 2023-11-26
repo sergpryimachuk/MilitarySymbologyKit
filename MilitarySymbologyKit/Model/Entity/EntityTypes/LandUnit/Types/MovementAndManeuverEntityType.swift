@@ -106,6 +106,9 @@ extension LandUnitEntity {
             case .reconnaissanceCavalryScout:
                 AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
                 + ReconnaissanceCavalryScoutEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .specialOperationsForcesSOF:
+                AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+                + SpecialOperationsForcesEntitySubtype.allCases.map { AnyEntitySubtype($0) }
             default:
                 AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
             }

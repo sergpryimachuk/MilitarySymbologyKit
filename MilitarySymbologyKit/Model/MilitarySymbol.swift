@@ -16,6 +16,7 @@ struct MilitarySymbol: Identifiable, Hashable {
     var descriptor: AnyDescriptor = AnyDescriptor(NotApplicableDescriptor.notApplicable)
     var entity: AnyEntity = AnyEntity(AirUnitEntity.military)
     var entityType: AnyEntityType = .none
+    var entitySubtype: AnyEntitySubtype = .none
     
     var isCivilian: Bool = false
     var isAlternateStatusAmplifiers: Bool = false
@@ -132,7 +133,7 @@ extension MilitarySymbol {
 
 extension MilitarySymbol {
     func makeSIDC() -> String {
-        version + context.id + standardIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + entity.id + entityType.id + "00000000"
+        version + context.id + standardIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + entity.id + entityType.id + entitySubtype.id + "0000"
     }
     
     func makeFrame() -> Image {
@@ -277,7 +278,7 @@ extension MilitarySymbol {
                 symbolSetDigits: dimention.id,
                 entityDigits: entity.id,
                 entityTypeDigits: entityType.id,
-                entitySubTypeDigits: "00"
+                entitySubTypeDigits: entitySubtype.id
             )
             .resizable()
             .scaledToFit()
@@ -287,7 +288,7 @@ extension MilitarySymbol {
                 symbolSetDigits: dimention.id,
                 entityDigits: entity.id,
                 entityTypeDigits: entityType.id,
-                entitySubTypeDigits: "00"
+                entitySubTypeDigits: entitySubtype.id
             )
             .resizable()
             .scaledToFit()

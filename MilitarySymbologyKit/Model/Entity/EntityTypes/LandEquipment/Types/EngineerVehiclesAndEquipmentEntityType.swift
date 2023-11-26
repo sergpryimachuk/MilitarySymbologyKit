@@ -78,4 +78,18 @@ enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
             String(localized: "Ferry Transporter", comment: "Engineer Vehicles and Equipment Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        switch self {
+        case .drill:
+            DrillEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        case .earthmover:
+            EarthmoverEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        case .mineClearingEquipment:
+            MineClearingEquipmentEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        default:
+            // TODO: Finished at Mine Laying Equipment
+            [.none]
+        }
+    }
 }

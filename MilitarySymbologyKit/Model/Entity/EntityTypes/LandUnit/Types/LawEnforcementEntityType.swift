@@ -66,4 +66,8 @@ enum LawEnforcementEntityType: String, CaseIterable, EntityType {
             String(localized: "Internal Security Force", comment: "Law Enforcement Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+    }
 }

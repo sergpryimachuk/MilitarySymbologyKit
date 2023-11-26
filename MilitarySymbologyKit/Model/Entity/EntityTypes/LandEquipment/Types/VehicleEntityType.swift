@@ -8,6 +8,7 @@
 import Foundation
 
 enum VehicleEntityType: String, CaseIterable, EntityType {
+    case none
     case armoredVehicle = "01"
     case tank = "02"
     case tankRecoveryVehicle = "03"
@@ -24,6 +25,19 @@ enum VehicleEntityType: String, CaseIterable, EntityType {
             
         case .tankRecoveryVehicle:
             String(localized: "Tank Recovery Vehicle", comment: "Vehicle Entity Type")
+        case .none:
+            String(localized: "None")
+        }
+    }
+    
+    var subtypes: [AnyEntitySubtype] {
+        switch self {
+        case .none:
+            [.none]
+        case .armoredVehicle:
+            ArmoredVehicleEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        default:
+            LightMediumHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         }
     }
 }
