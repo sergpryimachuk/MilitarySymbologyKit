@@ -40,5 +40,9 @@ extension AirUnitEntity {
                 return String(localized: "Tethered Lighter than Air", comment: "Civilian Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

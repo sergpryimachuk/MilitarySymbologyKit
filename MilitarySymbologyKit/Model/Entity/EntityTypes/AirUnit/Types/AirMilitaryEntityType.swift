@@ -44,5 +44,26 @@ extension AirUnitEntity {
                 return String(localized: "Tethered Lighter Than Air", comment: "Military Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            switch self {
+            case .none:
+                [.none]
+            case .fixedWing:
+                FixedWingEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .rotaryWing:
+                [.none]
+            case .unmannedAircraftUA_UAV_UAS_RPV:
+                [.none]
+            case .verticalTakeoffUAVVT_UAV:
+                [.none]
+            case .lighterThanAir:
+                [.none]
+            case .airship:
+                [.none]
+            case .tetheredLighterThanAir:
+                [.none]
+            }
+        }
     }
 }

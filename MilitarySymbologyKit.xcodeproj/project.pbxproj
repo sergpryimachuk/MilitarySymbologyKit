@@ -104,6 +104,13 @@
 		9344AFDB2B11337500BFFBC6 /* ObstructorEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344AFDA2B11337500BFFBC6 /* ObstructorEntityType.swift */; };
 		9344AFDD2B11343D00BFFBC6 /* NonMineMineLikeObjectNMLOGeneralEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344AFDC2B11343D00BFFBC6 /* NonMineMineLikeObjectNMLOGeneralEntityType.swift */; };
 		9344AFDF2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344AFDE2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift */; };
+		934D3E0D2B136F490019FBEF /* FixedWingEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D3E0C2B136F490019FBEF /* FixedWingEntitySubtype.swift */; };
+		934D3E112B1371640019FBEF /* AmplifierEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D3E102B1371640019FBEF /* AmplifierEntitySubtype.swift */; };
+		934D3E132B13737E0019FBEF /* SignalEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D3E122B13737E0019FBEF /* SignalEntitySubtype.swift */; };
+		934D3E152B1374F50019FBEF /* AntitankAntiarmorEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D3E142B1374F50019FBEF /* AntitankAntiarmorEntitySubtype.swift */; };
+		934D3E172B1376570019FBEF /* ArmorArmoredMechanizedSelfPropelledTrackedEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D3E162B1376570019FBEF /* ArmorArmoredMechanizedSelfPropelledTrackedEntitySubtype.swift */; };
+		934D3E192B1377690019FBEF /* InfantryEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D3E182B1377690019FBEF /* InfantryEntitySubtype.swift */; };
+		934D3E1B2B13783E0019FBEF /* ReconnaissanceCavalryScoutEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D3E1A2B13783E0019FBEF /* ReconnaissanceCavalryScoutEntitySubtype.swift */; };
 		939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */; };
 		939B44A72AFE39C700A67880 /* MilitarySymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44A62AFE39C700A67880 /* MilitarySymbolPicker.swift */; };
 		939B44A92AFE39C900A67880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44A82AFE39C900A67880 /* Assets.xcassets */; };
@@ -229,6 +236,13 @@
 		9344AFDA2B11337500BFFBC6 /* ObstructorEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstructorEntityType.swift; sourceTree = "<group>"; };
 		9344AFDC2B11343D00BFFBC6 /* NonMineMineLikeObjectNMLOGeneralEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonMineMineLikeObjectNMLOGeneralEntityType.swift; sourceTree = "<group>"; };
 		9344AFDE2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaSubsurfaceEntity.swift; sourceTree = "<group>"; };
+		934D3E0C2B136F490019FBEF /* FixedWingEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedWingEntitySubtype.swift; sourceTree = "<group>"; };
+		934D3E102B1371640019FBEF /* AmplifierEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplifierEntitySubtype.swift; sourceTree = "<group>"; };
+		934D3E122B13737E0019FBEF /* SignalEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalEntitySubtype.swift; sourceTree = "<group>"; };
+		934D3E142B1374F50019FBEF /* AntitankAntiarmorEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntitankAntiarmorEntitySubtype.swift; sourceTree = "<group>"; };
+		934D3E162B1376570019FBEF /* ArmorArmoredMechanizedSelfPropelledTrackedEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmorArmoredMechanizedSelfPropelledTrackedEntitySubtype.swift; sourceTree = "<group>"; };
+		934D3E182B1377690019FBEF /* InfantryEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfantryEntitySubtype.swift; sourceTree = "<group>"; };
+		934D3E1A2B13783E0019FBEF /* ReconnaissanceCavalryScoutEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnaissanceCavalryScoutEntitySubtype.swift; sourceTree = "<group>"; };
 		939B44A12AFE39C700A67880 /* MilitarySymbologyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilitarySymbologyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbologyKitApp.swift; sourceTree = "<group>"; };
 		939B44A62AFE39C700A67880 /* MilitarySymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbolPicker.swift; sourceTree = "<group>"; };
@@ -442,6 +456,27 @@
 			path = Types;
 			sourceTree = "<group>";
 		};
+		934D3E0B2B136F250019FBEF /* Sybtypes */ = {
+			isa = PBXGroup;
+			children = (
+				934D3E0C2B136F490019FBEF /* FixedWingEntitySubtype.swift */,
+			);
+			path = Sybtypes;
+			sourceTree = "<group>";
+		};
+		934D3E0F2B1371510019FBEF /* Subtypes */ = {
+			isa = PBXGroup;
+			children = (
+				934D3E102B1371640019FBEF /* AmplifierEntitySubtype.swift */,
+				934D3E182B1377690019FBEF /* InfantryEntitySubtype.swift */,
+				934D3E122B13737E0019FBEF /* SignalEntitySubtype.swift */,
+				934D3E142B1374F50019FBEF /* AntitankAntiarmorEntitySubtype.swift */,
+				934D3E162B1376570019FBEF /* ArmorArmoredMechanizedSelfPropelledTrackedEntitySubtype.swift */,
+				934D3E1A2B13783E0019FBEF /* ReconnaissanceCavalryScoutEntitySubtype.swift */,
+			);
+			path = Subtypes;
+			sourceTree = "<group>";
+		};
 		939B44982AFE39C700A67880 = {
 			isa = PBXGroup;
 			children = (
@@ -623,6 +658,7 @@
 			children = (
 				930218302B010FBA004FA3D5 /* LandUnitEntity.swift */,
 				93F7040C2B1248FF00EC73C9 /* Types */,
+				934D3E0F2B1371510019FBEF /* Subtypes */,
 			);
 			path = LandUnit;
 			sourceTree = "<group>";
@@ -647,6 +683,7 @@
 			children = (
 				93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */,
 				93F7040E2B1249A600EC73C9 /* Types */,
+				934D3E0B2B136F250019FBEF /* Sybtypes */,
 			);
 			path = AirUnit;
 			sourceTree = "<group>";
@@ -735,12 +772,14 @@
 				054C27752B111B4600324A82 /* InstallationEntityType.swift in Sources */,
 				054C278A2B11213300324A82 /* AirspaceControlPointsEntityType.swift in Sources */,
 				054C27A22B11290000324A82 /* IntelligenceLinesEntityType.swift in Sources */,
+				934D3E152B1374F50019FBEF /* AntitankAntiarmorEntitySubtype.swift in Sources */,
 				054C27A62B1129C200324A82 /* SustainmentPointsEntityType.swift in Sources */,
 				93F704142B124B2A00EC73C9 /* AirWeaponEntityType.swift in Sources */,
 				930218192B00FE7C004FA3D5 /* StandardIdentity.swift in Sources */,
 				930218222B010058004FA3D5 /* Amplifier.swift in Sources */,
 				93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */,
 				9344AFD72B11329200BFFBC6 /* MineLikeEchoMILECGeneralEntityType.swift in Sources */,
+				934D3E172B1376570019FBEF /* ArmorArmoredMechanizedSelfPropelledTrackedEntitySubtype.swift in Sources */,
 				054C27842B11200200324A82 /* ManeuverAreasEntityType.swift in Sources */,
 				934495D12B10CA9000AD1B73 /* MilitarySymbolSearchResults.swift in Sources */,
 				930218272B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift in Sources */,
@@ -757,6 +796,7 @@
 				054C27732B111AC900324A82 /* LandInstallationEntity.swift in Sources */,
 				934496352B10FE2100AD1B73 /* HealthAndStatusEntityType.swift in Sources */,
 				054C276C2B110E2900324A82 /* LandMinesEntityType.swift in Sources */,
+				934D3E112B1371640019FBEF /* AmplifierEntitySubtype.swift in Sources */,
 				93F704182B124C9600EC73C9 /* WeatherSymbolsEntityType.swift in Sources */,
 				930218252B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift in Sources */,
 				054C27962B1126E700324A82 /* FiresAreasEntityType.swift in Sources */,
@@ -765,6 +805,7 @@
 				054C27922B11261A00324A82 /* MaritimeControlLinesEntityType.swift in Sources */,
 				9344964D2B10FE2100AD1B73 /* WindsEntityType.swift in Sources */,
 				934496432B10FE2100AD1B73 /* HydrographyEntityType.swift in Sources */,
+				934D3E0D2B136F490019FBEF /* FixedWingEntitySubtype.swift in Sources */,
 				934496362B10FE2100AD1B73 /* EffectEntityType.swift in Sources */,
 				934496482B10FE2100AD1B73 /* LimitsEntityType.swift in Sources */,
 				930218452B013835004FA3D5 /* FiresEntityType.swift in Sources */,
@@ -803,6 +844,7 @@
 				05A57B232B11071F00F98863 /* UtilityVehiclesEntityType.swift in Sources */,
 				054C278E2B1121FA00324A82 /* MaritimeControlAreasEntityType.swift in Sources */,
 				054C279C2B1127DD00324A82 /* ProtectionAreasEntityType.swift in Sources */,
+				934D3E1B2B13783E0019FBEF /* ReconnaissanceCavalryScoutEntitySubtype.swift in Sources */,
 				9302183E2B01349A004FA3D5 /* EntityType.swift in Sources */,
 				93F704202B1252D500EC73C9 /* MissileEntity.swift in Sources */,
 				0533959F2B10DC3B0097F767 /* NamedHeadquartersEntityType.swift in Sources */,
@@ -819,6 +861,7 @@
 				939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */,
 				05A57B1A2B11000500F98863 /* LandEquipmentEntity.swift in Sources */,
 				93F703FD2B1244BE00EC73C9 /* SeaSurfaceCivilianEntityType.swift in Sources */,
+				934D3E132B13737E0019FBEF /* SignalEntitySubtype.swift in Sources */,
 				05A57B212B11064700F98863 /* EngineerVehiclesAndEquipmentEntityType.swift in Sources */,
 				934496422B10FE2100AD1B73 /* SpaceEntity.swift in Sources */,
 				933011512B07B0D80053E2C2 /* IntelligenceEntityType.swift in Sources */,
@@ -841,6 +884,7 @@
 				93F704002B1246AD00EC73C9 /* EntitySubtype.swift in Sources */,
 				9302182F2B0101C8004FA3D5 /* NavalTowedArrayDescriptor.swift in Sources */,
 				934496462B10FE2100AD1B73 /* GeophysicsAcousticsEntityType.swift in Sources */,
+				934D3E192B1377690019FBEF /* InfantryEntitySubtype.swift in Sources */,
 				9302182D2B0101BD004FA3D5 /* EquipmentMobilityWaterDescriptor.swift in Sources */,
 				934496402B10FE2100AD1B73 /* SeaMineGeneralEntityType.swift in Sources */,
 				93F703F62B1242AB00EC73C9 /* SeaSurfaceEntity.swift in Sources */,

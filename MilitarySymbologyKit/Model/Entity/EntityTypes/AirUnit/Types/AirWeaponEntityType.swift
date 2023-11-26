@@ -24,5 +24,9 @@ extension AirUnitEntity {
                 return String(localized: "Decoy", comment: "Weapon Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }
