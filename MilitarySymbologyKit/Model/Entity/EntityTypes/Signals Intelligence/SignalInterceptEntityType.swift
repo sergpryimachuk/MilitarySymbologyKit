@@ -23,4 +23,8 @@ enum SignalInterceptEntityType: String, CaseIterable, Identifiable, EntityType {
             String(localized: "Radar", comment: "Signal Intercept Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        [.none]
+    }
 }

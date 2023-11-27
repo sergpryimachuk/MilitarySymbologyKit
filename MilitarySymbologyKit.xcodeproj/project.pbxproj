@@ -422,8 +422,8 @@
 		9344961D2B10FE2100AD1B73 /* Mine Warfare */ = {
 			isa = PBXGroup;
 			children = (
-				9344961E2B10FE2100AD1B73 /* Types */,
 				934496222B10FE2100AD1B73 /* MineWarfareEntity.swift */,
+				9344961E2B10FE2100AD1B73 /* Types */,
 			);
 			path = "Mine Warfare";
 			sourceTree = "<group>";
