@@ -28,6 +28,10 @@ extension CyberspaceEntity {
                 String(localized: "Impaired", comment: "Health and Status Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }
 

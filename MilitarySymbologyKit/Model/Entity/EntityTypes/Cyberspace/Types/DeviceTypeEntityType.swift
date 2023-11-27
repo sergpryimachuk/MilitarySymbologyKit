@@ -60,5 +60,9 @@ extension CyberspaceEntity {
                 String(localized: "Virtual Private Network (VPN)", comment: "Device Type Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

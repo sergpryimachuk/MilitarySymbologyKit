@@ -28,5 +28,9 @@ extension CyberspaceEntity {
                 String(localized: "Zombie", comment: "Botnet Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

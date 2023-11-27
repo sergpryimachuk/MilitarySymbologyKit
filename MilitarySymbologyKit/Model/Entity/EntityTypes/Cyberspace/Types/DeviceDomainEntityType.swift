@@ -32,5 +32,9 @@ extension CyberspaceEntity {
                 String(localized: "Non-Government", comment: "Device Domain Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }
