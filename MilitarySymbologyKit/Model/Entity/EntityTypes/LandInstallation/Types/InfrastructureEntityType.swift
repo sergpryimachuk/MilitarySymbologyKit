@@ -70,4 +70,25 @@ enum InfrastructureEntityType: String, CaseIterable, EntityType {
             String(localized: "Water Supply Infrastructure", comment: "Infrastructure Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        switch self {
+        case .agricultureAndFoodInfrastructure: AgricultureAndFoodInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .bankingFinanceAndInsuranceInfrastructure: BankingFinanceAndInsuranceInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .commercialInfrastructure: CommercialInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .educationalFacilitiesInfrastructure: EducationalFacilitiesInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .energyFacilityInfrastructure: EnergyFacilityInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .medicalInfrastructure: MedicalInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .militaryInfrastructure: MilitaryInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .postalServicesInfrastructure: PostalServicesInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .publicVenuesInfrastructure: PublicVenuesInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .specialNeedsInfrastructure: SpecialNeedsInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .telecommunicationsInfrastructure: TelecommunicationsInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .transportationInfrastructure: TransportationInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .waterSupplyInfrastructure: WaterSupplyInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
+        default:
+            [.none]
+        }
+    }
+    
 }

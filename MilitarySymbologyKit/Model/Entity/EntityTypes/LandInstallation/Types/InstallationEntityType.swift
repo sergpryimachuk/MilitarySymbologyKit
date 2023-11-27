@@ -8,6 +8,7 @@
 import Foundation
 
 enum InstallationEntityType: String, CaseIterable, EntityType {
+    
     case aircraftProductionAssembly = "01"
     case ammunitionAndExplosivesAssembly = "02"
     case ammunitionCache = "03"
@@ -102,4 +103,16 @@ enum InstallationEntityType: String, CaseIterable, EntityType {
             String(localized: "Emergency Operation", comment: "Installation Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        switch self {
+        case .engineeringEquipmentProduction: BridgeSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .tentedCamp: TentedCampSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .lawEnforcement: LawEnforcementSubtype.allCases.map { AnyEntitySubtype($0) }
+        case .emergencyOperation: EmergencyOperationSubtype.allCases.map { AnyEntitySubtype($0) }
+        default:
+            [.none]
+        }
+    }
+    
 }
