@@ -130,7 +130,7 @@ extension MilitarySymbol {
                 if text.isEmpty {
                     false
                 } else {
-                    symbol.entity.name.localizedStandardContains(text) 
+                    symbol.entity.name.localizedStandardContains(text)
                     || symbol.entityType.name.localizedStandardContains(text)
                 }
             }
@@ -258,8 +258,8 @@ extension MilitarySymbol {
                 + entityDigits
                 + (entityTypeDigits ?? "00")
                 + (entitySubTypeDigits ?? "00")
-                //                + "_"
-                //                + (statusDigits ?? "00")
+                + "_"
+                + (statusDigits ?? "00")
                 return string
             }
             
