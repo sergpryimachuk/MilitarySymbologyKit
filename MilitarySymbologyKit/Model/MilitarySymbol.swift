@@ -14,7 +14,7 @@ struct MilitarySymbol: Identifiable, Hashable {
     var hqtfd: HQTFD = .notApplicable
     var amplifier: Amplifier = .notApplicable
     var descriptor: AnyDescriptor = AnyDescriptor(NotApplicableDescriptor.notApplicable)
-    var entity: AnyEntity = AnyEntity(AirUnitEntity.military)
+    var entity: AnyEntity = .none
     var entityType: AnyEntityType = .none
     var entitySubtype: AnyEntitySubtype = .none
     
