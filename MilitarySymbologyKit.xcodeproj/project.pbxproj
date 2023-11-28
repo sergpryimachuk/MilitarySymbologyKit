@@ -157,6 +157,8 @@
 		939B44A92AFE39C900A67880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44A82AFE39C900A67880 /* Assets.xcassets */; };
 		939B44AC2AFE39C900A67880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */; };
 		939B44BA2AFE485C00A67880 /* MilitarySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44B92AFE485C00A67880 /* MilitarySymbol.swift */; };
+		93B7CAF12B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF02B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift */; };
+		93B7CAF32B160D450036F896 /* MILCOConfidenceLevelSubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF22B160D450036F896 /* MILCOConfidenceLevelSubtype.swift */; };
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
 		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
 		93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */; };
@@ -331,6 +333,8 @@
 		939B44A82AFE39C900A67880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		939B44B92AFE485C00A67880 /* MilitarySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbol.swift; sourceTree = "<group>"; };
+		93B7CAF02B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutralizedMineGeneralEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CAF22B160D450036F896 /* MILCOConfidenceLevelSubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILCOConfidenceLevelSubtype.swift; sourceTree = "<group>"; };
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
 		93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Ext.swift"; sourceTree = "<group>"; };
@@ -388,12 +392,14 @@
 			path = Subtypes;
 			sourceTree = "<group>";
 		};
-		052AB02C2B14D84F006DF372 /* Subtype */ = {
+		052AB02C2B14D84F006DF372 /* Subtypes */ = {
 			isa = PBXGroup;
 			children = (
 				052AB02A2B14D811006DF372 /* ExerciseMineGeneralSubtype.swift */,
+				93B7CAF02B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift */,
+				93B7CAF22B160D450036F896 /* MILCOConfidenceLevelSubtype.swift */,
 			);
-			path = Subtype;
+			path = Subtypes;
 			sourceTree = "<group>";
 		};
 		05A57B1D2B1101A600F98863 /* LandEquipment */ = {
@@ -534,7 +540,7 @@
 			children = (
 				934496222B10FE2100AD1B73 /* MineWarfareEntity.swift */,
 				931395D52B14E7AE000D5583 /* Types */,
-				052AB02C2B14D84F006DF372 /* Subtype */,
+				052AB02C2B14D84F006DF372 /* Subtypes */,
 			);
 			path = "Mine Warfare";
 			sourceTree = "<group>";
@@ -932,6 +938,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B7CAF32B160D450036F896 /* MILCOConfidenceLevelSubtype.swift in Sources */,
 				054C27752B111B4600324A82 /* InstallationEntityType.swift in Sources */,
 				054C278A2B11213300324A82 /* AirspaceControlPointsEntityType.swift in Sources */,
 				054C27A22B11290000324A82 /* IntelligenceLinesEntityType.swift in Sources */,
@@ -1074,6 +1081,7 @@
 				052AB00B2B14C685006DF372 /* TentedCampSubtype.swift in Sources */,
 				934D3E382B1392C90019FBEF /* MineClearingEquipmentEntitySubtype.swift in Sources */,
 				053395A12B10DCF10097F767 /* LawEnforcementEntityType.swift in Sources */,
+				93B7CAF12B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift in Sources */,
 				05A57B1C2B11019200F98863 /* WeaponSystemEntityType.swift in Sources */,
 				054C27A02B1128AE00324A82 /* ProtectionLinesEntityType.swift in Sources */,
 				930218392B012EB9004FA3D5 /* Descriptor.swift in Sources */,

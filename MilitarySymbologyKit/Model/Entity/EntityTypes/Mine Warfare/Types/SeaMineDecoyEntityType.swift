@@ -23,5 +23,9 @@ extension MineWarfareEntity {
                 String(localized: "None", comment: "Sea Mine Decoy Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

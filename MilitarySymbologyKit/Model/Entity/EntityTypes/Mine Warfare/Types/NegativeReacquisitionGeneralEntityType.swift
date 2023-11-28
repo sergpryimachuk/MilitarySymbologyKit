@@ -28,5 +28,9 @@ extension MineWarfareEntity {
                 String(localized: "Negative Reacquisition-Floating", comment: "Negative Reacquisition - General Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

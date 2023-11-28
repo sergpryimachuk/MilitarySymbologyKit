@@ -20,3 +20,7 @@ extension AnyDescriptor {
         self.name = descriptor.name
     }
 }
+
+extension AnyDescriptor {
+   static let notApplicable = AnyDescriptor(id: "00", name: String(localized: "None"))
+}

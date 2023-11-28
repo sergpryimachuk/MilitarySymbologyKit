@@ -28,5 +28,9 @@ extension MineWarfareEntity {
                 String(localized: "Mine-Like Echo-Floating", comment: "Mine-Like Echo (MILEC) - General Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

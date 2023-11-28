@@ -32,5 +32,14 @@ extension MineWarfareEntity {
                 String(localized: "MILCO - Floating", comment: "Mine-Like Contact Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            switch self {
+            case .none:
+                [.none]
+            default:
+                MILCOConfidenceLevelSubtype.allCases.map { AnyEntitySubtype($0) }
+            }
+        }
     }
 }

@@ -19,5 +19,9 @@ extension MineWarfareEntity {
                 String(localized: "Neutralized Obstructor", comment: "Obstructor Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

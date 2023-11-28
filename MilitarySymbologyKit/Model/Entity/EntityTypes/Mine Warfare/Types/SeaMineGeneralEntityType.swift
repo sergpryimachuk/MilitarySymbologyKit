@@ -48,5 +48,16 @@ extension MineWarfareEntity {
                 String(localized: "Neutralized Mine-General", comment: "Sea Mine General Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            switch self {
+            case .exerciseMineGeneral:
+                ExerciseMineGeneralSubtype.allCases.map { AnyEntitySubtype($0) }
+            case .neutralizedMineGeneral:
+                NeutralizedMineGeneralEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            default:
+                [.none]
+            }
+        }
     }
 }

@@ -28,5 +28,9 @@ extension MineWarfareEntity {
                 String(localized: "Non-Mine Mine-Like Object-Floating", comment: "Non-Mine Mine-Like Object (NMLO) - General Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }
