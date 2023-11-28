@@ -14,10 +14,16 @@ extension MilitarySymbol {
     
     func makeFrame() -> Image {
         var lastDigit: String {
-            let initial = if Int(status.id)! > 1 {
-                "0"
-            } else {
+//            let initial = if Int(status.id)! > 1 {
+//                "0"
+//            } else {
+//                status.id
+//            }
+            
+            let initial = if status == .present || status == .plannedAnticipatedSuspect {
                 status.id
+            } else {
+                "0"
             }
 
             if isCivilian {
@@ -168,7 +174,7 @@ extension MilitarySymbol {
                     case .neutral:
                         "2"
                     case .suspect, .hostile:
-                        context == .exercise ? "1" : "3"
+                        "3"
                     }
                     
                     let string = symbolSetDigits
