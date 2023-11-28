@@ -22,5 +22,5 @@ extension AnyDescriptor {
 }
 
 extension AnyDescriptor {
-    static let none = AnyDescriptor(id: "00", name: String(localized: "None"))
+    static let none = AnyDescriptor(id: "0", name: String(localized: "None"))
 }

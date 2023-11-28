@@ -5,7 +5,7 @@
 import SwiftUI
 
 struct TestView: View {
-    @State private var codes = ["01062000121211000000", "01051000121215000000", "01066000021303000000"]
+    @State private var codes = ["01062000121211000000", "01051000121215000000", "01061000001211000000"]
     @State private var text: String = ""
 
     var isTextValid: Bool {
@@ -26,14 +26,14 @@ struct TestView: View {
                     }
 
                 ForEach(codes, id: \.self) { code in
-                    if let symbol = MilitarySymbol(sidc: code) {
+                    if let symbol = makeSymbol(for: code) {
                         NavigationLink(value: symbol) {
-                            LabeledContent {
-                                Text(symbol.makeSIDC())
-                            } label: {
-                                symbol.makeView(frameWidth: 60)
-                            }
-                        }
+                           LabeledContent {
+                               Text(symbol.makeSIDC())
+                           } label: {
+                               symbol.makeView(frameWidth: 60)
+                           }
+                       }
                     } else {
                         Text("\(code) is broken.")
                     }
@@ -42,6 +42,17 @@ struct TestView: View {
             .navigationDestination(for: MilitarySymbol.self) { symbol in
                 MilitarySymbolPicker(symbol: symbol)
             }
+        }
+    }
+    
+    
+    func makeSymbol(for code: String) -> MilitarySymbol? {
+        do {
+            let symbol = try MilitarySymbol(sidc: code)
+            return symbol
+        } catch {
+            print(error)
+            return nil
         }
     }
 }

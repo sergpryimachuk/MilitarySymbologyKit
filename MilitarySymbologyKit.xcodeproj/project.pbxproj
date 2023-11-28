@@ -162,6 +162,7 @@
 		93B7CB3A2B1632430036F896 /* LightHeavyEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB392B1632430036F896 /* LightHeavyEntitySubtype.swift */; };
 		93B7CB3C2B1635060036F896 /* LandEquipmentLawEnforcementEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB3B2B1635060036F896 /* LandEquipmentLawEnforcementEntityType.swift */; };
 		93B7CB3E2B1635ED0036F896 /* EmergencyMedicalOperationEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB3D2B1635ED0036F896 /* EmergencyMedicalOperationEntitySubtype.swift */; };
+		93B7CB432B1657D80036F896 /* MilitarySymbolError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB422B1657D80036F896 /* MilitarySymbolError.swift */; };
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
 		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
 		93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */; };
@@ -341,6 +342,7 @@
 		93B7CB392B1632430036F896 /* LightHeavyEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightHeavyEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CB3B2B1635060036F896 /* LandEquipmentLawEnforcementEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandEquipmentLawEnforcementEntityType.swift; sourceTree = "<group>"; };
 		93B7CB3D2B1635ED0036F896 /* EmergencyMedicalOperationEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyMedicalOperationEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB422B1657D80036F896 /* MilitarySymbolError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbolError.swift; sourceTree = "<group>"; };
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
 		93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Ext.swift"; sourceTree = "<group>"; };
@@ -680,6 +682,7 @@
 			isa = PBXGroup;
 			children = (
 				939B44B92AFE485C00A67880 /* MilitarySymbol.swift */,
+				93B7CB422B1657D80036F896 /* MilitarySymbolError.swift */,
 				930218162B00FE5E004FA3D5 /* Context.swift */,
 				930218182B00FE7C004FA3D5 /* StandardIdentity.swift */,
 				9302181A2B00FEB2004FA3D5 /* Dimension.swift */,
@@ -970,6 +973,7 @@
 				93B7CB1E2B1628860036F896 /* RainEntitySubtype.swift in Sources */,
 				9344AFDF2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift in Sources */,
 				93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */,
+				93B7CB432B1657D80036F896 /* MilitarySymbolError.swift in Sources */,
 				9344964B2B10FE2100AD1B73 /* IcingEntityType.swift in Sources */,
 				054C27732B111AC900324A82 /* LandInstallationEntity.swift in Sources */,
 				934496352B10FE2100AD1B73 /* HealthAndStatusEntityType.swift in Sources */,
