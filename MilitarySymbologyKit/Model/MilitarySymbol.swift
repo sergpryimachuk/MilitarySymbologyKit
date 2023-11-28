@@ -9,13 +9,29 @@ struct MilitarySymbol: Identifiable, Hashable {
     private let version: String = "01"
     var context: Context = .reality
     var standardIdentity: StandardIdentity = .unknown
-    var dimention: Dimension = .air
+    var dimention: Dimension = .air {
+        didSet {
+            entity = .none
+        }
+    }
     var status: Status = .present
     var hqtfd: HQTFD = .none
-    var amplifier: Amplifier = .none
+    var amplifier: Amplifier = .none {
+        didSet {
+            descriptor = .none
+        }
+    }
     var descriptor: AnyDescriptor = .none
-    var entity: AnyEntity = .none
-    var entityType: AnyEntityType = .none
+    var entity: AnyEntity = .none {
+        didSet {
+            entityType = .none
+        }
+    }
+    var entityType: AnyEntityType = .none {
+        didSet {
+            entitySubtype = .none
+        }
+    }
     var entitySubtype: AnyEntitySubtype = .none
 
     var isCivilian: Bool = false

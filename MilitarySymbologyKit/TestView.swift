@@ -5,7 +5,7 @@
 import SwiftUI
 
 struct TestView: View {
-    @State private var codes = ["01061000001103000000", "01051000121215000000", "01021000001110000000"]
+    @State private var codes = ["01062000121211000000", "01051000121215000000", "01066000021303000000"]
     @State private var text: String = ""
 
     var isTextValid: Bool {

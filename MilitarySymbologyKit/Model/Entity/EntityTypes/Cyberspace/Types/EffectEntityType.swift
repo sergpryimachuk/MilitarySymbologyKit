@@ -48,5 +48,9 @@ extension CyberspaceEntity {
                 String(localized: "Device Outage", comment: "Effect Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

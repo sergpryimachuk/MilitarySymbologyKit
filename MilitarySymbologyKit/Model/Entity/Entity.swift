@@ -25,5 +25,6 @@ extension AnyEntity {
 }
 
 extension AnyEntity {
-    static let none: AnyEntity = .init(id: "00", name: String(localized: "None"), types: [])
+    static let none: AnyEntity = .init(id: "00", name: String(localized: "None"),
+                                       types: [.none])
 }
