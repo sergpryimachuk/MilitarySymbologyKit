@@ -30,9 +30,9 @@ enum ProtectionAreasEntityType: String, CaseIterable, EntityType {
     case radiologicalContaminatedArea = "20"
     case minimumSafeDistanceZone = "21"
     case radiationDoseRateContourLines = "22"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .obstacleBelt:

@@ -31,9 +31,9 @@ enum FiresAreasEntityType: String, CaseIterable, EntityType {
     case weaponSensorRangeFanCircular = "21"
     case weaponSensorRangeFanSector = "22"
     case killBox = "23"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .airspaceCoordinationArea:

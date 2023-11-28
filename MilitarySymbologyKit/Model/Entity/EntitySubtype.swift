@@ -16,12 +16,12 @@ struct AnyEntitySubtype: EntitySubtype, Hashable, Identifiable {
 
 extension AnyEntitySubtype {
     init<T: EntitySubtype>(_ entityType: T) {
-        self.id = entityType.id
-        self.name = entityType.name
+        id = entityType.id
+        name = entityType.name
     }
 }
 
 extension AnyEntitySubtype {
-    static let none: AnyEntitySubtype = AnyEntitySubtype(id: "00",
-                                                         name: String(localized: "None"))
+    static let none: AnyEntitySubtype = .init(id: "00",
+                                              name: String(localized: "None"))
 }

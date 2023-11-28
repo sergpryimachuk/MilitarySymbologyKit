@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 24.11.2023.
-//  
+//
 
 import Foundation
 
@@ -9,22 +9,22 @@ extension AtmosphericEntity {
         case clearIcing = "01"
         case rimeIcing = "02"
         case mixedIcing = "03"
-        
+
         var id: String { rawValue }
-        
+
         var name: String {
             switch self {
             case .clearIcing:
                 String(localized: "Clear Icing", comment: "Icing Entity Type")
-                
+
             case .rimeIcing:
                 String(localized: "Rime Icing", comment: "Icing Entity Type")
-                
+
             case .mixedIcing:
                 String(localized: "Mixed Icing", comment: "Icing Entity Type")
             }
         }
-        
+
         var subtypes: [AnyEntitySubtype] {
             LightMediumSevereEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         }

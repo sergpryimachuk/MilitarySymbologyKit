@@ -15,49 +15,49 @@ enum LandUnitEntity: String, CaseIterable, Identifiable, Entity {
     case namedHeadquarters = "18"
     case emergencyOperation = "19"
     case lawEnforcement = "20"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .commandAndControl:
             String(localized: "Command and Control", comment: "Land Unit Entity")
-            
+
         case .movementAndManeuver:
             String(localized: "Movement and Maneuver", comment: "Land Unit Entity")
-            
+
         case .fires:
             String(localized: "Fires", comment: "Land Unit Entity")
-            
+
         case .protection:
             String(localized: "Protection", comment: "Land Unit Entity")
-            
+
         case .intelligence:
             String(localized: "Intelligence", comment: "Land Unit Entity")
-            
+
         case .sustainment:
             String(localized: "Sustainment", comment: "Land Unit Entity")
-            
+
         case .naval:
             String(localized: "Naval", comment: "Land Unit Entity")
-            
+
         case .namedHeadquarters:
             String(localized: "Named Headquarters", comment: "Land Unit Entity")
-            
+
         case .emergencyOperation:
             String(localized: "Emergency Operation", comment: "Land Unit Entity")
-            
+
         case .lawEnforcement:
             String(localized: "Law Enforcement", comment: "Land Unit Entity")
         }
     }
-    
+
     var types: [AnyEntityType] {
         switch self {
         case .commandAndControl:
             CommandAndControlEntityType.allCases.map { AnyEntityType($0) }
         case .movementAndManeuver:
-            MovementAndManeuverEntityType.allCases.map { AnyEntityType($0)}
+            MovementAndManeuverEntityType.allCases.map { AnyEntityType($0) }
         case .fires:
             FiresEntityType.allCases.map { AnyEntityType($0) }
         case .protection:

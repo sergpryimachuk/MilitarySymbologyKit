@@ -14,9 +14,9 @@ enum FireLinesEntityType: String, CaseIterable, EntityType {
     case battlefieldCoordinationLine = "04"
     case restrictiveFireLine = "05"
     case munitionFlightPath = "06"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .fireSupportCoordinationLine:

@@ -15,9 +15,9 @@ enum EnergyFacilityInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case petroleumFacility = "04"
     case petroleumGasOil = "05"
     case propaneFacility = "06"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

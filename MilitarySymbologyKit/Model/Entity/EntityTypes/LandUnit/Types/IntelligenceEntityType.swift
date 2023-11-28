@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 17.11.2023.
-//  
+//
 
 import Foundation
 
@@ -17,54 +17,54 @@ enum IntelligenceEntityType: String, CaseIterable, Identifiable, EntityType {
     case militaryIntelligence = "10"
     case search = "11"
     case sensor = "12"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .analysis:
             String(localized: "Analysis", comment: "Intelligence Entity Type")
-            
+
         case .counterintelligence:
             String(localized: "Counterintelligence", comment: "Intelligence Entity Type")
-            
+
         case .directionFinding:
             String(localized: "Direction Finding", comment: "Intelligence Entity Type")
-            
+
         case .electronicRanging:
             String(localized: "Electronic Ranging", comment: "Intelligence Entity Type")
-            
+
         case .electronicWarfare:
             String(localized: "Electronic Warfare", comment: "Intelligence Entity Type")
-            
+
         case .interceptSearchAndRecording:
             String(localized: "Intercept (Search and Recording)", comment: "Intelligence Entity Type")
-            
+
         case .interrogation:
             String(localized: "Interrogation", comment: "Intelligence Entity Type")
-            
+
         case .jamming:
             String(localized: "Jamming", comment: "Intelligence Entity Type")
-            
+
         case .jointIntelligenceCenter:
             String(localized: "Joint Intelligence Center", comment: "Intelligence Entity Type")
-            
+
         case .militaryIntelligence:
             String(localized: "Military Intelligence", comment: "Intelligence Entity Type")
-            
+
         case .search:
             String(localized: "Search", comment: "Intelligence Entity Type")
-            
+
         case .sensor:
             String(localized: "Sensor", comment: "Intelligence Entity Type")
         }
     }
-    
+
     var subtypes: [AnyEntitySubtype] {
         switch self {
         case .electronicWarfare:
             AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
-            + ElectronicWarfareEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+                + ElectronicWarfareEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         default:
             AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         }

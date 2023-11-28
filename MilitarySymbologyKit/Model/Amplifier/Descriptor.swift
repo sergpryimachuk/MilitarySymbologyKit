@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 12.11.2023.
-//  
+//
 
 import Foundation
 
@@ -16,11 +16,11 @@ struct AnyDescriptor: Descriptor, Hashable, Identifiable {
 
 extension AnyDescriptor {
     init<T: Descriptor>(_ descriptor: T) {
-        self.id = descriptor.id
-        self.name = descriptor.name
+        id = descriptor.id
+        name = descriptor.name
     }
 }
 
 extension AnyDescriptor {
-   static let notApplicable = AnyDescriptor(id: "00", name: String(localized: "None"))
+    static let notApplicable = AnyDescriptor(id: "00", name: String(localized: "None"))
 }

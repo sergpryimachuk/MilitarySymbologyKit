@@ -18,9 +18,9 @@ enum ProtectionLinesEntityType: String, CaseIterable, EntityType {
     case raftSite = "08"
     case fortifiedLine = "09"
     case fortifiedPosition = "10"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .obstacleLine:

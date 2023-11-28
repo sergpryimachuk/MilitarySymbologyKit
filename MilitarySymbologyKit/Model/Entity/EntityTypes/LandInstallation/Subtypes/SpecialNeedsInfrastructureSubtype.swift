@@ -12,9 +12,9 @@ enum SpecialNeedsInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case adultDayCare = "01"
     case childDayCare = "02"
     case elderCare = "03"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

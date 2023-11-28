@@ -32,85 +32,85 @@ enum ControlMeasureEntity: String, CaseIterable, Entity {
     case sustainmentPoints = "32"
     case sustainmentLines = "33"
     case missionTasks = "34"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .commandAndControlLines:
             String(localized: "Command and Control Lines", comment: "Control Measure Entity")
-            
+
         case .commandAndControlAreas:
             String(localized: "Command and Control Areas", comment: "Control Measure Entity")
-            
+
         case .commandAndControlPoints:
             String(localized: "Command and Control Points", comment: "Control Measure Entity")
-            
+
         case .maneuverLines:
             String(localized: "Maneuver Lines", comment: "Control Measure Entity")
-            
+
         case .maneuverAreas:
             String(localized: "Maneuver Areas", comment: "Control Measure Entity")
-            
+
         case .maneuverPoints:
             String(localized: "Maneuver Points", comment: "Control Measure Entity")
-            
+
         case .airspaceControlCorridorsAreas:
             String(localized: "Airspace Control (Corridors) Areas", comment: "Control Measure Entity")
-            
+
         case .airspaceControlPoints:
             String(localized: "Airspace Control Points", comment: "Control Measure Entity")
-            
+
         case .airspaceControlLines:
             String(localized: "Airspace Control Lines", comment: "Control Measure Entity")
-            
+
         case .maritimeControlAreas:
             String(localized: "Maritime Control Areas", comment: "Control Measure Entity")
-            
+
         case .maritimeControlPoints:
             String(localized: "Maritime Control Points", comment: "Control Measure Entity")
-            
+
         case .maritimeControlLines:
             String(localized: "Maritime Control Lines", comment: "Control Measure Entity")
-            
+
         case .deception:
             String(localized: "Deception", comment: "Control Measure Entity")
-            
+
         case .firesAreas:
             String(localized: "Fires Areas", comment: "Control Measure Entity")
-            
+
         case .firesPoints:
             String(localized: "Fires Points", comment: "Control Measure Entity")
-            
+
         case .fireLines:
             String(localized: "Fire Lines", comment: "Control Measure Entity")
-            
+
         case .protectionAreas:
             String(localized: "Protection Areas", comment: "Control Measure Entity")
-            
+
         case .protectionPoints:
             String(localized: "Protection Points", comment: "Control Measure Entity")
-            
+
         case .protectionLines:
             String(localized: "Protection Lines", comment: "Control Measure Entity")
-            
+
         case .intelligenceLines:
             String(localized: "Intelligence Lines", comment: "Control Measure Entity")
-            
+
         case .sustainmentAreas:
             String(localized: "Sustainment Areas", comment: "Control Measure Entity")
-            
+
         case .sustainmentPoints:
             String(localized: "Sustainment Points", comment: "Control Measure Entity")
-            
+
         case .sustainmentLines:
             String(localized: "Sustainment Lines", comment: "Control Measure Entity")
-            
+
         case .missionTasks:
             String(localized: "Mission Tasks", comment: "Control Measure Entity")
         }
     }
-    
+
     var types: [AnyEntityType] {
         switch self {
         case .commandAndControlLines:

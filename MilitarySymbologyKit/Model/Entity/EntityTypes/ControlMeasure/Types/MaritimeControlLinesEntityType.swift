@@ -9,9 +9,9 @@ import Foundation
 
 enum MaritimeControlLinesEntityType: String, CaseIterable, EntityType {
     case bearingLine = "01"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .bearingLine:

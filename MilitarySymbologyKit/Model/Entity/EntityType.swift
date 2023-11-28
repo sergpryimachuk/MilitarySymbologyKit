@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 12.11.2023.
-//  
+//
 
 import Foundation
 
@@ -18,14 +18,14 @@ struct AnyEntityType: EntityType, Hashable, Identifiable {
 
 extension AnyEntityType {
     init<T: EntityType>(_ entityType: T) {
-        self.id = entityType.id
-        self.name = entityType.name
-        self.subtypes = entityType.subtypes
+        id = entityType.id
+        name = entityType.name
+        subtypes = entityType.subtypes
     }
 }
 
 extension AnyEntityType {
-    static let none: AnyEntityType = AnyEntityType(id: "00", 
-                                                   name: String(localized: "None"),
-                                                   subtypes: [.none])
+    static let none: AnyEntityType = .init(id: "00",
+                                           name: String(localized: "None"),
+                                           subtypes: [.none])
 }

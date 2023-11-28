@@ -8,12 +8,11 @@
 import Foundation
 
 enum BridgeSubtype: String, CaseIterable, EntitySubtype {
-    
     case none = "00"
     case bridge = "01"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

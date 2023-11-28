@@ -15,9 +15,9 @@ enum SustainmentAreasEntityType: String, CaseIterable, EntityType {
     case regimentalSupportArea = "05"
     case brigadeSupportArea = "06"
     case divisionSupportArea = "07"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .detaineeHoldingArea:

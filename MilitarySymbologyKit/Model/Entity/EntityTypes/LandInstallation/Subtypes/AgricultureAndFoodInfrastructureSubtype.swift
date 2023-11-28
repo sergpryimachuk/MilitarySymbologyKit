@@ -17,9 +17,9 @@ enum AgricultureAndFoodInfrastructureSubtype: String, CaseIterable, EntitySubtyp
     case foodProductionCenter = "06"
     case foodRetail = "07"
     case grainStorage = "08"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

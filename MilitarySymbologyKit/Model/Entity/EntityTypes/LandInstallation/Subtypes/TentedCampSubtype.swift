@@ -11,9 +11,9 @@ enum TentedCampSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case displacedPersonsRefugeeEvacueesCamp = "01"
     case trainingCamp = "02"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

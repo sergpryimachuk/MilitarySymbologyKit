@@ -22,9 +22,9 @@ enum TransportationInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case tollFacility = "11"
     case trafficInspectionFacility = "12"
     case tunnel = "13"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

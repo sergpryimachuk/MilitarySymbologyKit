@@ -21,9 +21,9 @@ enum LawEnforcementSubtype: String, CaseIterable, EntitySubtype {
     case TSA = "10"
     case coastGuard = "11"
     case USMarshalsService = "12"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

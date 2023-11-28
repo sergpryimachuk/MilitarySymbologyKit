@@ -13,9 +13,9 @@ enum PublicVenuesInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case openFacility = "02"
     case recreationalArea = "03"
     case religiousInstitution = "04"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

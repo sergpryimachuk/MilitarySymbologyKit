@@ -12,9 +12,9 @@ enum SustainmentLinesEntityType: String, CaseIterable, EntityType {
     case haltedConvoy = "02"
     case mainSupplyRoute = "03"
     case alternateSupplyRoute = "04"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .movingConvoy:

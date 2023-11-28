@@ -13,14 +13,14 @@ struct MilitarySymbol: Identifiable, Hashable {
     var status: Status = .present
     var hqtfd: HQTFD = .notApplicable
     var amplifier: Amplifier = .notApplicable
-    var descriptor: AnyDescriptor = AnyDescriptor(NotApplicableDescriptor.notApplicable)
+    var descriptor: AnyDescriptor = .init(NotApplicableDescriptor.notApplicable)
     var entity: AnyEntity = .none
     var entityType: AnyEntityType = .none
     var entitySubtype: AnyEntitySubtype = .none
-    
+
     var isCivilian: Bool = false
     var isAlternateStatusAmplifiers: Bool = false
-    
+
     var id: String { makeSIDC() }
 }
 
@@ -30,64 +30,64 @@ extension MilitarySymbol {
             print("It's not 20.")
             return nil
         } else {
-            guard let context = Context.init(rawValue: sidc[2]) else {
+            guard let context = Context(rawValue: sidc[2]) else {
                 print("Context")
                 return nil
             }
             self.context = context
-            
-            guard let standardIdentity = StandardIdentity.init(rawValue: sidc[3]) else {
+
+            guard let standardIdentity = StandardIdentity(rawValue: sidc[3]) else {
                 print("StandardIdentity")
                 return nil
             }
             self.standardIdentity = standardIdentity
-            
-            guard let dimention = Dimension.init(rawValue: sidc[4] + sidc[5]) else {
+
+            guard let dimention = Dimension(rawValue: sidc[4] + sidc[5]) else {
                 print("Dimension")
                 return nil
             }
             self.dimention = dimention
-            
-            guard let status = Status.init(rawValue: sidc[6]) else {
+
+            guard let status = Status(rawValue: sidc[6]) else {
                 print("Status")
                 return nil
             }
             self.status = status
-            
-            guard let hqtfd = HQTFD.init(rawValue: sidc[7]) else {
+
+            guard let hqtfd = HQTFD(rawValue: sidc[7]) else {
                 print("HQTFD")
                 return nil
             }
             self.hqtfd = hqtfd
-            
-            guard let amplifier = Amplifier.init(rawValue: sidc[8]) else {
+
+            guard let amplifier = Amplifier(rawValue: sidc[8]) else {
                 print("Amplifier")
                 return nil
             }
             self.amplifier = amplifier
-            
-            guard let descriptor = amplifier.descriptors.first(where: {$0.id == sidc[9] }) else {
+
+            guard let descriptor = amplifier.descriptors.first(where: { $0.id == sidc[9] }) else {
                 print("Descriptor")
                 return nil
             }
             self.descriptor = descriptor
-            
+
             let entityDigits: String = sidc[10] + sidc[11]
-            guard let entity = dimention.entities.first(where: { $0.id == entityDigits } ) else {
+            guard let entity = dimention.entities.first(where: { $0.id == entityDigits }) else {
                 print("Entity")
                 return nil
             }
             self.entity = entity
-            
-            let entityTypeDigits: String =  sidc[12] + sidc[13]
-            guard let entityType = entity.types.first(where: { $0.id == entityTypeDigits } ) else {
+
+            let entityTypeDigits: String = sidc[12] + sidc[13]
+            guard let entityType = entity.types.first(where: { $0.id == entityTypeDigits }) else {
                 print("EntityType")
                 return nil
             }
             self.entityType = entityType
-            
+
             let entitySybTypeDigits = sidc[14] + sidc[15]
-            guard let entitySubtype = entityType.subtypes.first(where: { $0.id == entitySybTypeDigits } ) else {
+            guard let entitySubtype = entityType.subtypes.first(where: { $0.id == entitySybTypeDigits }) else {
                 print("EntitySubtype")
                 return nil
             }
@@ -108,7 +108,7 @@ extension MilitarySymbol {
             }
         }
     }
-    
+
     static func searched(text: String, standardIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
         if text.isEmpty {
             return []
@@ -131,7 +131,7 @@ extension MilitarySymbol {
                     false
                 } else {
                     symbol.entity.name.localizedStandardContains(text)
-                    || symbol.entityType.name.localizedStandardContains(text)
+                        || symbol.entityType.name.localizedStandardContains(text)
                 }
             }
         }
@@ -142,7 +142,7 @@ extension MilitarySymbol {
     func makeSIDC() -> String {
         version + context.id + standardIdentity.id + dimention.id + status.id + hqtfd.id + amplifier.id + descriptor.id + entity.id + entityType.id + entitySubtype.id + "0000"
     }
-    
+
     func makeFrame() -> Image {
         var lastDigit: String {
             let initial = if Int(status.id)! > 1 {
@@ -150,26 +150,26 @@ extension MilitarySymbol {
             } else {
                 status.id
             }
-            
+
             if isCivilian {
                 return initial + "c"
             } else {
                 return initial
             }
         }
-        
+
         return Image(context.id + "_" + standardIdentity.id + dimention.assetDigit + "_" + lastDigit)
     }
-    
+
     func makeAmplifier() -> Image {
         return Image(standardIdentity.assetGigit + amplifier.id + descriptor.id)
     }
-    
+
     // Uses SIDC positions 4-6 (standardIdentity-dimention) and position 8 (hqtfd).
     func makeHQTFFD() -> Image {
         return Image(standardIdentity.assetGigit + dimention.assetDigit + hqtfd.id)
     }
-    
+
     //    func makeOCA() -> Image {
     //        if isAlternateStatusAmplifiers {
     //            return Image(context.id + standardIdentity.assetGigit + dimention.assetDigit + status.id + "2")
@@ -185,7 +185,7 @@ extension MilitarySymbol {
     //            }
     //        }
     //    }
-    
+
     func makeOCA(
         contextDigits: String,
         standardIdentityDigits: String,
@@ -194,34 +194,33 @@ extension MilitarySymbol {
         isAlternateStatusAmplifiers: Bool = true
     ) -> Image {
         if isAlternateStatusAmplifiers {
-            
             if statusDigits != "0"
-                || statusDigits != "1" {
-                
+                || statusDigits != "1"
+            {
                 var assetName: String {
                     let string = contextDigits
-                    + standardIdentityDigits
-                    + symbolSetDigits
-                    + statusDigits
-                    + "2"
+                        + standardIdentityDigits
+                        + symbolSetDigits
+                        + statusDigits
+                        + "2"
                     return string
                 }
-                
+
                 return Image(assetName)
             } else {
                 return Image("")
             }
         } else {
             if statusDigits == "3"
-                || statusDigits == "4" {
-                
+                || statusDigits == "4"
+            {
                 return Image(statusDigits)
             } else {
                 return Image("")
             }
         }
     }
-    
+
     func makeMainIcon(
         symbolSetDigits: String?,
         entityDigits: String?,
@@ -229,21 +228,22 @@ extension MilitarySymbol {
         entitySubTypeDigits: String?
     ) -> Image {
         if let symbolSetDigits,
-           let entityDigits {
+           let entityDigits
+        {
             var assetName: String {
                 let string = symbolSetDigits
-                + entityDigits
-                + (entityTypeDigits ?? "00")
-                + (entitySubTypeDigits ?? "00")
+                    + entityDigits
+                    + (entityTypeDigits ?? "00")
+                    + (entitySubTypeDigits ?? "00")
                 return string
             }
-            
+
             return Image(assetName)
         } else {
             return Image("")
         }
     }
-    
+
     func makeFullFrameMainIcon(
         statusDigits: String?,
         symbolSetDigits: String?,
@@ -252,23 +252,24 @@ extension MilitarySymbol {
         entitySubTypeDigits: String?
     ) -> Image {
         if let symbolSetDigits,
-           let entityDigits {
+           let entityDigits
+        {
             var assetName: String {
                 let string = symbolSetDigits
-                + entityDigits
-                + (entityTypeDigits ?? "00")
-                + (entitySubTypeDigits ?? "00")
-                + "_"
-                + (statusDigits ?? "00")
+                    + entityDigits
+                    + (entityTypeDigits ?? "00")
+                    + (entitySubTypeDigits ?? "00")
+                    + "_"
+                    + (statusDigits ?? "00")
                 return string
             }
-            
+
             return Image(assetName)
         } else {
             return Image("")
         }
     }
-    
+
     func makeView(frameWidth: CGFloat? = nil) -> some View {
         ZStack {
             makeFrame()
@@ -280,7 +281,7 @@ extension MilitarySymbol {
             makeHQTFFD()
                 .resizable()
                 .scaledToFit()
-            
+
             makeMainIcon(
                 symbolSetDigits: dimention.id,
                 entityDigits: entity.id,
@@ -289,7 +290,7 @@ extension MilitarySymbol {
             )
             .resizable()
             .scaledToFit()
-            
+
             makeFullFrameMainIcon(
                 statusDigits: status.id,
                 symbolSetDigits: dimention.id,
@@ -299,7 +300,7 @@ extension MilitarySymbol {
             )
             .resizable()
             .scaledToFit()
-            
+
             makeOCA(
                 contextDigits: context.id,
                 standardIdentityDigits: standardIdentity.id,

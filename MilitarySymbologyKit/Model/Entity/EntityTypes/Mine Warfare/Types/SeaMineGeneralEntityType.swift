@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 24.11.2023.
-//  
+//
 
 import Foundation
 
@@ -15,40 +15,40 @@ extension MineWarfareEntity {
         case smallObjectMineLike = "07"
         case exerciseMineGeneral = "08"
         case neutralizedMineGeneral = "09"
-        
+
         var id: String { rawValue }
-        
+
         var name: String {
             switch self {
             case .seaMineBottom:
                 String(localized: "Sea Mine-Bottom", comment: "Sea Mine General Entity Type")
-                
+
             case .seaMineMoored:
                 String(localized: "Sea Mine-Moored", comment: "Sea Mine General Entity Type")
-                
+
             case .seaMineFloating:
                 String(localized: "Sea Mine-Floating", comment: "Sea Mine General Entity Type")
-                
+
             case .seaMineRising:
                 String(localized: "Sea Mine-Rising", comment: "Sea Mine General Entity Type")
-                
+
             case .seaMineOtherPosition:
                 String(localized: "Sea Mine-Other Position", comment: "Sea Mine General Entity Type")
-                
+
             case .kingfisher:
                 String(localized: "Kingfisher", comment: "Sea Mine General Entity Type")
-                
+
             case .smallObjectMineLike:
                 String(localized: "Small Object-Mine-Like", comment: "Sea Mine General Entity Type")
-                
+
             case .exerciseMineGeneral:
                 String(localized: "Exercise Mine-General", comment: "Sea Mine General Entity Type")
-                
+
             case .neutralizedMineGeneral:
                 String(localized: "Neutralized Mine-General", comment: "Sea Mine General Entity Type")
             }
         }
-        
+
         var subtypes: [AnyEntitySubtype] {
             switch self {
             case .exerciseMineGeneral:

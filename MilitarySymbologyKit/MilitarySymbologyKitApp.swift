@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 10.11.2023.
-//  
+//
 
 import SwiftUI
 
@@ -8,7 +8,7 @@ import SwiftUI
 struct MilitarySymbologyKitApp: App {
     var body: some Scene {
         WindowGroup {
-           TestView()
+            TestView()
         }
     }
 }

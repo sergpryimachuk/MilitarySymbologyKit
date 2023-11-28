@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 12.11.2023.
-//  
+//
 
 import Foundation
 
@@ -12,10 +12,10 @@ enum StandardIdentity: String, CaseIterable, Identifiable {
     case neutral = "4"
     case suspect = "5"
     case hostile = "6"
-    
+
     var id: String { rawValue }
-    
-     var name: String {
+
+    var name: String {
         switch self {
         case .pending:
             String(localized: "Pending", comment: "Standard identity")
@@ -33,7 +33,7 @@ enum StandardIdentity: String, CaseIterable, Identifiable {
             String(localized: "Hostile/Faker", comment: "Standard identity")
         }
     }
-    
+
     /// Gigit used to retireve svg asset.
     var assetGigit: String {
         switch self {
@@ -44,7 +44,7 @@ enum StandardIdentity: String, CaseIterable, Identifiable {
         case .suspect:
             StandardIdentity.hostile.id
         default:
-            self.id
+            id
         }
     }
 }

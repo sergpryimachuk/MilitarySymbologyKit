@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 25.11.2023.
-//  
+//
 
 import Foundation
 
@@ -17,46 +17,46 @@ extension AtmosphericEntity {
         case fog = "08"
         case dustOrSand = "09"
         case operatorDefinedFreeform = "10"
-        
+
         var id: String { rawValue }
-        
+
         var name: String {
             switch self {
             case .none:
                 String(localized: "None")
-                
+
             case .instrumentFlightRuleIFR:
                 String(localized: "Instrument Flight Rule (IFR)", comment: "Bounded Areas of Weather Entity Type")
-                
+
             case .marginalVisualFlightRuleMVFR:
                 String(localized: "Marginal Visual Flight Rule (MVFR)", comment: "Bounded Areas of Weather Entity Type")
-                
+
             case .turbulence:
                 String(localized: "Turbulence", comment: "Bounded Areas of Weather Entity Type")
-                
+
             case .icing:
                 String(localized: "Icing", comment: "Bounded Areas of Weather Entity Type")
-                
+
             case .liquidPrecipitationNonConvectiveContinuousOrIntermittent:
                 String(localized: "Liquid Precipitation - Non-Convective Continuous or Intermittent", comment: "Bounded Areas of Weather Entity Type")
-                
+
             case .freezingFrozenPrecipitation:
                 String(localized: "Freezing/Frozen Precipitation", comment: "Bounded Areas of Weather Entity Type")
-                
+
             case .thunderstorm:
                 String(localized: "Thunderstorm", comment: "Bounded Areas of Weather Entity Type")
-                
+
             case .fog:
                 String(localized: "Fog", comment: "Bounded Areas of Weather Entity Type")
-                
+
             case .dustOrSand:
                 String(localized: "Dust or Sand", comment: "Bounded Areas of Weather Entity Type")
-                
+
             case .operatorDefinedFreeform:
                 String(localized: "Operator-Defined Freeform", comment: "Bounded Areas of Weather Entity Type")
             }
         }
-        
+
         // TODO: Implement this one.
         var subtypes: [AnyEntitySubtype] {
             [.none]

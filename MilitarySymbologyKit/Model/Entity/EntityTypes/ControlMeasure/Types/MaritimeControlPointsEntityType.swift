@@ -100,11 +100,9 @@ enum MaritimeControlPointsEntityType: String, CaseIterable, EntityType {
     case seaAnomalyWakeCurrentKnuckle = "90"
     case bottomReturnNonMILCOWreckDangerous = "91"
     case bottomReturnNonMILCOWreckNonDangerous = "92"
-    
-    
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .planShip:

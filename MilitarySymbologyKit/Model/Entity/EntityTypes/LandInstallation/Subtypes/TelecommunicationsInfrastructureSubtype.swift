@@ -12,9 +12,9 @@ enum TelecommunicationsInfrastructureSubtype: String, CaseIterable, EntitySubtyp
     case broadcastTransmitterAntennae = "01"
     case telecommunications = "02"
     case telecommunicationsTower = "03"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

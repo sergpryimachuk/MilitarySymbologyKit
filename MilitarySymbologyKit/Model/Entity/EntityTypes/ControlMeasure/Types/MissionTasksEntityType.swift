@@ -33,9 +33,9 @@ enum MissionTasksEntityType: String, CaseIterable, EntityType {
     case seize = "23"
     case withdraw = "24"
     case withdrawUnderPressure = "25"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .block:

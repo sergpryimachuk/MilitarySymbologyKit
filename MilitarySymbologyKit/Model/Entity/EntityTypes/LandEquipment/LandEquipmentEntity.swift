@@ -8,7 +8,6 @@
 import Foundation
 
 enum LandEquipmentEntity: String, CaseIterable, Entity {
-    
     case weaponWeaponSystem = "11"
     case vehicle = "12"
     case engineerVehiclesAndEquipment = "13"
@@ -23,55 +22,55 @@ enum LandEquipmentEntity: String, CaseIterable, Entity {
     case sensors = "22"
     case emergencyOperation = "23"
     case manualTrack = "24"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .weaponWeaponSystem:
             String(localized: "Weapon/Weapon System", comment: "Land Equipment Entity")
-            
+
         case .vehicle:
             String(localized: "Vehicle", comment: "Land Equipment Entity")
-            
+
         case .engineerVehiclesAndEquipment:
             String(localized: "Engineer Vehicles and Equipment", comment: "Land Equipment Entity")
-            
+
         case .utilityVehicles:
             String(localized: "Utility Vehicles", comment: "Land Equipment Entity")
-            
+
         case .train:
             String(localized: "Train", comment: "Land Equipment Entity")
-            
+
         case .civilianVehicle:
             String(localized: "Civilian Vehicle", comment: "Land Equipment Entity")
-            
+
         case .lawEnforcement:
             String(localized: "Law Enforcement", comment: "Land Equipment Entity")
-            
+
         case .packAnimals:
             String(localized: "Pack Animals", comment: "Land Equipment Entity")
-            
+
         case .missileSupport:
             String(localized: "Missile Support", comment: "Land Equipment Entity")
-            
+
         case .otherEquipment:
             String(localized: "Other Equipment", comment: "Land Equipment Entity")
-            
+
         case .landMines:
             String(localized: "Land Mines", comment: "Land Equipment Entity")
-            
+
         case .sensors:
             String(localized: "Sensors", comment: "Land Equipment Entity")
-            
+
         case .emergencyOperation:
             String(localized: "Emergency Operation", comment: "Land Equipment Entity")
-            
+
         case .manualTrack:
             String(localized: "Manual Track", comment: "Land Equipment Entity")
         }
     }
-    
+
     var types: [AnyEntityType] {
         switch self {
         case .weaponWeaponSystem:

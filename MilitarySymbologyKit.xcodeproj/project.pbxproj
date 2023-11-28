@@ -534,9 +534,9 @@
 		934496112B10FE2100AD1B73 /* Cyberspace */ = {
 			isa = PBXGroup;
 			children = (
-				931395B92B14C994000D5583 /* Subtypes */,
 				934496192B10FE2100AD1B73 /* CyberspaceEntity.swift */,
 				934496122B10FE2100AD1B73 /* Types */,
+				931395B92B14C994000D5583 /* Subtypes */,
 			);
 			path = Cyberspace;
 			sourceTree = "<group>";

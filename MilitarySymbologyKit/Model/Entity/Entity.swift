@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 15.11.2023.
-//  
+//
 
 import Foundation
 
@@ -18,9 +18,9 @@ struct AnyEntity: Entity, Hashable, Identifiable {
 
 extension AnyEntity {
     init<T: Entity>(_ descriptor: T) {
-        self.id = descriptor.id
-        self.name = descriptor.name
-        self.types = descriptor.types
+        id = descriptor.id
+        name = descriptor.name
+        types = descriptor.types
     }
 }
 

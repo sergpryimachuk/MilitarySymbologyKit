@@ -11,9 +11,9 @@ enum PostalServicesInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case postalDistributionCenter = "01"
     case postOffice = "02"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

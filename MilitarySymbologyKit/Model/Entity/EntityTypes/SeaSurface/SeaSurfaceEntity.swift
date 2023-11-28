@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 25.11.2023.
-//  
+//
 
 import Foundation
 
@@ -12,34 +12,34 @@ enum SeaSurfaceEntity: String, CaseIterable, Entity {
     case ownShip = "15"
     case fusedTrack = "16"
     case manualTrack = "17"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .military:
             String(localized: "Military", comment: "Sea Surface Entity")
-            
+
         case .militaryCombatant:
             String(localized: "Military Combatant", comment: "Sea Surface Entity")
-            
+
         case .militaryNoncombatant:
             String(localized: "Military Noncombatant", comment: "Sea Surface Entity")
-            
+
         case .civilian:
             String(localized: "Civilian", comment: "Sea Surface Entity")
-            
+
         case .ownShip:
             String(localized: "Own Ship", comment: "Sea Surface Entity")
-            
+
         case .fusedTrack:
             String(localized: "Fused Track", comment: "Sea Surface Entity")
-            
+
         case .manualTrack:
             String(localized: "Manual Track", comment: "Sea Surface Entity")
         }
     }
-    
+
     var types: [AnyEntityType] {
         switch self {
         case .military:

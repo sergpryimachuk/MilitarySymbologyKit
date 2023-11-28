@@ -17,35 +17,35 @@ enum CivilianVehicleEntityType: String, CaseIterable, EntityType {
     case tractorTrailerTruckWithFlatbedTrailer = "07"
     case knownInsurgentVehicle = "08"
     case drugVehicle = "09"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .automobile:
             String(localized: "Automobile", comment: "Civilian Vehicle Entity Type")
-            
+
         case .openBedTruck:
             String(localized: "Open-Bed Truck", comment: "Civilian Vehicle Entity Type")
-            
+
         case .multiplePassengerVehicle:
             String(localized: "Multiple Passenger Vehicle", comment: "Civilian Vehicle Entity Type")
-            
+
         case .utilityVehicle:
             String(localized: "Utility Vehicle", comment: "Civilian Vehicle Entity Type")
-            
+
         case .jeepTypeVehicle:
             String(localized: "Jeep Type Vehicle", comment: "Civilian Vehicle Entity Type")
-            
+
         case .tractorTrailerTruckWithBox:
             String(localized: "Tractor Trailer Truck with Box", comment: "Civilian Vehicle Entity Type")
-            
+
         case .tractorTrailerTruckWithFlatbedTrailer:
             String(localized: "Tractor Trailer Truck with Flatbed Trailer", comment: "Civilian Vehicle Entity Type")
-            
+
         case .knownInsurgentVehicle:
             String(localized: "Known Insurgent Vehicle", comment: "Civilian Vehicle Entity Type")
-            
+
         case .drugVehicle:
             String(localized: "Drug Vehicle", comment: "Civilian Vehicle Entity Type")
         }

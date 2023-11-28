@@ -12,25 +12,25 @@ enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
     case alliedCommandOperations = "02"
     case internationalSecurityAssistanceForce = "03"
     case multinational = "04"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .alliedCommandEuropeRapidReactionCorps:
             String(localized: "Allied Command Europe Rapid Reaction Corps (ARRC)", comment: "Named Headquarters Entity Type")
-            
+
         case .alliedCommandOperations:
             String(localized: "Allied Command Operations", comment: "Named Headquarters Entity Type")
-            
+
         case .internationalSecurityAssistanceForce:
             String(localized: "International Security Assistance Force (ISAF)", comment: "Named Headquarters Entity Type")
-            
+
         case .multinational:
             String(localized: "Multinational (MN)", comment: "Named Headquarters Entity Type")
         }
     }
-    
+
     var subtypes: [AnyEntitySubtype] {
         AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
     }

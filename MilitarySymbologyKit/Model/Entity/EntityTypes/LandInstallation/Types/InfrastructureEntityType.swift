@@ -22,55 +22,55 @@ enum InfrastructureEntityType: String, CaseIterable, EntityType {
     case telecommunicationsInfrastructure = "12"
     case transportationInfrastructure = "13"
     case waterSupplyInfrastructure = "14"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .agricultureAndFoodInfrastructure:
             String(localized: "Agriculture and Food Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .bankingFinanceAndInsuranceInfrastructure:
             String(localized: "Banking, Finance, and Insurance Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .commercialInfrastructure:
             String(localized: "Commercial Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .educationalFacilitiesInfrastructure:
             String(localized: "Educational Facilities Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .energyFacilityInfrastructure:
             String(localized: "Energy Facility Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .governmentSiteInfrastructure:
             String(localized: "Government Site Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .medicalInfrastructure:
             String(localized: "Medical Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .militaryInfrastructure:
             String(localized: "Military Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .postalServicesInfrastructure:
             String(localized: "Postal Services Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .publicVenuesInfrastructure:
             String(localized: "Public Venues Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .specialNeedsInfrastructure:
             String(localized: "Special Needs Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .telecommunicationsInfrastructure:
             String(localized: "Telecommunications Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .transportationInfrastructure:
             String(localized: "Transportation Infrastructure", comment: "Infrastructure Entity Type")
-            
+
         case .waterSupplyInfrastructure:
             String(localized: "Water Supply Infrastructure", comment: "Infrastructure Entity Type")
         }
     }
-    
+
     var subtypes: [AnyEntitySubtype] {
         switch self {
         case .agricultureAndFoodInfrastructure: AgricultureAndFoodInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
@@ -90,5 +90,4 @@ enum InfrastructureEntityType: String, CaseIterable, EntityType {
             [.none]
         }
     }
-    
 }

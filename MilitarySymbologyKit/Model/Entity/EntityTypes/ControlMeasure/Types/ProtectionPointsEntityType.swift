@@ -28,9 +28,9 @@ enum ProtectionPointsEntityType: String, CaseIterable, EntityType {
     case generalDecontaminationPoint = "18"
     case tetrahedronsDragonsTeethObstacles = "19"
     case verticalObstructions = "20"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .abatis:

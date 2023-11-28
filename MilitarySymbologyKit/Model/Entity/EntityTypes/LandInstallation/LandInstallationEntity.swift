@@ -8,22 +8,21 @@
 import Foundation
 
 enum LandInstallationEntity: String, CaseIterable, Entity {
-    
     case installation = "11"
     case infrastructure = "12"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .installation:
             String(localized: "Installation", comment: "Land Installation Entity")
-            
+
         case .infrastructure:
             String(localized: "Infrastructure", comment: "Land Installation Entity")
         }
     }
-    
+
     var types: [AnyEntityType] {
         switch self {
         case .installation:

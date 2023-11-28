@@ -26,9 +26,9 @@ enum SustainmentPointsEntityType: String, CaseIterable, EntityType {
     case unitMaintenanceCollectionPoint = "16"
     case generalSupplyPoint = "17"
     case medicalSupplyPoint = "18"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .ambulanceExchangePoint:

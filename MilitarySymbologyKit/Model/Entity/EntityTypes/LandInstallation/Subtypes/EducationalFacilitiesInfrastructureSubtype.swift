@@ -11,9 +11,9 @@ enum EducationalFacilitiesInfrastructureSubtype: String, CaseIterable, EntitySub
     case none = "00"
     case collegeUniversity = "01"
     case school = "02"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

@@ -8,7 +8,6 @@
 import Foundation
 
 enum BankingFinanceAndInsuranceInfrastructureSubtype: String, CaseIterable, EntitySubtype {
-    
     case none = "00"
     case atm = "01"
     case bank = "02"
@@ -17,9 +16,9 @@ enum BankingFinanceAndInsuranceInfrastructureSubtype: String, CaseIterable, Enti
     case federalReserveBank = "05"
     case financialExchange = "06"
     case financialServicesOther = "07"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

@@ -20,9 +20,9 @@ enum WaterSupplyInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case wastewaterTreatmentFacility = "09"
     case water = "10"
     case waterTreatment = "11"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:

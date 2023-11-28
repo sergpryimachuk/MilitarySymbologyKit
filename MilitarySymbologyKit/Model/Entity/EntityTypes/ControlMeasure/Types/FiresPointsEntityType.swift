@@ -13,9 +13,9 @@ enum FiresPointsEntityType: String, CaseIterable, EntityType {
     case launchPoint = "03"
     case reloadPoint = "04"
     case surveyControlPoint = "05"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .firingPoint:

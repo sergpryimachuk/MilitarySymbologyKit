@@ -24,61 +24,61 @@ enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
     case backhoe = "14"
     case constructionVehicle = "15"
     case ferryTransporter = "16"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .bridge:
             String(localized: "Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .bridgeMountedOnUtilityVehicle:
             String(localized: "Bridge Mounted on Utility Vehicle", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .fixedBridge:
             String(localized: "Fixed Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .floatingBridge:
             String(localized: "Floating Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .foldingGirderBridge:
             String(localized: "Folding Girder Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .hollowDeckBridge:
             String(localized: "Hollow Deck Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .drill:
             String(localized: "Drill", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .earthmover:
             String(localized: "Earthmover", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .mineClearingEquipment:
             String(localized: "Mine Clearing Equipment", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .mineLayingEquipment:
             String(localized: "Mine Laying Equipment", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .dozer:
             String(localized: "Dozer", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .armoredAssault:
             String(localized: "Armored Assault", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .armoredEngineerReconVehicle:
             String(localized: "Armored Engineer Recon Vehicle (AERV)", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .backhoe:
             String(localized: "Backhoe", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .constructionVehicle:
             String(localized: "Construction Vehicle", comment: "Engineer Vehicles and Equipment Entity Type")
-            
+
         case .ferryTransporter:
             String(localized: "Ferry Transporter", comment: "Engineer Vehicles and Equipment Entity Type")
         }
     }
-    
+
     var subtypes: [AnyEntitySubtype] {
         switch self {
         case .drill:

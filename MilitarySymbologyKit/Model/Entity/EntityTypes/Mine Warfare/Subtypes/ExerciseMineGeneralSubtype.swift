@@ -13,9 +13,9 @@ enum ExerciseMineGeneralSubtype: String, CaseIterable, EntitySubtype {
     case exerciseMineMoored = "02"
     case exerciseMineFloating = "03"
     case exerciseMineRising = "04"
-    
+
     var id: String { rawValue }
-    
+
     var name: String {
         switch self {
         case .none:
