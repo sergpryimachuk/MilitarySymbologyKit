@@ -35,7 +35,18 @@ extension AtmosphericEntity {
 
         // TODO: Implement this one
         var subtypes: [AnyEntitySubtype] {
-            [.none]
+            switch self {
+            case .lowPressureCenter:
+                LowPressureCenterEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .highPressureCenter:
+                HighPressureCenterEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .frontalSystems:
+                FrontalSystemsEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .lines:
+                LinesEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .pressureTendency:
+                PressureTendencyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            }
         }
     }
 }

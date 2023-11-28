@@ -172,6 +172,24 @@
 		93B7CB0D2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB0C2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift */; };
 		93B7CB102B1616A60036F896 /* LightMediumSevereEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB0F2B1616A60036F896 /* LightMediumSevereEntitySubtype.swift */; };
 		93B7CB122B1617F00036F896 /* CloudCoverageSymbolsEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB112B1617F00036F896 /* CloudCoverageSymbolsEntitySubtype.swift */; };
+		93B7CB142B1626440036F896 /* LowPressureCenterEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB132B1626440036F896 /* LowPressureCenterEntitySubtype.swift */; };
+		93B7CB162B16269E0036F896 /* HighPressureCenterEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB152B16269E0036F896 /* HighPressureCenterEntitySubtype.swift */; };
+		93B7CB182B1627000036F896 /* FrontalSystemsEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB172B1627000036F896 /* FrontalSystemsEntitySubtype.swift */; };
+		93B7CB1A2B1627810036F896 /* LinesEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB192B1627810036F896 /* LinesEntitySubtype.swift */; };
+		93B7CB1C2B1627E70036F896 /* PressureTendencyEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB1B2B1627E70036F896 /* PressureTendencyEntitySubtype.swift */; };
+		93B7CB1E2B1628860036F896 /* RainEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB1D2B1628860036F896 /* RainEntitySubtype.swift */; };
+		93B7CB202B1628F50036F896 /* LightModerateHeavyEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB1F2B1628F50036F896 /* LightModerateHeavyEntitySubtype.swift */; };
+		93B7CB222B1629F40036F896 /* DrizzleEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB212B1629F40036F896 /* DrizzleEntitySubtype.swift */; };
+		93B7CB242B162A9A0036F896 /* RainAndSnowMixedEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB232B162A9A0036F896 /* RainAndSnowMixedEntitySubtype.swift */; };
+		93B7CB262B162AE20036F896 /* SnowEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB252B162AE20036F896 /* SnowEntitySubtype.swift */; };
+		93B7CB282B162B590036F896 /* HailEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB272B162B590036F896 /* HailEntitySubtype.swift */; };
+		93B7CB2A2B162BDA0036F896 /* StormsEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB292B162BDA0036F896 /* StormsEntitySubtype.swift */; };
+		93B7CB2C2B162C340036F896 /* FogEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB2B2B162C340036F896 /* FogEntitySubtype.swift */; };
+		93B7CB2E2B162C990036F896 /* DustOrSandEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB2D2B162C990036F896 /* DustOrSandEntitySubtype.swift */; };
+		93B7CB302B162CFB0036F896 /* TropicalStormSystemsEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB2F2B162CFB0036F896 /* TropicalStormSystemsEntitySubtype.swift */; };
+		93B7CB322B162D6E0036F896 /* VolcanicEruptionEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB312B162D6E0036F896 /* VolcanicEruptionEntitySubtype.swift */; };
+		93B7CB342B162E960036F896 /* WithoutSnowOrMeasurableIceCoverEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB332B162E960036F896 /* WithoutSnowOrMeasurableIceCoverEntitySubtype.swift */; };
+		93B7CB362B162F2A0036F896 /* WithSnowOrMeasurableIceCoverEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB352B162F2A0036F896 /* WithSnowOrMeasurableIceCoverEntitySubtype.swift */; };
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
 		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
 		93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */; };
@@ -361,6 +379,24 @@
 		93B7CB0C2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureCraftMotorizedEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CB0F2B1616A60036F896 /* LightMediumSevereEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMediumSevereEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CB112B1617F00036F896 /* CloudCoverageSymbolsEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCoverageSymbolsEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB132B1626440036F896 /* LowPressureCenterEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowPressureCenterEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB152B16269E0036F896 /* HighPressureCenterEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighPressureCenterEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB172B1627000036F896 /* FrontalSystemsEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontalSystemsEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB192B1627810036F896 /* LinesEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB1B2B1627E70036F896 /* PressureTendencyEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureTendencyEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB1D2B1628860036F896 /* RainEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB1F2B1628F50036F896 /* LightModerateHeavyEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightModerateHeavyEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB212B1629F40036F896 /* DrizzleEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrizzleEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB232B162A9A0036F896 /* RainAndSnowMixedEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainAndSnowMixedEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB252B162AE20036F896 /* SnowEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB272B162B590036F896 /* HailEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HailEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB292B162BDA0036F896 /* StormsEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormsEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB2B2B162C340036F896 /* FogEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB2D2B162C990036F896 /* DustOrSandEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DustOrSandEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB2F2B162CFB0036F896 /* TropicalStormSystemsEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TropicalStormSystemsEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB312B162D6E0036F896 /* VolcanicEruptionEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolcanicEruptionEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB332B162E960036F896 /* WithoutSnowOrMeasurableIceCoverEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithoutSnowOrMeasurableIceCoverEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB352B162F2A0036F896 /* WithSnowOrMeasurableIceCoverEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithSnowOrMeasurableIceCoverEntitySubtype.swift; sourceTree = "<group>"; };
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
 		93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Ext.swift"; sourceTree = "<group>"; };
@@ -605,9 +641,9 @@
 		9344962E2B10FE2100AD1B73 /* Atmospheric */ = {
 			isa = PBXGroup;
 			children = (
-				93B7CB0E2B1616900036F896 /* Subtypes */,
 				934496342B10FE2100AD1B73 /* AtmosphericEntity.swift */,
 				9344962F2B10FE2100AD1B73 /* Types */,
+				93B7CB0E2B1616900036F896 /* Subtypes */,
 			);
 			path = Atmospheric;
 			sourceTree = "<group>";
@@ -755,6 +791,24 @@
 			children = (
 				93B7CB0F2B1616A60036F896 /* LightMediumSevereEntitySubtype.swift */,
 				93B7CB112B1617F00036F896 /* CloudCoverageSymbolsEntitySubtype.swift */,
+				93B7CB132B1626440036F896 /* LowPressureCenterEntitySubtype.swift */,
+				93B7CB152B16269E0036F896 /* HighPressureCenterEntitySubtype.swift */,
+				93B7CB172B1627000036F896 /* FrontalSystemsEntitySubtype.swift */,
+				93B7CB192B1627810036F896 /* LinesEntitySubtype.swift */,
+				93B7CB1B2B1627E70036F896 /* PressureTendencyEntitySubtype.swift */,
+				93B7CB1D2B1628860036F896 /* RainEntitySubtype.swift */,
+				93B7CB1F2B1628F50036F896 /* LightModerateHeavyEntitySubtype.swift */,
+				93B7CB212B1629F40036F896 /* DrizzleEntitySubtype.swift */,
+				93B7CB232B162A9A0036F896 /* RainAndSnowMixedEntitySubtype.swift */,
+				93B7CB252B162AE20036F896 /* SnowEntitySubtype.swift */,
+				93B7CB272B162B590036F896 /* HailEntitySubtype.swift */,
+				93B7CB292B162BDA0036F896 /* StormsEntitySubtype.swift */,
+				93B7CB2B2B162C340036F896 /* FogEntitySubtype.swift */,
+				93B7CB2D2B162C990036F896 /* DustOrSandEntitySubtype.swift */,
+				93B7CB2F2B162CFB0036F896 /* TropicalStormSystemsEntitySubtype.swift */,
+				93B7CB312B162D6E0036F896 /* VolcanicEruptionEntitySubtype.swift */,
+				93B7CB332B162E960036F896 /* WithoutSnowOrMeasurableIceCoverEntitySubtype.swift */,
+				93B7CB352B162F2A0036F896 /* WithSnowOrMeasurableIceCoverEntitySubtype.swift */,
 			);
 			path = Subtypes;
 			sourceTree = "<group>";
@@ -1022,9 +1076,11 @@
 				930218272B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift in Sources */,
 				05A57B1F2B11048900F98863 /* VehicleEntityType.swift in Sources */,
 				934496442B10FE2100AD1B73 /* IceSystemsEntityType.swift in Sources */,
+				93B7CB282B162B590036F896 /* HailEntitySubtype.swift in Sources */,
 				054C27702B110EC400324A82 /* EmergencyOperationEntityType.swift in Sources */,
 				054C27942B11266700324A82 /* DeceptionEntityType.swift in Sources */,
 				05A57B272B11082000F98863 /* CivilianVehicleEntityType.swift in Sources */,
+				93B7CB1E2B1628860036F896 /* RainEntitySubtype.swift in Sources */,
 				9344AFDF2B11364D00BFFBC6 /* SeaSubsurfaceEntity.swift in Sources */,
 				93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */,
 				9344964B2B10FE2100AD1B73 /* IcingEntityType.swift in Sources */,
@@ -1034,6 +1090,7 @@
 				054C276C2B110E2900324A82 /* LandMinesEntityType.swift in Sources */,
 				93B7CB0D2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift in Sources */,
 				931395BB2B14C99A000D5583 /* APTEntitySubtype.swift in Sources */,
+				93B7CB2A2B162BDA0036F896 /* StormsEntitySubtype.swift in Sources */,
 				934D3E112B1371640019FBEF /* AmplifierEntitySubtype.swift in Sources */,
 				93F704182B124C9600EC73C9 /* WeatherSymbolsEntityType.swift in Sources */,
 				930218252B0100E0004FA3D5 /* EchelonBrigadeBelowDescriptor.swift in Sources */,
@@ -1053,6 +1110,7 @@
 				930218312B010FBA004FA3D5 /* LandUnitEntity.swift in Sources */,
 				9344963B2B10FE2100AD1B73 /* CyberspaceEntity.swift in Sources */,
 				931395E32B14E7AE000D5583 /* SeaMineGeneralEntityType.swift in Sources */,
+				93B7CB362B162F2A0036F896 /* WithSnowOrMeasurableIceCoverEntitySubtype.swift in Sources */,
 				934496472B10FE2100AD1B73 /* ManMadeStructuresEntityType.swift in Sources */,
 				93F703F02B123FD500EC73C9 /* SeaSubsurfaceMilitaryEntityType.swift in Sources */,
 				052AB0152B14CFC9006DF372 /* CommercialInfrastructureSubtype.swift in Sources */,
@@ -1068,12 +1126,14 @@
 				934D3E1F2B1388AA0019FBEF /* AirDefenseEntitySubtype.swift in Sources */,
 				934D3E232B1389820019FBEF /* MortarEntitySubtype.swift in Sources */,
 				934D3E362B1391E50019FBEF /* EarthmoverEntitySubtype.swift in Sources */,
+				93B7CB2C2B162C340036F896 /* FogEntitySubtype.swift in Sources */,
 				934496372B10FE2100AD1B73 /* DeviceTypeEntityType.swift in Sources */,
 				931395DE2B14E7AE000D5583 /* MineLikeContactEntityType.swift in Sources */,
 				934D3E1D2B1387CD0019FBEF /* SpecialOperationsForcesEntitySubtype.swift in Sources */,
 				934D3E292B138C370019FBEF /* ElectronicWarfareEntitySubtype.swift in Sources */,
 				9330114F2B07B01C0053E2C2 /* ProtectionEntityType.swift in Sources */,
 				054C27802B111F0D00324A82 /* CommandAndControlPointsEntityType.swift in Sources */,
+				93B7CB322B162D6E0036F896 /* VolcanicEruptionEntitySubtype.swift in Sources */,
 				93F7041A2B124CF000EC73C9 /* BoundedAreasOfWeatherEntityType.swift in Sources */,
 				054C277A2B111CD500324A82 /* ControlMeasureEntity.swift in Sources */,
 				933011532B07B1EC0053E2C2 /* SustainmentEntityType.swift in Sources */,
@@ -1085,10 +1145,13 @@
 				93B7CB0B2B16148E0036F896 /* FishingVesselEntitySubtype.swift in Sources */,
 				9344964C2B10FE2100AD1B73 /* PressureSystemsEntityType.swift in Sources */,
 				930218372B012DBD004FA3D5 /* TestView.swift in Sources */,
+				93B7CB142B1626440036F896 /* LowPressureCenterEntitySubtype.swift in Sources */,
 				934496392B10FE2100AD1B73 /* InfectionEntityType.swift in Sources */,
 				052AB0112B14CE4A006DF372 /* AgricultureAndFoodInfrastructureSubtype.swift in Sources */,
 				054C276E2B110E7600324A82 /* SensorsEntityType.swift in Sources */,
 				93F703F92B12439800EC73C9 /* MilitaryCombatantEntityType.swift in Sources */,
+				93B7CB182B1627000036F896 /* FrontalSystemsEntitySubtype.swift in Sources */,
+				93B7CB302B162CFB0036F896 /* TropicalStormSystemsEntitySubtype.swift in Sources */,
 				93F703F22B1240C400EC73C9 /* SeaSubsurfaceCivilianEntityType.swift in Sources */,
 				93B7CAFB2B1610DF0036F896 /* AmphibiousWarfareShipEntitySubtype.swift in Sources */,
 				9344964E2B10FE2100AD1B73 /* AtmosphericEntity.swift in Sources */,
@@ -1112,6 +1175,8 @@
 				052AB0292B14D565006DF372 /* WaterSupplyInfrastructureSubtype.swift in Sources */,
 				93F704202B1252D500EC73C9 /* MissileEntity.swift in Sources */,
 				0533959F2B10DC3B0097F767 /* NamedHeadquartersEntityType.swift in Sources */,
+				93B7CB242B162A9A0036F896 /* RainAndSnowMixedEntitySubtype.swift in Sources */,
+				93B7CB162B16269E0036F896 /* HighPressureCenterEntitySubtype.swift in Sources */,
 				052AB01F2B14D2C2006DF372 /* PostalServicesInfrastructureSubtype.swift in Sources */,
 				052AB0252B14D445006DF372 /* TelecommunicationsInfrastructureSubtype.swift in Sources */,
 				934496382B10FE2100AD1B73 /* BotnetEntityType.swift in Sources */,
@@ -1122,6 +1187,7 @@
 				930218292B010174004FA3D5 /* EquipmentMobilityLandDescriptor.swift in Sources */,
 				934D3E342B1391970019FBEF /* DrillEntitySubtype.swift in Sources */,
 				934D3E212B13892D0019FBEF /* FieldArtilleryEntitySubtype.swift in Sources */,
+				93B7CB202B1628F50036F896 /* LightModerateHeavyEntitySubtype.swift in Sources */,
 				93F704162B124C3900EC73C9 /* CloudCoverEntityType.swift in Sources */,
 				054C27A82B112A1200324A82 /* SustainmentLinesEntityType.swift in Sources */,
 				9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */,
@@ -1130,9 +1196,11 @@
 				934D3E322B1390DC0019FBEF /* ArmoredVehicleEntitySubtype.swift in Sources */,
 				052AB0192B14D116006DF372 /* EnergyFacilityInfrastructureSubtype.swift in Sources */,
 				930218172B00FE5E004FA3D5 /* Context.swift in Sources */,
+				93B7CB262B162AE20036F896 /* SnowEntitySubtype.swift in Sources */,
 				939B44A52AFE39C700A67880 /* MilitarySymbologyKitApp.swift in Sources */,
 				05A57B1A2B11000500F98863 /* LandEquipmentEntity.swift in Sources */,
 				93F703FD2B1244BE00EC73C9 /* SeaSurfaceCivilianEntityType.swift in Sources */,
+				93B7CB222B1629F40036F896 /* DrizzleEntitySubtype.swift in Sources */,
 				934D3E132B13737E0019FBEF /* SignalEntitySubtype.swift in Sources */,
 				05A57B212B11064700F98863 /* EngineerVehiclesAndEquipmentEntityType.swift in Sources */,
 				934496422B10FE2100AD1B73 /* SpaceEntity.swift in Sources */,
@@ -1164,6 +1232,7 @@
 				934D3E2E2B138F500019FBEF /* LightMediumHeavyEntitySubtype.swift in Sources */,
 				930218412B013502004FA3D5 /* CommandAndControlEntityType.swift in Sources */,
 				93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */,
+				93B7CB1A2B1627810036F896 /* LinesEntitySubtype.swift in Sources */,
 				052AB02B2B14D811006DF372 /* ExerciseMineGeneralSubtype.swift in Sources */,
 				054C277C2B111E2E00324A82 /* CommandAndControlLinesEntityType.swift in Sources */,
 				93F704002B1246AD00EC73C9 /* EntitySubtype.swift in Sources */,
@@ -1172,7 +1241,9 @@
 				934496462B10FE2100AD1B73 /* GeophysicsAcousticsEntityType.swift in Sources */,
 				934D3E192B1377690019FBEF /* InfantryEntitySubtype.swift in Sources */,
 				9302182D2B0101BD004FA3D5 /* EquipmentMobilityWaterDescriptor.swift in Sources */,
+				93B7CB2E2B162C990036F896 /* DustOrSandEntitySubtype.swift in Sources */,
 				934496402B10FE2100AD1B73 /* SeaMineGeneralEntityType.swift in Sources */,
+				93B7CB342B162E960036F896 /* WithoutSnowOrMeasurableIceCoverEntitySubtype.swift in Sources */,
 				93F703F62B1242AB00EC73C9 /* SeaSurfaceEntity.swift in Sources */,
 				054C279E2B11284100324A82 /* ProtectionPointsEntityType.swift in Sources */,
 				93F7041E2B124DCE00EC73C9 /* StateOfGroundEntityType.swift in Sources */,
@@ -1183,6 +1254,7 @@
 				931395BD2B14CA23000D5583 /* NAPTEntitySubtype.swift in Sources */,
 				931395DD2B14E7AE000D5583 /* ObstructorEntityType.swift in Sources */,
 				93F7041C2B124D5200EC73C9 /* IsoplethsEntityType.swift in Sources */,
+				93B7CB1C2B1627E70036F896 /* PressureTendencyEntitySubtype.swift in Sources */,
 				054C27AA2B112A5D00324A82 /* MissionTasksEntityType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

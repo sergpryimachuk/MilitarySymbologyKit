@@ -113,9 +113,36 @@ extension AtmosphericEntity {
             }
         }
 
-        // TODO: Impelment this one.
         var subtypes: [AnyEntitySubtype] {
-            [.none]
+            switch self {
+            case .rain:
+                RainEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .freezingRain, .freezingDrizzle, .snowShowers, .icePelletsSleet:
+                LightModerateHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .rainShowers:
+                LightModerateHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+                + [.init(id: "03", name: String(localized: "Torrential", comment: "Rain Showers Entity Subtype"))]
+            case .drizzle:
+                DrizzleEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .rainAndSnowMixed:
+                RainAndSnowMixedEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .snow:
+                SnowEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .hail:
+                HailEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .storms:
+                StormsEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .fog:
+                FogEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .dustOrSand:
+                DustOrSandEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .tropicalStormSystems:
+                TropicalStormSystemsEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .volcanicEruption:
+                VolcanicEruptionEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            default:
+                [.none]
+            }
         }
     }
 }

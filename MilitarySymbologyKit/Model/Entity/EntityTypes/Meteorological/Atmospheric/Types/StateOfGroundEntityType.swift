@@ -27,7 +27,14 @@ extension AtmosphericEntity {
 
         // TODO: Implement this one.
         var subtypes: [AnyEntitySubtype] {
-            [.none]
+            switch self {
+            case .none:
+                [.none]
+            case .withoutSnowOrMeasurableIceCover:
+                WithoutSnowOrMeasurableIceCoverEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .withSnowOrMeasurableIceCover:
+                WithSnowOrMeasurableIceCoverEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            }
         }
     }
 }
