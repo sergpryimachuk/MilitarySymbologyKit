@@ -692,13 +692,13 @@
 		939B44A32AFE39C700A67880 /* MilitarySymbologyKit */ = {
 			isa = PBXGroup;
 			children = (
-				93F703EB2B1239C800EC73C9 /* Extensions */,
 				939B44A42AFE39C700A67880 /* MilitarySymbologyKitApp.swift */,
 				939B44A62AFE39C700A67880 /* MilitarySymbolPicker.swift */,
 				934495D02B10CA9000AD1B73 /* MilitarySymbolSearchResults.swift */,
 				930218362B012DBD004FA3D5 /* TestView.swift */,
 				939B44B22AFE39D600A67880 /* Model */,
 				939B44A82AFE39C900A67880 /* Assets.xcassets */,
+				93F703EB2B1239C800EC73C9 /* Extensions */,
 				939B44AA2AFE39C900A67880 /* Preview Content */,
 			);
 			path = MilitarySymbologyKit;
