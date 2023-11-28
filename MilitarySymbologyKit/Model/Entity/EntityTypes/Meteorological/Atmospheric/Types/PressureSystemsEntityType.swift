@@ -6,6 +6,7 @@ import Foundation
 
 extension AtmosphericEntity {
     enum PressureSystemsEntityType: String, CaseIterable, EntityType {
+        case none = "00"
         case lowPressureCenter = "01"
         case highPressureCenter = "02"
         case frontalSystems = "03"
@@ -16,6 +17,8 @@ extension AtmosphericEntity {
 
         var name: String {
             switch self {
+            case .none:
+                String(localized: "None")
             case .lowPressureCenter:
                 String(localized: "Low Pressure Center", comment: "Pressure Systems Entity Type")
 
@@ -35,6 +38,8 @@ extension AtmosphericEntity {
 
         var subtypes: [AnyEntitySubtype] {
             switch self {
+            case .none:
+                           [.none]
             case .lowPressureCenter:
                 LowPressureCenterEntitySubtype.allCases.map { AnyEntitySubtype($0) }
             case .highPressureCenter:

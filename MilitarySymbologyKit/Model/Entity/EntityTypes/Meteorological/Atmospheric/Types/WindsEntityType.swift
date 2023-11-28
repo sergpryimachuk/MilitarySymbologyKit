@@ -6,6 +6,7 @@ import Foundation
 
 extension AtmosphericEntity {
     enum WindsEntityType: String, CaseIterable, EntityType {
+        case none = "00"
         case calmWinds = "01"
         case windPlot = "02"
         case jetStream = "03"
@@ -15,6 +16,8 @@ extension AtmosphericEntity {
 
         var name: String {
             switch self {
+            case .none:
+                String(localized: "None")
             case .calmWinds:
                 String(localized: "Calm Winds", comment: "Winds Entity Type")
 

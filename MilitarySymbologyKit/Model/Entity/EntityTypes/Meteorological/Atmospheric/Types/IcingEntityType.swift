@@ -6,6 +6,7 @@ import Foundation
 
 extension AtmosphericEntity {
     enum IcingEntityType: String, CaseIterable, EntityType {
+        case none = "00"
         case clearIcing = "01"
         case rimeIcing = "02"
         case mixedIcing = "03"
@@ -14,6 +15,8 @@ extension AtmosphericEntity {
 
         var name: String {
             switch self {
+            case .none:
+                String(localized: "None")
             case .clearIcing:
                 String(localized: "Clear Icing", comment: "Icing Entity Type")
 

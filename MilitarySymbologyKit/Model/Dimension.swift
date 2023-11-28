@@ -18,14 +18,14 @@ enum Dimension: String, CaseIterable, Identifiable {
     case seaSubsurface = "35"
     case mineWarfare = "36"
     case activities = "40"
-    case meteorologicalAtmospheric = "45"
-    case meteorologicalOceanographic = "46"
-    case meteorologicalSpace = "47"
-    case signalsIntelligenceSpace = "50"
-    case signalsIntelligenceAir = "51"
-    case signalsIntelligenceLand = "52"
-    case signalsIntelligenceSurface = "53"
-    case signalsIntelligenceSubsurface = "54"
+//    case meteorologicalAtmospheric = "45"
+//    case meteorologicalOceanographic = "46"
+//    case meteorologicalSpace = "47"
+//    case signalsIntelligenceSpace = "50"
+//    case signalsIntelligenceAir = "51"
+//    case signalsIntelligenceLand = "52"
+//    case signalsIntelligenceSurface = "53"
+//    case signalsIntelligenceSubsurface = "54"
     case cyberspace = "60"
 
     var id: String { rawValue }
@@ -71,29 +71,29 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .activities:
             String(localized: "Activities", comment: "Dimension")
 
-        case .meteorologicalAtmospheric:
-            String(localized: "Meteorological - Atmospheric", comment: "Dimension")
-
-        case .meteorologicalOceanographic:
-            String(localized: "Meteorological - Oceanographic", comment: "Dimension")
-
-        case .meteorologicalSpace:
-            String(localized: "Meteorological - Space", comment: "Dimension")
-
-        case .signalsIntelligenceSpace:
-            String(localized: "Signals Intelligence - Space", comment: "Dimension")
-
-        case .signalsIntelligenceAir:
-            String(localized: "Signals Intelligence - Air", comment: "Dimension")
-
-        case .signalsIntelligenceLand:
-            String(localized: "Signals Intelligence - Land", comment: "Dimension")
-
-        case .signalsIntelligenceSurface:
-            String(localized: "Signals Intelligence - Surface", comment: "Dimension")
-
-        case .signalsIntelligenceSubsurface:
-            String(localized: "Signals Intelligence - Subsurface", comment: "Dimension")
+//        case .meteorologicalAtmospheric:
+//            String(localized: "Meteorological - Atmospheric", comment: "Dimension")
+//
+//        case .meteorologicalOceanographic:
+//            String(localized: "Meteorological - Oceanographic", comment: "Dimension")
+//
+//        case .meteorologicalSpace:
+//            String(localized: "Meteorological - Space", comment: "Dimension")
+//
+//        case .signalsIntelligenceSpace:
+//            String(localized: "Signals Intelligence - Space", comment: "Dimension")
+//
+//        case .signalsIntelligenceAir:
+//            String(localized: "Signals Intelligence - Air", comment: "Dimension")
+//
+//        case .signalsIntelligenceLand:
+//            String(localized: "Signals Intelligence - Land", comment: "Dimension")
+//
+//        case .signalsIntelligenceSurface:
+//            String(localized: "Signals Intelligence - Surface", comment: "Dimension")
+//
+//        case .signalsIntelligenceSubsurface:
+//            String(localized: "Signals Intelligence - Subsurface", comment: "Dimension")
 
         case .cyberspace:
             String(localized: "Cyberspace", comment: "Dimension")
@@ -103,13 +103,13 @@ enum Dimension: String, CaseIterable, Identifiable {
     /// Gigit used to retireve svg asset.
     var assetDigit: String {
         switch self {
-        case .airMissile, .signalsIntelligenceAir:
+        case .airMissile: //.signalsIntelligenceAir:
             Dimension.air.id
-        case .spaceMissile, .signalsIntelligenceSpace:
+        case .spaceMissile: // .signalsIntelligenceSpace:
             Dimension.space.id
-        case .landCivilian, .signalsIntelligenceLand, .signalsIntelligenceSurface:
+        case .landCivilian: // .signalsIntelligenceLand, .signalsIntelligenceSurface:
             Dimension.landUnits.id
-        case .mineWarfare, .signalsIntelligenceSubsurface:
+        case .mineWarfare: // .signalsIntelligenceSubsurface:
             Dimension.seaSubsurface.id
         default:
             id
@@ -145,14 +145,14 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .activities:
             // TODO: Add these ones.
             [.none]
-        case .meteorologicalAtmospheric:
-            AtmosphericEntity.allCases.map { AnyEntity($0) }
-        case .meteorologicalOceanographic:
-            OceanographicEntity.allCases.map { AnyEntity($0) }
-        case .meteorologicalSpace:
-            SpaceEntity.allCases.map { AnyEntity($0) }
-        case .signalsIntelligenceSpace, .signalsIntelligenceAir, .signalsIntelligenceLand, .signalsIntelligenceSurface, .signalsIntelligenceSubsurface:
-            SignalsIntelligenceEntity.allCases.map { AnyEntity($0) }
+//        case .meteorologicalAtmospheric:
+//            AtmosphericEntity.allCases.map { AnyEntity($0) }
+//        case .meteorologicalOceanographic:
+//            OceanographicEntity.allCases.map { AnyEntity($0) }
+//        case .meteorologicalSpace:
+//            SpaceEntity.allCases.map { AnyEntity($0) }
+//        case .signalsIntelligenceSpace, .signalsIntelligenceAir, .signalsIntelligenceLand, .signalsIntelligenceSurface, .signalsIntelligenceSubsurface:
+//            SignalsIntelligenceEntity.allCases.map { AnyEntity($0) }
         case .cyberspace:
             CyberspaceEntity.allCases.map { AnyEntity($0) }
         }
