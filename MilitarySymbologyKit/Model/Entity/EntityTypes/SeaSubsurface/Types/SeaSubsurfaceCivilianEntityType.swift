@@ -28,5 +28,9 @@ extension SeaSubsurfaceEntity {
                 String(localized: "Diver", comment: "Civilian Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

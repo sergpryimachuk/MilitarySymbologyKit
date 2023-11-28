@@ -36,5 +36,14 @@ extension SeaSubsurfaceEntity {
                 String(localized: "Diver", comment: "Military Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            switch self {
+            case .submarine:
+                SubmarineEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            default:
+                [.none]
+            }
+        }
     }
 }
