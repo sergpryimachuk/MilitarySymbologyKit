@@ -74,4 +74,13 @@ enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
             String(localized: "Emergency Medical Operation", comment: "Other Equipment Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        switch self {
+        case .emergencyMedicalOperation:
+            EmergencyMedicalOperationEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        default:
+            [.none]
+        }
+    }
 }

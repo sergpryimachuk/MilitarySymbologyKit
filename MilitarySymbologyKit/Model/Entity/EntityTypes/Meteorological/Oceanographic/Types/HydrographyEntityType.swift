@@ -6,6 +6,8 @@ import Foundation
 
 extension OceanographicEntity {
     enum HydrographyEntityType: String, CaseIterable, EntityType {
+        var subtypes: [AnyEntitySubtype] { [.none] }
+        
         case depth = "01"
         case coastalHydrography = "02"
         case portsAndHarbors = "03"

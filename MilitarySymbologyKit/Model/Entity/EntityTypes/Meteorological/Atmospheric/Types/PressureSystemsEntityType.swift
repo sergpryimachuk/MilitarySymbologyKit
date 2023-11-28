@@ -33,7 +33,6 @@ extension AtmosphericEntity {
             }
         }
 
-        // TODO: Implement this one
         var subtypes: [AnyEntitySubtype] {
             switch self {
             case .lowPressureCenter:

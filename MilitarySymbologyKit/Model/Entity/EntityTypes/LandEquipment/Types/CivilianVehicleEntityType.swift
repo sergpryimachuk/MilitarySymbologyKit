@@ -50,4 +50,9 @@ enum CivilianVehicleEntityType: String, CaseIterable, EntityType {
             String(localized: "Drug Vehicle", comment: "Civilian Vehicle Entity Type")
         }
     }
+    
+    // TODO: Complete this one.
+    var subtypes: [AnyEntitySubtype] {
+        [.none]
+    }
 }

@@ -62,4 +62,15 @@ enum UtilityVehiclesEntityType: String, CaseIterable, EntityType {
             String(localized: "Tow Truck", comment: "Utility Vehicles Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        switch self {
+        case .semiTrailerAndTruck:
+            LightMediumHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        case .towTruck:
+            LightHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        default:
+            [.none]
+        }
+    }
 }

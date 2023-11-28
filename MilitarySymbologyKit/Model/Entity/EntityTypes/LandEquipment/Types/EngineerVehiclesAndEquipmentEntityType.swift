@@ -87,8 +87,14 @@ enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
             EarthmoverEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         case .mineClearingEquipment:
             MineClearingEquipmentEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        case .mineLayingEquipment:
+            MineLayingEquipmentEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        case .dozer:
+            [.none, 
+             AnyEntitySubtype(
+                id: "01", name: String(localized: "Dozer-Armored", comment: "Entity Subtype")
+            )]
         default:
-            // TODO: Finished at Mine Laying Equipment
             [.none]
         }
     }

@@ -6,6 +6,8 @@ import Foundation
 
 extension OceanographicEntity {
     enum LimitsEntityType: String, CaseIterable, EntityType {
+        var subtypes: [AnyEntitySubtype] { [.none] }
+        
         case maritimeLimitBoundary = "01"
         case maritimeArea = "02"
         case restrictedArea = "03"

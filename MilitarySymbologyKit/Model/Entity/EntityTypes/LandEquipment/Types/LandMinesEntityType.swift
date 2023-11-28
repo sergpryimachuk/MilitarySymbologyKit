@@ -19,7 +19,7 @@ enum LandMinesEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .landMine:
-            String(localized: "Land Mine", comment: "Land Mines Entity Type")
+            String(localized: "Land Mine")
 
         case .antipersonnelLandMineAPL:
             String(localized: "Antipersonnel Land Mine (APL)", comment: "Land Mines Entity Type")
@@ -33,5 +33,9 @@ enum LandMinesEntityType: String, CaseIterable, EntityType {
         case .lessThanLethal:
             String(localized: "Less than Lethal", comment: "Land Mines Entity Type")
         }
+    }
+    
+    var subtypes: [AnyEntitySubtype] {
+        [.none]
     }
 }

@@ -23,5 +23,9 @@ extension LandEquipmentEntity {
                 String(localized: "Fire Fighting/Fire Protection", comment: "Emergency Operation Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

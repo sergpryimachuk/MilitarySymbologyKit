@@ -6,6 +6,8 @@ import Foundation
 
 extension OceanographicEntity {
     enum IceSystemsEntityType: String, CaseIterable, EntityType {
+        var subtypes: [AnyEntitySubtype] { [.none] }
+        
         case icebergs = "01"
         case iceConcentration = "02"
         case dynamicProcesses = "03"

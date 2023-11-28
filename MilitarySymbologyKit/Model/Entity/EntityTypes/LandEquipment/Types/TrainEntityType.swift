@@ -22,4 +22,8 @@ enum TrainEntityType: String, CaseIterable, EntityType {
             String(localized: "Railcar", comment: "Train Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        [.none]
+    }
 }
