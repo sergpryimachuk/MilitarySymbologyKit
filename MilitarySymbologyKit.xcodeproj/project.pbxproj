@@ -163,6 +163,7 @@
 		93B7CB3C2B1635060036F896 /* LandEquipmentLawEnforcementEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB3B2B1635060036F896 /* LandEquipmentLawEnforcementEntityType.swift */; };
 		93B7CB3E2B1635ED0036F896 /* EmergencyMedicalOperationEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB3D2B1635ED0036F896 /* EmergencyMedicalOperationEntitySubtype.swift */; };
 		93B7CB432B1657D80036F896 /* MilitarySymbolError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB422B1657D80036F896 /* MilitarySymbolError.swift */; };
+		93B7CB452B165D520036F896 /* MilitarySymbol+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB442B165D520036F896 /* MilitarySymbol+Ext.swift */; };
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
 		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
 		93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */; };
@@ -343,6 +344,7 @@
 		93B7CB3B2B1635060036F896 /* LandEquipmentLawEnforcementEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandEquipmentLawEnforcementEntityType.swift; sourceTree = "<group>"; };
 		93B7CB3D2B1635ED0036F896 /* EmergencyMedicalOperationEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyMedicalOperationEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CB422B1657D80036F896 /* MilitarySymbolError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbolError.swift; sourceTree = "<group>"; };
+		93B7CB442B165D520036F896 /* MilitarySymbol+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MilitarySymbol+Ext.swift"; sourceTree = "<group>"; };
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
 		93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Ext.swift"; sourceTree = "<group>"; };
@@ -751,6 +753,7 @@
 			isa = PBXGroup;
 			children = (
 				93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */,
+				93B7CB442B165D520036F896 /* MilitarySymbol+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1039,6 +1042,7 @@
 				93B7CAFB2B1610DF0036F896 /* AmphibiousWarfareShipEntitySubtype.swift in Sources */,
 				9344964E2B10FE2100AD1B73 /* AtmosphericEntity.swift in Sources */,
 				930218432B013685004FA3D5 /* MovementAndManeuverEntityType.swift in Sources */,
+				93B7CB452B165D520036F896 /* MilitarySymbol+Ext.swift in Sources */,
 				93F704102B1249EF00EC73C9 /* AirMilitaryEntityType.swift in Sources */,
 				93F704122B124ACE00EC73C9 /* AirCivilianEntityType.swift in Sources */,
 				052AB00D2B14C73C006DF372 /* LawEnforcementSubtype.swift in Sources */,
