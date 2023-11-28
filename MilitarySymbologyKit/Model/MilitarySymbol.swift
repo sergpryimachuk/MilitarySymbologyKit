@@ -247,10 +247,16 @@ extension MilitarySymbol {
            let entityDigits
         {
             var assetName: String {
+                let entitySubTypeDigit: String = if AmplifierEntitySubtype.allCases.dropFirst()
+                    .map({ $0.id }).contains(entitySubTypeDigits) {
+                    "00"
+                } else {
+                    entitySubTypeDigits ?? "00"
+                }
                 let string = symbolSetDigits
-                    + entityDigits
-                    + (entityTypeDigits ?? "00")
-                    + (entitySubTypeDigits ?? "00")
+                + entityDigits
+                + (entityTypeDigits ?? "00")
+                + entitySubTypeDigit
                 return string
             }
 
@@ -271,13 +277,40 @@ extension MilitarySymbol {
            let entityDigits
         {
             var assetName: String {
-                let string = symbolSetDigits
+                
+                if symbolSetDigits == "10" 
+                    && AmplifierEntitySubtype.allCases.dropFirst()
+                    .map({ $0.id }).contains(entitySubTypeDigits) {
+                    
+                    let standardIdentityDigits: String = switch standardIdentity {
+                    case .pending, .unknown:
+                        "0"
+                    case .assumedFriend, .friend:
+                        "1"
+                    case .neutral:
+                        "2"
+                    case .suspect, .hostile:
+                        "3"
+                    }
+                    
+                    let string = symbolSetDigits
+                    + "xxxx"
+                    + (entitySubTypeDigits ?? "00")
+                    + "_"
+                    + standardIdentityDigits
+                    
+                    return string
+                    
+                } else {
+                    
+                    let string = symbolSetDigits
                     + entityDigits
                     + (entityTypeDigits ?? "00")
                     + (entitySubTypeDigits ?? "00")
                     + "_"
                     + (statusDigits ?? "00")
-                return string
+                    return string
+                }
             }
 
             return Image(assetName)

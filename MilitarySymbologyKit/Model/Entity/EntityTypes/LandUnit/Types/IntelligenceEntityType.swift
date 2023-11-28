@@ -5,6 +5,7 @@
 import Foundation
 
 enum IntelligenceEntityType: String, CaseIterable, Identifiable, EntityType {
+    case none = "00"
     case analysis = "01"
     case counterintelligence = "02"
     case directionFinding = "03"
@@ -22,6 +23,8 @@ enum IntelligenceEntityType: String, CaseIterable, Identifiable, EntityType {
 
     var name: String {
         switch self {
+        case .none:
+            String(localized: "None")
         case .analysis:
             String(localized: "Analysis", comment: "Intelligence Entity Type")
 
@@ -62,6 +65,8 @@ enum IntelligenceEntityType: String, CaseIterable, Identifiable, EntityType {
 
     var subtypes: [AnyEntitySubtype] {
         switch self {
+        case .none:
+            [.none]
         case .electronicWarfare:
             AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
                 + ElectronicWarfareEntitySubtype.allCases.map { AnyEntitySubtype($0) }

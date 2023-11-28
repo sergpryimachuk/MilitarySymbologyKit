@@ -6,6 +6,7 @@ import Foundation
 
 extension LandUnitEntity {
     enum MovementAndManeuverEntityType: String, CaseIterable, EntityType {
+        case none = "00"
         case airAssaultWithOrganicLift = "01"
         case airTrafficServicesAirfieldOperations = "02"
         case amphibious = "03"
@@ -30,6 +31,8 @@ extension LandUnitEntity {
 
         var name: String {
             switch self {
+            case .none:
+                String(localized: "None")
             case .airAssaultWithOrganicLift:
                 String(localized: "Air Assault with Organic Lift", comment: "Movement and Maneuver Entity Type")
 
@@ -91,6 +94,8 @@ extension LandUnitEntity {
 
         var subtypes: [AnyEntitySubtype] {
             switch self {
+            case .none:
+                [.none]
             case .antitankAntiarmor:
                 AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
                     + AntitankAntiarmorEntitySubtype.allCases.map { AnyEntitySubtype($0) }

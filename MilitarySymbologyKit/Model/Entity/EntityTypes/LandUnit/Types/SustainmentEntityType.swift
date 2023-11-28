@@ -5,6 +5,7 @@
 import Foundation
 
 enum SustainmentEntityType: String, CaseIterable, Identifiable, EntityType {
+    case none = "00"
     case administrative = "01"
     case allClassesOfSupply = "02"
     case airportOfDebarkationEmbarkation = "03"
@@ -59,6 +60,8 @@ enum SustainmentEntityType: String, CaseIterable, Identifiable, EntityType {
 
     var name: String {
         switch self {
+        case .none:
+            String(localized: "None")
         case .administrative:
             String(localized: "Administrative", comment: "Sustainment Entity Type")
 
@@ -209,6 +212,11 @@ enum SustainmentEntityType: String, CaseIterable, Identifiable, EntityType {
     }
 
     var subtypes: [AnyEntitySubtype] {
-        AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        switch self {
+        case .none:
+            [.none]
+        default:
+            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        }
     }
 }

@@ -9,6 +9,7 @@ import Foundation
 
 extension LandUnitEntity {
     enum LawEnforcementEntityType: String, CaseIterable, EntityType {
+        case none = "00"
         case alcoholTobaccoFirearmsExplosivesATF = "01"
         case borderPatrol = "02"
         case customsService = "03"
@@ -27,6 +28,8 @@ extension LandUnitEntity {
         
         var name: String {
             switch self {
+            case .none:
+                String(localized: "None")
             case .alcoholTobaccoFirearmsExplosivesATF:
                 String(localized: "Bureau of Alcohol Tobacco Firearms and Explosives (ATF) (Department of Justice)", comment: "Law Enforcement Entity Type")
                 
@@ -69,7 +72,12 @@ extension LandUnitEntity {
         }
         
         var subtypes: [AnyEntitySubtype] {
-            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            switch self {
+            case .none:
+                [.none]
+            default:
+                AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            }
         }
     }
 }

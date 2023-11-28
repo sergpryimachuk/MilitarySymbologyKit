@@ -8,6 +8,7 @@
 import Foundation
 
 enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
+    case none = "00"
     case alliedCommandEuropeRapidReactionCorps = "01"
     case alliedCommandOperations = "02"
     case internationalSecurityAssistanceForce = "03"
@@ -17,6 +18,8 @@ enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
 
     var name: String {
         switch self {
+        case .none:
+            String(localized: "None")
         case .alliedCommandEuropeRapidReactionCorps:
             String(localized: "Allied Command Europe Rapid Reaction Corps (ARRC)", comment: "Named Headquarters Entity Type")
 
@@ -32,6 +35,11 @@ enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
     }
 
     var subtypes: [AnyEntitySubtype] {
-        AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        switch self {
+        case .none:
+            [.none]
+        default:
+            AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        }
     }
 }

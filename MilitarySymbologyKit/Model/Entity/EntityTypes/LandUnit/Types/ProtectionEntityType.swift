@@ -5,6 +5,7 @@
 import Foundation
 
 enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
+    case none = "00"
     case chemicalBiologicalRadiologicalNuclearDefense = "01"
     case combatSupportManeuverEnhancement = "02"
     case criminalInvestigationDivision = "03"
@@ -31,6 +32,8 @@ enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
 
     var name: String {
         switch self {
+        case .none:
+            String(localized: "None")
         case .chemicalBiologicalRadiologicalNuclearDefense:
             String(localized: "Chemical Biological Radiological Nuclear Defense", comment: "Protection Entity Type")
 
@@ -98,6 +101,8 @@ enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
 
     var subtypes: [AnyEntitySubtype] {
         switch self {
+        case .none:
+            [.none]
         case .chemicalBiologicalRadiologicalNuclearDefense:
             AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) }
                 + ChemicalBiologicalRadiologicalNuclearDefenseEntitySubtype.allCases.map { AnyEntitySubtype($0) }
