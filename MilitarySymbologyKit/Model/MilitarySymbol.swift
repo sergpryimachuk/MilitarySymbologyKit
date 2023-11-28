@@ -11,9 +11,9 @@ struct MilitarySymbol: Identifiable, Hashable {
     var standardIdentity: StandardIdentity = .unknown
     var dimention: Dimension = .air
     var status: Status = .present
-    var hqtfd: HQTFD = .notApplicable
-    var amplifier: Amplifier = .notApplicable
-    var descriptor: AnyDescriptor = .init(NotApplicableDescriptor.notApplicable)
+    var hqtfd: HQTFD = .none
+    var amplifier: Amplifier = .none
+    var descriptor: AnyDescriptor = .none
     var entity: AnyEntity = .none
     var entityType: AnyEntityType = .none
     var entitySubtype: AnyEntitySubtype = .none

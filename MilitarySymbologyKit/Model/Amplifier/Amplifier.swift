@@ -5,7 +5,7 @@
 import SwiftUI
 
 enum Amplifier: String, CaseIterable, Identifiable {
-    case notApplicable = "0"
+    case none = "0"
     case echelonBrigadeBelow = "1"
     case echelonDivisionAbove = "2"
     case equipmentMobilityLand = "3"
@@ -17,8 +17,8 @@ enum Amplifier: String, CaseIterable, Identifiable {
 
     var name: String {
         switch self {
-        case .notApplicable:
-            String(localized: "Not Applicable", comment: "Amplifier")
+        case .none:
+            String(localized: "None")
 
         case .echelonBrigadeBelow:
             String(localized: "Echelon at brigade and below", comment: "Amplifier")
@@ -42,8 +42,8 @@ enum Amplifier: String, CaseIterable, Identifiable {
 
     var descriptors: [AnyDescriptor] {
         switch self {
-        case .notApplicable:
-            NotApplicableDescriptor.allCases.map { AnyDescriptor($0) }
+        case .none:
+            [.none]
         case .echelonBrigadeBelow:
             EchelonBrigadeBelowDescriptor.allCases.map { AnyDescriptor($0) }
         case .echelonDivisionAbove:
