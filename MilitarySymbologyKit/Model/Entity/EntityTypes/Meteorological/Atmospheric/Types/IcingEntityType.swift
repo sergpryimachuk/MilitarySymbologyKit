@@ -24,5 +24,9 @@ extension AtmosphericEntity {
                 String(localized: "Mixed Icing", comment: "Icing Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            LightMediumSevereEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+        }
     }
 }

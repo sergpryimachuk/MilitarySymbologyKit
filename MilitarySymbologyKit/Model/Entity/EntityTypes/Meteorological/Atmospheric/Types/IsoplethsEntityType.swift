@@ -44,6 +44,9 @@ extension AtmosphericEntity {
                 String(localized: "Operator-Defined Freeform", comment: "Isopleths Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
-
 }

@@ -56,5 +56,10 @@ extension AtmosphericEntity {
                 String(localized: "Operator-Defined Freeform", comment: "Bounded Areas of Weather Entity Type")
             }
         }
+        
+        // TODO: Implement this one.
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

@@ -32,5 +32,9 @@ extension AtmosphericEntity {
                 String(localized: "Mountain Waves", comment: "Turbulence Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

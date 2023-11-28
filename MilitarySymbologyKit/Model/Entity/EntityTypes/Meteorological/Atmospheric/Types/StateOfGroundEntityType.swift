@@ -24,5 +24,10 @@ extension AtmosphericEntity {
                 String(localized: "With Snow or Measurable Ice Cover", comment: "State of Ground Entity Type")
             }
         }
+        
+        // TODO: Implement this one.
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

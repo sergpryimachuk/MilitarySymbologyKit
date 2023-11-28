@@ -20,5 +20,14 @@ extension AtmosphericEntity {
                 String(localized: "Cloud Coverage Symbols", comment: "Cloud Cover Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            switch self {
+            case .none:
+                [.none]
+            case .cloudCoverageSymbols:
+                CloudCoverageSymbolsEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            }
+        }
     }
 }

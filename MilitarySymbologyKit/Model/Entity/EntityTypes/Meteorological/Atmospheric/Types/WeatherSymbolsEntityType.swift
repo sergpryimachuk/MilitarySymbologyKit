@@ -112,6 +112,10 @@ extension AtmosphericEntity {
                 String(localized: "Precipitation of Unknown Type and Intensity", comment: "Weather Symbols Entity Type")
             }
         }
+        
+        // TODO: Impelment this one.
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
-
 }

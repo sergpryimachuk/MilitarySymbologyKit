@@ -28,5 +28,9 @@ extension AtmosphericEntity {
                 String(localized: "Stream Line", comment: "Winds Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }

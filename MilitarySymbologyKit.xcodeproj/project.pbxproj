@@ -171,6 +171,8 @@
 		93B7CB092B1614180036F896 /* MerchantShipEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB082B1614180036F896 /* MerchantShipEntitySubtype.swift */; };
 		93B7CB0B2B16148E0036F896 /* FishingVesselEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB0A2B16148E0036F896 /* FishingVesselEntitySubtype.swift */; };
 		93B7CB0D2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB0C2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift */; };
+		93B7CB102B1616A60036F896 /* LightMediumSevereEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB0F2B1616A60036F896 /* LightMediumSevereEntitySubtype.swift */; };
+		93B7CB122B1617F00036F896 /* CloudCoverageSymbolsEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB112B1617F00036F896 /* CloudCoverageSymbolsEntitySubtype.swift */; };
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
 		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
 		93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */; };
@@ -359,6 +361,8 @@
 		93B7CB082B1614180036F896 /* MerchantShipEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantShipEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CB0A2B16148E0036F896 /* FishingVesselEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingVesselEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CB0C2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureCraftMotorizedEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB0F2B1616A60036F896 /* LightMediumSevereEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMediumSevereEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB112B1617F00036F896 /* CloudCoverageSymbolsEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCoverageSymbolsEntitySubtype.swift; sourceTree = "<group>"; };
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
 		93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Ext.swift"; sourceTree = "<group>"; };
@@ -573,8 +577,8 @@
 			isa = PBXGroup;
 			children = (
 				934496242B10FE2100AD1B73 /* SpaceEntity.swift */,
-				934496252B10FE2100AD1B73 /* Oceanographic */,
 				9344962E2B10FE2100AD1B73 /* Atmospheric */,
+				934496252B10FE2100AD1B73 /* Oceanographic */,
 			);
 			path = Meteorological;
 			sourceTree = "<group>";
@@ -582,8 +586,8 @@
 		934496252B10FE2100AD1B73 /* Oceanographic */ = {
 			isa = PBXGroup;
 			children = (
-				934496262B10FE2100AD1B73 /* Types */,
 				9344962D2B10FE2100AD1B73 /* OceanographicEntity.swift */,
+				934496262B10FE2100AD1B73 /* Types */,
 			);
 			path = Oceanographic;
 			sourceTree = "<group>";
@@ -604,6 +608,7 @@
 		9344962E2B10FE2100AD1B73 /* Atmospheric */ = {
 			isa = PBXGroup;
 			children = (
+				93B7CB0E2B1616900036F896 /* Subtypes */,
 				934496342B10FE2100AD1B73 /* AtmosphericEntity.swift */,
 				9344962F2B10FE2100AD1B73 /* Types */,
 			);
@@ -613,9 +618,9 @@
 		9344962F2B10FE2100AD1B73 /* Types */ = {
 			isa = PBXGroup;
 			children = (
+				934496322B10FE2100AD1B73 /* PressureSystemsEntityType.swift */,
 				934496302B10FE2100AD1B73 /* TurbulenceEntityType.swift */,
 				934496312B10FE2100AD1B73 /* IcingEntityType.swift */,
-				934496322B10FE2100AD1B73 /* PressureSystemsEntityType.swift */,
 				934496332B10FE2100AD1B73 /* WindsEntityType.swift */,
 				93F704152B124C3900EC73C9 /* CloudCoverEntityType.swift */,
 				93F704172B124C9600EC73C9 /* WeatherSymbolsEntityType.swift */,
@@ -744,6 +749,15 @@
 				93B7CB082B1614180036F896 /* MerchantShipEntitySubtype.swift */,
 				93B7CB0A2B16148E0036F896 /* FishingVesselEntitySubtype.swift */,
 				93B7CB0C2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift */,
+			);
+			path = Subtypes;
+			sourceTree = "<group>";
+		};
+		93B7CB0E2B1616900036F896 /* Subtypes */ = {
+			isa = PBXGroup;
+			children = (
+				93B7CB0F2B1616A60036F896 /* LightMediumSevereEntitySubtype.swift */,
+				93B7CB112B1617F00036F896 /* CloudCoverageSymbolsEntitySubtype.swift */,
 			);
 			path = Subtypes;
 			sourceTree = "<group>";
@@ -1093,6 +1107,7 @@
 				05A57B232B11071F00F98863 /* UtilityVehiclesEntityType.swift in Sources */,
 				052AB01D2B14D231006DF372 /* MilitaryInfrastructureSubtype.swift in Sources */,
 				054C278E2B1121FA00324A82 /* MaritimeControlAreasEntityType.swift in Sources */,
+				93B7CB122B1617F00036F896 /* CloudCoverageSymbolsEntitySubtype.swift in Sources */,
 				054C279C2B1127DD00324A82 /* ProtectionAreasEntityType.swift in Sources */,
 				934D3E272B138B310019FBEF /* EngineerEntitySubtype.swift in Sources */,
 				934D3E1B2B13783E0019FBEF /* ReconnaissanceCavalryScoutEntitySubtype.swift in Sources */,
@@ -1125,6 +1140,7 @@
 				934D3E132B13737E0019FBEF /* SignalEntitySubtype.swift in Sources */,
 				05A57B212B11064700F98863 /* EngineerVehiclesAndEquipmentEntityType.swift in Sources */,
 				934496422B10FE2100AD1B73 /* SpaceEntity.swift in Sources */,
+				93B7CB102B1616A60036F896 /* LightMediumSevereEntitySubtype.swift in Sources */,
 				933011512B07B0D80053E2C2 /* IntelligenceEntityType.swift in Sources */,
 				93B7CAF92B1610790036F896 /* SurfaceCombatantLineEntitySubtype.swift in Sources */,
 				054C276A2B110DCE00324A82 /* OtherEquipmentEntityType.swift in Sources */,

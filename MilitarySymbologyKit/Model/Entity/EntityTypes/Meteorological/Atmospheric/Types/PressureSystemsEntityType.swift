@@ -32,5 +32,10 @@ extension AtmosphericEntity {
                 String(localized: "Pressure Tendency", comment: "Pressure Systems Entity Type")
             }
         }
+        
+        // TODO: Implement this one
+        var subtypes: [AnyEntitySubtype] {
+            [.none]
+        }
     }
 }
