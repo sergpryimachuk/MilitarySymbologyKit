@@ -160,6 +160,17 @@
 		93B7CAF12B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF02B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift */; };
 		93B7CAF32B160D450036F896 /* MILCOConfidenceLevelSubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF22B160D450036F896 /* MILCOConfidenceLevelSubtype.swift */; };
 		93B7CAF62B160F100036F896 /* SubmarineEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF52B160F100036F896 /* SubmarineEntitySubtype.swift */; };
+		93B7CAF92B1610790036F896 /* SurfaceCombatantLineEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF82B1610790036F896 /* SurfaceCombatantLineEntitySubtype.swift */; };
+		93B7CAFB2B1610DF0036F896 /* AmphibiousWarfareShipEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAFA2B1610DF0036F896 /* AmphibiousWarfareShipEntitySubtype.swift */; };
+		93B7CAFD2B16115C0036F896 /* MineWarfareShipEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAFC2B16115C0036F896 /* MineWarfareShipEntitySubtype.swift */; };
+		93B7CAFF2B1611C10036F896 /* PatrolBoatEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAFE2B1611C10036F896 /* PatrolBoatEntitySubtype.swift */; };
+		93B7CB012B1612190036F896 /* SpeedboatEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB002B1612190036F896 /* SpeedboatEntitySubtype.swift */; };
+		93B7CB032B16126B0036F896 /* NavyTaskOrganizationEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB022B16126B0036F896 /* NavyTaskOrganizationEntitySubtype.swift */; };
+		93B7CB052B1613140036F896 /* AuxiliaryShipEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB042B1613140036F896 /* AuxiliaryShipEntitySubtype.swift */; };
+		93B7CB072B16137F0036F896 /* ServiceCraftYardEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB062B16137F0036F896 /* ServiceCraftYardEntitySubtype.swift */; };
+		93B7CB092B1614180036F896 /* MerchantShipEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB082B1614180036F896 /* MerchantShipEntitySubtype.swift */; };
+		93B7CB0B2B16148E0036F896 /* FishingVesselEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB0A2B16148E0036F896 /* FishingVesselEntitySubtype.swift */; };
+		93B7CB0D2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CB0C2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift */; };
 		93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AA62B04C6DA00BD4D9C /* Entity.swift */; };
 		93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */; };
 		93F703ED2B1239D900EC73C9 /* StringProtocol+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */; };
@@ -337,6 +348,17 @@
 		93B7CAF02B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutralizedMineGeneralEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CAF22B160D450036F896 /* MILCOConfidenceLevelSubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILCOConfidenceLevelSubtype.swift; sourceTree = "<group>"; };
 		93B7CAF52B160F100036F896 /* SubmarineEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmarineEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CAF82B1610790036F896 /* SurfaceCombatantLineEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceCombatantLineEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CAFA2B1610DF0036F896 /* AmphibiousWarfareShipEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmphibiousWarfareShipEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CAFC2B16115C0036F896 /* MineWarfareShipEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineWarfareShipEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CAFE2B1611C10036F896 /* PatrolBoatEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatrolBoatEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB002B1612190036F896 /* SpeedboatEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedboatEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB022B16126B0036F896 /* NavyTaskOrganizationEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavyTaskOrganizationEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB042B1613140036F896 /* AuxiliaryShipEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuxiliaryShipEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB062B16137F0036F896 /* ServiceCraftYardEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCraftYardEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB082B1614180036F896 /* MerchantShipEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantShipEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB0A2B16148E0036F896 /* FishingVesselEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingVesselEntitySubtype.swift; sourceTree = "<group>"; };
+		93B7CB0C2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeisureCraftMotorizedEntitySubtype.swift; sourceTree = "<group>"; };
 		93DF9AA62B04C6DA00BD4D9C /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		93DF9AAE2B04F6B300BD4D9C /* AirUnitEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirUnitEntity.swift; sourceTree = "<group>"; };
 		93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringProtocol+Ext.swift"; sourceTree = "<group>"; };
@@ -708,6 +730,24 @@
 			path = Subtypes;
 			sourceTree = "<group>";
 		};
+		93B7CAF72B16106E0036F896 /* Subtypes */ = {
+			isa = PBXGroup;
+			children = (
+				93B7CAF82B1610790036F896 /* SurfaceCombatantLineEntitySubtype.swift */,
+				93B7CAFA2B1610DF0036F896 /* AmphibiousWarfareShipEntitySubtype.swift */,
+				93B7CAFC2B16115C0036F896 /* MineWarfareShipEntitySubtype.swift */,
+				93B7CAFE2B1611C10036F896 /* PatrolBoatEntitySubtype.swift */,
+				93B7CB002B1612190036F896 /* SpeedboatEntitySubtype.swift */,
+				93B7CB022B16126B0036F896 /* NavyTaskOrganizationEntitySubtype.swift */,
+				93B7CB042B1613140036F896 /* AuxiliaryShipEntitySubtype.swift */,
+				93B7CB062B16137F0036F896 /* ServiceCraftYardEntitySubtype.swift */,
+				93B7CB082B1614180036F896 /* MerchantShipEntitySubtype.swift */,
+				93B7CB0A2B16148E0036F896 /* FishingVesselEntitySubtype.swift */,
+				93B7CB0C2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift */,
+			);
+			path = Subtypes;
+			sourceTree = "<group>";
+		};
 		93F703EB2B1239C800EC73C9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -721,6 +761,7 @@
 			children = (
 				93F703F52B1242AB00EC73C9 /* SeaSurfaceEntity.swift */,
 				93F704022B12478900EC73C9 /* Types */,
+				93B7CAF72B16106E0036F896 /* Subtypes */,
 			);
 			path = SeaSurface;
 			sourceTree = "<group>";
@@ -962,9 +1003,11 @@
 				93DF9AAF2B04F6B300BD4D9C /* AirUnitEntity.swift in Sources */,
 				052AB00F2B14CD3E006DF372 /* EmergencyOperationSubtype.swift in Sources */,
 				9344AFD72B11329200BFFBC6 /* MineLikeEchoMILECGeneralEntityType.swift in Sources */,
+				93B7CAFD2B16115C0036F896 /* MineWarfareShipEntitySubtype.swift in Sources */,
 				934D3E172B1376570019FBEF /* ArmorArmoredMechanizedSelfPropelledTrackedEntitySubtype.swift in Sources */,
 				054C27842B11200200324A82 /* ManeuverAreasEntityType.swift in Sources */,
 				934495D12B10CA9000AD1B73 /* MilitarySymbolSearchResults.swift in Sources */,
+				93B7CB092B1614180036F896 /* MerchantShipEntitySubtype.swift in Sources */,
 				930218272B01013A004FA3D5 /* EchelonDivisionAboveDescriptor.swift in Sources */,
 				05A57B1F2B11048900F98863 /* VehicleEntityType.swift in Sources */,
 				934496442B10FE2100AD1B73 /* IceSystemsEntityType.swift in Sources */,
@@ -979,6 +1022,7 @@
 				054C27732B111AC900324A82 /* LandInstallationEntity.swift in Sources */,
 				934496352B10FE2100AD1B73 /* HealthAndStatusEntityType.swift in Sources */,
 				054C276C2B110E2900324A82 /* LandMinesEntityType.swift in Sources */,
+				93B7CB0D2B1614FD0036F896 /* LeisureCraftMotorizedEntitySubtype.swift in Sources */,
 				931395BB2B14C99A000D5583 /* APTEntitySubtype.swift in Sources */,
 				934D3E112B1371640019FBEF /* AmplifierEntitySubtype.swift in Sources */,
 				93F704182B124C9600EC73C9 /* WeatherSymbolsEntityType.swift in Sources */,
@@ -1028,6 +1072,7 @@
 				054C27772B111BAD00324A82 /* InfrastructureEntityType.swift in Sources */,
 				9344963C2B10FE2100AD1B73 /* SignalInterceptEntityType.swift in Sources */,
 				931395E12B14E7AE000D5583 /* NonMineMineLikeObjectNMLOGeneralEntityType.swift in Sources */,
+				93B7CB0B2B16148E0036F896 /* FishingVesselEntitySubtype.swift in Sources */,
 				9344964C2B10FE2100AD1B73 /* PressureSystemsEntityType.swift in Sources */,
 				930218372B012DBD004FA3D5 /* TestView.swift in Sources */,
 				934496392B10FE2100AD1B73 /* InfectionEntityType.swift in Sources */,
@@ -1035,6 +1080,7 @@
 				054C276E2B110E7600324A82 /* SensorsEntityType.swift in Sources */,
 				93F703F92B12439800EC73C9 /* MilitaryCombatantEntityType.swift in Sources */,
 				93F703F22B1240C400EC73C9 /* SeaSubsurfaceCivilianEntityType.swift in Sources */,
+				93B7CAFB2B1610DF0036F896 /* AmphibiousWarfareShipEntitySubtype.swift in Sources */,
 				9344964E2B10FE2100AD1B73 /* AtmosphericEntity.swift in Sources */,
 				930218432B013685004FA3D5 /* MovementAndManeuverEntityType.swift in Sources */,
 				93F704102B1249EF00EC73C9 /* AirMilitaryEntityType.swift in Sources */,
@@ -1050,6 +1096,7 @@
 				054C279C2B1127DD00324A82 /* ProtectionAreasEntityType.swift in Sources */,
 				934D3E272B138B310019FBEF /* EngineerEntitySubtype.swift in Sources */,
 				934D3E1B2B13783E0019FBEF /* ReconnaissanceCavalryScoutEntitySubtype.swift in Sources */,
+				93B7CB032B16126B0036F896 /* NavyTaskOrganizationEntitySubtype.swift in Sources */,
 				9302183E2B01349A004FA3D5 /* EntityType.swift in Sources */,
 				052AB0292B14D565006DF372 /* WaterSupplyInfrastructureSubtype.swift in Sources */,
 				93F704202B1252D500EC73C9 /* MissileEntity.swift in Sources */,
@@ -1060,6 +1107,7 @@
 				9344963A2B10FE2100AD1B73 /* DeviceDomainEntityType.swift in Sources */,
 				9344963E2B10FE2100AD1B73 /* MineLikeContactEntityType.swift in Sources */,
 				052AB0212B14D33B006DF372 /* PublicVenuesInfrastructureSubtype.swift in Sources */,
+				93B7CB052B1613140036F896 /* AuxiliaryShipEntitySubtype.swift in Sources */,
 				930218292B010174004FA3D5 /* EquipmentMobilityLandDescriptor.swift in Sources */,
 				934D3E342B1391970019FBEF /* DrillEntitySubtype.swift in Sources */,
 				934D3E212B13892D0019FBEF /* FieldArtilleryEntitySubtype.swift in Sources */,
@@ -1078,15 +1126,19 @@
 				05A57B212B11064700F98863 /* EngineerVehiclesAndEquipmentEntityType.swift in Sources */,
 				934496422B10FE2100AD1B73 /* SpaceEntity.swift in Sources */,
 				933011512B07B0D80053E2C2 /* IntelligenceEntityType.swift in Sources */,
+				93B7CAF92B1610790036F896 /* SurfaceCombatantLineEntitySubtype.swift in Sources */,
 				054C276A2B110DCE00324A82 /* OtherEquipmentEntityType.swift in Sources */,
 				934D3E2C2B138EBD0019FBEF /* RifleEntitySubtype.swift in Sources */,
 				9302181F2B00FFC2004FA3D5 /* HQTFD.swift in Sources */,
+				93B7CB012B1612190036F896 /* SpeedboatEntitySubtype.swift in Sources */,
+				93B7CB072B16137F0036F896 /* ServiceCraftYardEntitySubtype.swift in Sources */,
 				052AB0092B14C46D006DF372 /* BridgeSubtype.swift in Sources */,
 				934496492B10FE2100AD1B73 /* OceanographicEntity.swift in Sources */,
 				93F703FB2B12441800EC73C9 /* MilitaryNoncombatantEntityType.swift in Sources */,
 				054C27682B110D6500324A82 /* MissileSupportEntityType.swift in Sources */,
 				93B7CAF62B160F100036F896 /* SubmarineEntitySubtype.swift in Sources */,
 				934496452B10FE2100AD1B73 /* OceanographyEntityType.swift in Sources */,
+				93B7CAFF2B1611C10036F896 /* PatrolBoatEntitySubtype.swift in Sources */,
 				054C27882B1120CE00324A82 /* AirspaceControlCorridorsAreasEntityType.swift in Sources */,
 				9344963F2B10FE2100AD1B73 /* SeaMineDecoyEntityType.swift in Sources */,
 				9344AFD92B11332F00BFFBC6 /* NegativeReacquisitionGeneralEntityType.swift in Sources */,

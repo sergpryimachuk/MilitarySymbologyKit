@@ -60,5 +60,24 @@ extension SeaSurfaceEntity {
                 String(localized: "Sea-Based X-Band (SBX) Radar", comment: "Military Combatant Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            switch self {
+            case .surfaceCombatantLine:
+                SurfaceCombatantLineEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .amphibiousWarfareShip:
+                AmphibiousWarfareShipEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .mineWarfareShip:
+                MineWarfareShipEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .patrolBoat:
+                PatrolBoatEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .speedboat:
+                SpeedboatEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .navyTaskOrganization:
+                NavyTaskOrganizationEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            default:
+                [.none]
+            }
+        }
     }
 }

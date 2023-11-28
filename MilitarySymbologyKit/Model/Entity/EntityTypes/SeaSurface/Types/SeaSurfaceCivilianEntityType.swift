@@ -44,5 +44,18 @@ extension SeaSurfaceEntity {
                 String(localized: "Unmanned Surface Water Vehicle (USV)", comment: "Civilian Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            switch self {
+            case .merchantShip:
+                MerchantShipEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .fishingVessel:
+                FishingVesselEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .leisureCraftMotorized:
+                LeisureCraftMotorizedEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            default:
+                [.none]
+            }
+        }
     }
 }

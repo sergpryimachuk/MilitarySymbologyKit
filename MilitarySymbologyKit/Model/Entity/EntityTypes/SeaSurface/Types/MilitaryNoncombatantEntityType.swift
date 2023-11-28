@@ -24,5 +24,16 @@ extension SeaSurfaceEntity {
                 String(localized: "Service Craft/Yard", comment: "Military Noncombatant Entity Type")
             }
         }
+        
+        var subtypes: [AnyEntitySubtype] {
+            switch self {
+            case .none:
+                [.none]
+            case .auxiliaryShip:
+                AuxiliaryShipEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            case .serviceCraftYard:
+                ServiceCraftYardEntitySubtype.allCases.map { AnyEntitySubtype($0) }
+            }
+        }
     }
 }
