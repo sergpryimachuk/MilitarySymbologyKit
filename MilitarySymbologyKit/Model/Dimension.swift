@@ -123,13 +123,13 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .airMissile:
             MissileEntity.allCases.map { AnyEntity($0) }
         case .space:
-            []
+            [.none]
         case .spaceMissile:
             MissileEntity.allCases.map { AnyEntity($0) }
         case .landUnits:
             LandUnitEntity.allCases.map { AnyEntity($0) }
         case .landCivilian:
-            []
+            [.none]
         case .landEquipment:
             LandEquipmentEntity.allCases.map { AnyEntity($0) }
         case .landInstallation:
@@ -143,7 +143,8 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .mineWarfare:
             MineWarfareEntity.allCases.map { AnyEntity($0) }
         case .activities:
-            []
+            // TODO: Add these ones.
+            [.none]
         case .meteorologicalAtmospheric:
             AtmosphericEntity.allCases.map { AnyEntity($0) }
         case .meteorologicalOceanographic:
