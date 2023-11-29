@@ -73,6 +73,7 @@
 		9330114F2B07B01C0053E2C2 /* ProtectionEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9330114E2B07B01C0053E2C2 /* ProtectionEntityType.swift */; };
 		933011512B07B0D80053E2C2 /* IntelligenceEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933011502B07B0D80053E2C2 /* IntelligenceEntityType.swift */; };
 		933011532B07B1EC0053E2C2 /* SustainmentEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933011522B07B1EC0053E2C2 /* SustainmentEntityType.swift */; };
+		9334FD9D2B17806E0053EADC /* Logger+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9334FD9C2B17806E0053EADC /* Logger+Ext.swift */; };
 		934495D12B10CA9000AD1B73 /* MilitarySymbolSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934495D02B10CA9000AD1B73 /* MilitarySymbolSearchResults.swift */; };
 		934496352B10FE2100AD1B73 /* HealthAndStatusEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934496132B10FE2100AD1B73 /* HealthAndStatusEntityType.swift */; };
 		934496362B10FE2100AD1B73 /* EffectEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934496142B10FE2100AD1B73 /* EffectEntityType.swift */; };
@@ -253,6 +254,7 @@
 		9330114E2B07B01C0053E2C2 /* ProtectionEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectionEntityType.swift; sourceTree = "<group>"; };
 		933011502B07B0D80053E2C2 /* IntelligenceEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntelligenceEntityType.swift; sourceTree = "<group>"; };
 		933011522B07B1EC0053E2C2 /* SustainmentEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SustainmentEntityType.swift; sourceTree = "<group>"; };
+		9334FD9C2B17806E0053EADC /* Logger+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Ext.swift"; sourceTree = "<group>"; };
 		934495D02B10CA9000AD1B73 /* MilitarySymbolSearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbolSearchResults.swift; sourceTree = "<group>"; };
 		934496132B10FE2100AD1B73 /* HealthAndStatusEntityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthAndStatusEntityType.swift; sourceTree = "<group>"; };
 		934496142B10FE2100AD1B73 /* EffectEntityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectEntityType.swift; sourceTree = "<group>"; };
@@ -754,6 +756,7 @@
 			children = (
 				93F703EC2B1239D900EC73C9 /* StringProtocol+Ext.swift */,
 				93B7CB442B165D520036F896 /* MilitarySymbol+Ext.swift */,
+				9334FD9C2B17806E0053EADC /* Logger+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1072,6 +1075,7 @@
 				93B7CB202B1628F50036F896 /* LightModerateHeavyEntitySubtype.swift in Sources */,
 				93F704162B124C3900EC73C9 /* CloudCoverEntityType.swift in Sources */,
 				9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */,
+				9334FD9D2B17806E0053EADC /* Logger+Ext.swift in Sources */,
 				05A57B252B11078100F98863 /* TrainEntityType.swift in Sources */,
 				934D3E322B1390DC0019FBEF /* ArmoredVehicleEntitySubtype.swift in Sources */,
 				052AB0192B14D116006DF372 /* EnergyFacilityInfrastructureSubtype.swift in Sources */,

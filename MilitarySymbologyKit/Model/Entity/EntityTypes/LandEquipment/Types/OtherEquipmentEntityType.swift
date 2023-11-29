@@ -8,6 +8,7 @@
 import Foundation
 
 enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
+    case none = "00"
     case antennae = "01"
     case bomb = "02"
     case boobyTrap = "03"
@@ -28,6 +29,8 @@ enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
 
     var name: String {
         switch self {
+        case .none:
+            String(localized: "None")
         case .antennae:
             String(localized: "Antennae", comment: "Other Equipment Entity Type")
 

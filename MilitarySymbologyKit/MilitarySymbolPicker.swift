@@ -5,12 +5,30 @@
 import SwiftUI
 
 struct MilitarySymbolPicker: View {
-    @State var symbol = MilitarySymbol()
+    @State private var symbol: MilitarySymbol
     @State private var searchText = ""
+    @State private var searchResults: [MilitarySymbol]?
+    
+    init() {
+        self._symbol = .init(initialValue: .init())
+    }
+    
+    init(symbol: MilitarySymbol) {
+        self._symbol = .init(initialValue: symbol)
+    }
 
     var body: some View {
         Form {
-            MilitarySymbolSearchResults(searchText: $searchText, selectedSymbol: $symbol)
+            
+            if let searchResults {
+                if searchResults.isEmpty {
+                    ContentUnavailableView("Not found", systemImage: "questionmark.diamond", description: Text("No results for '\(searchText)'") )
+                } else {
+                    MilitarySymbolSearchResults(searchText: $searchText, currentSymbol: symbol, searchResults: searchResults) { newSymbol in
+                        symbol = newSymbol
+                    }
+                }
+            }
 
             Section {
                 HStack {
@@ -104,6 +122,14 @@ struct MilitarySymbolPicker: View {
             }
         }
         .searchable(text: $searchText)
+        .onChange(of: searchText) { _, newValue in
+            if newValue.isEmpty {
+                searchResults = nil
+            } else {
+                searchResults = MilitarySymbol.searched(text: newValue, currentSymbol: symbol)
+            }
+        }
+        .animation(.linear, value: searchText)
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
     }
 }
