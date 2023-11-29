@@ -11,25 +11,41 @@ struct MilitarySymbol: Identifiable, Hashable {
     var standardIdentity: StandardIdentity = .unknown
     var dimention: Dimension = .air {
         didSet {
-            entity = .none
+            if let first = dimention.entities.first {
+                entity = first
+            } else {
+                entity = .none
+            }
         }
     }
     var status: Status = .present
     var hqtfd: HQTFD = .none
     var amplifier: Amplifier = .none {
         didSet {
-            descriptor = .none
+            if let first = amplifier.descriptors.first {
+                descriptor = first
+            } else {
+                descriptor = .none
+            }
         }
     }
     var descriptor: AnyDescriptor = .none
     var entity: AnyEntity = .none {
         didSet {
-            entityType = .none
+            if let first = entity.types.first {
+                entityType = first
+            } else {
+                entityType = .none
+            }
         }
     }
     var entityType: AnyEntityType = .none {
         didSet {
-            entitySubtype = .none
+            if let first = entityType.subtypes.first {
+                entitySubtype = first
+            } else {
+                entitySubtype = .none
+            }
         }
     }
     var entitySubtype: AnyEntitySubtype = .none
@@ -43,7 +59,6 @@ struct MilitarySymbol: Identifiable, Hashable {
 extension MilitarySymbol {
     init(sidc: String) throws {
         if sidc.count != 20 {
-            print("It's not 20.")
             throw MilitarySymbolError.sidcIsNot20
         } else {
             guard let context = Context(rawValue: sidc[2]) else {
@@ -113,18 +128,6 @@ extension MilitarySymbol {
 }
 
 extension MilitarySymbol {
-    static func search(text: String, standardIdentity: StandardIdentity = .unknown) -> [MilitarySymbol] {
-        Dimension.allCases.map { dimention in
-            MilitarySymbol(standardIdentity: standardIdentity, dimention: dimention)
-        }.filter { symbol in
-            if text.isEmpty {
-                true
-            } else {
-                symbol.dimention.name.localizedStandardContains(text)
-            }
-        }
-    }
-    
     static func searched(text: String, currentSymbol: MilitarySymbol?) -> [MilitarySymbol] {
         if text.isEmpty {
             return []
@@ -139,6 +142,7 @@ extension MilitarySymbol {
                                 || entitySubtype.name.localizedStandardContains(text) {
                                 if let currentSymbol {
                                     result.append(
+                                        /// Version with current symbol properties.
                                         MilitarySymbol(context: currentSymbol.context,
                                                        standardIdentity: currentSymbol.standardIdentity,
                                                        dimention: dimention,
@@ -154,6 +158,7 @@ extension MilitarySymbol {
                                     )
                                 } else {
                                     result.append(
+                                        /// Version with default symbol properties.
                                         MilitarySymbol(dimention: dimention,
                                                        entity: entity,
                                                        entityType: entityType,

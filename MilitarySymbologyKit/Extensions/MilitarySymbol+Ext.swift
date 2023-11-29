@@ -298,6 +298,6 @@ extension MilitarySymbol {
                     .scaledToFit()
             }
         }
-        .frame(width: frameWidth)
+        .frame(width: frameWidth, height: frameWidth)
     }
 }

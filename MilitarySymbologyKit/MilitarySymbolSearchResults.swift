@@ -6,22 +6,20 @@ import SwiftUI
 
 struct MilitarySymbolSearchResults: View {
     @Binding var searchText: String
-    let currentSymbol: MilitarySymbol?
+    @Binding var selectedSymbol: MilitarySymbol
     let searchResults: [MilitarySymbol]
-    var selectedSymbol: (_ newSymbol: MilitarySymbol) -> Void
     
-    init(searchText: Binding<String>, currentSymbol: MilitarySymbol?, searchResults: [MilitarySymbol], selectedSymbol: @escaping (_ newSymbol: MilitarySymbol) -> Void) {
+    init(searchText: Binding<String>, selectedSymbol: Binding<MilitarySymbol>, searchResults: [MilitarySymbol]) {
         self._searchText = searchText
-        self.currentSymbol = currentSymbol
+        self._selectedSymbol = selectedSymbol
         self.searchResults = searchResults
-        self.selectedSymbol = selectedSymbol
     }
     
     var body: some View {
         if !searchText.isEmpty {
             ForEach(searchResults) { symbol in
                 Button {
-                    selectedSymbol(symbol)
+                    selectedSymbol = symbol
                     searchText = ""
                 } label: {
                     LabeledContent {
@@ -65,9 +63,7 @@ private struct PreviewWprapper: View {
     
     var body: some View {
         Form {
-            MilitarySymbolSearchResults(searchText: $text, currentSymbol: symbol, searchResults: searchResults) { newSymbol in
-                symbol = newSymbol
-            }
+            MilitarySymbolSearchResults(searchText: $text, selectedSymbol: $symbol, searchResults: searchResults)
         }
         .searchable(text: $text, isPresented: .constant(true))
         .onChange(of: text) { _, newValue in

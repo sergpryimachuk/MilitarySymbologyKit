@@ -8,6 +8,7 @@ struct MilitarySymbolPicker: View {
     @State private var symbol: MilitarySymbol
     @State private var searchText = ""
     @State private var searchResults: [MilitarySymbol]?
+    @State private var isSearchPresented = false
     
     init() {
         self._symbol = .init(initialValue: .init())
@@ -24,9 +25,7 @@ struct MilitarySymbolPicker: View {
                 if searchResults.isEmpty {
                     ContentUnavailableView("Not found", systemImage: "questionmark.diamond", description: Text("No results for '\(searchText)'") )
                 } else {
-                    MilitarySymbolSearchResults(searchText: $searchText, currentSymbol: symbol, searchResults: searchResults) { newSymbol in
-                        symbol = newSymbol
-                    }
+                    MilitarySymbolSearchResults(searchText: $searchText, selectedSymbol: $symbol, searchResults: searchResults)
                 }
             }
 
@@ -34,10 +33,12 @@ struct MilitarySymbolPicker: View {
                 HStack {
                     Spacer()
                     symbol.makeView(frameWidth: 200)
+                        .scaleEffect(1.5)
                     Spacer()
                 }
-                LabeledContent("SIDC:", value: symbol.makeSIDC())
             }
+            
+            LabeledContent("SIDC:", value: symbol.makeSIDC())
             .listRowBackground(Color.clear)
 
             Section {
@@ -87,9 +88,6 @@ struct MilitarySymbolPicker: View {
                     ForEach(symbol.dimention.entities) { entity in
                         Text(entity.id + " " + entity.name).tag(entity)
                     }
-                    .onChange(of: symbol.entity) {
-                        symbol.entityType = .none
-                    }
                 }
 
                 Picker("Entity Type", selection: $symbol.entityType) {
@@ -106,8 +104,8 @@ struct MilitarySymbolPicker: View {
 
                 Toggle("Civilian", isOn: $symbol.isCivilian)
                     .disabled(symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile)
-                    .onChange(of: symbol.standardIdentity) { _, _ in
-                        if symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile {
+                    .onChange(of: symbol.standardIdentity) { _, newValue in
+                        if newValue == .suspect || newValue == .hostile {
                             symbol.isCivilian = false
                         }
                     }
@@ -121,10 +119,11 @@ struct MilitarySymbolPicker: View {
                 //                        }
             }
         }
-        .searchable(text: $searchText)
+        .searchable(text: $searchText, isPresented: $isSearchPresented, placement: .navigationBarDrawer, prompt: "Search symbol")
         .onChange(of: searchText) { _, newValue in
             if newValue.isEmpty {
                 searchResults = nil
+                isSearchPresented = false
             } else {
                 searchResults = MilitarySymbol.searched(text: newValue, currentSymbol: symbol)
             }

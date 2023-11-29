@@ -32,6 +32,7 @@ struct TestView: View {
                                Text(symbol.makeSIDC())
                            } label: {
                                symbol.makeView(frameWidth: 60)
+                                   .scaleEffect(1.5)
                            }
                        }
                     } else {
