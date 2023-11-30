@@ -125,6 +125,7 @@
 		939B44A92AFE39C900A67880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44A82AFE39C900A67880 /* Assets.xcassets */; };
 		939B44AC2AFE39C900A67880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */; };
 		939B44BA2AFE485C00A67880 /* MilitarySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44B92AFE485C00A67880 /* MilitarySymbol.swift */; };
+		93A471CC2B18CA550055CAC9 /* ActivitiesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A471CB2B18CA550055CAC9 /* ActivitiesEntity.swift */; };
 		93B7CAF12B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF02B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift */; };
 		93B7CAF32B160D450036F896 /* MILCOConfidenceLevelSubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF22B160D450036F896 /* MILCOConfidenceLevelSubtype.swift */; };
 		93B7CAF62B160F100036F896 /* SubmarineEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF52B160F100036F896 /* SubmarineEntitySubtype.swift */; };
@@ -307,6 +308,7 @@
 		939B44A82AFE39C900A67880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		939B44B92AFE485C00A67880 /* MilitarySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbol.swift; sourceTree = "<group>"; };
+		93A471CB2B18CA550055CAC9 /* ActivitiesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesEntity.swift; sourceTree = "<group>"; };
 		93B7CAF02B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutralizedMineGeneralEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CAF22B160D450036F896 /* MILCOConfidenceLevelSubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILCOConfidenceLevelSubtype.swift; sourceTree = "<group>"; };
 		93B7CAF52B160F100036F896 /* SubmarineEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmarineEntitySubtype.swift; sourceTree = "<group>"; };
@@ -462,6 +464,7 @@
 			isa = PBXGroup;
 			children = (
 				93F7041F2B1252D500EC73C9 /* MissileEntity.swift */,
+				93A471CA2B18CA440055CAC9 /* Activities */,
 				93F7040D2B12498300EC73C9 /* AirUnit */,
 				93F7040B2B1248F600EC73C9 /* LandUnit */,
 				9344961A2B10FE2100AD1B73 /* Signals Intelligence */,
@@ -696,6 +699,30 @@
 				9302183C2B013461004FA3D5 /* Entity */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		93A471CA2B18CA440055CAC9 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				93A471CB2B18CA550055CAC9 /* ActivitiesEntity.swift */,
+				93A471CD2B18CB150055CAC9 /* Types */,
+				93A471CE2B18CB1A0055CAC9 /* Subtypes */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		93A471CD2B18CB150055CAC9 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		93A471CE2B18CB1A0055CAC9 /* Subtypes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Subtypes;
 			sourceTree = "<group>";
 		};
 		93B7CAF42B160F040036F896 /* Subtypes */ = {
@@ -1113,6 +1140,7 @@
 				934D3E2E2B138F500019FBEF /* LightMediumHeavyEntitySubtype.swift in Sources */,
 				930218412B013502004FA3D5 /* CommandAndControlEntityType.swift in Sources */,
 				93DF9AA72B04C6DA00BD4D9C /* Entity.swift in Sources */,
+				93A471CC2B18CA550055CAC9 /* ActivitiesEntity.swift in Sources */,
 				93B7CB1A2B1627810036F896 /* LinesEntitySubtype.swift in Sources */,
 				052AB02B2B14D811006DF372 /* ExerciseMineGeneralSubtype.swift in Sources */,
 				93F704002B1246AD00EC73C9 /* EntitySubtype.swift in Sources */,
