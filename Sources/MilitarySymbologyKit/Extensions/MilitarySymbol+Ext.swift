@@ -244,34 +244,34 @@ public extension MilitarySymbol {
 
     func makeView(size: CGFloat? = nil) -> some View {
         ZStack {
-            Image(frameAssetName)
+            Image(frameAssetName, bundle: .module)
                 .resizable()
                 .scaledToFit()
 
             if let amplifierAssetName {
-                Image(amplifierAssetName)
+                Image(amplifierAssetName, bundle: .module)
                     .resizable()
                     .scaledToFit()
             }
 
             if let hqtfdAssetName {
-                Image(hqtfdAssetName)
+                Image(hqtfdAssetName, bundle: .module)
                     .resizable()
                     .scaledToFit()
             }
 
             if let mainIconAssetName {
-                Image(mainIconAssetName)
+                Image(mainIconAssetName, bundle: .module)
                     .resizable()
                     .scaledToFit()
             }
 
-            Image(fullFrameMainIconAssetName)
+            Image(fullFrameMainIconAssetName, bundle: .module)
                 .resizable()
                 .scaledToFit()
 
             if let ocaAssetName {
-                Image(ocaAssetName)
+                Image(ocaAssetName, bundle: .module)
                     .resizable()
                     .scaledToFit()
             }
