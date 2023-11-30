@@ -5,7 +5,7 @@
 import Foundation
 
 public extension MineWarfareEntity {
-    public enum MineLikeEchoMILECGeneralEntityType: String, CaseIterable, EntityType {
+    enum MineLikeEchoMILECGeneralEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case mineLikeEchoBottom = "01"
         case mineLikeEchoMoored = "02"

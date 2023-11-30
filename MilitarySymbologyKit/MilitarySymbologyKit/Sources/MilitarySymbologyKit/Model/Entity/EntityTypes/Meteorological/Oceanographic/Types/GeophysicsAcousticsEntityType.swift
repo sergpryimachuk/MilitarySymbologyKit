@@ -5,9 +5,9 @@
 import Foundation
 
 public extension OceanographicEntity {
-    public enum GeophysicsAcousticsEntityType: String, CaseIterable, EntityType {
+    enum GeophysicsAcousticsEntityType: String, CaseIterable, EntityType {
         public var subtypes: [AnyEntitySubtype] { [.none] }
-        
+
         case none = "00"
         case mineWarfareBottomDescriptors = "01"
 

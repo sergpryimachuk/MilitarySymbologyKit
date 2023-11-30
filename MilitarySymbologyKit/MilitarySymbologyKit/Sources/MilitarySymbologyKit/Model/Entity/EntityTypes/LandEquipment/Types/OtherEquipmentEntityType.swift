@@ -77,7 +77,7 @@ public enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
             String(localized: "Emergency Medical Operation", bundle: .module, comment: "Other Equipment Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .emergencyMedicalOperation:

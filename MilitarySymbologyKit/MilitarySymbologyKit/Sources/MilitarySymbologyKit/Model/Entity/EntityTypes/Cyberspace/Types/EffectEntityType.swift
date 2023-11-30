@@ -5,7 +5,7 @@
 import Foundation
 
 public extension CyberspaceEntity {
-    public enum EffectEntityType: String, CaseIterable, Identifiable, EntityType {
+    enum EffectEntityType: String, CaseIterable, Identifiable, EntityType {
         case infection = "01"
         case degradation = "02"
         case dataSpoofing = "03"
@@ -48,7 +48,7 @@ public extension CyberspaceEntity {
                 String(localized: "Device Outage", bundle: .module, comment: "Effect Entity Type")
             }
         }
-        
+
         public var subtypes: [AnyEntitySubtype] {
             [.none]
         }

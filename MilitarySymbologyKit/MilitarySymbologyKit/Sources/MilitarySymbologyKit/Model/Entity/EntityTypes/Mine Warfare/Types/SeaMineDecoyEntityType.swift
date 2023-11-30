@@ -5,7 +5,7 @@
 import Foundation
 
 public extension MineWarfareEntity {
-    public enum SeaMineDecoyEntityType: String, CaseIterable, EntityType {
+    enum SeaMineDecoyEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case seaMineDecoyBottom = "01"
         case seaMineDecoyMoored = "02"

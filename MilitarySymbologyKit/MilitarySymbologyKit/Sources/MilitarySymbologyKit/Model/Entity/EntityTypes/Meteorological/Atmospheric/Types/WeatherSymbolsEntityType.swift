@@ -5,7 +5,7 @@
 import Foundation
 
 public extension AtmosphericEntity {
-    public enum WeatherSymbolsEntityType: String, CaseIterable, EntityType {
+    enum WeatherSymbolsEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case rain = "01"
         case freezingRain = "02"
@@ -121,7 +121,7 @@ public extension AtmosphericEntity {
                 LightModerateHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
             case .rainShowers:
                 LightModerateHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
-                + [.init(id: "03", name: String(localized: "Torrential", bundle: .module, comment: "Rain Showers Entity Subtype"))]
+                    + [.init(id: "03", name: String(localized: "Torrential", bundle: .module, comment: "Rain Showers Entity Subtype"))]
             case .drizzle:
                 DrizzleEntitySubtype.allCases.map { AnyEntitySubtype($0) }
             case .rainAndSnowMixed:

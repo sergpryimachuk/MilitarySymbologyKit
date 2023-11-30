@@ -5,7 +5,7 @@
 import Foundation
 
 public extension LandUnitEntity {
-    public enum MovementAndManeuverEntityType: String, CaseIterable, EntityType {
+    enum MovementAndManeuverEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case airAssaultWithOrganicLift = "01"
         case airTrafficServicesAirfieldOperations = "02"

@@ -5,7 +5,7 @@
 import Foundation
 
 public extension CyberspaceEntity.InfectionEntityType {
-    public enum APTEntitySubtype: String, CaseIterable, EntitySubtype {
+    enum APTEntitySubtype: String, CaseIterable, EntitySubtype {
         case none = "00"
         case aptWithC2 = "01"
         case aptWithSelfPropagation = "02"

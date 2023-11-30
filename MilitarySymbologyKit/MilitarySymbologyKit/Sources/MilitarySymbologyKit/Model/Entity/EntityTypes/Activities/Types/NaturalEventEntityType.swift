@@ -12,9 +12,9 @@ public enum NaturalEventEntityType: String, CaseIterable, EntityType {
     case geologic = "01"
     case hydroMeteorological = "02"
     case infestation = "03"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
@@ -27,7 +27,7 @@ public enum NaturalEventEntityType: String, CaseIterable, EntityType {
             String(localized: "Infestation", bundle: .module, comment: "Natural Event Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:

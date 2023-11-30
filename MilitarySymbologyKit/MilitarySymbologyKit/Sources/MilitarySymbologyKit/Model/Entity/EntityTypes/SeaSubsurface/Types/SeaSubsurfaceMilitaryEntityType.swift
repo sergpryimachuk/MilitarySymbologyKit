@@ -5,7 +5,7 @@
 import Foundation
 
 public extension SeaSubsurfaceEntity {
-    public enum MilitaryEntityType: String, CaseIterable, EntityType {
+    enum MilitaryEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case submarine = "01"
         case otherSubmersible = "02"

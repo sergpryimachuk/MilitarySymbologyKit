@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 30.11.2023.
-//  
+//
 
 import Foundation
 
@@ -12,34 +12,34 @@ public enum IncidentEntityType: String, CaseIterable, EntityType {
     case shooting = "04"
     case illegalDrugOperation = "05"
     case explosion = "06"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
             String(localized: "None")
-            
+
         case .criminalActivityIncident:
             String(localized: "Criminal Activity Incident", bundle: .module, comment: "Incident Entity Type")
-            
+
         case .bombBombing:
             String(localized: "Bomb/Bombing", bundle: .module, comment: "Incident Entity Type")
-            
+
         case .iedEvent:
             String(localized: "IED Event", bundle: .module, comment: "Incident Entity Type")
-            
+
         case .shooting:
             String(localized: "Shooting", bundle: .module, comment: "Incident Entity Type")
-            
+
         case .illegalDrugOperation:
             String(localized: "Illegal Drug Operation", bundle: .module, comment: "Incident Entity Type")
-            
+
         case .explosion:
             String(localized: "Explosion", bundle: .module, comment: "Incident Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:

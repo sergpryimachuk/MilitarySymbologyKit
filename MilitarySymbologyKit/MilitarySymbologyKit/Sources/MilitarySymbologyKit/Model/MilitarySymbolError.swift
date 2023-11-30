@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 28.11.2023.
-//  
+//
 
 import Foundation
 

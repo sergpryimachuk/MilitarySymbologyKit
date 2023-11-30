@@ -50,7 +50,7 @@ public enum CivilianVehicleEntityType: String, CaseIterable, EntityType {
             String(localized: "Drug Vehicle", bundle: .module, comment: "Civilian Vehicle Entity Type")
         }
     }
-    
+
     // TODO: Complete this one.
     public var subtypes: [AnyEntitySubtype] {
         [.none]

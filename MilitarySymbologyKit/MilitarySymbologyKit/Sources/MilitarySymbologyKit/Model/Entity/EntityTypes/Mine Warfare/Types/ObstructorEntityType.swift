@@ -5,7 +5,7 @@
 import Foundation
 
 public extension MineWarfareEntity {
-    public enum ObstructorEntityType: String, CaseIterable, EntityType {
+    enum ObstructorEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case neutralized = "01"
 

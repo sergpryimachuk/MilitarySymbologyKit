@@ -5,7 +5,7 @@
 import Foundation
 
 public extension CyberspaceEntity {
-    public enum DeviceTypeEntityType: String, CaseIterable, Identifiable, EntityType {
+    enum DeviceTypeEntityType: String, CaseIterable, Identifiable, EntityType {
         case coreRouter = "01"
         case router = "02"
         case crossDomainSolution = "03"

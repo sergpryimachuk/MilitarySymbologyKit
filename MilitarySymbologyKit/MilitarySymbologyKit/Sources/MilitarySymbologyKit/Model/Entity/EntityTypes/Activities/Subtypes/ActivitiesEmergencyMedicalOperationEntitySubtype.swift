@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 30.11.2023.
-//  
+//
 
 import Foundation
 
@@ -13,9 +13,9 @@ public extension OperationEntityType {
         case morgue = "04"
         case pharmacy = "05"
         case triage = "06"
-        
+
         public var id: String { rawValue }
-        
+
         public var name: String {
             switch self {
             case .none:

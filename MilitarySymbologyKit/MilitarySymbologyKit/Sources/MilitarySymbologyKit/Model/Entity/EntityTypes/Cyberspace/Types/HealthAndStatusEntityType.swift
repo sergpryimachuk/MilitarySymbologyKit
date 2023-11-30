@@ -5,7 +5,7 @@
 import Foundation
 
 public extension CyberspaceEntity {
-    public enum HealthAndStatusEntityType: String, CaseIterable, Identifiable, EntityType {
+    enum HealthAndStatusEntityType: String, CaseIterable, Identifiable, EntityType {
         case normal = "01"
         case networkOutage = "02"
         case unknown = "03"

@@ -22,7 +22,7 @@ public enum TrainEntityType: String, CaseIterable, EntityType {
             String(localized: "Railcar", bundle: .module, comment: "Train Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         [.none]
     }

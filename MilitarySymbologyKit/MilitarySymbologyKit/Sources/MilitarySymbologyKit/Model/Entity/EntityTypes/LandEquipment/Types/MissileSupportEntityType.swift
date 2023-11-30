@@ -34,7 +34,7 @@ public enum MissileSupportEntityType: String, CaseIterable, EntityType {
             String(localized: "Warhead Transporter", bundle: .module, comment: "Missile Support Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         [.none]
     }

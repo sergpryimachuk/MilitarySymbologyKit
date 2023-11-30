@@ -90,10 +90,10 @@ public enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, Entity
         case .mineLayingEquipment:
             MineLayingEquipmentEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         case .dozer:
-            [.none, 
+            [.none,
              AnyEntitySubtype(
-                id: "01", name: String(localized: "Dozer-Armored", bundle: .module, comment: "Entity Subtype")
-            )]
+                 id: "01", name: String(localized: "Dozer-Armored", bundle: .module, comment: "Entity Subtype")
+             )]
         default:
             [.none]
         }

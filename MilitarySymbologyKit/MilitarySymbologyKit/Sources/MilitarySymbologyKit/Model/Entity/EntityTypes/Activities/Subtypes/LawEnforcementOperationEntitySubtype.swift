@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 30.11.2023.
-//  
+//
 
 import Foundation
 
@@ -19,9 +19,9 @@ public enum LawEnforcementOperationEntitySubtype: String, CaseIterable, EntitySu
     case coastGuard = "11"
     case USMarshalsService = "12"
     case internalSecurityForce = "13"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

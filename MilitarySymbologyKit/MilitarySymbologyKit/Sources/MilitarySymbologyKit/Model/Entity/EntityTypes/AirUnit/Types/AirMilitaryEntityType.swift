@@ -5,7 +5,7 @@
 import Foundation
 
 public extension AirUnitEntity {
-    public enum MilitaryEntityType: String, CaseIterable, EntityType {
+    enum MilitaryEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case fixedWing = "01"
         case rotaryWing = "02"

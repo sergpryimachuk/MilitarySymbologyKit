@@ -12,9 +12,9 @@ public enum HydroMeteorologicalEntitySubtype: String, CaseIterable, EntitySubtyp
     case drought = "01"
     case flood = "02"
     case tsunami = "03"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

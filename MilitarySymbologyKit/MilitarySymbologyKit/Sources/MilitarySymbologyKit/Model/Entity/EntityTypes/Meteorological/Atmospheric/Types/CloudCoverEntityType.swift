@@ -5,7 +5,7 @@
 import Foundation
 
 public extension AtmosphericEntity {
-    public enum CloudCoverEntityType: String, CaseIterable, EntityType {
+    enum CloudCoverEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case cloudCoverageSymbols = "01"
 

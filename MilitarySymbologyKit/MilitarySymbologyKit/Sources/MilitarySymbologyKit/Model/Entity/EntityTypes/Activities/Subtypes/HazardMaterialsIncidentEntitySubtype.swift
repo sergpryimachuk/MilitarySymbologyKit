@@ -24,9 +24,9 @@ public enum HazardMaterialsIncidentEntitySubtype: String, CaseIterable, EntitySu
     case toxicGas = "13"
     case toxicInfectiousMaterial = "14"
     case unexplodedOrdnance = "15"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

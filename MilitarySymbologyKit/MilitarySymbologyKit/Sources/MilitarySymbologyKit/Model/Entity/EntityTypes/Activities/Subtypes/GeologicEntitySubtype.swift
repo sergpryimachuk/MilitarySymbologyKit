@@ -17,9 +17,9 @@ public enum GeologicEntitySubtype: String, CaseIterable, EntitySubtype {
     case volcanicEruption = "06"
     case volcanicThreat = "07"
     case caveEntrance = "08"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

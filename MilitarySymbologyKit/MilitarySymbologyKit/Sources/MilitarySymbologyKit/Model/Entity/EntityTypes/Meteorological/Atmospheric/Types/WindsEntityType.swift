@@ -5,7 +5,7 @@
 import Foundation
 
 public extension AtmosphericEntity {
-    public enum WindsEntityType: String, CaseIterable, EntityType {
+    enum WindsEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case calmWinds = "01"
         case windPlot = "02"

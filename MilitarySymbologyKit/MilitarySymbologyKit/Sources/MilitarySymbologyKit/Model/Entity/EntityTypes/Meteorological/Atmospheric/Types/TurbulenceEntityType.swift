@@ -5,7 +5,7 @@
 import Foundation
 
 public extension AtmosphericEntity {
-    public enum TurbulenceEntityType: String, CaseIterable, EntityType {
+    enum TurbulenceEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case light = "01"
         case moderate = "02"

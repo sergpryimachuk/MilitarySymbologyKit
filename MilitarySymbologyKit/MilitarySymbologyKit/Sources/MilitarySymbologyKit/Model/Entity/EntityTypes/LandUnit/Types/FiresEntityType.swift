@@ -5,7 +5,7 @@
 import Foundation
 
 public extension LandUnitEntity {
-    public enum FiresEntityType: String, CaseIterable, Identifiable, EntityType {
+    enum FiresEntityType: String, CaseIterable, Identifiable, EntityType {
         case none = "00"
         case airDefense = "01"
         case airLandNavalGunfireLiaison = "02"

@@ -8,7 +8,7 @@
 import Foundation
 
 public extension LandEquipmentEntity {
-    public enum EmergencyOperationEntityType: String, CaseIterable, EntityType {
+    enum EmergencyOperationEntityType: String, CaseIterable, EntityType {
         case ambulance = "01"
         case fireFightingFireProtection = "02"
 
@@ -23,7 +23,7 @@ public extension LandEquipmentEntity {
                 String(localized: "Fire Fighting/Fire Protection", bundle: .module, comment: "Emergency Operation Entity Type")
             }
         }
-        
+
         public var subtypes: [AnyEntitySubtype] {
             [.none]
         }

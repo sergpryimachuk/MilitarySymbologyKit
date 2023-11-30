@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 30.11.2023.
-//  
+//
 
 import Foundation
 
@@ -21,9 +21,9 @@ public enum OperationEntityType: String, CaseIterable, EntityType {
     case emergencyMedicalOperation = "13"
     case fireFightingOperation = "14"
     case lawEnforcementOperation = "15"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
@@ -60,7 +60,7 @@ public enum OperationEntityType: String, CaseIterable, EntityType {
             String(localized: "Law Enforcement Operation", bundle: .module, comment: "Operation Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .militaryInformationSupportOperation:

@@ -5,7 +5,7 @@
 import Foundation
 
 public extension CyberspaceEntity.InfectionEntityType {
-    public enum NAPTEntitySubtype: String, CaseIterable, EntitySubtype {
+    enum NAPTEntitySubtype: String, CaseIterable, EntitySubtype {
         case none = "00"
         case naptWithC2 = "01"
         case naptWithSelfPropagation = "02"

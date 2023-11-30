@@ -9,21 +9,20 @@ public struct MilitarySymbolPicker: View {
     @State public var searchText = ""
     @State public var isSearchPresented = false
     @State public var searchResults: [MilitarySymbol]?
-    
+
     init() {
-        self._symbol = .init(initialValue: .init())
+        _symbol = .init(initialValue: .init())
     }
-    
+
     init(symbol: MilitarySymbol) {
-        self._symbol = .init(initialValue: symbol)
+        _symbol = .init(initialValue: symbol)
     }
 
     public var body: some View {
         Form {
-            
             MilitarySymbolSearchResults(searchText: $searchText,
                                         selectedSymbol: $symbol,
-                                        isSearchPresented: $isSearchPresented, 
+                                        isSearchPresented: $isSearchPresented,
                                         searchResults: $searchResults)
 
             Section {
@@ -41,7 +40,6 @@ public struct MilitarySymbolPicker: View {
                         }
                     }
             }
-            
 
             Section {
                 Picker("Context", selection: $symbol.context) {

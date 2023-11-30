@@ -26,7 +26,7 @@ public enum SensorsEntityType: String, CaseIterable, EntityType {
             String(localized: "Radar", bundle: .module, comment: "Sensors Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         [.none]
     }

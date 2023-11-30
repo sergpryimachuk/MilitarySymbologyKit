@@ -103,7 +103,7 @@ public enum Dimension: String, CaseIterable, Identifiable {
     /// Gigit used to retireve svg asset.
     public var assetDigit: String {
         switch self {
-        case .airMissile: //.signalsIntelligenceAir:
+        case .airMissile: // .signalsIntelligenceAir:
             Dimension.air.id
         case .spaceMissile: // .signalsIntelligenceSpace:
             Dimension.space.id

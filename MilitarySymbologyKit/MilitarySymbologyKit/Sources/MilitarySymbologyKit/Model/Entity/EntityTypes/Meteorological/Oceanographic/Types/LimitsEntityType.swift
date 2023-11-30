@@ -5,9 +5,9 @@
 import Foundation
 
 public extension OceanographicEntity {
-    public enum LimitsEntityType: String, CaseIterable, EntityType {
+    enum LimitsEntityType: String, CaseIterable, EntityType {
         public var subtypes: [AnyEntitySubtype] { [.none] }
-        
+
         case maritimeLimitBoundary = "01"
         case maritimeArea = "02"
         case restrictedArea = "03"

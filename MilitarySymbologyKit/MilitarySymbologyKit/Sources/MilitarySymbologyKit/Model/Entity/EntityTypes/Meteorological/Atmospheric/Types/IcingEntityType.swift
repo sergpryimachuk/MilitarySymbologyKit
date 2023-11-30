@@ -5,7 +5,7 @@
 import Foundation
 
 public extension AtmosphericEntity {
-    public enum IcingEntityType: String, CaseIterable, EntityType {
+    enum IcingEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case clearIcing = "01"
         case rimeIcing = "02"

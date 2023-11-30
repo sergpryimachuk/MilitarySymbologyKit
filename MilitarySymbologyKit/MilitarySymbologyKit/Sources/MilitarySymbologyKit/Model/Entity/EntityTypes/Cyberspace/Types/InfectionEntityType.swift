@@ -5,7 +5,7 @@
 import Foundation
 
 public extension CyberspaceEntity {
-    public enum InfectionEntityType: String, CaseIterable, Identifiable, EntityType {
+    enum InfectionEntityType: String, CaseIterable, Identifiable, EntityType {
         case none = "00"
         case advancedPersistentThreat = "01"
         case nonAdvancedPersistentThreat = "02"

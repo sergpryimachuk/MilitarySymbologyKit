@@ -14,9 +14,9 @@ public enum InfestationEntitySubtype: String, CaseIterable, EntitySubtype {
     case microbial = "03"
     case reptile = "04"
     case rodent = "05"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

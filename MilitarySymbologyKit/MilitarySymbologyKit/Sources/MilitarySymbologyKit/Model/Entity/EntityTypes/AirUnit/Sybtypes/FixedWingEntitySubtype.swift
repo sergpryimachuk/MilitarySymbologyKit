@@ -5,7 +5,7 @@
 import Foundation
 
 public extension AirUnitEntity.MilitaryEntityType {
-    public enum FixedWingEntitySubtype: String, CaseIterable, EntitySubtype {
+    enum FixedWingEntitySubtype: String, CaseIterable, EntitySubtype {
         case none = "00"
         case medicalEvacuationMEDEVAC = "01"
         case attackStrike = "02"

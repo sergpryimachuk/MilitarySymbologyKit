@@ -11,9 +11,9 @@ public enum IndividualEntityType: String, CaseIterable, EntityType {
     case none = "00"
     case religiousLeader = "01"
     case speaker = "02"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
@@ -24,7 +24,7 @@ public enum IndividualEntityType: String, CaseIterable, EntityType {
             String(localized: "Speaker", bundle: .module, comment: "Individual Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:

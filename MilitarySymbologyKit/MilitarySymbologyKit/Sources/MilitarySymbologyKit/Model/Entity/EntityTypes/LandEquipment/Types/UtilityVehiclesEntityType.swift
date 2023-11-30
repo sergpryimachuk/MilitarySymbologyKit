@@ -62,7 +62,7 @@ public enum UtilityVehiclesEntityType: String, CaseIterable, EntityType {
             String(localized: "Tow Truck", bundle: .module, comment: "Utility Vehicles Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .semiTrailerAndTruck:

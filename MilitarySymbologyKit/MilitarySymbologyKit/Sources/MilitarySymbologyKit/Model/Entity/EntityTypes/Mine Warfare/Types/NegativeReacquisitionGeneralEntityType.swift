@@ -5,7 +5,7 @@
 import Foundation
 
 public extension MineWarfareEntity {
-    public enum NegativeReacquisitionGeneralEntityType: String, CaseIterable, EntityType {
+    enum NegativeReacquisitionGeneralEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case bottom = "01"
         case moored = "02"

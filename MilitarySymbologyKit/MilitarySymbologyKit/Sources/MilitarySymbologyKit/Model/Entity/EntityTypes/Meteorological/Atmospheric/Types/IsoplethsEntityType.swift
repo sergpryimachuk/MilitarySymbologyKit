@@ -5,7 +5,7 @@
 import Foundation
 
 public extension AtmosphericEntity {
-    public enum IsoplethsEntityType: String, CaseIterable, EntityType {
+    enum IsoplethsEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case isobarSurface = "01"
         case contourUpperAir = "02"

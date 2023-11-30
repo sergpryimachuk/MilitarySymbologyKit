@@ -5,9 +5,9 @@
 import Foundation
 
 public extension OceanographicEntity {
-    public enum ManMadeStructuresEntityType: String, CaseIterable, EntityType {
+    enum ManMadeStructuresEntityType: String, CaseIterable, EntityType {
         public var subtypes: [AnyEntitySubtype] { [.none] }
-        
+
         case submarineCable = "01"
         case submergedCrib = "02"
         case canal = "03"

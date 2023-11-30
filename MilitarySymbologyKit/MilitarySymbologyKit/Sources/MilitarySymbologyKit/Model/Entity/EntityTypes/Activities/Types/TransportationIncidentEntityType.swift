@@ -14,9 +14,9 @@ public enum TransportationIncidentEntityType: String, CaseIterable, EntityType {
     case rail = "03"
     case vehicle = "04"
     case wheeledVehicleExplosion = "05"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
@@ -33,7 +33,7 @@ public enum TransportationIncidentEntityType: String, CaseIterable, EntityType {
             String(localized: "Wheeled Vehicle Explosion", bundle: .module, comment: "Transportation Incident Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:

@@ -34,7 +34,7 @@ public enum LandMinesEntityType: String, CaseIterable, EntityType {
             String(localized: "Less than Lethal", bundle: .module, comment: "Land Mines Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         [.none]
     }

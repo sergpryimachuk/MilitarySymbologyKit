@@ -5,7 +5,7 @@
 import Foundation
 
 public extension CyberspaceEntity {
-    public enum DeviceDomainEntityType: String, CaseIterable, Identifiable, EntityType {
+    enum DeviceDomainEntityType: String, CaseIterable, Identifiable, EntityType {
         case departmentOfDefense = "01"
         case government = "02"
         case contractor = "03"

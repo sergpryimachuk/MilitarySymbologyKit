@@ -5,7 +5,7 @@
 import Foundation
 
 public extension CyberspaceEntity {
-    public enum BotnetEntityType: String, CaseIterable, Identifiable, EntityType {
+    enum BotnetEntityType: String, CaseIterable, Identifiable, EntityType {
         case commandAndControl = "01"
         case herder = "02"
         case callbackDomain = "03"

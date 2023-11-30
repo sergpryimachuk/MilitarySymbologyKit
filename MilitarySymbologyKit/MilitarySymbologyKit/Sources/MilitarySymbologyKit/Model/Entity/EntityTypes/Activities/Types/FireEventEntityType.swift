@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 30.11.2023.
-//  
+//
 
 import Foundation
 
@@ -14,9 +14,9 @@ public enum FireEventEntityType: String, CaseIterable, EntityType {
     case schoolFire = "06"
     case specialNeedsFire = "07"
     case wildFire = "08"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
@@ -39,7 +39,7 @@ public enum FireEventEntityType: String, CaseIterable, EntityType {
             String(localized: "Wild Fire", bundle: .module, comment: "Fire Event Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         [.none]
     }

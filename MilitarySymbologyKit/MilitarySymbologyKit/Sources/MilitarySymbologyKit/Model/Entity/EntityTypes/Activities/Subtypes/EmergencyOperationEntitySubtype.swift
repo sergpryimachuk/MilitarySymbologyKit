@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 30.11.2023.
-//  
+//
 
 import Foundation
 
@@ -14,9 +14,9 @@ public enum EmergencyOperationEntitySubtype: String, CaseIterable, EntitySubtype
     case emergencyShelter = "06"
     case emergencyStagingArea = "07"
     case emergencyWaterDistributionCenter = "08"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
