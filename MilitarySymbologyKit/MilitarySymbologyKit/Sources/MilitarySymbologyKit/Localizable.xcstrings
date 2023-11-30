@@ -1,30 +1,32 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "%@ - %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ - %2$@"
-          }
-        }
-      }
-    },
     "Activities" : {
       "comment" : "Dimension"
     },
     "Administrative" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Adult Day Care" : {
+      "comment" : "Special Needs Infrastructure Subtype"
+    },
     "Advanced Persistent Threat (APT)" : {
       "comment" : "Infection Entity Type"
+    },
+    "Aftershock" : {
+      "comment" : "Geologic Entity Subtype"
+    },
+    "Agriculture and Food Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
+    "Agriculture Laboratory" : {
+      "comment" : "Agriculture and Food Infrastructure Subtype"
     },
     "Aids to Navigation" : {
       "comment" : "Hydrography Entity Type"
     },
     "Air" : {
-      "comment" : "Dimension"
+      "comment" : "Dimension\nTransportation Incident Entity Type"
     },
     "Air Assault with Organic Lift" : {
       "comment" : "Movement and Maneuver Entity Type"
@@ -32,8 +34,17 @@
     "Air Defense" : {
       "comment" : "Fire Support Entity Type"
     },
+    "Air Defense Gun" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Air Defense Missile Launcher" : {
+      "comment" : "Weapon System Entity Type"
+    },
     "Air Missile" : {
       "comment" : "Dimension"
+    },
+    "Air Traffic Control Facility" : {
+      "comment" : "Transportation Infrastructure Subtype"
     },
     "Air Traffic Services/Airfield Operations" : {
       "comment" : "Movement and Maneuver Entity Type"
@@ -41,29 +52,173 @@
     "Air-Land-Naval Gunfire Liaison" : {
       "comment" : "Fire Support Entity Type"
     },
+    "Airborne Command Post (ACP)" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Airborne Early Warning (AEW)" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Aircraft Production/Assembly" : {
+      "comment" : "Installation Entity Type"
+    },
     "Airport of Debarkation/Airport of Embarkation" : {
       "comment" : "Sustainment Entity Type"
+    },
+    "Airport/Air Base" : {
+      "comment" : "Transportation Infrastructure Subtype"
+    },
+    "Airship" : {
+      "comment" : "Military Entity Type\nCivilian Entity Type"
     },
     "All Classes of Supply" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Allied Command Europe Rapid Reaction Corps (ARRC)" : {
+      "comment" : "Named Headquarters Entity Type"
+    },
+    "Allied Command Operations" : {
+      "comment" : "Named Headquarters Entity Type"
+    },
+    "Ambulance" : {
+      "comment" : "Emergency Operation Entity Type"
+    },
     "Ammunition" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Ammunition and Explosives/Assembly" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Ammunition Cache" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Ammunition Ship" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
+    },
     "Amphibious" : {
-      "comment" : "Equipment mobility on water amplifier descriptor\nMovement and Maneuver Entity Type"
+      "comment" : "Infantry Entity Subtype\nMovement and Maneuver Entity Type\nEquipment mobility on water amplifier descriptor\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype"
+    },
+    "Amphibious Assault Ship, General" : {
+      "comment" : "Amphibious Warfare Ship Entity Subtype"
+    },
+    "Amphibious Assault Ship, Helicopter" : {
+      "comment" : "Amphibious Warfare Ship Entity Subtype"
+    },
+    "Amphibious Assault Ship, Multipurpose" : {
+      "comment" : "Amphibious Warfare Ship Entity Subtype"
+    },
+    "Amphibious Assault, Non-specified" : {
+      "comment" : "Amphibious Warfare Ship Entity Subtype"
+    },
+    "Amphibious Command Ship" : {
+      "comment" : "Amphibious Warfare Ship Entity Subtype"
+    },
+    "Amphibious Transport Dock" : {
+      "comment" : "Amphibious Warfare Ship Entity Subtype"
+    },
+    "Amphibious Utility Wheeled Vehicle" : {
+      "comment" : "Utility Vehicles Entity Type"
+    },
+    "Amphibious Warfare Ship" : {
+      "comment" : "Military Combatant Entity Type"
     },
     "Amplifier" : {
 
     },
     "Analysis" : {
-      "comment" : "Intelligence Entity Type"
+      "comment" : "Intelligence Entity Type\nElectronic Warfare Entity Subtype"
+    },
+    "Animal Feedlot" : {
+      "comment" : "Agriculture and Food Infrastructure Subtype"
+    },
+    "Antennae" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Anticyclone Center" : {
+      "comment" : "High Pressure Center Entity Subtype"
+    },
+    "Antipersonnel Land Mine (APL)" : {
+      "comment" : "Land Mines Entity Type"
+    },
+    "Antisubmarine Warfare" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Antisurface Warfare" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Antitank Gun" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Antitank Mine" : {
+      "comment" : "Land Mines Entity Type"
+    },
+    "Antitank Missile Launcher" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Antitank Rocket Launcher" : {
+      "comment" : "Weapon System Entity Type"
     },
     "Antitank/Antiarmor" : {
       "comment" : "Movement and Maneuver Entity Type"
     },
+    "APT Other" : {
+      "comment" : "APT Entity Subtype"
+    },
+    "APT with C2" : {
+      "comment" : "APT Entity Subtype"
+    },
+    "APT with C2 and Self Propagation" : {
+      "comment" : "APT Entity Subtype"
+    },
+    "APT with Self Propagation" : {
+      "comment" : "APT Entity Subtype"
+    },
+    "Armament Production" : {
+      "comment" : "Installation Entity Type"
+    },
     "Armor/Armored/Mechanized/Self-Propelled/Tracked" : {
       "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Armored" : {
+      "comment" : "Antitank/Antiarmor Entity Subtype"
+    },
+    "Armored Assault" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Armored Carrier with Volcano" : {
+      "comment" : "Mine Laying Equipment Entity Subtype"
+    },
+    "Armored Engineer Recon Vehicle (AERV)" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Armored Fighting Vehicle" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
+    "Armored Fighting Vehicle Command and Control" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
+    "Armored Personnel Carrier" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
+    "Armored Personnel Carrier Ambulance" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
+    "Armored Personnel Carrier Recovery" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
+    "Armored Protected Vehicle" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
+    "Armored Protected Vehicle Medical Evacuation" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
+    "Armored Protected Vehicle Recovery" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
+    "Armored Vehicle" : {
+      "comment" : "Vehicle Entity Type"
+    },
+    "Armored/Mechanized/Tracked" : {
+      "comment" : "Infantry Entity Subtype\nMortar Entity Subtype"
     },
     "Army" : {
       "comment" : "Echelon at division and above amplifier descriptor"
@@ -74,8 +229,44 @@
     "Army Group/Front" : {
       "comment" : "Echelon at division and above amplifier descriptor"
     },
+    "Arrest" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Arson" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
     "Assumed Friend" : {
       "comment" : "Standard identity"
+    },
+    "ATM" : {
+      "comment" : "Banking, Finance, and Insurance Infrastructure Subtype"
+    },
+    "Attack/Strike" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Attempted Criminal Activity" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Automatic Rifle" : {
+      "comment" : "Rifle Entity Subtype"
+    },
+    "Automobile" : {
+      "comment" : "Civilian Vehicle Entity Type"
+    },
+    "Autonomous Underwater Vehicle (AUV)/Underwater Vehicle (UUV)" : {
+      "comment" : "Civilian Entity Type"
+    },
+    "Autonomous Underwater Vehicle (AUV)/Unmanned Underwater Vehicle (UUV)" : {
+      "comment" : "Military Entity Type"
+    },
+    "Auxiliary Flag Ship" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
+    },
+    "Auxiliary Ship" : {
+      "comment" : "Military Noncombatant Entity Type"
+    },
+    "Avalanche" : {
+      "comment" : "Geologic Entity Subtype"
     },
     "Aviation Composite" : {
       "comment" : "Movement and Maneuver Entity Type"
@@ -83,20 +274,77 @@
     "Aviation Fixed Wing" : {
       "comment" : "Movement and Maneuver Entity Type"
     },
+    "Backhoe" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
     "Band" : {
       "comment" : "Sustainment Entity Type"
+    },
+    "Bank" : {
+      "comment" : "Banking, Finance, and Insurance Infrastructure Subtype"
+    },
+    "Banking, Finance, and Insurance Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
     },
     "Barge" : {
       "comment" : "Equipment mobility on water amplifier descriptor"
     },
+    "Barge, Not Self-Propelled" : {
+      "comment" : "Merchant Ship Entity Subtype\nService Craft Yard Entity Subtype"
+    },
+    "Barge, Self-Propelled" : {
+      "comment" : "Service Craft Yard Entity Subtype"
+    },
     "Battalion/Squadron" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Battleship" : {
+      "comment" : "Surface Combatant Line Entity Subtype"
     },
     "Beach Slope" : {
       "comment" : "Oceanography Entity Type"
     },
     "Bioluminescence" : {
       "comment" : "Oceanography Entity Type"
+    },
+    "Bird" : {
+      "comment" : "Infestation Entity Subtype"
+    },
+    "Black List Location" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Black Marketing" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Blowing Dust or Sand" : {
+      "comment" : "Dust or Sand Entity Subtype"
+    },
+    "Blowing Snow - Heavy" : {
+      "comment" : "Snow Entity Subtype"
+    },
+    "Blowing Snow - Light/Moderate" : {
+      "comment" : "Snow Entity Subtype"
+    },
+    "Bomb" : {
+      "comment" : "Other Equipment Entity Type\nWeapon Entity Type"
+    },
+    "Bomb Explosion" : {
+      "comment" : "Explosion Entity Subtype"
+    },
+    "Bomb Threat" : {
+      "comment" : "Bomb/Bombing Entity Subtype"
+    },
+    "Bomb/Bombing" : {
+      "comment" : "Incident Entity Type"
+    },
+    "Bomber" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Booby Trap" : {
+      "comment" : "Other Equipment Entity Type\nCriminal Activity Incident Entity Subtype"
+    },
+    "Border Patrol" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
     },
     "Botnet" : {
       "comment" : "Cyberspace Entity Type"
@@ -107,6 +355,12 @@
     "Bounded Areas of Weather" : {
       "comment" : "Atmospheric Entity Type"
     },
+    "Bridge" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type\nBridge Subtype"
+    },
+    "Bridge Mounted on Utility Vehicle" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
     "Brigade" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
     },
@@ -114,7 +368,31 @@
       "comment" : "Sustainment Entity Type"
     },
     "Broadcast Transmitter Antennae" : {
-      "comment" : "Command and Control Entity Type"
+      "comment" : "Command and Control Entity Type\nTelecommunications Infrastructure Subtype"
+    },
+    "Broken Coverage" : {
+      "comment" : "Cloud Coverage Symbols Entity Subtype"
+    },
+    "Bullion Storage" : {
+      "comment" : "Banking, Finance, and Insurance Infrastructure Subtype"
+    },
+    "Bureau of Alcohol Tobacco Firearms and Explosives (ATF) (Department of Justice)" : {
+      "comment" : "Law Enforcement Entity Type"
+    },
+    "Bureau of Alcohol-Tobacco-Firearms and Explosives (ATF) (Department of Justice)" : {
+      "comment" : "Law Enforcement Subtype"
+    },
+    "Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)" : {
+      "comment" : "Law Enforcement Operation Entity Subtype"
+    },
+    "Burglary" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Bus" : {
+      "comment" : "Utility Vehicles Entity Type"
+    },
+    "Bus Station" : {
+      "comment" : "Transportation Infrastructure Subtype"
     },
     "Callback Domain" : {
       "comment" : "Botnet Entity Type"
@@ -125,35 +403,104 @@
     "Canal" : {
       "comment" : "Man-Made Structures Entity Type"
     },
+    "Cargo" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Cargo, General" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Carrier" : {
+      "comment" : "Military Combatant Entity Type"
+    },
+    "Cave Entrance" : {
+      "comment" : "Geologic Entity Subtype"
+    },
+    "CBRN Equipment" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Chemical Agent" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
     "Chemical Biological Radiological Nuclear Defense" : {
       "comment" : "Protection Entity Type"
+    },
+    "Chemical Plant" : {
+      "comment" : "Commercial Infrastructure Subtype"
+    },
+    "Chemical-Biological-Radiological and Nuclear (CBRN)" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Child Day Care" : {
+      "comment" : "Special Needs Infrastructure Subtype"
     },
     "Civil Affairs" : {
       "comment" : "Command and Control Entity Type"
     },
+    "Civil Disturbance" : {
+      "comment" : "Activities Entity"
+    },
     "Civil Military Cooperation" : {
       "comment" : "Command and Control Entity Type"
     },
+    "Civil Rioting" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
     "Civilian" : {
-      "comment" : "Air Unit Entity"
+      "comment" : "Sea Subsurface Entity\nAir Unit Entity\nSea Surface Entity"
+    },
+    "Civilian Vehicle" : {
+      "comment" : "Land Equipment Entity"
     },
     "Clear Icing" : {
       "comment" : "Icing Entity Type"
     },
+    "Clear Sky" : {
+      "comment" : "Cloud Coverage Symbols Entity Subtype"
+    },
     "Cloud Cover" : {
       "comment" : "Atmospheric Entity Type"
+    },
+    "Cloud Coverage Symbols" : {
+      "comment" : "Cloud Cover Entity Type"
+    },
+    "Coast Guard" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
     },
     "Coastal Hydrography" : {
       "comment" : "Hydrography Entity Type"
     },
+    "Coerced/Impressed" : {
+      "comment" : "Recruitment Entity Subtype"
+    },
+    "Cold Front" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Cold Frontogenesis" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Cold Frontolysis" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "College/University" : {
+      "comment" : "Educational Facilities Infrastructure Subtype"
+    },
     "Combat" : {
       "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Combat Search and Rescue (CSAR)" : {
+      "comment" : "Fixed Wing Entity Subtype"
     },
     "Combat Service Support" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Combat Service Support Vehicle" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
     "Combat Support (Maneuver Enhancement)" : {
       "comment" : "Protection Entity Type"
+    },
+    "Combat Support Ship, Fast" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
     },
     "Combined Arms" : {
       "comment" : "Movement and Maneuver Entity Type"
@@ -167,38 +514,110 @@
     "Command and Control (C2)" : {
       "comment" : "Botnet Entity Type"
     },
+    "Command Launch Equipment (CLE)" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Commercial Food Distribution Center" : {
+      "comment" : "Agriculture and Food Infrastructure Subtype"
+    },
+    "Commercial Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
     "Communications" : {
-      "comment" : "Signal Intercept Entity Type"
+      "comment" : "Fixed Wing Entity Subtype\nSignal Intercept Entity Type"
+    },
+    "Compact or Wet Snow (At Least One-Half of Ground)" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Compact or Wet Snow (Less Than One-Half of Ground)" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
     },
     "Company/Battery/Troop" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
     },
+    "Computer System" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Construction Vehicle" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Container Ship" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Contaminated Hazardous Waste Site" : {
+      "comment" : "Commercial Infrastructure Subtype"
+    },
     "Context" : {
 
+    },
+    "Continuous Light" : {
+      "comment" : "Rain Entity Subtype"
+    },
+    "Contour - Upper Air" : {
+      "comment" : "Isopleths Entity Type"
     },
     "Contractor" : {
       "comment" : "Device Domain Entity Type"
     },
-    "Control Measure" : {
-      "comment" : "Dimension"
+    "Control Valve" : {
+      "comment" : "Water Supply Infrastructure Subtype"
+    },
+    "Convergence Line" : {
+      "comment" : "Lines Entity Subtype"
+    },
+    "Convoy" : {
+      "comment" : "Navy Task Organization Entity Subtype"
+    },
+    "Copy" : {
+
     },
     "Core Router" : {
       "comment" : "Device Type Entity Type"
     },
+    "Corps Support" : {
+      "comment" : "Signal Entity Subtype\nAmplifier Entity Subtype"
+    },
     "Corps/MEF" : {
       "comment" : "Echelon at division and above amplifier descriptor"
+    },
+    "Corrosive Material" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Corvette" : {
+      "comment" : "Surface Combatant Line Entity Subtype"
     },
     "Counterintelligence" : {
       "comment" : "Intelligence Entity Type"
     },
+    "Crane/Loading Device" : {
+      "comment" : "Missile Support Entity Type"
+    },
+    "Criminal Activity Incident" : {
+      "comment" : "Incident Entity Type"
+    },
     "Criminal Investigation Division" : {
       "comment" : "Protection Entity Type"
+    },
+    "Cross Country Truck" : {
+      "comment" : "Utility Vehicles Entity Type"
     },
     "Cross Domain Solution" : {
       "comment" : "Device Type Entity Type"
     },
+    "Cruiser" : {
+      "comment" : "Surface Combatant Line Entity Subtype"
+    },
+    "Customs Service" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
+    },
     "Cyberspace" : {
       "comment" : "Dimension"
+    },
+    "Cyclone Center" : {
+      "comment" : "Low Pressure Center Entity Subtype"
+    },
+    "Dam" : {
+      "comment" : "Water Supply Infrastructure Subtype"
     },
     "Dangers/Hazards" : {
       "comment" : "Hydrography Entity Type"
@@ -209,17 +628,32 @@
     "Data Spoofing" : {
       "comment" : "Effect Entity Type"
     },
+    "Dead Body" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Decoy" : {
+      "comment" : "Weapon Entity Type\nMilitary Combatant Entity Type"
+    },
     "Degradation" : {
       "comment" : "Effect Entity Type"
     },
+    "Demonstration" : {
+      "comment" : "Civil Disturbance Entity Type"
+    },
     "Department of Defense (DoD)" : {
       "comment" : "Device Domain Entity Type"
+    },
+    "Department of Justice (DOJ)" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
     },
     "Depth" : {
       "comment" : "Hydrography Entity Type"
     },
     "Descriptor" : {
 
+    },
+    "Destroyer" : {
+      "comment" : "Surface Combatant Line Entity Subtype"
     },
     "Device Domain" : {
       "comment" : "Cyberspace Entity Type"
@@ -233,11 +667,23 @@
     "Dimention" : {
 
     },
+    "Direct Fire Gun" : {
+      "comment" : "Weapon System Entity Type"
+    },
     "Direction Finding" : {
-      "comment" : "Intelligence Entity Type"
+      "comment" : "Intelligence Entity Type\nElectronic Warfare Entity Subtype"
+    },
+    "Discharge Outfall" : {
+      "comment" : "Water Supply Infrastructure Subtype"
+    },
+    "Displaced Persons / Refugee / Evacuees Camp" : {
+      "comment" : "Tented Camp Subtype"
     },
     "Dive Report Location" : {
       "comment" : "Mine Warfare Entity"
+    },
+    "Diver" : {
+      "comment" : "Military Entity Type\nCivilian Entity Type"
     },
     "Diving" : {
       "comment" : "Protection Entity Type"
@@ -245,17 +691,71 @@
     "Division" : {
       "comment" : "Echelon at division and above amplifier descriptor"
     },
+    "Division and Below Support" : {
+      "comment" : "Signal Entity Subtype\nAmplifier Entity Subtype"
+    },
     "Dog" : {
       "comment" : "Protection Entity Type"
     },
     "Domain Server" : {
       "comment" : "Device Type Entity Type"
     },
+    "Dozer" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Dozer-Armored" : {
+      "comment" : "Entity Subtype"
+    },
+    "Dredge" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Dredger" : {
+      "comment" : "Fishing Vessel Entity Subtype"
+    },
+    "Drifter" : {
+      "comment" : "Fishing Vessel Entity Subtype"
+    },
+    "Drill" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Drill Mounted on Utility Vehicle" : {
+      "comment" : "Drill Entity Subtype"
+    },
     "Drilling" : {
       "comment" : "Protection Entity Type"
     },
+    "Drive-by Shooting" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Drizzle" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Drought" : {
+      "comment" : "Hydro-Meteorological Entity Subtype"
+    },
+    "Drug Enforcement Administration (DEA)" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
+    },
+    "Drug Related" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Drug Vehicle" : {
+      "comment" : "Civilian Vehicle Entity Type"
+    },
+    "Dust Devil" : {
+      "comment" : "Dust or Sand Entity Subtype"
+    },
+    "Dust or Sand" : {
+      "comment" : "Weather Symbols Entity Type\nBounded Areas of Weather Entity Type"
+    },
     "Dynamic Processes" : {
       "comment" : "Ice Systems Entity Type"
+    },
+    "Earthmover" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Earthquake Epicenter" : {
+      "comment" : "Geologic Entity Subtype"
     },
     "Echelon at brigade and below" : {
       "comment" : "Amplifier"
@@ -263,26 +763,101 @@
     "Echelon at division and above" : {
       "comment" : "Amplifier"
     },
+    "Echo Tracker Classifier (ETC) / Possible Contact (POSCON)" : {
+      "comment" : "Sea Subsurface Entity"
+    },
+    "Economic Infrastructure Asset" : {
+      "comment" : "Banking, Finance, and Insurance Infrastructure Subtype"
+    },
+    "Educational Facilities Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
     "Effect" : {
       "comment" : "Cyberspace Entity Type"
+    },
+    "Elder Care" : {
+      "comment" : "Special Needs Infrastructure Subtype"
+    },
+    "Electric Power" : {
+      "comment" : "Energy Facility Infrastructure Subtype"
+    },
+    "Electronic Attack (EA)" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Electronic Combat (EC)/Jammer" : {
+      "comment" : "Fixed Wing Entity Subtype"
     },
     "Electronic Ranging" : {
       "comment" : "Intelligence Entity Type"
     },
+    "Electronic Support (ES)" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
     "Electronic Warfare" : {
       "comment" : "Intelligence Entity Type"
     },
+    "Emergency Collection Evacuation Point" : {
+      "comment" : "Emergency Operation Entity Subtype"
+    },
+    "Emergency Food Distribution" : {
+      "comment" : "Emergency Operation Entity Subtype"
+    },
+    "Emergency Incident Command Center" : {
+      "comment" : "Emergency Operation Entity Subtype"
+    },
+    "Emergency Medical Operation" : {
+      "comment" : "Other Equipment Entity Type\nOperation Entity Type\nEmergency Operation Subtype"
+    },
     "Emergency Operation" : {
-      "comment" : "Land Unit Entity"
+      "comment" : "Land Equipment Entity\nInstallation Entity Type\nOperation Entity Type\nLand Unit Entity"
+    },
+    "Emergency Operations Center" : {
+      "comment" : "Emergency Operation Entity Subtype"
+    },
+    "Emergency Public Information Center" : {
+      "comment" : "Emergency Operation Entity Subtype"
+    },
+    "Emergency Shelter" : {
+      "comment" : "Emergency Operation Entity Subtype"
+    },
+    "Emergency Staging Area" : {
+      "comment" : "Emergency Operation Entity Subtype"
+    },
+    "Emergency Water Distribution Center" : {
+      "comment" : "Emergency Operation Entity Subtype"
+    },
+    "EMT Station Location" : {
+      "comment" : "Emergency Medical Operation Entity Subtype"
+    },
+    "Enclosed Facility" : {
+      "comment" : "Public Venues Infrastructure Subtype"
+    },
+    "Energy Facility Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
     },
     "Engineer" : {
       "comment" : "Protection Entity Type"
     },
+    "Engineer Vehicles and Equipment" : {
+      "comment" : "Land Equipment Entity"
+    },
+    "Engineering Equipment Production" : {
+      "comment" : "Installation Entity Type"
+    },
     "Entity" : {
+
+    },
+    "Entity Subtype" : {
+
+    },
+    "Entity Type" : {
 
     },
     "Environmental Report Location" : {
       "comment" : "Mine Warfare Entity"
+    },
+    "Equipment Manufacture" : {
+      "comment" : "Installation Entity Type"
     },
     "Equipment mobility on land" : {
       "comment" : "Amplifier"
@@ -293,20 +868,71 @@
     "Equipment mobility on water" : {
       "comment" : "Amplifier"
     },
+    "Escort" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Even Layer of Compact or Wet Snow" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Even Layer of Loose Dry Snow" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+    },
     "Exercise" : {
       "comment" : "Context"
+    },
+    "Exercise Mine - Bottom" : {
+      "comment" : "Exercise Mine General Subtype"
+    },
+    "Exercise Mine - Floating" : {
+      "comment" : "Exercise Mine General Subtype"
+    },
+    "Exercise Mine - Moored" : {
+      "comment" : "Exercise Mine General Subtype"
+    },
+    "Exercise Mine - Rising" : {
+      "comment" : "Exercise Mine General Subtype"
     },
     "Exercise Mine-General" : {
       "comment" : "Sea Mine General Entity Type"
     },
     "Exfiltration" : {
-      "comment" : "Effect Entity Type"
+      "comment" : "Effect Entity Type\nOperation Entity Type"
+    },
+    "Explosion" : {
+      "comment" : "Incident Entity Type"
+    },
+    "Explosive Material" : {
+      "comment" : "Hazard Materials Incident Subtype"
     },
     "Explosive Ordnance Disposal (EOD)" : {
       "comment" : "Protection Entity Type"
     },
+    "Extortion" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
     "Extreme" : {
       "comment" : "Turbulence Entity Type"
+    },
+    "Extremely Dry with Cracks" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Fall" : {
+      "comment" : "Pressure Tendency Entity Subtype"
+    },
+    "Fall Then Rise Lower" : {
+      "comment" : "Pressure Tendency Entity Subtype"
+    },
+    "Fall Then Steady" : {
+      "comment" : "Pressure Tendency Entity Subtype"
+    },
+    "Farm/Ranch" : {
+      "comment" : "Agriculture and Food Infrastructure Subtype"
+    },
+    "Federal Bureau of Investigation (FBI)" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
+    },
+    "Federal Reserve Bank" : {
+      "comment" : "Banking, Finance, and Insurance Infrastructure Subtype"
     },
     "Feint/Dummy" : {
       "comment" : "Headquarters/Task force/Dummy"
@@ -320,6 +946,18 @@
     "Feint/Dummy Task Force Headquarters" : {
       "comment" : "Headquarters/Task force/Dummy"
     },
+    "Ferry" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Ferry Terminal" : {
+      "comment" : "Transportation Infrastructure Subtype"
+    },
+    "Ferry Transporter" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Few Coverage" : {
+      "comment" : "Cloud Coverage Symbols Entity Subtype"
+    },
     "Field Artillery" : {
       "comment" : "Fire Support Entity Type"
     },
@@ -329,14 +967,47 @@
     "Field Camp Construction" : {
       "comment" : "Protection Entity Type"
     },
+    "Fighter" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Fighter/Bomber" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
     "File Server" : {
       "comment" : "Device Type Entity Type"
     },
     "Finance" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Financial Exchange" : {
+      "comment" : "Banking, Finance, and Insurance Infrastructure Subtype"
+    },
+    "Financial Services-Other" : {
+      "comment" : "Banking, Finance, and Insurance Infrastructure Subtype"
+    },
+    "Fire Event" : {
+      "comment" : "Activities Entity"
+    },
+    "Fire Fighting Operation" : {
+      "comment" : "Operation Entity Type"
+    },
     "Fire Fighting/Fire Protection" : {
-      "comment" : "Protection Entity Type"
+      "comment" : "Emergency Operation Entity Type\nProtection Entity Type"
+    },
+    "Fire Hydrant" : {
+      "comment" : "Firefighting Operation Entity Subtype"
+    },
+    "Fire Origin" : {
+      "comment" : "Fire Event Entity Type"
+    },
+    "Fire Station" : {
+      "comment" : "Firefighting Operation Entity Subtype\nEmergency Operation Subtype"
+    },
+    "Firearms Manufacturer" : {
+      "comment" : "Commercial Infrastructure Subtype"
+    },
+    "Firearms Retailer" : {
+      "comment" : "Commercial Infrastructure Subtype"
     },
     "Fires" : {
       "comment" : "Land Unit Entity"
@@ -344,17 +1015,104 @@
     "Firewall" : {
       "comment" : "Device Type Entity Type"
     },
+    "Fishing Vessel" : {
+      "comment" : "Civilian Entity Type"
+    },
+    "Fixed Bridge" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Fixed Wing" : {
+      "comment" : "Civilian Entity Type"
+    },
+    "Fixed Wing MISO" : {
+      "comment" : "Special Operations Forces Entity Subtype"
+    },
+    "Fixed-Wing" : {
+      "comment" : "Military Entity Type"
+    },
+    "Flame Thrower" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Flammable Gas" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Flammable Liquid" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Flammable Solid" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Floating Bridge" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Flood" : {
+      "comment" : "Hydro-Meteorological Entity Subtype"
+    },
+    "Fog" : {
+      "comment" : "Weather Symbols Entity Type\nBounded Areas of Weather Entity Type"
+    },
+    "Folding Girder Bridge" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Food Distribution" : {
+      "comment" : "Agriculture and Food Infrastructure Subtype"
+    },
+    "Food Production Center" : {
+      "comment" : "Agriculture and Food Infrastructure Subtype"
+    },
+    "Food Retail" : {
+      "comment" : "Agriculture and Food Infrastructure Subtype"
+    },
+    "Foraging/Searching" : {
+      "comment" : "Operation Entity Type"
+    },
     "Ford" : {
       "comment" : "Man-Made Structures Entity Type"
+    },
+    "Freezing Drizzle" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Freezing Level" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Freezing Rain" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Freezing-Sky Obscured" : {
+      "comment" : "Fog Entity Subtype"
+    },
+    "Freezing-Sky Visible" : {
+      "comment" : "Fog Entity Subtype"
+    },
+    "Freezing/Frozen Precipitation" : {
+      "comment" : "Bounded Areas of Weather Entity Type"
     },
     "Friend" : {
       "comment" : "Standard identity"
     },
+    "Frigate" : {
+      "comment" : "Surface Combatant Line Entity Subtype"
+    },
     "Frontal Systems" : {
       "comment" : "Pressure Systems Entity Type"
     },
+    "Funnel Cloud (Tornado/Waterspout)" : {
+      "comment" : "Storms Entity Subtype"
+    },
+    "Fused Track" : {
+      "comment" : "Sea Subsurface Entity\nSea Surface Entity"
+    },
     "General Mine Anchor" : {
       "comment" : "Mine Warfare Entity"
+    },
+    "Generation Station" : {
+      "comment" : "Energy Facility Infrastructure Subtype"
+    },
+    "Generator Set" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Geologic" : {
+      "comment" : "Natural Event Entity Type"
     },
     "Geophysics/Acoustics" : {
       "comment" : "Oceanographic Entity Type"
@@ -362,14 +1120,89 @@
     "Geospatial Support/Geospatial Information Support" : {
       "comment" : "Protection Entity Type"
     },
+    "Glaze (Thin Ice) on Ground" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+    },
     "Government" : {
-      "comment" : "Device Domain Entity Type"
+      "comment" : "Fixed Wing Entity Subtype\nDevice Domain Entity Type"
+    },
+    "Government Leadership" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Government Site Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
+    "Graffiti" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Grain Storage" : {
+      "comment" : "Agriculture and Food Infrastructure Subtype"
+    },
+    "Gray List Location" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Grenade Explosion" : {
+      "comment" : "Explosion Entity Subtype"
+    },
+    "Grenade Launcher" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Ground" : {
+      "comment" : "Special Operations Forces Entity Subtype"
+    },
+    "Ground Water Well" : {
+      "comment" : "Water Supply Infrastructure Subtype"
+    },
+    "Ground-based Midcourse Defense (GMD) Fire Control (GFC) Center" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Hail" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Hazard Materials" : {
+      "comment" : "Activities Entity"
+    },
+    "Hazard Materials Incident" : {
+      "comment" : "Hazard Materials Entity Type"
+    },
+    "Hazardous Material Production" : {
+      "comment" : "Commercial Infrastructure Subtype"
+    },
+    "Hazardous Material Storage" : {
+      "comment" : "Commercial Infrastructure Subtype"
+    },
+    "Hazardous When Wet" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Haze" : {
+      "comment" : "Weather Symbols Entity Type"
     },
     "Headquarters" : {
       "comment" : "Headquarters/Task force/Dummy"
     },
+    "Headquarters Element" : {
+      "comment" : "Signal Entity Subtype\nAmplifier Entity Subtype"
+    },
     "Health and Status" : {
       "comment" : "Cyberspace Entity Type"
+    },
+    "Health Department Facility" : {
+      "comment" : "Emergency Medical Operation Entity Subtype"
+    },
+    "Heavy" : {
+      "comment" : "Light/Heavy Entity Subtype\nAir Defense Missile Launcher Entity Subtype\nLight/Medium/Heavy Entity Subtype"
+    },
+    "Heavy Lift" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Heavy, TELAR" : {
+      "comment" : "Air Defense Missile Launcher Entity Subtype"
+    },
+    "Heavy, TLAR" : {
+      "comment" : "Air Defense Missile Launcher Entity Subtype"
+    },
+    "Helicopter Landing Site" : {
+      "comment" : "Transportation Infrastructure Subtype"
     },
     "Herder" : {
       "comment" : "Botnet Entity Type"
@@ -377,20 +1210,50 @@
     "High Pressure Center" : {
       "comment" : "Pressure Systems Entity Type"
     },
+    "Hollow Deck Bridge" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Home Eviction" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Hospital Ship" : {
+      "comment" : "Merchant Ship Entity Subtype\nAuxiliary Ship Entity Subtype"
+    },
     "Host" : {
       "comment" : "Device Type Entity Type"
     },
     "Hostile/Faker" : {
       "comment" : "Standard identity"
     },
+    "Hot Spot" : {
+      "comment" : "Fire Event Entity Type"
+    },
+    "Hovercraft" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Howitzer" : {
+      "comment" : "Weapon System Entity Type"
+    },
     "HQ / Task Force / Dummy" : {
 
+    },
+    "Hurricane/Typhoon" : {
+      "comment" : "Tropical Storm Systems Entity Subtype"
+    },
+    "Hydro-Meteorological" : {
+      "comment" : "Natural Event Entity Type"
     },
     "Hydrography" : {
       "comment" : "Oceanographic Entity Type"
     },
     "Ice Concentration" : {
       "comment" : "Ice Systems Entity Type"
+    },
+    "Ice Crystals (Diamond Dust)" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Ice Pellets (Sleet)" : {
+      "comment" : "Weather Symbols Entity Type"
     },
     "Ice Systems" : {
       "comment" : "Oceanographic Entity Type"
@@ -399,37 +1262,160 @@
       "comment" : "Ice Systems Entity Type"
     },
     "Icing" : {
-      "comment" : "Atmospheric Entity Type"
+      "comment" : "Atmospheric Entity Type\nBounded Areas of Weather Entity Type"
+    },
+    "IED Cache" : {
+      "comment" : "IED Event Entity Subtype"
+    },
+    "IED Event" : {
+      "comment" : "Incident Entity Type"
+    },
+    "IED Explosion" : {
+      "comment" : "IED Event Entity Subtype"
+    },
+    "IED Suicide Bomber" : {
+      "comment" : "IED Event Entity Subtype"
+    },
+    "Illegal Drug Lab" : {
+      "comment" : "Illegal Drug Operation Entity Subtype"
+    },
+    "Illegal Drug Operation" : {
+      "comment" : "Incident Entity Type"
     },
     "Impaired" : {
       "comment" : "Health and Status Entity Type"
     },
+    "Improvised Explosive Device (IED)" : {
+      "comment" : "Weapon Entity Type"
+    },
+    "Improvised Explosives Device (IED)" : {
+      "comment" : "Land Mines Entity Type"
+    },
+    "In-Flight Interceptor Communications System (IFICS) Data Terminal (IDT)" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Incendiary Explosion" : {
+      "comment" : "Explosion Entity Subtype"
+    },
+    "Incident" : {
+      "comment" : "Activities Entity"
+    },
+    "Individual" : {
+      "comment" : "Activities Entity"
+    },
+    "Industrial Site" : {
+      "comment" : "Commercial Infrastructure Subtype"
+    },
     "Infantry" : {
       "comment" : "Movement and Maneuver Entity Type"
     },
+    "Infantry Fighting Vehicle" : {
+      "comment" : "Infantry Entity Subtype"
+    },
     "Infection" : {
-      "comment" : "Effect Entity Type\nCyberspace Entity Type"
+      "comment" : "Cyberspace Entity Type\nEffect Entity Type"
+    },
+    "Infestation" : {
+      "comment" : "Natural Event Entity Type"
+    },
+    "Infiltration" : {
+      "comment" : "Operation Entity Type"
     },
     "Information Operations" : {
       "comment" : "Command and Control Entity Type"
     },
+    "Infrastructure" : {
+      "comment" : "Land Installation Entity"
+    },
+    "Insect" : {
+      "comment" : "Infestation Entity Subtype"
+    },
+    "Instability Line" : {
+      "comment" : "Lines Entity Subtype"
+    },
+    "Installation" : {
+      "comment" : "Land Installation Entity"
+    },
+    "Instrument Flight Rule (IFR)" : {
+      "comment" : "Bounded Areas of Weather Entity Type"
+    },
     "Intelligence" : {
       "comment" : "Land Unit Entity"
+    },
+    "Intelligence Collector" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
+    },
+    "Inter-Tropical Convergence Zone" : {
+      "comment" : "Lines Entity Subtype"
+    },
+    "Inter-Tropical Discontinuity" : {
+      "comment" : "Lines Entity Subtype"
+    },
+    "Intercept" : {
+      "comment" : "Electronic Warfare Entity Subtype"
     },
     "Intercept (Search and Recording)" : {
       "comment" : "Intelligence Entity Type"
     },
+    "Intermittent Heavy" : {
+      "comment" : "Rain Entity Subtype\nDrizzle Entity Subtype\nSnow Entity Subtype"
+    },
+    "Intermittent Heavy/Continuous Heavy" : {
+      "comment" : "Rain Entity Subtype\nDrizzle Entity Subtype\nSnow Entity Subtype"
+    },
+    "Intermittent Light" : {
+      "comment" : "Rain Entity Subtype\nDrizzle Entity Subtype\nSnow Entity Subtype"
+    },
+    "Intermittent Light/Continuous Light" : {
+      "comment" : "Drizzle Entity Subtype\nSnow Entity Subtype"
+    },
+    "Intermittent Moderate" : {
+      "comment" : "Rain Entity Subtype\nDrizzle Entity Subtype\nSnow Entity Subtype"
+    },
+    "Intermittent Moderate/Continuous Moderate" : {
+      "comment" : "Rain Entity Subtype\nDrizzle Entity Subtype\nSnow Entity Subtype"
+    },
+    "Internal Security Force" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type"
+    },
+    "International Security Assistance Force (ISAF)" : {
+      "comment" : "Named Headquarters Entity Type"
+    },
     "Interrogation" : {
       "comment" : "Intelligence Entity Type"
     },
+    "Inversion" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Isobar - Surface" : {
+      "comment" : "Isopleths Entity Type"
+    },
+    "Isodrosotherm" : {
+      "comment" : "Isopleths Entity Type"
+    },
     "Isopleths" : {
       "comment" : "Atmospheric Entity Type"
+    },
+    "Isotach" : {
+      "comment" : "Isopleths Entity Type"
+    },
+    "Isotherm" : {
+      "comment" : "Isopleths Entity Type"
+    },
+    "Jail Break" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
     },
     "Jammer" : {
       "comment" : "Signal Intercept Entity Type"
     },
     "Jamming" : {
-      "comment" : "Intelligence Entity Type"
+      "comment" : "Intelligence Entity Type\nElectronic Warfare Entity Subtype"
+    },
+    "Jeep Type Vehicle" : {
+      "comment" : "Civilian Vehicle Entity Type"
+    },
+    "Jet Ski" : {
+      "comment" : "Civilian Entity Type\nMilitary Combatant Entity Type"
     },
     "Jet Stream" : {
       "comment" : "Winds Entity Type"
@@ -446,8 +1432,17 @@
     "Judge Advocate General" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Junk/Dhow" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Killing" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
     "Kingfisher" : {
       "comment" : "Sea Mine General Entity Type"
+    },
+    "Known Insurgent Vehicle" : {
+      "comment" : "Civilian Vehicle Entity Type"
     },
     "Labor" : {
       "comment" : "Sustainment Entity Type"
@@ -461,20 +1456,89 @@
     "Land Installation" : {
       "comment" : "Dimension"
     },
+    "Land Mine" : {
+
+    },
+    "Land Mines" : {
+      "comment" : "Land Equipment Entity"
+    },
     "Land Units" : {
       "comment" : "Dimension"
+    },
+    "Landfill" : {
+      "comment" : "Commercial Infrastructure Subtype"
+    },
+    "Landing Craft" : {
+      "comment" : "Amphibious Warfare Ship Entity Subtype"
+    },
+    "Landing Ship" : {
+      "comment" : "Amphibious Warfare Ship Entity Subtype"
+    },
+    "Landslide" : {
+      "comment" : "Geologic Entity Subtype"
+    },
+    "Laser" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Lash Carrier (with Barges)" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Launch" : {
+      "comment" : "Service Craft Yard Entity Subtype"
     },
     "Laundry/Bath" : {
       "comment" : "Sustainment Entity Type"
     },
     "Law Enforcement" : {
-      "comment" : "Land Unit Entity"
+      "comment" : "Land Equipment Entity\nInstallation Entity Type\nLand Unit Entity"
+    },
+    "Law Enforcement Operation" : {
+      "comment" : "Operation Entity Type"
+    },
+    "Law Enforcement Vessel" : {
+      "comment" : "Civilian Entity Type"
+    },
+    "Leisure Craft, Motorized" : {
+      "comment" : "Civilian Entity Type"
+    },
+    "Leisure Craft, Sailing" : {
+      "comment" : "Civilian Entity Type"
+    },
+    "Less than Lethal" : {
+      "comment" : "Land Mines Entity Type"
     },
     "Liaison" : {
       "comment" : "Command and Control Entity Type"
     },
     "Light" : {
-      "comment" : "Turbulence Entity Type"
+      "comment" : "Entity Subtype\nTurbulence Entity Type\nLight/Medium/Severe Entity Subtype\nLight/Heavy Entity Subtype\nAir Defense Missile Launcher Entity Subtype\nRain and Snow Mixed Entity Subtype\nLight/Medium/Heavy Entity Subtype"
+    },
+    "Light not Associated with Thunder" : {
+      "comment" : "Hail Entity Subtype"
+    },
+    "Light Showers" : {
+      "comment" : "Rain and Snow Mixed Entity Subtype"
+    },
+    "Light to Moderate" : {
+      "comment" : "Dust or Sand Entity Subtype"
+    },
+    "Light Wheeled Armored Vehicle" : {
+      "comment" : "Armored Vehicle Entity Subtype"
+    },
+    "Light, TELAR" : {
+      "comment" : "Air Defense Missile Launcher Entity Subtype"
+    },
+    "Light, TLAR" : {
+      "comment" : "Air Defense Missile Launcher Entity Subtype"
+    },
+    "Lighter Than Air" : {
+      "comment" : "Military Entity Type\nCivilian Entity Type"
+    },
+    "Lightning" : {
+      "comment" : "Storms Entity Subtype"
+    },
+    "Limited Cross Country Truck" : {
+      "comment" : "Utility Vehicles Entity Type"
     },
     "Limits" : {
       "comment" : "Oceanographic Entity Type\nIce Systems Entity Type"
@@ -482,26 +1546,62 @@
     "Lines" : {
       "comment" : "Pressure Systems Entity Type"
     },
+    "Liquid Precipitation - Convective" : {
+      "comment" : "Entity Subtype"
+    },
+    "Liquid Precipitation - Non-Convective Continuous or Intermittent" : {
+      "comment" : "Bounded Areas of Weather Entity Type"
+    },
+    "Littoral Combatant Ship" : {
+      "comment" : "Surface Combatant Line Entity Subtype"
+    },
     "Lock" : {
       "comment" : "Man-Made Structures Entity Type"
+    },
+    "Locomotive" : {
+      "comment" : "Train Entity Type"
     },
     "Long Towed Array" : {
       "comment" : "Naval towed array amplifier descriptor"
     },
+    "Loose Dry Dust or Sand Not Covering Ground Completely" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Loose Dry Snow (At Least One-Half of Ground)" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Loose Dry Snow (Less Than One-Half of Ground)" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+    },
     "Low Pressure Center" : {
       "comment" : "Pressure Systems Entity Type"
+    },
+    "Machine Gun" : {
+      "comment" : "Weapon System Entity Type"
     },
     "Mail Server" : {
       "comment" : "Device Type Entity Type"
     },
+    "Main Gun System" : {
+      "comment" : "Infantry Entity Subtype\nAir Defense Entity Subtype"
+    },
     "Maintenance" : {
       "comment" : "Sustainment Entity Type"
+    },
+    "Maintenance Facility" : {
+      "comment" : "Transportation Infrastructure Subtype"
     },
     "Man-Made Structures" : {
       "comment" : "Oceanographic Entity Type"
     },
     "Manual Track" : {
-      "comment" : "Air Unit Entity"
+      "comment" : "Sea Subsurface Entity\nLand Equipment Entity\nAir Unit Entity\nSea Surface Entity"
+    },
+    "Marginal Visual Flight Rule (MVFR)" : {
+      "comment" : "Bounded Areas of Weather Entity Type"
+    },
+    "Marine" : {
+      "comment" : "Transportation Incident Entity Type\nReconnaissance/Cavalry/Scout Entity Subtype"
     },
     "Maritime Area" : {
       "comment" : "Limits Entity Type"
@@ -509,50 +1609,170 @@
     "Maritime Limit Boundary" : {
       "comment" : "Limits Entity Type"
     },
+    "Mass Grave Site" : {
+      "comment" : "Installation Entity Type"
+    },
     "Material" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Materiel" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Mechanized" : {
+      "comment" : "CBRND Defense Entity Subtype\nEngineer Entity Subtype"
+    },
     "Medical" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Medical Infrastructure Subtype\nUtility Vehicles Entity Type\nSustainment Entity Type"
+    },
+    "Medical Evacuation" : {
+      "comment" : "Utility Vehicles Entity Type"
+    },
+    "Medical Evacuation (MEDEVAC)" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Medical Evacuation Helicopter" : {
+      "comment" : "Emergency Medical Operation Entity Subtype"
+    },
+    "Medical Facilities Outpatient" : {
+      "comment" : "Emergency Medical Operation Entity Subtype"
+    },
+    "Medical Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
     },
     "Medical Treatment Facility" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Medical Treatment Facility (Hospital)" : {
+      "comment" : "Medical Infrastructure Subtype"
+    },
+    "Medium" : {
+      "comment" : "Light/Medium/Severe Entity Subtype\nAir Defense Missile Launcher Entity Subtype\nLight/Medium/Heavy Entity Subtype"
+    },
+    "Medium, TELAR" : {
+      "comment" : "Air Defense Missile Launcher Entity Subtype"
+    },
+    "Medium, TLAR" : {
+      "comment" : "Air Defense Missile Launcher Entity Subtype"
+    },
+    "Meeting" : {
+      "comment" : "Operation Entity Type"
+    },
+    "Merchant Ship" : {
+      "comment" : "Civilian Entity Type"
+    },
     "Meteorological" : {
       "comment" : "Fire Support Entity Type"
     },
-    "Meteorological - Atmospheric" : {
-      "comment" : "Dimension"
+    "Microbial" : {
+      "comment" : "Infestation Entity Subtype"
     },
-    "Meteorological - Oceanographic" : {
-      "comment" : "Dimension"
+    "MILCO - Bottom" : {
+      "comment" : "Mine-Like Contact Entity Type"
     },
-    "Meteorological - Space" : {
-      "comment" : "Dimension"
+    "MILCO - Confidence-Level 1" : {
+      "comment" : "MILCO General Confidence-Leve Entity Subtype"
+    },
+    "MILCO - Confidence-Level 2" : {
+      "comment" : "MILCO General Confidence-Leve Entity Subtype"
+    },
+    "MILCO - Confidence-Level 3" : {
+      "comment" : "MILCO General Confidence-Leve Entity Subtype"
+    },
+    "MILCO - Confidence-Level 4" : {
+      "comment" : "MILCO General Confidence-Leve Entity Subtype"
+    },
+    "MILCO - Confidence-Level 5" : {
+      "comment" : "MILCO General Confidence-Leve Entity Subtype"
+    },
+    "MILCO - Floating" : {
+      "comment" : "Mine-Like Contact Entity Type"
+    },
+    "MILCO - General" : {
+      "comment" : "Mine-Like Contact Entity Type"
+    },
+    "MILCO - Moored" : {
+      "comment" : "Mine-Like Contact Entity Type"
     },
     "Military" : {
-      "comment" : "Air Unit Entity"
+      "comment" : "Sea Subsurface Entity\nAir Unit Entity\nSea Surface Entity"
+    },
+    "Military Armory" : {
+      "comment" : "Military Infrastructure Subtype"
+    },
+    "Military Base" : {
+      "comment" : "Military Infrastructure Subtype"
+    },
+    "Military Combatant" : {
+      "comment" : "Sea Surface Entity"
+    },
+    "Military Information Support Operation (MISO)" : {
+      "comment" : "Operation Entity Type"
     },
     "Military Information Support Operations" : {
       "comment" : "Command and Control Entity Type"
     },
+    "Military Information Support Operations (MISO)" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Military Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
     "Military Intelligence" : {
       "comment" : "Intelligence Entity Type"
+    },
+    "Military Noncombatant" : {
+      "comment" : "Sea Surface Entity"
     },
     "Military Police" : {
       "comment" : "Protection Entity Type"
     },
     "Mine" : {
-      "comment" : "Protection Entity Type"
+      "comment" : "Installation Entity Type\nProtection Entity Type"
     },
     "Mine Clearing" : {
       "comment" : "Protection Entity Type"
     },
+    "Mine Clearing Equipment" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Mine Clearing Equipment on Tank Chassis" : {
+      "comment" : "Mine Clearing Equipment Entity Subtype"
+    },
+    "Mine Countermeasures" : {
+      "comment" : "Mine Warfare Ship Entity Subtype"
+    },
+    "Mine Countermeasures (MCM)" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Mine Countermeasures, Support Ship" : {
+      "comment" : "Mine Warfare Ship Entity Subtype"
+    },
+    "Mine Explosion" : {
+      "comment" : "Explosion Entity Subtype"
+    },
+    "Mine Hunter" : {
+      "comment" : "Mine Warfare Ship Entity Subtype"
+    },
     "Mine Launching" : {
       "comment" : "Protection Entity Type"
     },
+    "Mine Layer" : {
+      "comment" : "Mine Warfare Ship Entity Subtype"
+    },
     "Mine Laying" : {
-      "comment" : "Protection Entity Type"
+      "comment" : "Protection Entity Type\nOperation Entity Type"
+    },
+    "Mine Laying Equipment" : {
+      "comment" : "Engineer Vehicles and Equipment Entity Type"
+    },
+    "Mine Laying Equipment on Utility Vehicle" : {
+      "comment" : "Mine Laying Equipment Entity Subtype"
+    },
+    "Mine Sweeper" : {
+      "comment" : "Mine Warfare Ship Entity Subtype"
+    },
+    "Mine Sweeper, Drone" : {
+      "comment" : "Mine Warfare Ship Entity Subtype"
     },
     "Mine Warfare" : {
       "comment" : "Dimension"
@@ -560,29 +1780,77 @@
     "Mine Warfare (MIW) Bottom Descriptors" : {
       "comment" : "Geophysics/Acoustics Entity Type"
     },
+    "Mine Warfare Ship" : {
+      "comment" : "Military Combatant Entity Type"
+    },
     "Mine-Like Contact (MILCO)" : {
       "comment" : "Mine Warfare Entity"
     },
     "Mine-Like Echo (MILEC)-General" : {
       "comment" : "Mine Warfare Entity"
     },
+    "Mine-Like Echo-Bottom" : {
+      "comment" : "Mine-Like Echo (MILEC) - General Entity Type"
+    },
+    "Mine-Like Echo-Floating" : {
+      "comment" : "Mine-Like Echo (MILEC) - General Entity Type"
+    },
+    "Mine-Like Echo-Moored" : {
+      "comment" : "Mine-Like Echo (MILEC) - General Entity Type"
+    },
     "Missile" : {
-      "comment" : "Fire Support Entity Type"
+      "comment" : "Air Defense Entity Subtype\nFire Support Entity Type"
+    },
+    "Missile and Space System Production" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Missile Launcher" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Missile Support" : {
+      "comment" : "Land Equipment Entity"
+    },
+    "Mist" : {
+      "comment" : "Weather Symbols Entity Type"
     },
     "Mixed Icing" : {
       "comment" : "Icing Entity Type"
     },
+    "Mobile Emergency Physician" : {
+      "comment" : "Utility Vehicles Entity Type"
+    },
     "Moderate" : {
       "comment" : "Turbulence Entity Type"
+    },
+    "Moderate/Heavy" : {
+      "comment" : "Entity Subtype\nRain and Snow Mixed Entity Subtype"
+    },
+    "Moderate/Heavy not Associated with Thunder" : {
+      "comment" : "Hail Entity Subtype"
+    },
+    "Moderate/Heavy Showers" : {
+      "comment" : "Rain and Snow Mixed Entity Subtype"
+    },
+    "Moderate/Thick Loose Dry Dust or Sand Covering Ground Completely" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
     },
     "Morale Welfare and Recreation" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Morgue" : {
+      "comment" : "Emergency Medical Operation Entity Subtype"
+    },
     "Mortar" : {
-      "comment" : "Fire Support Entity Type"
+      "comment" : "Fire Support Entity Type\nWeapon System Entity Type"
+    },
+    "Mortar Fire Explosion" : {
+      "comment" : "Explosion Entity Subtype"
     },
     "Mortuary Affairs/Graves Registration" : {
       "comment" : "Sustainment Entity Type"
+    },
+    "Motorized" : {
+      "comment" : "CBRND Defense Entity Subtype\nInfantry Entity Subtype\nReconnaissance/Cavalry/Scout Entity Subtype\nEngineer Entity Subtype\nAntitank/Antiarmor Entity Subtype"
     },
     "Mountain Waves" : {
       "comment" : "Turbulence Entity Type"
@@ -590,11 +1858,35 @@
     "Movement and Maneuver" : {
       "comment" : "Land Unit Entity"
     },
+    "Multifunctional Earthmover/Digger" : {
+      "comment" : "Earthmover Entity Subtype"
+    },
+    "Multinational (MN)" : {
+      "comment" : "Named Headquarters Entity Type"
+    },
     "Multiple Classes of Supply" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Multiple Passenger Vehicle" : {
+      "comment" : "Civilian Vehicle Entity Type"
+    },
+    "Multiple Rocket Launcher" : {
+      "comment" : "Weapon System Entity Type"
+    },
     "Named Headquarters" : {
       "comment" : "Land Unit Entity"
+    },
+    "NAPT Other" : {
+      "comment" : "NAPT Entity Subtype"
+    },
+    "NAPT with C2" : {
+      "comment" : "NAPT Entity Subtype"
+    },
+    "NAPT with C2 and Self Propagation" : {
+      "comment" : "NAPT Entity Subtype"
+    },
+    "NAPT with Self Propagation" : {
+      "comment" : "NAPT Entity Subtype"
     },
     "NATO Supply Class I" : {
       "comment" : "Sustainment Entity Type"
@@ -611,26 +1903,86 @@
     "NATO Supply Class V" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Natural Event" : {
+      "comment" : "Activities Entity"
+    },
+    "Natural Gas Facility" : {
+      "comment" : "Energy Facility Infrastructure Subtype"
+    },
     "Naval" : {
       "comment" : "Land Unit Entity"
+    },
+    "Naval Cargo Ship" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
+    },
+    "Naval Stores Ship" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
     },
     "Naval towed array" : {
       "comment" : "Amplifier"
     },
+    "Navy Task Element" : {
+      "comment" : "Navy Task Organization Entity Subtype"
+    },
+    "Navy Task Force" : {
+      "comment" : "Navy Task Organization Entity Subtype"
+    },
+    "Navy Task Group" : {
+      "comment" : "Navy Task Organization Entity Subtype"
+    },
+    "Navy Task Organization" : {
+      "comment" : "Military Combatant Entity Type"
+    },
+    "Navy Task Unit" : {
+      "comment" : "Navy Task Organization Entity Subtype"
+    },
+    "Negative Reacquisition-Bottom" : {
+      "comment" : "Negative Reacquisition - General Entity Type"
+    },
+    "Negative Reacquisition-Floating" : {
+      "comment" : "Negative Reacquisition - General Entity Type"
+    },
     "Negative Reacquisition-General" : {
       "comment" : "Mine Warfare Entity"
     },
+    "Negative Reacquisition-Moored" : {
+      "comment" : "Negative Reacquisition - General Entity Type"
+    },
     "Network Outage" : {
-      "comment" : "Effect Entity Type\nHealth and Status Entity Type"
+      "comment" : "Health and Status Entity Type\nEffect Entity Type"
     },
     "Neutral" : {
       "comment" : "Standard identity"
     },
+    "Neutralized Mine-Bottom" : {
+      "comment" : "Neutralized Mine General Entity Subtype"
+    },
+    "Neutralized Mine-Floating" : {
+      "comment" : "Neutralized Mine General Entity Subtype"
+    },
     "Neutralized Mine-General" : {
       "comment" : "Sea Mine General Entity Type"
     },
+    "Neutralized Mine-Moored" : {
+      "comment" : "Neutralized Mine General Entity Subtype"
+    },
+    "Neutralized Mine-Other Position" : {
+      "comment" : "Neutralized Mine General Entity Subtype"
+    },
+    "Neutralized Mine-Rising" : {
+      "comment" : "Neutralized Mine General Entity Subtype"
+    },
+    "Neutralized Obstructor" : {
+      "comment" : "Obstructor Entity Type"
+    },
+    "No results for '%@'" : {
+
+    },
     "Non-Advanced Persistent Threat (NAPT)" : {
       "comment" : "Infection Entity Type"
+    },
+    "Non-Flammable Gas" : {
+      "comment" : "Hazard Materials Incident Subtype"
     },
     "Non-Government" : {
       "comment" : "Device Domain Entity Type"
@@ -638,20 +1990,50 @@
     "Non-Mine Mine-Like Object (NMLO)-General" : {
       "comment" : "Mine Warfare Entity"
     },
+    "Non-Mine Mine-Like Object-Bottom" : {
+      "comment" : "Non-Mine Mine-Like Object (NMLO) - General Entity Type"
+    },
+    "Non-Mine Mine-Like Object-Floating" : {
+      "comment" : "Non-Mine Mine-Like Object (NMLO) - General Entity Type"
+    },
+    "Non-Mine Mine-Like Object-Moored" : {
+      "comment" : "Non-Mine Mine-Like Object (NMLO) - General Entity Type"
+    },
+    "Non-Residential Fire" : {
+      "comment" : "Fire Event Entity Type"
+    },
     "None" : {
-      "comment" : "Command and Control Entity Type\nFire Support Entity Type"
+      "comment" : "Negative Reacquisition - General Entity Type\nFixed Wing Entity Subtype\nMine-Like Contact Entity Type\nMILCO General Entity Subtype\nExplosion Entity Subtype\nGeologic Entity Subtype\nMine-Like Echo (MILEC) - General Entity Type\nCommand and Control Entity Type\nMine Clearing Equipment Entity Subtype\nSignal Entity Subtype\nCivil Disturbance Entity Type\nNon-Mine Mine-Like Object (NMLO) - General Entity Type\nNot selected.\nFire Support Entity Type\nFog Entity Subtype\nLaw Enforcement Subtype\nSea Mine Decoy Entity Type\nAmplifier Entity Subtype\nArmored Vehicle Entity Subtype"
+    },
+    "Nonlethal Weapon" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Nonsubmarine" : {
+      "comment" : "Military Entity Type"
     },
     "Normal" : {
       "comment" : "Health and Status Entity Type"
     },
-    "Not Applicable" : {
-      "comment" : "Not Applicable amplifier descriptor\nAmplifier\nHeadquarters/Task force/Dummy"
+    "Not found" : {
+
+    },
+    "Nuclear (Non CBRN Defense)" : {
+      "comment" : "Installation Entity Type"
     },
     "Observer" : {
       "comment" : "Movement and Maneuver Entity Type"
     },
     "Obstructor" : {
       "comment" : "Mine Warfare Entity"
+    },
+    "Occluded Front" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Occluded Frontolysis" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Oceanographic Research Ship" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
     },
     "Oceanography" : {
       "comment" : "Oceanographic Entity Type"
@@ -662,20 +2044,83 @@
     "Oil/Gas Rig Field" : {
       "comment" : "Man-Made Structures Entity Type"
     },
+    "Oiler, Replenishment" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
+    },
+    "Oiler/Tanker" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Open Facility" : {
+      "comment" : "Public Venues Infrastructure Subtype"
+    },
+    "Open-Bed Truck" : {
+      "comment" : "Civilian Vehicle Entity Type"
+    },
     "Openings in the Ice" : {
       "comment" : "Ice Systems Entity Type"
+    },
+    "Operation" : {
+      "comment" : "Activities Entity"
     },
     "Operator-Defined" : {
       "comment" : "Limits Entity Type"
     },
+    "Operator-Defined Freeform" : {
+      "comment" : "Bounded Areas of Weather Entity Type\nIsopleths Entity Type"
+    },
     "Ordnance" : {
       "comment" : "Sustainment Entity Type"
+    },
+    "Organic Peroxide" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Other Equipment" : {
+      "comment" : "Land Equipment Entity"
+    },
+    "Other Submersible" : {
+      "comment" : "Military Entity Type"
+    },
+    "Other Water Supply Location" : {
+      "comment" : "Firefighting Operation Entity Subtype"
     },
     "Over snow (prime mover)" : {
       "comment" : "Equipment mobility on snow amplifier descriptor"
     },
+    "Overcast Coverage" : {
+      "comment" : "Cloud Coverage Symbols Entity Subtype"
+    },
+    "Own Ship" : {
+      "comment" : "Sea Surface Entity"
+    },
+    "Oxidizer" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
     "Pack animals" : {
       "comment" : "Equipment mobility on land amplifier descriptor"
+    },
+    "Pack Animals" : {
+      "comment" : "Land Equipment Entity"
+    },
+    "Passenger" : {
+      "comment" : "Fixed Wing Entity Subtype\nMerchant Ship Entity Subtype"
+    },
+    "Patchy" : {
+      "comment" : "Fog Entity Subtype"
+    },
+    "Patrol" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Patrol Boat" : {
+      "comment" : "Military Combatant Entity Type"
+    },
+    "Patrol Craft, Submarine Chaser/Escort, General" : {
+      "comment" : "Patrol Boat Entity Subtype"
+    },
+    "Patrol Ship, General" : {
+      "comment" : "Patrol Boat Entity Subtype"
+    },
+    "Patrolling" : {
+      "comment" : "Operation Entity Type"
     },
     "Peer-to-Peer Node" : {
       "comment" : "Device Type Entity Type"
@@ -683,11 +2128,32 @@
     "Pending" : {
       "comment" : "Standard identity"
     },
+    "Personnel Recovery" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
     "Personnel Services" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Petroleum Facility" : {
+      "comment" : "Energy Facility Infrastructure Subtype"
+    },
     "Petroleum Oil and Lubricants" : {
       "comment" : "Sustainment Entity Type"
+    },
+    "Petroleum-Oil and Lubricant" : {
+      "comment" : "Utility Vehicles Entity Type"
+    },
+    "Petroleum/Gas/Oil" : {
+      "comment" : "Energy Facility Infrastructure Subtype"
+    },
+    "Pharmaceutical Manufacturer" : {
+      "comment" : "Commercial Infrastructure Subtype"
+    },
+    "Pharmacy" : {
+      "comment" : "Emergency Medical Operation Entity Subtype"
+    },
+    "Photographic Reconnaissance" : {
+      "comment" : "Fixed Wing Entity Subtype"
     },
     "Pile/Piling/Post" : {
       "comment" : "Man-Made Structures Entity Type"
@@ -704,14 +2170,41 @@
     "Platoon/Detachment" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
     },
+    "Poisoning" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Police" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
+    },
+    "Polling Place/Election" : {
+      "comment" : "Meeting Entity Subtype"
+    },
     "Ports and Harbors" : {
       "comment" : "Hydrography Entity Type"
+    },
+    "Post Office" : {
+      "comment" : "Postal Services Infrastructure Subtype"
     },
     "Postal" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Postal Distribution Center" : {
+      "comment" : "Postal Services Infrastructure Subtype"
+    },
+    "Postal Services Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
     "Power Outage" : {
       "comment" : "Effect Entity Type"
+    },
+    "Precipitation of Unknown Type and Intensity" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Predominately Ice Covered" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Premature IED Explosion" : {
+      "comment" : "IED Event Entity Subtype"
     },
     "Present" : {
       "comment" : "Status"
@@ -734,38 +2227,98 @@
     "Pressure Tendency" : {
       "comment" : "Pressure Systems Entity Type"
     },
+    "Printed Media" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Prison" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
+    },
+    "Propane Facility" : {
+      "comment" : "Energy Facility Infrastructure Subtype"
+    },
+    "Propellant Transporter" : {
+      "comment" : "Missile Support Entity Type"
+    },
     "Protection" : {
       "comment" : "Land Unit Entity"
     },
     "Public Affairs/Public Information" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Public Venues Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
+    "Pumping Station" : {
+      "comment" : "Water Supply Infrastructure Subtype"
+    },
     "Quartermaster" : {
       "comment" : "Sustainment Entity Type"
     },
     "Radar" : {
-      "comment" : "Signal Intercept Entity Type"
+      "comment" : "Signal Intercept Entity Type\nSensors Entity Type"
     },
     "Radio" : {
-      "comment" : "Command and Control Entity Type"
+      "comment" : "Command and Control Entity Type\nSignal Entity Subtype"
     },
     "Radio Relay" : {
-      "comment" : "Command and Control Entity Type"
+      "comment" : "Command and Control Entity Type\nSignal Entity Subtype"
     },
     "Radio Teletype Center" : {
       "comment" : "Command and Control Entity Type"
     },
+    "Radioactive Material" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Raid on House" : {
+      "comment" : "Operation Entity Type"
+    },
     "Rail" : {
-      "comment" : "Equipment mobility on land amplifier descriptor"
+      "comment" : "Transportation Incident Entity Type\nEquipment mobility on land amplifier descriptor"
+    },
+    "Railcar" : {
+      "comment" : "Train Entity Type"
     },
     "Railhead" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Railhead/Railroad Station" : {
+      "comment" : "Transportation Infrastructure Subtype"
+    },
+    "Rain" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Rain and Snow Mixed" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Rain Showers" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
     "Reality" : {
       "comment" : "Context"
     },
+    "Recoilless Gun" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Reconnaissance" : {
+      "comment" : "CBRND Defense Entity Subtype\nFixed Wing Entity Subtype\nEngineer Entity Subtype"
+    },
+    "Reconnaissance and Surveillance" : {
+      "comment" : "Reconnaissance/Cavalry/Scout Entity Subtype"
+    },
+    "Reconnaissance Armored" : {
+      "comment" : "CBRND Defense Entity Subtype"
+    },
+    "Reconnaissance Equipped" : {
+      "comment" : "CBRND Defense Entity Subtype"
+    },
     "Reconnaissance/Cavalry/Scout" : {
-      "comment" : "Movement and Maneuver Entity Type"
+      "comment" : "Movement and Maneuver Entity Type\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype"
+    },
+    "Recreational Area" : {
+      "comment" : "Public Venues Infrastructure Subtype"
+    },
+    "Recruitment" : {
+      "comment" : "Operation Entity Type"
     },
     "Regiment/Group" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
@@ -773,20 +2326,101 @@
     "Region/Theater" : {
       "comment" : "Echelon at division and above amplifier descriptor"
     },
+    "Religious Institution" : {
+      "comment" : "Public Venues Infrastructure Subtype"
+    },
+    "Religious Leader" : {
+      "comment" : "Individual Entity Type"
+    },
     "Religious Support" : {
       "comment" : "Sustainment Entity Type"
+    },
+    "Repair Ship" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
     },
     "Replacement Holding Unit" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Reptile" : {
+      "comment" : "Infestation Entity Subtype"
+    },
+    "Reservoir" : {
+      "comment" : "Water Supply Infrastructure Subtype"
+    },
+    "Residential Fire" : {
+      "comment" : "Fire Event Entity Type"
+    },
+    "Rest Stop" : {
+      "comment" : "Transportation Infrastructure Subtype"
+    },
     "Restricted Area" : {
       "comment" : "Limits Entity Type"
+    },
+    "Ridge Axis" : {
+      "comment" : "Lines Entity Subtype"
+    },
+    "Rifle" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Rigid-Hull Inflatable Boat (RHIB)" : {
+      "comment" : "Speedboat Entity Subtype\nLeisure Craft Motorized Entity Subtype"
     },
     "Rime Icing" : {
       "comment" : "Icing Entity Type"
     },
+    "Rise" : {
+      "comment" : "Pressure Tendency Entity Subtype"
+    },
+    "Rise Then Fall Higher" : {
+      "comment" : "Pressure Tendency Entity Subtype"
+    },
+    "Rise Then Fall Lower" : {
+      "comment" : "Pressure Tendency Entity Subtype"
+    },
+    "Rise Then Rise Higher" : {
+      "comment" : "Pressure Tendency Entity Subtype"
+    },
+    "Rise Then Steady" : {
+      "comment" : "Pressure Tendency Entity Subtype"
+    },
+    "Robbery" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Rock Throwing" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Rocket Explosion" : {
+      "comment" : "Explosion Entity Subtype"
+    },
+    "Rodent" : {
+      "comment" : "Infestation Entity Subtype"
+    },
+    "Roll On/Roll Off" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Rotary Wing" : {
+      "comment" : "Civilian Entity Type"
+    },
+    "Rotary-Wing" : {
+      "comment" : "Military Entity Type"
+    },
     "Router" : {
       "comment" : "Device Type Entity Type"
+    },
+    "Sabotage" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Safe House" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Scattered Coverage" : {
+      "comment" : "Cloud Coverage Symbols Entity Subtype"
+    },
+    "School" : {
+      "comment" : "Educational Facilities Infrastructure Subtype"
+    },
+    "School Fire" : {
+      "comment" : "Fire Event Entity Type"
     },
     "Sea Air Land (SEAL)" : {
       "comment" : "Movement and Maneuver Entity Type"
@@ -796,6 +2430,12 @@
     },
     "Sea Mine Decoy" : {
       "comment" : "Mine Warfare Entity"
+    },
+    "Sea Mine Decoy-Bottom" : {
+      "comment" : "Sea Mine Decoy Entity Type"
+    },
+    "Sea Mine Decoy-Moored" : {
+      "comment" : "Sea Mine Decoy Entity Type"
     },
     "Sea Mine-Bottom" : {
       "comment" : "Sea Mine General Entity Type"
@@ -818,17 +2458,26 @@
     "Sea Port of Debarkation/Sea Port of Embarkation" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Sea Port/Naval Base" : {
+      "comment" : "Transportation Infrastructure Subtype"
+    },
     "Sea Subsurface" : {
       "comment" : "Dimension"
     },
     "Sea Surface" : {
       "comment" : "Dimension"
     },
+    "Sea-Based X-Band (SBX) Radar" : {
+      "comment" : "Military Combatant Entity Type"
+    },
     "Search" : {
-      "comment" : "Intelligence Entity Type"
+      "comment" : "Intelligence Entity Type\nElectronic Warfare Entity Subtype"
     },
     "Search and Rescue" : {
-      "comment" : "Protection Entity Type"
+      "comment" : "Fixed Wing Entity Subtype\nProtection Entity Type"
+    },
+    "Search symbol" : {
+
     },
     "Section" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
@@ -839,20 +2488,62 @@
     "Security Police (Air)" : {
       "comment" : "Protection Entity Type"
     },
+    "Self-propelled" : {
+      "comment" : "Field Artillery Entity Subtype"
+    },
+    "Self-Propelled Wheeled" : {
+      "comment" : "Mortar Entity Subtype"
+    },
+    "Semi-Trailer and Truck" : {
+      "comment" : "Utility Vehicles Entity Type"
+    },
+    "Semiautomatic Rifle" : {
+      "comment" : "Rifle Entity Subtype"
+    },
     "Sensor" : {
-      "comment" : "Intelligence Entity Type"
+      "comment" : "Intelligence Entity Type\nSensors Entity Type"
+    },
+    "Sensor Emplaced" : {
+      "comment" : "Sensors Entity Type"
+    },
+    "Sensors" : {
+      "comment" : "Land Equipment Entity"
+    },
+    "Service Craft/Yard" : {
+      "comment" : "Military Noncombatant Entity Type"
     },
     "Service Outage" : {
       "comment" : "Effect Entity Type"
     },
     "Severe" : {
-      "comment" : "Turbulence Entity Type"
+      "comment" : "Dust or Sand Entity Subtype\nTurbulence Entity Type\nLight/Medium/Severe Entity Subtype"
+    },
+    "Severe Squall Line" : {
+      "comment" : "Lines Entity Subtype"
+    },
+    "Shallow Continuous" : {
+      "comment" : "Fog Entity Subtype"
+    },
+    "Shallow Patches" : {
+      "comment" : "Fog Entity Subtype"
+    },
+    "Shear Line" : {
+      "comment" : "Lines Entity Subtype"
+    },
+    "Ship Yard" : {
+      "comment" : "Transportation Infrastructure Subtype"
+    },
+    "Shooting" : {
+      "comment" : "Incident Entity Type"
     },
     "Shore Patrol" : {
       "comment" : "Protection Entity Type"
     },
     "Short Towed Array" : {
       "comment" : "Naval towed array amplifier descriptor"
+    },
+    "SIDC is not 20 characters." : {
+      "comment" : "Military Symbol init from SIDC Error"
     },
     "SIDC:" : {
 
@@ -863,23 +2554,23 @@
     "Signal Intercept" : {
       "comment" : "Signals Intelligence Entity"
     },
-    "Signals Intelligence - Air" : {
-      "comment" : "Dimension"
-    },
-    "Signals Intelligence - Land" : {
-      "comment" : "Dimension"
-    },
-    "Signals Intelligence - Space" : {
-      "comment" : "Dimension"
-    },
-    "Signals Intelligence - Subsurface" : {
-      "comment" : "Dimension"
-    },
-    "Signals Intelligence - Surface" : {
-      "comment" : "Dimension"
-    },
     "Simulation" : {
       "comment" : "Context"
+    },
+    "Single Rocket Launcher" : {
+      "comment" : "Weapon System Entity Type"
+    },
+    "Single Shot Rifle" : {
+      "comment" : "Rifle Entity Subtype"
+    },
+    "Sky Obscured" : {
+      "comment" : "Fog Entity Subtype"
+    },
+    "Sky Totally or Partially Obscured" : {
+      "comment" : "Cloud Coverage Symbols Entity Subtype"
+    },
+    "Sky Visible" : {
+      "comment" : "Fog Entity Subtype"
     },
     "Sled" : {
       "comment" : "Equipment mobility on land amplifier descriptor"
@@ -887,11 +2578,32 @@
     "Small Object-Mine-Like" : {
       "comment" : "Sea Mine General Entity Type"
     },
+    "Smoke" : {
+      "comment" : "Weather Symbols Entity Type\nFire Event Entity Type"
+    },
+    "Smuggling" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
     "Sniper" : {
       "comment" : "Movement and Maneuver Entity Type"
     },
+    "Sniping" : {
+      "comment" : "Shooting Entity Subtype"
+    },
+    "Snow" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
     "Snow Cover" : {
       "comment" : "Ice Systems Entity Type"
+    },
+    "Snow Covering Ground Completely - Deep Drifts" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Snow Grains" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Snow Showers" : {
+      "comment" : "Weather Symbols Entity Type"
     },
     "Space" : {
       "comment" : "Space Entity\nDimension"
@@ -899,14 +2611,44 @@
     "Space Missile" : {
       "comment" : "Dimension"
     },
+    "Speaker" : {
+      "comment" : "Individual Entity Type"
+    },
+    "Special Boat" : {
+      "comment" : "Special Operations Forces Entity Subtype"
+    },
     "Special Forces" : {
       "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Special Needs Fire" : {
+      "comment" : "Fire Event Entity Type"
+    },
+    "Special Needs Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
+    "Special Operations Forces" : {
+      "comment" : "Fixed Wing Entity Subtype"
     },
     "Special Operations Forces (SOF)" : {
       "comment" : "Movement and Maneuver Entity Type"
     },
+    "Special SSNR" : {
+      "comment" : "Special Operations Forces Entity Subtype"
+    },
+    "Speedboat" : {
+      "comment" : "Military Combatant Entity Type\nLeisure Craft Motorized Entity Subtype"
+    },
+    "Spontaneously Combustible Material" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Spy" : {
+      "comment" : "Operation Entity Type"
+    },
     "Squad" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
+    },
+    "Squall" : {
+      "comment" : "Storms Entity Subtype"
     },
     "Standard Identity" : {
 
@@ -914,17 +2656,56 @@
     "State of the Ground" : {
       "comment" : "Atmospheric Entity Type"
     },
+    "Stationary Front" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Stationary Frontogenesis" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Stationary Frontolysis" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
     "Status" : {
 
+    },
+    "Steady" : {
+      "comment" : "Pressure Tendency Entity Subtype"
+    },
+    "Storage Tower" : {
+      "comment" : "Water Supply Infrastructure Subtype"
+    },
+    "Storms" : {
+      "comment" : "Weather Symbols Entity Type"
     },
     "Stream Line" : {
       "comment" : "Winds Entity Type"
     },
+    "Submarine" : {
+      "comment" : "Military Entity Type"
+    },
     "Submarine Cable" : {
       "comment" : "Man-Made Structures Entity Type"
     },
+    "Submarine Tender" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
+    },
+    "Submarine-Bottomed" : {
+      "comment" : "Submarine Entity Subtype"
+    },
+    "Submarine-Snorkeling" : {
+      "comment" : "Submarine Entity Subtype"
+    },
+    "Submarine-Surfaced" : {
+      "comment" : "Submarine Entity Subtype"
+    },
     "Submerged Crib" : {
       "comment" : "Man-Made Structures Entity Type"
+    },
+    "Submersible" : {
+      "comment" : "Civilian Entity Type"
+    },
+    "Subsidence" : {
+      "comment" : "Geologic Entity Subtype"
     },
     "Supervisory Control and Data Acquisition (SCADA)" : {
       "comment" : "Device Domain Entity Type"
@@ -932,17 +2713,53 @@
     "Supply" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Suppression of Enemy Air Defense" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Surface Combatant, Line" : {
+      "comment" : "Military Combatant Entity Type"
+    },
+    "Surface Dry Without Cracks" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Surface Flooded" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Surface Frozen" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Surface Moist" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Surface Water Intake" : {
+      "comment" : "Water Supply Infrastructure Subtype"
+    },
+    "Surface Wet - Standing Water" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Surface-to-Surface Missile Launcher" : {
+      "comment" : "Weapon System Entity Type"
+    },
     "Surveillance" : {
       "comment" : "Movement and Maneuver Entity Type"
     },
     "Survey" : {
       "comment" : "Fire Support Entity Type"
     },
+    "Survey Ship" : {
+      "comment" : "Auxiliary Ship Entity Subtype"
+    },
     "Suspect/Joker" : {
       "comment" : "Standard identity"
     },
+    "Suspicious Activity" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
     "Sustainment" : {
       "comment" : "Land Unit Entity"
+    },
+    "Sustainment Shipments" : {
+      "comment" : "Other Equipment Entity Type"
     },
     "Swept Area" : {
       "comment" : "Limits Entity Type"
@@ -951,7 +2768,22 @@
       "comment" : "Device Type Entity Type"
     },
     "Tactical Satellite" : {
-      "comment" : "Command and Control Entity Type"
+      "comment" : "Command and Control Entity Type\nSignal Entity Subtype"
+    },
+    "Tank" : {
+      "comment" : "Vehicle Entity Type"
+    },
+    "Tank Recovery Vehicle" : {
+      "comment" : "Vehicle Entity Type"
+    },
+    "Tanker" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Target Acquisition" : {
+      "comment" : "Field Artillery Entity Subtype"
+    },
+    "Taser" : {
+      "comment" : "Weapon System Entity Type"
     },
     "Task Force" : {
       "comment" : "Headquarters/Task force/Dummy"
@@ -962,8 +2794,65 @@
     "Team/Crew" : {
       "comment" : "Echelon at brigade and below amplifier descriptor"
     },
+    "Telecommunications" : {
+      "comment" : "Telecommunications Infrastructure Subtype"
+    },
+    "Telecommunications Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
+    "Telecommunications Tower" : {
+      "comment" : "Telecommunications Infrastructure Subtype"
+    },
+    "Teletype" : {
+      "comment" : "Signal Entity Subtype"
+    },
+    "Tent" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "Tented Camp" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Tethered Lighter than Air" : {
+      "comment" : "Civilian Entity Type"
+    },
+    "Tethered Lighter Than Air" : {
+      "comment" : "Military Entity Type"
+    },
+    "Theater/Echelons Above Corps Support" : {
+      "comment" : "Signal Entity Subtype\nAmplifier Entity Subtype"
+    },
+    "Theft" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Thickness" : {
+      "comment" : "Isopleths Entity Type"
+    },
+    "Thin Loose Dry Dust or Sand Covering Ground Completely" : {
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Thunderstorm" : {
+      "comment" : "Bounded Areas of Weather Entity Type"
+    },
+    "Thunderstorm - No Precipitation" : {
+      "comment" : "Storms Entity Subtype"
+    },
+    "Thunderstorm Heavy - With Hail" : {
+      "comment" : "Storms Entity Subtype"
+    },
+    "Thunderstorm Heavy with Rain/Snow - No Hail" : {
+      "comment" : "Storms Entity Subtype"
+    },
+    "Thunderstorm Light to Moderate - With Hail" : {
+      "comment" : "Storms Entity Subtype"
+    },
+    "Thunderstorm Light to Moderate with Rain/Snow - No Hail" : {
+      "comment" : "Storms Entity Subtype"
+    },
     "Tide and Current" : {
       "comment" : "Hydrography Entity Type"
+    },
+    "Toll Facility" : {
+      "comment" : "Transportation Infrastructure Subtype"
     },
     "Topographic" : {
       "comment" : "Protection Entity Type"
@@ -971,29 +2860,182 @@
     "Topographical Features" : {
       "comment" : "Ice Systems Entity Type"
     },
+    "Torpedo" : {
+      "comment" : "Weapon Entity Type"
+    },
+    "Torrential" : {
+      "comment" : "Rain Showers Entity Subtype"
+    },
+    "Tow" : {
+      "comment" : "Merchant Ship Entity Subtype"
+    },
+    "Tow Truck" : {
+      "comment" : "Utility Vehicles Entity Type"
+    },
     "Towed" : {
-      "comment" : "Equipment mobility on land amplifier descriptor"
+      "comment" : "Mortar Entity Subtype\nEquipment mobility on land amplifier descriptor"
+    },
+    "Toxic Gas" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Toxic Infectious Material" : {
+      "comment" : "Hazard Materials Incident Subtype"
+    },
+    "Toxic Release Inventory" : {
+      "comment" : "Commercial Infrastructure Subtype"
     },
     "Tracked" : {
       "comment" : "Equipment mobility on land amplifier descriptor"
     },
+    "Tractor Trailer Truck with Box" : {
+      "comment" : "Civilian Vehicle Entity Type"
+    },
+    "Tractor Trailer Truck with Flatbed Trailer" : {
+      "comment" : "Civilian Vehicle Entity Type"
+    },
+    "Traffic Inspection Facility" : {
+      "comment" : "Transportation Infrastructure Subtype"
+    },
+    "Trafficking" : {
+      "comment" : "Illegal Drug Operation Entity Subtype"
+    },
+    "Trailer Mounted" : {
+      "comment" : "Mine Clearing Equipment Entity Subtype"
+    },
+    "Train" : {
+      "comment" : "Land Equipment Entity"
+    },
+    "Trainer" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
     "Training Area" : {
       "comment" : "Limits Entity Type"
+    },
+    "Training Camp" : {
+      "comment" : "Tented Camp Subtype"
+    },
+    "Transloader" : {
+      "comment" : "Missile Support Entity Type"
+    },
+    "Transport Ship, Hazardous Material" : {
+      "comment" : "Merchant Ship Entity Subtype"
     },
     "Transportation" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Transportation Incident" : {
+      "comment" : "Activities Entity"
+    },
+    "Transportation Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
+    "Transportation Security Administration (TSA)" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
+    },
+    "Transporter" : {
+      "comment" : "Missile Support Entity Type"
+    },
+    "Trawler" : {
+      "comment" : "Fishing Vessel Entity Subtype"
+    },
+    "Triage" : {
+      "comment" : "Emergency Medical Operation Entity Subtype"
+    },
+    "Tropical Depression" : {
+      "comment" : "Tropical Storm Systems Entity Subtype"
+    },
+    "Tropical Storm" : {
+      "comment" : "Tropical Storm Systems Entity Subtype"
+    },
+    "Tropical Storm Systems" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Tropical Storm Wind Areas and Date/Time Labels" : {
+      "comment" : "Tropical Storm Systems Entity Subtype"
+    },
+    "Tropopause High" : {
+      "comment" : "High Pressure Center Entity Subtype"
+    },
+    "Tropopause Level" : {
+      "comment" : "Weather Symbols Entity Type"
+    },
+    "Tropopause Low" : {
+      "comment" : "Low Pressure Center Entity Subtype"
+    },
+    "Trough Axis" : {
+      "comment" : "Lines Entity Subtype"
+    },
+    "Truck Mounted with Volcano" : {
+      "comment" : "Mine Laying Equipment Entity Subtype"
+    },
+    "Tsunami" : {
+      "comment" : "Hydro-Meteorological Entity Subtype"
+    },
+    "Tug, Harbor" : {
+      "comment" : "Service Craft Yard Entity Subtype"
+    },
+    "Tug, Ocean Going" : {
+      "comment" : "Merchant Ship Entity Subtype\nAuxiliary Ship Entity Subtype"
+    },
+    "Tunnel" : {
+      "comment" : "Transportation Infrastructure Subtype"
+    },
     "Turbulence" : {
-      "comment" : "Atmospheric Entity Type"
+      "comment" : "Atmospheric Entity Type\nBounded Areas of Weather Entity Type"
+    },
+    "TV and Radio Propaganda" : {
+      "comment" : "MISO Entity Subtype"
+    },
+    "Ultra Light" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Underwater Demolition Team" : {
+      "comment" : "Special Operations Forces Entity Subtype"
+    },
+    "Uneven Layer of Compact or Wet Snow" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+    },
+    "Uneven Layer of Loose Dry Snow" : {
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
     },
     "Unexploded Ordnance" : {
-      "comment" : "Mine Warfare Entity"
+      "comment" : "Mine Warfare Entity\nHazard Materials Incident Subtype"
+    },
+    "Unit Deployment Shipments" : {
+      "comment" : "Other Equipment Entity Type"
+    },
+    "United States Secret Service (USSS)" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
     },
     "Unknown" : {
       "comment" : "Health and Status Entity Type\nStandard identity"
     },
     "Unmanned Aerial Systems" : {
       "comment" : "Movement and Maneuver Entity Type"
+    },
+    "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)" : {
+      "comment" : "Military Entity Type\nCivilian Entity Type"
+    },
+    "Unmanned Surface Water Vehicle (USV)" : {
+      "comment" : "Civilian Entity Type\nMilitary Combatant Entity Type"
+    },
+    "Upper Cold Front" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Upper Occluded Front" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Upper Stationary Front" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Upper Trough Axis" : {
+      "comment" : "Lines Entity Subtype"
+    },
+    "Upper Warm Front" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "US Marshals Service" : {
+      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype"
     },
     "US Supply Class I" : {
       "comment" : "Sustainment Entity Type"
@@ -1028,20 +3070,89 @@
     "Use alternate status amplifiers" : {
 
     },
+    "Utility" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Utility Vehicle" : {
+      "comment" : "Utility Vehicles Entity Type\nCivilian Vehicle Entity Type"
+    },
+    "Utility Vehicles" : {
+      "comment" : "Land Equipment Entity"
+    },
+    "Vandalism / Loot / Ransack / Plunder" : {
+      "comment" : "Criminal Activity Incident Entity Subtype"
+    },
+    "Vehicle" : {
+      "comment" : "Land Equipment Entity\nTransportation Incident Entity Type"
+    },
+    "Vertical-Takeoff UAV (VT-UAV)" : {
+      "comment" : "Military Entity Type"
+    },
+    "Very Important Person (VIP)" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Video Imagery (Combat Camera)" : {
+      "comment" : "Signal Entity Subtype"
+    },
     "Video Imagery Combat Camera" : {
       "comment" : "Command and Control Entity Type"
     },
     "Virtual Private Network (VPN)" : {
       "comment" : "Device Type Entity Type"
     },
+    "Volcanic Ash" : {
+      "comment" : "Volcanic Eruption Entity Subtype"
+    },
+    "Volcanic Eruption" : {
+      "comment" : "Weather Symbols Entity Type\nGeologic Entity Subtype"
+    },
+    "Volcanic Threat" : {
+      "comment" : "Geologic Entity Subtype"
+    },
+    "VSTOL" : {
+      "comment" : "Fixed Wing Entity Subtype"
+    },
+    "Warehouse/Storage Facility" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Warhead Transporter" : {
+      "comment" : "Missile Support Entity Type"
+    },
+    "Warm Front" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Warm Frontogenesis" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Warm Frontolysis" : {
+      "comment" : "Frontal Systems Entity Subtype"
+    },
+    "Warrant Served" : {
+      "comment" : "Operation Entity Type"
+    },
+    "Wastewater Treatment Facility" : {
+      "comment" : "Water Supply Infrastructure Subtype"
+    },
     "Water" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Utility Vehicles Entity Type\nWater Supply Infrastructure Subtype\nSustainment Entity Type"
+    },
+    "Water Cannon" : {
+      "comment" : "Weapon System Entity Type"
     },
     "Water Purification" : {
       "comment" : "Sustainment Entity Type"
     },
+    "Water Supply Infrastructure" : {
+      "comment" : "Infrastructure Entity Type"
+    },
+    "Water Treatment" : {
+      "comment" : "Water Supply Infrastructure Subtype"
+    },
     "Weapon" : {
-      "comment" : "Air Unit Entity"
+      "comment" : "Sea Subsurface Entity\nAir Unit Entity"
+    },
+    "Weapon/Weapon System" : {
+      "comment" : "Land Equipment Entity"
     },
     "Weather Symbols" : {
       "comment" : "Atmospheric Entity Type"
@@ -1058,11 +3169,59 @@
     "Wheeled limited cross country" : {
       "comment" : "Equipment mobility on land amplifier descriptor"
     },
+    "Wheeled Vehicle Explosion" : {
+      "comment" : "Transportation Incident Entity Type"
+    },
+    "White List Location" : {
+      "comment" : "Installation Entity Type"
+    },
+    "Wild Fire" : {
+      "comment" : "Fire Event Entity Type"
+    },
+    "Willing" : {
+      "comment" : "Recruitment Entity Subtype"
+    },
     "Wind Plot" : {
       "comment" : "Winds Entity Type"
     },
     "Winds" : {
       "comment" : "Atmospheric Entity Type"
+    },
+    "With Snow or Measurable Ice Cover" : {
+      "comment" : "State of Ground Entity Type"
+    },
+    "Without Snow or Measurable Ice Cover" : {
+      "comment" : "State of Ground Entity Type"
+    },
+    "Wrong symbol amplifier descriptor." : {
+      "comment" : "Military Symbol init from SIDC Error"
+    },
+    "Wrong symbol amplifier." : {
+      "comment" : "Military Symbol init from SIDC Error"
+    },
+    "Wrong symbol context." : {
+      "comment" : "Military Symbol init from SIDC Error"
+    },
+    "Wrong symbol entity subtype." : {
+      "comment" : "Military Symbol init from SIDC Error"
+    },
+    "Wrong symbol entity type." : {
+      "comment" : "Military Symbol init from SIDC Error"
+    },
+    "Wrong symbol entity." : {
+      "comment" : "Military Symbol init from SIDC Error"
+    },
+    "Wrong symbol HQTFD." : {
+      "comment" : "Military Symbol init from SIDC Error"
+    },
+    "Wrong symbol set." : {
+      "comment" : "Military Symbol init from SIDC Error"
+    },
+    "Wrong symbol standard identity." : {
+      "comment" : "Military Symbol init from SIDC Error"
+    },
+    "Wrong symbol status." : {
+      "comment" : "Military Symbol init from SIDC Error"
     },
     "Zombie" : {
       "comment" : "Botnet Entity Type"
