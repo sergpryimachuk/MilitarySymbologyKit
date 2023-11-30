@@ -7,13 +7,13 @@
 
 import Foundation
 
-enum TrainEntityType: String, CaseIterable, EntityType {
+public enum TrainEntityType: String, CaseIterable, EntityType {
     case locomotive = "01"
     case railcar = "02"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .locomotive:
             String(localized: "Locomotive", bundle: .module, comment: "Train Entity Type")
@@ -23,7 +23,7 @@ enum TrainEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         [.none]
     }
 }

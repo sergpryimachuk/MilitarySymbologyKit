@@ -4,15 +4,15 @@
 
 import Foundation
 
-extension AtmosphericEntity {
-    enum StateOfGroundEntityType: String, CaseIterable, EntityType {
+public extension AtmosphericEntity {
+    public enum StateOfGroundEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case withoutSnowOrMeasurableIceCover = "01"
         case withSnowOrMeasurableIceCover = "02"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")
@@ -25,7 +25,7 @@ extension AtmosphericEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .none:
                 [.none]

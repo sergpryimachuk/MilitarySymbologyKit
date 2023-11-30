@@ -7,14 +7,14 @@
 
 import Foundation
 
-enum SensorsEntityType: String, CaseIterable, EntityType {
+public enum SensorsEntityType: String, CaseIterable, EntityType {
     case sensor = "01"
     case sensorEmplaced = "02"
     case radar = "03"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .sensor:
             String(localized: "Sensor", bundle: .module, comment: "Sensors Entity Type")
@@ -27,7 +27,7 @@ enum SensorsEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         [.none]
     }
 }

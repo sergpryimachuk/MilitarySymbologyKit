@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum NeutralizedMineGeneralEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum NeutralizedMineGeneralEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case neutralizedMineBottom = "01"
     case neutralizedMineMoored = "02"
@@ -12,9 +12,9 @@ enum NeutralizedMineGeneralEntitySubtype: String, CaseIterable, EntitySubtype {
     case neutralizedMineRising = "04"
     case neutralizedMineOtherPosition = "05"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

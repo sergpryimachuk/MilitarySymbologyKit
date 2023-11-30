@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum FireEventEntityType: String, CaseIterable, EntityType {
+public enum FireEventEntityType: String, CaseIterable, EntityType {
     case none = "00"
     case fireOrigin = "01"
     case smoke = "02"
@@ -15,9 +15,9 @@ enum FireEventEntityType: String, CaseIterable, EntityType {
     case specialNeedsFire = "07"
     case wildFire = "08"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -40,7 +40,7 @@ enum FireEventEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         [.none]
     }
 }

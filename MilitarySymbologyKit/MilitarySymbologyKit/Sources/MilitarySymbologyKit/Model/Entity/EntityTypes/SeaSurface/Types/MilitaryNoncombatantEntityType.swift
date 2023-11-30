@@ -4,15 +4,15 @@
 
 import Foundation
 
-extension SeaSurfaceEntity {
-    enum MilitaryNoncombatantEntityType: String, CaseIterable, EntityType {
+public extension SeaSurfaceEntity {
+    public enum MilitaryNoncombatantEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case auxiliaryShip = "01"
         case serviceCraftYard = "02"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")
@@ -25,7 +25,7 @@ extension SeaSurfaceEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .none:
                 [.none]

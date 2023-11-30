@@ -4,16 +4,16 @@
 
 import Foundation
 
-enum DustOrSandEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum DustOrSandEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case lightToModerate = "01"
     case severe = "02"
     case dustDevil = "03"
     case blowingDustOrSand = "04"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

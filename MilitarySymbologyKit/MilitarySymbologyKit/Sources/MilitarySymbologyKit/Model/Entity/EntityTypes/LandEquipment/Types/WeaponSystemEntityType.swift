@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum WeaponSystemEntityType: String, CaseIterable, EntityType {
+public enum WeaponSystemEntityType: String, CaseIterable, EntityType {
     case rifle = "01"
     case machineGun = "02"
     case grenadeLauncher = "03"
@@ -29,9 +29,9 @@ enum WeaponSystemEntityType: String, CaseIterable, EntityType {
     case taser = "19"
     case waterCannon = "20"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .rifle:
             String(localized: "Rifle", bundle: .module, comment: "Weapon System Entity Type")
@@ -95,7 +95,7 @@ enum WeaponSystemEntityType: String, CaseIterable, EntityType {
         }
     }
 
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .rifle:
             RifleEntitySubtype.allCases.map { AnyEntitySubtype($0) }

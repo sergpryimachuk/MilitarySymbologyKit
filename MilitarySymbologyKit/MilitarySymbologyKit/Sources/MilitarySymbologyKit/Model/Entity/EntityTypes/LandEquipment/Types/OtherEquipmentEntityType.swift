@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
+public enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
     case none = "00"
     case antennae = "01"
     case bomb = "02"
@@ -25,9 +25,9 @@ enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
     case unitDeploymentShipments = "14"
     case emergencyMedicalOperation = "15"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -78,7 +78,7 @@ enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .emergencyMedicalOperation:
             EmergencyMedicalOperationEntitySubtype.allCases.map { AnyEntitySubtype($0) }

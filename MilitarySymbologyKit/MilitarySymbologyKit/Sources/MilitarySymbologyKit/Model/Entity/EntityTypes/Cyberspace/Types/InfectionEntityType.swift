@@ -4,15 +4,15 @@
 
 import Foundation
 
-extension CyberspaceEntity {
-    enum InfectionEntityType: String, CaseIterable, Identifiable, EntityType {
+public extension CyberspaceEntity {
+    public enum InfectionEntityType: String, CaseIterable, Identifiable, EntityType {
         case none = "00"
         case advancedPersistentThreat = "01"
         case nonAdvancedPersistentThreat = "02"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .advancedPersistentThreat:
                 String(localized: "Advanced Persistent Threat (APT)", bundle: .module, comment: "Infection Entity Type")
@@ -24,7 +24,7 @@ extension CyberspaceEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .none:
                 [.none]

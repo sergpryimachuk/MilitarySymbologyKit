@@ -4,19 +4,19 @@
 
 import Foundation
 
-protocol EntityType: Identifiable {
+public protocol EntityType: Identifiable {
     var id: String { get }
     var name: String { get }
     var subtypes: [AnyEntitySubtype] { get }
 }
 
-struct AnyEntityType: EntityType, Hashable, Identifiable {
-    var id: String
-    var name: String
-    var subtypes: [AnyEntitySubtype]
+public struct AnyEntityType: EntityType, Hashable, Identifiable {
+    public var id: String
+    public var name: String
+    public var subtypes: [AnyEntitySubtype]
 }
 
-extension AnyEntityType {
+public extension AnyEntityType {
     init<T: EntityType>(_ entityType: T) {
         id = entityType.id
         name = entityType.name
@@ -24,7 +24,7 @@ extension AnyEntityType {
     }
 }
 
-extension AnyEntityType {
+public extension AnyEntityType {
     static let none: AnyEntityType = .init(id: "00",
                                            name: String(localized: "None"),
                                            subtypes: [.none])

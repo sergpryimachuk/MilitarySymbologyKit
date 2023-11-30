@@ -4,16 +4,16 @@
 
 import Foundation
 
-extension OceanographicEntity {
-    enum OceanographyEntityType: String, CaseIterable, EntityType {
-        var subtypes: [AnyEntitySubtype] { [.none] }
+public extension OceanographicEntity {
+    public enum OceanographyEntityType: String, CaseIterable, EntityType {
+        public var subtypes: [AnyEntitySubtype] { [.none] }
         
         case bioluminescence = "01"
         case beachSlope = "02"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .bioluminescence:
                 String(localized: "Bioluminescence", bundle: .module, comment: "Oceanography Entity Type")

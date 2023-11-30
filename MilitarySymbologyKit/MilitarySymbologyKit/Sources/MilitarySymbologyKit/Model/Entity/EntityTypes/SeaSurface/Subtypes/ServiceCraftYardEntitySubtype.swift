@@ -4,16 +4,16 @@
 
 import Foundation
 
-enum ServiceCraftYardEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum ServiceCraftYardEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case bargeNotSelfPropelled = "01"
     case bargeSelfPropelled = "02"
     case tugHarbor = "03"
     case launch = "04"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

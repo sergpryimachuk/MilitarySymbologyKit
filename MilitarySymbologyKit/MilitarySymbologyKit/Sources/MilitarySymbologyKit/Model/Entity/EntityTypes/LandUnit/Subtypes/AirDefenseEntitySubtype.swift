@@ -4,13 +4,13 @@
 
 import Foundation
 
-enum AirDefenseEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum AirDefenseEntitySubtype: String, CaseIterable, EntitySubtype {
     case mainGunSystem = "01"
     case missile = "02"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .mainGunSystem:
             String(localized: "Main Gun System", bundle: .module, comment: "Air Defense Entity Subtype")

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum WaterSupplyInfrastructureSubtype: String, CaseIterable, EntitySubtype {
+public enum WaterSupplyInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case controlValve = "01"
     case dam = "02"
@@ -21,9 +21,9 @@ enum WaterSupplyInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case water = "10"
     case waterTreatment = "11"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

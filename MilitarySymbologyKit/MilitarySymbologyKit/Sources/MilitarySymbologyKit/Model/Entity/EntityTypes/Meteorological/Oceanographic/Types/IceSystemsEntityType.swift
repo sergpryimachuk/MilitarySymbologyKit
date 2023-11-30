@@ -4,9 +4,9 @@
 
 import Foundation
 
-extension OceanographicEntity {
-    enum IceSystemsEntityType: String, CaseIterable, EntityType {
-        var subtypes: [AnyEntitySubtype] { [.none] }
+public extension OceanographicEntity {
+    public enum IceSystemsEntityType: String, CaseIterable, EntityType {
+        public var subtypes: [AnyEntitySubtype] { [.none] }
         
         case icebergs = "01"
         case iceConcentration = "02"
@@ -17,9 +17,9 @@ extension OceanographicEntity {
         case snowCover = "07"
         case topographicalFeatures = "08"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .icebergs:
                 String(localized: "Icebergs", bundle: .module, comment: "Ice Systems Entity Type")

@@ -4,16 +4,16 @@
 
 import Foundation
 
-extension CyberspaceEntity {
-    enum HealthAndStatusEntityType: String, CaseIterable, Identifiable, EntityType {
+public extension CyberspaceEntity {
+    public enum HealthAndStatusEntityType: String, CaseIterable, Identifiable, EntityType {
         case normal = "01"
         case networkOutage = "02"
         case unknown = "03"
         case impaired = "04"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .normal:
                 String(localized: "Normal", bundle: .module, comment: "Health and Status Entity Type")
@@ -29,7 +29,7 @@ extension CyberspaceEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

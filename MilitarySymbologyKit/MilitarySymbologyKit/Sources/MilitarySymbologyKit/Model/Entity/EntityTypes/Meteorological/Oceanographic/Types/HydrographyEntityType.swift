@@ -4,9 +4,9 @@
 
 import Foundation
 
-extension OceanographicEntity {
-    enum HydrographyEntityType: String, CaseIterable, EntityType {
-        var subtypes: [AnyEntitySubtype] { [.none] }
+public extension OceanographicEntity {
+    public enum HydrographyEntityType: String, CaseIterable, EntityType {
+        public var subtypes: [AnyEntitySubtype] { [.none] }
         
         case depth = "01"
         case coastalHydrography = "02"
@@ -16,9 +16,9 @@ extension OceanographicEntity {
         case bottomFeatures = "06"
         case tideAndCurrent = "07"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .depth:
                 String(localized: "Depth", bundle: .module, comment: "Hydrography Entity Type")

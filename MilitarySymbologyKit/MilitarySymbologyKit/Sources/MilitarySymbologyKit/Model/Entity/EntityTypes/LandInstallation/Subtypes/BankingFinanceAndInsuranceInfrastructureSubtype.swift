@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum BankingFinanceAndInsuranceInfrastructureSubtype: String, CaseIterable, EntitySubtype {
+public enum BankingFinanceAndInsuranceInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case atm = "01"
     case bank = "02"
@@ -17,9 +17,9 @@ enum BankingFinanceAndInsuranceInfrastructureSubtype: String, CaseIterable, Enti
     case financialExchange = "06"
     case financialServicesOther = "07"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

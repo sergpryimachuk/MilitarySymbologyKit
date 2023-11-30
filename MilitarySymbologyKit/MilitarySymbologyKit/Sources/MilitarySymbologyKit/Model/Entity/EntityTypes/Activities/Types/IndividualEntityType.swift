@@ -7,14 +7,14 @@
 
 import Foundation
 
-enum IndividualEntityType: String, CaseIterable, EntityType {
+public enum IndividualEntityType: String, CaseIterable, EntityType {
     case none = "00"
     case religiousLeader = "01"
     case speaker = "02"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -25,7 +25,7 @@ enum IndividualEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:
             [.none]

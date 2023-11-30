@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum SignalEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum SignalEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case radio = "01"
     case radioRelay = "02"
@@ -16,9 +16,9 @@ enum SignalEntitySubtype: String, CaseIterable, EntitySubtype {
     case corpsSupport = "97"
     case theaterEchelonsAboveCorpsSupport = "98"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None", bundle: .module, comment: "Signal Entity Subtype")

@@ -4,9 +4,9 @@
 
 import Foundation
 
-extension OceanographicEntity {
-    enum LimitsEntityType: String, CaseIterable, EntityType {
-        var subtypes: [AnyEntitySubtype] { [.none] }
+public extension OceanographicEntity {
+    public enum LimitsEntityType: String, CaseIterable, EntityType {
+        public var subtypes: [AnyEntitySubtype] { [.none] }
         
         case maritimeLimitBoundary = "01"
         case maritimeArea = "02"
@@ -15,9 +15,9 @@ extension OceanographicEntity {
         case trainingArea = "05"
         case operatorDefined = "06"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .maritimeLimitBoundary:
                 String(localized: "Maritime Limit Boundary", bundle: .module, comment: "Limits Entity Type")

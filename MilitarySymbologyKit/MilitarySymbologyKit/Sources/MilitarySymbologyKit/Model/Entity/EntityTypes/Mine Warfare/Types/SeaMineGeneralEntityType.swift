@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension MineWarfareEntity {
-    enum SeaMineGeneralEntityType: String, CaseIterable, EntityType {
+public extension MineWarfareEntity {
+    public enum SeaMineGeneralEntityType: String, CaseIterable, EntityType {
         case seaMineBottom = "01"
         case seaMineMoored = "02"
         case seaMineFloating = "03"
@@ -16,9 +16,9 @@ extension MineWarfareEntity {
         case exerciseMineGeneral = "08"
         case neutralizedMineGeneral = "09"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .seaMineBottom:
                 String(localized: "Sea Mine-Bottom", bundle: .module, comment: "Sea Mine General Entity Type")
@@ -49,7 +49,7 @@ extension MineWarfareEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .exerciseMineGeneral:
                 ExerciseMineGeneralSubtype.allCases.map { AnyEntitySubtype($0) }

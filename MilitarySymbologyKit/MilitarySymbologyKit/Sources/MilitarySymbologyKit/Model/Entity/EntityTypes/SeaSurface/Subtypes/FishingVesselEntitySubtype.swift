@@ -4,15 +4,15 @@
 
 import Foundation
 
-enum FishingVesselEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum FishingVesselEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case drifter = "01"
     case trawler = "02"
     case dredger = "03"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum EnergyFacilityInfrastructureSubtype: String, CaseIterable, EntitySubtype {
+public enum EnergyFacilityInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case electricPower = "01"
     case generationStation = "02"
@@ -16,9 +16,9 @@ enum EnergyFacilityInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case petroleumGasOil = "05"
     case propaneFacility = "06"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

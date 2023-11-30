@@ -4,16 +4,16 @@
 
 import Foundation
 
-enum TropicalStormSystemsEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum TropicalStormSystemsEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case tropicalDepression = "01"
     case tropicalStorm = "02"
     case hurricaneTyphoon = "03"
     case tropicalStormWindAreas = "04"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

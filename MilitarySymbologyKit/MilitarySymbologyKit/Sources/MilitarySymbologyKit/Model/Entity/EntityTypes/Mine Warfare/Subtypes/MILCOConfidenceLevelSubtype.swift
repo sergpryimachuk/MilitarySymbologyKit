@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum MILCOConfidenceLevelSubtype: String, CaseIterable, EntitySubtype {
+public enum MILCOConfidenceLevelSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case confidenceLevel1 = "01"
     case confidenceLevel2 = "02"
@@ -12,9 +12,9 @@ enum MILCOConfidenceLevelSubtype: String, CaseIterable, EntitySubtype {
     case confidenceLevel4 = "04"
     case confidenceLevel5 = "05"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None", bundle: .module, comment: "MILCO General Entity Subtype")

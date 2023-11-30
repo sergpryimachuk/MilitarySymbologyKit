@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum Dimension: String, CaseIterable, Identifiable {
+public enum Dimension: String, CaseIterable, Identifiable {
     case air = "01"
     case airMissile = "02"
     case space = "05"
@@ -28,9 +28,9 @@ enum Dimension: String, CaseIterable, Identifiable {
 //    case signalsIntelligenceSubsurface = "54"
     case cyberspace = "60"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .air:
             String(localized: "Air", bundle: .module, comment: "Dimension")
@@ -101,7 +101,7 @@ enum Dimension: String, CaseIterable, Identifiable {
     }
 
     /// Gigit used to retireve svg asset.
-    var assetDigit: String {
+    public var assetDigit: String {
         switch self {
         case .airMissile: //.signalsIntelligenceAir:
             Dimension.air.id
@@ -116,7 +116,7 @@ enum Dimension: String, CaseIterable, Identifiable {
         }
     }
 
-    var entities: [AnyEntity] {
+    public var entities: [AnyEntity] {
         switch self {
         case .air:
             AirUnitEntity.allCases.map { AnyEntity($0) }

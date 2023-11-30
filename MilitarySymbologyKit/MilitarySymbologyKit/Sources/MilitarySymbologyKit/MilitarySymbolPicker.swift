@@ -4,11 +4,11 @@
 
 import SwiftUI
 
-struct MilitarySymbolPicker: View {
-    @State private var symbol: MilitarySymbol
-    @State private var searchText = ""
-    @State private var isSearchPresented = false
-    @State private var searchResults: [MilitarySymbol]?
+public struct MilitarySymbolPicker: View {
+    @State public var symbol: MilitarySymbol
+    @State public var searchText = ""
+    @State public var isSearchPresented = false
+    @State public var searchResults: [MilitarySymbol]?
     
     init() {
         self._symbol = .init(initialValue: .init())
@@ -18,7 +18,7 @@ struct MilitarySymbolPicker: View {
         self._symbol = .init(initialValue: symbol)
     }
 
-    var body: some View {
+    public var body: some View {
         Form {
             
             MilitarySymbolSearchResults(searchText: $searchText,

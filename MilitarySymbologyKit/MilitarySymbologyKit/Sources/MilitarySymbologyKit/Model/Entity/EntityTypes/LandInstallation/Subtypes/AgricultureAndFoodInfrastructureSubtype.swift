@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum AgricultureAndFoodInfrastructureSubtype: String, CaseIterable, EntitySubtype {
+public enum AgricultureAndFoodInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case agricultureLaboratory = "01"
     case animalFeedlot = "02"
@@ -18,9 +18,9 @@ enum AgricultureAndFoodInfrastructureSubtype: String, CaseIterable, EntitySubtyp
     case foodRetail = "07"
     case grainStorage = "08"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

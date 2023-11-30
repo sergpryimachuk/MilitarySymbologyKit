@@ -4,16 +4,16 @@
 
 import Foundation
 
-enum IEDEventEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum IEDEventEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case iedExplosion = "01"
     case prematureIEDExplosion = "02"
     case iedCache = "03"
     case iedSuicideBomber = "04"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

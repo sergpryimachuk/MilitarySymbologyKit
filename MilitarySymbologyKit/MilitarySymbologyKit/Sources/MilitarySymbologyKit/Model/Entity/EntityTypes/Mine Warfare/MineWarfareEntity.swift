@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum MineWarfareEntity: String, CaseIterable, Entity {
+public enum MineWarfareEntity: String, CaseIterable, Entity {
     case seaMineGeneral = "11"
     case unexplodedOrdnance = "12"
     case seaMineDecoy = "13"
@@ -17,9 +17,9 @@ enum MineWarfareEntity: String, CaseIterable, Entity {
     case environmentalReportLocation = "20"
     case diveReportLocation = "21"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .seaMineGeneral:
             String(localized: "Sea Mine-General", bundle: .module, comment: "Mine Warfare Entity")
@@ -56,7 +56,7 @@ enum MineWarfareEntity: String, CaseIterable, Entity {
         }
     }
 
-    var types: [AnyEntityType] {
+    public var types: [AnyEntityType] {
         switch self {
         case .seaMineGeneral:
             SeaMineGeneralEntityType.allCases.map { AnyEntityType($0) }

@@ -7,16 +7,16 @@
 
 import Foundation
 
-enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
+public enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
     case none = "00"
     case alliedCommandEuropeRapidReactionCorps = "01"
     case alliedCommandOperations = "02"
     case internationalSecurityAssistanceForce = "03"
     case multinational = "04"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -34,7 +34,7 @@ enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
         }
     }
 
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:
             [.none]

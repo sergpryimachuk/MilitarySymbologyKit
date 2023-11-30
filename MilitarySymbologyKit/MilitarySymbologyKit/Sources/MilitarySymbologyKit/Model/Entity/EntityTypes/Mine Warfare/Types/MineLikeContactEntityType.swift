@@ -4,17 +4,17 @@
 
 import Foundation
 
-extension MineWarfareEntity {
-    enum MineLikeContactEntityType: String, CaseIterable, EntityType {
+public extension MineWarfareEntity {
+    public enum MineLikeContactEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case milcoGeneral = "01"
         case milcoBottom = "02"
         case milcoMoored = "03"
         case milcoFloating = "04"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None", bundle: .module, comment: "Mine-Like Contact Entity Type")
@@ -33,7 +33,7 @@ extension MineWarfareEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .none:
                 [.none]

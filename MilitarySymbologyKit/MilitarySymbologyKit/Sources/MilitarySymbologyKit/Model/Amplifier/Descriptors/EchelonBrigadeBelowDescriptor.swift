@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum EchelonBrigadeBelowDescriptor: String, CaseIterable, Descriptor {
+public enum EchelonBrigadeBelowDescriptor: String, CaseIterable, Descriptor {
     case teamCrew = "1"
     case squad = "2"
     case section = "3"
@@ -14,9 +14,9 @@ enum EchelonBrigadeBelowDescriptor: String, CaseIterable, Descriptor {
     case regimentGroup = "7"
     case brigade = "8"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .teamCrew:
             String(localized: "Team/Crew", bundle: .module, comment: "Echelon at brigade and below amplifier descriptor")

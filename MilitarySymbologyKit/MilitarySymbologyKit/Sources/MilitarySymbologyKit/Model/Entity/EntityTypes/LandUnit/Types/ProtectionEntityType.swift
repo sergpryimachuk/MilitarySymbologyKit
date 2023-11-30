@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
+public enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
     case none = "00"
     case chemicalBiologicalRadiologicalNuclearDefense = "01"
     case combatSupportManeuverEnhancement = "02"
@@ -28,9 +28,9 @@ enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
     case shorePatrol = "20"
     case topographic = "21"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -99,7 +99,7 @@ enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
         }
     }
 
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:
             [.none]

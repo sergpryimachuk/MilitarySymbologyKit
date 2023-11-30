@@ -4,16 +4,16 @@
 
 import Foundation
 
-extension MineWarfareEntity {
-    enum MineLikeEchoMILECGeneralEntityType: String, CaseIterable, EntityType {
+public extension MineWarfareEntity {
+    public enum MineLikeEchoMILECGeneralEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case mineLikeEchoBottom = "01"
         case mineLikeEchoMoored = "02"
         case mineLikeEchoFloating = "03"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None", bundle: .module, comment: "Mine-Like Echo (MILEC) - General Entity Type")
@@ -29,7 +29,7 @@ extension MineWarfareEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

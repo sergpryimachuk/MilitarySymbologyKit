@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension AirUnitEntity {
-    enum MilitaryEntityType: String, CaseIterable, EntityType {
+public extension AirUnitEntity {
+    public enum MilitaryEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case fixedWing = "01"
         case rotaryWing = "02"
@@ -15,9 +15,9 @@ extension AirUnitEntity {
         case airship = "06"
         case tetheredLighterThanAir = "07"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")
@@ -45,7 +45,7 @@ extension AirUnitEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .fixedWing:
                 FixedWingEntitySubtype.allCases.map { AnyEntitySubtype($0) }

@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension LandUnitEntity {
-    enum SustainmentEntityType: String, CaseIterable, Identifiable, EntityType {
+public extension LandUnitEntity {
+    public enum SustainmentEntityType: String, CaseIterable, Identifiable, EntityType {
         case none = "00"
         case administrative = "01"
         case allClassesOfSupply = "02"
@@ -57,9 +57,9 @@ extension LandUnitEntity {
         case waterPurification = "48"
         case broadcast = "49"
         
-        var id: String { rawValue }
+        public var id: String { rawValue }
         
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")
@@ -212,7 +212,7 @@ extension LandUnitEntity {
             }
         }
         
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .none:
                 [.none]

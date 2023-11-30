@@ -4,15 +4,15 @@
 
 import Foundation
 
-extension AirUnitEntity {
-    enum WeaponEntityType: String, CaseIterable, EntityType {
+public extension AirUnitEntity {
+    public enum WeaponEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case bomb = "01"
         case decoy = "02"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")
@@ -25,7 +25,7 @@ extension AirUnitEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

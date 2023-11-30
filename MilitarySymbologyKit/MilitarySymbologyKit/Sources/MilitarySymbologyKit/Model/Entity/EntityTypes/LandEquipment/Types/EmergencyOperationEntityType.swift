@@ -7,14 +7,14 @@
 
 import Foundation
 
-extension LandEquipmentEntity {
-    enum EmergencyOperationEntityType: String, CaseIterable, EntityType {
+public extension LandEquipmentEntity {
+    public enum EmergencyOperationEntityType: String, CaseIterable, EntityType {
         case ambulance = "01"
         case fireFightingFireProtection = "02"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .ambulance:
                 String(localized: "Ambulance", bundle: .module, comment: "Emergency Operation Entity Type")
@@ -24,7 +24,7 @@ extension LandEquipmentEntity {
             }
         }
         
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

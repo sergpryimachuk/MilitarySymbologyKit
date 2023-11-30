@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum IncidentEntityType: String, CaseIterable, EntityType {
+public enum IncidentEntityType: String, CaseIterable, EntityType {
     case none = "00"
     case criminalActivityIncident = "01"
     case bombBombing = "02"
@@ -13,9 +13,9 @@ enum IncidentEntityType: String, CaseIterable, EntityType {
     case illegalDrugOperation = "05"
     case explosion = "06"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -40,7 +40,7 @@ enum IncidentEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:
             [.none]

@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension LandUnitEntity {
-    enum CommandAndControlEntityType: String, CaseIterable, Identifiable, EntityType {
+public extension LandUnitEntity {
+    public enum CommandAndControlEntityType: String, CaseIterable, Identifiable, EntityType {
         case none = "00"
         case broadcastTransmitterAntennae = "01"
         case civilAffairs = "02"
@@ -20,9 +20,9 @@ extension LandUnitEntity {
         case tacticalSatellite = "11"
         case videoImageryCombatCamera = "12"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None", bundle: .module, comment: "Command and Control Entity Type")
@@ -65,7 +65,7 @@ extension LandUnitEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .none:
                 [.none]

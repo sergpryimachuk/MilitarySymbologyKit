@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum SnowEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum SnowEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case intermittentLight = "01"
     case intermittentLightContinuousLight = "02"
@@ -15,9 +15,9 @@ enum SnowEntitySubtype: String, CaseIterable, EntitySubtype {
     case blowingSnowLightModerate = "07"
     case blowingSnowHeavy = "08"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

@@ -7,13 +7,13 @@
 
 import Foundation
 
-enum HazardMaterialsEntityType: String, CaseIterable, EntityType {
+public enum HazardMaterialsEntityType: String, CaseIterable, EntityType {
     case none = "00"
     case hazardMaterialsIncident = "01"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -22,7 +22,7 @@ enum HazardMaterialsEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:
             [.none]

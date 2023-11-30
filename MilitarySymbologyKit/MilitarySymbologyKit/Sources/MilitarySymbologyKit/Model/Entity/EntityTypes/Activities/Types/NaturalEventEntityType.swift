@@ -7,15 +7,15 @@
 
 import Foundation
 
-enum NaturalEventEntityType: String, CaseIterable, EntityType {
+public enum NaturalEventEntityType: String, CaseIterable, EntityType {
     case none = "00"
     case geologic = "01"
     case hydroMeteorological = "02"
     case infestation = "03"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -28,7 +28,7 @@ enum NaturalEventEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:
             [.none]

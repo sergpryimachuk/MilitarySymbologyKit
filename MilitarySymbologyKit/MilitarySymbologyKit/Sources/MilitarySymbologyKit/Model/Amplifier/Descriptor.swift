@@ -4,23 +4,23 @@
 
 import Foundation
 
-protocol Descriptor: Identifiable {
+public protocol Descriptor: Identifiable {
     var id: String { get }
     var name: String { get }
 }
 
-struct AnyDescriptor: Descriptor, Hashable, Identifiable {
-    var id: String
-    var name: String
+public struct AnyDescriptor: Descriptor, Hashable, Identifiable {
+    public var id: String
+    public var name: String
 }
 
-extension AnyDescriptor {
+public extension AnyDescriptor {
     init<T: Descriptor>(_ descriptor: T) {
         id = descriptor.id
         name = descriptor.name
     }
 }
 
-extension AnyDescriptor {
+public extension AnyDescriptor {
     static let none = AnyDescriptor(id: "0", name: String(localized: "None"))
 }

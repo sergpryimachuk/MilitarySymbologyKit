@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
+public enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
     case bridge = "01"
     case bridgeMountedOnUtilityVehicle = "02"
     case fixedBridge = "03"
@@ -25,9 +25,9 @@ enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
     case constructionVehicle = "15"
     case ferryTransporter = "16"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .bridge:
             String(localized: "Bridge", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
@@ -79,7 +79,7 @@ enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
         }
     }
 
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .drill:
             DrillEntitySubtype.allCases.map { AnyEntitySubtype($0) }

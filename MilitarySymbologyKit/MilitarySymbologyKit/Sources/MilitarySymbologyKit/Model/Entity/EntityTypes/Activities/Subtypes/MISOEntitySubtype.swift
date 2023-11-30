@@ -4,13 +4,13 @@
 
 import Foundation
 
-enum MISOEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum MISOEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case tvAndRadioPropaganda = "01"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

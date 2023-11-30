@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum LandEquipmentEntity: String, CaseIterable, Entity {
+public enum LandEquipmentEntity: String, CaseIterable, Entity {
     case weaponWeaponSystem = "11"
     case vehicle = "12"
     case engineerVehiclesAndEquipment = "13"
@@ -23,9 +23,9 @@ enum LandEquipmentEntity: String, CaseIterable, Entity {
     case emergencyOperation = "23"
     case manualTrack = "24"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .weaponWeaponSystem:
             String(localized: "Weapon/Weapon System", bundle: .module, comment: "Land Equipment Entity")
@@ -71,7 +71,7 @@ enum LandEquipmentEntity: String, CaseIterable, Entity {
         }
     }
 
-    var types: [AnyEntityType] {
+    public var types: [AnyEntityType] {
         switch self {
         case .weaponWeaponSystem:
             WeaponSystemEntityType.allCases.map { AnyEntityType($0) }

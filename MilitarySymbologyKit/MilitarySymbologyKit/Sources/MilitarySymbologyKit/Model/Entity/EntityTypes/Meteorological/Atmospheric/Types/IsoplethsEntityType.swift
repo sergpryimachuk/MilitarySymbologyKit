@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension AtmosphericEntity {
-    enum IsoplethsEntityType: String, CaseIterable, EntityType {
+public extension AtmosphericEntity {
+    public enum IsoplethsEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case isobarSurface = "01"
         case contourUpperAir = "02"
@@ -15,9 +15,9 @@ extension AtmosphericEntity {
         case thickness = "06"
         case operatorDefinedFreeform = "07"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")
@@ -45,7 +45,7 @@ extension AtmosphericEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

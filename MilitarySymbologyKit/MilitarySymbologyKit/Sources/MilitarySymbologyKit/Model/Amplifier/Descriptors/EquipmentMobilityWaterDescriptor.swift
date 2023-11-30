@@ -4,13 +4,13 @@
 
 import Foundation
 
-enum EquipmentMobilityWaterDescriptor: String, CaseIterable, Descriptor {
+public enum EquipmentMobilityWaterDescriptor: String, CaseIterable, Descriptor {
     case barge = "1"
     case amphibious = "2"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .barge:
             String(localized: "Barge", bundle: .module, comment: "Equipment mobility on water amplifier descriptor")

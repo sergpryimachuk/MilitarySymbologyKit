@@ -7,15 +7,15 @@
 
 import Foundation
 
-enum HydroMeteorologicalEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum HydroMeteorologicalEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case drought = "01"
     case flood = "02"
     case tsunami = "03"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension LandUnitEntity {
-    enum FiresEntityType: String, CaseIterable, Identifiable, EntityType {
+public extension LandUnitEntity {
+    public enum FiresEntityType: String, CaseIterable, Identifiable, EntityType {
         case none = "00"
         case airDefense = "01"
         case airLandNavalGunfireLiaison = "02"
@@ -17,9 +17,9 @@ extension LandUnitEntity {
         case mortar = "08"
         case survey = "09"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None", bundle: .module, comment: "Fire Support Entity Type")
@@ -53,7 +53,7 @@ extension LandUnitEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .none:
                 [.none]

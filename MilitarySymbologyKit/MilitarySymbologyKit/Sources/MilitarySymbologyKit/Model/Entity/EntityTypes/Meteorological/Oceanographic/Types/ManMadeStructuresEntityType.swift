@@ -4,9 +4,9 @@
 
 import Foundation
 
-extension OceanographicEntity {
-    enum ManMadeStructuresEntityType: String, CaseIterable, EntityType {
-        var subtypes: [AnyEntitySubtype] { [.none] }
+public extension OceanographicEntity {
+    public enum ManMadeStructuresEntityType: String, CaseIterable, EntityType {
+        public var subtypes: [AnyEntitySubtype] { [.none] }
         
         case submarineCable = "01"
         case submergedCrib = "02"
@@ -18,9 +18,9 @@ extension OceanographicEntity {
         case pipelinesPipe = "08"
         case pilePilingPost = "09"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .submarineCable:
                 String(localized: "Submarine Cable", bundle: .module, comment: "Man-Made Structures Entity Type")

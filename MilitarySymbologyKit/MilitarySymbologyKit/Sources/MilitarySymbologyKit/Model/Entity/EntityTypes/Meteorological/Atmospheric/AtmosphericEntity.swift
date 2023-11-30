@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum AtmosphericEntity: String, CaseIterable, Entity {
+public enum AtmosphericEntity: String, CaseIterable, Entity {
     case none = "00"
     case pressureSystems = "11"
     case turbulence = "12"
@@ -16,9 +16,9 @@ enum AtmosphericEntity: String, CaseIterable, Entity {
     case isopleths = "18"
     case stateOfTheGround = "19"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -51,7 +51,7 @@ enum AtmosphericEntity: String, CaseIterable, Entity {
         }
     }
 
-    var types: [AnyEntityType] {
+    public var types: [AnyEntityType] {
         switch self {
         case .none:
             [.none]

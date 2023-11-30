@@ -4,19 +4,19 @@
 
 import Foundation
 
-enum MissileEntity: String, CaseIterable, Entity {
+public enum MissileEntity: String, CaseIterable, Entity {
     case missile = "11"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .missile:
             String(localized: "Missile")
         }
     }
 
-    var types: [AnyEntityType] {
+    public var types: [AnyEntityType] {
         switch self {
         case .missile:
             [.none]

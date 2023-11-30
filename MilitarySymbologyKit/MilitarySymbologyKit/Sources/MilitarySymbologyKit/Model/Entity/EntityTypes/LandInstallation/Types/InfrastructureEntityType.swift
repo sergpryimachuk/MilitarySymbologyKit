@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum InfrastructureEntityType: String, CaseIterable, EntityType {
+public enum InfrastructureEntityType: String, CaseIterable, EntityType {
     case agricultureAndFoodInfrastructure = "01"
     case bankingFinanceAndInsuranceInfrastructure = "02"
     case commercialInfrastructure = "03"
@@ -23,9 +23,9 @@ enum InfrastructureEntityType: String, CaseIterable, EntityType {
     case transportationInfrastructure = "13"
     case waterSupplyInfrastructure = "14"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .agricultureAndFoodInfrastructure:
             String(localized: "Agriculture and Food Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
@@ -71,7 +71,7 @@ enum InfrastructureEntityType: String, CaseIterable, EntityType {
         }
     }
 
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .agricultureAndFoodInfrastructure: AgricultureAndFoodInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }
         case .bankingFinanceAndInsuranceInfrastructure: BankingFinanceAndInsuranceInfrastructureSubtype.allCases.map { AnyEntitySubtype($0) }

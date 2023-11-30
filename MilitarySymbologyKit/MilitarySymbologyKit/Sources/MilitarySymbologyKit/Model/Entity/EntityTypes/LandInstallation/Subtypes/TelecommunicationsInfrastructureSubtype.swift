@@ -7,15 +7,15 @@
 
 import Foundation
 
-enum TelecommunicationsInfrastructureSubtype: String, CaseIterable, EntitySubtype {
+public enum TelecommunicationsInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case broadcastTransmitterAntennae = "01"
     case telecommunications = "02"
     case telecommunicationsTower = "03"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

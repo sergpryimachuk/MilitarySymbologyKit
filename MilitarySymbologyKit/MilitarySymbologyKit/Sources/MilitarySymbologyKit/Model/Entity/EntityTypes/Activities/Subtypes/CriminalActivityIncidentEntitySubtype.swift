@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum CriminalActivityIncidentEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum CriminalActivityIncidentEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case arrest = "01"
     case arson = "02"
@@ -30,9 +30,9 @@ enum CriminalActivityIncidentEntitySubtype: String, CaseIterable, EntitySubtype 
     case sabotage = "22"
     case suspiciousActivity = "23"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

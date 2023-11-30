@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum HQTFD: String, CaseIterable, Identifiable {
+public enum HQTFD: String, CaseIterable, Identifiable {
     case none = "0"
     case feintDummy = "1"
     case headquarters = "2"
@@ -14,9 +14,9 @@ enum HQTFD: String, CaseIterable, Identifiable {
     case taskForceHeadquarters = "6"
     case feintDummyTaskForceHeadquarters = "7"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

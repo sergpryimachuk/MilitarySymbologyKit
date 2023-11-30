@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum FogEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum FogEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case shallowPatches = "01"
     case shallowContinuous = "02"
@@ -14,9 +14,9 @@ enum FogEntitySubtype: String, CaseIterable, EntitySubtype {
     case freezingSkyVisible = "06"
     case freezingSkyObscured = "07"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None", bundle: .module, comment: "Fog Entity Subtype")

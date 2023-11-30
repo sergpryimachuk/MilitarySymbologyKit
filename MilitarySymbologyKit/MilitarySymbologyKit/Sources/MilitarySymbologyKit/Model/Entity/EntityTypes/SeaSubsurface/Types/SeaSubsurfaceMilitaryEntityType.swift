@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension SeaSubsurfaceEntity {
-    enum MilitaryEntityType: String, CaseIterable, EntityType {
+public extension SeaSubsurfaceEntity {
+    public enum MilitaryEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case submarine = "01"
         case otherSubmersible = "02"
@@ -13,9 +13,9 @@ extension SeaSubsurfaceEntity {
         case autonomousUnderwaterVehicleAUV_UUV = "04"
         case diver = "05"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")
@@ -37,7 +37,7 @@ extension SeaSubsurfaceEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .submarine:
                 SubmarineEntitySubtype.allCases.map { AnyEntitySubtype($0) }

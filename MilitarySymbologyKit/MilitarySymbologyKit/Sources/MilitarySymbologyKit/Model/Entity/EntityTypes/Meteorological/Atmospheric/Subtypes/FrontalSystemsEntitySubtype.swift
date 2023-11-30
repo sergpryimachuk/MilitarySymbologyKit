@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum FrontalSystemsEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum FrontalSystemsEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case coldFront = "01"
     case upperColdFront = "02"
@@ -22,9 +22,9 @@ enum FrontalSystemsEntitySubtype: String, CaseIterable, EntitySubtype {
     case stationaryFrontogenesis = "14"
     case stationaryFrontolysis = "15"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

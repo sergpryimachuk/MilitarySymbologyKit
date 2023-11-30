@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension LandUnitEntity {
-    enum IntelligenceEntityType: String, CaseIterable, Identifiable, EntityType {
+public extension LandUnitEntity {
+    public enum IntelligenceEntityType: String, CaseIterable, Identifiable, EntityType {
         case none = "00"
         case analysis = "01"
         case counterintelligence = "02"
@@ -20,9 +20,9 @@ extension LandUnitEntity {
         case search = "11"
         case sensor = "12"
         
-        var id: String { rawValue }
+        public var id: String { rawValue }
         
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")
@@ -64,7 +64,7 @@ extension LandUnitEntity {
             }
         }
         
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .none:
                 [.none]

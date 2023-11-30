@@ -4,19 +4,19 @@
 
 import Foundation
 
-protocol Entity: Identifiable {
+public protocol Entity: Identifiable {
     var id: String { get }
     var name: String { get }
     var types: [AnyEntityType] { get }
 }
 
-struct AnyEntity: Entity, Hashable, Identifiable {
-    var id: String
-    var name: String
-    var types: [AnyEntityType]
+public struct AnyEntity: Entity, Hashable, Identifiable {
+    public var id: String
+    public var name: String
+    public var types: [AnyEntityType]
 }
 
-extension AnyEntity {
+public extension AnyEntity {
     init<T: Entity>(_ descriptor: T) {
         id = descriptor.id
         name = descriptor.name
@@ -24,7 +24,7 @@ extension AnyEntity {
     }
 }
 
-extension AnyEntity {
+public extension AnyEntity {
     static let none: AnyEntity = .init(id: "00", name: String(localized: "None"),
                                        types: [.none])
 }

@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum LinesEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum LinesEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case troughAxis = "01"
     case upperTroughAxis = "02"
@@ -16,9 +16,9 @@ enum LinesEntitySubtype: String, CaseIterable, EntitySubtype {
     case convergenceLine = "08"
     case interTropicalDiscontinuity = "09"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

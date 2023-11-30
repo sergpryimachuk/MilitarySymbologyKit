@@ -7,14 +7,14 @@
 
 import Foundation
 
-enum PostalServicesInfrastructureSubtype: String, CaseIterable, EntitySubtype {
+public enum PostalServicesInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case postalDistributionCenter = "01"
     case postOffice = "02"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

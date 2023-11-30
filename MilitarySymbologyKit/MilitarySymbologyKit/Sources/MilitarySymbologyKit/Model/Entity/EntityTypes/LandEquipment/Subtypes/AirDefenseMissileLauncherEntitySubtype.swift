@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum AirDefenseMissileLauncherEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum AirDefenseMissileLauncherEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case light = "01"
     case lightTLAR = "02"
@@ -16,9 +16,9 @@ enum AirDefenseMissileLauncherEntitySubtype: String, CaseIterable, EntitySubtype
     case heavyTLAR = "08"
     case heavyTELAR = "09"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

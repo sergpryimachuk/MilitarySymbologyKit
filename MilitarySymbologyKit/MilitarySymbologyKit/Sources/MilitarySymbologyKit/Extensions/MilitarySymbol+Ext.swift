@@ -5,7 +5,7 @@
 import OSLog
 import SwiftUI
 
-extension MilitarySymbol {
+public extension MilitarySymbol {
     // MARK: - FRAME
     // All good.
     

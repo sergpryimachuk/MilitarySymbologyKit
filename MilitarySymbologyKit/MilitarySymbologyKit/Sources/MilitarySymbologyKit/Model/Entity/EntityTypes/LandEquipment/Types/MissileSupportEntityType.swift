@@ -7,16 +7,16 @@
 
 import Foundation
 
-enum MissileSupportEntityType: String, CaseIterable, EntityType {
+public enum MissileSupportEntityType: String, CaseIterable, EntityType {
     case transloader = "01"
     case transporter = "02"
     case craneLoadingDevice = "03"
     case propellantTransporter = "04"
     case warheadTransporter = "05"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .transloader:
             String(localized: "Transloader", bundle: .module, comment: "Missile Support Entity Type")
@@ -35,7 +35,7 @@ enum MissileSupportEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         [.none]
     }
 }

@@ -4,15 +4,15 @@
 
 import Foundation
 
-enum FireFightingOperationEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum FireFightingOperationEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case fireHydrant = "01"
     case fireStation = "02"
     case otherWaterSupplyLocation = "03"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

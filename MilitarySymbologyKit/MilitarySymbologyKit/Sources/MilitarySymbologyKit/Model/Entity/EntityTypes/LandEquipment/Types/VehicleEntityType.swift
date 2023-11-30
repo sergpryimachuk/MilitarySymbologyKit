@@ -7,15 +7,15 @@
 
 import Foundation
 
-enum VehicleEntityType: String, CaseIterable, EntityType {
+public enum VehicleEntityType: String, CaseIterable, EntityType {
     case none
     case armoredVehicle = "01"
     case tank = "02"
     case tankRecoveryVehicle = "03"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .armoredVehicle:
             String(localized: "Armored Vehicle", bundle: .module, comment: "Vehicle Entity Type")
@@ -30,7 +30,7 @@ enum VehicleEntityType: String, CaseIterable, EntityType {
         }
     }
 
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:
             [.none]

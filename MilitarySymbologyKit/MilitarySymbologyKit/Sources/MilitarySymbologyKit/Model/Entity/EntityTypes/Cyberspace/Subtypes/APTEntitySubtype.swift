@@ -4,17 +4,17 @@
 
 import Foundation
 
-extension CyberspaceEntity.InfectionEntityType {
-    enum APTEntitySubtype: String, CaseIterable, EntitySubtype {
+public extension CyberspaceEntity.InfectionEntityType {
+    public enum APTEntitySubtype: String, CaseIterable, EntitySubtype {
         case none = "00"
         case aptWithC2 = "01"
         case aptWithSelfPropagation = "02"
         case aptWithC2AndSelfPropagation = "03"
         case aptOther = "04"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")

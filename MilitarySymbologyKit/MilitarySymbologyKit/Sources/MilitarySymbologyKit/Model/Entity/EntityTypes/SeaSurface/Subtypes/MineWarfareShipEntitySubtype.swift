@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum MineWarfareShipEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum MineWarfareShipEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case mineLayer = "01"
     case mineSweeper = "02"
@@ -13,9 +13,9 @@ enum MineWarfareShipEntitySubtype: String, CaseIterable, EntitySubtype {
     case mineCountermeasures = "05"
     case mineCountermeasuresSupportShip = "06"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum GeologicEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum GeologicEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case aftershock = "01"
     case avalanche = "02"
@@ -18,9 +18,9 @@ enum GeologicEntitySubtype: String, CaseIterable, EntitySubtype {
     case volcanicThreat = "07"
     case caveEntrance = "08"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None", bundle: .module, comment: "Geologic Entity Subtype")

@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum OceanographicEntity: String, CaseIterable, Entity {
+public enum OceanographicEntity: String, CaseIterable, Entity {
     case iceSystems = "11"
     case hydrography = "12"
     case oceanography = "13"
@@ -12,9 +12,9 @@ enum OceanographicEntity: String, CaseIterable, Entity {
     case limits = "15"
     case manMadeStructures = "16"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .iceSystems:
             String(localized: "Ice Systems", bundle: .module, comment: "Oceanographic Entity Type")
@@ -36,7 +36,7 @@ enum OceanographicEntity: String, CaseIterable, Entity {
         }
     }
 
-    var types: [AnyEntityType] {
+    public var types: [AnyEntityType] {
         switch self {
         case .iceSystems:
             IceSystemsEntityType.allCases.map { AnyEntityType($0) }

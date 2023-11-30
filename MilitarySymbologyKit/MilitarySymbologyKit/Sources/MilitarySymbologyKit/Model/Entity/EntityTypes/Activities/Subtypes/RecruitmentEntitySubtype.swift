@@ -4,13 +4,13 @@
 
 import Foundation
 
-enum RecruitmentEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum RecruitmentEntitySubtype: String, CaseIterable, EntitySubtype {
     case willing = "01"
     case coercedImpressed = "02"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .willing:
             String(localized: "Willing", bundle: .module, comment: "Recruitment Entity Subtype")

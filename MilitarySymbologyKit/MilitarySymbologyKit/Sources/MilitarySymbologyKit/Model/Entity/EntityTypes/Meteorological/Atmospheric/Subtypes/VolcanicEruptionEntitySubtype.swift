@@ -4,13 +4,13 @@
 
 import Foundation
 
-enum VolcanicEruptionEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum VolcanicEruptionEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case volcanicAsh = "01"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

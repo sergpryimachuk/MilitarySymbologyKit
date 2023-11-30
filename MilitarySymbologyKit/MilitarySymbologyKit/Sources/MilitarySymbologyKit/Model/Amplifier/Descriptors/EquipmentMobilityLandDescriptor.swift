@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum EquipmentMobilityLandDescriptor: String, CaseIterable, Descriptor {
+public enum EquipmentMobilityLandDescriptor: String, CaseIterable, Descriptor {
     case wheeledLimitedCrossCountry = "1"
     case wheeledCrossCountry = "2"
     case tracked = "3"
@@ -13,9 +13,9 @@ enum EquipmentMobilityLandDescriptor: String, CaseIterable, Descriptor {
     case rail = "6"
     case packAnimals = "7"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .wheeledLimitedCrossCountry:
             String(localized: "Wheeled limited cross country", bundle: .module, comment: "Equipment mobility on land amplifier descriptor")

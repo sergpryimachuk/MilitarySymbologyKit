@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-enum Amplifier: String, CaseIterable, Identifiable {
+public enum Amplifier: String, CaseIterable, Identifiable {
     case none = "0"
     case echelonBrigadeBelow = "1"
     case echelonDivisionAbove = "2"
@@ -13,9 +13,9 @@ enum Amplifier: String, CaseIterable, Identifiable {
     case equipmentMobilityWater = "5"
     case navalTowedArray = "6"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")
@@ -40,7 +40,7 @@ enum Amplifier: String, CaseIterable, Identifiable {
         }
     }
 
-    var descriptors: [AnyDescriptor] {
+    public var descriptors: [AnyDescriptor] {
         switch self {
         case .none:
             [.none]

@@ -4,16 +4,16 @@
 
 import Foundation
 
-extension MineWarfareEntity {
-    enum NegativeReacquisitionGeneralEntityType: String, CaseIterable, EntityType {
+public extension MineWarfareEntity {
+    public enum NegativeReacquisitionGeneralEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case bottom = "01"
         case moored = "02"
         case floating = "03"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None", bundle: .module, comment: "Negative Reacquisition - General Entity Type")
@@ -29,7 +29,7 @@ extension MineWarfareEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

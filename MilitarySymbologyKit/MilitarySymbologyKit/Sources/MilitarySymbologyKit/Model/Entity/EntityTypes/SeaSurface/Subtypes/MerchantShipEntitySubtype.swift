@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum MerchantShipEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum MerchantShipEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case cargoGeneral = "01"
     case containerShip = "02"
@@ -23,9 +23,9 @@ enum MerchantShipEntitySubtype: String, CaseIterable, EntitySubtype {
     case bargeNotSelfPropelled = "15"
     case hospitalShip = "16"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

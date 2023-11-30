@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum LawEnforcementSubtype: String, CaseIterable, EntitySubtype {
+public enum LawEnforcementSubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case ATF = "01"
     case borderPatrol = "02"
@@ -22,9 +22,9 @@ enum LawEnforcementSubtype: String, CaseIterable, EntitySubtype {
     case coastGuard = "11"
     case USMarshalsService = "12"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None", bundle: .module, comment: "Law Enforcement Subtype")

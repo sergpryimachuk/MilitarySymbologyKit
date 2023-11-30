@@ -4,15 +4,15 @@
 
 import Foundation
 
-extension MineWarfareEntity {
-    enum SeaMineDecoyEntityType: String, CaseIterable, EntityType {
+public extension MineWarfareEntity {
+    public enum SeaMineDecoyEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case seaMineDecoyBottom = "01"
         case seaMineDecoyMoored = "02"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .seaMineDecoyBottom:
                 String(localized: "Sea Mine Decoy-Bottom", bundle: .module, comment: "Sea Mine Decoy Entity Type")
@@ -24,7 +24,7 @@ extension MineWarfareEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

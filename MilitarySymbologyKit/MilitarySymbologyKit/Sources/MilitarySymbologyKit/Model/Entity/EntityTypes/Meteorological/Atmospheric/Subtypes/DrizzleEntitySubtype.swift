@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum DrizzleEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum DrizzleEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case intermittentLight = "01"
     case intermittentLightContinuousLight = "02"
@@ -13,9 +13,9 @@ enum DrizzleEntitySubtype: String, CaseIterable, EntitySubtype {
     case intermittentHeavy = "05"
     case intermittentHeavyContinuousHeavy = "06"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum StandardIdentity: String, CaseIterable, Identifiable {
+public enum StandardIdentity: String, CaseIterable, Identifiable {
     case pending = "0"
     case unknown = "1"
     case assumedFriend = "2"
@@ -13,9 +13,9 @@ enum StandardIdentity: String, CaseIterable, Identifiable {
     case suspect = "5"
     case hostile = "6"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .pending:
             String(localized: "Pending", bundle: .module, comment: "Standard identity")
@@ -35,7 +35,7 @@ enum StandardIdentity: String, CaseIterable, Identifiable {
     }
 
     /// Gigit used to retireve svg asset.
-    var assetGigit: String {
+    public var assetGigit: String {
         switch self {
         case .pending:
             StandardIdentity.unknown.id

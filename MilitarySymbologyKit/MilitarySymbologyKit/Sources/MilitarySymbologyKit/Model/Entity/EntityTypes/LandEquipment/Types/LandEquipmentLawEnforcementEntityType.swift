@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension LandEquipmentEntity {
-    enum LawEnforcementEntityType: String, CaseIterable, EntityType {
+public extension LandEquipmentEntity {
+    public enum LawEnforcementEntityType: String, CaseIterable, EntityType {
         case alcoholTobaccoFirearmsExplosivesATF = "01"
         case borderPatrol = "02"
         case customsService = "03"
@@ -20,9 +20,9 @@ extension LandEquipmentEntity {
         case usMarshalsService = "12"
         case internalSecurityForce = "13"
         
-        var id: String { rawValue }
+        public var id: String { rawValue }
         
-        var name: String {
+        public var name: String {
             switch self {
             case .alcoholTobaccoFirearmsExplosivesATF:
                 String(localized: "Bureau of Alcohol Tobacco Firearms and Explosives (ATF) (Department of Justice)", bundle: .module, comment: "Law Enforcement Entity Type")
@@ -65,7 +65,7 @@ extension LandEquipmentEntity {
             }
         }
         
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

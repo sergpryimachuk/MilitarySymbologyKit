@@ -7,16 +7,16 @@
 
 import Foundation
 
-enum LandMinesEntityType: String, CaseIterable, EntityType {
+public enum LandMinesEntityType: String, CaseIterable, EntityType {
     case landMine = "01"
     case antipersonnelLandMineAPL = "02"
     case antitankMine = "03"
     case improvisedExplosivesDeviceIED = "04"
     case lessThanLethal = "05"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .landMine:
             String(localized: "Land Mine")
@@ -35,7 +35,7 @@ enum LandMinesEntityType: String, CaseIterable, EntityType {
         }
     }
     
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         [.none]
     }
 }

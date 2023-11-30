@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum PressureTendencyEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum PressureTendencyEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case riseThenFallHigher = "01"
     case riseThenSteady = "02"
@@ -16,9 +16,9 @@ enum PressureTendencyEntitySubtype: String, CaseIterable, EntitySubtype {
     case fall = "08"
     case riseThenFallLower = "09"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

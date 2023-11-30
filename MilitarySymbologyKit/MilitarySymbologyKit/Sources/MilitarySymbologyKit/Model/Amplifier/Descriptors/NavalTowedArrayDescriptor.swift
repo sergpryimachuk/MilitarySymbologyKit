@@ -4,13 +4,13 @@
 
 import Foundation
 
-enum NavalTowedArrayDescriptor: String, CaseIterable, Descriptor {
+public enum NavalTowedArrayDescriptor: String, CaseIterable, Descriptor {
     case shortTowedArray = "1"
     case longTowedArray = "2"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .shortTowedArray:
             String(localized: "Short Towed Array", bundle: .module, comment: "Naval towed array amplifier descriptor")

@@ -4,16 +4,16 @@
 
 import Foundation
 
-enum AmplifierEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum AmplifierEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case headquartersElement = "95"
     case divisionAndBelowSupport = "96"
     case corpsSupport = "97"
     case theaterEchelonsAboveCorpsSupport = "98"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None", bundle: .module, comment: "Amplifier Entity Subtype")

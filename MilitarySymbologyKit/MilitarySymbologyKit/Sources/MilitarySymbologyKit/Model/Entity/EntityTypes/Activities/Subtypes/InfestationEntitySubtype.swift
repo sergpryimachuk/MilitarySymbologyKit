@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum InfestationEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum InfestationEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case bird = "01"
     case insect = "02"
@@ -15,9 +15,9 @@ enum InfestationEntitySubtype: String, CaseIterable, EntitySubtype {
     case reptile = "04"
     case rodent = "05"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

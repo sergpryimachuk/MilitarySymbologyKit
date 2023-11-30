@@ -4,14 +4,14 @@
 
 import Foundation
 
-enum SignalInterceptEntityType: String, CaseIterable, Identifiable, EntityType {
+public enum SignalInterceptEntityType: String, CaseIterable, Identifiable, EntityType {
     case communications = "01"
     case jammer = "02"
     case radar = "03"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .communications:
             String(localized: "Communications", bundle: .module, comment: "Signal Intercept Entity Type")
@@ -24,7 +24,7 @@ enum SignalInterceptEntityType: String, CaseIterable, Identifiable, EntityType {
         }
     }
 
-    var subtypes: [AnyEntitySubtype] {
+    public var subtypes: [AnyEntitySubtype] {
         [.none]
     }
 }

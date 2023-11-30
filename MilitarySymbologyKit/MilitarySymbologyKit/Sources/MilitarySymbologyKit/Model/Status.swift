@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum Status: String, CaseIterable, Identifiable {
+public enum Status: String, CaseIterable, Identifiable {
     case present = "0"
     case plannedAnticipatedSuspect = "1"
     case presentFullyCapable = "2"
@@ -12,9 +12,9 @@ enum Status: String, CaseIterable, Identifiable {
     case presentDestroyed = "4"
     case presentFullToCapacity = "5"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .present:
             String(localized: "Present", bundle: .module, comment: "Status")

@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum SurfaceCombatantLineEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum SurfaceCombatantLineEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case battleship = "01"
     case cruiser = "02"
@@ -13,9 +13,9 @@ enum SurfaceCombatantLineEntitySubtype: String, CaseIterable, EntitySubtype {
     case corvette = "05"
     case littoralCombatantShip = "06"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

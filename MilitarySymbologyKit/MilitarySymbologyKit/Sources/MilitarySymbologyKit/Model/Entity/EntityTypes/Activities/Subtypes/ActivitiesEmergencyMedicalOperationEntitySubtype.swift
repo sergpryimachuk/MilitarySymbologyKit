@@ -4,7 +4,7 @@
 
 import Foundation
 
-extension OperationEntityType {
+public extension OperationEntityType {
     enum EmergencyMedicalOperationEntitySubtype: String, CaseIterable, EntitySubtype {
         case none = "00"
         case emtStationLocation = "01"
@@ -14,9 +14,9 @@ extension OperationEntityType {
         case pharmacy = "05"
         case triage = "06"
         
-        var id: String { rawValue }
+        public var id: String { rawValue }
         
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")

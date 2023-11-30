@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum ActivitiesEntity: String, CaseIterable, Entity {
+public enum ActivitiesEntity: String, CaseIterable, Entity {
     case incident = "11"
     case civilDisturbance = "12"
     case operation = "13"
@@ -14,9 +14,9 @@ enum ActivitiesEntity: String, CaseIterable, Entity {
     case naturalEvent = "17"
     case individual = "18"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .incident:
             String(localized: "Incident", bundle: .module, comment: "Activities Entity")
@@ -44,7 +44,7 @@ enum ActivitiesEntity: String, CaseIterable, Entity {
         }
     }
     
-    var types: [AnyEntityType] {
+    public var types: [AnyEntityType] {
         switch self {
         case .incident:
             IncidentEntityType.allCases.map { AnyEntityType($0) }

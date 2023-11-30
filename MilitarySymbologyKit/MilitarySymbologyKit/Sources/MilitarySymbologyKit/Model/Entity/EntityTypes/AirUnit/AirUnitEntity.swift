@@ -4,15 +4,15 @@
 
 import Foundation
 
-enum AirUnitEntity: String, CaseIterable, Identifiable, Entity {
+public enum AirUnitEntity: String, CaseIterable, Identifiable, Entity {
     case military = "11"
     case civilian = "12"
     case weapon = "13"
     case manualTrack = "14"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .military:
             String(localized: "Military", bundle: .module, comment: "Air Unit Entity")
@@ -28,7 +28,7 @@ enum AirUnitEntity: String, CaseIterable, Identifiable, Entity {
         }
     }
 
-    var types: [AnyEntityType] {
+    public var types: [AnyEntityType] {
         switch self {
         case .military:
             MilitaryEntityType.allCases.map { AnyEntityType($0) }

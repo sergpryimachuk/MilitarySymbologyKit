@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum SeaSubsurfaceEntity: String, CaseIterable, Entity {
+public enum SeaSubsurfaceEntity: String, CaseIterable, Entity {
     case military = "11"
     case civilian = "12"
     case weapon = "13"
@@ -12,9 +12,9 @@ enum SeaSubsurfaceEntity: String, CaseIterable, Entity {
     case fusedTrack = "15"
     case manualTrack = "16"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .military:
             String(localized: "Military", bundle: .module, comment: "Sea Subsurface Entity")
@@ -36,7 +36,7 @@ enum SeaSubsurfaceEntity: String, CaseIterable, Entity {
         }
     }
 
-    var types: [AnyEntityType] {
+    public var types: [AnyEntityType] {
         switch self {
         case .military:
             MilitaryEntityType.allCases.map { AnyEntityType($0) }

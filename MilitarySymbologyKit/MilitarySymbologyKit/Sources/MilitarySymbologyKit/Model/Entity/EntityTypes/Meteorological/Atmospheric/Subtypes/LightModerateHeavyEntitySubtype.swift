@@ -4,14 +4,14 @@
 
 import Foundation
 
-enum LightModerateHeavyEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum LightModerateHeavyEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case light = "01"
     case moderateHeavy = "02"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

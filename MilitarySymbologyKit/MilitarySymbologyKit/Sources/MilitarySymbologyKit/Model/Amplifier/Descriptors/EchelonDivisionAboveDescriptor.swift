@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum EchelonDivisionAboveDescriptor: String, CaseIterable, Descriptor {
+public enum EchelonDivisionAboveDescriptor: String, CaseIterable, Descriptor {
     case division = "1"
     case corpsMEF = "2"
     case army = "3"
@@ -12,9 +12,9 @@ enum EchelonDivisionAboveDescriptor: String, CaseIterable, Descriptor {
     case regionTheater = "5"
     case command = "6"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .division:
             String(localized: "Division", bundle: .module, comment: "Echelon at division and above amplifier descriptor")

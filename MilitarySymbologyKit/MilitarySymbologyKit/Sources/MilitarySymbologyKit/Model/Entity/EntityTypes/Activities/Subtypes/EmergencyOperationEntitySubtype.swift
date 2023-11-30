@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum EmergencyOperationEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum EmergencyOperationEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case emergencyCollectionEvacuationPoint = "01"
     case emergencyFoodDistribution = "02"
@@ -15,9 +15,9 @@ enum EmergencyOperationEntitySubtype: String, CaseIterable, EntitySubtype {
     case emergencyStagingArea = "07"
     case emergencyWaterDistributionCenter = "08"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

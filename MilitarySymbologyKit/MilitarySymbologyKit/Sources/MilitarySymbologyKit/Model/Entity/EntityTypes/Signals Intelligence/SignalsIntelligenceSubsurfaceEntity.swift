@@ -4,19 +4,19 @@
 
 import Foundation
 
-enum SignalsIntelligenceEntity: String, CaseIterable, Identifiable, Entity {
+public enum SignalsIntelligenceEntity: String, CaseIterable, Identifiable, Entity {
     case signalIntercept = "11"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .signalIntercept:
             String(localized: "Signal Intercept", bundle: .module, comment: "Signals Intelligence Entity")
         }
     }
 
-    var types: [AnyEntityType] {
+    public var types: [AnyEntityType] {
         switch self {
         case .signalIntercept:
             SignalInterceptEntityType.allCases.map { AnyEntityType($0) }

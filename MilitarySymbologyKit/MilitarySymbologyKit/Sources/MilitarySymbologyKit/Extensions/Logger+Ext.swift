@@ -5,6 +5,6 @@
 import OSLog
 import Foundation
 
-extension Logger {
+public extension Logger {
     static let militarySymbol = Logger(subsystem: "MilitarySymbologyKit", category: "Military Symbol")
 }

@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension AtmosphericEntity {
-    enum BoundedAreasOfWeatherEntityType: String, CaseIterable, EntityType {
+public extension AtmosphericEntity {
+    public enum BoundedAreasOfWeatherEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case instrumentFlightRuleIFR = "01"
         case marginalVisualFlightRuleMVFR = "02"
@@ -18,9 +18,9 @@ extension AtmosphericEntity {
         case dustOrSand = "09"
         case operatorDefinedFreeform = "10"
         
-        var id: String { rawValue }
+        public var id: String { rawValue }
         
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None")
@@ -57,7 +57,7 @@ extension AtmosphericEntity {
             }
         }
         
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             switch self {
             case .liquidPrecipitationNonConvectiveContinuousOrIntermittent:
                 [.none, AnyEntitySubtype(id: "01",

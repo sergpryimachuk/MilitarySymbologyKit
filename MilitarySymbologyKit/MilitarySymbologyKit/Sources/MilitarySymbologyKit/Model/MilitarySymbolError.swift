@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum MilitarySymbolError: Error {
+public enum MilitarySymbolError: Error {
     case sidcIsNot20
     case contextParcingFailed
     case standardIdentityParcingFailed
@@ -19,7 +19,7 @@ enum MilitarySymbolError: Error {
 }
 
 extension MilitarySymbolError: LocalizedError {
-    var errorDescription: String? {
+    public var errorDescription: String? {
         switch self {
         case .sidcIsNot20:
             String(localized: "SIDC is not 20 characters.", bundle: .module, comment: "Military Symbol init from SIDC Error")

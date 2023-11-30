@@ -5,11 +5,11 @@
 import Foundation
 import SwiftUI
 
-struct MilitarySymbol: Identifiable, Hashable {
-    let version: String = "01"
-    var context: Context = .reality
-    var standardIdentity: StandardIdentity = .unknown
-    var dimention: Dimension = .air {
+public struct MilitarySymbol: Identifiable, Hashable {
+    public let version: String = "01"
+    public var context: Context = .reality
+    public var standardIdentity: StandardIdentity = .unknown
+    public var dimention: Dimension = .air {
         didSet {
             if let first = dimention.entities.first {
                 entity = first
@@ -18,9 +18,9 @@ struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-    var status: Status = .present
-    var hqtfd: HQTFD = .none
-    var amplifier: Amplifier = .none {
+    public var status: Status = .present
+    public var hqtfd: HQTFD = .none
+    public var amplifier: Amplifier = .none {
         didSet {
             if let first = amplifier.descriptors.first {
                 descriptor = first
@@ -29,8 +29,8 @@ struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-    var descriptor: AnyDescriptor = .none
-    var entity: AnyEntity = .none {
+    public var descriptor: AnyDescriptor = .none
+    public var entity: AnyEntity = .none {
         didSet {
             if let first = entity.types.first {
                 entityType = first
@@ -39,7 +39,7 @@ struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-    var entityType: AnyEntityType = .none {
+    public var entityType: AnyEntityType = .none {
         didSet {
             if let first = entityType.subtypes.first {
                 entitySubtype = first
@@ -48,14 +48,14 @@ struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-    var entitySubtype: AnyEntitySubtype = .none
+    public var entitySubtype: AnyEntitySubtype = .none
     
-    var isCivilian: Bool = false
-    var isAlternateStatusAmplifiers: Bool = false
+    public var isCivilian: Bool = false
+    public var isAlternateStatusAmplifiers: Bool = false
     
-    let id = UUID()
+    public let id = UUID()
     
-    var sidc: String {
+    public var sidc: String {
         version
         + context.id
         + standardIdentity.id
@@ -70,7 +70,7 @@ struct MilitarySymbol: Identifiable, Hashable {
     }
 }
 
-extension MilitarySymbol {
+public extension MilitarySymbol {
     init(sidc: String) throws {
         if sidc.count != 20 {
             throw MilitarySymbolError.sidcIsNot20
@@ -141,7 +141,7 @@ extension MilitarySymbol {
     }
 }
 
-extension MilitarySymbol {
+public extension MilitarySymbol {
     static func searched(text: String, currentSymbol: MilitarySymbol?) -> [MilitarySymbol] {
         if text.isEmpty {
             return []

@@ -4,7 +4,7 @@
 
 import Foundation
 
-enum NavyTaskOrganizationEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum NavyTaskOrganizationEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     case navyTaskElement = "01"
     case navyTaskForce = "02"
@@ -12,9 +12,9 @@ enum NavyTaskOrganizationEntitySubtype: String, CaseIterable, EntitySubtype {
     case navyTaskUnit = "04"
     case convoy = "05"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

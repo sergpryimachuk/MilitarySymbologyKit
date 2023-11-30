@@ -4,14 +4,14 @@
 
 import Foundation
 
-extension MineWarfareEntity {
-    enum ObstructorEntityType: String, CaseIterable, EntityType {
+public extension MineWarfareEntity {
+    public enum ObstructorEntityType: String, CaseIterable, EntityType {
         case none = "00"
         case neutralized = "01"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .none:
                 String(localized: "None", bundle: .module, comment: "Not selected.")
@@ -20,7 +20,7 @@ extension MineWarfareEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

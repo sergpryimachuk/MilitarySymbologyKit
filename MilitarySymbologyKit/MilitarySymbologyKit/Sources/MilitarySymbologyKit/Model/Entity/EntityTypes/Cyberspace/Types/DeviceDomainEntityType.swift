@@ -4,17 +4,17 @@
 
 import Foundation
 
-extension CyberspaceEntity {
-    enum DeviceDomainEntityType: String, CaseIterable, Identifiable, EntityType {
+public extension CyberspaceEntity {
+    public enum DeviceDomainEntityType: String, CaseIterable, Identifiable, EntityType {
         case departmentOfDefense = "01"
         case government = "02"
         case contractor = "03"
         case supervisoryControlAndDataAcquisition = "04"
         case nonGovernment = "05"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .departmentOfDefense:
                 String(localized: "Department of Defense (DoD)", bundle: .module, comment: "Device Domain Entity Type")
@@ -33,7 +33,7 @@ extension CyberspaceEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

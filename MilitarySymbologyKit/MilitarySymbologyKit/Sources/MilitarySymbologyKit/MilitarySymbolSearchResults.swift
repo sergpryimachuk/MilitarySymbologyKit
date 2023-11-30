@@ -4,13 +4,13 @@
 
 import SwiftUI
 
-struct MilitarySymbolSearchResults: View {
-    @Binding var searchText: String
-    @Binding var selectedSymbol: MilitarySymbol
-    @Binding var isSearchPresented: Bool
-    @Binding var searchResults: [MilitarySymbol]?
+public struct MilitarySymbolSearchResults: View {
+    @Binding public var searchText: String
+    @Binding public var selectedSymbol: MilitarySymbol
+    @Binding public var isSearchPresented: Bool
+    @Binding public var searchResults: [MilitarySymbol]?
         
-    var body: some View {
+    public var body: some View {
         if let searchResults {
             if !searchText.isEmpty && !searchResults.isEmpty {
                 ForEach(searchResults) { symbol in
@@ -60,7 +60,7 @@ private struct PreviewWprapper: View {
     @State private var isSearchPresented = false
     @State private var searchResults: [MilitarySymbol]?
     
-    var body: some View {
+    public var body: some View {
         Form {
             MilitarySymbolSearchResults(searchText: $text,
                                         selectedSymbol: $symbol,

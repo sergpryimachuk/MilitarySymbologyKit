@@ -7,12 +7,12 @@
 
 import Foundation
 
-enum SpeakerEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum SpeakerEntitySubtype: String, CaseIterable, EntitySubtype {
     case none = "00"
     
-    var id: String { rawValue }
+    public var id: String { rawValue }
     
-    var name: String {
+    public var name: String {
         switch self {
         case .none:
             String(localized: "None")

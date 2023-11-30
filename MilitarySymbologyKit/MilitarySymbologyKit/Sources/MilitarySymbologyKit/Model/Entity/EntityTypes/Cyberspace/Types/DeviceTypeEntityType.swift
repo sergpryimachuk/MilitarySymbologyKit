@@ -4,8 +4,8 @@
 
 import Foundation
 
-extension CyberspaceEntity {
-    enum DeviceTypeEntityType: String, CaseIterable, Identifiable, EntityType {
+public extension CyberspaceEntity {
+    public enum DeviceTypeEntityType: String, CaseIterable, Identifiable, EntityType {
         case coreRouter = "01"
         case router = "02"
         case crossDomainSolution = "03"
@@ -19,9 +19,9 @@ extension CyberspaceEntity {
         case host = "11"
         case virtualPrivateNetwork = "12"
 
-        var id: String { rawValue }
+        public var id: String { rawValue }
 
-        var name: String {
+        public var name: String {
             switch self {
             case .coreRouter:
                 String(localized: "Core Router", bundle: .module, comment: "Device Type Entity Type")
@@ -61,7 +61,7 @@ extension CyberspaceEntity {
             }
         }
 
-        var subtypes: [AnyEntitySubtype] {
+        public var subtypes: [AnyEntitySubtype] {
             [.none]
         }
     }

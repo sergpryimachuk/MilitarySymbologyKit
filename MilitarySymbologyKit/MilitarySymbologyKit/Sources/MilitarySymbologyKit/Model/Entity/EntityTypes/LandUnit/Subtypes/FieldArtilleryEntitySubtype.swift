@@ -4,13 +4,13 @@
 
 import Foundation
 
-enum FieldArtilleryEntitySubtype: String, CaseIterable, EntitySubtype {
+public enum FieldArtilleryEntitySubtype: String, CaseIterable, EntitySubtype {
     case selfPropelled = "01"
     case targetAcquisition = "02"
 
-    var id: String { rawValue }
+    public var id: String { rawValue }
 
-    var name: String {
+    public var name: String {
         switch self {
         case .selfPropelled:
             String(localized: "Self-propelled", bundle: .module, comment: "Field Artillery Entity Subtype")
