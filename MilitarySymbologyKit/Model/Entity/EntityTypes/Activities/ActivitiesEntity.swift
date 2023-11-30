@@ -47,7 +47,7 @@ enum ActivitiesEntity: String, CaseIterable, Entity {
     var types: [AnyEntityType] {
         switch self {
         case .incident:
-            []
+            IncidentEntityType.allCases.map { AnyEntityType($0) }
         case .civilDisturbance:
             []
         case .operation:
