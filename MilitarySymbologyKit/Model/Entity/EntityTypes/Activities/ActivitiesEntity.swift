@@ -55,13 +55,13 @@ enum ActivitiesEntity: String, CaseIterable, Entity {
         case .fireEvent:
             []
         case .hazardMaterials:
-            []
+            HazardMaterialsEntityType.allCases.map { AnyEntityType($0) }
         case .transportationIncident:
-            []
+            TransportationIncidentEntityType.allCases.map { AnyEntityType($0) }
         case .naturalEvent:
-            []
+            NaturalEventEntityType.allCases.map { AnyEntityType($0) }
         case .individual:
-            []
+            IndividualEntityType.allCases.map { AnyEntityType($0) }
         }
     }
 }
