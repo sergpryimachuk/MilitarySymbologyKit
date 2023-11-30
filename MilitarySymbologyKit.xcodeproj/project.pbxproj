@@ -43,6 +43,7 @@
 		0597CE792B18D4220084A9AD /* GeologicEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE782B18D4220084A9AD /* GeologicEntitySubtype.swift */; };
 		0597CE7B2B18D4AE0084A9AD /* HydroMeteorologicalEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE7A2B18D4AE0084A9AD /* HydroMeteorologicalEntitySubtype.swift */; };
 		0597CE7D2B18D5450084A9AD /* InfestationEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE7C2B18D5450084A9AD /* InfestationEntitySubtype.swift */; };
+		0597CE7F2B18D6BC0084A9AD /* ReligiousLeaderEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE7E2B18D6BC0084A9AD /* ReligiousLeaderEntitySubtype.swift */; };
 		05A57B1A2B11000500F98863 /* LandEquipmentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A57B192B11000500F98863 /* LandEquipmentEntity.swift */; };
 		05A57B1C2B11019200F98863 /* WeaponSystemEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A57B1B2B11019200F98863 /* WeaponSystemEntityType.swift */; };
 		05A57B1F2B11048900F98863 /* VehicleEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A57B1E2B11048900F98863 /* VehicleEntityType.swift */; };
@@ -240,6 +241,7 @@
 		0597CE782B18D4220084A9AD /* GeologicEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeologicEntitySubtype.swift; sourceTree = "<group>"; };
 		0597CE7A2B18D4AE0084A9AD /* HydroMeteorologicalEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroMeteorologicalEntitySubtype.swift; sourceTree = "<group>"; };
 		0597CE7C2B18D5450084A9AD /* InfestationEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfestationEntitySubtype.swift; sourceTree = "<group>"; };
+		0597CE7E2B18D6BC0084A9AD /* ReligiousLeaderEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReligiousLeaderEntitySubtype.swift; sourceTree = "<group>"; };
 		05A57B192B11000500F98863 /* LandEquipmentEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandEquipmentEntity.swift; sourceTree = "<group>"; };
 		05A57B1B2B11019200F98863 /* WeaponSystemEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponSystemEntityType.swift; sourceTree = "<group>"; };
 		05A57B1E2B11048900F98863 /* VehicleEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleEntityType.swift; sourceTree = "<group>"; };
@@ -766,6 +768,7 @@
 				0597CE782B18D4220084A9AD /* GeologicEntitySubtype.swift */,
 				0597CE7A2B18D4AE0084A9AD /* HydroMeteorologicalEntitySubtype.swift */,
 				0597CE7C2B18D5450084A9AD /* InfestationEntitySubtype.swift */,
+				0597CE7E2B18D6BC0084A9AD /* ReligiousLeaderEntitySubtype.swift */,
 			);
 			path = Subtypes;
 			sourceTree = "<group>";
@@ -1189,6 +1192,7 @@
 				934496452B10FE2100AD1B73 /* OceanographyEntityType.swift in Sources */,
 				93B7CAFF2B1611C10036F896 /* PatrolBoatEntitySubtype.swift in Sources */,
 				052AB00B2B14C685006DF372 /* TentedCampSubtype.swift in Sources */,
+				0597CE7F2B18D6BC0084A9AD /* ReligiousLeaderEntitySubtype.swift in Sources */,
 				934D3E382B1392C90019FBEF /* MineClearingEquipmentEntitySubtype.swift in Sources */,
 				053395A12B10DCF10097F767 /* LandUnitLawEnforcementEntityType.swift in Sources */,
 				93B7CB3E2B1635ED0036F896 /* EmergencyMedicalOperationEntitySubtype.swift in Sources */,
