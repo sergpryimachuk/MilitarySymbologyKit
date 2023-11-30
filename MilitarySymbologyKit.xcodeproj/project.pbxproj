@@ -35,6 +35,7 @@
 		054C27732B111AC900324A82 /* LandInstallationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C27722B111AC900324A82 /* LandInstallationEntity.swift */; };
 		054C27752B111B4600324A82 /* InstallationEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C27742B111B4600324A82 /* InstallationEntityType.swift */; };
 		054C27772B111BAD00324A82 /* InfrastructureEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054C27762B111BAD00324A82 /* InfrastructureEntityType.swift */; };
+		0597CE6F2B18CECB0084A9AD /* HazardMaterialsEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597CE6E2B18CECB0084A9AD /* HazardMaterialsEntityType.swift */; };
 		05A57B1A2B11000500F98863 /* LandEquipmentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A57B192B11000500F98863 /* LandEquipmentEntity.swift */; };
 		05A57B1C2B11019200F98863 /* WeaponSystemEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A57B1B2B11019200F98863 /* WeaponSystemEntityType.swift */; };
 		05A57B1F2B11048900F98863 /* VehicleEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A57B1E2B11048900F98863 /* VehicleEntityType.swift */; };
@@ -217,6 +218,7 @@
 		054C27722B111AC900324A82 /* LandInstallationEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandInstallationEntity.swift; sourceTree = "<group>"; };
 		054C27742B111B4600324A82 /* InstallationEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallationEntityType.swift; sourceTree = "<group>"; };
 		054C27762B111BAD00324A82 /* InfrastructureEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureEntityType.swift; sourceTree = "<group>"; };
+		0597CE6E2B18CECB0084A9AD /* HazardMaterialsEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HazardMaterialsEntityType.swift; sourceTree = "<group>"; };
 		05A57B192B11000500F98863 /* LandEquipmentEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandEquipmentEntity.swift; sourceTree = "<group>"; };
 		05A57B1B2B11019200F98863 /* WeaponSystemEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponSystemEntityType.swift; sourceTree = "<group>"; };
 		05A57B1E2B11048900F98863 /* VehicleEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleEntityType.swift; sourceTree = "<group>"; };
@@ -705,6 +707,7 @@
 			isa = PBXGroup;
 			children = (
 				93A471CB2B18CA550055CAC9 /* ActivitiesEntity.swift */,
+				0597CE6E2B18CECB0084A9AD /* HazardMaterialsEntityType.swift */,
 				93A471CD2B18CB150055CAC9 /* Types */,
 				93A471CE2B18CB1A0055CAC9 /* Subtypes */,
 			);
@@ -1146,6 +1149,7 @@
 				93F704002B1246AD00EC73C9 /* EntitySubtype.swift in Sources */,
 				934D3E302B138FDB0019FBEF /* AirDefenseMissileLauncherEntitySubtype.swift in Sources */,
 				9302182F2B0101C8004FA3D5 /* NavalTowedArrayDescriptor.swift in Sources */,
+				0597CE6F2B18CECB0084A9AD /* HazardMaterialsEntityType.swift in Sources */,
 				93B7CB3A2B1632430036F896 /* LightHeavyEntitySubtype.swift in Sources */,
 				934496462B10FE2100AD1B73 /* GeophysicsAcousticsEntityType.swift in Sources */,
 				934D3E192B1377690019FBEF /* InfantryEntitySubtype.swift in Sources */,
