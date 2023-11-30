@@ -22,15 +22,15 @@ enum TransportationIncidentEntityType: String, CaseIterable, EntityType {
         case .none:
             String(localized: "None")
         case .air:
-            String(localized: "Air", comment: "Transportation Incident Entity Type")
+            String(localized: "Air", bundle: .module, comment: "Transportation Incident Entity Type")
         case .marine:
-            String(localized: "Marine", comment: "Transportation Incident Entity Type")
+            String(localized: "Marine", bundle: .module, comment: "Transportation Incident Entity Type")
         case .rail:
-            String(localized: "Rail", comment: "Transportation Incident Entity Type")
+            String(localized: "Rail", bundle: .module, comment: "Transportation Incident Entity Type")
         case .vehicle:
-            String(localized: "Vehicle", comment: "Transportation Incident Entity Type")
+            String(localized: "Vehicle", bundle: .module, comment: "Transportation Incident Entity Type")
         case .wheeledVehicleExplosion:
-            String(localized: "Wheeled Vehicle Explosion", comment: "Transportation Incident Entity Type")
+            String(localized: "Wheeled Vehicle Explosion", bundle: .module, comment: "Transportation Incident Entity Type")
         }
     }
     

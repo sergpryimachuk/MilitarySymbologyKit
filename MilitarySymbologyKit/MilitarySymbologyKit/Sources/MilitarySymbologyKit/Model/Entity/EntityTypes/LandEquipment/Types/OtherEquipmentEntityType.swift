@@ -32,49 +32,49 @@ enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
         case .none:
             String(localized: "None")
         case .antennae:
-            String(localized: "Antennae", comment: "Other Equipment Entity Type")
+            String(localized: "Antennae", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .bomb:
-            String(localized: "Bomb", comment: "Other Equipment Entity Type")
+            String(localized: "Bomb", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .boobyTrap:
-            String(localized: "Booby Trap", comment: "Other Equipment Entity Type")
+            String(localized: "Booby Trap", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .cbrnEquipment:
-            String(localized: "CBRN Equipment", comment: "Other Equipment Entity Type")
+            String(localized: "CBRN Equipment", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .computerSystem:
-            String(localized: "Computer System", comment: "Other Equipment Entity Type")
+            String(localized: "Computer System", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .commandLaunchEquipmentCLE:
-            String(localized: "Command Launch Equipment (CLE)", comment: "Other Equipment Entity Type")
+            String(localized: "Command Launch Equipment (CLE)", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .generatorSet:
-            String(localized: "Generator Set", comment: "Other Equipment Entity Type")
+            String(localized: "Generator Set", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .groundBasedMidcourseDefenseGMDFireControlGFCenter:
-            String(localized: "Ground-based Midcourse Defense (GMD) Fire Control (GFC) Center", comment: "Other Equipment Entity Type")
+            String(localized: "Ground-based Midcourse Defense (GMD) Fire Control (GFC) Center", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .inFlightInterceptorCommunicationsSystemIFICSDataTerminalIDT:
-            String(localized: "In-Flight Interceptor Communications System (IFICS) Data Terminal (IDT)", comment: "Other Equipment Entity Type")
+            String(localized: "In-Flight Interceptor Communications System (IFICS) Data Terminal (IDT)", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .laser:
-            String(localized: "Laser", comment: "Other Equipment Entity Type")
+            String(localized: "Laser", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .militaryInformationSupportOperationsMISO:
-            String(localized: "Military Information Support Operations (MISO)", comment: "Other Equipment Entity Type")
+            String(localized: "Military Information Support Operations (MISO)", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .sustainmentShipments:
-            String(localized: "Sustainment Shipments", comment: "Other Equipment Entity Type")
+            String(localized: "Sustainment Shipments", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .tent:
-            String(localized: "Tent", comment: "Other Equipment Entity Type")
+            String(localized: "Tent", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .unitDeploymentShipments:
-            String(localized: "Unit Deployment Shipments", comment: "Other Equipment Entity Type")
+            String(localized: "Unit Deployment Shipments", bundle: .module, comment: "Other Equipment Entity Type")
 
         case .emergencyMedicalOperation:
-            String(localized: "Emergency Medical Operation", comment: "Other Equipment Entity Type")
+            String(localized: "Emergency Medical Operation", bundle: .module, comment: "Other Equipment Entity Type")
         }
     }
     

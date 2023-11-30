@@ -21,22 +21,22 @@ enum IncidentEntityType: String, CaseIterable, EntityType {
             String(localized: "None")
             
         case .criminalActivityIncident:
-            String(localized: "Criminal Activity Incident", comment: "Incident Entity Type")
+            String(localized: "Criminal Activity Incident", bundle: .module, comment: "Incident Entity Type")
             
         case .bombBombing:
-            String(localized: "Bomb/Bombing", comment: "Incident Entity Type")
+            String(localized: "Bomb/Bombing", bundle: .module, comment: "Incident Entity Type")
             
         case .iedEvent:
-            String(localized: "IED Event", comment: "Incident Entity Type")
+            String(localized: "IED Event", bundle: .module, comment: "Incident Entity Type")
             
         case .shooting:
-            String(localized: "Shooting", comment: "Incident Entity Type")
+            String(localized: "Shooting", bundle: .module, comment: "Incident Entity Type")
             
         case .illegalDrugOperation:
-            String(localized: "Illegal Drug Operation", comment: "Incident Entity Type")
+            String(localized: "Illegal Drug Operation", bundle: .module, comment: "Incident Entity Type")
             
         case .explosion:
-            String(localized: "Explosion", comment: "Incident Entity Type")
+            String(localized: "Explosion", bundle: .module, comment: "Incident Entity Type")
         }
     }
     

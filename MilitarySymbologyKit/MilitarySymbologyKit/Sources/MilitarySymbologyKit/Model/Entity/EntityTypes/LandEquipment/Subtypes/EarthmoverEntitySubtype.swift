@@ -16,7 +16,7 @@ enum EarthmoverEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .multifunctionalEarthmoverDigger:
-            String(localized: "Multifunctional Earthmover/Digger", comment: "Earthmover Entity Subtype")
+            String(localized: "Multifunctional Earthmover/Digger", bundle: .module, comment: "Earthmover Entity Subtype")
         }
     }
 }

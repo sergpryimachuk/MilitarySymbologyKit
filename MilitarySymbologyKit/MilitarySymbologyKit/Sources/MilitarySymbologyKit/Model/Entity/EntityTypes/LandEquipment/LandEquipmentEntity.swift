@@ -28,46 +28,46 @@ enum LandEquipmentEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .weaponWeaponSystem:
-            String(localized: "Weapon/Weapon System", comment: "Land Equipment Entity")
+            String(localized: "Weapon/Weapon System", bundle: .module, comment: "Land Equipment Entity")
 
         case .vehicle:
-            String(localized: "Vehicle", comment: "Land Equipment Entity")
+            String(localized: "Vehicle", bundle: .module, comment: "Land Equipment Entity")
 
         case .engineerVehiclesAndEquipment:
-            String(localized: "Engineer Vehicles and Equipment", comment: "Land Equipment Entity")
+            String(localized: "Engineer Vehicles and Equipment", bundle: .module, comment: "Land Equipment Entity")
 
         case .utilityVehicles:
-            String(localized: "Utility Vehicles", comment: "Land Equipment Entity")
+            String(localized: "Utility Vehicles", bundle: .module, comment: "Land Equipment Entity")
 
         case .train:
-            String(localized: "Train", comment: "Land Equipment Entity")
+            String(localized: "Train", bundle: .module, comment: "Land Equipment Entity")
 
         case .civilianVehicle:
-            String(localized: "Civilian Vehicle", comment: "Land Equipment Entity")
+            String(localized: "Civilian Vehicle", bundle: .module, comment: "Land Equipment Entity")
 
         case .lawEnforcement:
-            String(localized: "Law Enforcement", comment: "Land Equipment Entity")
+            String(localized: "Law Enforcement", bundle: .module, comment: "Land Equipment Entity")
 
         case .packAnimals:
-            String(localized: "Pack Animals", comment: "Land Equipment Entity")
+            String(localized: "Pack Animals", bundle: .module, comment: "Land Equipment Entity")
 
         case .missileSupport:
-            String(localized: "Missile Support", comment: "Land Equipment Entity")
+            String(localized: "Missile Support", bundle: .module, comment: "Land Equipment Entity")
 
         case .otherEquipment:
-            String(localized: "Other Equipment", comment: "Land Equipment Entity")
+            String(localized: "Other Equipment", bundle: .module, comment: "Land Equipment Entity")
 
         case .landMines:
-            String(localized: "Land Mines", comment: "Land Equipment Entity")
+            String(localized: "Land Mines", bundle: .module, comment: "Land Equipment Entity")
 
         case .sensors:
-            String(localized: "Sensors", comment: "Land Equipment Entity")
+            String(localized: "Sensors", bundle: .module, comment: "Land Equipment Entity")
 
         case .emergencyOperation:
-            String(localized: "Emergency Operation", comment: "Land Equipment Entity")
+            String(localized: "Emergency Operation", bundle: .module, comment: "Land Equipment Entity")
 
         case .manualTrack:
-            String(localized: "Manual Track", comment: "Land Equipment Entity")
+            String(localized: "Manual Track", bundle: .module, comment: "Land Equipment Entity")
         }
     }
 

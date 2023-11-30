@@ -23,25 +23,25 @@ extension AtmosphericEntity {
                 String(localized: "None")
 
             case .isobarSurface:
-                String(localized: "Isobar - Surface", comment: "Isopleths Entity Type")
+                String(localized: "Isobar - Surface", bundle: .module, comment: "Isopleths Entity Type")
 
             case .contourUpperAir:
-                String(localized: "Contour - Upper Air", comment: "Isopleths Entity Type")
+                String(localized: "Contour - Upper Air", bundle: .module, comment: "Isopleths Entity Type")
 
             case .isotherm:
-                String(localized: "Isotherm", comment: "Isopleths Entity Type")
+                String(localized: "Isotherm", bundle: .module, comment: "Isopleths Entity Type")
 
             case .isotach:
-                String(localized: "Isotach", comment: "Isopleths Entity Type")
+                String(localized: "Isotach", bundle: .module, comment: "Isopleths Entity Type")
 
             case .isodrosotherm:
-                String(localized: "Isodrosotherm", comment: "Isopleths Entity Type")
+                String(localized: "Isodrosotherm", bundle: .module, comment: "Isopleths Entity Type")
 
             case .thickness:
-                String(localized: "Thickness", comment: "Isopleths Entity Type")
+                String(localized: "Thickness", bundle: .module, comment: "Isopleths Entity Type")
 
             case .operatorDefinedFreeform:
-                String(localized: "Operator-Defined Freeform", comment: "Isopleths Entity Type")
+                String(localized: "Operator-Defined Freeform", bundle: .module, comment: "Isopleths Entity Type")
             }
         }
 

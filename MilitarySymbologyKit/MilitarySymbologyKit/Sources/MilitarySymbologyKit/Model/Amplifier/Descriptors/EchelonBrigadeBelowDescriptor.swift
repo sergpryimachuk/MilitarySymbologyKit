@@ -19,28 +19,28 @@ enum EchelonBrigadeBelowDescriptor: String, CaseIterable, Descriptor {
     var name: String {
         switch self {
         case .teamCrew:
-            String(localized: "Team/Crew", comment: "Echelon at brigade and below amplifier descriptor")
+            String(localized: "Team/Crew", bundle: .module, comment: "Echelon at brigade and below amplifier descriptor")
 
         case .squad:
-            String(localized: "Squad", comment: "Echelon at brigade and below amplifier descriptor")
+            String(localized: "Squad", bundle: .module, comment: "Echelon at brigade and below amplifier descriptor")
 
         case .section:
-            String(localized: "Section", comment: "Echelon at brigade and below amplifier descriptor")
+            String(localized: "Section", bundle: .module, comment: "Echelon at brigade and below amplifier descriptor")
 
         case .platoonDetachment:
-            String(localized: "Platoon/Detachment", comment: "Echelon at brigade and below amplifier descriptor")
+            String(localized: "Platoon/Detachment", bundle: .module, comment: "Echelon at brigade and below amplifier descriptor")
 
         case .companyBatteryTroop:
-            String(localized: "Company/Battery/Troop", comment: "Echelon at brigade and below amplifier descriptor")
+            String(localized: "Company/Battery/Troop", bundle: .module, comment: "Echelon at brigade and below amplifier descriptor")
 
         case .battalionSquadron:
-            String(localized: "Battalion/Squadron", comment: "Echelon at brigade and below amplifier descriptor")
+            String(localized: "Battalion/Squadron", bundle: .module, comment: "Echelon at brigade and below amplifier descriptor")
 
         case .regimentGroup:
-            String(localized: "Regiment/Group", comment: "Echelon at brigade and below amplifier descriptor")
+            String(localized: "Regiment/Group", bundle: .module, comment: "Echelon at brigade and below amplifier descriptor")
 
         case .brigade:
-            String(localized: "Brigade", comment: "Echelon at brigade and below amplifier descriptor")
+            String(localized: "Brigade", bundle: .module, comment: "Echelon at brigade and below amplifier descriptor")
         }
     }
 }

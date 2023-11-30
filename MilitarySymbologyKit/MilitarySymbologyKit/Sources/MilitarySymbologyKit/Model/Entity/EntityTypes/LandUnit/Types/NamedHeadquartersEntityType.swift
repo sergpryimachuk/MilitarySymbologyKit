@@ -21,16 +21,16 @@ enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
         case .none:
             String(localized: "None")
         case .alliedCommandEuropeRapidReactionCorps:
-            String(localized: "Allied Command Europe Rapid Reaction Corps (ARRC)", comment: "Named Headquarters Entity Type")
+            String(localized: "Allied Command Europe Rapid Reaction Corps (ARRC)", bundle: .module, comment: "Named Headquarters Entity Type")
 
         case .alliedCommandOperations:
-            String(localized: "Allied Command Operations", comment: "Named Headquarters Entity Type")
+            String(localized: "Allied Command Operations", bundle: .module, comment: "Named Headquarters Entity Type")
 
         case .internationalSecurityAssistanceForce:
-            String(localized: "International Security Assistance Force (ISAF)", comment: "Named Headquarters Entity Type")
+            String(localized: "International Security Assistance Force (ISAF)", bundle: .module, comment: "Named Headquarters Entity Type")
 
         case .multinational:
-            String(localized: "Multinational (MN)", comment: "Named Headquarters Entity Type")
+            String(localized: "Multinational (MN)", bundle: .module, comment: "Named Headquarters Entity Type")
         }
     }
 

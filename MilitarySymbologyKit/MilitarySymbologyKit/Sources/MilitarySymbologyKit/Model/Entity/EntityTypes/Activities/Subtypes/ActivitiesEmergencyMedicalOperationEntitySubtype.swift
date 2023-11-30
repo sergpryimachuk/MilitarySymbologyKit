@@ -21,17 +21,17 @@ extension OperationEntityType {
             case .none:
                 String(localized: "None")
             case .emtStationLocation:
-                String(localized: "EMT Station Location", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "EMT Station Location", bundle: .module, comment: "Emergency Medical Operation Entity Subtype")
             case .healthDepartmentFacility:
-                String(localized: "Health Department Facility", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Health Department Facility", bundle: .module, comment: "Emergency Medical Operation Entity Subtype")
             case .medicalFacilitiesOutpatient:
-                String(localized: "Medical Facilities Outpatient", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Medical Facilities Outpatient", bundle: .module, comment: "Emergency Medical Operation Entity Subtype")
             case .morgue:
-                String(localized: "Morgue", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Morgue", bundle: .module, comment: "Emergency Medical Operation Entity Subtype")
             case .pharmacy:
-                String(localized: "Pharmacy", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Pharmacy", bundle: .module, comment: "Emergency Medical Operation Entity Subtype")
             case .triage:
-                String(localized: "Triage", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Triage", bundle: .module, comment: "Emergency Medical Operation Entity Subtype")
             }
         }
     }

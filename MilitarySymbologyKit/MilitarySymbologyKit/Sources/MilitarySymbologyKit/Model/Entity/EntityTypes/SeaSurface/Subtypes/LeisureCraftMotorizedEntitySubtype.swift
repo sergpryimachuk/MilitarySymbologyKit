@@ -17,10 +17,10 @@ enum LeisureCraftMotorizedEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .rigidHullInflatableBoat:
-            String(localized: "Rigid-Hull Inflatable Boat (RHIB)", comment: "Leisure Craft Motorized Entity Subtype")
+            String(localized: "Rigid-Hull Inflatable Boat (RHIB)", bundle: .module, comment: "Leisure Craft Motorized Entity Subtype")
 
         case .speedboat:
-            String(localized: "Speedboat", comment: "Leisure Craft Motorized Entity Subtype")
+            String(localized: "Speedboat", bundle: .module, comment: "Leisure Craft Motorized Entity Subtype")
         }
     }
 }

@@ -22,37 +22,37 @@ enum ArmoredVehicleEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            String(localized: "None", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "None", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .armoredFightingVehicle:
-            String(localized: "Armored Fighting Vehicle", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Armored Fighting Vehicle", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .armoredFightingVehicleCommandAndControl:
-            String(localized: "Armored Fighting Vehicle Command and Control", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Armored Fighting Vehicle Command and Control", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .armoredPersonnelCarrier:
-            String(localized: "Armored Personnel Carrier", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Armored Personnel Carrier", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .armoredPersonnelCarrierAmbulance:
-            String(localized: "Armored Personnel Carrier Ambulance", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Armored Personnel Carrier Ambulance", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .armoredProtectedVehicle:
-            String(localized: "Armored Protected Vehicle", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Armored Protected Vehicle", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .armoredProtectedVehicleRecovery:
-            String(localized: "Armored Protected Vehicle Recovery", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Armored Protected Vehicle Recovery", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .armoredProtectedVehicleMedicalEvacuation:
-            String(localized: "Armored Protected Vehicle Medical Evacuation", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Armored Protected Vehicle Medical Evacuation", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .armoredPersonnelCarrierRecovery:
-            String(localized: "Armored Personnel Carrier Recovery", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Armored Personnel Carrier Recovery", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .combatServiceSupportVehicle:
-            String(localized: "Combat Service Support Vehicle", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Combat Service Support Vehicle", bundle: .module, comment: "Armored Vehicle Entity Subtype")
 
         case .lightWheeledArmoredVehicle:
-            String(localized: "Light Wheeled Armored Vehicle", comment: "Armored Vehicle Entity Subtype")
+            String(localized: "Light Wheeled Armored Vehicle", bundle: .module, comment: "Armored Vehicle Entity Subtype")
         }
     }
 }

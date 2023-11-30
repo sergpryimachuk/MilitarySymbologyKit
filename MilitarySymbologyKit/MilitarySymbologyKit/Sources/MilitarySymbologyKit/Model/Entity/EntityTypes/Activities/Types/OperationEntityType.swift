@@ -29,35 +29,35 @@ enum OperationEntityType: String, CaseIterable, EntityType {
         case .none:
             String(localized: "None")
         case .patrolling:
-            String(localized: "Patrolling", comment: "Operation Entity Type")
+            String(localized: "Patrolling", bundle: .module, comment: "Operation Entity Type")
         case .militaryInformationSupportOperation:
-            String(localized: "Military Information Support Operation (MISO)", comment: "Operation Entity Type")
+            String(localized: "Military Information Support Operation (MISO)", bundle: .module, comment: "Operation Entity Type")
         case .foragingSearching:
-            String(localized: "Foraging/Searching", comment: "Operation Entity Type")
+            String(localized: "Foraging/Searching", bundle: .module, comment: "Operation Entity Type")
         case .recruitment:
-            String(localized: "Recruitment", comment: "Operation Entity Type")
+            String(localized: "Recruitment", bundle: .module, comment: "Operation Entity Type")
         case .mineLaying:
-            String(localized: "Mine Laying", comment: "Operation Entity Type")
+            String(localized: "Mine Laying", bundle: .module, comment: "Operation Entity Type")
         case .spy:
-            String(localized: "Spy", comment: "Operation Entity Type")
+            String(localized: "Spy", bundle: .module, comment: "Operation Entity Type")
         case .warrantServed:
-            String(localized: "Warrant Served", comment: "Operation Entity Type")
+            String(localized: "Warrant Served", bundle: .module, comment: "Operation Entity Type")
         case .exfiltration:
-            String(localized: "Exfiltration", comment: "Operation Entity Type")
+            String(localized: "Exfiltration", bundle: .module, comment: "Operation Entity Type")
         case .infiltration:
-            String(localized: "Infiltration", comment: "Operation Entity Type")
+            String(localized: "Infiltration", bundle: .module, comment: "Operation Entity Type")
         case .meeting:
-            String(localized: "Meeting", comment: "Operation Entity Type")
+            String(localized: "Meeting", bundle: .module, comment: "Operation Entity Type")
         case .raidOnHouse:
-            String(localized: "Raid on House", comment: "Operation Entity Type")
+            String(localized: "Raid on House", bundle: .module, comment: "Operation Entity Type")
         case .emergencyOperation:
-            String(localized: "Emergency Operation", comment: "Operation Entity Type")
+            String(localized: "Emergency Operation", bundle: .module, comment: "Operation Entity Type")
         case .emergencyMedicalOperation:
-            String(localized: "Emergency Medical Operation", comment: "Operation Entity Type")
+            String(localized: "Emergency Medical Operation", bundle: .module, comment: "Operation Entity Type")
         case .fireFightingOperation:
-            String(localized: "Fire Fighting Operation", comment: "Operation Entity Type")
+            String(localized: "Fire Fighting Operation", bundle: .module, comment: "Operation Entity Type")
         case .lawEnforcementOperation:
-            String(localized: "Law Enforcement Operation", comment: "Operation Entity Type")
+            String(localized: "Law Enforcement Operation", bundle: .module, comment: "Operation Entity Type")
         }
     }
     

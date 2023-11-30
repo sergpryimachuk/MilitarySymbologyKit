@@ -31,43 +31,43 @@ extension LandUnitEntity {
             case .none:
                 String(localized: "None")
             case .alcoholTobaccoFirearmsExplosivesATF:
-                String(localized: "Bureau of Alcohol Tobacco Firearms and Explosives (ATF) (Department of Justice)", comment: "Law Enforcement Entity Type")
+                String(localized: "Bureau of Alcohol Tobacco Firearms and Explosives (ATF) (Department of Justice)", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .borderPatrol:
-                String(localized: "Border Patrol", comment: "Law Enforcement Entity Type")
+                String(localized: "Border Patrol", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .customsService:
-                String(localized: "Customs Service", comment: "Law Enforcement Entity Type")
+                String(localized: "Customs Service", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .drugEnforcementAdministrationDEA:
-                String(localized: "Drug Enforcement Administration (DEA)", comment: "Law Enforcement Entity Type")
+                String(localized: "Drug Enforcement Administration (DEA)", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .departmentOfJusticeDOJ:
-                String(localized: "Department of Justice (DOJ)", comment: "Law Enforcement Entity Type")
+                String(localized: "Department of Justice (DOJ)", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .federalBureauOfInvestigationFBI:
-                String(localized: "Federal Bureau of Investigation (FBI)", comment: "Law Enforcement Entity Type")
+                String(localized: "Federal Bureau of Investigation (FBI)", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .police:
-                String(localized: "Police", comment: "Law Enforcement Entity Type")
+                String(localized: "Police", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .prison:
-                String(localized: "Prison", comment: "Law Enforcement Entity Type")
+                String(localized: "Prison", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .unitedStatesSecretServiceUSSS:
-                String(localized: "United States Secret Service (USSS)", comment: "Law Enforcement Entity Type")
+                String(localized: "United States Secret Service (USSS)", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .transportationSecurityAdministrationTSA:
-                String(localized: "Transportation Security Administration (TSA)", comment: "Law Enforcement Entity Type")
+                String(localized: "Transportation Security Administration (TSA)", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .coastGuard:
-                String(localized: "Coast Guard", comment: "Law Enforcement Entity Type")
+                String(localized: "Coast Guard", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .usMarshalsService:
-                String(localized: "US Marshals Service", comment: "Law Enforcement Entity Type")
+                String(localized: "US Marshals Service", bundle: .module, comment: "Law Enforcement Entity Type")
                 
             case .internalSecurityForce:
-                String(localized: "Internal Security Force", comment: "Law Enforcement Entity Type")
+                String(localized: "Internal Security Force", bundle: .module, comment: "Law Enforcement Entity Type")
             }
         }
         

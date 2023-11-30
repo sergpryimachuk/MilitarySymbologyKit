@@ -16,19 +16,19 @@ enum ElectronicWarfareEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .analysis:
-            String(localized: "Analysis", comment: "Electronic Warfare Entity Subtype")
+            String(localized: "Analysis", bundle: .module, comment: "Electronic Warfare Entity Subtype")
 
         case .directionFinding:
-            String(localized: "Direction Finding", comment: "Electronic Warfare Entity Subtype")
+            String(localized: "Direction Finding", bundle: .module, comment: "Electronic Warfare Entity Subtype")
 
         case .intercept:
-            String(localized: "Intercept", comment: "Electronic Warfare Entity Subtype")
+            String(localized: "Intercept", bundle: .module, comment: "Electronic Warfare Entity Subtype")
 
         case .jamming:
-            String(localized: "Jamming", comment: "Electronic Warfare Entity Subtype")
+            String(localized: "Jamming", bundle: .module, comment: "Electronic Warfare Entity Subtype")
 
         case .search:
-            String(localized: "Search", comment: "Electronic Warfare Entity Subtype")
+            String(localized: "Search", bundle: .module, comment: "Electronic Warfare Entity Subtype")
         }
     }
 }

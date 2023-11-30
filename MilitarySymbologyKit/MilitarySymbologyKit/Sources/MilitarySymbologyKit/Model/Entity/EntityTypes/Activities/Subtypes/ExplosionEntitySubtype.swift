@@ -18,25 +18,25 @@ enum ExplosionEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            String(localized: "None", comment: "Explosion Entity Subtype")
+            String(localized: "None", bundle: .module, comment: "Explosion Entity Subtype")
             
         case .grenadeExplosion:
-            String(localized: "Grenade Explosion", comment: "Explosion Entity Subtype")
+            String(localized: "Grenade Explosion", bundle: .module, comment: "Explosion Entity Subtype")
             
         case .incendiaryExplosion:
-            String(localized: "Incendiary Explosion", comment: "Explosion Entity Subtype")
+            String(localized: "Incendiary Explosion", bundle: .module, comment: "Explosion Entity Subtype")
             
         case .mineExplosion:
-            String(localized: "Mine Explosion", comment: "Explosion Entity Subtype")
+            String(localized: "Mine Explosion", bundle: .module, comment: "Explosion Entity Subtype")
             
         case .mortarFireExplosion:
-            String(localized: "Mortar Fire Explosion", comment: "Explosion Entity Subtype")
+            String(localized: "Mortar Fire Explosion", bundle: .module, comment: "Explosion Entity Subtype")
             
         case .rocketExplosion:
-            String(localized: "Rocket Explosion", comment: "Explosion Entity Subtype")
+            String(localized: "Rocket Explosion", bundle: .module, comment: "Explosion Entity Subtype")
             
         case .bombExplosion:
-            String(localized: "Bomb Explosion", comment: "Explosion Entity Subtype")
+            String(localized: "Bomb Explosion", bundle: .module, comment: "Explosion Entity Subtype")
         }
     }
 }

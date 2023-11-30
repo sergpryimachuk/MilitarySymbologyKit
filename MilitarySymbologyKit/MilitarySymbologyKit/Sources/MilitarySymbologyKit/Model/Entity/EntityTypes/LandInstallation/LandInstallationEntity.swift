@@ -16,10 +16,10 @@ enum LandInstallationEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .installation:
-            String(localized: "Installation", comment: "Land Installation Entity")
+            String(localized: "Installation", bundle: .module, comment: "Land Installation Entity")
 
         case .infrastructure:
-            String(localized: "Infrastructure", comment: "Land Installation Entity")
+            String(localized: "Infrastructure", bundle: .module, comment: "Land Installation Entity")
         }
     }
 

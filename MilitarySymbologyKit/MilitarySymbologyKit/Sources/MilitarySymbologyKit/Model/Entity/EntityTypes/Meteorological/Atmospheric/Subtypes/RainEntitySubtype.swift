@@ -21,22 +21,22 @@ enum RainEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .intermittentLight:
-            String(localized: "Intermittent Light", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Light", bundle: .module, comment: "Rain Entity Subtype")
             
         case .continuousLight:
-            String(localized: "Continuous Light", comment: "Rain Entity Subtype")
+            String(localized: "Continuous Light", bundle: .module, comment: "Rain Entity Subtype")
             
         case .intermittentModerate:
-            String(localized: "Intermittent Moderate", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Moderate", bundle: .module, comment: "Rain Entity Subtype")
             
         case .intermittentModerateContinuousModerate:
-            String(localized: "Intermittent Moderate/Continuous Moderate", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Moderate/Continuous Moderate", bundle: .module, comment: "Rain Entity Subtype")
             
         case .intermittentHeavy:
-            String(localized: "Intermittent Heavy", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Heavy", bundle: .module, comment: "Rain Entity Subtype")
             
         case .intermittentHeavyContinuousHeavy:
-            String(localized: "Intermittent Heavy/Continuous Heavy", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Heavy/Continuous Heavy", bundle: .module, comment: "Rain Entity Subtype")
         }
     }
 }

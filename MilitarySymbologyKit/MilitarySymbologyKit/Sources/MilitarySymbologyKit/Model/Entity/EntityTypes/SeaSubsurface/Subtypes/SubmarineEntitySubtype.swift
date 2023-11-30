@@ -18,13 +18,13 @@ enum SubmarineEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .submarineSurfaced:
-            String(localized: "Submarine-Surfaced", comment: "Submarine Entity Subtype")
+            String(localized: "Submarine-Surfaced", bundle: .module, comment: "Submarine Entity Subtype")
 
         case .submarineSnorkeling:
-            String(localized: "Submarine-Snorkeling", comment: "Submarine Entity Subtype")
+            String(localized: "Submarine-Snorkeling", bundle: .module, comment: "Submarine Entity Subtype")
 
         case .submarineBottomed:
-            String(localized: "Submarine-Bottomed", comment: "Submarine Entity Subtype")
+            String(localized: "Submarine-Bottomed", bundle: .module, comment: "Submarine Entity Subtype")
         }
     }
 }

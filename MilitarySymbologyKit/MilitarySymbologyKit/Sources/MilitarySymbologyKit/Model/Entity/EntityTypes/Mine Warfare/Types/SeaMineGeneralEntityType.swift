@@ -21,31 +21,31 @@ extension MineWarfareEntity {
         var name: String {
             switch self {
             case .seaMineBottom:
-                String(localized: "Sea Mine-Bottom", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Bottom", bundle: .module, comment: "Sea Mine General Entity Type")
 
             case .seaMineMoored:
-                String(localized: "Sea Mine-Moored", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Moored", bundle: .module, comment: "Sea Mine General Entity Type")
 
             case .seaMineFloating:
-                String(localized: "Sea Mine-Floating", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Floating", bundle: .module, comment: "Sea Mine General Entity Type")
 
             case .seaMineRising:
-                String(localized: "Sea Mine-Rising", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Rising", bundle: .module, comment: "Sea Mine General Entity Type")
 
             case .seaMineOtherPosition:
-                String(localized: "Sea Mine-Other Position", comment: "Sea Mine General Entity Type")
+                String(localized: "Sea Mine-Other Position", bundle: .module, comment: "Sea Mine General Entity Type")
 
             case .kingfisher:
-                String(localized: "Kingfisher", comment: "Sea Mine General Entity Type")
+                String(localized: "Kingfisher", bundle: .module, comment: "Sea Mine General Entity Type")
 
             case .smallObjectMineLike:
-                String(localized: "Small Object-Mine-Like", comment: "Sea Mine General Entity Type")
+                String(localized: "Small Object-Mine-Like", bundle: .module, comment: "Sea Mine General Entity Type")
 
             case .exerciseMineGeneral:
-                String(localized: "Exercise Mine-General", comment: "Sea Mine General Entity Type")
+                String(localized: "Exercise Mine-General", bundle: .module, comment: "Sea Mine General Entity Type")
 
             case .neutralizedMineGeneral:
-                String(localized: "Neutralized Mine-General", comment: "Sea Mine General Entity Type")
+                String(localized: "Neutralized Mine-General", bundle: .module, comment: "Sea Mine General Entity Type")
             }
         }
 

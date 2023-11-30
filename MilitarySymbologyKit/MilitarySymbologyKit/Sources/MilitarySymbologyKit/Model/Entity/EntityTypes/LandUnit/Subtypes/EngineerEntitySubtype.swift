@@ -14,13 +14,13 @@ enum EngineerEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .mechanized:
-            String(localized: "Mechanized", comment: "Engineer Entity Subtype")
+            String(localized: "Mechanized", bundle: .module, comment: "Engineer Entity Subtype")
 
         case .motorized:
-            String(localized: "Motorized", comment: "Engineer Entity Subtype")
+            String(localized: "Motorized", bundle: .module, comment: "Engineer Entity Subtype")
 
         case .reconnaissance:
-            String(localized: "Reconnaissance", comment: "Engineer Entity Subtype")
+            String(localized: "Reconnaissance", bundle: .module, comment: "Engineer Entity Subtype")
         }
     }
 }

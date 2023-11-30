@@ -22,21 +22,21 @@ enum FireEventEntityType: String, CaseIterable, EntityType {
         case .none:
             String(localized: "None")
         case .fireOrigin:
-            String(localized: "Fire Origin", comment: "Fire Event Entity Type")
+            String(localized: "Fire Origin", bundle: .module, comment: "Fire Event Entity Type")
         case .smoke:
-            String(localized: "Smoke", comment: "Fire Event Entity Type")
+            String(localized: "Smoke", bundle: .module, comment: "Fire Event Entity Type")
         case .hotSpot:
-            String(localized: "Hot Spot", comment: "Fire Event Entity Type")
+            String(localized: "Hot Spot", bundle: .module, comment: "Fire Event Entity Type")
         case .nonResidentialFire:
-            String(localized: "Non-Residential Fire", comment: "Fire Event Entity Type")
+            String(localized: "Non-Residential Fire", bundle: .module, comment: "Fire Event Entity Type")
         case .residentialFire:
-            String(localized: "Residential Fire", comment: "Fire Event Entity Type")
+            String(localized: "Residential Fire", bundle: .module, comment: "Fire Event Entity Type")
         case .schoolFire:
-            String(localized: "School Fire", comment: "Fire Event Entity Type")
+            String(localized: "School Fire", bundle: .module, comment: "Fire Event Entity Type")
         case .specialNeedsFire:
-            String(localized: "Special Needs Fire", comment: "Fire Event Entity Type")
+            String(localized: "Special Needs Fire", bundle: .module, comment: "Fire Event Entity Type")
         case .wildFire:
-            String(localized: "Wild Fire", comment: "Fire Event Entity Type")
+            String(localized: "Wild Fire", bundle: .module, comment: "Fire Event Entity Type")
         }
     }
     

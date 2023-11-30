@@ -18,13 +18,13 @@ enum LightMediumSevereEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .light:
-            String(localized: "Light", comment: "Light/Medium/Severe Entity Subtype")
+            String(localized: "Light", bundle: .module, comment: "Light/Medium/Severe Entity Subtype")
 
         case .medium:
-            String(localized: "Medium", comment: "Light/Medium/Severe Entity Subtype")
+            String(localized: "Medium", bundle: .module, comment: "Light/Medium/Severe Entity Subtype")
 
         case .severe:
-            String(localized: "Severe", comment: "Light/Medium/Severe Entity Subtype")
+            String(localized: "Severe", bundle: .module, comment: "Light/Medium/Severe Entity Subtype")
         }
     }
 }

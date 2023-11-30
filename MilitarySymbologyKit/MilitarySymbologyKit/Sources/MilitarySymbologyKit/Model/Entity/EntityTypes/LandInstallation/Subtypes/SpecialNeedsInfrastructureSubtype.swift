@@ -20,11 +20,11 @@ enum SpecialNeedsInfrastructureSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .adultDayCare:
-            String(localized: "Adult Day Care", comment: "Special Needs Infrastructure Subtype")
+            String(localized: "Adult Day Care", bundle: .module, comment: "Special Needs Infrastructure Subtype")
         case .childDayCare:
-            String(localized: "Child Day Care", comment: "Special Needs Infrastructure Subtype")
+            String(localized: "Child Day Care", bundle: .module, comment: "Special Needs Infrastructure Subtype")
         case .elderCare:
-            String(localized: "Elder Care", comment: "Special Needs Infrastructure Subtype")
+            String(localized: "Elder Care", bundle: .module, comment: "Special Needs Infrastructure Subtype")
         }
     }
 }

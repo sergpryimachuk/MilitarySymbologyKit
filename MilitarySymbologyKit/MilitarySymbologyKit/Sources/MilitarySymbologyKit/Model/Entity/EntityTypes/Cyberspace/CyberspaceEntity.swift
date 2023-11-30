@@ -17,22 +17,22 @@ enum CyberspaceEntity: String, CaseIterable, Identifiable, Entity {
     var name: String {
         switch self {
         case .botnet:
-            String(localized: "Botnet", comment: "Cyberspace Entity Type")
+            String(localized: "Botnet", bundle: .module, comment: "Cyberspace Entity Type")
 
         case .infection:
-            String(localized: "Infection", comment: "Cyberspace Entity Type")
+            String(localized: "Infection", bundle: .module, comment: "Cyberspace Entity Type")
 
         case .healthAndStatus:
-            String(localized: "Health and Status", comment: "Cyberspace Entity Type")
+            String(localized: "Health and Status", bundle: .module, comment: "Cyberspace Entity Type")
 
         case .deviceType:
-            String(localized: "Device Type", comment: "Cyberspace Entity Type")
+            String(localized: "Device Type", bundle: .module, comment: "Cyberspace Entity Type")
 
         case .deviceDomain:
-            String(localized: "Device Domain", comment: "Cyberspace Entity Type")
+            String(localized: "Device Domain", bundle: .module, comment: "Cyberspace Entity Type")
 
         case .effect:
-            String(localized: "Effect", comment: "Cyberspace Entity Type")
+            String(localized: "Effect", bundle: .module, comment: "Cyberspace Entity Type")
         }
     }
 

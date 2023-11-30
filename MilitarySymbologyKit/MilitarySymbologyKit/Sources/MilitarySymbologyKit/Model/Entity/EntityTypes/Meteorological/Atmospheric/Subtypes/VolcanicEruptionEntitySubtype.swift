@@ -16,7 +16,7 @@ enum VolcanicEruptionEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .volcanicAsh:
-            String(localized: "Volcanic Ash", comment: "Volcanic Eruption Entity Subtype")
+            String(localized: "Volcanic Ash", bundle: .module, comment: "Volcanic Eruption Entity Subtype")
         }
     }
 }

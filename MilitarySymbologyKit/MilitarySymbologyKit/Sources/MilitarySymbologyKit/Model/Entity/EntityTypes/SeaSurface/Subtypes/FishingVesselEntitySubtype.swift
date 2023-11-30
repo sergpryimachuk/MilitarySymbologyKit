@@ -18,13 +18,13 @@ enum FishingVesselEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .drifter:
-            String(localized: "Drifter", comment: "Fishing Vessel Entity Subtype")
+            String(localized: "Drifter", bundle: .module, comment: "Fishing Vessel Entity Subtype")
 
         case .trawler:
-            String(localized: "Trawler", comment: "Fishing Vessel Entity Subtype")
+            String(localized: "Trawler", bundle: .module, comment: "Fishing Vessel Entity Subtype")
 
         case .dredger:
-            String(localized: "Dredger", comment: "Fishing Vessel Entity Subtype")
+            String(localized: "Dredger", bundle: .module, comment: "Fishing Vessel Entity Subtype")
         }
     }
 }

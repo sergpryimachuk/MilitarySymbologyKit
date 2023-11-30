@@ -19,9 +19,9 @@ enum MedicalInfrastructureSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .medical:
-            String(localized: "Medical", comment: "Medical Infrastructure Subtype")
+            String(localized: "Medical", bundle: .module, comment: "Medical Infrastructure Subtype")
         case .medicalTreatmentFacility:
-            String(localized: "Medical Treatment Facility (Hospital)", comment: "Medical Infrastructure Subtype")
+            String(localized: "Medical Treatment Facility (Hospital)", bundle: .module, comment: "Medical Infrastructure Subtype")
         }
     }
 }

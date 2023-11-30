@@ -40,76 +40,76 @@ extension AtmosphericEntity {
                 String(localized: "None")
 
             case .rain:
-                String(localized: "Rain", comment: "Weather Symbols Entity Type")
+                String(localized: "Rain", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .freezingRain:
-                String(localized: "Freezing Rain", comment: "Weather Symbols Entity Type")
+                String(localized: "Freezing Rain", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .rainShowers:
-                String(localized: "Rain Showers", comment: "Weather Symbols Entity Type")
+                String(localized: "Rain Showers", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .drizzle:
-                String(localized: "Drizzle", comment: "Weather Symbols Entity Type")
+                String(localized: "Drizzle", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .freezingDrizzle:
-                String(localized: "Freezing Drizzle", comment: "Weather Symbols Entity Type")
+                String(localized: "Freezing Drizzle", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .rainAndSnowMixed:
-                String(localized: "Rain and Snow Mixed", comment: "Weather Symbols Entity Type")
+                String(localized: "Rain and Snow Mixed", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .snow:
-                String(localized: "Snow", comment: "Weather Symbols Entity Type")
+                String(localized: "Snow", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .snowGrains:
-                String(localized: "Snow Grains", comment: "Weather Symbols Entity Type")
+                String(localized: "Snow Grains", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .snowShowers:
-                String(localized: "Snow Showers", comment: "Weather Symbols Entity Type")
+                String(localized: "Snow Showers", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .hail:
-                String(localized: "Hail", comment: "Weather Symbols Entity Type")
+                String(localized: "Hail", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .iceCrystalsDiamondDust:
-                String(localized: "Ice Crystals (Diamond Dust)", comment: "Weather Symbols Entity Type")
+                String(localized: "Ice Crystals (Diamond Dust)", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .icePelletsSleet:
-                String(localized: "Ice Pellets (Sleet)", comment: "Weather Symbols Entity Type")
+                String(localized: "Ice Pellets (Sleet)", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .inversion:
-                String(localized: "Inversion", comment: "Weather Symbols Entity Type")
+                String(localized: "Inversion", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .storms:
-                String(localized: "Storms", comment: "Weather Symbols Entity Type")
+                String(localized: "Storms", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .fog:
-                String(localized: "Fog", comment: "Weather Symbols Entity Type")
+                String(localized: "Fog", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .mist:
-                String(localized: "Mist", comment: "Weather Symbols Entity Type")
+                String(localized: "Mist", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .smoke:
-                String(localized: "Smoke", comment: "Weather Symbols Entity Type")
+                String(localized: "Smoke", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .haze:
-                String(localized: "Haze", comment: "Weather Symbols Entity Type")
+                String(localized: "Haze", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .dustOrSand:
-                String(localized: "Dust or Sand", comment: "Weather Symbols Entity Type")
+                String(localized: "Dust or Sand", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .tropicalStormSystems:
-                String(localized: "Tropical Storm Systems", comment: "Weather Symbols Entity Type")
+                String(localized: "Tropical Storm Systems", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .volcanicEruption:
-                String(localized: "Volcanic Eruption", comment: "Weather Symbols Entity Type")
+                String(localized: "Volcanic Eruption", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .tropopauseLevel:
-                String(localized: "Tropopause Level", comment: "Weather Symbols Entity Type")
+                String(localized: "Tropopause Level", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .freezingLevel:
-                String(localized: "Freezing Level", comment: "Weather Symbols Entity Type")
+                String(localized: "Freezing Level", bundle: .module, comment: "Weather Symbols Entity Type")
 
             case .precipitationUnknownTypeAndIntensity:
-                String(localized: "Precipitation of Unknown Type and Intensity", comment: "Weather Symbols Entity Type")
+                String(localized: "Precipitation of Unknown Type and Intensity", bundle: .module, comment: "Weather Symbols Entity Type")
             }
         }
 
@@ -121,7 +121,7 @@ extension AtmosphericEntity {
                 LightModerateHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
             case .rainShowers:
                 LightModerateHeavyEntitySubtype.allCases.map { AnyEntitySubtype($0) }
-                + [.init(id: "03", name: String(localized: "Torrential", comment: "Rain Showers Entity Subtype"))]
+                + [.init(id: "03", name: String(localized: "Torrential", bundle: .module, comment: "Rain Showers Entity Subtype"))]
             case .drizzle:
                 DrizzleEntitySubtype.allCases.map { AnyEntitySubtype($0) }
             case .rainAndSnowMixed:

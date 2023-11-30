@@ -26,40 +26,40 @@ enum UtilityVehiclesEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .utilityVehicle:
-            String(localized: "Utility Vehicle", comment: "Utility Vehicles Entity Type")
+            String(localized: "Utility Vehicle", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .medical:
-            String(localized: "Medical", comment: "Utility Vehicles Entity Type")
+            String(localized: "Medical", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .medicalEvacuation:
-            String(localized: "Medical Evacuation", comment: "Utility Vehicles Entity Type")
+            String(localized: "Medical Evacuation", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .mobileEmergencyPhysician:
-            String(localized: "Mobile Emergency Physician", comment: "Utility Vehicles Entity Type")
+            String(localized: "Mobile Emergency Physician", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .bus:
-            String(localized: "Bus", comment: "Utility Vehicles Entity Type")
+            String(localized: "Bus", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .semiTrailerAndTruck:
-            String(localized: "Semi-Trailer and Truck", comment: "Utility Vehicles Entity Type")
+            String(localized: "Semi-Trailer and Truck", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .limitedCrossCountryTruck:
-            String(localized: "Limited Cross Country Truck", comment: "Utility Vehicles Entity Type")
+            String(localized: "Limited Cross Country Truck", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .crossCountryTruck:
-            String(localized: "Cross Country Truck", comment: "Utility Vehicles Entity Type")
+            String(localized: "Cross Country Truck", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .petroleumOilLubricant:
-            String(localized: "Petroleum-Oil and Lubricant", comment: "Utility Vehicles Entity Type")
+            String(localized: "Petroleum-Oil and Lubricant", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .water:
-            String(localized: "Water", comment: "Utility Vehicles Entity Type")
+            String(localized: "Water", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .amphibiousUtilityWheeledVehicle:
-            String(localized: "Amphibious Utility Wheeled Vehicle", comment: "Utility Vehicles Entity Type")
+            String(localized: "Amphibious Utility Wheeled Vehicle", bundle: .module, comment: "Utility Vehicles Entity Type")
 
         case .towTruck:
-            String(localized: "Tow Truck", comment: "Utility Vehicles Entity Type")
+            String(localized: "Tow Truck", bundle: .module, comment: "Utility Vehicles Entity Type")
         }
     }
     

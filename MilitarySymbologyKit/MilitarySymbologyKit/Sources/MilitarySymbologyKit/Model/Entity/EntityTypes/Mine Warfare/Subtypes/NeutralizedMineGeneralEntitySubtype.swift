@@ -20,19 +20,19 @@ enum NeutralizedMineGeneralEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .neutralizedMineBottom:
-            String(localized: "Neutralized Mine-Bottom", comment: "Neutralized Mine General Entity Subtype")
+            String(localized: "Neutralized Mine-Bottom", bundle: .module, comment: "Neutralized Mine General Entity Subtype")
 
         case .neutralizedMineMoored:
-            String(localized: "Neutralized Mine-Moored", comment: "Neutralized Mine General Entity Subtype")
+            String(localized: "Neutralized Mine-Moored", bundle: .module, comment: "Neutralized Mine General Entity Subtype")
 
         case .neutralizedMineFloating:
-            String(localized: "Neutralized Mine-Floating", comment: "Neutralized Mine General Entity Subtype")
+            String(localized: "Neutralized Mine-Floating", bundle: .module, comment: "Neutralized Mine General Entity Subtype")
 
         case .neutralizedMineRising:
-            String(localized: "Neutralized Mine-Rising", comment: "Neutralized Mine General Entity Subtype")
+            String(localized: "Neutralized Mine-Rising", bundle: .module, comment: "Neutralized Mine General Entity Subtype")
 
         case .neutralizedMineOtherPosition:
-            String(localized: "Neutralized Mine-Other Position", comment: "Neutralized Mine General Entity Subtype")
+            String(localized: "Neutralized Mine-Other Position", bundle: .module, comment: "Neutralized Mine General Entity Subtype")
         }
     }
 }

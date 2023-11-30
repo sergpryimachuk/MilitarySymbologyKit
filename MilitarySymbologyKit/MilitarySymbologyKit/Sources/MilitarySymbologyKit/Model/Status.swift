@@ -17,22 +17,22 @@ enum Status: String, CaseIterable, Identifiable {
     var name: String {
         switch self {
         case .present:
-            String(localized: "Present", comment: "Status")
+            String(localized: "Present", bundle: .module, comment: "Status")
 
         case .plannedAnticipatedSuspect:
-            String(localized: "Planned/Anticipated/Suspect", comment: "Status")
+            String(localized: "Planned/Anticipated/Suspect", bundle: .module, comment: "Status")
 
         case .presentFullyCapable:
-            String(localized: "Present/Fully Capable", comment: "Status")
+            String(localized: "Present/Fully Capable", bundle: .module, comment: "Status")
 
         case .presentDamaged:
-            String(localized: "Present/Damaged", comment: "Status")
+            String(localized: "Present/Damaged", bundle: .module, comment: "Status")
 
         case .presentDestroyed:
-            String(localized: "Present/Destroyed", comment: "Status")
+            String(localized: "Present/Destroyed", bundle: .module, comment: "Status")
 
         case .presentFullToCapacity:
-            String(localized: "Present/Full to Capacity", comment: "Status")
+            String(localized: "Present/Full to Capacity", bundle: .module, comment: "Status")
         }
     }
 }

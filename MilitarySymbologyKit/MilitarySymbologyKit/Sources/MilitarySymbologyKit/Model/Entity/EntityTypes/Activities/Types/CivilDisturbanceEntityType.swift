@@ -13,10 +13,10 @@ enum CivilDisturbanceEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .none:
-            String(localized: "None", comment: "Civil Disturbance Entity Type")
+            String(localized: "None", bundle: .module, comment: "Civil Disturbance Entity Type")
             
         case .demonstration:
-            String(localized: "Demonstration", comment: "Civil Disturbance Entity Type")
+            String(localized: "Demonstration", bundle: .module, comment: "Civil Disturbance Entity Type")
         }
     }
     

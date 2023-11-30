@@ -33,70 +33,70 @@ enum Dimension: String, CaseIterable, Identifiable {
     var name: String {
         switch self {
         case .air:
-            String(localized: "Air", comment: "Dimension")
+            String(localized: "Air", bundle: .module, comment: "Dimension")
 
         case .airMissile:
-            String(localized: "Air Missile", comment: "Dimension")
+            String(localized: "Air Missile", bundle: .module, comment: "Dimension")
 
         case .space:
-            String(localized: "Space", comment: "Dimension")
+            String(localized: "Space", bundle: .module, comment: "Dimension")
 
         case .spaceMissile:
-            String(localized: "Space Missile", comment: "Dimension")
+            String(localized: "Space Missile", bundle: .module, comment: "Dimension")
 
         case .landUnits:
-            String(localized: "Land Units", comment: "Dimension")
+            String(localized: "Land Units", bundle: .module, comment: "Dimension")
 
         case .landCivilian:
-            String(localized: "Land Civilian", comment: "Dimension")
+            String(localized: "Land Civilian", bundle: .module, comment: "Dimension")
 
         case .landEquipment:
-            String(localized: "Land Equipment", comment: "Dimension")
+            String(localized: "Land Equipment", bundle: .module, comment: "Dimension")
 
         case .landInstallation:
-            String(localized: "Land Installation", comment: "Dimension")
+            String(localized: "Land Installation", bundle: .module, comment: "Dimension")
 
 //        case .controlMeasure:
-//            String(localized: "Control Measure", comment: "Dimension")
+//            String(localized: "Control Measure", bundle: .module, comment: "Dimension")
 
         case .seaSurface:
-            String(localized: "Sea Surface", comment: "Dimension")
+            String(localized: "Sea Surface", bundle: .module, comment: "Dimension")
 
         case .seaSubsurface:
-            String(localized: "Sea Subsurface", comment: "Dimension")
+            String(localized: "Sea Subsurface", bundle: .module, comment: "Dimension")
 
         case .mineWarfare:
-            String(localized: "Mine Warfare", comment: "Dimension")
+            String(localized: "Mine Warfare", bundle: .module, comment: "Dimension")
 
         case .activities:
-            String(localized: "Activities", comment: "Dimension")
+            String(localized: "Activities", bundle: .module, comment: "Dimension")
 
 //        case .meteorologicalAtmospheric:
-//            String(localized: "Meteorological - Atmospheric", comment: "Dimension")
+//            String(localized: "Meteorological - Atmospheric", bundle: .module, comment: "Dimension")
 //
 //        case .meteorologicalOceanographic:
-//            String(localized: "Meteorological - Oceanographic", comment: "Dimension")
+//            String(localized: "Meteorological - Oceanographic", bundle: .module, comment: "Dimension")
 //
 //        case .meteorologicalSpace:
-//            String(localized: "Meteorological - Space", comment: "Dimension")
+//            String(localized: "Meteorological - Space", bundle: .module, comment: "Dimension")
 //
 //        case .signalsIntelligenceSpace:
-//            String(localized: "Signals Intelligence - Space", comment: "Dimension")
+//            String(localized: "Signals Intelligence - Space", bundle: .module, comment: "Dimension")
 //
 //        case .signalsIntelligenceAir:
-//            String(localized: "Signals Intelligence - Air", comment: "Dimension")
+//            String(localized: "Signals Intelligence - Air", bundle: .module, comment: "Dimension")
 //
 //        case .signalsIntelligenceLand:
-//            String(localized: "Signals Intelligence - Land", comment: "Dimension")
+//            String(localized: "Signals Intelligence - Land", bundle: .module, comment: "Dimension")
 //
 //        case .signalsIntelligenceSurface:
-//            String(localized: "Signals Intelligence - Surface", comment: "Dimension")
+//            String(localized: "Signals Intelligence - Surface", bundle: .module, comment: "Dimension")
 //
 //        case .signalsIntelligenceSubsurface:
-//            String(localized: "Signals Intelligence - Subsurface", comment: "Dimension")
+//            String(localized: "Signals Intelligence - Subsurface", bundle: .module, comment: "Dimension")
 
         case .cyberspace:
-            String(localized: "Cyberspace", comment: "Dimension")
+            String(localized: "Cyberspace", bundle: .module, comment: "Dimension")
         }
     }
 

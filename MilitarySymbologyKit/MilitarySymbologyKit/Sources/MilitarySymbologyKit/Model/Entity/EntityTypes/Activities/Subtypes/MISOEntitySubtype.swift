@@ -15,7 +15,7 @@ enum MISOEntitySubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .tvAndRadioPropaganda:
-            String(localized: "TV and Radio Propaganda", comment: "MISO Entity Subtype")
+            String(localized: "TV and Radio Propaganda", bundle: .module, comment: "MISO Entity Subtype")
         }
     }
 }

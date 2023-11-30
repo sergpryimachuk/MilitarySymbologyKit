@@ -14,13 +14,13 @@ enum ReconnaissanceCavalryScoutEntitySubtype: String, CaseIterable, EntitySubtyp
     var name: String {
         switch self {
         case .reconnaissanceAndSurveillance:
-            String(localized: "Reconnaissance and Surveillance", comment: "Reconnaissance/Cavalry/Scout Entity Subtype")
+            String(localized: "Reconnaissance and Surveillance", bundle: .module, comment: "Reconnaissance/Cavalry/Scout Entity Subtype")
 
         case .marine:
-            String(localized: "Marine", comment: "Reconnaissance/Cavalry/Scout Entity Subtype")
+            String(localized: "Marine", bundle: .module, comment: "Reconnaissance/Cavalry/Scout Entity Subtype")
 
         case .motorized:
-            String(localized: "Motorized", comment: "Reconnaissance/Cavalry/Scout Entity Subtype")
+            String(localized: "Motorized", bundle: .module, comment: "Reconnaissance/Cavalry/Scout Entity Subtype")
         }
     }
 }

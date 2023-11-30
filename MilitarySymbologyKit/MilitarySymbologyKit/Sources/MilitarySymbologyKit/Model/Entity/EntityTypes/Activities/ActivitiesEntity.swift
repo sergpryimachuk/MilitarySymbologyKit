@@ -19,28 +19,28 @@ enum ActivitiesEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .incident:
-            String(localized: "Incident", comment: "Activities Entity")
+            String(localized: "Incident", bundle: .module, comment: "Activities Entity")
             
         case .civilDisturbance:
-            String(localized: "Civil Disturbance", comment: "Activities Entity")
+            String(localized: "Civil Disturbance", bundle: .module, comment: "Activities Entity")
             
         case .operation:
-            String(localized: "Operation", comment: "Activities Entity")
+            String(localized: "Operation", bundle: .module, comment: "Activities Entity")
             
         case .fireEvent:
-            String(localized: "Fire Event", comment: "Activities Entity")
+            String(localized: "Fire Event", bundle: .module, comment: "Activities Entity")
             
         case .hazardMaterials:
-            String(localized: "Hazard Materials", comment: "Activities Entity")
+            String(localized: "Hazard Materials", bundle: .module, comment: "Activities Entity")
             
         case .transportationIncident:
-            String(localized: "Transportation Incident", comment: "Activities Entity")
+            String(localized: "Transportation Incident", bundle: .module, comment: "Activities Entity")
             
         case .naturalEvent:
-            String(localized: "Natural Event", comment: "Activities Entity")
+            String(localized: "Natural Event", bundle: .module, comment: "Activities Entity")
             
         case .individual:
-            String(localized: "Individual", comment: "Activities Entity")
+            String(localized: "Individual", bundle: .module, comment: "Activities Entity")
         }
     }
     

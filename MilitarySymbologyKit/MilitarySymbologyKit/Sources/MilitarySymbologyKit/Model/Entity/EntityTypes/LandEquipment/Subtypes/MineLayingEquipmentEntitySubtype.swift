@@ -18,13 +18,13 @@ enum MineLayingEquipmentEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .utilityVehicle:
-            String(localized: "Mine Laying Equipment on Utility Vehicle", comment: "Mine Laying Equipment Entity Subtype")
+            String(localized: "Mine Laying Equipment on Utility Vehicle", bundle: .module, comment: "Mine Laying Equipment Entity Subtype")
             
         case .armoredCarrierWithVolcano:
-            String(localized: "Armored Carrier with Volcano", comment: "Mine Laying Equipment Entity Subtype")
+            String(localized: "Armored Carrier with Volcano", bundle: .module, comment: "Mine Laying Equipment Entity Subtype")
             
         case .truckMountedWithVolcano:
-            String(localized: "Truck Mounted with Volcano", comment: "Mine Laying Equipment Entity Subtype")
+            String(localized: "Truck Mounted with Volcano", bundle: .module, comment: "Mine Laying Equipment Entity Subtype")
         }
     }
 }

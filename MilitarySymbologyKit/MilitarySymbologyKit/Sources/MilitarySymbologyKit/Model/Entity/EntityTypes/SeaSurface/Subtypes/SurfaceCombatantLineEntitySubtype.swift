@@ -21,22 +21,22 @@ enum SurfaceCombatantLineEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .battleship:
-            String(localized: "Battleship", comment: "Surface Combatant Line Entity Subtype")
+            String(localized: "Battleship", bundle: .module, comment: "Surface Combatant Line Entity Subtype")
 
         case .cruiser:
-            String(localized: "Cruiser", comment: "Surface Combatant Line Entity Subtype")
+            String(localized: "Cruiser", bundle: .module, comment: "Surface Combatant Line Entity Subtype")
 
         case .destroyer:
-            String(localized: "Destroyer", comment: "Surface Combatant Line Entity Subtype")
+            String(localized: "Destroyer", bundle: .module, comment: "Surface Combatant Line Entity Subtype")
 
         case .frigate:
-            String(localized: "Frigate", comment: "Surface Combatant Line Entity Subtype")
+            String(localized: "Frigate", bundle: .module, comment: "Surface Combatant Line Entity Subtype")
 
         case .corvette:
-            String(localized: "Corvette", comment: "Surface Combatant Line Entity Subtype")
+            String(localized: "Corvette", bundle: .module, comment: "Surface Combatant Line Entity Subtype")
 
         case .littoralCombatantShip:
-            String(localized: "Littoral Combatant Ship", comment: "Surface Combatant Line Entity Subtype")
+            String(localized: "Littoral Combatant Ship", bundle: .module, comment: "Surface Combatant Line Entity Subtype")
         }
     }
 }

@@ -16,7 +16,7 @@ enum BombBombingEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .bombThreat:
-            String(localized: "Bomb Threat", comment: "Bomb/Bombing Entity Subtype")
+            String(localized: "Bomb Threat", bundle: .module, comment: "Bomb/Bombing Entity Subtype")
         }
     }
 }

@@ -22,34 +22,34 @@ extension LandUnitEntity {
         var name: String {
             switch self {
             case .none:
-                String(localized: "None", comment: "Fire Support Entity Type")
+                String(localized: "None", bundle: .module, comment: "Fire Support Entity Type")
 
             case .airDefense:
-                String(localized: "Air Defense", comment: "Fire Support Entity Type")
+                String(localized: "Air Defense", bundle: .module, comment: "Fire Support Entity Type")
 
             case .airLandNavalGunfireLiaison:
-                String(localized: "Air-Land-Naval Gunfire Liaison", comment: "Fire Support Entity Type")
+                String(localized: "Air-Land-Naval Gunfire Liaison", bundle: .module, comment: "Fire Support Entity Type")
 
             case .fieldArtillery:
-                String(localized: "Field Artillery", comment: "Fire Support Entity Type")
+                String(localized: "Field Artillery", bundle: .module, comment: "Fire Support Entity Type")
 
             case .fieldArtilleryObserver:
-                String(localized: "Field Artillery Observer", comment: "Fire Support Entity Type")
+                String(localized: "Field Artillery Observer", bundle: .module, comment: "Fire Support Entity Type")
 
             case .jointFireSupport:
-                String(localized: "Joint Fire Support", comment: "Fire Support Entity Type")
+                String(localized: "Joint Fire Support", bundle: .module, comment: "Fire Support Entity Type")
 
             case .meteorological:
-                String(localized: "Meteorological", comment: "Fire Support Entity Type")
+                String(localized: "Meteorological", bundle: .module, comment: "Fire Support Entity Type")
 
             case .missile:
-                String(localized: "Missile", comment: "Fire Support Entity Type")
+                String(localized: "Missile", bundle: .module, comment: "Fire Support Entity Type")
 
             case .mortar:
-                String(localized: "Mortar", comment: "Fire Support Entity Type")
+                String(localized: "Mortar", bundle: .module, comment: "Fire Support Entity Type")
 
             case .survey:
-                String(localized: "Survey", comment: "Fire Support Entity Type")
+                String(localized: "Survey", bundle: .module, comment: "Fire Support Entity Type")
             }
         }
 

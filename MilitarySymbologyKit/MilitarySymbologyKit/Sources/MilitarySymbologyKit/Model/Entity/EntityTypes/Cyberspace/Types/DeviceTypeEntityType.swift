@@ -24,40 +24,40 @@ extension CyberspaceEntity {
         var name: String {
             switch self {
             case .coreRouter:
-                String(localized: "Core Router", comment: "Device Type Entity Type")
+                String(localized: "Core Router", bundle: .module, comment: "Device Type Entity Type")
 
             case .router:
-                String(localized: "Router", comment: "Device Type Entity Type")
+                String(localized: "Router", bundle: .module, comment: "Device Type Entity Type")
 
             case .crossDomainSolution:
-                String(localized: "Cross Domain Solution", comment: "Device Type Entity Type")
+                String(localized: "Cross Domain Solution", bundle: .module, comment: "Device Type Entity Type")
 
             case .mailServer:
-                String(localized: "Mail Server", comment: "Device Type Entity Type")
+                String(localized: "Mail Server", bundle: .module, comment: "Device Type Entity Type")
 
             case .webServer:
-                String(localized: "Web Server", comment: "Device Type Entity Type")
+                String(localized: "Web Server", bundle: .module, comment: "Device Type Entity Type")
 
             case .domainServer:
-                String(localized: "Domain Server", comment: "Device Type Entity Type")
+                String(localized: "Domain Server", bundle: .module, comment: "Device Type Entity Type")
 
             case .fileServer:
-                String(localized: "File Server", comment: "Device Type Entity Type")
+                String(localized: "File Server", bundle: .module, comment: "Device Type Entity Type")
 
             case .peerToPeerNode:
-                String(localized: "Peer-to-Peer Node", comment: "Device Type Entity Type")
+                String(localized: "Peer-to-Peer Node", bundle: .module, comment: "Device Type Entity Type")
 
             case .firewall:
-                String(localized: "Firewall", comment: "Device Type Entity Type")
+                String(localized: "Firewall", bundle: .module, comment: "Device Type Entity Type")
 
             case .switchDevice:
-                String(localized: "Switch", comment: "Device Type Entity Type")
+                String(localized: "Switch", bundle: .module, comment: "Device Type Entity Type")
 
             case .host:
-                String(localized: "Host", comment: "Device Type Entity Type")
+                String(localized: "Host", bundle: .module, comment: "Device Type Entity Type")
 
             case .virtualPrivateNetwork:
-                String(localized: "Virtual Private Network (VPN)", comment: "Device Type Entity Type")
+                String(localized: "Virtual Private Network (VPN)", bundle: .module, comment: "Device Type Entity Type")
             }
         }
 

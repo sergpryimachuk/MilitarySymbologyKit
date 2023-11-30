@@ -23,23 +23,23 @@ enum GeologicEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            String(localized: "None", comment: "Geologic Entity Subtype")
+            String(localized: "None", bundle: .module, comment: "Geologic Entity Subtype")
         case .aftershock:
-            String(localized: "Aftershock", comment: "Geologic Entity Subtype")
+            String(localized: "Aftershock", bundle: .module, comment: "Geologic Entity Subtype")
         case .avalanche:
-            String(localized: "Avalanche", comment: "Geologic Entity Subtype")
+            String(localized: "Avalanche", bundle: .module, comment: "Geologic Entity Subtype")
         case .earthquakeEpicenter:
-            String(localized: "Earthquake Epicenter", comment: "Geologic Entity Subtype")
+            String(localized: "Earthquake Epicenter", bundle: .module, comment: "Geologic Entity Subtype")
         case .landslide:
-            String(localized: "Landslide", comment: "Geologic Entity Subtype")
+            String(localized: "Landslide", bundle: .module, comment: "Geologic Entity Subtype")
         case .subsidence:
-            String(localized: "Subsidence", comment: "Geologic Entity Subtype")
+            String(localized: "Subsidence", bundle: .module, comment: "Geologic Entity Subtype")
         case .volcanicEruption:
-            String(localized: "Volcanic Eruption", comment: "Geologic Entity Subtype")
+            String(localized: "Volcanic Eruption", bundle: .module, comment: "Geologic Entity Subtype")
         case .volcanicThreat:
-            String(localized: "Volcanic Threat", comment: "Geologic Entity Subtype")
+            String(localized: "Volcanic Threat", bundle: .module, comment: "Geologic Entity Subtype")
         case .caveEntrance:
-            String(localized: "Cave Entrance", comment: "Geologic Entity Subtype")
+            String(localized: "Cave Entrance", bundle: .module, comment: "Geologic Entity Subtype")
         }
     }
 }

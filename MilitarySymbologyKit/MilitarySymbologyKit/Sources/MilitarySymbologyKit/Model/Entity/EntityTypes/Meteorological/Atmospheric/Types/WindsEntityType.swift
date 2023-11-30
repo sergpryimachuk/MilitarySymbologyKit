@@ -19,16 +19,16 @@ extension AtmosphericEntity {
             case .none:
                 String(localized: "None")
             case .calmWinds:
-                String(localized: "Calm Winds", comment: "Winds Entity Type")
+                String(localized: "Calm Winds", bundle: .module, comment: "Winds Entity Type")
 
             case .windPlot:
-                String(localized: "Wind Plot", comment: "Winds Entity Type")
+                String(localized: "Wind Plot", bundle: .module, comment: "Winds Entity Type")
 
             case .jetStream:
-                String(localized: "Jet Stream", comment: "Winds Entity Type")
+                String(localized: "Jet Stream", bundle: .module, comment: "Winds Entity Type")
 
             case .streamLine:
-                String(localized: "Stream Line", comment: "Winds Entity Type")
+                String(localized: "Stream Line", bundle: .module, comment: "Winds Entity Type")
             }
         }
 

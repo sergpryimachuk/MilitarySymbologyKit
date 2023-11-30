@@ -27,40 +27,40 @@ extension LandUnitEntity {
             case .none:
                 String(localized: "None")
             case .analysis:
-                String(localized: "Analysis", comment: "Intelligence Entity Type")
+                String(localized: "Analysis", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .counterintelligence:
-                String(localized: "Counterintelligence", comment: "Intelligence Entity Type")
+                String(localized: "Counterintelligence", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .directionFinding:
-                String(localized: "Direction Finding", comment: "Intelligence Entity Type")
+                String(localized: "Direction Finding", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .electronicRanging:
-                String(localized: "Electronic Ranging", comment: "Intelligence Entity Type")
+                String(localized: "Electronic Ranging", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .electronicWarfare:
-                String(localized: "Electronic Warfare", comment: "Intelligence Entity Type")
+                String(localized: "Electronic Warfare", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .interceptSearchAndRecording:
-                String(localized: "Intercept (Search and Recording)", comment: "Intelligence Entity Type")
+                String(localized: "Intercept (Search and Recording)", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .interrogation:
-                String(localized: "Interrogation", comment: "Intelligence Entity Type")
+                String(localized: "Interrogation", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .jamming:
-                String(localized: "Jamming", comment: "Intelligence Entity Type")
+                String(localized: "Jamming", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .jointIntelligenceCenter:
-                String(localized: "Joint Intelligence Center", comment: "Intelligence Entity Type")
+                String(localized: "Joint Intelligence Center", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .militaryIntelligence:
-                String(localized: "Military Intelligence", comment: "Intelligence Entity Type")
+                String(localized: "Military Intelligence", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .search:
-                String(localized: "Search", comment: "Intelligence Entity Type")
+                String(localized: "Search", bundle: .module, comment: "Intelligence Entity Type")
                 
             case .sensor:
-                String(localized: "Sensor", comment: "Intelligence Entity Type")
+                String(localized: "Sensor", bundle: .module, comment: "Intelligence Entity Type")
             }
         }
         

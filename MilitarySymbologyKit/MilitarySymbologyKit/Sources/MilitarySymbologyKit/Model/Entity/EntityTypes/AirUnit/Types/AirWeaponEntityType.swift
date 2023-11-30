@@ -18,10 +18,10 @@ extension AirUnitEntity {
                 String(localized: "None")
 
             case .bomb:
-                String(localized: "Bomb", comment: "Weapon Entity Type")
+                String(localized: "Bomb", bundle: .module, comment: "Weapon Entity Type")
 
             case .decoy:
-                String(localized: "Decoy", comment: "Weapon Entity Type")
+                String(localized: "Decoy", bundle: .module, comment: "Weapon Entity Type")
             }
         }
 

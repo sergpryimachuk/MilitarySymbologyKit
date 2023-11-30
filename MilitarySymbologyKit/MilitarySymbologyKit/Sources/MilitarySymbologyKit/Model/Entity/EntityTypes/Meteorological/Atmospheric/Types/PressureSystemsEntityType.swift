@@ -20,19 +20,19 @@ extension AtmosphericEntity {
             case .none:
                 String(localized: "None")
             case .lowPressureCenter:
-                String(localized: "Low Pressure Center", comment: "Pressure Systems Entity Type")
+                String(localized: "Low Pressure Center", bundle: .module, comment: "Pressure Systems Entity Type")
 
             case .highPressureCenter:
-                String(localized: "High Pressure Center", comment: "Pressure Systems Entity Type")
+                String(localized: "High Pressure Center", bundle: .module, comment: "Pressure Systems Entity Type")
 
             case .frontalSystems:
-                String(localized: "Frontal Systems", comment: "Pressure Systems Entity Type")
+                String(localized: "Frontal Systems", bundle: .module, comment: "Pressure Systems Entity Type")
 
             case .lines:
-                String(localized: "Lines", comment: "Pressure Systems Entity Type")
+                String(localized: "Lines", bundle: .module, comment: "Pressure Systems Entity Type")
 
             case .pressureTendency:
-                String(localized: "Pressure Tendency", comment: "Pressure Systems Entity Type")
+                String(localized: "Pressure Tendency", bundle: .module, comment: "Pressure Systems Entity Type")
             }
         }
 

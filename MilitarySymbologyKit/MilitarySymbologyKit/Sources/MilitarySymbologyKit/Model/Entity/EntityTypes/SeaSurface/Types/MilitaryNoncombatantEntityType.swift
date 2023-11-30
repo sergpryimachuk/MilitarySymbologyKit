@@ -18,10 +18,10 @@ extension SeaSurfaceEntity {
                 String(localized: "None")
 
             case .auxiliaryShip:
-                String(localized: "Auxiliary Ship", comment: "Military Noncombatant Entity Type")
+                String(localized: "Auxiliary Ship", bundle: .module, comment: "Military Noncombatant Entity Type")
 
             case .serviceCraftYard:
-                String(localized: "Service Craft/Yard", comment: "Military Noncombatant Entity Type")
+                String(localized: "Service Craft/Yard", bundle: .module, comment: "Military Noncombatant Entity Type")
             }
         }
 

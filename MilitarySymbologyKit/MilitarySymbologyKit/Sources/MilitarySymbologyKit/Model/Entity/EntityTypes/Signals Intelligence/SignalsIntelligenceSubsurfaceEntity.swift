@@ -12,7 +12,7 @@ enum SignalsIntelligenceEntity: String, CaseIterable, Identifiable, Entity {
     var name: String {
         switch self {
         case .signalIntercept:
-            String(localized: "Signal Intercept", comment: "Signals Intelligence Entity")
+            String(localized: "Signal Intercept", bundle: .module, comment: "Signals Intelligence Entity")
         }
     }
 

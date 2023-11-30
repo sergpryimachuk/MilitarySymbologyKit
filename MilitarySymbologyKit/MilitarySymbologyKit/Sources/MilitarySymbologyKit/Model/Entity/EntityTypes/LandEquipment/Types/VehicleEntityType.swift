@@ -18,13 +18,13 @@ enum VehicleEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .armoredVehicle:
-            String(localized: "Armored Vehicle", comment: "Vehicle Entity Type")
+            String(localized: "Armored Vehicle", bundle: .module, comment: "Vehicle Entity Type")
 
         case .tank:
-            String(localized: "Tank", comment: "Vehicle Entity Type")
+            String(localized: "Tank", bundle: .module, comment: "Vehicle Entity Type")
 
         case .tankRecoveryVehicle:
-            String(localized: "Tank Recovery Vehicle", comment: "Vehicle Entity Type")
+            String(localized: "Tank Recovery Vehicle", bundle: .module, comment: "Vehicle Entity Type")
         case .none:
             String(localized: "None")
         }

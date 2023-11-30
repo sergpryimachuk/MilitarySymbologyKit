@@ -17,10 +17,10 @@ enum IllegalDrugOperationEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .trafficking:
-            String(localized: "Trafficking", comment: "Illegal Drug Operation Entity Subtype")
+            String(localized: "Trafficking", bundle: .module, comment: "Illegal Drug Operation Entity Subtype")
             
         case .illegalDrugLab:
-            String(localized: "Illegal Drug Lab", comment: "Illegal Drug Operation Entity Subtype")
+            String(localized: "Illegal Drug Lab", bundle: .module, comment: "Illegal Drug Operation Entity Subtype")
         }
     }
 }

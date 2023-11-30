@@ -19,9 +19,9 @@ enum IndividualEntityType: String, CaseIterable, EntityType {
         case .none:
             String(localized: "None")
         case .religiousLeader:
-            String(localized: "Religious Leader", comment: "Individual Entity Type")
+            String(localized: "Religious Leader", bundle: .module, comment: "Individual Entity Type")
         case .speaker:
-            String(localized: "Speaker", comment: "Individual Entity Type")
+            String(localized: "Speaker", bundle: .module, comment: "Individual Entity Type")
         }
     }
     

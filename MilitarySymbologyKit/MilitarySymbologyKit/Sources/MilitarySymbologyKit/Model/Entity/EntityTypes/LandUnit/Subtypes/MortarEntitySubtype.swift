@@ -14,13 +14,13 @@ enum MortarEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .armoredMechanizedTracked:
-            String(localized: "Armored/Mechanized/Tracked", comment: "Mortar Entity Subtype")
+            String(localized: "Armored/Mechanized/Tracked", bundle: .module, comment: "Mortar Entity Subtype")
 
         case .selfPropelledWheeled:
-            String(localized: "Self-Propelled Wheeled", comment: "Mortar Entity Subtype")
+            String(localized: "Self-Propelled Wheeled", bundle: .module, comment: "Mortar Entity Subtype")
 
         case .towed:
-            String(localized: "Towed", comment: "Mortar Entity Subtype")
+            String(localized: "Towed", bundle: .module, comment: "Mortar Entity Subtype")
         }
     }
 }

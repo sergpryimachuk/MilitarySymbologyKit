@@ -13,10 +13,10 @@ enum NavalTowedArrayDescriptor: String, CaseIterable, Descriptor {
     var name: String {
         switch self {
         case .shortTowedArray:
-            String(localized: "Short Towed Array", comment: "Naval towed array amplifier descriptor")
+            String(localized: "Short Towed Array", bundle: .module, comment: "Naval towed array amplifier descriptor")
 
         case .longTowedArray:
-            String(localized: "Long Towed Array", comment: "Naval towed array amplifier descriptor")
+            String(localized: "Long Towed Array", bundle: .module, comment: "Naval towed array amplifier descriptor")
         }
     }
 }

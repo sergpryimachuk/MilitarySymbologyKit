@@ -27,31 +27,31 @@ enum LawEnforcementSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            String(localized: "None", comment: "Law Enforcement Subtype")
+            String(localized: "None", bundle: .module, comment: "Law Enforcement Subtype")
         case .ATF:
-            String(localized: "Bureau of Alcohol-Tobacco-Firearms and Explosives (ATF) (Department of Justice)", comment: "Law Enforcement Subtype")
+            String(localized: "Bureau of Alcohol-Tobacco-Firearms and Explosives (ATF) (Department of Justice)", bundle: .module, comment: "Law Enforcement Subtype")
         case .borderPatrol:
-            String(localized: "Border Patrol", comment: "Law Enforcement Subtype")
+            String(localized: "Border Patrol", bundle: .module, comment: "Law Enforcement Subtype")
         case .customsService:
-            String(localized: "Customs Service", comment: "Law Enforcement Subtype")
+            String(localized: "Customs Service", bundle: .module, comment: "Law Enforcement Subtype")
         case .DEA:
-            String(localized: "Drug Enforcement Administration (DEA)", comment: "Law Enforcement Subtype")
+            String(localized: "Drug Enforcement Administration (DEA)", bundle: .module, comment: "Law Enforcement Subtype")
         case .DOJ:
-            String(localized: "Department of Justice (DOJ)", comment: "Law Enforcement Subtype")
+            String(localized: "Department of Justice (DOJ)", bundle: .module, comment: "Law Enforcement Subtype")
         case .FBI:
-            String(localized: "Federal Bureau of Investigation (FBI)", comment: "Law Enforcement Subtype")
+            String(localized: "Federal Bureau of Investigation (FBI)", bundle: .module, comment: "Law Enforcement Subtype")
         case .police:
-            String(localized: "Police", comment: "Law Enforcement Subtype")
+            String(localized: "Police", bundle: .module, comment: "Law Enforcement Subtype")
         case .prison:
-            String(localized: "Prison", comment: "Law Enforcement Subtype")
+            String(localized: "Prison", bundle: .module, comment: "Law Enforcement Subtype")
         case .USSS:
-            String(localized: "United States Secret Service (USSS)", comment: "Law Enforcement Subtype")
+            String(localized: "United States Secret Service (USSS)", bundle: .module, comment: "Law Enforcement Subtype")
         case .TSA:
-            String(localized: "Transportation Security Administration (TSA)", comment: "Law Enforcement Subtype")
+            String(localized: "Transportation Security Administration (TSA)", bundle: .module, comment: "Law Enforcement Subtype")
         case .coastGuard:
-            String(localized: "Coast Guard", comment: "Law Enforcement Subtype")
+            String(localized: "Coast Guard", bundle: .module, comment: "Law Enforcement Subtype")
         case .USMarshalsService:
-            String(localized: "US Marshals Service", comment: "Law Enforcement Subtype")
+            String(localized: "US Marshals Service", bundle: .module, comment: "Law Enforcement Subtype")
         }
     }
 }

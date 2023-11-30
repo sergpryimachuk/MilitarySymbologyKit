@@ -21,22 +21,22 @@ enum DrizzleEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .intermittentLight:
-            String(localized: "Intermittent Light", comment: "Drizzle Entity Subtype")
+            String(localized: "Intermittent Light", bundle: .module, comment: "Drizzle Entity Subtype")
             
         case .intermittentLightContinuousLight:
-            String(localized: "Intermittent Light/Continuous Light", comment: "Drizzle Entity Subtype")
+            String(localized: "Intermittent Light/Continuous Light", bundle: .module, comment: "Drizzle Entity Subtype")
             
         case .intermittentModerate:
-            String(localized: "Intermittent Moderate", comment: "Drizzle Entity Subtype")
+            String(localized: "Intermittent Moderate", bundle: .module, comment: "Drizzle Entity Subtype")
             
         case .intermittentModerateContinuousModerate:
-            String(localized: "Intermittent Moderate/Continuous Moderate", comment: "Drizzle Entity Subtype")
+            String(localized: "Intermittent Moderate/Continuous Moderate", bundle: .module, comment: "Drizzle Entity Subtype")
             
         case .intermittentHeavy:
-            String(localized: "Intermittent Heavy", comment: "Drizzle Entity Subtype")
+            String(localized: "Intermittent Heavy", bundle: .module, comment: "Drizzle Entity Subtype")
             
         case .intermittentHeavyContinuousHeavy:
-            String(localized: "Intermittent Heavy/Continuous Heavy", comment: "Drizzle Entity Subtype")
+            String(localized: "Intermittent Heavy/Continuous Heavy", bundle: .module, comment: "Drizzle Entity Subtype")
         }
     }
 }

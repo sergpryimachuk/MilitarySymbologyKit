@@ -23,17 +23,17 @@ enum EnergyFacilityInfrastructureSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .electricPower:
-            String(localized: "Electric Power", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Electric Power", bundle: .module, comment: "Energy Facility Infrastructure Subtype")
         case .generationStation:
-            String(localized: "Generation Station", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Generation Station", bundle: .module, comment: "Energy Facility Infrastructure Subtype")
         case .naturalGasFacility:
-            String(localized: "Natural Gas Facility", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Natural Gas Facility", bundle: .module, comment: "Energy Facility Infrastructure Subtype")
         case .petroleumFacility:
-            String(localized: "Petroleum Facility", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Petroleum Facility", bundle: .module, comment: "Energy Facility Infrastructure Subtype")
         case .petroleumGasOil:
-            String(localized: "Petroleum/Gas/Oil", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Petroleum/Gas/Oil", bundle: .module, comment: "Energy Facility Infrastructure Subtype")
         case .propaneFacility:
-            String(localized: "Propane Facility", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Propane Facility", bundle: .module, comment: "Energy Facility Infrastructure Subtype")
         }
     }
 }

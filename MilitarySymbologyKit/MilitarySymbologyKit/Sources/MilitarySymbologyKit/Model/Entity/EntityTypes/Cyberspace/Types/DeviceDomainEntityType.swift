@@ -17,19 +17,19 @@ extension CyberspaceEntity {
         var name: String {
             switch self {
             case .departmentOfDefense:
-                String(localized: "Department of Defense (DoD)", comment: "Device Domain Entity Type")
+                String(localized: "Department of Defense (DoD)", bundle: .module, comment: "Device Domain Entity Type")
 
             case .government:
-                String(localized: "Government", comment: "Device Domain Entity Type")
+                String(localized: "Government", bundle: .module, comment: "Device Domain Entity Type")
 
             case .contractor:
-                String(localized: "Contractor", comment: "Device Domain Entity Type")
+                String(localized: "Contractor", bundle: .module, comment: "Device Domain Entity Type")
 
             case .supervisoryControlAndDataAcquisition:
-                String(localized: "Supervisory Control and Data Acquisition (SCADA)", comment: "Device Domain Entity Type")
+                String(localized: "Supervisory Control and Data Acquisition (SCADA)", bundle: .module, comment: "Device Domain Entity Type")
 
             case .nonGovernment:
-                String(localized: "Non-Government", comment: "Device Domain Entity Type")
+                String(localized: "Non-Government", bundle: .module, comment: "Device Domain Entity Type")
             }
         }
 

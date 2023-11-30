@@ -24,31 +24,31 @@ enum PressureTendencyEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .riseThenFallHigher:
-            String(localized: "Rise Then Fall Higher", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise Then Fall Higher", bundle: .module, comment: "Pressure Tendency Entity Subtype")
             
         case .riseThenSteady:
-            String(localized: "Rise Then Steady", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise Then Steady", bundle: .module, comment: "Pressure Tendency Entity Subtype")
             
         case .rise:
-            String(localized: "Rise", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise", bundle: .module, comment: "Pressure Tendency Entity Subtype")
             
         case .riseThenRiseHigher:
-            String(localized: "Rise Then Rise Higher", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise Then Rise Higher", bundle: .module, comment: "Pressure Tendency Entity Subtype")
             
         case .steady:
-            String(localized: "Steady", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Steady", bundle: .module, comment: "Pressure Tendency Entity Subtype")
             
         case .fallThenRiseLower:
-            String(localized: "Fall Then Rise Lower", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Fall Then Rise Lower", bundle: .module, comment: "Pressure Tendency Entity Subtype")
             
         case .fallThenSteady:
-            String(localized: "Fall Then Steady", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Fall Then Steady", bundle: .module, comment: "Pressure Tendency Entity Subtype")
             
         case .fall:
-            String(localized: "Fall", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Fall", bundle: .module, comment: "Pressure Tendency Entity Subtype")
             
         case .riseThenFallLower:
-            String(localized: "Rise Then Fall Lower", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise Then Fall Lower", bundle: .module, comment: "Pressure Tendency Entity Subtype")
         }
     }
 }

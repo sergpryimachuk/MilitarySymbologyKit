@@ -25,21 +25,21 @@ enum AgricultureAndFoodInfrastructureSubtype: String, CaseIterable, EntitySubtyp
         case .none:
             String(localized: "None")
         case .agricultureLaboratory:
-            String(localized: "Agriculture Laboratory", comment: "Agriculture and Food Infrastructure Subtype")
+            String(localized: "Agriculture Laboratory", bundle: .module, comment: "Agriculture and Food Infrastructure Subtype")
         case .animalFeedlot:
-            String(localized: "Animal Feedlot", comment: "Agriculture and Food Infrastructure Subtype")
+            String(localized: "Animal Feedlot", bundle: .module, comment: "Agriculture and Food Infrastructure Subtype")
         case .commercialFoodDistributionCenter:
-            String(localized: "Commercial Food Distribution Center", comment: "Agriculture and Food Infrastructure Subtype")
+            String(localized: "Commercial Food Distribution Center", bundle: .module, comment: "Agriculture and Food Infrastructure Subtype")
         case .farmRanch:
-            String(localized: "Farm/Ranch", comment: "Agriculture and Food Infrastructure Subtype")
+            String(localized: "Farm/Ranch", bundle: .module, comment: "Agriculture and Food Infrastructure Subtype")
         case .foodDistribution:
-            String(localized: "Food Distribution", comment: "Agriculture and Food Infrastructure Subtype")
+            String(localized: "Food Distribution", bundle: .module, comment: "Agriculture and Food Infrastructure Subtype")
         case .foodProductionCenter:
-            String(localized: "Food Production Center", comment: "Agriculture and Food Infrastructure Subtype")
+            String(localized: "Food Production Center", bundle: .module, comment: "Agriculture and Food Infrastructure Subtype")
         case .foodRetail:
-            String(localized: "Food Retail", comment: "Agriculture and Food Infrastructure Subtype")
+            String(localized: "Food Retail", bundle: .module, comment: "Agriculture and Food Infrastructure Subtype")
         case .grainStorage:
-            String(localized: "Grain Storage", comment: "Agriculture and Food Infrastructure Subtype")
+            String(localized: "Grain Storage", bundle: .module, comment: "Agriculture and Food Infrastructure Subtype")
         }
     }
 }

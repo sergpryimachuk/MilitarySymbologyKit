@@ -24,19 +24,19 @@ enum BankingFinanceAndInsuranceInfrastructureSubtype: String, CaseIterable, Enti
         case .none:
             String(localized: "None")
         case .atm:
-            String(localized: "ATM", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "ATM", bundle: .module, comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .bank:
-            String(localized: "Bank", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Bank", bundle: .module, comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .bullionStorage:
-            String(localized: "Bullion Storage", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Bullion Storage", bundle: .module, comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .economicInfrastructureAsset:
-            String(localized: "Economic Infrastructure Asset", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Economic Infrastructure Asset", bundle: .module, comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .federalReserveBank:
-            String(localized: "Federal Reserve Bank", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Federal Reserve Bank", bundle: .module, comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .financialExchange:
-            String(localized: "Financial Exchange", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Financial Exchange", bundle: .module, comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .financialServicesOther:
-            String(localized: "Financial Services-Other", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Financial Services-Other", bundle: .module, comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         }
     }
 }

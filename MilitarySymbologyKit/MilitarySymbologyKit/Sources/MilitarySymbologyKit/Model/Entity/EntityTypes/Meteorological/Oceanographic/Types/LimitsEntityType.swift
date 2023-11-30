@@ -20,22 +20,22 @@ extension OceanographicEntity {
         var name: String {
             switch self {
             case .maritimeLimitBoundary:
-                String(localized: "Maritime Limit Boundary", comment: "Limits Entity Type")
+                String(localized: "Maritime Limit Boundary", bundle: .module, comment: "Limits Entity Type")
 
             case .maritimeArea:
-                String(localized: "Maritime Area", comment: "Limits Entity Type")
+                String(localized: "Maritime Area", bundle: .module, comment: "Limits Entity Type")
 
             case .restrictedArea:
-                String(localized: "Restricted Area", comment: "Limits Entity Type")
+                String(localized: "Restricted Area", bundle: .module, comment: "Limits Entity Type")
 
             case .sweptArea:
-                String(localized: "Swept Area", comment: "Limits Entity Type")
+                String(localized: "Swept Area", bundle: .module, comment: "Limits Entity Type")
 
             case .trainingArea:
-                String(localized: "Training Area", comment: "Limits Entity Type")
+                String(localized: "Training Area", bundle: .module, comment: "Limits Entity Type")
 
             case .operatorDefined:
-                String(localized: "Operator-Defined", comment: "Limits Entity Type")
+                String(localized: "Operator-Defined", bundle: .module, comment: "Limits Entity Type")
             }
         }
     }

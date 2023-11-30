@@ -36,70 +36,70 @@ enum InstallationEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .aircraftProductionAssembly:
-            String(localized: "Aircraft Production/Assembly", comment: "Installation Entity Type")
+            String(localized: "Aircraft Production/Assembly", bundle: .module, comment: "Installation Entity Type")
 
         case .ammunitionAndExplosivesAssembly:
-            String(localized: "Ammunition and Explosives/Assembly", comment: "Installation Entity Type")
+            String(localized: "Ammunition and Explosives/Assembly", bundle: .module, comment: "Installation Entity Type")
 
         case .ammunitionCache:
-            String(localized: "Ammunition Cache", comment: "Installation Entity Type")
+            String(localized: "Ammunition Cache", bundle: .module, comment: "Installation Entity Type")
 
         case .armamentProduction:
-            String(localized: "Armament Production", comment: "Installation Entity Type")
+            String(localized: "Armament Production", bundle: .module, comment: "Installation Entity Type")
 
         case .blackListLocation:
-            String(localized: "Black List Location", comment: "Installation Entity Type")
+            String(localized: "Black List Location", bundle: .module, comment: "Installation Entity Type")
 
         case .chemicalBiologicalRadiologicalNuclearCBRN:
-            String(localized: "Chemical-Biological-Radiological and Nuclear (CBRN)", comment: "Installation Entity Type")
+            String(localized: "Chemical-Biological-Radiological and Nuclear (CBRN)", bundle: .module, comment: "Installation Entity Type")
 
         case .engineeringEquipmentProduction:
-            String(localized: "Engineering Equipment Production", comment: "Installation Entity Type")
+            String(localized: "Engineering Equipment Production", bundle: .module, comment: "Installation Entity Type")
 
         case .equipmentManufacture:
-            String(localized: "Equipment Manufacture", comment: "Installation Entity Type")
+            String(localized: "Equipment Manufacture", bundle: .module, comment: "Installation Entity Type")
 
         case .governmentLeadership:
-            String(localized: "Government Leadership", comment: "Installation Entity Type")
+            String(localized: "Government Leadership", bundle: .module, comment: "Installation Entity Type")
 
         case .grayListLocation:
-            String(localized: "Gray List Location", comment: "Installation Entity Type")
+            String(localized: "Gray List Location", bundle: .module, comment: "Installation Entity Type")
 
         case .massGraveSite:
-            String(localized: "Mass Grave Site", comment: "Installation Entity Type")
+            String(localized: "Mass Grave Site", bundle: .module, comment: "Installation Entity Type")
 
         case .materiel:
-            String(localized: "Materiel", comment: "Installation Entity Type")
+            String(localized: "Materiel", bundle: .module, comment: "Installation Entity Type")
 
         case .mine:
-            String(localized: "Mine", comment: "Installation Entity Type")
+            String(localized: "Mine", bundle: .module, comment: "Installation Entity Type")
 
         case .missileAndSpaceSystemProduction:
-            String(localized: "Missile and Space System Production", comment: "Installation Entity Type")
+            String(localized: "Missile and Space System Production", bundle: .module, comment: "Installation Entity Type")
 
         case .nuclearNonCBRNDefense:
-            String(localized: "Nuclear (Non CBRN Defense)", comment: "Installation Entity Type")
+            String(localized: "Nuclear (Non CBRN Defense)", bundle: .module, comment: "Installation Entity Type")
 
         case .printedMedia:
-            String(localized: "Printed Media", comment: "Installation Entity Type")
+            String(localized: "Printed Media", bundle: .module, comment: "Installation Entity Type")
 
         case .safeHouse:
-            String(localized: "Safe House", comment: "Installation Entity Type")
+            String(localized: "Safe House", bundle: .module, comment: "Installation Entity Type")
 
         case .whiteListLocation:
-            String(localized: "White List Location", comment: "Installation Entity Type")
+            String(localized: "White List Location", bundle: .module, comment: "Installation Entity Type")
 
         case .tentedCamp:
-            String(localized: "Tented Camp", comment: "Installation Entity Type")
+            String(localized: "Tented Camp", bundle: .module, comment: "Installation Entity Type")
 
         case .warehouseStorageFacility:
-            String(localized: "Warehouse/Storage Facility", comment: "Installation Entity Type")
+            String(localized: "Warehouse/Storage Facility", bundle: .module, comment: "Installation Entity Type")
 
         case .lawEnforcement:
-            String(localized: "Law Enforcement", comment: "Installation Entity Type")
+            String(localized: "Law Enforcement", bundle: .module, comment: "Installation Entity Type")
 
         case .emergencyOperation:
-            String(localized: "Emergency Operation", comment: "Installation Entity Type")
+            String(localized: "Emergency Operation", bundle: .module, comment: "Installation Entity Type")
         }
     }
 

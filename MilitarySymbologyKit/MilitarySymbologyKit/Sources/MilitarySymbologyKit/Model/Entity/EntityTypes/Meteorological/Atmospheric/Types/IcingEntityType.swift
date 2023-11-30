@@ -18,13 +18,13 @@ extension AtmosphericEntity {
             case .none:
                 String(localized: "None")
             case .clearIcing:
-                String(localized: "Clear Icing", comment: "Icing Entity Type")
+                String(localized: "Clear Icing", bundle: .module, comment: "Icing Entity Type")
 
             case .rimeIcing:
-                String(localized: "Rime Icing", comment: "Icing Entity Type")
+                String(localized: "Rime Icing", bundle: .module, comment: "Icing Entity Type")
 
             case .mixedIcing:
-                String(localized: "Mixed Icing", comment: "Icing Entity Type")
+                String(localized: "Mixed Icing", bundle: .module, comment: "Icing Entity Type")
             }
         }
 

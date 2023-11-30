@@ -16,19 +16,19 @@ enum ChemicalBiologicalRadiologicalNuclearDefenseEntitySubtype: String, CaseIter
     var name: String {
         switch self {
         case .mechanized:
-            String(localized: "Mechanized", comment: "CBRND Defense Entity Subtype")
+            String(localized: "Mechanized", bundle: .module, comment: "CBRND Defense Entity Subtype")
 
         case .motorized:
-            String(localized: "Motorized", comment: "CBRND Defense Entity Subtype")
+            String(localized: "Motorized", bundle: .module, comment: "CBRND Defense Entity Subtype")
 
         case .reconnaissance:
-            String(localized: "Reconnaissance", comment: "CBRND Defense Entity Subtype")
+            String(localized: "Reconnaissance", bundle: .module, comment: "CBRND Defense Entity Subtype")
 
         case .reconnaissanceArmored:
-            String(localized: "Reconnaissance Armored", comment: "CBRND Defense Entity Subtype")
+            String(localized: "Reconnaissance Armored", bundle: .module, comment: "CBRND Defense Entity Subtype")
 
         case .reconnaissanceEquipped:
-            String(localized: "Reconnaissance Equipped", comment: "CBRND Defense Entity Subtype")
+            String(localized: "Reconnaissance Equipped", bundle: .module, comment: "CBRND Defense Entity Subtype")
         }
     }
 }

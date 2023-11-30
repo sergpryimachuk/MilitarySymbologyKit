@@ -22,22 +22,22 @@ extension AirUnitEntity {
                 String(localized: "None")
 
             case .fixedWing:
-                String(localized: "Fixed Wing", comment: "Civilian Entity Type")
+                String(localized: "Fixed Wing", bundle: .module, comment: "Civilian Entity Type")
 
             case .rotaryWing:
-                String(localized: "Rotary Wing", comment: "Civilian Entity Type")
+                String(localized: "Rotary Wing", bundle: .module, comment: "Civilian Entity Type")
 
             case .unmannedAircraftUA_UAV_UAS_RPV:
-                String(localized: "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)", comment: "Civilian Entity Type")
+                String(localized: "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)", bundle: .module, comment: "Civilian Entity Type")
 
             case .lighterThanAir:
-                String(localized: "Lighter Than Air", comment: "Civilian Entity Type")
+                String(localized: "Lighter Than Air", bundle: .module, comment: "Civilian Entity Type")
 
             case .airship:
-                String(localized: "Airship", comment: "Civilian Entity Type")
+                String(localized: "Airship", bundle: .module, comment: "Civilian Entity Type")
 
             case .tetheredLighterThanAir:
-                String(localized: "Tethered Lighter than Air", comment: "Civilian Entity Type")
+                String(localized: "Tethered Lighter than Air", bundle: .module, comment: "Civilian Entity Type")
             }
         }
 

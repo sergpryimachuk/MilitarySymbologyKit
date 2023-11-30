@@ -23,25 +23,25 @@ extension SeaSurfaceEntity {
                 String(localized: "None")
 
             case .merchantShip:
-                String(localized: "Merchant Ship", comment: "Civilian Entity Type")
+                String(localized: "Merchant Ship", bundle: .module, comment: "Civilian Entity Type")
 
             case .fishingVessel:
-                String(localized: "Fishing Vessel", comment: "Civilian Entity Type")
+                String(localized: "Fishing Vessel", bundle: .module, comment: "Civilian Entity Type")
 
             case .lawEnforcementVessel:
-                String(localized: "Law Enforcement Vessel", comment: "Civilian Entity Type")
+                String(localized: "Law Enforcement Vessel", bundle: .module, comment: "Civilian Entity Type")
 
             case .leisureCraftSailing:
-                String(localized: "Leisure Craft, Sailing", comment: "Civilian Entity Type")
+                String(localized: "Leisure Craft, Sailing", bundle: .module, comment: "Civilian Entity Type")
 
             case .leisureCraftMotorized:
-                String(localized: "Leisure Craft, Motorized", comment: "Civilian Entity Type")
+                String(localized: "Leisure Craft, Motorized", bundle: .module, comment: "Civilian Entity Type")
 
             case .jetSki:
-                String(localized: "Jet Ski", comment: "Civilian Entity Type")
+                String(localized: "Jet Ski", bundle: .module, comment: "Civilian Entity Type")
 
             case .unmannedSurfaceWaterVehicleUSV:
-                String(localized: "Unmanned Surface Water Vehicle (USV)", comment: "Civilian Entity Type")
+                String(localized: "Unmanned Surface Water Vehicle (USV)", bundle: .module, comment: "Civilian Entity Type")
             }
         }
 

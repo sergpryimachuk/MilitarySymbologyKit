@@ -30,31 +30,31 @@ enum TransportationInfrastructureSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .airportAirBase:
-            String(localized: "Airport/Air Base", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Airport/Air Base", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .airTrafficControlFacility:
-            String(localized: "Air Traffic Control Facility", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Air Traffic Control Facility", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .busStation:
-            String(localized: "Bus Station", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Bus Station", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .ferryTerminal:
-            String(localized: "Ferry Terminal", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Ferry Terminal", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .helicopterLandingSite:
-            String(localized: "Helicopter Landing Site", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Helicopter Landing Site", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .maintenanceFacility:
-            String(localized: "Maintenance Facility", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Maintenance Facility", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .railheadRailroadStation:
-            String(localized: "Railhead/Railroad Station", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Railhead/Railroad Station", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .restStop:
-            String(localized: "Rest Stop", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Rest Stop", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .seaPortNavalBase:
-            String(localized: "Sea Port/Naval Base", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Sea Port/Naval Base", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .shipYard:
-            String(localized: "Ship Yard", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Ship Yard", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .tollFacility:
-            String(localized: "Toll Facility", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Toll Facility", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .trafficInspectionFacility:
-            String(localized: "Traffic Inspection Facility", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Traffic Inspection Facility", bundle: .module, comment: "Transportation Infrastructure Subtype")
         case .tunnel:
-            String(localized: "Tunnel", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Tunnel", bundle: .module, comment: "Transportation Infrastructure Subtype")
         }
     }
 }

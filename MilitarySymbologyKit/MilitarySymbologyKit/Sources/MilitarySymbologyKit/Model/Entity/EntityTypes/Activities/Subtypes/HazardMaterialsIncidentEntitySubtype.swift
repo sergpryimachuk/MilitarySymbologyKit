@@ -32,35 +32,35 @@ enum HazardMaterialsIncidentEntitySubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .chemicalAgent:
-            String(localized: "Chemical Agent", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Chemical Agent", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .corrosiveMaterial:
-            String(localized: "Corrosive Material", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Corrosive Material", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .hazardousWhenWet:
-            String(localized: "Hazardous When Wet", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Hazardous When Wet", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .explosiveMaterial:
-            String(localized: "Explosive Material", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Explosive Material", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .flammableGas:
-            String(localized: "Flammable Gas", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Flammable Gas", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .flammableLiquid:
-            String(localized: "Flammable Liquid", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Flammable Liquid", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .flammableSolid:
-            String(localized: "Flammable Solid", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Flammable Solid", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .nonFlammableGas:
-            String(localized: "Non-Flammable Gas", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Non-Flammable Gas", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .organicPeroxide:
-            String(localized: "Organic Peroxide", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Organic Peroxide", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .oxidizer:
-            String(localized: "Oxidizer", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Oxidizer", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .radioactiveMaterial:
-            String(localized: "Radioactive Material", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Radioactive Material", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .spontaneouslyCombustibleMaterial:
-            String(localized: "Spontaneously Combustible Material", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Spontaneously Combustible Material", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .toxicGas:
-            String(localized: "Toxic Gas", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Toxic Gas", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .toxicInfectiousMaterial:
-            String(localized: "Toxic Infectious Material", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Toxic Infectious Material", bundle: .module, comment: "Hazard Materials Incident Subtype")
         case .unexplodedOrdnance:
-            String(localized: "Unexploded Ordnance", comment: "Hazard Materials Incident Subtype")
+            String(localized: "Unexploded Ordnance", bundle: .module, comment: "Hazard Materials Incident Subtype")
         }
     }
 }

@@ -17,7 +17,7 @@ extension AtmosphericEntity {
                 String(localized: "None")
 
             case .cloudCoverageSymbols:
-                String(localized: "Cloud Coverage Symbols", comment: "Cloud Cover Entity Type")
+                String(localized: "Cloud Coverage Symbols", bundle: .module, comment: "Cloud Cover Entity Type")
             }
         }
 

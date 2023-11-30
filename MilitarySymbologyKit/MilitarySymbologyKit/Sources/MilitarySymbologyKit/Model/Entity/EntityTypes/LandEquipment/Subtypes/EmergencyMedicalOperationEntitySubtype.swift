@@ -17,7 +17,7 @@ extension OtherEquipmentEntityType {
                 String(localized: "None")
                 
             case .medicalEvacuationHelicopter:
-                String(localized: "Medical Evacuation Helicopter", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Medical Evacuation Helicopter", bundle: .module, comment: "Emergency Medical Operation Entity Subtype")
             }
         }
     }

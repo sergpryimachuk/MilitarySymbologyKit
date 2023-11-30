@@ -21,13 +21,13 @@ enum PublicVenuesInfrastructureSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .enclosedFacility:
-            String(localized: "Enclosed Facility", comment: "Public Venues Infrastructure Subtype")
+            String(localized: "Enclosed Facility", bundle: .module, comment: "Public Venues Infrastructure Subtype")
         case .openFacility:
-            String(localized: "Open Facility", comment: "Public Venues Infrastructure Subtype")
+            String(localized: "Open Facility", bundle: .module, comment: "Public Venues Infrastructure Subtype")
         case .recreationalArea:
-            String(localized: "Recreational Area", comment: "Public Venues Infrastructure Subtype")
+            String(localized: "Recreational Area", bundle: .module, comment: "Public Venues Infrastructure Subtype")
         case .religiousInstitution:
-            String(localized: "Religious Institution", comment: "Public Venues Infrastructure Subtype")
+            String(localized: "Religious Institution", bundle: .module, comment: "Public Venues Infrastructure Subtype")
         }
     }
 }

@@ -17,22 +17,22 @@ enum MILCOConfidenceLevelSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            String(localized: "None", comment: "MILCO General Entity Subtype")
+            String(localized: "None", bundle: .module, comment: "MILCO General Entity Subtype")
 
         case .confidenceLevel1:
-            String(localized: "MILCO - Confidence-Level 1", comment: "MILCO General Confidence-Leve Entity Subtype")
+            String(localized: "MILCO - Confidence-Level 1", bundle: .module, comment: "MILCO General Confidence-Leve Entity Subtype")
 
         case .confidenceLevel2:
-            String(localized: "MILCO - Confidence-Level 2", comment: "MILCO General Confidence-Leve Entity Subtype")
+            String(localized: "MILCO - Confidence-Level 2", bundle: .module, comment: "MILCO General Confidence-Leve Entity Subtype")
 
         case .confidenceLevel3:
-            String(localized: "MILCO - Confidence-Level 3", comment: "MILCO General Confidence-Leve Entity Subtype")
+            String(localized: "MILCO - Confidence-Level 3", bundle: .module, comment: "MILCO General Confidence-Leve Entity Subtype")
 
         case .confidenceLevel4:
-            String(localized: "MILCO - Confidence-Level 4", comment: "MILCO General Confidence-Leve Entity Subtype")
+            String(localized: "MILCO - Confidence-Level 4", bundle: .module, comment: "MILCO General Confidence-Leve Entity Subtype")
 
         case .confidenceLevel5:
-            String(localized: "MILCO - Confidence-Level 5", comment: "MILCO General Confidence-Leve Entity Subtype")
+            String(localized: "MILCO - Confidence-Level 5", bundle: .module, comment: "MILCO General Confidence-Leve Entity Subtype")
         }
     }
 }

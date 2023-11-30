@@ -19,9 +19,9 @@ enum EmergencyOperationSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .fireStation:
-            String(localized: "Fire Station", comment: "Emergency Operation Subtype")
+            String(localized: "Fire Station", bundle: .module, comment: "Emergency Operation Subtype")
         case .emergencyMedicalOperation:
-            String(localized: "Emergency Medical Operation", comment: "Emergency Operation Subtype")
+            String(localized: "Emergency Medical Operation", bundle: .module, comment: "Emergency Operation Subtype")
         }
     }
 }

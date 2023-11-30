@@ -21,22 +21,22 @@ enum Amplifier: String, CaseIterable, Identifiable {
             String(localized: "None")
 
         case .echelonBrigadeBelow:
-            String(localized: "Echelon at brigade and below", comment: "Amplifier")
+            String(localized: "Echelon at brigade and below", bundle: .module, comment: "Amplifier")
 
         case .echelonDivisionAbove:
-            String(localized: "Echelon at division and above", comment: "Amplifier")
+            String(localized: "Echelon at division and above", bundle: .module, comment: "Amplifier")
 
         case .equipmentMobilityLand:
-            String(localized: "Equipment mobility on land", comment: "Amplifier")
+            String(localized: "Equipment mobility on land", bundle: .module, comment: "Amplifier")
 
         case .equipmentMobilitySnow:
-            String(localized: "Equipment mobility on snow", comment: "Amplifier")
+            String(localized: "Equipment mobility on snow", bundle: .module, comment: "Amplifier")
 
         case .equipmentMobilityWater:
-            String(localized: "Equipment mobility on water", comment: "Amplifier")
+            String(localized: "Equipment mobility on water", bundle: .module, comment: "Amplifier")
 
         case .navalTowedArray:
-            String(localized: "Naval towed array", comment: "Amplifier")
+            String(localized: "Naval towed array", bundle: .module, comment: "Amplifier")
         }
     }
 

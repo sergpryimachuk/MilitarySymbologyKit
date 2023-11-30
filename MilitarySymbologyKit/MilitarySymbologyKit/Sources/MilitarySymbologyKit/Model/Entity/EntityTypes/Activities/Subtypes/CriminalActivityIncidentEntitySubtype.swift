@@ -38,73 +38,73 @@ enum CriminalActivityIncidentEntitySubtype: String, CaseIterable, EntitySubtype 
             String(localized: "None")
             
         case .arrest:
-            String(localized: "Arrest", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Arrest", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .arson:
-            String(localized: "Arson", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Arson", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .attemptedCriminalActivity:
-            String(localized: "Attempted Criminal Activity", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Attempted Criminal Activity", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .driveByShooting:
-            String(localized: "Drive-by Shooting", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Drive-by Shooting", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .drugRelated:
-            String(localized: "Drug Related", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Drug Related", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .extortion:
-            String(localized: "Extortion", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Extortion", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .graffiti:
-            String(localized: "Graffiti", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Graffiti", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .killing:
-            String(localized: "Killing", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Killing", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .poisoning:
-            String(localized: "Poisoning", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Poisoning", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .civilRioting:
-            String(localized: "Civil Rioting", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Civil Rioting", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .boobyTrap:
-            String(localized: "Booby Trap", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Booby Trap", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .homeEviction:
-            String(localized: "Home Eviction", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Home Eviction", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .blackMarketing:
-            String(localized: "Black Marketing", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Black Marketing", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .vandalismLootRansackPlunder:
-            String(localized: "Vandalism / Loot / Ransack / Plunder", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Vandalism / Loot / Ransack / Plunder", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .jailBreak:
-            String(localized: "Jail Break", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Jail Break", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .robbery:
-            String(localized: "Robbery", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Robbery", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .theft:
-            String(localized: "Theft", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Theft", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .burglary:
-            String(localized: "Burglary", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Burglary", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .smuggling:
-            String(localized: "Smuggling", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Smuggling", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .rockThrowing:
-            String(localized: "Rock Throwing", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Rock Throwing", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .deadBody:
-            String(localized: "Dead Body", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Dead Body", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .sabotage:
-            String(localized: "Sabotage", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Sabotage", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
             
         case .suspiciousActivity:
-            String(localized: "Suspicious Activity", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Suspicious Activity", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")
         }
     }
 }

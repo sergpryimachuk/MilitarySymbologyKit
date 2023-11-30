@@ -21,22 +21,22 @@ enum CloudCoverageSymbolsEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .clearSky:
-            String(localized: "Clear Sky", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Clear Sky", bundle: .module, comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .fewCoverage:
-            String(localized: "Few Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Few Coverage", bundle: .module, comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .scatteredCoverage:
-            String(localized: "Scattered Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Scattered Coverage", bundle: .module, comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .brokenCoverage:
-            String(localized: "Broken Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Broken Coverage", bundle: .module, comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .overcastCoverage:
-            String(localized: "Overcast Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Overcast Coverage", bundle: .module, comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .obscuredSky:
-            String(localized: "Sky Totally or Partially Obscured", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Sky Totally or Partially Obscured", bundle: .module, comment: "Cloud Coverage Symbols Entity Subtype")
         }
     }
 }

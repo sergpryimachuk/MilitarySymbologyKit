@@ -17,22 +17,22 @@ enum SeaSubsurfaceEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .military:
-            String(localized: "Military", comment: "Sea Subsurface Entity")
+            String(localized: "Military", bundle: .module, comment: "Sea Subsurface Entity")
 
         case .civilian:
-            String(localized: "Civilian", comment: "Sea Subsurface Entity")
+            String(localized: "Civilian", bundle: .module, comment: "Sea Subsurface Entity")
 
         case .weapon:
-            String(localized: "Weapon", comment: "Sea Subsurface Entity")
+            String(localized: "Weapon", bundle: .module, comment: "Sea Subsurface Entity")
 
         case .echoTrackerClassifier:
-            String(localized: "Echo Tracker Classifier (ETC) / Possible Contact (POSCON)", comment: "Sea Subsurface Entity")
+            String(localized: "Echo Tracker Classifier (ETC) / Possible Contact (POSCON)", bundle: .module, comment: "Sea Subsurface Entity")
 
         case .fusedTrack:
-            String(localized: "Fused Track", comment: "Sea Subsurface Entity")
+            String(localized: "Fused Track", bundle: .module, comment: "Sea Subsurface Entity")
 
         case .manualTrack:
-            String(localized: "Manual Track", comment: "Sea Subsurface Entity")
+            String(localized: "Manual Track", bundle: .module, comment: "Sea Subsurface Entity")
         }
     }
 

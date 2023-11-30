@@ -12,7 +12,7 @@ enum SpaceEntity: String, CaseIterable, Entity {
     var name: String {
         switch self {
         case .space:
-            String(localized: "Space", comment: "Space Entity")
+            String(localized: "Space", bundle: .module, comment: "Space Entity")
         }
     }
 

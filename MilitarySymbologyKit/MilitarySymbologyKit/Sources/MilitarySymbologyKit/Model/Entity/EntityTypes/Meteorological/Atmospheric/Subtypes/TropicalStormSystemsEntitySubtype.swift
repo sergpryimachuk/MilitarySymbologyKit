@@ -19,16 +19,16 @@ enum TropicalStormSystemsEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .tropicalDepression:
-            String(localized: "Tropical Depression", comment: "Tropical Storm Systems Entity Subtype")
+            String(localized: "Tropical Depression", bundle: .module, comment: "Tropical Storm Systems Entity Subtype")
             
         case .tropicalStorm:
-            String(localized: "Tropical Storm", comment: "Tropical Storm Systems Entity Subtype")
+            String(localized: "Tropical Storm", bundle: .module, comment: "Tropical Storm Systems Entity Subtype")
             
         case .hurricaneTyphoon:
-            String(localized: "Hurricane/Typhoon", comment: "Tropical Storm Systems Entity Subtype")
+            String(localized: "Hurricane/Typhoon", bundle: .module, comment: "Tropical Storm Systems Entity Subtype")
             
         case .tropicalStormWindAreas:
-            String(localized: "Tropical Storm Wind Areas and Date/Time Labels", comment: "Tropical Storm Systems Entity Subtype")
+            String(localized: "Tropical Storm Wind Areas and Date/Time Labels", bundle: .module, comment: "Tropical Storm Systems Entity Subtype")
         }
     }
 }

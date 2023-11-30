@@ -15,7 +15,7 @@ enum MeetingEntitySubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .pollingPlaceElection:
-            String(localized: "Polling Place/Election", comment: "Meeting Entity Subtype")
+            String(localized: "Polling Place/Election", bundle: .module, comment: "Meeting Entity Subtype")
         }
     }
 }

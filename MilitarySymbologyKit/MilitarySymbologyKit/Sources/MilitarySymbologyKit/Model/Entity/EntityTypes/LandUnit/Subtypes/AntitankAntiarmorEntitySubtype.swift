@@ -13,10 +13,10 @@ enum AntitankAntiarmorEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .armored:
-            String(localized: "Armored", comment: "Antitank/Antiarmor Entity Subtype")
+            String(localized: "Armored", bundle: .module, comment: "Antitank/Antiarmor Entity Subtype")
 
         case .motorized:
-            String(localized: "Motorized", comment: "Antitank/Antiarmor Entity Subtype")
+            String(localized: "Motorized", bundle: .module, comment: "Antitank/Antiarmor Entity Subtype")
         }
     }
 }

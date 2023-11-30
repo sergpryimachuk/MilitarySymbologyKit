@@ -19,13 +19,13 @@ extension SeaSubsurfaceEntity {
                 String(localized: "None")
 
             case .torpedo:
-                String(localized: "Torpedo", comment: "Weapon Entity Type")
+                String(localized: "Torpedo", bundle: .module, comment: "Weapon Entity Type")
 
             case .improvisedExplosiveDeviceIED:
-                String(localized: "Improvised Explosive Device (IED)", comment: "Weapon Entity Type")
+                String(localized: "Improvised Explosive Device (IED)", bundle: .module, comment: "Weapon Entity Type")
 
             case .decoy:
-                String(localized: "Decoy", comment: "Weapon Entity Type")
+                String(localized: "Decoy", bundle: .module, comment: "Weapon Entity Type")
             }
         }
 

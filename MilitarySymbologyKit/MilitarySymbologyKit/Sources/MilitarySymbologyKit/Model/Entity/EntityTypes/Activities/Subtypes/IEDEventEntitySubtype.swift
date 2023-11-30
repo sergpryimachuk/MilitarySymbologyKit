@@ -19,16 +19,16 @@ enum IEDEventEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .iedExplosion:
-            String(localized: "IED Explosion", comment: "IED Event Entity Subtype")
+            String(localized: "IED Explosion", bundle: .module, comment: "IED Event Entity Subtype")
             
         case .prematureIEDExplosion:
-            String(localized: "Premature IED Explosion", comment: "IED Event Entity Subtype")
+            String(localized: "Premature IED Explosion", bundle: .module, comment: "IED Event Entity Subtype")
             
         case .iedCache:
-            String(localized: "IED Cache", comment: "IED Event Entity Subtype")
+            String(localized: "IED Cache", bundle: .module, comment: "IED Event Entity Subtype")
             
         case .iedSuicideBomber:
-            String(localized: "IED Suicide Bomber", comment: "IED Event Entity Subtype")
+            String(localized: "IED Suicide Bomber", bundle: .module, comment: "IED Event Entity Subtype")
         }
     }
 }

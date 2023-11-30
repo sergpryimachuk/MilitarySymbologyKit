@@ -22,16 +22,16 @@ enum LandMinesEntityType: String, CaseIterable, EntityType {
             String(localized: "Land Mine")
 
         case .antipersonnelLandMineAPL:
-            String(localized: "Antipersonnel Land Mine (APL)", comment: "Land Mines Entity Type")
+            String(localized: "Antipersonnel Land Mine (APL)", bundle: .module, comment: "Land Mines Entity Type")
 
         case .antitankMine:
-            String(localized: "Antitank Mine", comment: "Land Mines Entity Type")
+            String(localized: "Antitank Mine", bundle: .module, comment: "Land Mines Entity Type")
 
         case .improvisedExplosivesDeviceIED:
-            String(localized: "Improvised Explosives Device (IED)", comment: "Land Mines Entity Type")
+            String(localized: "Improvised Explosives Device (IED)", bundle: .module, comment: "Land Mines Entity Type")
 
         case .lessThanLethal:
-            String(localized: "Less than Lethal", comment: "Land Mines Entity Type")
+            String(localized: "Less than Lethal", bundle: .module, comment: "Land Mines Entity Type")
         }
     }
     

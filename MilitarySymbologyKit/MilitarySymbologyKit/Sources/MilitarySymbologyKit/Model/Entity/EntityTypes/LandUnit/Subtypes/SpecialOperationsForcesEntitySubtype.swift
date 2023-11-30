@@ -16,19 +16,19 @@ enum SpecialOperationsForcesEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .fixedWingMISO:
-            String(localized: "Fixed Wing MISO", comment: "Special Operations Forces Entity Subtype")
+            String(localized: "Fixed Wing MISO", bundle: .module, comment: "Special Operations Forces Entity Subtype")
 
         case .ground:
-            String(localized: "Ground", comment: "Special Operations Forces Entity Subtype")
+            String(localized: "Ground", bundle: .module, comment: "Special Operations Forces Entity Subtype")
 
         case .specialBoat:
-            String(localized: "Special Boat", comment: "Special Operations Forces Entity Subtype")
+            String(localized: "Special Boat", bundle: .module, comment: "Special Operations Forces Entity Subtype")
 
         case .specialSSNR:
-            String(localized: "Special SSNR", comment: "Special Operations Forces Entity Subtype")
+            String(localized: "Special SSNR", bundle: .module, comment: "Special Operations Forces Entity Subtype")
 
         case .underwaterDemolitionTeam:
-            String(localized: "Underwater Demolition Team", comment: "Special Operations Forces Entity Subtype")
+            String(localized: "Underwater Demolition Team", bundle: .module, comment: "Special Operations Forces Entity Subtype")
         }
     }
 }

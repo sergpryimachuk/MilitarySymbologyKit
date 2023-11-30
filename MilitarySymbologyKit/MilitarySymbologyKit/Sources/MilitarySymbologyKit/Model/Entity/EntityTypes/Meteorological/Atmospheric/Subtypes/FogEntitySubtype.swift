@@ -19,28 +19,28 @@ enum FogEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            String(localized: "None", comment: "Fog Entity Subtype")
+            String(localized: "None", bundle: .module, comment: "Fog Entity Subtype")
             
         case .shallowPatches:
-            String(localized: "Shallow Patches", comment: "Fog Entity Subtype")
+            String(localized: "Shallow Patches", bundle: .module, comment: "Fog Entity Subtype")
             
         case .shallowContinuous:
-            String(localized: "Shallow Continuous", comment: "Fog Entity Subtype")
+            String(localized: "Shallow Continuous", bundle: .module, comment: "Fog Entity Subtype")
             
         case .patchy:
-            String(localized: "Patchy", comment: "Fog Entity Subtype")
+            String(localized: "Patchy", bundle: .module, comment: "Fog Entity Subtype")
             
         case .skyVisible:
-            String(localized: "Sky Visible", comment: "Fog Entity Subtype")
+            String(localized: "Sky Visible", bundle: .module, comment: "Fog Entity Subtype")
             
         case .skyObscured:
-            String(localized: "Sky Obscured", comment: "Fog Entity Subtype")
+            String(localized: "Sky Obscured", bundle: .module, comment: "Fog Entity Subtype")
             
         case .freezingSkyVisible:
-            String(localized: "Freezing-Sky Visible", comment: "Fog Entity Subtype")
+            String(localized: "Freezing-Sky Visible", bundle: .module, comment: "Fog Entity Subtype")
             
         case .freezingSkyObscured:
-            String(localized: "Freezing-Sky Obscured", comment: "Fog Entity Subtype")
+            String(localized: "Freezing-Sky Obscured", bundle: .module, comment: "Fog Entity Subtype")
         }
     }
 }

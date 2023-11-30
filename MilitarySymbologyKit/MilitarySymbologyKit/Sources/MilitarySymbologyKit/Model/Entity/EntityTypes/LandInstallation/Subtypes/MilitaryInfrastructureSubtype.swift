@@ -19,9 +19,9 @@ enum MilitaryInfrastructureSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .militaryArmory:
-            String(localized: "Military Armory", comment: "Military Infrastructure Subtype")
+            String(localized: "Military Armory", bundle: .module, comment: "Military Infrastructure Subtype")
         case .militaryBase:
-            String(localized: "Military Base", comment: "Military Infrastructure Subtype")
+            String(localized: "Military Base", bundle: .module, comment: "Military Infrastructure Subtype")
         }
     }
 }

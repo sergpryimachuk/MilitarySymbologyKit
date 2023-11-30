@@ -14,9 +14,9 @@ extension MineWarfareEntity {
         var name: String {
             switch self {
             case .none:
-                String(localized: "None", comment: "Not selected.")
+                String(localized: "None", bundle: .module, comment: "Not selected.")
             case .neutralized:
-                String(localized: "Neutralized Obstructor", comment: "Obstructor Entity Type")
+                String(localized: "Neutralized Obstructor", bundle: .module, comment: "Obstructor Entity Type")
             }
         }
 

@@ -17,10 +17,10 @@ enum PatrolBoatEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .patrolCraftSubmarineChaserEscortGeneral:
-            String(localized: "Patrol Craft, Submarine Chaser/Escort, General", comment: "Patrol Boat Entity Subtype")
+            String(localized: "Patrol Craft, Submarine Chaser/Escort, General", bundle: .module, comment: "Patrol Boat Entity Subtype")
 
         case .patrolShipGeneral:
-            String(localized: "Patrol Ship, General", comment: "Patrol Boat Entity Subtype")
+            String(localized: "Patrol Ship, General", bundle: .module, comment: "Patrol Boat Entity Subtype")
         }
     }
 }

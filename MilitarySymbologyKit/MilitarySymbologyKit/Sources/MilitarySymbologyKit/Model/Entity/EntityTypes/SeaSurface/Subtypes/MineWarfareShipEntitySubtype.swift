@@ -21,22 +21,22 @@ enum MineWarfareShipEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .mineLayer:
-            String(localized: "Mine Layer", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Layer", bundle: .module, comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineSweeper:
-            String(localized: "Mine Sweeper", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Sweeper", bundle: .module, comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineSweeperDrone:
-            String(localized: "Mine Sweeper, Drone", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Sweeper, Drone", bundle: .module, comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineHunter:
-            String(localized: "Mine Hunter", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Hunter", bundle: .module, comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineCountermeasures:
-            String(localized: "Mine Countermeasures", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Countermeasures", bundle: .module, comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineCountermeasuresSupportShip:
-            String(localized: "Mine Countermeasures, Support Ship", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Countermeasures, Support Ship", bundle: .module, comment: "Mine Warfare Ship Entity Subtype")
         }
     }
 }

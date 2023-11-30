@@ -20,11 +20,11 @@ enum TelecommunicationsInfrastructureSubtype: String, CaseIterable, EntitySubtyp
         case .none:
             String(localized: "None")
         case .broadcastTransmitterAntennae:
-            String(localized: "Broadcast Transmitter Antennae", comment: "Telecommunications Infrastructure Subtype")
+            String(localized: "Broadcast Transmitter Antennae", bundle: .module, comment: "Telecommunications Infrastructure Subtype")
         case .telecommunications:
-            String(localized: "Telecommunications", comment: "Telecommunications Infrastructure Subtype")
+            String(localized: "Telecommunications", bundle: .module, comment: "Telecommunications Infrastructure Subtype")
         case .telecommunicationsTower:
-            String(localized: "Telecommunications Tower", comment: "Telecommunications Infrastructure Subtype")
+            String(localized: "Telecommunications Tower", bundle: .module, comment: "Telecommunications Infrastructure Subtype")
         }
     }
 }

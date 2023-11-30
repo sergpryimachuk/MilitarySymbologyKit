@@ -16,7 +16,7 @@ enum ShootingEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .sniping:
-            String(localized: "Sniping", comment: "Shooting Entity Subtype")
+            String(localized: "Sniping", bundle: .module, comment: "Shooting Entity Subtype")
         }
     }
 }

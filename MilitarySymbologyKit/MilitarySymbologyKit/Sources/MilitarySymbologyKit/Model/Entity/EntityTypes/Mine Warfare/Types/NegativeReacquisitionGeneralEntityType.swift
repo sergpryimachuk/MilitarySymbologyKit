@@ -16,16 +16,16 @@ extension MineWarfareEntity {
         var name: String {
             switch self {
             case .none:
-                String(localized: "None", comment: "Negative Reacquisition - General Entity Type")
+                String(localized: "None", bundle: .module, comment: "Negative Reacquisition - General Entity Type")
 
             case .bottom:
-                String(localized: "Negative Reacquisition-Bottom", comment: "Negative Reacquisition - General Entity Type")
+                String(localized: "Negative Reacquisition-Bottom", bundle: .module, comment: "Negative Reacquisition - General Entity Type")
 
             case .moored:
-                String(localized: "Negative Reacquisition-Moored", comment: "Negative Reacquisition - General Entity Type")
+                String(localized: "Negative Reacquisition-Moored", bundle: .module, comment: "Negative Reacquisition - General Entity Type")
 
             case .floating:
-                String(localized: "Negative Reacquisition-Floating", comment: "Negative Reacquisition - General Entity Type")
+                String(localized: "Negative Reacquisition-Floating", bundle: .module, comment: "Negative Reacquisition - General Entity Type")
             }
         }
 

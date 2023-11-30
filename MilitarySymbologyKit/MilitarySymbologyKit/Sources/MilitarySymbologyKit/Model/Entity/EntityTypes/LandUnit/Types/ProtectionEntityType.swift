@@ -35,67 +35,67 @@ enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType {
         case .none:
             String(localized: "None")
         case .chemicalBiologicalRadiologicalNuclearDefense:
-            String(localized: "Chemical Biological Radiological Nuclear Defense", comment: "Protection Entity Type")
+            String(localized: "Chemical Biological Radiological Nuclear Defense", bundle: .module, comment: "Protection Entity Type")
 
         case .combatSupportManeuverEnhancement:
-            String(localized: "Combat Support (Maneuver Enhancement)", comment: "Protection Entity Type")
+            String(localized: "Combat Support (Maneuver Enhancement)", bundle: .module, comment: "Protection Entity Type")
 
         case .criminalInvestigationDivision:
-            String(localized: "Criminal Investigation Division", comment: "Protection Entity Type")
+            String(localized: "Criminal Investigation Division", bundle: .module, comment: "Protection Entity Type")
 
         case .diving:
-            String(localized: "Diving", comment: "Protection Entity Type")
+            String(localized: "Diving", bundle: .module, comment: "Protection Entity Type")
 
         case .dog:
-            String(localized: "Dog", comment: "Protection Entity Type")
+            String(localized: "Dog", bundle: .module, comment: "Protection Entity Type")
 
         case .drilling:
-            String(localized: "Drilling", comment: "Protection Entity Type")
+            String(localized: "Drilling", bundle: .module, comment: "Protection Entity Type")
 
         case .engineer:
-            String(localized: "Engineer", comment: "Protection Entity Type")
+            String(localized: "Engineer", bundle: .module, comment: "Protection Entity Type")
 
         case .explosiveOrdnanceDisposal:
-            String(localized: "Explosive Ordnance Disposal (EOD)", comment: "Protection Entity Type")
+            String(localized: "Explosive Ordnance Disposal (EOD)", bundle: .module, comment: "Protection Entity Type")
 
         case .fieldCampConstruction:
-            String(localized: "Field Camp Construction", comment: "Protection Entity Type")
+            String(localized: "Field Camp Construction", bundle: .module, comment: "Protection Entity Type")
 
         case .fireFightingFireProtection:
-            String(localized: "Fire Fighting/Fire Protection", comment: "Protection Entity Type")
+            String(localized: "Fire Fighting/Fire Protection", bundle: .module, comment: "Protection Entity Type")
 
         case .geospatialSupportGeospatialInformationSupport:
-            String(localized: "Geospatial Support/Geospatial Information Support", comment: "Protection Entity Type")
+            String(localized: "Geospatial Support/Geospatial Information Support", bundle: .module, comment: "Protection Entity Type")
 
         case .militaryPolice:
-            String(localized: "Military Police", comment: "Protection Entity Type")
+            String(localized: "Military Police", bundle: .module, comment: "Protection Entity Type")
 
         case .mine:
-            String(localized: "Mine", comment: "Protection Entity Type")
+            String(localized: "Mine", bundle: .module, comment: "Protection Entity Type")
 
         case .mineClearing:
-            String(localized: "Mine Clearing", comment: "Protection Entity Type")
+            String(localized: "Mine Clearing", bundle: .module, comment: "Protection Entity Type")
 
         case .mineLaunching:
-            String(localized: "Mine Launching", comment: "Protection Entity Type")
+            String(localized: "Mine Launching", bundle: .module, comment: "Protection Entity Type")
 
         case .mineLaying:
-            String(localized: "Mine Laying", comment: "Protection Entity Type")
+            String(localized: "Mine Laying", bundle: .module, comment: "Protection Entity Type")
 
         case .security:
-            String(localized: "Security", comment: "Protection Entity Type")
+            String(localized: "Security", bundle: .module, comment: "Protection Entity Type")
 
         case .searchAndRescue:
-            String(localized: "Search and Rescue", comment: "Protection Entity Type")
+            String(localized: "Search and Rescue", bundle: .module, comment: "Protection Entity Type")
 
         case .securityPoliceAir:
-            String(localized: "Security Police (Air)", comment: "Protection Entity Type")
+            String(localized: "Security Police (Air)", bundle: .module, comment: "Protection Entity Type")
 
         case .shorePatrol:
-            String(localized: "Shore Patrol", comment: "Protection Entity Type")
+            String(localized: "Shore Patrol", bundle: .module, comment: "Protection Entity Type")
 
         case .topographic:
-            String(localized: "Topographic", comment: "Protection Entity Type")
+            String(localized: "Topographic", bundle: .module, comment: "Protection Entity Type")
         }
     }
 

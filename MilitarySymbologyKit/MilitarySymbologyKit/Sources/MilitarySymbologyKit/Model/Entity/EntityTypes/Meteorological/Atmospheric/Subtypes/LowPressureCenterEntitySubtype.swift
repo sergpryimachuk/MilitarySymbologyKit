@@ -17,10 +17,10 @@ enum LowPressureCenterEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .cycloneCenter:
-            String(localized: "Cyclone Center", comment: "Low Pressure Center Entity Subtype")
+            String(localized: "Cyclone Center", bundle: .module, comment: "Low Pressure Center Entity Subtype")
             
         case .tropopauseLow:
-            String(localized: "Tropopause Low", comment: "Low Pressure Center Entity Subtype")
+            String(localized: "Tropopause Low", bundle: .module, comment: "Low Pressure Center Entity Subtype")
         }
     }
 }

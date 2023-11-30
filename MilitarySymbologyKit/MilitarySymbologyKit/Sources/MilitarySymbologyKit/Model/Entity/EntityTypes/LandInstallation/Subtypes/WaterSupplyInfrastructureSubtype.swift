@@ -28,27 +28,27 @@ enum WaterSupplyInfrastructureSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .controlValve:
-            String(localized: "Control Valve", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Control Valve", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .dam:
-            String(localized: "Dam", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Dam", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .dischargeOutfall:
-            String(localized: "Discharge Outfall", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Discharge Outfall", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .groundWaterWell:
-            String(localized: "Ground Water Well", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Ground Water Well", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .pumpingStation:
-            String(localized: "Pumping Station", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Pumping Station", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .reservoir:
-            String(localized: "Reservoir", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Reservoir", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .storageTower:
-            String(localized: "Storage Tower", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Storage Tower", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .surfaceWaterIntake:
-            String(localized: "Surface Water Intake", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Surface Water Intake", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .wastewaterTreatmentFacility:
-            String(localized: "Wastewater Treatment Facility", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Wastewater Treatment Facility", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .water:
-            String(localized: "Water", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Water", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .waterTreatment:
-            String(localized: "Water Treatment", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Water Treatment", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         }
     }
 }

@@ -24,31 +24,31 @@ enum AirDefenseMissileLauncherEntitySubtype: String, CaseIterable, EntitySubtype
             String(localized: "None")
 
         case .light:
-            String(localized: "Light", comment: "Air Defense Missile Launcher Entity Subtype")
+            String(localized: "Light", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")
 
         case .lightTLAR:
-            String(localized: "Light, TLAR", comment: "Air Defense Missile Launcher Entity Subtype")
+            String(localized: "Light, TLAR", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")
 
         case .lightTELAR:
-            String(localized: "Light, TELAR", comment: "Air Defense Missile Launcher Entity Subtype")
+            String(localized: "Light, TELAR", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")
 
         case .medium:
-            String(localized: "Medium", comment: "Air Defense Missile Launcher Entity Subtype")
+            String(localized: "Medium", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")
 
         case .mediumTLAR:
-            String(localized: "Medium, TLAR", comment: "Air Defense Missile Launcher Entity Subtype")
+            String(localized: "Medium, TLAR", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")
 
         case .mediumTELAR:
-            String(localized: "Medium, TELAR", comment: "Air Defense Missile Launcher Entity Subtype")
+            String(localized: "Medium, TELAR", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")
 
         case .heavy:
-            String(localized: "Heavy", comment: "Air Defense Missile Launcher Entity Subtype")
+            String(localized: "Heavy", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")
 
         case .heavyTLAR:
-            String(localized: "Heavy, TLAR", comment: "Air Defense Missile Launcher Entity Subtype")
+            String(localized: "Heavy, TLAR", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")
 
         case .heavyTELAR:
-            String(localized: "Heavy, TELAR", comment: "Air Defense Missile Launcher Entity Subtype")
+            String(localized: "Heavy, TELAR", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")
         }
     }
 }

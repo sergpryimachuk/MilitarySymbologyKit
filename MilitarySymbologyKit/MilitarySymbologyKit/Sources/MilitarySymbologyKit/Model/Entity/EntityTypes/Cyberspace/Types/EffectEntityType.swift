@@ -21,31 +21,31 @@ extension CyberspaceEntity {
         var name: String {
             switch self {
             case .infection:
-                String(localized: "Infection", comment: "Effect Entity Type")
+                String(localized: "Infection", bundle: .module, comment: "Effect Entity Type")
 
             case .degradation:
-                String(localized: "Degradation", comment: "Effect Entity Type")
+                String(localized: "Degradation", bundle: .module, comment: "Effect Entity Type")
 
             case .dataSpoofing:
-                String(localized: "Data Spoofing", comment: "Effect Entity Type")
+                String(localized: "Data Spoofing", bundle: .module, comment: "Effect Entity Type")
 
             case .dataManipulation:
-                String(localized: "Data Manipulation", comment: "Effect Entity Type")
+                String(localized: "Data Manipulation", bundle: .module, comment: "Effect Entity Type")
 
             case .exfiltration:
-                String(localized: "Exfiltration", comment: "Effect Entity Type")
+                String(localized: "Exfiltration", bundle: .module, comment: "Effect Entity Type")
 
             case .powerOutage:
-                String(localized: "Power Outage", comment: "Effect Entity Type")
+                String(localized: "Power Outage", bundle: .module, comment: "Effect Entity Type")
 
             case .networkOutage:
-                String(localized: "Network Outage", comment: "Effect Entity Type")
+                String(localized: "Network Outage", bundle: .module, comment: "Effect Entity Type")
 
             case .serviceOutage:
-                String(localized: "Service Outage", comment: "Effect Entity Type")
+                String(localized: "Service Outage", bundle: .module, comment: "Effect Entity Type")
 
             case .deviceOutage:
-                String(localized: "Device Outage", comment: "Effect Entity Type")
+                String(localized: "Device Outage", bundle: .module, comment: "Effect Entity Type")
             }
         }
         

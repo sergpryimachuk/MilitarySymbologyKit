@@ -22,28 +22,28 @@ extension OceanographicEntity {
         var name: String {
             switch self {
             case .icebergs:
-                String(localized: "Icebergs", comment: "Ice Systems Entity Type")
+                String(localized: "Icebergs", bundle: .module, comment: "Ice Systems Entity Type")
 
             case .iceConcentration:
-                String(localized: "Ice Concentration", comment: "Ice Systems Entity Type")
+                String(localized: "Ice Concentration", bundle: .module, comment: "Ice Systems Entity Type")
 
             case .dynamicProcesses:
-                String(localized: "Dynamic Processes", comment: "Ice Systems Entity Type")
+                String(localized: "Dynamic Processes", bundle: .module, comment: "Ice Systems Entity Type")
 
             case .seaIce:
-                String(localized: "Sea Ice", comment: "Ice Systems Entity Type")
+                String(localized: "Sea Ice", bundle: .module, comment: "Ice Systems Entity Type")
 
             case .limits:
-                String(localized: "Limits", comment: "Ice Systems Entity Type")
+                String(localized: "Limits", bundle: .module, comment: "Ice Systems Entity Type")
 
             case .openingsInTheIce:
-                String(localized: "Openings in the Ice", comment: "Ice Systems Entity Type")
+                String(localized: "Openings in the Ice", bundle: .module, comment: "Ice Systems Entity Type")
 
             case .snowCover:
-                String(localized: "Snow Cover", comment: "Ice Systems Entity Type")
+                String(localized: "Snow Cover", bundle: .module, comment: "Ice Systems Entity Type")
 
             case .topographicalFeatures:
-                String(localized: "Topographical Features", comment: "Ice Systems Entity Type")
+                String(localized: "Topographical Features", bundle: .module, comment: "Ice Systems Entity Type")
             }
         }
     }

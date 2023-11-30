@@ -17,11 +17,11 @@ enum FireFightingOperationEntitySubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .fireHydrant:
-            String(localized: "Fire Hydrant", comment: "Firefighting Operation Entity Subtype")
+            String(localized: "Fire Hydrant", bundle: .module, comment: "Firefighting Operation Entity Subtype")
         case .fireStation:
-            String(localized: "Fire Station", comment: "Firefighting Operation Entity Subtype")
+            String(localized: "Fire Station", bundle: .module, comment: "Firefighting Operation Entity Subtype")
         case .otherWaterSupplyLocation:
-            String(localized: "Other Water Supply Location", comment: "Firefighting Operation Entity Subtype")
+            String(localized: "Other Water Supply Location", bundle: .module, comment: "Firefighting Operation Entity Subtype")
         }
     }
 }

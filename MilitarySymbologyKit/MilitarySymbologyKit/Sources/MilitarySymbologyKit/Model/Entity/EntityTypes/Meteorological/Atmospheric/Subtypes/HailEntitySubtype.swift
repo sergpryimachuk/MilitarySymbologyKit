@@ -17,10 +17,10 @@ enum HailEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .lightNotAssociatedWithThunder:
-            String(localized: "Light not Associated with Thunder", comment: "Hail Entity Subtype")
+            String(localized: "Light not Associated with Thunder", bundle: .module, comment: "Hail Entity Subtype")
             
         case .moderateHeavyNotAssociatedWithThunder:
-            String(localized: "Moderate/Heavy not Associated with Thunder", comment: "Hail Entity Subtype")
+            String(localized: "Moderate/Heavy not Associated with Thunder", bundle: .module, comment: "Hail Entity Subtype")
         }
     }
 }

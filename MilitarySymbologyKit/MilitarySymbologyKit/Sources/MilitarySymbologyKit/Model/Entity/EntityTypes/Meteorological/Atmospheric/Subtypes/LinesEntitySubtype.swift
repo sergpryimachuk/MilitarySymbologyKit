@@ -24,31 +24,31 @@ enum LinesEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .troughAxis:
-            String(localized: "Trough Axis", comment: "Lines Entity Subtype")
+            String(localized: "Trough Axis", bundle: .module, comment: "Lines Entity Subtype")
             
         case .upperTroughAxis:
-            String(localized: "Upper Trough Axis", comment: "Lines Entity Subtype")
+            String(localized: "Upper Trough Axis", bundle: .module, comment: "Lines Entity Subtype")
             
         case .ridgeAxis:
-            String(localized: "Ridge Axis", comment: "Lines Entity Subtype")
+            String(localized: "Ridge Axis", bundle: .module, comment: "Lines Entity Subtype")
             
         case .severeSquallLine:
-            String(localized: "Severe Squall Line", comment: "Lines Entity Subtype")
+            String(localized: "Severe Squall Line", bundle: .module, comment: "Lines Entity Subtype")
             
         case .instabilityLine:
-            String(localized: "Instability Line", comment: "Lines Entity Subtype")
+            String(localized: "Instability Line", bundle: .module, comment: "Lines Entity Subtype")
             
         case .shearLine:
-            String(localized: "Shear Line", comment: "Lines Entity Subtype")
+            String(localized: "Shear Line", bundle: .module, comment: "Lines Entity Subtype")
             
         case .interTropicalConvergenceZone:
-            String(localized: "Inter-Tropical Convergence Zone", comment: "Lines Entity Subtype")
+            String(localized: "Inter-Tropical Convergence Zone", bundle: .module, comment: "Lines Entity Subtype")
             
         case .convergenceLine:
-            String(localized: "Convergence Line", comment: "Lines Entity Subtype")
+            String(localized: "Convergence Line", bundle: .module, comment: "Lines Entity Subtype")
             
         case .interTropicalDiscontinuity:
-            String(localized: "Inter-Tropical Discontinuity", comment: "Lines Entity Subtype")
+            String(localized: "Inter-Tropical Discontinuity", bundle: .module, comment: "Lines Entity Subtype")
         }
     }
 }

@@ -26,34 +26,34 @@ extension AtmosphericEntity {
                 String(localized: "None")
                 
             case .instrumentFlightRuleIFR:
-                String(localized: "Instrument Flight Rule (IFR)", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Instrument Flight Rule (IFR)", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
                 
             case .marginalVisualFlightRuleMVFR:
-                String(localized: "Marginal Visual Flight Rule (MVFR)", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Marginal Visual Flight Rule (MVFR)", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
                 
             case .turbulence:
-                String(localized: "Turbulence", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Turbulence", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
                 
             case .icing:
-                String(localized: "Icing", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Icing", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
                 
             case .liquidPrecipitationNonConvectiveContinuousOrIntermittent:
-                String(localized: "Liquid Precipitation - Non-Convective Continuous or Intermittent", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Liquid Precipitation - Non-Convective Continuous or Intermittent", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
                 
             case .freezingFrozenPrecipitation:
-                String(localized: "Freezing/Frozen Precipitation", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Freezing/Frozen Precipitation", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
                 
             case .thunderstorm:
-                String(localized: "Thunderstorm", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Thunderstorm", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
                 
             case .fog:
-                String(localized: "Fog", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Fog", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
                 
             case .dustOrSand:
-                String(localized: "Dust or Sand", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Dust or Sand", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
                 
             case .operatorDefinedFreeform:
-                String(localized: "Operator-Defined Freeform", comment: "Bounded Areas of Weather Entity Type")
+                String(localized: "Operator-Defined Freeform", bundle: .module, comment: "Bounded Areas of Weather Entity Type")
             }
         }
         
@@ -63,7 +63,7 @@ extension AtmosphericEntity {
                 [.none, AnyEntitySubtype(id: "01",
                                          name: String(
                                             localized: "Liquid Precipitation - Convective",
-                                            comment: "Entity Subtype"
+                                            bundle: .module, comment: "Entity Subtype"
                                          ))]
             default:
                 [.none]

@@ -20,19 +20,19 @@ extension AtmosphericEntity {
             case .none:
                 String(localized: "None")
             case .light:
-                String(localized: "Light", comment: "Turbulence Entity Type")
+                String(localized: "Light", bundle: .module, comment: "Turbulence Entity Type")
 
             case .moderate:
-                String(localized: "Moderate", comment: "Turbulence Entity Type")
+                String(localized: "Moderate", bundle: .module, comment: "Turbulence Entity Type")
 
             case .severe:
-                String(localized: "Severe", comment: "Turbulence Entity Type")
+                String(localized: "Severe", bundle: .module, comment: "Turbulence Entity Type")
 
             case .extreme:
-                String(localized: "Extreme", comment: "Turbulence Entity Type")
+                String(localized: "Extreme", bundle: .module, comment: "Turbulence Entity Type")
 
             case .mountainWaves:
-                String(localized: "Mountain Waves", comment: "Turbulence Entity Type")
+                String(localized: "Mountain Waves", bundle: .module, comment: "Turbulence Entity Type")
             }
         }
 

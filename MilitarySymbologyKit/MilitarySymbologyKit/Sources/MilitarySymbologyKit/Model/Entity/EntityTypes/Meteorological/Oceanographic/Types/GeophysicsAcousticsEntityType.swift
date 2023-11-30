@@ -16,7 +16,7 @@ extension OceanographicEntity {
         var name: String {
             switch self {
             case .mineWarfareBottomDescriptors:
-                String(localized: "Mine Warfare (MIW) Bottom Descriptors", comment: "Geophysics/Acoustics Entity Type")
+                String(localized: "Mine Warfare (MIW) Bottom Descriptors", bundle: .module, comment: "Geophysics/Acoustics Entity Type")
             case .none:
                 String(localized: "None")
             }

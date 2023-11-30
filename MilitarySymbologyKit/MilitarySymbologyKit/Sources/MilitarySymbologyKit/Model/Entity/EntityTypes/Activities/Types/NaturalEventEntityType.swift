@@ -20,11 +20,11 @@ enum NaturalEventEntityType: String, CaseIterable, EntityType {
         case .none:
             String(localized: "None")
         case .geologic:
-            String(localized: "Geologic", comment: "Natural Event Entity Type")
+            String(localized: "Geologic", bundle: .module, comment: "Natural Event Entity Type")
         case .hydroMeteorological:
-            String(localized: "Hydro-Meteorological", comment: "Natural Event Entity Type")
+            String(localized: "Hydro-Meteorological", bundle: .module, comment: "Natural Event Entity Type")
         case .infestation:
-            String(localized: "Infestation", comment: "Natural Event Entity Type")
+            String(localized: "Infestation", bundle: .module, comment: "Natural Event Entity Type")
         }
     }
     

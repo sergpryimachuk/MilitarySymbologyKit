@@ -18,19 +18,19 @@ enum StandardIdentity: String, CaseIterable, Identifiable {
     var name: String {
         switch self {
         case .pending:
-            String(localized: "Pending", comment: "Standard identity")
+            String(localized: "Pending", bundle: .module, comment: "Standard identity")
         case .unknown:
-            String(localized: "Unknown", comment: "Standard identity")
+            String(localized: "Unknown", bundle: .module, comment: "Standard identity")
         case .assumedFriend:
-            String(localized: "Assumed Friend", comment: "Standard identity")
+            String(localized: "Assumed Friend", bundle: .module, comment: "Standard identity")
         case .friend:
-            String(localized: "Friend", comment: "Standard identity")
+            String(localized: "Friend", bundle: .module, comment: "Standard identity")
         case .neutral:
-            String(localized: "Neutral", comment: "Standard identity")
+            String(localized: "Neutral", bundle: .module, comment: "Standard identity")
         case .suspect:
-            String(localized: "Suspect/Joker", comment: "Standard identity")
+            String(localized: "Suspect/Joker", bundle: .module, comment: "Standard identity")
         case .hostile:
-            String(localized: "Hostile/Faker", comment: "Standard identity")
+            String(localized: "Hostile/Faker", bundle: .module, comment: "Standard identity")
         }
     }
 

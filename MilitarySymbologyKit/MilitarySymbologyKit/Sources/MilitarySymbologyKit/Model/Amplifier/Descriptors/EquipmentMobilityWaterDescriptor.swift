@@ -13,10 +13,10 @@ enum EquipmentMobilityWaterDescriptor: String, CaseIterable, Descriptor {
     var name: String {
         switch self {
         case .barge:
-            String(localized: "Barge", comment: "Equipment mobility on water amplifier descriptor")
+            String(localized: "Barge", bundle: .module, comment: "Equipment mobility on water amplifier descriptor")
 
         case .amphibious:
-            String(localized: "Amphibious", comment: "Equipment mobility on water amplifier descriptor")
+            String(localized: "Amphibious", bundle: .module, comment: "Equipment mobility on water amplifier descriptor")
         }
     }
 }

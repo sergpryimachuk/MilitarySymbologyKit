@@ -20,16 +20,16 @@ extension CyberspaceEntity.InfectionEntityType {
                 String(localized: "None")
 
             case .aptWithC2:
-                String(localized: "APT with C2", comment: "APT Entity Subtype")
+                String(localized: "APT with C2", bundle: .module, comment: "APT Entity Subtype")
 
             case .aptWithSelfPropagation:
-                String(localized: "APT with Self Propagation", comment: "APT Entity Subtype")
+                String(localized: "APT with Self Propagation", bundle: .module, comment: "APT Entity Subtype")
 
             case .aptWithC2AndSelfPropagation:
-                String(localized: "APT with C2 and Self Propagation", comment: "APT Entity Subtype")
+                String(localized: "APT with C2 and Self Propagation", bundle: .module, comment: "APT Entity Subtype")
 
             case .aptOther:
-                String(localized: "APT Other", comment: "APT Entity Subtype")
+                String(localized: "APT Other", bundle: .module, comment: "APT Entity Subtype")
             }
         }
     }

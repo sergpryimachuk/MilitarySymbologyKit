@@ -23,31 +23,31 @@ enum AtmosphericEntity: String, CaseIterable, Entity {
         case .none:
             String(localized: "None")
         case .pressureSystems:
-            String(localized: "Pressure Systems", comment: "Atmospheric Entity Type")
+            String(localized: "Pressure Systems", bundle: .module, comment: "Atmospheric Entity Type")
 
         case .turbulence:
-            String(localized: "Turbulence", comment: "Atmospheric Entity Type")
+            String(localized: "Turbulence", bundle: .module, comment: "Atmospheric Entity Type")
 
         case .icing:
-            String(localized: "Icing", comment: "Atmospheric Entity Type")
+            String(localized: "Icing", bundle: .module, comment: "Atmospheric Entity Type")
 
         case .winds:
-            String(localized: "Winds", comment: "Atmospheric Entity Type")
+            String(localized: "Winds", bundle: .module, comment: "Atmospheric Entity Type")
 
         case .cloudCover:
-            String(localized: "Cloud Cover", comment: "Atmospheric Entity Type")
+            String(localized: "Cloud Cover", bundle: .module, comment: "Atmospheric Entity Type")
 
         case .weatherSymbols:
-            String(localized: "Weather Symbols", comment: "Atmospheric Entity Type")
+            String(localized: "Weather Symbols", bundle: .module, comment: "Atmospheric Entity Type")
 
         case .boundedAreasOfWeather:
-            String(localized: "Bounded Areas of Weather", comment: "Atmospheric Entity Type")
+            String(localized: "Bounded Areas of Weather", bundle: .module, comment: "Atmospheric Entity Type")
 
         case .isopleths:
-            String(localized: "Isopleths", comment: "Atmospheric Entity Type")
+            String(localized: "Isopleths", bundle: .module, comment: "Atmospheric Entity Type")
 
         case .stateOfTheGround:
-            String(localized: "State of the Ground", comment: "Atmospheric Entity Type")
+            String(localized: "State of the Ground", bundle: .module, comment: "Atmospheric Entity Type")
         }
     }
 

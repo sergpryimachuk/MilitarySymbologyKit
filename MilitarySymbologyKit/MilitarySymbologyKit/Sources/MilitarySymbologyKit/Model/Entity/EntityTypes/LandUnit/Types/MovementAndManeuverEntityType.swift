@@ -34,61 +34,61 @@ extension LandUnitEntity {
             case .none:
                 String(localized: "None")
             case .airAssaultWithOrganicLift:
-                String(localized: "Air Assault with Organic Lift", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Air Assault with Organic Lift", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .airTrafficServicesAirfieldOperations:
-                String(localized: "Air Traffic Services/Airfield Operations", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Air Traffic Services/Airfield Operations", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .amphibious:
-                String(localized: "Amphibious", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Amphibious", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .antitankAntiarmor:
-                String(localized: "Antitank/Antiarmor", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Antitank/Antiarmor", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .armorArmoredMechanizedSelfPropelledTracked:
-                String(localized: "Armor/Armored/Mechanized/Self-Propelled/Tracked", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Armor/Armored/Mechanized/Self-Propelled/Tracked", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .armyAviationAviationRotaryWing:
-                String(localized: "Army Aviation/Aviation Rotary Wing", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Army Aviation/Aviation Rotary Wing", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .aviationComposite:
-                String(localized: "Aviation Composite", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Aviation Composite", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .aviationFixedWing:
-                String(localized: "Aviation Fixed Wing", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Aviation Fixed Wing", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .combat:
-                String(localized: "Combat", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Combat", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .combinedArms:
-                String(localized: "Combined Arms", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Combined Arms", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .infantry:
-                String(localized: "Infantry", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Infantry", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .observer:
-                String(localized: "Observer", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Observer", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .reconnaissanceCavalryScout:
-                String(localized: "Reconnaissance/Cavalry/Scout", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Reconnaissance/Cavalry/Scout", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .seaAirLandSEAL:
-                String(localized: "Sea Air Land (SEAL)", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Sea Air Land (SEAL)", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .sniper:
-                String(localized: "Sniper", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Sniper", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .surveillance:
-                String(localized: "Surveillance", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Surveillance", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .specialForces:
-                String(localized: "Special Forces", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Special Forces", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .specialOperationsForcesSOF:
-                String(localized: "Special Operations Forces (SOF)", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Special Operations Forces (SOF)", bundle: .module, comment: "Movement and Maneuver Entity Type")
 
             case .unmannedAerialSystems:
-                String(localized: "Unmanned Aerial Systems", comment: "Movement and Maneuver Entity Type")
+                String(localized: "Unmanned Aerial Systems", bundle: .module, comment: "Movement and Maneuver Entity Type")
             }
         }
 

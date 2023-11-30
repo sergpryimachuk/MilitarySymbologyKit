@@ -22,15 +22,15 @@ enum InfestationEntitySubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .bird:
-            String(localized: "Bird", comment: "Infestation Entity Subtype")
+            String(localized: "Bird", bundle: .module, comment: "Infestation Entity Subtype")
         case .insect:
-            String(localized: "Insect", comment: "Infestation Entity Subtype")
+            String(localized: "Insect", bundle: .module, comment: "Infestation Entity Subtype")
         case .microbial:
-            String(localized: "Microbial", comment: "Infestation Entity Subtype")
+            String(localized: "Microbial", bundle: .module, comment: "Infestation Entity Subtype")
         case .reptile:
-            String(localized: "Reptile", comment: "Infestation Entity Subtype")
+            String(localized: "Reptile", bundle: .module, comment: "Infestation Entity Subtype")
         case .rodent:
-            String(localized: "Rodent", comment: "Infestation Entity Subtype")
+            String(localized: "Rodent", bundle: .module, comment: "Infestation Entity Subtype")
         }
     }
 }

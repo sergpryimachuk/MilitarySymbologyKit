@@ -23,28 +23,28 @@ enum StormsEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .thunderstormNoPrecipitation:
-            String(localized: "Thunderstorm - No Precipitation", comment: "Storms Entity Subtype")
+            String(localized: "Thunderstorm - No Precipitation", bundle: .module, comment: "Storms Entity Subtype")
             
         case .thunderstormLightModerateWithRainSnowNoHail:
-            String(localized: "Thunderstorm Light to Moderate with Rain/Snow - No Hail", comment: "Storms Entity Subtype")
+            String(localized: "Thunderstorm Light to Moderate with Rain/Snow - No Hail", bundle: .module, comment: "Storms Entity Subtype")
             
         case .thunderstormHeavyWithRainSnowNoHail:
-            String(localized: "Thunderstorm Heavy with Rain/Snow - No Hail", comment: "Storms Entity Subtype")
+            String(localized: "Thunderstorm Heavy with Rain/Snow - No Hail", bundle: .module, comment: "Storms Entity Subtype")
             
         case .thunderstormLightModerateWithHail:
-            String(localized: "Thunderstorm Light to Moderate - With Hail", comment: "Storms Entity Subtype")
+            String(localized: "Thunderstorm Light to Moderate - With Hail", bundle: .module, comment: "Storms Entity Subtype")
             
         case .thunderstormHeavyWithHail:
-            String(localized: "Thunderstorm Heavy - With Hail", comment: "Storms Entity Subtype")
+            String(localized: "Thunderstorm Heavy - With Hail", bundle: .module, comment: "Storms Entity Subtype")
             
         case .funnelCloud:
-            String(localized: "Funnel Cloud (Tornado/Waterspout)", comment: "Storms Entity Subtype")
+            String(localized: "Funnel Cloud (Tornado/Waterspout)", bundle: .module, comment: "Storms Entity Subtype")
             
         case .squall:
-            String(localized: "Squall", comment: "Storms Entity Subtype")
+            String(localized: "Squall", bundle: .module, comment: "Storms Entity Subtype")
             
         case .lightning:
-            String(localized: "Lightning", comment: "Storms Entity Subtype")
+            String(localized: "Lightning", bundle: .module, comment: "Storms Entity Subtype")
         }
     }
 }

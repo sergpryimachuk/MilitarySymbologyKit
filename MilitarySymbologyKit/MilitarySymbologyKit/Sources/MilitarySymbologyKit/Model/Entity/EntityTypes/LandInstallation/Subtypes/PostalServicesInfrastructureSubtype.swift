@@ -19,9 +19,9 @@ enum PostalServicesInfrastructureSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .postalDistributionCenter:
-            String(localized: "Postal Distribution Center", comment: "Postal Services Infrastructure Subtype")
+            String(localized: "Postal Distribution Center", bundle: .module, comment: "Postal Services Infrastructure Subtype")
         case .postOffice:
-            String(localized: "Post Office", comment: "Postal Services Infrastructure Subtype")
+            String(localized: "Post Office", bundle: .module, comment: "Postal Services Infrastructure Subtype")
         }
     }
 }

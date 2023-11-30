@@ -17,22 +17,22 @@ enum EchelonDivisionAboveDescriptor: String, CaseIterable, Descriptor {
     var name: String {
         switch self {
         case .division:
-            String(localized: "Division", comment: "Echelon at division and above amplifier descriptor")
+            String(localized: "Division", bundle: .module, comment: "Echelon at division and above amplifier descriptor")
 
         case .corpsMEF:
-            String(localized: "Corps/MEF", comment: "Echelon at division and above amplifier descriptor")
+            String(localized: "Corps/MEF", bundle: .module, comment: "Echelon at division and above amplifier descriptor")
 
         case .army:
-            String(localized: "Army", comment: "Echelon at division and above amplifier descriptor")
+            String(localized: "Army", bundle: .module, comment: "Echelon at division and above amplifier descriptor")
 
         case .armyGroupFront:
-            String(localized: "Army Group/Front", comment: "Echelon at division and above amplifier descriptor")
+            String(localized: "Army Group/Front", bundle: .module, comment: "Echelon at division and above amplifier descriptor")
 
         case .regionTheater:
-            String(localized: "Region/Theater", comment: "Echelon at division and above amplifier descriptor")
+            String(localized: "Region/Theater", bundle: .module, comment: "Echelon at division and above amplifier descriptor")
 
         case .command:
-            String(localized: "Command", comment: "Echelon at division and above amplifier descriptor")
+            String(localized: "Command", bundle: .module, comment: "Echelon at division and above amplifier descriptor")
         }
     }
 }

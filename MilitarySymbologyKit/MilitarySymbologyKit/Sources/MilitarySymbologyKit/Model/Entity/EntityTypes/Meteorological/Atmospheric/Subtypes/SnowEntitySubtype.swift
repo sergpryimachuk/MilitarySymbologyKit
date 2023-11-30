@@ -23,28 +23,28 @@ enum SnowEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .intermittentLight:
-            String(localized: "Intermittent Light", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Light", bundle: .module, comment: "Snow Entity Subtype")
             
         case .intermittentLightContinuousLight:
-            String(localized: "Intermittent Light/Continuous Light", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Light/Continuous Light", bundle: .module, comment: "Snow Entity Subtype")
             
         case .intermittentModerate:
-            String(localized: "Intermittent Moderate", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Moderate", bundle: .module, comment: "Snow Entity Subtype")
             
         case .intermittentModerateContinuousModerate:
-            String(localized: "Intermittent Moderate/Continuous Moderate", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Moderate/Continuous Moderate", bundle: .module, comment: "Snow Entity Subtype")
             
         case .intermittentHeavy:
-            String(localized: "Intermittent Heavy", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Heavy", bundle: .module, comment: "Snow Entity Subtype")
             
         case .intermittentHeavyContinuousHeavy:
-            String(localized: "Intermittent Heavy/Continuous Heavy", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Heavy/Continuous Heavy", bundle: .module, comment: "Snow Entity Subtype")
             
         case .blowingSnowLightModerate:
-            String(localized: "Blowing Snow - Light/Moderate", comment: "Snow Entity Subtype")
+            String(localized: "Blowing Snow - Light/Moderate", bundle: .module, comment: "Snow Entity Subtype")
             
         case .blowingSnowHeavy:
-            String(localized: "Blowing Snow - Heavy", comment: "Snow Entity Subtype")
+            String(localized: "Blowing Snow - Heavy", bundle: .module, comment: "Snow Entity Subtype")
         }
     }
 }

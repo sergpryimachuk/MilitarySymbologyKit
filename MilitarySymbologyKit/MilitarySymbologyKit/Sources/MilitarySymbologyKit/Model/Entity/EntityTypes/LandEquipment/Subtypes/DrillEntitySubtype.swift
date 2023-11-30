@@ -16,7 +16,7 @@ enum DrillEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .drillMountedOnUtilityVehicle:
-            String(localized: "Drill Mounted on Utility Vehicle", comment: "Drill Entity Subtype")
+            String(localized: "Drill Mounted on Utility Vehicle", bundle: .module, comment: "Drill Entity Subtype")
         }
     }
 }

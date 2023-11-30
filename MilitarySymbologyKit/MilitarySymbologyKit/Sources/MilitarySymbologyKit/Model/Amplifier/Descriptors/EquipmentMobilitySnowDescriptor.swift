@@ -13,9 +13,9 @@ enum EquipmentMobilitySnowDescriptor: String, CaseIterable, Descriptor {
     var name: String {
         switch self {
         case .overSnow:
-            String(localized: "Over snow (prime mover)", comment: "Equipment mobility on snow amplifier descriptor")
+            String(localized: "Over snow (prime mover)", bundle: .module, comment: "Equipment mobility on snow amplifier descriptor")
         case .sled:
-            String(localized: "Sled", comment: "Equipment mobility on land amplifier descriptor")
+            String(localized: "Sled", bundle: .module, comment: "Equipment mobility on land amplifier descriptor")
         }
     }
 }

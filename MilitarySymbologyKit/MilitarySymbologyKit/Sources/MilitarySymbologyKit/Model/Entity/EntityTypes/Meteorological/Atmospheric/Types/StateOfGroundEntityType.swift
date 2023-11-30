@@ -18,10 +18,10 @@ extension AtmosphericEntity {
                 String(localized: "None")
 
             case .withoutSnowOrMeasurableIceCover:
-                String(localized: "Without Snow or Measurable Ice Cover", comment: "State of Ground Entity Type")
+                String(localized: "Without Snow or Measurable Ice Cover", bundle: .module, comment: "State of Ground Entity Type")
 
             case .withSnowOrMeasurableIceCover:
-                String(localized: "With Snow or Measurable Ice Cover", comment: "State of Ground Entity Type")
+                String(localized: "With Snow or Measurable Ice Cover", bundle: .module, comment: "State of Ground Entity Type")
             }
         }
 

@@ -64,151 +64,151 @@ extension LandUnitEntity {
             case .none:
                 String(localized: "None")
             case .administrative:
-                String(localized: "Administrative", comment: "Sustainment Entity Type")
+                String(localized: "Administrative", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .allClassesOfSupply:
-                String(localized: "All Classes of Supply", comment: "Sustainment Entity Type")
+                String(localized: "All Classes of Supply", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .airportOfDebarkationEmbarkation:
-                String(localized: "Airport of Debarkation/Airport of Embarkation", comment: "Sustainment Entity Type")
+                String(localized: "Airport of Debarkation/Airport of Embarkation", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .ammunition:
-                String(localized: "Ammunition", comment: "Sustainment Entity Type")
+                String(localized: "Ammunition", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .band:
-                String(localized: "Band", comment: "Sustainment Entity Type")
+                String(localized: "Band", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .combatServiceSupport:
-                String(localized: "Combat Service Support", comment: "Sustainment Entity Type")
+                String(localized: "Combat Service Support", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .finance:
-                String(localized: "Finance", comment: "Sustainment Entity Type")
+                String(localized: "Finance", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .judgeAdvocateGeneral:
-                String(localized: "Judge Advocate General", comment: "Sustainment Entity Type")
+                String(localized: "Judge Advocate General", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .labor:
-                String(localized: "Labor", comment: "Sustainment Entity Type")
+                String(localized: "Labor", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .laundryBath:
-                String(localized: "Laundry/Bath", comment: "Sustainment Entity Type")
+                String(localized: "Laundry/Bath", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .maintenance:
-                String(localized: "Maintenance", comment: "Sustainment Entity Type")
+                String(localized: "Maintenance", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .material:
-                String(localized: "Material", comment: "Sustainment Entity Type")
+                String(localized: "Material", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .medical:
-                String(localized: "Medical", comment: "Sustainment Entity Type")
+                String(localized: "Medical", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .medicalTreatmentFacility:
-                String(localized: "Medical Treatment Facility", comment: "Sustainment Entity Type")
+                String(localized: "Medical Treatment Facility", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .moraleWelfareRecreation:
-                String(localized: "Morale Welfare and Recreation", comment: "Sustainment Entity Type")
+                String(localized: "Morale Welfare and Recreation", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .mortuaryAffairsGravesRegistration:
-                String(localized: "Mortuary Affairs/Graves Registration", comment: "Sustainment Entity Type")
+                String(localized: "Mortuary Affairs/Graves Registration", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .multipleClassesOfSupply:
-                String(localized: "Multiple Classes of Supply", comment: "Sustainment Entity Type")
+                String(localized: "Multiple Classes of Supply", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .natoSupplyClassI:
-                String(localized: "NATO Supply Class I", comment: "Sustainment Entity Type")
+                String(localized: "NATO Supply Class I", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .natoSupplyClassI1:
-                String(localized: "NATO Supply Class I|", comment: "Sustainment Entity Type")
+                String(localized: "NATO Supply Class I|", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .natoSupplyClassIII:
-                String(localized: "NATO Supply Class III", comment: "Sustainment Entity Type")
+                String(localized: "NATO Supply Class III", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .natoSupplyClassIV:
-                String(localized: "NATO Supply Class IV", comment: "Sustainment Entity Type")
+                String(localized: "NATO Supply Class IV", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .natoSupplyClassV:
-                String(localized: "NATO Supply Class V", comment: "Sustainment Entity Type")
+                String(localized: "NATO Supply Class V", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .ordnance:
-                String(localized: "Ordnance", comment: "Sustainment Entity Type")
+                String(localized: "Ordnance", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .personnelServices:
-                String(localized: "Personnel Services", comment: "Sustainment Entity Type")
+                String(localized: "Personnel Services", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .petroleumOilAndLubricants:
-                String(localized: "Petroleum Oil and Lubricants", comment: "Sustainment Entity Type")
+                String(localized: "Petroleum Oil and Lubricants", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .pipeline:
-                String(localized: "Pipeline", comment: "Sustainment Entity Type")
+                String(localized: "Pipeline", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .postal:
-                String(localized: "Postal", comment: "Sustainment Entity Type")
+                String(localized: "Postal", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .publicAffairsPublicInformation:
-                String(localized: "Public Affairs/Public Information", comment: "Sustainment Entity Type")
+                String(localized: "Public Affairs/Public Information", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .quartermaster:
-                String(localized: "Quartermaster", comment: "Sustainment Entity Type")
+                String(localized: "Quartermaster", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .railhead:
-                String(localized: "Railhead", comment: "Sustainment Entity Type")
+                String(localized: "Railhead", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .religiousSupport:
-                String(localized: "Religious Support", comment: "Sustainment Entity Type")
+                String(localized: "Religious Support", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .replacementHoldingUnit:
-                String(localized: "Replacement Holding Unit", comment: "Sustainment Entity Type")
+                String(localized: "Replacement Holding Unit", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .seaPortOfDebarkationEmbarkation:
-                String(localized: "Sea Port of Debarkation/Sea Port of Embarkation", comment: "Sustainment Entity Type")
+                String(localized: "Sea Port of Debarkation/Sea Port of Embarkation", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .supply:
-                String(localized: "Supply", comment: "Sustainment Entity Type")
+                String(localized: "Supply", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .jointInformationBureau:
-                String(localized: "Joint Information Bureau", comment: "Sustainment Entity Type")
+                String(localized: "Joint Information Bureau", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .transportation:
-                String(localized: "Transportation", comment: "Sustainment Entity Type")
+                String(localized: "Transportation", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassI:
-                String(localized: "US Supply Class I", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class I", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassII:
-                String(localized: "US Supply Class II", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class II", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassIII:
-                String(localized: "US Supply Class III", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class III", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassIV:
-                String(localized: "US Supply Class IV", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class IV", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassV:
-                String(localized: "US Supply Class V", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class V", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassVI:
-                String(localized: "US Supply Class VI", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class VI", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassVII:
-                String(localized: "US Supply Class VII", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class VII", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassVIII:
-                String(localized: "US Supply Class VIII", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class VIII", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassIX:
-                String(localized: "US Supply Class IX", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class IX", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .usSupplyClassX:
-                String(localized: "US Supply Class X", comment: "Sustainment Entity Type")
+                String(localized: "US Supply Class X", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .water:
-                String(localized: "Water", comment: "Sustainment Entity Type")
+                String(localized: "Water", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .waterPurification:
-                String(localized: "Water Purification", comment: "Sustainment Entity Type")
+                String(localized: "Water Purification", bundle: .module, comment: "Sustainment Entity Type")
                 
             case .broadcast:
-                String(localized: "Broadcast", comment: "Sustainment Entity Type")
+                String(localized: "Broadcast", bundle: .module, comment: "Sustainment Entity Type")
             }
         }
         

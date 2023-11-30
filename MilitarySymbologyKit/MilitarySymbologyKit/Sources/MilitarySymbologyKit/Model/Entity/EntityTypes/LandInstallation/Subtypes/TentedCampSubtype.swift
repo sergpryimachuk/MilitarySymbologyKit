@@ -19,9 +19,9 @@ enum TentedCampSubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .displacedPersonsRefugeeEvacueesCamp:
-            String(localized: "Displaced Persons / Refugee / Evacuees Camp", comment: "Tented Camp Subtype")
+            String(localized: "Displaced Persons / Refugee / Evacuees Camp", bundle: .module, comment: "Tented Camp Subtype")
         case .trainingCamp:
-            String(localized: "Training Camp", comment: "Tented Camp Subtype")
+            String(localized: "Training Camp", bundle: .module, comment: "Tented Camp Subtype")
         }
     }
 }

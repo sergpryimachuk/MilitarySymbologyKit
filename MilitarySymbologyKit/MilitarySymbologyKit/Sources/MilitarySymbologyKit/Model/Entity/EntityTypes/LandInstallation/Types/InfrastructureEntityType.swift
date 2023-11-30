@@ -28,46 +28,46 @@ enum InfrastructureEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .agricultureAndFoodInfrastructure:
-            String(localized: "Agriculture and Food Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Agriculture and Food Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .bankingFinanceAndInsuranceInfrastructure:
-            String(localized: "Banking, Finance, and Insurance Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Banking, Finance, and Insurance Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .commercialInfrastructure:
-            String(localized: "Commercial Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Commercial Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .educationalFacilitiesInfrastructure:
-            String(localized: "Educational Facilities Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Educational Facilities Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .energyFacilityInfrastructure:
-            String(localized: "Energy Facility Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Energy Facility Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .governmentSiteInfrastructure:
-            String(localized: "Government Site Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Government Site Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .medicalInfrastructure:
-            String(localized: "Medical Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Medical Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .militaryInfrastructure:
-            String(localized: "Military Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Military Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .postalServicesInfrastructure:
-            String(localized: "Postal Services Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Postal Services Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .publicVenuesInfrastructure:
-            String(localized: "Public Venues Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Public Venues Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .specialNeedsInfrastructure:
-            String(localized: "Special Needs Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Special Needs Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .telecommunicationsInfrastructure:
-            String(localized: "Telecommunications Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Telecommunications Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .transportationInfrastructure:
-            String(localized: "Transportation Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Transportation Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
 
         case .waterSupplyInfrastructure:
-            String(localized: "Water Supply Infrastructure", comment: "Infrastructure Entity Type")
+            String(localized: "Water Supply Infrastructure", bundle: .module, comment: "Infrastructure Entity Type")
         }
     }
 

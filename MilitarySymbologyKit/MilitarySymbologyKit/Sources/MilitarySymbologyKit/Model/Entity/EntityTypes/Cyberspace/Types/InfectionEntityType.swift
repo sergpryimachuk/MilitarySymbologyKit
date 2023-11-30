@@ -15,10 +15,10 @@ extension CyberspaceEntity {
         var name: String {
             switch self {
             case .advancedPersistentThreat:
-                String(localized: "Advanced Persistent Threat (APT)", comment: "Infection Entity Type")
+                String(localized: "Advanced Persistent Threat (APT)", bundle: .module, comment: "Infection Entity Type")
 
             case .nonAdvancedPersistentThreat:
-                String(localized: "Non-Advanced Persistent Threat (NAPT)", comment: "Infection Entity Type")
+                String(localized: "Non-Advanced Persistent Threat (NAPT)", bundle: .module, comment: "Infection Entity Type")
             case .none:
                 String(localized: "None")
             }

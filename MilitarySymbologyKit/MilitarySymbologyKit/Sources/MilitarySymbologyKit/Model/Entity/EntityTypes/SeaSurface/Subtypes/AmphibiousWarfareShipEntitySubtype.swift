@@ -23,28 +23,28 @@ enum AmphibiousWarfareShipEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .amphibiousCommandShip:
-            String(localized: "Amphibious Command Ship", comment: "Amphibious Warfare Ship Entity Subtype")
+            String(localized: "Amphibious Command Ship", bundle: .module, comment: "Amphibious Warfare Ship Entity Subtype")
 
         case .amphibiousAssaultNonspecified:
-            String(localized: "Amphibious Assault, Non-specified", comment: "Amphibious Warfare Ship Entity Subtype")
+            String(localized: "Amphibious Assault, Non-specified", bundle: .module, comment: "Amphibious Warfare Ship Entity Subtype")
 
         case .amphibiousAssaultShipGeneral:
-            String(localized: "Amphibious Assault Ship, General", comment: "Amphibious Warfare Ship Entity Subtype")
+            String(localized: "Amphibious Assault Ship, General", bundle: .module, comment: "Amphibious Warfare Ship Entity Subtype")
 
         case .amphibiousAssaultShipMultipurpose:
-            String(localized: "Amphibious Assault Ship, Multipurpose", comment: "Amphibious Warfare Ship Entity Subtype")
+            String(localized: "Amphibious Assault Ship, Multipurpose", bundle: .module, comment: "Amphibious Warfare Ship Entity Subtype")
 
         case .amphibiousAssaultShipHelicopter:
-            String(localized: "Amphibious Assault Ship, Helicopter", comment: "Amphibious Warfare Ship Entity Subtype")
+            String(localized: "Amphibious Assault Ship, Helicopter", bundle: .module, comment: "Amphibious Warfare Ship Entity Subtype")
 
         case .amphibiousTransportDock:
-            String(localized: "Amphibious Transport Dock", comment: "Amphibious Warfare Ship Entity Subtype")
+            String(localized: "Amphibious Transport Dock", bundle: .module, comment: "Amphibious Warfare Ship Entity Subtype")
 
         case .landingShip:
-            String(localized: "Landing Ship", comment: "Amphibious Warfare Ship Entity Subtype")
+            String(localized: "Landing Ship", bundle: .module, comment: "Amphibious Warfare Ship Entity Subtype")
 
         case .landingCraft:
-            String(localized: "Landing Craft", comment: "Amphibious Warfare Ship Entity Subtype")
+            String(localized: "Landing Craft", bundle: .module, comment: "Amphibious Warfare Ship Entity Subtype")
         }
     }
 }

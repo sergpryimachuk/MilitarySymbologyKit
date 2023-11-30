@@ -20,19 +20,19 @@ enum NavyTaskOrganizationEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .navyTaskElement:
-            String(localized: "Navy Task Element", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Navy Task Element", bundle: .module, comment: "Navy Task Organization Entity Subtype")
 
         case .navyTaskForce:
-            String(localized: "Navy Task Force", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Navy Task Force", bundle: .module, comment: "Navy Task Organization Entity Subtype")
 
         case .navyTaskGroup:
-            String(localized: "Navy Task Group", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Navy Task Group", bundle: .module, comment: "Navy Task Organization Entity Subtype")
 
         case .navyTaskUnit:
-            String(localized: "Navy Task Unit", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Navy Task Unit", bundle: .module, comment: "Navy Task Organization Entity Subtype")
 
         case .convoy:
-            String(localized: "Convoy", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Convoy", bundle: .module, comment: "Navy Task Organization Entity Subtype")
         }
     }
 }

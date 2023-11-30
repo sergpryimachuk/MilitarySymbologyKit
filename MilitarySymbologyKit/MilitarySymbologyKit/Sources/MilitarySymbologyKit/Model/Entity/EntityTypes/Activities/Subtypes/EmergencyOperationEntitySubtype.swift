@@ -22,21 +22,21 @@ enum EmergencyOperationEntitySubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .emergencyCollectionEvacuationPoint:
-            String(localized: "Emergency Collection Evacuation Point", comment: "Emergency Operation Entity Subtype")
+            String(localized: "Emergency Collection Evacuation Point", bundle: .module, comment: "Emergency Operation Entity Subtype")
         case .emergencyFoodDistribution:
-            String(localized: "Emergency Food Distribution", comment: "Emergency Operation Entity Subtype")
+            String(localized: "Emergency Food Distribution", bundle: .module, comment: "Emergency Operation Entity Subtype")
         case .emergencyIncidentCommandCenter:
-            String(localized: "Emergency Incident Command Center", comment: "Emergency Operation Entity Subtype")
+            String(localized: "Emergency Incident Command Center", bundle: .module, comment: "Emergency Operation Entity Subtype")
         case .emergencyOperationsCenter:
-            String(localized: "Emergency Operations Center", comment: "Emergency Operation Entity Subtype")
+            String(localized: "Emergency Operations Center", bundle: .module, comment: "Emergency Operation Entity Subtype")
         case .emergencyPublicInformationCenter:
-            String(localized: "Emergency Public Information Center", comment: "Emergency Operation Entity Subtype")
+            String(localized: "Emergency Public Information Center", bundle: .module, comment: "Emergency Operation Entity Subtype")
         case .emergencyShelter:
-            String(localized: "Emergency Shelter", comment: "Emergency Operation Entity Subtype")
+            String(localized: "Emergency Shelter", bundle: .module, comment: "Emergency Operation Entity Subtype")
         case .emergencyStagingArea:
-            String(localized: "Emergency Staging Area", comment: "Emergency Operation Entity Subtype")
+            String(localized: "Emergency Staging Area", bundle: .module, comment: "Emergency Operation Entity Subtype")
         case .emergencyWaterDistributionCenter:
-            String(localized: "Emergency Water Distribution Center", comment: "Emergency Operation Entity Subtype")
+            String(localized: "Emergency Water Distribution Center", bundle: .module, comment: "Emergency Operation Entity Subtype")
         }
     }
 }

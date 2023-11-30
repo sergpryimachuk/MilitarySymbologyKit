@@ -19,13 +19,13 @@ extension SeaSubsurfaceEntity {
                 String(localized: "None")
 
             case .submersible:
-                String(localized: "Submersible", comment: "Civilian Entity Type")
+                String(localized: "Submersible", bundle: .module, comment: "Civilian Entity Type")
 
             case .autonomousUnderwaterVehicleAUV_UUV:
-                String(localized: "Autonomous Underwater Vehicle (AUV)/Underwater Vehicle (UUV)", comment: "Civilian Entity Type")
+                String(localized: "Autonomous Underwater Vehicle (AUV)/Underwater Vehicle (UUV)", bundle: .module, comment: "Civilian Entity Type")
 
             case .diver:
-                String(localized: "Diver", comment: "Civilian Entity Type")
+                String(localized: "Diver", bundle: .module, comment: "Civilian Entity Type")
             }
         }
 

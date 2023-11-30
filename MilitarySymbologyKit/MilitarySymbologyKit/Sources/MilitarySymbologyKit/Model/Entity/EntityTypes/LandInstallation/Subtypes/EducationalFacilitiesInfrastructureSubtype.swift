@@ -19,9 +19,9 @@ enum EducationalFacilitiesInfrastructureSubtype: String, CaseIterable, EntitySub
         case .none:
             String(localized: "None")
         case .collegeUniversity:
-            String(localized: "College/University", comment: "Educational Facilities Infrastructure Subtype")
+            String(localized: "College/University", bundle: .module, comment: "Educational Facilities Infrastructure Subtype")
         case .school:
-            String(localized: "School", comment: "Educational Facilities Infrastructure Subtype")
+            String(localized: "School", bundle: .module, comment: "Educational Facilities Infrastructure Subtype")
         }
     }
 }

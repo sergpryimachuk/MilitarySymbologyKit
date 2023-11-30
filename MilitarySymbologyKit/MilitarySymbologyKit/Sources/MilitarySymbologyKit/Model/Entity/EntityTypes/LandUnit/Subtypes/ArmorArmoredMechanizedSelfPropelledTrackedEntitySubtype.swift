@@ -13,10 +13,10 @@ enum ArmorArmoredMechanizedSelfPropelledTrackedEntitySubtype: String, CaseIterab
     var name: String {
         switch self {
         case .reconnaissanceCavalryScout:
-            String(localized: "Reconnaissance/Cavalry/Scout", comment: "Armor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype")
+            String(localized: "Reconnaissance/Cavalry/Scout", bundle: .module, comment: "Armor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype")
 
         case .amphibious:
-            String(localized: "Amphibious", comment: "Armor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype")
+            String(localized: "Amphibious", bundle: .module, comment: "Armor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype")
         }
     }
 }

@@ -20,16 +20,16 @@ extension CyberspaceEntity.InfectionEntityType {
                 String(localized: "None")
 
             case .naptWithC2:
-                String(localized: "NAPT with C2", comment: "NAPT Entity Subtype")
+                String(localized: "NAPT with C2", bundle: .module, comment: "NAPT Entity Subtype")
 
             case .naptWithSelfPropagation:
-                String(localized: "NAPT with Self Propagation", comment: "NAPT Entity Subtype")
+                String(localized: "NAPT with Self Propagation", bundle: .module, comment: "NAPT Entity Subtype")
 
             case .naptWithC2AndSelfPropagation:
-                String(localized: "NAPT with C2 and Self Propagation", comment: "NAPT Entity Subtype")
+                String(localized: "NAPT with C2 and Self Propagation", bundle: .module, comment: "NAPT Entity Subtype")
 
             case .naptOther:
-                String(localized: "NAPT Other", comment: "NAPT Entity Subtype")
+                String(localized: "NAPT Other", bundle: .module, comment: "NAPT Entity Subtype")
             }
         }
     }

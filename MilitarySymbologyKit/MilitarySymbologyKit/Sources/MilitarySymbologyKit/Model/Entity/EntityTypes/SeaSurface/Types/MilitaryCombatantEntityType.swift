@@ -27,37 +27,37 @@ extension SeaSurfaceEntity {
                 String(localized: "None")
 
             case .carrier:
-                String(localized: "Carrier", comment: "Military Combatant Entity Type")
+                String(localized: "Carrier", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .surfaceCombatantLine:
-                String(localized: "Surface Combatant, Line", comment: "Military Combatant Entity Type")
+                String(localized: "Surface Combatant, Line", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .amphibiousWarfareShip:
-                String(localized: "Amphibious Warfare Ship", comment: "Military Combatant Entity Type")
+                String(localized: "Amphibious Warfare Ship", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .mineWarfareShip:
-                String(localized: "Mine Warfare Ship", comment: "Military Combatant Entity Type")
+                String(localized: "Mine Warfare Ship", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .patrolBoat:
-                String(localized: "Patrol Boat", comment: "Military Combatant Entity Type")
+                String(localized: "Patrol Boat", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .decoy:
-                String(localized: "Decoy", comment: "Military Combatant Entity Type")
+                String(localized: "Decoy", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .unmannedSurfaceWaterVehicleUSV:
-                String(localized: "Unmanned Surface Water Vehicle (USV)", comment: "Military Combatant Entity Type")
+                String(localized: "Unmanned Surface Water Vehicle (USV)", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .speedboat:
-                String(localized: "Speedboat", comment: "Military Combatant Entity Type")
+                String(localized: "Speedboat", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .jetSki:
-                String(localized: "Jet Ski", comment: "Military Combatant Entity Type")
+                String(localized: "Jet Ski", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .navyTaskOrganization:
-                String(localized: "Navy Task Organization", comment: "Military Combatant Entity Type")
+                String(localized: "Navy Task Organization", bundle: .module, comment: "Military Combatant Entity Type")
 
             case .seaBasedXBandSBXRadar:
-                String(localized: "Sea-Based X-Band (SBX) Radar", comment: "Military Combatant Entity Type")
+                String(localized: "Sea-Based X-Band (SBX) Radar", bundle: .module, comment: "Military Combatant Entity Type")
             }
         }
 

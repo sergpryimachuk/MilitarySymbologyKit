@@ -20,11 +20,11 @@ enum HydroMeteorologicalEntitySubtype: String, CaseIterable, EntitySubtype {
         case .none:
             String(localized: "None")
         case .drought:
-            String(localized: "Drought", comment: "Hydro-Meteorological Entity Subtype")
+            String(localized: "Drought", bundle: .module, comment: "Hydro-Meteorological Entity Subtype")
         case .flood:
-            String(localized: "Flood", comment: "Hydro-Meteorological Entity Subtype")
+            String(localized: "Flood", bundle: .module, comment: "Hydro-Meteorological Entity Subtype")
         case .tsunami:
-            String(localized: "Tsunami", comment: "Hydro-Meteorological Entity Subtype")
+            String(localized: "Tsunami", bundle: .module, comment: "Hydro-Meteorological Entity Subtype")
         }
     }
 }

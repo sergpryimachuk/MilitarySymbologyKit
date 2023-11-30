@@ -19,16 +19,16 @@ enum DustOrSandEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .lightToModerate:
-            String(localized: "Light to Moderate", comment: "Dust or Sand Entity Subtype")
+            String(localized: "Light to Moderate", bundle: .module, comment: "Dust or Sand Entity Subtype")
             
         case .severe:
-            String(localized: "Severe", comment: "Dust or Sand Entity Subtype")
+            String(localized: "Severe", bundle: .module, comment: "Dust or Sand Entity Subtype")
             
         case .dustDevil:
-            String(localized: "Dust Devil", comment: "Dust or Sand Entity Subtype")
+            String(localized: "Dust Devil", bundle: .module, comment: "Dust or Sand Entity Subtype")
             
         case .blowingDustOrSand:
-            String(localized: "Blowing Dust or Sand", comment: "Dust or Sand Entity Subtype")
+            String(localized: "Blowing Dust or Sand", bundle: .module, comment: "Dust or Sand Entity Subtype")
         }
     }
 }

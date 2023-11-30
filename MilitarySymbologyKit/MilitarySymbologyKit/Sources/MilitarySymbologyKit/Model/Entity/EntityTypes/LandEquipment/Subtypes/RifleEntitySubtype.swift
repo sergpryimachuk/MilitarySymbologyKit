@@ -18,13 +18,13 @@ enum RifleEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
 
         case .singleShotRifle:
-            String(localized: "Single Shot Rifle", comment: "Rifle Entity Subtype")
+            String(localized: "Single Shot Rifle", bundle: .module, comment: "Rifle Entity Subtype")
 
         case .semiautomaticRifle:
-            String(localized: "Semiautomatic Rifle", comment: "Rifle Entity Subtype")
+            String(localized: "Semiautomatic Rifle", bundle: .module, comment: "Rifle Entity Subtype")
 
         case .automaticRifle:
-            String(localized: "Automatic Rifle", comment: "Rifle Entity Subtype")
+            String(localized: "Automatic Rifle", bundle: .module, comment: "Rifle Entity Subtype")
         }
     }
 }

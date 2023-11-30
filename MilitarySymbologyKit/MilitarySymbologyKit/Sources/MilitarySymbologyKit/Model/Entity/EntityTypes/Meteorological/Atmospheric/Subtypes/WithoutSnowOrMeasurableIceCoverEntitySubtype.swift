@@ -25,34 +25,34 @@ enum WithoutSnowOrMeasurableIceCoverEntitySubtype: String, CaseIterable, EntityS
             String(localized: "None")
             
         case .surfaceDryWithoutCracks:
-            String(localized: "Surface Dry Without Cracks", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Surface Dry Without Cracks", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
             
         case .surfaceMoist:
-            String(localized: "Surface Moist", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Surface Moist", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
             
         case .surfaceWetStandingWater:
-            String(localized: "Surface Wet - Standing Water", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Surface Wet - Standing Water", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
             
         case .surfaceFlooded:
-            String(localized: "Surface Flooded", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Surface Flooded", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
             
         case .surfaceFrozen:
-            String(localized: "Surface Frozen", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Surface Frozen", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
             
         case .glazeThinIce:
-            String(localized: "Glaze (Thin Ice) on Ground", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Glaze (Thin Ice) on Ground", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
             
         case .looseDryDustOrSandNotCoveringGround:
-            String(localized: "Loose Dry Dust or Sand Not Covering Ground Completely", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Loose Dry Dust or Sand Not Covering Ground Completely", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
             
         case .thinLooseDryDustOrSandCoveringGround:
-            String(localized: "Thin Loose Dry Dust or Sand Covering Ground Completely", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Thin Loose Dry Dust or Sand Covering Ground Completely", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
             
         case .moderateThickLooseDryDustOrSandCoveringGround:
-            String(localized: "Moderate/Thick Loose Dry Dust or Sand Covering Ground Completely", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Moderate/Thick Loose Dry Dust or Sand Covering Ground Completely", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
             
         case .extremelyDryWithCracks:
-            String(localized: "Extremely Dry with Cracks", comment: "Without Snow or Measurable Ice Cover Entity Subtype")
+            String(localized: "Extremely Dry with Cracks", bundle: .module, comment: "Without Snow or Measurable Ice Cover Entity Subtype")
         }
     }
 }

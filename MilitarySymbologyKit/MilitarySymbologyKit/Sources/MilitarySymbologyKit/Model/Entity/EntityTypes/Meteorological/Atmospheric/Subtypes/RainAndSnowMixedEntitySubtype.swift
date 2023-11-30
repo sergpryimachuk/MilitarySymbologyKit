@@ -19,16 +19,16 @@ enum RainAndSnowMixedEntitySubtype: String, CaseIterable, EntitySubtype {
             String(localized: "None")
             
         case .light:
-            String(localized: "Light", comment: "Rain and Snow Mixed Entity Subtype")
+            String(localized: "Light", bundle: .module, comment: "Rain and Snow Mixed Entity Subtype")
             
         case .moderateHeavy:
-            String(localized: "Moderate/Heavy", comment: "Rain and Snow Mixed Entity Subtype")
+            String(localized: "Moderate/Heavy", bundle: .module, comment: "Rain and Snow Mixed Entity Subtype")
             
         case .lightShowers:
-            String(localized: "Light Showers", comment: "Rain and Snow Mixed Entity Subtype")
+            String(localized: "Light Showers", bundle: .module, comment: "Rain and Snow Mixed Entity Subtype")
             
         case .moderateHeavyShowers:
-            String(localized: "Moderate/Heavy Showers", comment: "Rain and Snow Mixed Entity Subtype")
+            String(localized: "Moderate/Heavy Showers", bundle: .module, comment: "Rain and Snow Mixed Entity Subtype")
         }
     }
 }

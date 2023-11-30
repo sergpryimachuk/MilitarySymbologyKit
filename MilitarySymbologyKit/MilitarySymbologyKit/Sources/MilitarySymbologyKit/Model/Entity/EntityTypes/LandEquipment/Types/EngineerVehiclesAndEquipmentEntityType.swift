@@ -30,52 +30,52 @@ enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .bridge:
-            String(localized: "Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Bridge", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .bridgeMountedOnUtilityVehicle:
-            String(localized: "Bridge Mounted on Utility Vehicle", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Bridge Mounted on Utility Vehicle", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .fixedBridge:
-            String(localized: "Fixed Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Fixed Bridge", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .floatingBridge:
-            String(localized: "Floating Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Floating Bridge", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .foldingGirderBridge:
-            String(localized: "Folding Girder Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Folding Girder Bridge", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .hollowDeckBridge:
-            String(localized: "Hollow Deck Bridge", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Hollow Deck Bridge", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .drill:
-            String(localized: "Drill", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Drill", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .earthmover:
-            String(localized: "Earthmover", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Earthmover", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .mineClearingEquipment:
-            String(localized: "Mine Clearing Equipment", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Mine Clearing Equipment", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .mineLayingEquipment:
-            String(localized: "Mine Laying Equipment", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Mine Laying Equipment", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .dozer:
-            String(localized: "Dozer", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Dozer", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .armoredAssault:
-            String(localized: "Armored Assault", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Armored Assault", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .armoredEngineerReconVehicle:
-            String(localized: "Armored Engineer Recon Vehicle (AERV)", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Armored Engineer Recon Vehicle (AERV)", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .backhoe:
-            String(localized: "Backhoe", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Backhoe", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .constructionVehicle:
-            String(localized: "Construction Vehicle", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Construction Vehicle", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
 
         case .ferryTransporter:
-            String(localized: "Ferry Transporter", comment: "Engineer Vehicles and Equipment Entity Type")
+            String(localized: "Ferry Transporter", bundle: .module, comment: "Engineer Vehicles and Equipment Entity Type")
         }
     }
 
@@ -92,7 +92,7 @@ enum EngineerVehiclesAndEquipmentEntityType: String, CaseIterable, EntityType {
         case .dozer:
             [.none, 
              AnyEntitySubtype(
-                id: "01", name: String(localized: "Dozer-Armored", comment: "Entity Subtype")
+                id: "01", name: String(localized: "Dozer-Armored", bundle: .module, comment: "Entity Subtype")
             )]
         default:
             [.none]

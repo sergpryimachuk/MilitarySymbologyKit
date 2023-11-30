@@ -16,19 +16,19 @@ enum InfantryEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .amphibious:
-            String(localized: "Amphibious", comment: "Infantry Entity Subtype")
+            String(localized: "Amphibious", bundle: .module, comment: "Infantry Entity Subtype")
 
         case .armoredMechanizedTracked:
-            String(localized: "Armored/Mechanized/Tracked", comment: "Infantry Entity Subtype")
+            String(localized: "Armored/Mechanized/Tracked", bundle: .module, comment: "Infantry Entity Subtype")
 
         case .mainGunSystem:
-            String(localized: "Main Gun System", comment: "Infantry Entity Subtype")
+            String(localized: "Main Gun System", bundle: .module, comment: "Infantry Entity Subtype")
 
         case .motorized:
-            String(localized: "Motorized", comment: "Infantry Entity Subtype")
+            String(localized: "Motorized", bundle: .module, comment: "Infantry Entity Subtype")
 
         case .infantryFightingVehicle:
-            String(localized: "Infantry Fighting Vehicle", comment: "Infantry Entity Subtype")
+            String(localized: "Infantry Fighting Vehicle", bundle: .module, comment: "Infantry Entity Subtype")
         }
     }
 }

@@ -23,31 +23,31 @@ extension OceanographicEntity {
         var name: String {
             switch self {
             case .submarineCable:
-                String(localized: "Submarine Cable", comment: "Man-Made Structures Entity Type")
+                String(localized: "Submarine Cable", bundle: .module, comment: "Man-Made Structures Entity Type")
 
             case .submergedCrib:
-                String(localized: "Submerged Crib", comment: "Man-Made Structures Entity Type")
+                String(localized: "Submerged Crib", bundle: .module, comment: "Man-Made Structures Entity Type")
 
             case .canal:
-                String(localized: "Canal", comment: "Man-Made Structures Entity Type")
+                String(localized: "Canal", bundle: .module, comment: "Man-Made Structures Entity Type")
 
             case .ford:
-                String(localized: "Ford", comment: "Man-Made Structures Entity Type")
+                String(localized: "Ford", bundle: .module, comment: "Man-Made Structures Entity Type")
 
             case .lock:
-                String(localized: "Lock", comment: "Man-Made Structures Entity Type")
+                String(localized: "Lock", bundle: .module, comment: "Man-Made Structures Entity Type")
 
             case .oilGasRig:
-                String(localized: "Oil/Gas Rig", comment: "Man-Made Structures Entity Type")
+                String(localized: "Oil/Gas Rig", bundle: .module, comment: "Man-Made Structures Entity Type")
 
             case .oilGasRigField:
-                String(localized: "Oil/Gas Rig Field", comment: "Man-Made Structures Entity Type")
+                String(localized: "Oil/Gas Rig Field", bundle: .module, comment: "Man-Made Structures Entity Type")
 
             case .pipelinesPipe:
-                String(localized: "Pipelines/Pipe", comment: "Man-Made Structures Entity Type")
+                String(localized: "Pipelines/Pipe", bundle: .module, comment: "Man-Made Structures Entity Type")
 
             case .pilePilingPost:
-                String(localized: "Pile/Piling/Post", comment: "Man-Made Structures Entity Type")
+                String(localized: "Pile/Piling/Post", bundle: .module, comment: "Man-Made Structures Entity Type")
             }
         }
     }

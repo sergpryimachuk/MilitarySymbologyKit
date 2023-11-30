@@ -18,25 +18,25 @@ enum EquipmentMobilityLandDescriptor: String, CaseIterable, Descriptor {
     var name: String {
         switch self {
         case .wheeledLimitedCrossCountry:
-            String(localized: "Wheeled limited cross country", comment: "Equipment mobility on land amplifier descriptor")
+            String(localized: "Wheeled limited cross country", bundle: .module, comment: "Equipment mobility on land amplifier descriptor")
 
         case .wheeledCrossCountry:
-            String(localized: "Wheeled cross country", comment: "Equipment mobility on land amplifier descriptor")
+            String(localized: "Wheeled cross country", bundle: .module, comment: "Equipment mobility on land amplifier descriptor")
 
         case .tracked:
-            String(localized: "Tracked", comment: "Equipment mobility on land amplifier descriptor")
+            String(localized: "Tracked", bundle: .module, comment: "Equipment mobility on land amplifier descriptor")
 
         case .wheeledAndTrackedCombination:
-            String(localized: "Wheeled and tracked combination", comment: "Equipment mobility on land amplifier descriptor")
+            String(localized: "Wheeled and tracked combination", bundle: .module, comment: "Equipment mobility on land amplifier descriptor")
 
         case .towed:
-            String(localized: "Towed", comment: "Equipment mobility on land amplifier descriptor")
+            String(localized: "Towed", bundle: .module, comment: "Equipment mobility on land amplifier descriptor")
 
         case .rail:
-            String(localized: "Rail", comment: "Equipment mobility on land amplifier descriptor")
+            String(localized: "Rail", bundle: .module, comment: "Equipment mobility on land amplifier descriptor")
 
         case .packAnimals:
-            String(localized: "Pack animals", comment: "Equipment mobility on land amplifier descriptor")
+            String(localized: "Pack animals", bundle: .module, comment: "Equipment mobility on land amplifier descriptor")
         }
     }
 }
