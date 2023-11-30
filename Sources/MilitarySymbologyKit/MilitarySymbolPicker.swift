@@ -10,11 +10,11 @@ public struct MilitarySymbolPicker: View {
     @State public var isSearchPresented = false
     @State public var searchResults: [MilitarySymbol]?
 
-    init() {
+    public init() {
         _symbol = .init(initialValue: .init())
     }
 
-    init(symbol: MilitarySymbol) {
+    public init(symbol: MilitarySymbol) {
         _symbol = .init(initialValue: symbol)
     }
 
