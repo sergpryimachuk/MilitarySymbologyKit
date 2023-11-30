@@ -127,6 +127,13 @@
 		939B44AC2AFE39C900A67880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */; };
 		939B44BA2AFE485C00A67880 /* MilitarySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B44B92AFE485C00A67880 /* MilitarySymbol.swift */; };
 		93A471CC2B18CA550055CAC9 /* ActivitiesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A471CB2B18CA550055CAC9 /* ActivitiesEntity.swift */; };
+		93A471D02B18CB7C0055CAC9 /* IncidentEntityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A471CF2B18CB7C0055CAC9 /* IncidentEntityType.swift */; };
+		93A471D22B18CC020055CAC9 /* CriminalActivityIncidentEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A471D12B18CC020055CAC9 /* CriminalActivityIncidentEntitySubtype.swift */; };
+		93A471D42B18CCB80055CAC9 /* BombBombingEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A471D32B18CCB80055CAC9 /* BombBombingEntitySubtype.swift */; };
+		93A471D62B18CD0E0055CAC9 /* IEDEventEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A471D52B18CD0E0055CAC9 /* IEDEventEntitySubtype.swift */; };
+		93A471D82B18CD6E0055CAC9 /* ShootingEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A471D72B18CD6E0055CAC9 /* ShootingEntitySubtype.swift */; };
+		93A471DA2B18CE000055CAC9 /* IllegalDrugOperationEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A471D92B18CE000055CAC9 /* IllegalDrugOperationEntitySubtype.swift */; };
+		93A471DC2B18CEB40055CAC9 /* ExplosionEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A471DB2B18CEB40055CAC9 /* ExplosionEntitySubtype.swift */; };
 		93B7CAF12B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF02B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift */; };
 		93B7CAF32B160D450036F896 /* MILCOConfidenceLevelSubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF22B160D450036F896 /* MILCOConfidenceLevelSubtype.swift */; };
 		93B7CAF62B160F100036F896 /* SubmarineEntitySubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B7CAF52B160F100036F896 /* SubmarineEntitySubtype.swift */; };
@@ -311,6 +318,13 @@
 		939B44AB2AFE39C900A67880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		939B44B92AFE485C00A67880 /* MilitarySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilitarySymbol.swift; sourceTree = "<group>"; };
 		93A471CB2B18CA550055CAC9 /* ActivitiesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesEntity.swift; sourceTree = "<group>"; };
+		93A471CF2B18CB7C0055CAC9 /* IncidentEntityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncidentEntityType.swift; sourceTree = "<group>"; };
+		93A471D12B18CC020055CAC9 /* CriminalActivityIncidentEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriminalActivityIncidentEntitySubtype.swift; sourceTree = "<group>"; };
+		93A471D32B18CCB80055CAC9 /* BombBombingEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombBombingEntitySubtype.swift; sourceTree = "<group>"; };
+		93A471D52B18CD0E0055CAC9 /* IEDEventEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IEDEventEntitySubtype.swift; sourceTree = "<group>"; };
+		93A471D72B18CD6E0055CAC9 /* ShootingEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingEntitySubtype.swift; sourceTree = "<group>"; };
+		93A471D92B18CE000055CAC9 /* IllegalDrugOperationEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllegalDrugOperationEntitySubtype.swift; sourceTree = "<group>"; };
+		93A471DB2B18CEB40055CAC9 /* ExplosionEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplosionEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CAF02B160C020036F896 /* NeutralizedMineGeneralEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutralizedMineGeneralEntitySubtype.swift; sourceTree = "<group>"; };
 		93B7CAF22B160D450036F896 /* MILCOConfidenceLevelSubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILCOConfidenceLevelSubtype.swift; sourceTree = "<group>"; };
 		93B7CAF52B160F100036F896 /* SubmarineEntitySubtype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmarineEntitySubtype.swift; sourceTree = "<group>"; };
@@ -717,6 +731,7 @@
 		93A471CD2B18CB150055CAC9 /* Types */ = {
 			isa = PBXGroup;
 			children = (
+				93A471CF2B18CB7C0055CAC9 /* IncidentEntityType.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -724,6 +739,12 @@
 		93A471CE2B18CB1A0055CAC9 /* Subtypes */ = {
 			isa = PBXGroup;
 			children = (
+				93A471D12B18CC020055CAC9 /* CriminalActivityIncidentEntitySubtype.swift */,
+				93A471D32B18CCB80055CAC9 /* BombBombingEntitySubtype.swift */,
+				93A471D52B18CD0E0055CAC9 /* IEDEventEntitySubtype.swift */,
+				93A471D72B18CD6E0055CAC9 /* ShootingEntitySubtype.swift */,
+				93A471D92B18CE000055CAC9 /* IllegalDrugOperationEntitySubtype.swift */,
+				93A471DB2B18CEB40055CAC9 /* ExplosionEntitySubtype.swift */,
 			);
 			path = Subtypes;
 			sourceTree = "<group>";
@@ -1050,8 +1071,11 @@
 				934496372B10FE2100AD1B73 /* DeviceTypeEntityType.swift in Sources */,
 				931395DE2B14E7AE000D5583 /* MineLikeContactEntityType.swift in Sources */,
 				934D3E1D2B1387CD0019FBEF /* SpecialOperationsForcesEntitySubtype.swift in Sources */,
+				93A471D42B18CCB80055CAC9 /* BombBombingEntitySubtype.swift in Sources */,
 				934D3E292B138C370019FBEF /* ElectronicWarfareEntitySubtype.swift in Sources */,
 				9330114F2B07B01C0053E2C2 /* ProtectionEntityType.swift in Sources */,
+				93A471D02B18CB7C0055CAC9 /* IncidentEntityType.swift in Sources */,
+				93A471DA2B18CE000055CAC9 /* IllegalDrugOperationEntitySubtype.swift in Sources */,
 				93B7CB3C2B1635060036F896 /* LandEquipmentLawEnforcementEntityType.swift in Sources */,
 				93B7CB322B162D6E0036F896 /* VolcanicEruptionEntitySubtype.swift in Sources */,
 				93F7041A2B124CF000EC73C9 /* BoundedAreasOfWeatherEntityType.swift in Sources */,
@@ -1105,6 +1129,7 @@
 				93B7CB202B1628F50036F896 /* LightModerateHeavyEntitySubtype.swift in Sources */,
 				93F704162B124C3900EC73C9 /* CloudCoverEntityType.swift in Sources */,
 				9302181B2B00FEB2004FA3D5 /* Dimension.swift in Sources */,
+				93A471D22B18CC020055CAC9 /* CriminalActivityIncidentEntitySubtype.swift in Sources */,
 				9334FD9D2B17806E0053EADC /* Logger+Ext.swift in Sources */,
 				05A57B252B11078100F98863 /* TrainEntityType.swift in Sources */,
 				934D3E322B1390DC0019FBEF /* ArmoredVehicleEntitySubtype.swift in Sources */,
@@ -1116,6 +1141,7 @@
 				93F703FD2B1244BE00EC73C9 /* SeaSurfaceCivilianEntityType.swift in Sources */,
 				93B7CB222B1629F40036F896 /* DrizzleEntitySubtype.swift in Sources */,
 				934D3E132B13737E0019FBEF /* SignalEntitySubtype.swift in Sources */,
+				93A471D62B18CD0E0055CAC9 /* IEDEventEntitySubtype.swift in Sources */,
 				05A57B212B11064700F98863 /* EngineerVehiclesAndEquipmentEntityType.swift in Sources */,
 				934496422B10FE2100AD1B73 /* SpaceEntity.swift in Sources */,
 				93B7CB102B1616A60036F896 /* LightMediumSevereEntitySubtype.swift in Sources */,
@@ -1126,10 +1152,12 @@
 				9302181F2B00FFC2004FA3D5 /* HQTFD.swift in Sources */,
 				93B7CB012B1612190036F896 /* SpeedboatEntitySubtype.swift in Sources */,
 				93B7CB072B16137F0036F896 /* ServiceCraftYardEntitySubtype.swift in Sources */,
+				93A471DC2B18CEB40055CAC9 /* ExplosionEntitySubtype.swift in Sources */,
 				052AB0092B14C46D006DF372 /* BridgeSubtype.swift in Sources */,
 				934496492B10FE2100AD1B73 /* OceanographicEntity.swift in Sources */,
 				93F703FB2B12441800EC73C9 /* MilitaryNoncombatantEntityType.swift in Sources */,
 				054C27682B110D6500324A82 /* MissileSupportEntityType.swift in Sources */,
+				93A471D82B18CD6E0055CAC9 /* ShootingEntitySubtype.swift in Sources */,
 				93B7CAF62B160F100036F896 /* SubmarineEntitySubtype.swift in Sources */,
 				934496452B10FE2100AD1B73 /* OceanographyEntityType.swift in Sources */,
 				93B7CAFF2B1611C10036F896 /* PatrolBoatEntitySubtype.swift in Sources */,
