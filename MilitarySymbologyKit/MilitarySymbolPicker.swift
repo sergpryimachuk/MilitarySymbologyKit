@@ -7,8 +7,8 @@ import SwiftUI
 struct MilitarySymbolPicker: View {
     @State private var symbol: MilitarySymbol
     @State private var searchText = ""
-    @State private var searchResults: [MilitarySymbol]?
     @State private var isSearchPresented = false
+    @State private var searchResults: [MilitarySymbol]?
     
     init() {
         self._symbol = .init(initialValue: .init())
@@ -21,25 +21,27 @@ struct MilitarySymbolPicker: View {
     var body: some View {
         Form {
             
-            if let searchResults {
-                if searchResults.isEmpty {
-                    ContentUnavailableView("Not found", systemImage: "questionmark.diamond", description: Text("No results for '\(searchText)'") )
-                } else {
-                    MilitarySymbolSearchResults(searchText: $searchText, selectedSymbol: $symbol, searchResults: searchResults)
-                }
-            }
+            MilitarySymbolSearchResults(searchText: $searchText,
+                                        selectedSymbol: $symbol,
+                                        isSearchPresented: $isSearchPresented, 
+                                        searchResults: $searchResults)
 
             Section {
                 HStack {
                     Spacer()
-                    symbol.makeView(frameWidth: 200)
+                    symbol.makeView(size: 200)
                         .scaleEffect(1.5)
                     Spacer()
                 }
+                LabeledContent("SIDC:", value: symbol.sidc)
+                    .contextMenu {
+                        Button("Copy", systemImage: "doc.on.doc") {
+                            let pasteboard = UIPasteboard.general
+                            pasteboard.string = symbol.sidc
+                        }
+                    }
             }
             
-            LabeledContent("SIDC:", value: symbol.sidc)
-            .listRowBackground(Color.clear)
 
             Section {
                 Picker("Context", selection: $symbol.context) {
@@ -119,16 +121,14 @@ struct MilitarySymbolPicker: View {
                 //                        }
             }
         }
-        .searchable(text: $searchText, isPresented: $isSearchPresented, placement: .navigationBarDrawer, prompt: "Search symbol")
-        .onChange(of: searchText) { _, newValue in
-            if newValue.isEmpty {
-                searchResults = nil
-                isSearchPresented = false
-            } else {
-                searchResults = MilitarySymbol.searched(text: newValue, currentSymbol: symbol)
-            }
+        .onChange(of: searchText) { _, searchText in
+            searchResults = MilitarySymbol.searched(text: searchText, currentSymbol: symbol)
         }
         .animation(.linear, value: searchText)
+        .searchable(text: $searchText,
+                    isPresented: $isSearchPresented,
+                    placement: .navigationBarDrawer,
+                    prompt: "Search symbol")
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
     }
 }

@@ -248,7 +248,7 @@ extension MilitarySymbol {
         }
     }
     
-    func makeView(frameWidth: CGFloat? = nil) -> some View {
+    func makeView(size: CGFloat? = nil) -> some View {
         ZStack {
             Image(frameAssetName)
                 .resizable()
@@ -283,6 +283,6 @@ extension MilitarySymbol {
                     .scaledToFit()
             }
         }
-        .frame(width: frameWidth, height: frameWidth)
+        .frame(width: size, height: size)
     }
 }

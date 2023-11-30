@@ -31,7 +31,7 @@ struct TestView: View {
                            LabeledContent {
                                Text(symbol.sidc)
                            } label: {
-                               symbol.makeView(frameWidth: 60)
+                               symbol.makeView(size: 60)
                                    .scaleEffect(1.5)
                            }
                        }
