@@ -9,6 +9,10 @@ public struct MilitarySymbolPicker: View {
     @State private var searchText = ""
     @State private var isSearchPresented = false
     @State private var searchResults: [MilitarySymbol]?
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
 
     public var body: some View {
         Form {
