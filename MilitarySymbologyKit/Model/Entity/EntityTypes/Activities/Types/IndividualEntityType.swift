@@ -24,4 +24,8 @@ enum IndividualEntityType: String, CaseIterable, EntityType {
             return String(localized: "Speaker", comment: "Individual Entity Type")
         }
     }
+    
+    var subtypes: [AnyEntitySubtype] {
+        [.none]
+    }
 }
