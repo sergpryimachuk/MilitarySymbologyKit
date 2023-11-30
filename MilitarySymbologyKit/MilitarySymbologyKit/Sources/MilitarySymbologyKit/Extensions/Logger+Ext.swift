@@ -6,6 +6,5 @@ import OSLog
 import Foundation
 
 extension Logger {
-    static let subsystem = "MilitarySymbologyKit"
-    static let militarySymbol = Logger(subsystem: subsystem, category: "Military Symbol")
+    static let militarySymbol = Logger(subsystem: "MilitarySymbologyKit", category: "Military Symbol")
 }
