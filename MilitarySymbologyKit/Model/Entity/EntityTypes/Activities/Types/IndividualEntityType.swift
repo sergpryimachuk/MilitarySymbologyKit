@@ -24,6 +24,7 @@ enum IndividualEntityType: String, CaseIterable, EntityType {
             return String(localized: "Speaker", comment: "Individual Entity Type")
         }
     }
+    
     var subtypes: [AnyEntitySubtype] {
         switch self {
         case .none:
@@ -31,7 +32,7 @@ enum IndividualEntityType: String, CaseIterable, EntityType {
         case .religiousLeader:
             ReligiousLeaderEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         case .speaker:
-            <#code#>
+            SpeakerEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         }
     }
 }
