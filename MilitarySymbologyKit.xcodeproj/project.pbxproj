@@ -757,8 +757,8 @@
 			isa = PBXGroup;
 			children = (
 				93A471F72B18D68B0055CAC9 /* ActivitiesEntity.swift */,
-				93A471F82B18D68B0055CAC9 /* Subtypes */,
 				93A4720B2B18D68B0055CAC9 /* Types */,
+				93A471F82B18D68B0055CAC9 /* Subtypes */,
 			);
 			path = Activities;
 			sourceTree = "<group>";

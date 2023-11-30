@@ -143,8 +143,7 @@ enum Dimension: String, CaseIterable, Identifiable {
         case .mineWarfare:
             MineWarfareEntity.allCases.map { AnyEntity($0) }
         case .activities:
-            // TODO: Add these ones.
-            [.none]
+            ActivitiesEntity.allCases.map { AnyEntity($0) }
 //        case .meteorologicalAtmospheric:
 //            AtmosphericEntity.allCases.map { AnyEntity($0) }
 //        case .meteorologicalOceanographic:
