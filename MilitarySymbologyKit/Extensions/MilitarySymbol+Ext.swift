@@ -6,21 +6,6 @@ import OSLog
 import SwiftUI
 
 extension MilitarySymbol {
-        
-    func makeSIDC() -> String {
-        version
-        + context.id
-        + standardIdentity.id
-        + dimention.id
-        + status.id
-        + hqtfd.id
-        + amplifier.id
-        + descriptor.id
-        + entity.id
-        + entityType.id
-        + entitySubtype.id + "0000"
-    }
-    
     // MARK: - FRAME
     // All good.
     

@@ -5,7 +5,6 @@
 import Foundation
 
 enum EchelonDivisionAboveDescriptor: String, CaseIterable, Descriptor {
-    case none = "0"
     case division = "1"
     case corpsMEF = "2"
     case army = "3"
@@ -17,8 +16,6 @@ enum EchelonDivisionAboveDescriptor: String, CaseIterable, Descriptor {
 
     var name: String {
         switch self {
-        case .none:
-            String(localized: "None")
         case .division:
             String(localized: "Division", comment: "Echelon at division and above amplifier descriptor")
 

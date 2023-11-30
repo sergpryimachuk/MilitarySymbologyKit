@@ -38,7 +38,7 @@ struct MilitarySymbolPicker: View {
                 }
             }
             
-            LabeledContent("SIDC:", value: symbol.makeSIDC())
+            LabeledContent("SIDC:", value: symbol.sidc)
             .listRowBackground(Color.clear)
 
             Section {

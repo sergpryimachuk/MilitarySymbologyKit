@@ -5,7 +5,6 @@
 import Foundation
 
 enum EquipmentMobilityLandDescriptor: String, CaseIterable, Descriptor {
-    case none = "0"
     case wheeledLimitedCrossCountry = "1"
     case wheeledCrossCountry = "2"
     case tracked = "3"
@@ -18,8 +17,6 @@ enum EquipmentMobilityLandDescriptor: String, CaseIterable, Descriptor {
 
     var name: String {
         switch self {
-        case .none:
-            String(localized: "None")
         case .wheeledLimitedCrossCountry:
             String(localized: "Wheeled limited cross country", comment: "Equipment mobility on land amplifier descriptor")
 

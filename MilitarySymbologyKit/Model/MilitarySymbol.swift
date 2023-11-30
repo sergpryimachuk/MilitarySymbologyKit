@@ -53,7 +53,21 @@ struct MilitarySymbol: Identifiable, Hashable {
     var isCivilian: Bool = false
     var isAlternateStatusAmplifiers: Bool = false
     
-    var id: String { makeSIDC() }
+    let id = UUID()
+    
+    var sidc: String {
+        version
+        + context.id
+        + standardIdentity.id
+        + dimention.id
+        + status.id
+        + hqtfd.id
+        + amplifier.id
+        + descriptor.id
+        + entity.id
+        + entityType.id
+        + entitySubtype.id + "0000"
+    }
 }
 
 extension MilitarySymbol {

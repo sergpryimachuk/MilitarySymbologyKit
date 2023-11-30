@@ -25,28 +25,40 @@ struct MilitarySymbolSearchResults: View {
                     LabeledContent {
                         HStack {
                             
-                            let isSearchTextMatchingEntity = symbol.entity.name.localizedStandardContains(searchText)
-                            let isSearchTextMatchingEntityType = symbol.entityType.name.localizedStandardContains(searchText)
+//                            let isSearchTextMatchingEntity = symbol.entity.name.localizedStandardContains(searchText)
+//                            let isSearchTextMatchingEntityType = symbol.entityType.name.localizedStandardContains(searchText)
+//                            
+//                            
+//                            if isSearchTextMatchingEntity {
+//                                Text(symbol.entity.name)
+//                            }
+//                            
+//                            if isSearchTextMatchingEntityType {
+//                                if isSearchTextMatchingEntity {
+//                                    Text(verbatim: " - ")
+//                                }
+//                                Text(symbol.entityType.name)
+//                            }
+//                            
+//                            if symbol.entitySubtype != .none {
+//                                if isSearchTextMatchingEntityType {
+//                                    Text(verbatim: " - ")
+//                                }
+//                                Text(symbol.entitySubtype.name)
+//                            }
                             
                             
-                            if isSearchTextMatchingEntity {
-                                Text(symbol.entity.name)
-                            }
-                            
-                            if isSearchTextMatchingEntityType {
-                                if isSearchTextMatchingEntity {
-                                    Text(verbatim: " - ")
-                                }
+                            if symbol.entityType != .none {
                                 Text(symbol.entityType.name)
                             }
                             
                             if symbol.entitySubtype != .none {
-                                if isSearchTextMatchingEntityType {
-                                    Text(verbatim: " - ")
-                                }
+                                Text(verbatim: " - ")
                                 Text(symbol.entitySubtype.name)
                             }
                         }
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.8)
                     } label: {
                         symbol.makeView(frameWidth: 50)
                     }

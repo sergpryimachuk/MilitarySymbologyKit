@@ -29,7 +29,7 @@ struct TestView: View {
                     if let symbol = makeSymbol(for: code) {
                         NavigationLink(value: symbol) {
                            LabeledContent {
-                               Text(symbol.makeSIDC())
+                               Text(symbol.sidc)
                            } label: {
                                symbol.makeView(frameWidth: 60)
                                    .scaleEffect(1.5)

@@ -67,7 +67,8 @@ enum LandUnitEntity: String, CaseIterable, Identifiable, Entity {
         case .sustainment:
             SustainmentEntityType.allCases.map { AnyEntityType($0) }
         case .naval:
-            [AnyEntityType(id: "01", name: String(localized: "Naval", comment: "Naval Entity Type"), subtypes: [.none])]
+            [AnyEntityType(id: "01", name: String(localized: "Naval", comment: "Naval Entity Type"), 
+                           subtypes: AmplifierEntitySubtype.allCases.map { AnyEntitySubtype($0) } )]
         case .namedHeadquarters:
             NamedHeadquartersEntityType.allCases.map { AnyEntityType($0) }
         case .emergencyOperation:
