@@ -28,55 +28,55 @@ enum MerchantShipEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .cargoGeneral:
-            return String(localized: "Cargo, General", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Cargo, General", comment: "Merchant Ship Entity Subtype")
 
         case .containerShip:
-            return String(localized: "Container Ship", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Container Ship", comment: "Merchant Ship Entity Subtype")
 
         case .dredge:
-            return String(localized: "Dredge", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Dredge", comment: "Merchant Ship Entity Subtype")
 
         case .rollOnRollOff:
-            return String(localized: "Roll On/Roll Off", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Roll On/Roll Off", comment: "Merchant Ship Entity Subtype")
 
         case .ferry:
-            return String(localized: "Ferry", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Ferry", comment: "Merchant Ship Entity Subtype")
 
         case .heavyLift:
-            return String(localized: "Heavy Lift", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Heavy Lift", comment: "Merchant Ship Entity Subtype")
 
         case .hovercraft:
-            return String(localized: "Hovercraft", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Hovercraft", comment: "Merchant Ship Entity Subtype")
 
         case .lashCarrierWithBarges:
-            return String(localized: "Lash Carrier (with Barges)", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Lash Carrier (with Barges)", comment: "Merchant Ship Entity Subtype")
 
         case .oilerTanker:
-            return String(localized: "Oiler/Tanker", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Oiler/Tanker", comment: "Merchant Ship Entity Subtype")
 
         case .passenger:
-            return String(localized: "Passenger", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Passenger", comment: "Merchant Ship Entity Subtype")
 
         case .tugOceanGoing:
-            return String(localized: "Tug, Ocean Going", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Tug, Ocean Going", comment: "Merchant Ship Entity Subtype")
 
         case .tow:
-            return String(localized: "Tow", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Tow", comment: "Merchant Ship Entity Subtype")
 
         case .transportShipHazardousMaterial:
-            return String(localized: "Transport Ship, Hazardous Material", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Transport Ship, Hazardous Material", comment: "Merchant Ship Entity Subtype")
 
         case .junkDhow:
-            return String(localized: "Junk/Dhow", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Junk/Dhow", comment: "Merchant Ship Entity Subtype")
 
         case .bargeNotSelfPropelled:
-            return String(localized: "Barge, Not Self-Propelled", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Barge, Not Self-Propelled", comment: "Merchant Ship Entity Subtype")
 
         case .hospitalShip:
-            return String(localized: "Hospital Ship", comment: "Merchant Ship Entity Subtype")
+            String(localized: "Hospital Ship", comment: "Merchant Ship Entity Subtype")
         }
     }
 }

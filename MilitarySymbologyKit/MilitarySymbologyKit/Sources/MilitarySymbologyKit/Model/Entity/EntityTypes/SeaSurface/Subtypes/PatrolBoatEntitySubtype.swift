@@ -14,13 +14,13 @@ enum PatrolBoatEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .patrolCraftSubmarineChaserEscortGeneral:
-            return String(localized: "Patrol Craft, Submarine Chaser/Escort, General", comment: "Patrol Boat Entity Subtype")
+            String(localized: "Patrol Craft, Submarine Chaser/Escort, General", comment: "Patrol Boat Entity Subtype")
 
         case .patrolShipGeneral:
-            return String(localized: "Patrol Ship, General", comment: "Patrol Boat Entity Subtype")
+            String(localized: "Patrol Ship, General", comment: "Patrol Boat Entity Subtype")
         }
     }
 }

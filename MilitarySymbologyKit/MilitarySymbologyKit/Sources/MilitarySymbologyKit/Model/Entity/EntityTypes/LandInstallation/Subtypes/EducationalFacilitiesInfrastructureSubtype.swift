@@ -17,11 +17,11 @@ enum EducationalFacilitiesInfrastructureSubtype: String, CaseIterable, EntitySub
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .collegeUniversity:
-            return String(localized: "College/University", comment: "Educational Facilities Infrastructure Subtype")
+            String(localized: "College/University", comment: "Educational Facilities Infrastructure Subtype")
         case .school:
-            return String(localized: "School", comment: "Educational Facilities Infrastructure Subtype")
+            String(localized: "School", comment: "Educational Facilities Infrastructure Subtype")
         }
     }
 }

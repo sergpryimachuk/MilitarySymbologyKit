@@ -25,46 +25,46 @@ enum AuxiliaryShipEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .ammunitionShip:
-            return String(localized: "Ammunition Ship", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Ammunition Ship", comment: "Auxiliary Ship Entity Subtype")
 
         case .navalStoresShip:
-            return String(localized: "Naval Stores Ship", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Naval Stores Ship", comment: "Auxiliary Ship Entity Subtype")
 
         case .auxiliaryFlagShip:
-            return String(localized: "Auxiliary Flag Ship", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Auxiliary Flag Ship", comment: "Auxiliary Ship Entity Subtype")
 
         case .intelligenceCollector:
-            return String(localized: "Intelligence Collector", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Intelligence Collector", comment: "Auxiliary Ship Entity Subtype")
 
         case .oceanographicResearchShip:
-            return String(localized: "Oceanographic Research Ship", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Oceanographic Research Ship", comment: "Auxiliary Ship Entity Subtype")
 
         case .surveyShip:
-            return String(localized: "Survey Ship", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Survey Ship", comment: "Auxiliary Ship Entity Subtype")
 
         case .hospitalShip:
-            return String(localized: "Hospital Ship", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Hospital Ship", comment: "Auxiliary Ship Entity Subtype")
 
         case .navalCargoShip:
-            return String(localized: "Naval Cargo Ship", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Naval Cargo Ship", comment: "Auxiliary Ship Entity Subtype")
 
         case .combatSupportShipFast:
-            return String(localized: "Combat Support Ship, Fast", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Combat Support Ship, Fast", comment: "Auxiliary Ship Entity Subtype")
 
         case .oilerReplenishment:
-            return String(localized: "Oiler, Replenishment", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Oiler, Replenishment", comment: "Auxiliary Ship Entity Subtype")
 
         case .repairShip:
-            return String(localized: "Repair Ship", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Repair Ship", comment: "Auxiliary Ship Entity Subtype")
 
         case .submarineTender:
-            return String(localized: "Submarine Tender", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Submarine Tender", comment: "Auxiliary Ship Entity Subtype")
 
         case .tugOceanGoing:
-            return String(localized: "Tug, Ocean Going", comment: "Auxiliary Ship Entity Subtype")
+            String(localized: "Tug, Ocean Going", comment: "Auxiliary Ship Entity Subtype")
         }
     }
 }

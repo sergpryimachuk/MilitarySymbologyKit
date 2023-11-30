@@ -19,15 +19,15 @@ enum ExerciseMineGeneralSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .exerciseMineBottom:
-            return String(localized: "Exercise Mine - Bottom", comment: "Exercise Mine General Subtype")
+            String(localized: "Exercise Mine - Bottom", comment: "Exercise Mine General Subtype")
         case .exerciseMineMoored:
-            return String(localized: "Exercise Mine - Moored", comment: "Exercise Mine General Subtype")
+            String(localized: "Exercise Mine - Moored", comment: "Exercise Mine General Subtype")
         case .exerciseMineFloating:
-            return String(localized: "Exercise Mine - Floating", comment: "Exercise Mine General Subtype")
+            String(localized: "Exercise Mine - Floating", comment: "Exercise Mine General Subtype")
         case .exerciseMineRising:
-            return String(localized: "Exercise Mine - Rising", comment: "Exercise Mine General Subtype")
+            String(localized: "Exercise Mine - Rising", comment: "Exercise Mine General Subtype")
         }
     }
 }

@@ -14,13 +14,13 @@ enum IllegalDrugOperationEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .trafficking:
-            return String(localized: "Trafficking", comment: "Illegal Drug Operation Entity Subtype")
+            String(localized: "Trafficking", comment: "Illegal Drug Operation Entity Subtype")
             
         case .illegalDrugLab:
-            return String(localized: "Illegal Drug Lab", comment: "Illegal Drug Operation Entity Subtype")
+            String(localized: "Illegal Drug Lab", comment: "Illegal Drug Operation Entity Subtype")
         }
     }
 }

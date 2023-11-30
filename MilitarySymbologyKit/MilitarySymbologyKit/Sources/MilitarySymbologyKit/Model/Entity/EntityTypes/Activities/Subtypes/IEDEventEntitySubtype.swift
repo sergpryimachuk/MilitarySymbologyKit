@@ -16,19 +16,19 @@ enum IEDEventEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .iedExplosion:
-            return String(localized: "IED Explosion", comment: "IED Event Entity Subtype")
+            String(localized: "IED Explosion", comment: "IED Event Entity Subtype")
             
         case .prematureIEDExplosion:
-            return String(localized: "Premature IED Explosion", comment: "IED Event Entity Subtype")
+            String(localized: "Premature IED Explosion", comment: "IED Event Entity Subtype")
             
         case .iedCache:
-            return String(localized: "IED Cache", comment: "IED Event Entity Subtype")
+            String(localized: "IED Cache", comment: "IED Event Entity Subtype")
             
         case .iedSuicideBomber:
-            return String(localized: "IED Suicide Bomber", comment: "IED Event Entity Subtype")
+            String(localized: "IED Suicide Bomber", comment: "IED Event Entity Subtype")
         }
     }
 }

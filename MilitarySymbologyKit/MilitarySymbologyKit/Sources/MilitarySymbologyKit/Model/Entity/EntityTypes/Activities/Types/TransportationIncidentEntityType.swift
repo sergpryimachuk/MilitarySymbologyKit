@@ -20,17 +20,17 @@ enum TransportationIncidentEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .air:
-            return String(localized: "Air", comment: "Transportation Incident Entity Type")
+            String(localized: "Air", comment: "Transportation Incident Entity Type")
         case .marine:
-            return String(localized: "Marine", comment: "Transportation Incident Entity Type")
+            String(localized: "Marine", comment: "Transportation Incident Entity Type")
         case .rail:
-            return String(localized: "Rail", comment: "Transportation Incident Entity Type")
+            String(localized: "Rail", comment: "Transportation Incident Entity Type")
         case .vehicle:
-            return String(localized: "Vehicle", comment: "Transportation Incident Entity Type")
+            String(localized: "Vehicle", comment: "Transportation Incident Entity Type")
         case .wheeledVehicleExplosion:
-            return String(localized: "Wheeled Vehicle Explosion", comment: "Transportation Incident Entity Type")
+            String(localized: "Wheeled Vehicle Explosion", comment: "Transportation Incident Entity Type")
         }
     }
     

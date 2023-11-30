@@ -35,76 +35,76 @@ enum CriminalActivityIncidentEntitySubtype: String, CaseIterable, EntitySubtype 
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .arrest:
-            return String(localized: "Arrest", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Arrest", comment: "Criminal Activity Incident Entity Subtype")
             
         case .arson:
-            return String(localized: "Arson", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Arson", comment: "Criminal Activity Incident Entity Subtype")
             
         case .attemptedCriminalActivity:
-            return String(localized: "Attempted Criminal Activity", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Attempted Criminal Activity", comment: "Criminal Activity Incident Entity Subtype")
             
         case .driveByShooting:
-            return String(localized: "Drive-by Shooting", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Drive-by Shooting", comment: "Criminal Activity Incident Entity Subtype")
             
         case .drugRelated:
-            return String(localized: "Drug Related", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Drug Related", comment: "Criminal Activity Incident Entity Subtype")
             
         case .extortion:
-            return String(localized: "Extortion", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Extortion", comment: "Criminal Activity Incident Entity Subtype")
             
         case .graffiti:
-            return String(localized: "Graffiti", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Graffiti", comment: "Criminal Activity Incident Entity Subtype")
             
         case .killing:
-            return String(localized: "Killing", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Killing", comment: "Criminal Activity Incident Entity Subtype")
             
         case .poisoning:
-            return String(localized: "Poisoning", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Poisoning", comment: "Criminal Activity Incident Entity Subtype")
             
         case .civilRioting:
-            return String(localized: "Civil Rioting", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Civil Rioting", comment: "Criminal Activity Incident Entity Subtype")
             
         case .boobyTrap:
-            return String(localized: "Booby Trap", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Booby Trap", comment: "Criminal Activity Incident Entity Subtype")
             
         case .homeEviction:
-            return String(localized: "Home Eviction", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Home Eviction", comment: "Criminal Activity Incident Entity Subtype")
             
         case .blackMarketing:
-            return String(localized: "Black Marketing", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Black Marketing", comment: "Criminal Activity Incident Entity Subtype")
             
         case .vandalismLootRansackPlunder:
-            return String(localized: "Vandalism / Loot / Ransack / Plunder", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Vandalism / Loot / Ransack / Plunder", comment: "Criminal Activity Incident Entity Subtype")
             
         case .jailBreak:
-            return String(localized: "Jail Break", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Jail Break", comment: "Criminal Activity Incident Entity Subtype")
             
         case .robbery:
-            return String(localized: "Robbery", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Robbery", comment: "Criminal Activity Incident Entity Subtype")
             
         case .theft:
-            return String(localized: "Theft", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Theft", comment: "Criminal Activity Incident Entity Subtype")
             
         case .burglary:
-            return String(localized: "Burglary", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Burglary", comment: "Criminal Activity Incident Entity Subtype")
             
         case .smuggling:
-            return String(localized: "Smuggling", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Smuggling", comment: "Criminal Activity Incident Entity Subtype")
             
         case .rockThrowing:
-            return String(localized: "Rock Throwing", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Rock Throwing", comment: "Criminal Activity Incident Entity Subtype")
             
         case .deadBody:
-            return String(localized: "Dead Body", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Dead Body", comment: "Criminal Activity Incident Entity Subtype")
             
         case .sabotage:
-            return String(localized: "Sabotage", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Sabotage", comment: "Criminal Activity Incident Entity Subtype")
             
         case .suspiciousActivity:
-            return String(localized: "Suspicious Activity", comment: "Criminal Activity Incident Entity Subtype")
+            String(localized: "Suspicious Activity", comment: "Criminal Activity Incident Entity Subtype")
         }
     }
 }

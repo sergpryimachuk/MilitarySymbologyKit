@@ -13,10 +13,10 @@ enum AirDefenseEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .mainGunSystem:
-            return String(localized: "Main Gun System", comment: "Air Defense Entity Subtype")
+            String(localized: "Main Gun System", comment: "Air Defense Entity Subtype")
 
         case .missile:
-            return String(localized: "Missile", comment: "Air Defense Entity Subtype")
+            String(localized: "Missile", comment: "Air Defense Entity Subtype")
         }
     }
 }

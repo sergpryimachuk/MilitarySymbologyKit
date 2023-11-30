@@ -25,27 +25,27 @@ enum CommercialInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .chemicalPlant:
-            return String(localized: "Chemical Plant", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Chemical Plant", comment: "Commercial Infrastructure Subtype")
         case .firearmsManufacturer:
-            return String(localized: "Firearms Manufacturer", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Firearms Manufacturer", comment: "Commercial Infrastructure Subtype")
         case .firearmsRetailer:
-            return String(localized: "Firearms Retailer", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Firearms Retailer", comment: "Commercial Infrastructure Subtype")
         case .hazardousMaterialProduction:
-            return String(localized: "Hazardous Material Production", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Hazardous Material Production", comment: "Commercial Infrastructure Subtype")
         case .hazardousMaterialStorage:
-            return String(localized: "Hazardous Material Storage", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Hazardous Material Storage", comment: "Commercial Infrastructure Subtype")
         case .industrialSite:
-            return String(localized: "Industrial Site", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Industrial Site", comment: "Commercial Infrastructure Subtype")
         case .landfill:
-            return String(localized: "Landfill", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Landfill", comment: "Commercial Infrastructure Subtype")
         case .pharmaceuticalManufacturer:
-            return String(localized: "Pharmaceutical Manufacturer", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Pharmaceutical Manufacturer", comment: "Commercial Infrastructure Subtype")
         case .contaminatedHazardousWasteSite:
-            return String(localized: "Contaminated Hazardous Waste Site", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Contaminated Hazardous Waste Site", comment: "Commercial Infrastructure Subtype")
         case .toxicReleaseInventory:
-            return String(localized: "Toxic Release Inventory", comment: "Commercial Infrastructure Subtype")
+            String(localized: "Toxic Release Inventory", comment: "Commercial Infrastructure Subtype")
         }
     }
 }

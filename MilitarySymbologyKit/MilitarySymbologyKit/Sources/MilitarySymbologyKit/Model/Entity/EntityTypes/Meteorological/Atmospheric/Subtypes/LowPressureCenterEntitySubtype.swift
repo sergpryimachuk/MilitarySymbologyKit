@@ -14,13 +14,13 @@ enum LowPressureCenterEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .cycloneCenter:
-            return String(localized: "Cyclone Center", comment: "Low Pressure Center Entity Subtype")
+            String(localized: "Cyclone Center", comment: "Low Pressure Center Entity Subtype")
             
         case .tropopauseLow:
-            return String(localized: "Tropopause Low", comment: "Low Pressure Center Entity Subtype")
+            String(localized: "Tropopause Low", comment: "Low Pressure Center Entity Subtype")
         }
     }
 }

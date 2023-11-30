@@ -17,11 +17,11 @@ enum MilitaryInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .militaryArmory:
-            return String(localized: "Military Armory", comment: "Military Infrastructure Subtype")
+            String(localized: "Military Armory", comment: "Military Infrastructure Subtype")
         case .militaryBase:
-            return String(localized: "Military Base", comment: "Military Infrastructure Subtype")
+            String(localized: "Military Base", comment: "Military Infrastructure Subtype")
         }
     }
 }

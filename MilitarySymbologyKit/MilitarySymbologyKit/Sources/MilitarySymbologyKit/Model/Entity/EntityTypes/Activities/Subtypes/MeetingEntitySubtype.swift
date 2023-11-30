@@ -13,9 +13,9 @@ enum MeetingEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .pollingPlaceElection:
-            return String(localized: "Polling Place/Election", comment: "Meeting Entity Subtype")
+            String(localized: "Polling Place/Election", comment: "Meeting Entity Subtype")
         }
     }
 }

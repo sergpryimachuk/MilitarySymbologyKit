@@ -27,37 +27,37 @@ enum OperationEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .patrolling:
-            return String(localized: "Patrolling", comment: "Operation Entity Type")
+            String(localized: "Patrolling", comment: "Operation Entity Type")
         case .militaryInformationSupportOperation:
-            return String(localized: "Military Information Support Operation (MISO)", comment: "Operation Entity Type")
+            String(localized: "Military Information Support Operation (MISO)", comment: "Operation Entity Type")
         case .foragingSearching:
-            return String(localized: "Foraging/Searching", comment: "Operation Entity Type")
+            String(localized: "Foraging/Searching", comment: "Operation Entity Type")
         case .recruitment:
-            return String(localized: "Recruitment", comment: "Operation Entity Type")
+            String(localized: "Recruitment", comment: "Operation Entity Type")
         case .mineLaying:
-            return String(localized: "Mine Laying", comment: "Operation Entity Type")
+            String(localized: "Mine Laying", comment: "Operation Entity Type")
         case .spy:
-            return String(localized: "Spy", comment: "Operation Entity Type")
+            String(localized: "Spy", comment: "Operation Entity Type")
         case .warrantServed:
-            return String(localized: "Warrant Served", comment: "Operation Entity Type")
+            String(localized: "Warrant Served", comment: "Operation Entity Type")
         case .exfiltration:
-            return String(localized: "Exfiltration", comment: "Operation Entity Type")
+            String(localized: "Exfiltration", comment: "Operation Entity Type")
         case .infiltration:
-            return String(localized: "Infiltration", comment: "Operation Entity Type")
+            String(localized: "Infiltration", comment: "Operation Entity Type")
         case .meeting:
-            return String(localized: "Meeting", comment: "Operation Entity Type")
+            String(localized: "Meeting", comment: "Operation Entity Type")
         case .raidOnHouse:
-            return String(localized: "Raid on House", comment: "Operation Entity Type")
+            String(localized: "Raid on House", comment: "Operation Entity Type")
         case .emergencyOperation:
-            return String(localized: "Emergency Operation", comment: "Operation Entity Type")
+            String(localized: "Emergency Operation", comment: "Operation Entity Type")
         case .emergencyMedicalOperation:
-            return String(localized: "Emergency Medical Operation", comment: "Operation Entity Type")
+            String(localized: "Emergency Medical Operation", comment: "Operation Entity Type")
         case .fireFightingOperation:
-            return String(localized: "Fire Fighting Operation", comment: "Operation Entity Type")
+            String(localized: "Fire Fighting Operation", comment: "Operation Entity Type")
         case .lawEnforcementOperation:
-            return String(localized: "Law Enforcement Operation", comment: "Operation Entity Type")
+            String(localized: "Law Enforcement Operation", comment: "Operation Entity Type")
         }
     }
     

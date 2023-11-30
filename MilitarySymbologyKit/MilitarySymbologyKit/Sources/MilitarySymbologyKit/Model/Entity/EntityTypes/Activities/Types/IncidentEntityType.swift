@@ -18,25 +18,25 @@ enum IncidentEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .criminalActivityIncident:
-            return String(localized: "Criminal Activity Incident", comment: "Incident Entity Type")
+            String(localized: "Criminal Activity Incident", comment: "Incident Entity Type")
             
         case .bombBombing:
-            return String(localized: "Bomb/Bombing", comment: "Incident Entity Type")
+            String(localized: "Bomb/Bombing", comment: "Incident Entity Type")
             
         case .iedEvent:
-            return String(localized: "IED Event", comment: "Incident Entity Type")
+            String(localized: "IED Event", comment: "Incident Entity Type")
             
         case .shooting:
-            return String(localized: "Shooting", comment: "Incident Entity Type")
+            String(localized: "Shooting", comment: "Incident Entity Type")
             
         case .illegalDrugOperation:
-            return String(localized: "Illegal Drug Operation", comment: "Incident Entity Type")
+            String(localized: "Illegal Drug Operation", comment: "Incident Entity Type")
             
         case .explosion:
-            return String(localized: "Explosion", comment: "Incident Entity Type")
+            String(localized: "Explosion", comment: "Incident Entity Type")
         }
     }
     

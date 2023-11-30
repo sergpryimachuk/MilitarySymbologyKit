@@ -18,13 +18,13 @@ enum NaturalEventEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .geologic:
-            return String(localized: "Geologic", comment: "Natural Event Entity Type")
+            String(localized: "Geologic", comment: "Natural Event Entity Type")
         case .hydroMeteorological:
-            return String(localized: "Hydro-Meteorological", comment: "Natural Event Entity Type")
+            String(localized: "Hydro-Meteorological", comment: "Natural Event Entity Type")
         case .infestation:
-            return String(localized: "Infestation", comment: "Natural Event Entity Type")
+            String(localized: "Infestation", comment: "Natural Event Entity Type")
         }
     }
     

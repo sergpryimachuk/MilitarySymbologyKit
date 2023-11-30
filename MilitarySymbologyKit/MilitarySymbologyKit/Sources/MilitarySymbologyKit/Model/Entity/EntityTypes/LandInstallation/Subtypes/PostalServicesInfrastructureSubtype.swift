@@ -17,11 +17,11 @@ enum PostalServicesInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .postalDistributionCenter:
-            return String(localized: "Postal Distribution Center", comment: "Postal Services Infrastructure Subtype")
+            String(localized: "Postal Distribution Center", comment: "Postal Services Infrastructure Subtype")
         case .postOffice:
-            return String(localized: "Post Office", comment: "Postal Services Infrastructure Subtype")
+            String(localized: "Post Office", comment: "Postal Services Infrastructure Subtype")
         }
     }
 }

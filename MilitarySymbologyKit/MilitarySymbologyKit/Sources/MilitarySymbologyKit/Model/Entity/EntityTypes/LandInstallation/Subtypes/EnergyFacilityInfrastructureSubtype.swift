@@ -21,19 +21,19 @@ enum EnergyFacilityInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .electricPower:
-            return String(localized: "Electric Power", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Electric Power", comment: "Energy Facility Infrastructure Subtype")
         case .generationStation:
-            return String(localized: "Generation Station", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Generation Station", comment: "Energy Facility Infrastructure Subtype")
         case .naturalGasFacility:
-            return String(localized: "Natural Gas Facility", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Natural Gas Facility", comment: "Energy Facility Infrastructure Subtype")
         case .petroleumFacility:
-            return String(localized: "Petroleum Facility", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Petroleum Facility", comment: "Energy Facility Infrastructure Subtype")
         case .petroleumGasOil:
-            return String(localized: "Petroleum/Gas/Oil", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Petroleum/Gas/Oil", comment: "Energy Facility Infrastructure Subtype")
         case .propaneFacility:
-            return String(localized: "Propane Facility", comment: "Energy Facility Infrastructure Subtype")
+            String(localized: "Propane Facility", comment: "Energy Facility Infrastructure Subtype")
         }
     }
 }

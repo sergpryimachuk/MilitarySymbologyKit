@@ -16,9 +16,9 @@ enum HazardMaterialsEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .hazardMaterialsIncident:
-            return String(localized: "Hazard Materials Incident", comment: "Hazard Materials Entity Type")
+            String(localized: "Hazard Materials Incident", comment: "Hazard Materials Entity Type")
         }
     }
     

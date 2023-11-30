@@ -19,28 +19,28 @@ enum FogEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None", comment: "Fog Entity Subtype")
+            String(localized: "None", comment: "Fog Entity Subtype")
             
         case .shallowPatches:
-            return String(localized: "Shallow Patches", comment: "Fog Entity Subtype")
+            String(localized: "Shallow Patches", comment: "Fog Entity Subtype")
             
         case .shallowContinuous:
-            return String(localized: "Shallow Continuous", comment: "Fog Entity Subtype")
+            String(localized: "Shallow Continuous", comment: "Fog Entity Subtype")
             
         case .patchy:
-            return String(localized: "Patchy", comment: "Fog Entity Subtype")
+            String(localized: "Patchy", comment: "Fog Entity Subtype")
             
         case .skyVisible:
-            return String(localized: "Sky Visible", comment: "Fog Entity Subtype")
+            String(localized: "Sky Visible", comment: "Fog Entity Subtype")
             
         case .skyObscured:
-            return String(localized: "Sky Obscured", comment: "Fog Entity Subtype")
+            String(localized: "Sky Obscured", comment: "Fog Entity Subtype")
             
         case .freezingSkyVisible:
-            return String(localized: "Freezing-Sky Visible", comment: "Fog Entity Subtype")
+            String(localized: "Freezing-Sky Visible", comment: "Fog Entity Subtype")
             
         case .freezingSkyObscured:
-            return String(localized: "Freezing-Sky Obscured", comment: "Fog Entity Subtype")
+            String(localized: "Freezing-Sky Obscured", comment: "Fog Entity Subtype")
         }
     }
 }

@@ -15,16 +15,16 @@ enum RifleEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .singleShotRifle:
-            return String(localized: "Single Shot Rifle", comment: "Rifle Entity Subtype")
+            String(localized: "Single Shot Rifle", comment: "Rifle Entity Subtype")
 
         case .semiautomaticRifle:
-            return String(localized: "Semiautomatic Rifle", comment: "Rifle Entity Subtype")
+            String(localized: "Semiautomatic Rifle", comment: "Rifle Entity Subtype")
 
         case .automaticRifle:
-            return String(localized: "Automatic Rifle", comment: "Rifle Entity Subtype")
+            String(localized: "Automatic Rifle", comment: "Rifle Entity Subtype")
         }
     }
 }

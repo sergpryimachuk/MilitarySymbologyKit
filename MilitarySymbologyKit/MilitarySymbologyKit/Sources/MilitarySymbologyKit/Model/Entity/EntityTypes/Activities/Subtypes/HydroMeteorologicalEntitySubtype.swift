@@ -18,13 +18,13 @@ enum HydroMeteorologicalEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .drought:
-            return String(localized: "Drought", comment: "Hydro-Meteorological Entity Subtype")
+            String(localized: "Drought", comment: "Hydro-Meteorological Entity Subtype")
         case .flood:
-            return String(localized: "Flood", comment: "Hydro-Meteorological Entity Subtype")
+            String(localized: "Flood", comment: "Hydro-Meteorological Entity Subtype")
         case .tsunami:
-            return String(localized: "Tsunami", comment: "Hydro-Meteorological Entity Subtype")
+            String(localized: "Tsunami", comment: "Hydro-Meteorological Entity Subtype")
         }
     }
 }

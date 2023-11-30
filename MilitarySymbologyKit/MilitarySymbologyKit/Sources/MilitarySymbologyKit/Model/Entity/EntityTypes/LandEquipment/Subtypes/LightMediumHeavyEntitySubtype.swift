@@ -15,16 +15,16 @@ enum LightMediumHeavyEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .light:
-            return String(localized: "Light", comment: "Light/Medium/Heavy Entity Subtype")
+            String(localized: "Light", comment: "Light/Medium/Heavy Entity Subtype")
 
         case .medium:
-            return String(localized: "Medium", comment: "Light/Medium/Heavy Entity Subtype")
+            String(localized: "Medium", comment: "Light/Medium/Heavy Entity Subtype")
 
         case .heavy:
-            return String(localized: "Heavy", comment: "Light/Medium/Heavy Entity Subtype")
+            String(localized: "Heavy", comment: "Light/Medium/Heavy Entity Subtype")
         }
     }
 }

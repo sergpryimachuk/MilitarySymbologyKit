@@ -17,11 +17,11 @@ enum IndividualEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .religiousLeader:
-            return String(localized: "Religious Leader", comment: "Individual Entity Type")
+            String(localized: "Religious Leader", comment: "Individual Entity Type")
         case .speaker:
-            return String(localized: "Speaker", comment: "Individual Entity Type")
+            String(localized: "Speaker", comment: "Individual Entity Type")
         }
     }
     

@@ -17,11 +17,11 @@ enum MedicalInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .medical:
-            return String(localized: "Medical", comment: "Medical Infrastructure Subtype")
+            String(localized: "Medical", comment: "Medical Infrastructure Subtype")
         case .medicalTreatmentFacility:
-            return String(localized: "Medical Treatment Facility (Hospital)", comment: "Medical Infrastructure Subtype")
+            String(localized: "Medical Treatment Facility (Hospital)", comment: "Medical Infrastructure Subtype")
         }
     }
 }

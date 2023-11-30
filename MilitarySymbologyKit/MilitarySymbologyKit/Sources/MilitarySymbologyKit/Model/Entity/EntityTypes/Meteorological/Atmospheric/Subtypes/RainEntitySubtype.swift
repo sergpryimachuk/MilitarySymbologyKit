@@ -18,25 +18,25 @@ enum RainEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .intermittentLight:
-            return String(localized: "Intermittent Light", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Light", comment: "Rain Entity Subtype")
             
         case .continuousLight:
-            return String(localized: "Continuous Light", comment: "Rain Entity Subtype")
+            String(localized: "Continuous Light", comment: "Rain Entity Subtype")
             
         case .intermittentModerate:
-            return String(localized: "Intermittent Moderate", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Moderate", comment: "Rain Entity Subtype")
             
         case .intermittentModerateContinuousModerate:
-            return String(localized: "Intermittent Moderate/Continuous Moderate", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Moderate/Continuous Moderate", comment: "Rain Entity Subtype")
             
         case .intermittentHeavy:
-            return String(localized: "Intermittent Heavy", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Heavy", comment: "Rain Entity Subtype")
             
         case .intermittentHeavyContinuousHeavy:
-            return String(localized: "Intermittent Heavy/Continuous Heavy", comment: "Rain Entity Subtype")
+            String(localized: "Intermittent Heavy/Continuous Heavy", comment: "Rain Entity Subtype")
         }
     }
 }

@@ -23,23 +23,23 @@ enum GeologicEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None", comment: "Geologic Entity Subtype")
+            String(localized: "None", comment: "Geologic Entity Subtype")
         case .aftershock:
-            return String(localized: "Aftershock", comment: "Geologic Entity Subtype")
+            String(localized: "Aftershock", comment: "Geologic Entity Subtype")
         case .avalanche:
-            return String(localized: "Avalanche", comment: "Geologic Entity Subtype")
+            String(localized: "Avalanche", comment: "Geologic Entity Subtype")
         case .earthquakeEpicenter:
-            return String(localized: "Earthquake Epicenter", comment: "Geologic Entity Subtype")
+            String(localized: "Earthquake Epicenter", comment: "Geologic Entity Subtype")
         case .landslide:
-            return String(localized: "Landslide", comment: "Geologic Entity Subtype")
+            String(localized: "Landslide", comment: "Geologic Entity Subtype")
         case .subsidence:
-            return String(localized: "Subsidence", comment: "Geologic Entity Subtype")
+            String(localized: "Subsidence", comment: "Geologic Entity Subtype")
         case .volcanicEruption:
-            return String(localized: "Volcanic Eruption", comment: "Geologic Entity Subtype")
+            String(localized: "Volcanic Eruption", comment: "Geologic Entity Subtype")
         case .volcanicThreat:
-            return String(localized: "Volcanic Threat", comment: "Geologic Entity Subtype")
+            String(localized: "Volcanic Threat", comment: "Geologic Entity Subtype")
         case .caveEntrance:
-            return String(localized: "Cave Entrance", comment: "Geologic Entity Subtype")
+            String(localized: "Cave Entrance", comment: "Geologic Entity Subtype")
         }
     }
 }

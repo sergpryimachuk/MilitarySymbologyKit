@@ -21,34 +21,34 @@ enum LinesEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .troughAxis:
-            return String(localized: "Trough Axis", comment: "Lines Entity Subtype")
+            String(localized: "Trough Axis", comment: "Lines Entity Subtype")
             
         case .upperTroughAxis:
-            return String(localized: "Upper Trough Axis", comment: "Lines Entity Subtype")
+            String(localized: "Upper Trough Axis", comment: "Lines Entity Subtype")
             
         case .ridgeAxis:
-            return String(localized: "Ridge Axis", comment: "Lines Entity Subtype")
+            String(localized: "Ridge Axis", comment: "Lines Entity Subtype")
             
         case .severeSquallLine:
-            return String(localized: "Severe Squall Line", comment: "Lines Entity Subtype")
+            String(localized: "Severe Squall Line", comment: "Lines Entity Subtype")
             
         case .instabilityLine:
-            return String(localized: "Instability Line", comment: "Lines Entity Subtype")
+            String(localized: "Instability Line", comment: "Lines Entity Subtype")
             
         case .shearLine:
-            return String(localized: "Shear Line", comment: "Lines Entity Subtype")
+            String(localized: "Shear Line", comment: "Lines Entity Subtype")
             
         case .interTropicalConvergenceZone:
-            return String(localized: "Inter-Tropical Convergence Zone", comment: "Lines Entity Subtype")
+            String(localized: "Inter-Tropical Convergence Zone", comment: "Lines Entity Subtype")
             
         case .convergenceLine:
-            return String(localized: "Convergence Line", comment: "Lines Entity Subtype")
+            String(localized: "Convergence Line", comment: "Lines Entity Subtype")
             
         case .interTropicalDiscontinuity:
-            return String(localized: "Inter-Tropical Discontinuity", comment: "Lines Entity Subtype")
+            String(localized: "Inter-Tropical Discontinuity", comment: "Lines Entity Subtype")
         }
     }
 }

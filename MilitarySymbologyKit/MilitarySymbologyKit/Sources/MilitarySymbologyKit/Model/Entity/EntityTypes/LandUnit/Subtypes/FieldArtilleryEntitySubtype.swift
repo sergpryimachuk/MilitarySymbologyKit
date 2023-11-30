@@ -13,10 +13,10 @@ enum FieldArtilleryEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .selfPropelled:
-            return String(localized: "Self-propelled", comment: "Field Artillery Entity Subtype")
+            String(localized: "Self-propelled", comment: "Field Artillery Entity Subtype")
 
         case .targetAcquisition:
-            return String(localized: "Target Acquisition", comment: "Field Artillery Entity Subtype")
+            String(localized: "Target Acquisition", comment: "Field Artillery Entity Subtype")
         }
     }
 }

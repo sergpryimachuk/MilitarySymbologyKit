@@ -15,16 +15,16 @@ enum SubmarineEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .submarineSurfaced:
-            return String(localized: "Submarine-Surfaced", comment: "Submarine Entity Subtype")
+            String(localized: "Submarine-Surfaced", comment: "Submarine Entity Subtype")
 
         case .submarineSnorkeling:
-            return String(localized: "Submarine-Snorkeling", comment: "Submarine Entity Subtype")
+            String(localized: "Submarine-Snorkeling", comment: "Submarine Entity Subtype")
 
         case .submarineBottomed:
-            return String(localized: "Submarine-Bottomed", comment: "Submarine Entity Subtype")
+            String(localized: "Submarine-Bottomed", comment: "Submarine Entity Subtype")
         }
     }
 }

@@ -19,19 +19,19 @@ extension OperationEntityType {
         var name: String {
             switch self {
             case .none:
-                return String(localized: "None")
+                String(localized: "None")
             case .emtStationLocation:
-                return String(localized: "EMT Station Location", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "EMT Station Location", comment: "Emergency Medical Operation Entity Subtype")
             case .healthDepartmentFacility:
-                return String(localized: "Health Department Facility", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Health Department Facility", comment: "Emergency Medical Operation Entity Subtype")
             case .medicalFacilitiesOutpatient:
-                return String(localized: "Medical Facilities Outpatient", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Medical Facilities Outpatient", comment: "Emergency Medical Operation Entity Subtype")
             case .morgue:
-                return String(localized: "Morgue", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Morgue", comment: "Emergency Medical Operation Entity Subtype")
             case .pharmacy:
-                return String(localized: "Pharmacy", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Pharmacy", comment: "Emergency Medical Operation Entity Subtype")
             case .triage:
-                return String(localized: "Triage", comment: "Emergency Medical Operation Entity Subtype")
+                String(localized: "Triage", comment: "Emergency Medical Operation Entity Subtype")
             }
         }
     }

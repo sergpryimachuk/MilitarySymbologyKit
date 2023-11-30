@@ -13,10 +13,10 @@ enum CivilDisturbanceEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None", comment: "Civil Disturbance Entity Type")
+            String(localized: "None", comment: "Civil Disturbance Entity Type")
             
         case .demonstration:
-            return String(localized: "Demonstration", comment: "Civil Disturbance Entity Type")
+            String(localized: "Demonstration", comment: "Civil Disturbance Entity Type")
         }
     }
     

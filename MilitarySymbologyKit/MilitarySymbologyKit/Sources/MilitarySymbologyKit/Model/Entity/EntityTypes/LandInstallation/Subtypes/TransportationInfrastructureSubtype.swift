@@ -28,33 +28,33 @@ enum TransportationInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .airportAirBase:
-            return String(localized: "Airport/Air Base", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Airport/Air Base", comment: "Transportation Infrastructure Subtype")
         case .airTrafficControlFacility:
-            return String(localized: "Air Traffic Control Facility", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Air Traffic Control Facility", comment: "Transportation Infrastructure Subtype")
         case .busStation:
-            return String(localized: "Bus Station", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Bus Station", comment: "Transportation Infrastructure Subtype")
         case .ferryTerminal:
-            return String(localized: "Ferry Terminal", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Ferry Terminal", comment: "Transportation Infrastructure Subtype")
         case .helicopterLandingSite:
-            return String(localized: "Helicopter Landing Site", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Helicopter Landing Site", comment: "Transportation Infrastructure Subtype")
         case .maintenanceFacility:
-            return String(localized: "Maintenance Facility", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Maintenance Facility", comment: "Transportation Infrastructure Subtype")
         case .railheadRailroadStation:
-            return String(localized: "Railhead/Railroad Station", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Railhead/Railroad Station", comment: "Transportation Infrastructure Subtype")
         case .restStop:
-            return String(localized: "Rest Stop", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Rest Stop", comment: "Transportation Infrastructure Subtype")
         case .seaPortNavalBase:
-            return String(localized: "Sea Port/Naval Base", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Sea Port/Naval Base", comment: "Transportation Infrastructure Subtype")
         case .shipYard:
-            return String(localized: "Ship Yard", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Ship Yard", comment: "Transportation Infrastructure Subtype")
         case .tollFacility:
-            return String(localized: "Toll Facility", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Toll Facility", comment: "Transportation Infrastructure Subtype")
         case .trafficInspectionFacility:
-            return String(localized: "Traffic Inspection Facility", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Traffic Inspection Facility", comment: "Transportation Infrastructure Subtype")
         case .tunnel:
-            return String(localized: "Tunnel", comment: "Transportation Infrastructure Subtype")
+            String(localized: "Tunnel", comment: "Transportation Infrastructure Subtype")
         }
     }
 }

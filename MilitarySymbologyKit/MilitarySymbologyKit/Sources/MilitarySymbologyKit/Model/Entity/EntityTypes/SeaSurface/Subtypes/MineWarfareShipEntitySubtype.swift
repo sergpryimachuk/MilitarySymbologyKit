@@ -18,25 +18,25 @@ enum MineWarfareShipEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .mineLayer:
-            return String(localized: "Mine Layer", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Layer", comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineSweeper:
-            return String(localized: "Mine Sweeper", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Sweeper", comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineSweeperDrone:
-            return String(localized: "Mine Sweeper, Drone", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Sweeper, Drone", comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineHunter:
-            return String(localized: "Mine Hunter", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Hunter", comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineCountermeasures:
-            return String(localized: "Mine Countermeasures", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Countermeasures", comment: "Mine Warfare Ship Entity Subtype")
 
         case .mineCountermeasuresSupportShip:
-            return String(localized: "Mine Countermeasures, Support Ship", comment: "Mine Warfare Ship Entity Subtype")
+            String(localized: "Mine Countermeasures, Support Ship", comment: "Mine Warfare Ship Entity Subtype")
         }
     }
 }

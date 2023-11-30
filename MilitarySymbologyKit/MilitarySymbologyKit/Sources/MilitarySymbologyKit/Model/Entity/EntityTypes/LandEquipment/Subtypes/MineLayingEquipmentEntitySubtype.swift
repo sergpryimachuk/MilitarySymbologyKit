@@ -15,16 +15,16 @@ enum MineLayingEquipmentEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .utilityVehicle:
-            return String(localized: "Mine Laying Equipment on Utility Vehicle", comment: "Mine Laying Equipment Entity Subtype")
+            String(localized: "Mine Laying Equipment on Utility Vehicle", comment: "Mine Laying Equipment Entity Subtype")
             
         case .armoredCarrierWithVolcano:
-            return String(localized: "Armored Carrier with Volcano", comment: "Mine Laying Equipment Entity Subtype")
+            String(localized: "Armored Carrier with Volcano", comment: "Mine Laying Equipment Entity Subtype")
             
         case .truckMountedWithVolcano:
-            return String(localized: "Truck Mounted with Volcano", comment: "Mine Laying Equipment Entity Subtype")
+            String(localized: "Truck Mounted with Volcano", comment: "Mine Laying Equipment Entity Subtype")
         }
     }
 }

@@ -13,9 +13,9 @@ enum MISOEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .tvAndRadioPropaganda:
-            return String(localized: "TV and Radio Propaganda", comment: "MISO Entity Subtype")
+            String(localized: "TV and Radio Propaganda", comment: "MISO Entity Subtype")
         }
     }
 }

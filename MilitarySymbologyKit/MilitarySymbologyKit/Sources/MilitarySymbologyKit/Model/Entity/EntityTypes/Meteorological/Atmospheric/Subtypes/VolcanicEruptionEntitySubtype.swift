@@ -13,10 +13,10 @@ enum VolcanicEruptionEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .volcanicAsh:
-            return String(localized: "Volcanic Ash", comment: "Volcanic Eruption Entity Subtype")
+            String(localized: "Volcanic Ash", comment: "Volcanic Eruption Entity Subtype")
         }
     }
 }

@@ -26,29 +26,29 @@ enum WaterSupplyInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .controlValve:
-            return String(localized: "Control Valve", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Control Valve", comment: "Water Supply Infrastructure Subtype")
         case .dam:
-            return String(localized: "Dam", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Dam", comment: "Water Supply Infrastructure Subtype")
         case .dischargeOutfall:
-            return String(localized: "Discharge Outfall", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Discharge Outfall", comment: "Water Supply Infrastructure Subtype")
         case .groundWaterWell:
-            return String(localized: "Ground Water Well", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Ground Water Well", comment: "Water Supply Infrastructure Subtype")
         case .pumpingStation:
-            return String(localized: "Pumping Station", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Pumping Station", comment: "Water Supply Infrastructure Subtype")
         case .reservoir:
-            return String(localized: "Reservoir", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Reservoir", comment: "Water Supply Infrastructure Subtype")
         case .storageTower:
-            return String(localized: "Storage Tower", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Storage Tower", comment: "Water Supply Infrastructure Subtype")
         case .surfaceWaterIntake:
-            return String(localized: "Surface Water Intake", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Surface Water Intake", comment: "Water Supply Infrastructure Subtype")
         case .wastewaterTreatmentFacility:
-            return String(localized: "Wastewater Treatment Facility", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Wastewater Treatment Facility", comment: "Water Supply Infrastructure Subtype")
         case .water:
-            return String(localized: "Water", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Water", comment: "Water Supply Infrastructure Subtype")
         case .waterTreatment:
-            return String(localized: "Water Treatment", comment: "Water Supply Infrastructure Subtype")
+            String(localized: "Water Treatment", comment: "Water Supply Infrastructure Subtype")
         }
     }
 }

@@ -18,25 +18,25 @@ enum CloudCoverageSymbolsEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .clearSky:
-            return String(localized: "Clear Sky", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Clear Sky", comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .fewCoverage:
-            return String(localized: "Few Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Few Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .scatteredCoverage:
-            return String(localized: "Scattered Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Scattered Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .brokenCoverage:
-            return String(localized: "Broken Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Broken Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .overcastCoverage:
-            return String(localized: "Overcast Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Overcast Coverage", comment: "Cloud Coverage Symbols Entity Subtype")
 
         case .obscuredSky:
-            return String(localized: "Sky Totally or Partially Obscured", comment: "Cloud Coverage Symbols Entity Subtype")
+            String(localized: "Sky Totally or Partially Obscured", comment: "Cloud Coverage Symbols Entity Subtype")
         }
     }
 }

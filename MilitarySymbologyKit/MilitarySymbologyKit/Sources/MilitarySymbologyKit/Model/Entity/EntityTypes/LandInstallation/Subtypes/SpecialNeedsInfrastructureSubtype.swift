@@ -18,13 +18,13 @@ enum SpecialNeedsInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .adultDayCare:
-            return String(localized: "Adult Day Care", comment: "Special Needs Infrastructure Subtype")
+            String(localized: "Adult Day Care", comment: "Special Needs Infrastructure Subtype")
         case .childDayCare:
-            return String(localized: "Child Day Care", comment: "Special Needs Infrastructure Subtype")
+            String(localized: "Child Day Care", comment: "Special Needs Infrastructure Subtype")
         case .elderCare:
-            return String(localized: "Elder Care", comment: "Special Needs Infrastructure Subtype")
+            String(localized: "Elder Care", comment: "Special Needs Infrastructure Subtype")
         }
     }
 }

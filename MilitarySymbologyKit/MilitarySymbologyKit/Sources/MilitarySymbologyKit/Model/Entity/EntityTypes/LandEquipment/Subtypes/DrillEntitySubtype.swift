@@ -13,10 +13,10 @@ enum DrillEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .drillMountedOnUtilityVehicle:
-            return String(localized: "Drill Mounted on Utility Vehicle", comment: "Drill Entity Subtype")
+            String(localized: "Drill Mounted on Utility Vehicle", comment: "Drill Entity Subtype")
         }
     }
 }

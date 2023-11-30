@@ -19,15 +19,15 @@ enum PublicVenuesInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .enclosedFacility:
-            return String(localized: "Enclosed Facility", comment: "Public Venues Infrastructure Subtype")
+            String(localized: "Enclosed Facility", comment: "Public Venues Infrastructure Subtype")
         case .openFacility:
-            return String(localized: "Open Facility", comment: "Public Venues Infrastructure Subtype")
+            String(localized: "Open Facility", comment: "Public Venues Infrastructure Subtype")
         case .recreationalArea:
-            return String(localized: "Recreational Area", comment: "Public Venues Infrastructure Subtype")
+            String(localized: "Recreational Area", comment: "Public Venues Infrastructure Subtype")
         case .religiousInstitution:
-            return String(localized: "Religious Institution", comment: "Public Venues Infrastructure Subtype")
+            String(localized: "Religious Institution", comment: "Public Venues Infrastructure Subtype")
         }
     }
 }

@@ -14,13 +14,13 @@ enum LeisureCraftMotorizedEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .rigidHullInflatableBoat:
-            return String(localized: "Rigid-Hull Inflatable Boat (RHIB)", comment: "Leisure Craft Motorized Entity Subtype")
+            String(localized: "Rigid-Hull Inflatable Boat (RHIB)", comment: "Leisure Craft Motorized Entity Subtype")
 
         case .speedboat:
-            return String(localized: "Speedboat", comment: "Leisure Craft Motorized Entity Subtype")
+            String(localized: "Speedboat", comment: "Leisure Craft Motorized Entity Subtype")
         }
     }
 }

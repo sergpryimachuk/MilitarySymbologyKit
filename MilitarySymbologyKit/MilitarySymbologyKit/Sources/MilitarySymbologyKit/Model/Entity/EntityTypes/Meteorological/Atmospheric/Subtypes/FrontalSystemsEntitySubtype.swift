@@ -27,52 +27,52 @@ enum FrontalSystemsEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .coldFront:
-            return String(localized: "Cold Front", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Cold Front", comment: "Frontal Systems Entity Subtype")
             
         case .upperColdFront:
-            return String(localized: "Upper Cold Front", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Upper Cold Front", comment: "Frontal Systems Entity Subtype")
             
         case .coldFrontogenesis:
-            return String(localized: "Cold Frontogenesis", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Cold Frontogenesis", comment: "Frontal Systems Entity Subtype")
             
         case .coldFrontolysis:
-            return String(localized: "Cold Frontolysis", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Cold Frontolysis", comment: "Frontal Systems Entity Subtype")
             
         case .warmFront:
-            return String(localized: "Warm Front", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Warm Front", comment: "Frontal Systems Entity Subtype")
             
         case .upperWarmFront:
-            return String(localized: "Upper Warm Front", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Upper Warm Front", comment: "Frontal Systems Entity Subtype")
             
         case .warmFrontogenesis:
-            return String(localized: "Warm Frontogenesis", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Warm Frontogenesis", comment: "Frontal Systems Entity Subtype")
             
         case .warmFrontolysis:
-            return String(localized: "Warm Frontolysis", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Warm Frontolysis", comment: "Frontal Systems Entity Subtype")
             
         case .occludedFront:
-            return String(localized: "Occluded Front", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Occluded Front", comment: "Frontal Systems Entity Subtype")
             
         case .upperOccludedFront:
-            return String(localized: "Upper Occluded Front", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Upper Occluded Front", comment: "Frontal Systems Entity Subtype")
             
         case .occludedFrontolysis:
-            return String(localized: "Occluded Frontolysis", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Occluded Frontolysis", comment: "Frontal Systems Entity Subtype")
             
         case .stationaryFront:
-            return String(localized: "Stationary Front", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Stationary Front", comment: "Frontal Systems Entity Subtype")
             
         case .upperStationaryFront:
-            return String(localized: "Upper Stationary Front", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Upper Stationary Front", comment: "Frontal Systems Entity Subtype")
             
         case .stationaryFrontogenesis:
-            return String(localized: "Stationary Frontogenesis", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Stationary Frontogenesis", comment: "Frontal Systems Entity Subtype")
             
         case .stationaryFrontolysis:
-            return String(localized: "Stationary Frontolysis", comment: "Frontal Systems Entity Subtype")
+            String(localized: "Stationary Frontolysis", comment: "Frontal Systems Entity Subtype")
         }
     }
 }

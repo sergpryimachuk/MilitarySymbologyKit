@@ -15,16 +15,16 @@ enum FishingVesselEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .drifter:
-            return String(localized: "Drifter", comment: "Fishing Vessel Entity Subtype")
+            String(localized: "Drifter", comment: "Fishing Vessel Entity Subtype")
 
         case .trawler:
-            return String(localized: "Trawler", comment: "Fishing Vessel Entity Subtype")
+            String(localized: "Trawler", comment: "Fishing Vessel Entity Subtype")
 
         case .dredger:
-            return String(localized: "Dredger", comment: "Fishing Vessel Entity Subtype")
+            String(localized: "Dredger", comment: "Fishing Vessel Entity Subtype")
         }
     }
 }

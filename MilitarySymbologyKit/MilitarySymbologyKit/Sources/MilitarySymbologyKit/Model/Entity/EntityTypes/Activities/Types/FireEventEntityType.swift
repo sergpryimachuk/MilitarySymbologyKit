@@ -20,23 +20,23 @@ enum FireEventEntityType: String, CaseIterable, EntityType {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .fireOrigin:
-            return String(localized: "Fire Origin", comment: "Fire Event Entity Type")
+            String(localized: "Fire Origin", comment: "Fire Event Entity Type")
         case .smoke:
-            return String(localized: "Smoke", comment: "Fire Event Entity Type")
+            String(localized: "Smoke", comment: "Fire Event Entity Type")
         case .hotSpot:
-            return String(localized: "Hot Spot", comment: "Fire Event Entity Type")
+            String(localized: "Hot Spot", comment: "Fire Event Entity Type")
         case .nonResidentialFire:
-            return String(localized: "Non-Residential Fire", comment: "Fire Event Entity Type")
+            String(localized: "Non-Residential Fire", comment: "Fire Event Entity Type")
         case .residentialFire:
-            return String(localized: "Residential Fire", comment: "Fire Event Entity Type")
+            String(localized: "Residential Fire", comment: "Fire Event Entity Type")
         case .schoolFire:
-            return String(localized: "School Fire", comment: "Fire Event Entity Type")
+            String(localized: "School Fire", comment: "Fire Event Entity Type")
         case .specialNeedsFire:
-            return String(localized: "Special Needs Fire", comment: "Fire Event Entity Type")
+            String(localized: "Special Needs Fire", comment: "Fire Event Entity Type")
         case .wildFire:
-            return String(localized: "Wild Fire", comment: "Fire Event Entity Type")
+            String(localized: "Wild Fire", comment: "Fire Event Entity Type")
         }
     }
     

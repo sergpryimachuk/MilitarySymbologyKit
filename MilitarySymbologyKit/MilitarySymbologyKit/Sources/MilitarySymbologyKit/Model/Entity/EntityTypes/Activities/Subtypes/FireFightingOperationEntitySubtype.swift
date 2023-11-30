@@ -15,13 +15,13 @@ enum FireFightingOperationEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .fireHydrant:
-            return String(localized: "Fire Hydrant", comment: "Firefighting Operation Entity Subtype")
+            String(localized: "Fire Hydrant", comment: "Firefighting Operation Entity Subtype")
         case .fireStation:
-            return String(localized: "Fire Station", comment: "Firefighting Operation Entity Subtype")
+            String(localized: "Fire Station", comment: "Firefighting Operation Entity Subtype")
         case .otherWaterSupplyLocation:
-            return String(localized: "Other Water Supply Location", comment: "Firefighting Operation Entity Subtype")
+            String(localized: "Other Water Supply Location", comment: "Firefighting Operation Entity Subtype")
         }
     }
 }

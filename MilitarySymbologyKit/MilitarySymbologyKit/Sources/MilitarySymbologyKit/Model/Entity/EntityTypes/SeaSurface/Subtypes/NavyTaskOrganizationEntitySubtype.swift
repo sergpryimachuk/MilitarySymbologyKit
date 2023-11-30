@@ -17,22 +17,22 @@ enum NavyTaskOrganizationEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .navyTaskElement:
-            return String(localized: "Navy Task Element", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Navy Task Element", comment: "Navy Task Organization Entity Subtype")
 
         case .navyTaskForce:
-            return String(localized: "Navy Task Force", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Navy Task Force", comment: "Navy Task Organization Entity Subtype")
 
         case .navyTaskGroup:
-            return String(localized: "Navy Task Group", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Navy Task Group", comment: "Navy Task Organization Entity Subtype")
 
         case .navyTaskUnit:
-            return String(localized: "Navy Task Unit", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Navy Task Unit", comment: "Navy Task Organization Entity Subtype")
 
         case .convoy:
-            return String(localized: "Convoy", comment: "Navy Task Organization Entity Subtype")
+            String(localized: "Convoy", comment: "Navy Task Organization Entity Subtype")
         }
     }
 }

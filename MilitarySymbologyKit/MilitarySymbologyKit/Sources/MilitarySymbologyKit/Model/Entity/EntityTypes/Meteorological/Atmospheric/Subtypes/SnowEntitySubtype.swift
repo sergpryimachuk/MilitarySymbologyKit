@@ -20,31 +20,31 @@ enum SnowEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .intermittentLight:
-            return String(localized: "Intermittent Light", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Light", comment: "Snow Entity Subtype")
             
         case .intermittentLightContinuousLight:
-            return String(localized: "Intermittent Light/Continuous Light", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Light/Continuous Light", comment: "Snow Entity Subtype")
             
         case .intermittentModerate:
-            return String(localized: "Intermittent Moderate", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Moderate", comment: "Snow Entity Subtype")
             
         case .intermittentModerateContinuousModerate:
-            return String(localized: "Intermittent Moderate/Continuous Moderate", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Moderate/Continuous Moderate", comment: "Snow Entity Subtype")
             
         case .intermittentHeavy:
-            return String(localized: "Intermittent Heavy", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Heavy", comment: "Snow Entity Subtype")
             
         case .intermittentHeavyContinuousHeavy:
-            return String(localized: "Intermittent Heavy/Continuous Heavy", comment: "Snow Entity Subtype")
+            String(localized: "Intermittent Heavy/Continuous Heavy", comment: "Snow Entity Subtype")
             
         case .blowingSnowLightModerate:
-            return String(localized: "Blowing Snow - Light/Moderate", comment: "Snow Entity Subtype")
+            String(localized: "Blowing Snow - Light/Moderate", comment: "Snow Entity Subtype")
             
         case .blowingSnowHeavy:
-            return String(localized: "Blowing Snow - Heavy", comment: "Snow Entity Subtype")
+            String(localized: "Blowing Snow - Heavy", comment: "Snow Entity Subtype")
         }
     }
 }

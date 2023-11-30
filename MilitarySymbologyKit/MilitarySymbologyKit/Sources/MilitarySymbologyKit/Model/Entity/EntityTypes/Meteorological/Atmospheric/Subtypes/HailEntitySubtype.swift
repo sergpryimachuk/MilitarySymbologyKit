@@ -14,13 +14,13 @@ enum HailEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .lightNotAssociatedWithThunder:
-            return String(localized: "Light not Associated with Thunder", comment: "Hail Entity Subtype")
+            String(localized: "Light not Associated with Thunder", comment: "Hail Entity Subtype")
             
         case .moderateHeavyNotAssociatedWithThunder:
-            return String(localized: "Moderate/Heavy not Associated with Thunder", comment: "Hail Entity Subtype")
+            String(localized: "Moderate/Heavy not Associated with Thunder", comment: "Hail Entity Subtype")
         }
     }
 }

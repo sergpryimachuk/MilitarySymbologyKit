@@ -22,21 +22,21 @@ enum BankingFinanceAndInsuranceInfrastructureSubtype: String, CaseIterable, Enti
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .atm:
-            return String(localized: "ATM", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "ATM", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .bank:
-            return String(localized: "Bank", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Bank", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .bullionStorage:
-            return String(localized: "Bullion Storage", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Bullion Storage", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .economicInfrastructureAsset:
-            return String(localized: "Economic Infrastructure Asset", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Economic Infrastructure Asset", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .federalReserveBank:
-            return String(localized: "Federal Reserve Bank", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Federal Reserve Bank", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .financialExchange:
-            return String(localized: "Financial Exchange", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Financial Exchange", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .financialServicesOther:
-            return String(localized: "Financial Services-Other", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
+            String(localized: "Financial Services-Other", comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         }
     }
 }

@@ -20,17 +20,17 @@ enum InfestationEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .bird:
-            return String(localized: "Bird", comment: "Infestation Entity Subtype")
+            String(localized: "Bird", comment: "Infestation Entity Subtype")
         case .insect:
-            return String(localized: "Insect", comment: "Infestation Entity Subtype")
+            String(localized: "Insect", comment: "Infestation Entity Subtype")
         case .microbial:
-            return String(localized: "Microbial", comment: "Infestation Entity Subtype")
+            String(localized: "Microbial", comment: "Infestation Entity Subtype")
         case .reptile:
-            return String(localized: "Reptile", comment: "Infestation Entity Subtype")
+            String(localized: "Reptile", comment: "Infestation Entity Subtype")
         case .rodent:
-            return String(localized: "Rodent", comment: "Infestation Entity Subtype")
+            String(localized: "Rodent", comment: "Infestation Entity Subtype")
         }
     }
 }

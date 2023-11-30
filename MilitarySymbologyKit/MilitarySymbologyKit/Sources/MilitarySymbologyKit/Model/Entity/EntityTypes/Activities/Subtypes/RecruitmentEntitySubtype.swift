@@ -13,9 +13,9 @@ enum RecruitmentEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .willing:
-            return String(localized: "Willing", comment: "Recruitment Entity Subtype")
+            String(localized: "Willing", comment: "Recruitment Entity Subtype")
         case .coercedImpressed:
-            return String(localized: "Coerced/Impressed", comment: "Recruitment Entity Subtype")
+            String(localized: "Coerced/Impressed", comment: "Recruitment Entity Subtype")
         }
     }
 }

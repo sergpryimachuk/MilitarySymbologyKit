@@ -18,13 +18,13 @@ enum TelecommunicationsInfrastructureSubtype: String, CaseIterable, EntitySubtyp
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
         case .broadcastTransmitterAntennae:
-            return String(localized: "Broadcast Transmitter Antennae", comment: "Telecommunications Infrastructure Subtype")
+            String(localized: "Broadcast Transmitter Antennae", comment: "Telecommunications Infrastructure Subtype")
         case .telecommunications:
-            return String(localized: "Telecommunications", comment: "Telecommunications Infrastructure Subtype")
+            String(localized: "Telecommunications", comment: "Telecommunications Infrastructure Subtype")
         case .telecommunicationsTower:
-            return String(localized: "Telecommunications Tower", comment: "Telecommunications Infrastructure Subtype")
+            String(localized: "Telecommunications Tower", comment: "Telecommunications Infrastructure Subtype")
         }
     }
 }

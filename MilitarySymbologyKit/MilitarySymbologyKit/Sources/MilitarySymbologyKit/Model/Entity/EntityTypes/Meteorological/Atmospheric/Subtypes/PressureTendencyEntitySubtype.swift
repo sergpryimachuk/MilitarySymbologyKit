@@ -21,34 +21,34 @@ enum PressureTendencyEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .riseThenFallHigher:
-            return String(localized: "Rise Then Fall Higher", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise Then Fall Higher", comment: "Pressure Tendency Entity Subtype")
             
         case .riseThenSteady:
-            return String(localized: "Rise Then Steady", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise Then Steady", comment: "Pressure Tendency Entity Subtype")
             
         case .rise:
-            return String(localized: "Rise", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise", comment: "Pressure Tendency Entity Subtype")
             
         case .riseThenRiseHigher:
-            return String(localized: "Rise Then Rise Higher", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise Then Rise Higher", comment: "Pressure Tendency Entity Subtype")
             
         case .steady:
-            return String(localized: "Steady", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Steady", comment: "Pressure Tendency Entity Subtype")
             
         case .fallThenRiseLower:
-            return String(localized: "Fall Then Rise Lower", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Fall Then Rise Lower", comment: "Pressure Tendency Entity Subtype")
             
         case .fallThenSteady:
-            return String(localized: "Fall Then Steady", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Fall Then Steady", comment: "Pressure Tendency Entity Subtype")
             
         case .fall:
-            return String(localized: "Fall", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Fall", comment: "Pressure Tendency Entity Subtype")
             
         case .riseThenFallLower:
-            return String(localized: "Rise Then Fall Lower", comment: "Pressure Tendency Entity Subtype")
+            String(localized: "Rise Then Fall Lower", comment: "Pressure Tendency Entity Subtype")
         }
     }
 }

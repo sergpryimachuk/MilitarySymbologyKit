@@ -13,10 +13,10 @@ enum EarthmoverEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .multifunctionalEarthmoverDigger:
-            return String(localized: "Multifunctional Earthmover/Digger", comment: "Earthmover Entity Subtype")
+            String(localized: "Multifunctional Earthmover/Digger", comment: "Earthmover Entity Subtype")
         }
     }
 }

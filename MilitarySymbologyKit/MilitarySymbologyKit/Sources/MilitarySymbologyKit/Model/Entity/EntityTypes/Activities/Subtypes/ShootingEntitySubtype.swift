@@ -13,10 +13,10 @@ enum ShootingEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .sniping:
-            return String(localized: "Sniping", comment: "Shooting Entity Subtype")
+            String(localized: "Sniping", comment: "Shooting Entity Subtype")
         }
     }
 }

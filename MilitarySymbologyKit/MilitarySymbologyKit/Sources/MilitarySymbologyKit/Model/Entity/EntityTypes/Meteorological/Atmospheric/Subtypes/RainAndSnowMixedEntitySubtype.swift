@@ -16,19 +16,19 @@ enum RainAndSnowMixedEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
             
         case .light:
-            return String(localized: "Light", comment: "Rain and Snow Mixed Entity Subtype")
+            String(localized: "Light", comment: "Rain and Snow Mixed Entity Subtype")
             
         case .moderateHeavy:
-            return String(localized: "Moderate/Heavy", comment: "Rain and Snow Mixed Entity Subtype")
+            String(localized: "Moderate/Heavy", comment: "Rain and Snow Mixed Entity Subtype")
             
         case .lightShowers:
-            return String(localized: "Light Showers", comment: "Rain and Snow Mixed Entity Subtype")
+            String(localized: "Light Showers", comment: "Rain and Snow Mixed Entity Subtype")
             
         case .moderateHeavyShowers:
-            return String(localized: "Moderate/Heavy Showers", comment: "Rain and Snow Mixed Entity Subtype")
+            String(localized: "Moderate/Heavy Showers", comment: "Rain and Snow Mixed Entity Subtype")
         }
     }
 }

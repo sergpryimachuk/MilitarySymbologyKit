@@ -16,19 +16,19 @@ enum ServiceCraftYardEntitySubtype: String, CaseIterable, EntitySubtype {
     var name: String {
         switch self {
         case .none:
-            return String(localized: "None")
+            String(localized: "None")
 
         case .bargeNotSelfPropelled:
-            return String(localized: "Barge, Not Self-Propelled", comment: "Service Craft Yard Entity Subtype")
+            String(localized: "Barge, Not Self-Propelled", comment: "Service Craft Yard Entity Subtype")
 
         case .bargeSelfPropelled:
-            return String(localized: "Barge, Self-Propelled", comment: "Service Craft Yard Entity Subtype")
+            String(localized: "Barge, Self-Propelled", comment: "Service Craft Yard Entity Subtype")
 
         case .tugHarbor:
-            return String(localized: "Tug, Harbor", comment: "Service Craft Yard Entity Subtype")
+            String(localized: "Tug, Harbor", comment: "Service Craft Yard Entity Subtype")
 
         case .launch:
-            return String(localized: "Launch", comment: "Service Craft Yard Entity Subtype")
+            String(localized: "Launch", comment: "Service Craft Yard Entity Subtype")
         }
     }
 }
