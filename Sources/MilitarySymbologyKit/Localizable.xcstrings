@@ -2,10 +2,26 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Activities" : {
-      "comment" : "Dimension"
+      "comment" : "Dimension",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активності"
+          }
+        }
+      }
     },
     "Administrative" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Адміністративна"
+          }
+        }
+      }
     },
     "Adult Day Care" : {
       "comment" : "Special Needs Infrastructure Subtype"
@@ -26,7 +42,15 @@
       "comment" : "Hydrography Entity Type"
     },
     "Air" : {
-      "comment" : "Transportation Incident Entity Type\nDimension"
+      "comment" : "Transportation Incident Entity Type\nDimension",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повітря"
+          }
+        }
+      }
     },
     "Air Assault with Organic Lift" : {
       "comment" : "Movement and Maneuver Entity Type"
@@ -3221,10 +3245,26 @@
       "comment" : "Military Symbol init from SIDC Error"
     },
     "Wrong symbol status." : {
-      "comment" : "Military Symbol init from SIDC Error"
+      "comment" : "Military Symbol init from SIDC Error",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неправильний статус символу."
+          }
+        }
+      }
     },
     "Zombie" : {
-      "comment" : "Botnet Entity Type"
+      "comment" : "Botnet Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зомбі"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
