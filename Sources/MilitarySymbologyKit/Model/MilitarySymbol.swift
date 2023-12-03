@@ -9,7 +9,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
     public let version: String = "01"
     public var context: Context = .reality
     public var standardIdentity: StandardIdentity = .unknown
-    public var dimention: Dimension = .air {
+    public var dimention: Dimension = .landUnits {
         didSet {
             if let first = dimention.entities.first {
                 entity = first
