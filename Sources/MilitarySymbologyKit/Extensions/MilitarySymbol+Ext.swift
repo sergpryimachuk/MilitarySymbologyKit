@@ -4,6 +4,7 @@
 
 import OSLog
 import SwiftUI
+import MilitarySymbologyAssets
 
 public extension MilitarySymbol {
     // MARK: - FRAME
@@ -244,34 +245,34 @@ public extension MilitarySymbol {
 
     func makeView(size: CGFloat? = nil) -> some View {
         ZStack {
-            Image(frameAssetName, bundle: .module)
+            Image(frameAssetName, bundle: .militarySymbologyAssets)
                 .resizable()
                 .scaledToFit()
 
             if let amplifierAssetName {
-                Image(amplifierAssetName, bundle: .module)
+                Image(amplifierAssetName, bundle: .militarySymbologyAssets)
                     .resizable()
                     .scaledToFit()
             }
 
             if let hqtfdAssetName {
-                Image(hqtfdAssetName, bundle: .module)
+                Image(hqtfdAssetName, bundle: .militarySymbologyAssets)
                     .resizable()
                     .scaledToFit()
             }
 
             if let mainIconAssetName {
-                Image(mainIconAssetName, bundle: .module)
+                Image(mainIconAssetName, bundle: .militarySymbologyAssets)
                     .resizable()
                     .scaledToFit()
             }
 
-            Image(fullFrameMainIconAssetName, bundle: .module)
+            Image(fullFrameMainIconAssetName, bundle: .militarySymbologyAssets)
                 .resizable()
                 .scaledToFit()
 
             if let ocaAssetName {
-                Image(ocaAssetName, bundle: .module)
+                Image(ocaAssetName, bundle: .militarySymbologyAssets)
                     .resizable()
                     .scaledToFit()
             }
