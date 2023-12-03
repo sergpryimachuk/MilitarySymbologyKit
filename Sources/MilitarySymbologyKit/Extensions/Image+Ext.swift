@@ -4,6 +4,6 @@
 
 import SwiftUI
 
-extension Image {
+public extension Image {
     static let unknownMilitarySymbol = Image(systemName: "questionmark.diamond.fill")
 }
