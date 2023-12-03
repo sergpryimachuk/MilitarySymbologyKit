@@ -7,6 +7,25 @@ import SwiftUI
 import MilitarySymbologyAssets
 
 public extension MilitarySymbol {
+    
+    /// Init with *default* values.
+    init(isAlternateStatusAmplifiers: Bool = true) {
+        context = .reality
+        standardIdentity = .pending
+        dimention = .landUnits
+        status = .present
+        hqtfd = .none
+        amplifier = .none
+        descriptor = .none
+        entity = .none
+        entityType = .none
+        entitySubtype = .none
+        isCivilian = false
+        self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
+    }
+}
+
+public extension MilitarySymbol {
     // MARK: - FRAME
 
     // All good.
