@@ -35,7 +35,15 @@
       }
     },
     "Advanced Persistent Threat (APT)" : {
-      "comment" : "Infection Entity Type"
+      "comment" : "Infection Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розширена стійка загроза (APT)"
+          }
+        }
+      }
     },
     "Aftershock" : {
       "comment" : "Geologic Entity Subtype",
@@ -192,7 +200,15 @@
       }
     },
     "Airborne Early Warning (AEW)" : {
-      "comment" : "Fixed Wing Entity Subtype"
+      "comment" : "Fixed Wing Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Раннє попередження з повітря (AEW)"
+          }
+        }
+      }
     },
     "Aircraft Production/Assembly" : {
       "comment" : "Installation Entity Type",
@@ -502,7 +518,15 @@
       }
     },
     "Antisurface Warfare" : {
-      "comment" : "Fixed Wing Entity Subtype"
+      "comment" : "Fixed Wing Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Протинадводна оборона"
+          }
+        }
+      }
     },
     "Antitank Gun" : {
       "comment" : "Weapon System Entity Type",
@@ -571,10 +595,26 @@
       }
     },
     "APT with C2" : {
-      "comment" : "APT Entity Subtype"
+      "comment" : "APT Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APT з C2"
+          }
+        }
+      }
     },
     "APT with C2 and Self Propagation" : {
-      "comment" : "APT Entity Subtype"
+      "comment" : "APT Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APT з C2 і саморозповсюдженням"
+          }
+        }
+      }
     },
     "APT with Self Propagation" : {
       "comment" : "APT Entity Subtype",
@@ -588,7 +628,15 @@
       }
     },
     "Armament Production" : {
-      "comment" : "Installation Entity Type"
+      "comment" : "Installation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виробництво зброї"
+          }
+        }
+      }
     },
     "Armor/Armored/Mechanized/Self-Propelled/Tracked" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -745,7 +793,15 @@
       }
     },
     "Armored/Mechanized/Tracked" : {
-      "comment" : "Infantry Entity Subtype\nMortar Entity Subtype"
+      "comment" : "Infantry Entity Subtype\nMortar Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Броньовані/механізовані/гусеничні"
+          }
+        }
+      }
     },
     "Army" : {
       "comment" : "Echelon at division and above amplifier descriptor",
@@ -775,7 +831,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Група армій/Фронт"
+            "value" : "Група армій / Фронт"
           }
         }
       }
@@ -869,7 +925,15 @@
       }
     },
     "Autonomous Underwater Vehicle (AUV)/Underwater Vehicle (UUV)" : {
-      "comment" : "Civilian Entity Type"
+      "comment" : "Civilian Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автономний підводний апарат (AUV)/підводний апарат (UUV)"
+          }
+        }
+      }
     },
     "Autonomous Underwater Vehicle (AUV)/Unmanned Underwater Vehicle (UUV)" : {
       "comment" : "Military Entity Type",
@@ -905,7 +969,15 @@
       }
     },
     "Avalanche" : {
-      "comment" : "Geologic Entity Subtype"
+      "comment" : "Geologic Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лавина"
+          }
+        }
+      }
     },
     "Aviation Composite" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -930,7 +1002,15 @@
       }
     },
     "Backhoe" : {
-      "comment" : "Engineer Vehicles and Equipment Entity Type"
+      "comment" : "Engineer Vehicles and Equipment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Екскаватор"
+          }
+        }
+      }
     },
     "Band" : {
       "comment" : "Sustainment Entity Type",
@@ -955,10 +1035,26 @@
       }
     },
     "Banking, Finance, and Insurance Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Банківська, фінансова та страхова інфраструктура"
+          }
+        }
+      }
     },
     "Barge" : {
-      "comment" : "Equipment mobility on water amplifier descriptor"
+      "comment" : "Equipment mobility on water amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Баржа"
+          }
+        }
+      }
     },
     "Barge, Not Self-Propelled" : {
       "comment" : "Service Craft Yard Entity Subtype\nMerchant Ship Entity Subtype",
@@ -972,7 +1068,15 @@
       }
     },
     "Barge, Self-Propelled" : {
-      "comment" : "Service Craft Yard Entity Subtype"
+      "comment" : "Service Craft Yard Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Баржа, самохідна"
+          }
+        }
+      }
     },
     "Battalion/Squadron" : {
       "comment" : "Echelon at brigade and below amplifier descriptor",
@@ -980,7 +1084,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Батальйон/Ескадрілія"
+            "value" : "Батальйон / Дивізіон / Эскадрилья"
           }
         }
       }
@@ -1019,10 +1123,26 @@
       }
     },
     "Bird" : {
-      "comment" : "Infestation Entity Subtype"
+      "comment" : "Infestation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Птахи"
+          }
+        }
+      }
     },
     "Black List Location" : {
-      "comment" : "Installation Entity Type"
+      "comment" : "Installation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розташування чорного списку"
+          }
+        }
+      }
     },
     "Black Marketing" : {
       "comment" : "Criminal Activity Incident Entity Subtype",
@@ -1036,10 +1156,26 @@
       }
     },
     "Blowing Dust or Sand" : {
-      "comment" : "Dust or Sand Entity Subtype"
+      "comment" : "Dust or Sand Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Видування пилу або піску"
+          }
+        }
+      }
     },
     "Blowing Snow - Heavy" : {
-      "comment" : "Snow Entity Subtype"
+      "comment" : "Snow Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blowing Snow - Heavy"
+          }
+        }
+      }
     },
     "Blowing Snow - Light/Moderate" : {
       "comment" : "Snow Entity Subtype",
@@ -1086,7 +1222,15 @@
       }
     },
     "Bomb/Bombing" : {
-      "comment" : "Incident Entity Type"
+      "comment" : "Incident Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бомба/бомбардування"
+          }
+        }
+      }
     },
     "Bomber" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -1133,7 +1277,15 @@
       }
     },
     "Bottom Features" : {
-      "comment" : "Hydrography Entity Type"
+      "comment" : "Hydrography Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нижні функції"
+          }
+        }
+      }
     },
     "Bounded Areas of Weather" : {
       "comment" : "Atmospheric Entity Type",
@@ -1169,7 +1321,15 @@
       }
     },
     "Brigade" : {
-      "comment" : "Echelon at brigade and below amplifier descriptor"
+      "comment" : "Echelon at brigade and below amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бригада"
+          }
+        }
+      }
     },
     "Broadcast" : {
       "comment" : "Sustainment Entity Type",
@@ -1326,7 +1486,15 @@
       }
     },
     "Cargo, General" : {
-      "comment" : "Merchant Ship Entity Subtype"
+      "comment" : "Merchant Ship Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вантажний, Загальний"
+          }
+        }
+      }
     },
     "Carrier" : {
       "comment" : "Military Combatant Entity Type",
@@ -1395,7 +1563,15 @@
       }
     },
     "Chemical-Biological-Radiological and Nuclear (CBRN)" : {
-      "comment" : "Installation Entity Type"
+      "comment" : "Installation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хіміко-біологічно-радіологічні та ядерні (ХБРЯ)"
+          }
+        }
+      }
     },
     "Child Day Care" : {
       "comment" : "Special Needs Infrastructure Subtype",
@@ -1475,7 +1651,15 @@
       }
     },
     "Clear Icing" : {
-      "comment" : "Icing Entity Type"
+      "comment" : "Icing Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прозора глазур"
+          }
+        }
+      }
     },
     "Clear Sky" : {
       "comment" : "Cloud Coverage Symbols Entity Subtype",
@@ -1522,7 +1706,15 @@
       }
     },
     "Coastal Hydrography" : {
-      "comment" : "Hydrography Entity Type"
+      "comment" : "Hydrography Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прибережна гідрографія"
+          }
+        }
+      }
     },
     "Coerced/Impressed" : {
       "comment" : "Recruitment Entity Subtype",
@@ -1536,16 +1728,48 @@
       }
     },
     "Cold Front" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Холодний фронт"
+          }
+        }
+      }
     },
     "Cold Frontogenesis" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Холодний фронтогенез"
+          }
+        }
+      }
     },
     "Cold Frontolysis" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Холодний фронтоліз"
+          }
+        }
+      }
     },
     "College/University" : {
-      "comment" : "Educational Facilities Infrastructure Subtype"
+      "comment" : "Educational Facilities Infrastructure Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коледж/Університет"
+          }
+        }
+      }
     },
     "Combat" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -1559,7 +1783,15 @@
       }
     },
     "Combat Search and Rescue (CSAR)" : {
-      "comment" : "Fixed Wing Entity Subtype"
+      "comment" : "Fixed Wing Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бойовий пошук і рятування (CSAR)"
+          }
+        }
+      }
     },
     "Combat Service Support" : {
       "comment" : "Sustainment Entity Type",
@@ -1672,7 +1904,15 @@
       }
     },
     "Commercial Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Комерційна інфраструктура"
+          }
+        }
+      }
     },
     "Communications" : {
       "comment" : "Signal Intercept Entity Type\nFixed Wing Entity Subtype",
@@ -1686,13 +1926,37 @@
       }
     },
     "Compact or Wet Snow (At Least One-Half of Ground)" : {
-      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Щільний або мокрий сніг (принаймні половина землі)"
+          }
+        }
+      }
     },
     "Compact or Wet Snow (Less Than One-Half of Ground)" : {
-      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Щільний або мокрий сніг (менше половини ґрунту)"
+          }
+        }
+      }
     },
     "Company/Battery/Troop" : {
-      "comment" : "Echelon at brigade and below amplifier descriptor"
+      "comment" : "Echelon at brigade and below amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рота / Батарея"
+          }
+        }
+      }
     },
     "Computer System" : {
       "comment" : "Other Equipment Entity Type",
@@ -1847,7 +2111,15 @@
       }
     },
     "Corps/MEF" : {
-      "comment" : "Echelon at division and above amplifier descriptor"
+      "comment" : "Echelon at division and above amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Корпус / MEF"
+          }
+        }
+      }
     },
     "Corrosive Material" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -1872,7 +2144,15 @@
       }
     },
     "Counterintelligence" : {
-      "comment" : "Intelligence Entity Type"
+      "comment" : "Intelligence Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контррозвідка"
+          }
+        }
+      }
     },
     "Crane/Loading Device" : {
       "comment" : "Missile Support Entity Type",
@@ -1886,7 +2166,15 @@
       }
     },
     "Criminal Activity Incident" : {
-      "comment" : "Incident Entity Type"
+      "comment" : "Incident Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інцидент злочинної діяльності"
+          }
+        }
+      }
     },
     "Criminal Investigation Division" : {
       "comment" : "Protection Entity Type",
@@ -1977,10 +2265,26 @@
       }
     },
     "Dangers/Hazards" : {
-      "comment" : "Hydrography Entity Type"
+      "comment" : "Hydrography Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Небезпеки"
+          }
+        }
+      }
     },
     "Data Manipulation" : {
-      "comment" : "Effect Entity Type"
+      "comment" : "Effect Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маніпуляції даними"
+          }
+        }
+      }
     },
     "Data Spoofing" : {
       "comment" : "Effect Entity Type",
@@ -2016,7 +2320,15 @@
       }
     },
     "Degradation" : {
-      "comment" : "Effect Entity Type"
+      "comment" : "Effect Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Деградація"
+          }
+        }
+      }
     },
     "Demonstration" : {
       "comment" : "Civil Disturbance Entity Type",
@@ -2052,7 +2364,15 @@
       }
     },
     "Depth" : {
-      "comment" : "Hydrography Entity Type"
+      "comment" : "Hydrography Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Глибина"
+          }
+        }
+      }
     },
     "Descriptor" : {
       "localizations" : {
@@ -2196,7 +2516,15 @@
       }
     },
     "Division" : {
-      "comment" : "Echelon at division and above amplifier descriptor"
+      "comment" : "Echelon at division and above amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дивізія"
+          }
+        }
+      }
     },
     "Division and Below Support" : {
       "comment" : "Amplifier Entity Subtype\nSignal Entity Subtype",
@@ -2243,7 +2571,15 @@
       }
     },
     "Dozer-Armored" : {
-      "comment" : "Entity Subtype"
+      "comment" : "Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бульдозерно-броньований"
+          }
+        }
+      }
     },
     "Dredge" : {
       "comment" : "Merchant Ship Entity Subtype",
@@ -2257,7 +2593,15 @@
       }
     },
     "Dredger" : {
-      "comment" : "Fishing Vessel Entity Subtype"
+      "comment" : "Fishing Vessel Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Земснаряд"
+          }
+        }
+      }
     },
     "Drifter" : {
       "comment" : "Fishing Vessel Entity Subtype",
@@ -2271,10 +2615,26 @@
       }
     },
     "Drill" : {
-      "comment" : "Engineer Vehicles and Equipment Entity Type"
+      "comment" : "Engineer Vehicles and Equipment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Свердло"
+          }
+        }
+      }
     },
     "Drill Mounted on Utility Vehicle" : {
-      "comment" : "Drill Entity Subtype"
+      "comment" : "Drill Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бур, встановлений на позашляховику"
+          }
+        }
+      }
     },
     "Drilling" : {
       "comment" : "Protection Entity Type",
@@ -2288,7 +2648,15 @@
       }
     },
     "Drive-by Shooting" : {
-      "comment" : "Criminal Activity Incident Entity Subtype"
+      "comment" : "Criminal Activity Incident Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стрільба з автомобіля"
+          }
+        }
+      }
     },
     "Drizzle" : {
       "comment" : "Weather Symbols Entity Type",
@@ -2302,7 +2670,15 @@
       }
     },
     "Drought" : {
-      "comment" : "Hydro-Meteorological Entity Subtype"
+      "comment" : "Hydro-Meteorological Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Посуха"
+          }
+        }
+      }
     },
     "Drug Enforcement Administration (DEA)" : {
       "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
@@ -2360,13 +2736,37 @@
       }
     },
     "Dynamic Processes" : {
-      "comment" : "Ice Systems Entity Type"
+      "comment" : "Ice Systems Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Динамічні процеси"
+          }
+        }
+      }
     },
     "Earthmover" : {
-      "comment" : "Engineer Vehicles and Equipment Entity Type"
+      "comment" : "Engineer Vehicles and Equipment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Землерий"
+          }
+        }
+      }
     },
     "Earthquake Epicenter" : {
-      "comment" : "Geologic Entity Subtype"
+      "comment" : "Geologic Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Епіцентр землетрусу"
+          }
+        }
+      }
     },
     "Echelon at brigade and below" : {
       "comment" : "Amplifier",
@@ -2374,7 +2774,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Бригаді і нижче"
+            "value" : "Бригада і нижче"
           }
         }
       }
@@ -2385,13 +2785,21 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Дивізіон і вище"
+            "value" : "Дивізія і вище"
           }
         }
       }
     },
     "Echo Tracker Classifier (ETC) / Possible Contact (POSCON)" : {
-      "comment" : "Sea Subsurface Entity"
+      "comment" : "Sea Subsurface Entity",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Класифікатор Echo Tracker (ETC) / Можливий контакт (POSCON)"
+          }
+        }
+      }
     },
     "Economic Infrastructure Asset" : {
       "comment" : "Banking, Finance, and Insurance Infrastructure Subtype",
@@ -2405,7 +2813,15 @@
       }
     },
     "Educational Facilities Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інфраструктура навчальних закладів"
+          }
+        }
+      }
     },
     "Effect" : {
       "comment" : "Cyberspace Entity Type",
@@ -2430,7 +2846,15 @@
       }
     },
     "Electric Power" : {
-      "comment" : "Energy Facility Infrastructure Subtype"
+      "comment" : "Energy Facility Infrastructure Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Електроенергія"
+          }
+        }
+      }
     },
     "Electronic Attack (EA)" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -2444,7 +2868,15 @@
       }
     },
     "Electronic Combat (EC)/Jammer" : {
-      "comment" : "Fixed Wing Entity Subtype"
+      "comment" : "Fixed Wing Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Електронна боротьба (EC)/Демер"
+          }
+        }
+      }
     },
     "Electronic Ranging" : {
       "comment" : "Intelligence Entity Type",
@@ -2469,7 +2901,15 @@
       }
     },
     "Electronic Warfare" : {
-      "comment" : "Intelligence Entity Type"
+      "comment" : "Intelligence Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Електронна війна"
+          }
+        }
+      }
     },
     "Emergency Collection Evacuation Point" : {
       "comment" : "Emergency Operation Entity Subtype",
@@ -2538,10 +2978,26 @@
       }
     },
     "Emergency Public Information Center" : {
-      "comment" : "Emergency Operation Entity Subtype"
+      "comment" : "Emergency Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Центр екстреного інформування населення"
+          }
+        }
+      }
     },
     "Emergency Shelter" : {
-      "comment" : "Emergency Operation Entity Subtype"
+      "comment" : "Emergency Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аварійне укриття"
+          }
+        }
+      }
     },
     "Emergency Staging Area" : {
       "comment" : "Emergency Operation Entity Subtype",
@@ -2555,10 +3011,26 @@
       }
     },
     "Emergency Water Distribution Center" : {
-      "comment" : "Emergency Operation Entity Subtype"
+      "comment" : "Emergency Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аварійний водорозподільний центр"
+          }
+        }
+      }
     },
     "EMT Station Location" : {
-      "comment" : "Emergency Medical Operation Entity Subtype"
+      "comment" : "Emergency Medical Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розташування станції швидкої медичної допомоги"
+          }
+        }
+      }
     },
     "Enclosed Facility" : {
       "comment" : "Public Venues Infrastructure Subtype",
@@ -2572,7 +3044,15 @@
       }
     },
     "Energy Facility Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інфраструктура енергетичних об'єктів"
+          }
+        }
+      }
     },
     "Engineer" : {
       "comment" : "Protection Entity Type",
@@ -2682,7 +3162,15 @@
       }
     },
     "Equipment mobility on water" : {
-      "comment" : "Amplifier"
+      "comment" : "Amplifier",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рухливе обладнання на воді"
+          }
+        }
+      }
     },
     "Escort" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -2696,10 +3184,26 @@
       }
     },
     "Even Layer of Compact or Wet Snow" : {
-      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рівномірний шар щільного або мокрого снігу"
+          }
+        }
+      }
     },
     "Even Layer of Loose Dry Snow" : {
-      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рівний шар пухкого сухого снігу"
+          }
+        }
+      }
     },
     "Exercise" : {
       "comment" : "Context",
@@ -2713,22 +3217,70 @@
       }
     },
     "Exercise Mine - Bottom" : {
-      "comment" : "Exercise Mine General Subtype"
+      "comment" : "Exercise Mine General Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навчальна міна - на дні"
+          }
+        }
+      }
     },
     "Exercise Mine - Floating" : {
-      "comment" : "Exercise Mine General Subtype"
+      "comment" : "Exercise Mine General Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навчальна міна - плаваюча"
+          }
+        }
+      }
     },
     "Exercise Mine - Moored" : {
-      "comment" : "Exercise Mine General Subtype"
+      "comment" : "Exercise Mine General Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навчальна міна - пришвартовано"
+          }
+        }
+      }
     },
     "Exercise Mine - Rising" : {
-      "comment" : "Exercise Mine General Subtype"
+      "comment" : "Exercise Mine General Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навчальна міна - на поверхні"
+          }
+        }
+      }
     },
     "Exercise Mine-General" : {
-      "comment" : "Sea Mine General Entity Type"
+      "comment" : "Sea Mine General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навчальна міна - загальне"
+          }
+        }
+      }
     },
     "Exfiltration" : {
-      "comment" : "Effect Entity Type\nOperation Entity Type"
+      "comment" : "Effect Entity Type\nOperation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ексфільтрація"
+          }
+        }
+      }
     },
     "Explosion" : {
       "comment" : "Incident Entity Type",
@@ -2742,7 +3294,15 @@
       }
     },
     "Explosive Material" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вибуховий матеріал"
+          }
+        }
+      }
     },
     "Explosive Ordnance Disposal (EOD)" : {
       "comment" : "Protection Entity Type",
@@ -2778,7 +3338,15 @@
       }
     },
     "Extremely Dry with Cracks" : {
-      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надзвичайно сухий з тріщинами"
+          }
+        }
+      }
     },
     "Fall" : {
       "comment" : "Pressure Tendency Entity Subtype",
@@ -2792,7 +3360,15 @@
       }
     },
     "Fall Then Rise Lower" : {
-      "comment" : "Pressure Tendency Entity Subtype"
+      "comment" : "Pressure Tendency Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Впади, а потім піднімися нижче"
+          }
+        }
+      }
     },
     "Fall Then Steady" : {
       "comment" : "Pressure Tendency Entity Subtype",
@@ -2850,13 +3426,37 @@
       }
     },
     "Feint/Dummy Headquarters" : {
-      "comment" : "Headquarters/Task force/Dummy"
+      "comment" : "Headquarters/Task force/Dummy",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хибний / Макет штабу"
+          }
+        }
+      }
     },
     "Feint/Dummy Task Force" : {
-      "comment" : "Headquarters/Task force/Dummy"
+      "comment" : "Headquarters/Task force/Dummy",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хибний / Макет оперативної групи"
+          }
+        }
+      }
     },
     "Feint/Dummy Task Force Headquarters" : {
-      "comment" : "Headquarters/Task force/Dummy"
+      "comment" : "Headquarters/Task force/Dummy",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хибний / Макет штабу оперативної групи"
+          }
+        }
+      }
     },
     "Ferry" : {
       "comment" : "Merchant Ship Entity Subtype",
@@ -3046,10 +3646,26 @@
       }
     },
     "Fire Origin" : {
-      "comment" : "Fire Event Entity Type"
+      "comment" : "Fire Event Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Походження вогню"
+          }
+        }
+      }
     },
     "Fire Station" : {
-      "comment" : "Emergency Operation Subtype\nFirefighting Operation Entity Subtype"
+      "comment" : "Emergency Operation Subtype\nFirefighting Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пожежна станція"
+          }
+        }
+      }
     },
     "Firearms Manufacturer" : {
       "comment" : "Commercial Infrastructure Subtype",
@@ -3129,7 +3745,15 @@
       }
     },
     "Fixed Wing MISO" : {
-      "comment" : "Special Operations Forces Entity Subtype"
+      "comment" : "Special Operations Forces Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фіксоване крило MISO"
+          }
+        }
+      }
     },
     "Fixed-Wing" : {
       "comment" : "Military Entity Type",
@@ -3154,13 +3778,37 @@
       }
     },
     "Flammable Gas" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Легкозаймистий газ"
+          }
+        }
+      }
     },
     "Flammable Liquid" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Легкозаймиста рідина"
+          }
+        }
+      }
     },
     "Flammable Solid" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Легкозаймиста тверда речовина"
+          }
+        }
+      }
     },
     "Floating Bridge" : {
       "comment" : "Engineer Vehicles and Equipment Entity Type",
@@ -3174,7 +3822,15 @@
       }
     },
     "Flood" : {
-      "comment" : "Hydro-Meteorological Entity Subtype"
+      "comment" : "Hydro-Meteorological Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повінь"
+          }
+        }
+      }
     },
     "Fog" : {
       "comment" : "Weather Symbols Entity Type\nBounded Areas of Weather Entity Type",
@@ -3287,10 +3943,26 @@
       }
     },
     "Freezing-Sky Obscured" : {
-      "comment" : "Fog Entity Subtype"
+      "comment" : "Fog Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Замерзання-затьмарене небо"
+          }
+        }
+      }
     },
     "Freezing-Sky Visible" : {
-      "comment" : "Fog Entity Subtype"
+      "comment" : "Fog Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заморожування - видно небо"
+          }
+        }
+      }
     },
     "Freezing/Frozen Precipitation" : {
       "comment" : "Bounded Areas of Weather Entity Type",
@@ -3370,7 +4042,15 @@
       }
     },
     "Generation Station" : {
-      "comment" : "Energy Facility Infrastructure Subtype"
+      "comment" : "Energy Facility Infrastructure Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Генераційна станція"
+          }
+        }
+      }
     },
     "Generator Set" : {
       "comment" : "Other Equipment Entity Type",
@@ -3395,16 +4075,48 @@
       }
     },
     "Geophysics/Acoustics" : {
-      "comment" : "Oceanographic Entity Type"
+      "comment" : "Oceanographic Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Геофізика/Акустика"
+          }
+        }
+      }
     },
     "Geospatial Support/Geospatial Information Support" : {
-      "comment" : "Protection Entity Type"
+      "comment" : "Protection Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підтримка геопросторової інформації/підтримка геопросторової інформації"
+          }
+        }
+      }
     },
     "Glaze (Thin Ice) on Ground" : {
-      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Глазур (тонкий лід) на землі"
+          }
+        }
+      }
     },
     "Government" : {
-      "comment" : "Fixed Wing Entity Subtype\nDevice Domain Entity Type"
+      "comment" : "Fixed Wing Entity Subtype\nDevice Domain Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уряд"
+          }
+        }
+      }
     },
     "Government Leadership" : {
       "comment" : "Installation Entity Type",
@@ -3418,7 +4130,15 @@
       }
     },
     "Government Site Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Урядова інфраструктура "
+          }
+        }
+      }
     },
     "Graffiti" : {
       "comment" : "Criminal Activity Incident Entity Subtype",
@@ -3531,7 +4251,15 @@
       }
     },
     "Hazard Materials Incident" : {
-      "comment" : "Hazard Materials Entity Type"
+      "comment" : "Hazard Materials Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інцидент із небезпечними матеріалами"
+          }
+        }
+      }
     },
     "Hazardous Material Production" : {
       "comment" : "Commercial Infrastructure Subtype",
@@ -3545,10 +4273,26 @@
       }
     },
     "Hazardous Material Storage" : {
-      "comment" : "Commercial Infrastructure Subtype"
+      "comment" : "Commercial Infrastructure Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зберігання небезпечних матеріалів"
+          }
+        }
+      }
     },
     "Hazardous When Wet" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Небезпечно у вологому стані"
+          }
+        }
+      }
     },
     "Haze" : {
       "comment" : "Weather Symbols Entity Type",
@@ -3562,7 +4306,15 @@
       }
     },
     "Headquarters" : {
-      "comment" : "Headquarters/Task force/Dummy"
+      "comment" : "Headquarters/Task force/Dummy",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Штаб"
+          }
+        }
+      }
     },
     "Headquarters Element" : {
       "comment" : "Amplifier Entity Subtype\nSignal Entity Subtype",
@@ -3587,7 +4339,15 @@
       }
     },
     "Health Department Facility" : {
-      "comment" : "Emergency Medical Operation Entity Subtype"
+      "comment" : "Emergency Medical Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Управління охорони здоров'я"
+          }
+        }
+      }
     },
     "Heavy" : {
       "comment" : "Light/Medium/Heavy Entity Subtype\nLight/Heavy Entity Subtype\nAir Defense Missile Launcher Entity Subtype",
@@ -3787,10 +4547,26 @@
       }
     },
     "Hydrography" : {
-      "comment" : "Oceanographic Entity Type"
+      "comment" : "Oceanographic Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гідрографія"
+          }
+        }
+      }
     },
     "Ice Concentration" : {
-      "comment" : "Ice Systems Entity Type"
+      "comment" : "Ice Systems Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Концентрація льоду"
+          }
+        }
+      }
     },
     "Ice Crystals (Diamond Dust)" : {
       "comment" : "Weather Symbols Entity Type",
@@ -3826,7 +4602,15 @@
       }
     },
     "Icebergs" : {
-      "comment" : "Ice Systems Entity Type"
+      "comment" : "Ice Systems Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Айсберги"
+          }
+        }
+      }
     },
     "Icing" : {
       "comment" : "Atmospheric Entity Type\nBounded Areas of Weather Entity Type",
@@ -3840,13 +4624,37 @@
       }
     },
     "IED Cache" : {
-      "comment" : "IED Event Entity Subtype"
+      "comment" : "IED Event Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тайник IED"
+          }
+        }
+      }
     },
     "IED Event" : {
-      "comment" : "Incident Entity Type"
+      "comment" : "Incident Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подія IED"
+          }
+        }
+      }
     },
     "IED Explosion" : {
-      "comment" : "IED Event Entity Subtype"
+      "comment" : "IED Event Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вибух IED"
+          }
+        }
+      }
     },
     "IED Suicide Bomber" : {
       "comment" : "IED Event Entity Subtype",
@@ -3860,10 +4668,26 @@
       }
     },
     "Illegal Drug Lab" : {
-      "comment" : "Illegal Drug Operation Entity Subtype"
+      "comment" : "Illegal Drug Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нелегальна нарколабораторія"
+          }
+        }
+      }
     },
     "Illegal Drug Operation" : {
-      "comment" : "Incident Entity Type"
+      "comment" : "Incident Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Незаконна операція з наркотиками"
+          }
+        }
+      }
     },
     "Impaired" : {
       "comment" : "Health and Status Entity Type",
@@ -3910,7 +4734,15 @@
       }
     },
     "Incendiary Explosion" : {
-      "comment" : "Explosion Entity Subtype"
+      "comment" : "Explosion Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запалювальний вибух"
+          }
+        }
+      }
     },
     "Incident" : {
       "comment" : "Activities Entity",
@@ -3957,7 +4789,15 @@
       }
     },
     "Infantry Fighting Vehicle" : {
-      "comment" : "Infantry Entity Subtype"
+      "comment" : "Infantry Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бойова машина піхоти (БМП)"
+          }
+        }
+      }
     },
     "Infection" : {
       "comment" : "Cyberspace Entity Type\nEffect Entity Type",
@@ -4103,7 +4943,15 @@
       }
     },
     "Intercept" : {
-      "comment" : "Electronic Warfare Entity Subtype"
+      "comment" : "Electronic Warfare Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перехоплення"
+          }
+        }
+      }
     },
     "Intercept (Search and Recording)" : {
       "comment" : "Intelligence Entity Type",
@@ -4282,10 +5130,26 @@
       }
     },
     "Jail Break" : {
-      "comment" : "Criminal Activity Incident Entity Subtype"
+      "comment" : "Criminal Activity Incident Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Втеча з в'язниці"
+          }
+        }
+      }
     },
     "Jammer" : {
-      "comment" : "Signal Intercept Entity Type"
+      "comment" : "Signal Intercept Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Глушилка"
+          }
+        }
+      }
     },
     "Jamming" : {
       "comment" : "Intelligence Entity Type\nElectronic Warfare Entity Subtype",
@@ -4529,7 +5393,15 @@
       }
     },
     "Landslide" : {
-      "comment" : "Geologic Entity Subtype"
+      "comment" : "Geologic Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зсув"
+          }
+        }
+      }
     },
     "Laser" : {
       "comment" : "Other Equipment Entity Type",
@@ -4543,7 +5415,15 @@
       }
     },
     "Lash Carrier (with Barges)" : {
-      "comment" : "Merchant Ship Entity Subtype"
+      "comment" : "Merchant Ship Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перевізник збаржею"
+          }
+        }
+      }
     },
     "Launch" : {
       "comment" : "Service Craft Yard Entity Subtype",
@@ -4557,7 +5437,15 @@
       }
     },
     "Laundry/Bath" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пральня/лазня"
+          }
+        }
+      }
     },
     "Law Enforcement" : {
       "comment" : "Land Equipment Entity\nInstallation Entity Type\nLand Unit Entity",
@@ -4648,7 +5536,15 @@
       }
     },
     "Light not Associated with Thunder" : {
-      "comment" : "Hail Entity Subtype"
+      "comment" : "Hail Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Світло не асоціюється з громом"
+          }
+        }
+      }
     },
     "Light Showers" : {
       "comment" : "Rain and Snow Mixed Entity Subtype",
@@ -4739,7 +5635,15 @@
       }
     },
     "Limits" : {
-      "comment" : "Oceanographic Entity Type\nIce Systems Entity Type"
+      "comment" : "Oceanographic Entity Type\nIce Systems Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Межі"
+          }
+        }
+      }
     },
     "Lines" : {
       "comment" : "Pressure Systems Entity Type",
@@ -4753,7 +5657,15 @@
       }
     },
     "Liquid Precipitation - Convective" : {
-      "comment" : "Entity Subtype"
+      "comment" : "Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рідкі опади - конвективні"
+          }
+        }
+      }
     },
     "Liquid Precipitation - Non-Convective Continuous or Intermittent" : {
       "comment" : "Bounded Areas of Weather Entity Type",
@@ -4767,7 +5679,15 @@
       }
     },
     "Littoral Combatant Ship" : {
-      "comment" : "Surface Combatant Line Entity Subtype"
+      "comment" : "Surface Combatant Line Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прибережний бойовий корабель"
+          }
+        }
+      }
     },
     "Lock" : {
       "comment" : "Man-Made Structures Entity Type",
@@ -4803,13 +5723,37 @@
       }
     },
     "Loose Dry Dust or Sand Not Covering Ground Completely" : {
-      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розсипчастий сухий пил або пісок не повністю покривають землю"
+          }
+        }
+      }
     },
     "Loose Dry Snow (At Least One-Half of Ground)" : {
-      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пухкий сухий сніг (принаймні половина ґрунту)"
+          }
+        }
+      }
     },
     "Loose Dry Snow (Less Than One-Half of Ground)" : {
-      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пухкий сухий сніг (менше половини ґрунту)"
+          }
+        }
+      }
     },
     "Low Pressure Center" : {
       "comment" : "Pressure Systems Entity Type",
@@ -4845,7 +5789,15 @@
       }
     },
     "Main Gun System" : {
-      "comment" : "Infantry Entity Subtype\nAir Defense Entity Subtype"
+      "comment" : "Infantry Entity Subtype\nAir Defense Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Основна гарматна система"
+          }
+        }
+      }
     },
     "Maintenance" : {
       "comment" : "Sustainment Entity Type",
@@ -4870,7 +5822,15 @@
       }
     },
     "Man-Made Structures" : {
-      "comment" : "Oceanographic Entity Type"
+      "comment" : "Oceanographic Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рукотворні споруди"
+          }
+        }
+      }
     },
     "Manual Track" : {
       "comment" : "Air Unit Entity\nSea Surface Entity\nLand Equipment Entity\nSea Subsurface Entity",
@@ -4928,7 +5888,15 @@
       }
     },
     "Mass Grave Site" : {
-      "comment" : "Installation Entity Type"
+      "comment" : "Installation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Місце масового поховання"
+          }
+        }
+      }
     },
     "Material" : {
       "comment" : "Sustainment Entity Type",
@@ -4942,10 +5910,26 @@
       }
     },
     "Materiel" : {
-      "comment" : "Installation Entity Type"
+      "comment" : "Installation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Матеріальні засоби"
+          }
+        }
+      }
     },
     "Mechanized" : {
-      "comment" : "Engineer Entity Subtype\nCBRND Defense Entity Subtype"
+      "comment" : "Engineer Entity Subtype\nCBRND Defense Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Механізована"
+          }
+        }
+      }
     },
     "Medical" : {
       "comment" : "Sustainment Entity Type\nUtility Vehicles Entity Type\nMedical Infrastructure Subtype",
@@ -5003,7 +5987,15 @@
       }
     },
     "Medical Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Медична інфраструктура"
+          }
+        }
+      }
     },
     "Medical Treatment Facility" : {
       "comment" : "Sustainment Entity Type",
@@ -5039,7 +6031,15 @@
       }
     },
     "Medium, TELAR" : {
-      "comment" : "Air Defense Missile Launcher Entity Subtype"
+      "comment" : "Air Defense Missile Launcher Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Середній, TELAR"
+          }
+        }
+      }
     },
     "Medium, TLAR" : {
       "comment" : "Air Defense Missile Launcher Entity Subtype",
@@ -5086,7 +6086,15 @@
       }
     },
     "Microbial" : {
-      "comment" : "Infestation Entity Subtype"
+      "comment" : "Infestation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мікробний"
+          }
+        }
+      }
     },
     "MILCO - Bottom" : {
       "comment" : "Mine-Like Contact Entity Type",
@@ -5265,10 +6273,26 @@
       }
     },
     "Military Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Військова інфраструктура"
+          }
+        }
+      }
     },
     "Military Intelligence" : {
-      "comment" : "Intelligence Entity Type"
+      "comment" : "Intelligence Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Військова розвідка"
+          }
+        }
+      }
     },
     "Military Noncombatant" : {
       "comment" : "Sea Surface Entity",
@@ -5315,7 +6339,15 @@
       }
     },
     "Mine Clearing Equipment" : {
-      "comment" : "Engineer Vehicles and Equipment Entity Type"
+      "comment" : "Engineer Vehicles and Equipment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обладнання для розмінування"
+          }
+        }
+      }
     },
     "Mine Clearing Equipment on Tank Chassis" : {
       "comment" : "Mine Clearing Equipment Entity Subtype",
@@ -5340,7 +6372,15 @@
       }
     },
     "Mine Countermeasures (MCM)" : {
-      "comment" : "Fixed Wing Entity Subtype"
+      "comment" : "Fixed Wing Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Протимінні заходи (MCM)"
+          }
+        }
+      }
     },
     "Mine Countermeasures, Support Ship" : {
       "comment" : "Mine Warfare Ship Entity Subtype",
@@ -5464,7 +6504,15 @@
       }
     },
     "Mine Warfare (MIW) Bottom Descriptors" : {
-      "comment" : "Geophysics/Acoustics Entity Type"
+      "comment" : "Geophysics/Acoustics Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дескриптори дна мінної боротьби (MIW)."
+          }
+        }
+      }
     },
     "Mine Warfare Ship" : {
       "comment" : "Military Combatant Entity Type",
@@ -5489,13 +6537,37 @@
       }
     },
     "Mine-Like Echo (MILEC)-General" : {
-      "comment" : "Mine Warfare Entity"
+      "comment" : "Mine Warfare Entity",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mine-Like Echo (MILEC) - генерал"
+          }
+        }
+      }
     },
     "Mine-Like Echo-Bottom" : {
-      "comment" : "Mine-Like Echo (MILEC) - General Entity Type"
+      "comment" : "Mine-Like Echo (MILEC) - General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Міна-як Ехо на дні"
+          }
+        }
+      }
     },
     "Mine-Like Echo-Floating" : {
-      "comment" : "Mine-Like Echo (MILEC) - General Entity Type"
+      "comment" : "Mine-Like Echo (MILEC) - General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ехо-плаваюче, подібне до шахти"
+          }
+        }
+      }
     },
     "Mine-Like Echo-Moored" : {
       "comment" : "Mine-Like Echo (MILEC) - General Entity Type",
@@ -5520,7 +6592,15 @@
       }
     },
     "Missile and Space System Production" : {
-      "comment" : "Installation Entity Type"
+      "comment" : "Installation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виробництво ракетно-космічних систем"
+          }
+        }
+      }
     },
     "Missile Launcher" : {
       "comment" : "Weapon System Entity Type",
@@ -5556,7 +6636,15 @@
       }
     },
     "Mixed Icing" : {
-      "comment" : "Icing Entity Type"
+      "comment" : "Icing Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Змішана глазур"
+          }
+        }
+      }
     },
     "Mobile Emergency Physician" : {
       "comment" : "Utility Vehicles Entity Type",
@@ -5570,13 +6658,37 @@
       }
     },
     "Moderate" : {
-      "comment" : "Turbulence Entity Type"
+      "comment" : "Turbulence Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помірний"
+          }
+        }
+      }
     },
     "Moderate/Heavy" : {
-      "comment" : "Entity Subtype\nRain and Snow Mixed Entity Subtype"
+      "comment" : "Entity Subtype\nRain and Snow Mixed Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помірний/Важкий"
+          }
+        }
+      }
     },
     "Moderate/Heavy not Associated with Thunder" : {
-      "comment" : "Hail Entity Subtype"
+      "comment" : "Hail Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помірний/сильний, не пов’язаний із грозою"
+          }
+        }
+      }
     },
     "Moderate/Heavy Showers" : {
       "comment" : "Rain and Snow Mixed Entity Subtype",
@@ -5590,7 +6702,15 @@
       }
     },
     "Moderate/Thick Loose Dry Dust or Sand Covering Ground Completely" : {
-      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помірний/густий пухкий сухий пил або пісок повністю покривають землю"
+          }
+        }
+      }
     },
     "Morale Welfare and Recreation" : {
       "comment" : "Sustainment Entity Type",
@@ -5604,7 +6724,15 @@
       }
     },
     "Morgue" : {
-      "comment" : "Emergency Medical Operation Entity Subtype"
+      "comment" : "Emergency Medical Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морг"
+          }
+        }
+      }
     },
     "Mortar" : {
       "comment" : "Weapon System Entity Type\nFire Support Entity Type",
@@ -5618,7 +6746,15 @@
       }
     },
     "Mortar Fire Explosion" : {
-      "comment" : "Explosion Entity Subtype"
+      "comment" : "Explosion Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мінометний вогонь"
+          }
+        }
+      }
     },
     "Mortuary Affairs/Graves Registration" : {
       "comment" : "Sustainment Entity Type",
@@ -5665,7 +6801,15 @@
       }
     },
     "Multifunctional Earthmover/Digger" : {
-      "comment" : "Earthmover Entity Subtype"
+      "comment" : "Earthmover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Багатофункціональний землерийний/екскаватор"
+          }
+        }
+      }
     },
     "Multinational (MN)" : {
       "comment" : "Named Headquarters Entity Type",
@@ -5734,28 +6878,92 @@
       }
     },
     "NAPT with C2" : {
-      "comment" : "NAPT Entity Subtype"
+      "comment" : "NAPT Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NAPT з C2"
+          }
+        }
+      }
     },
     "NAPT with C2 and Self Propagation" : {
-      "comment" : "NAPT Entity Subtype"
+      "comment" : "NAPT Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NAPT з C2 і саморозповсюдженням"
+          }
+        }
+      }
     },
     "NAPT with Self Propagation" : {
-      "comment" : "NAPT Entity Subtype"
+      "comment" : "NAPT Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NAPT із саморозповсюдженням"
+          }
+        }
+      }
     },
     "NATO Supply Class I" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "НАТО постачання клас I"
+          }
+        }
+      }
     },
     "NATO Supply Class I|" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "НАТО, клас постачання II"
+          }
+        }
+      }
     },
     "NATO Supply Class III" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "НАТО, клас постачання III"
+          }
+        }
+      }
     },
     "NATO Supply Class IV" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "НАТО постачання клас IV "
+          }
+        }
+      }
     },
     "NATO Supply Class V" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "НАТО, клас постачання V "
+          }
+        }
+      }
     },
     "Natural Event" : {
       "comment" : "Activities Entity",
@@ -5769,7 +6977,15 @@
       }
     },
     "Natural Gas Facility" : {
-      "comment" : "Energy Facility Infrastructure Subtype"
+      "comment" : "Energy Facility Infrastructure Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Об'єкт природного газу"
+          }
+        }
+      }
     },
     "Naval" : {
       "comment" : "Land Unit Entity",
@@ -5871,10 +7087,26 @@
       }
     },
     "Negative Reacquisition-Bottom" : {
-      "comment" : "Negative Reacquisition - General Entity Type"
+      "comment" : "Negative Reacquisition - General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Негативне повторне придбання-дно"
+          }
+        }
+      }
     },
     "Negative Reacquisition-Floating" : {
-      "comment" : "Negative Reacquisition - General Entity Type"
+      "comment" : "Negative Reacquisition - General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Негативне повторне придбання-плаваюче"
+          }
+        }
+      }
     },
     "Negative Reacquisition-General" : {
       "comment" : "Mine Warfare Entity",
@@ -5921,10 +7153,26 @@
       }
     },
     "Neutralized Mine-Bottom" : {
-      "comment" : "Neutralized Mine General Entity Subtype"
+      "comment" : "Neutralized Mine General Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знешкодження міни - на дні"
+          }
+        }
+      }
     },
     "Neutralized Mine-Floating" : {
-      "comment" : "Neutralized Mine General Entity Subtype"
+      "comment" : "Neutralized Mine General Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знешкодження міни - плаваюча"
+          }
+        }
+      }
     },
     "Neutralized Mine-General" : {
       "comment" : "Sea Mine General Entity Type",
@@ -5949,22 +7197,69 @@
       }
     },
     "Neutralized Mine-Other Position" : {
-      "comment" : "Neutralized Mine General Entity Subtype"
+      "comment" : "Neutralized Mine General Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знешкодження міни - інша позиція"
+          }
+        }
+      }
     },
     "Neutralized Mine-Rising" : {
-      "comment" : "Neutralized Mine General Entity Subtype"
+      "comment" : "Neutralized Mine General Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знешкодження міни - підйом"
+          }
+        }
+      }
     },
     "Neutralized Obstructor" : {
-      "comment" : "Obstructor Entity Type"
+      "comment" : "Obstructor Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нейтралізований обструктор"
+          }
+        }
+      }
     },
     "No results for '%@'" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немає результатів для \"%@\""
+          }
+        }
+      }
     },
     "Non-Advanced Persistent Threat (NAPT)" : {
-      "comment" : "Infection Entity Type"
+      "comment" : "Infection Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Постійна загроза нерозширеного рівня (NAPT)"
+          }
+        }
+      }
     },
     "Non-Flammable Gas" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Незаймистий газ"
+          }
+        }
+      }
     },
     "Non-Government" : {
       "comment" : "Device Domain Entity Type",
@@ -5989,16 +7284,48 @@
       }
     },
     "Non-Mine Mine-Like Object-Bottom" : {
-      "comment" : "Non-Mine Mine-Like Object (NMLO) - General Entity Type"
+      "comment" : "Non-Mine Mine-Like Object (NMLO) - General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немінний мінно-подібний об'єкт на дні"
+          }
+        }
+      }
     },
     "Non-Mine Mine-Like Object-Floating" : {
-      "comment" : "Non-Mine Mine-Like Object (NMLO) - General Entity Type"
+      "comment" : "Non-Mine Mine-Like Object (NMLO) - General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немінний плаваючий об’єкт, схожий на міну"
+          }
+        }
+      }
     },
     "Non-Mine Mine-Like Object-Moored" : {
-      "comment" : "Non-Mine Mine-Like Object (NMLO) - General Entity Type"
+      "comment" : "Non-Mine Mine-Like Object (NMLO) - General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Немінний мінно-подібний об'єкт, пришвартований"
+          }
+        }
+      }
     },
     "Non-Residential Fire" : {
-      "comment" : "Fire Event Entity Type"
+      "comment" : "Fire Event Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пожежа в нежитловому приміщенні"
+          }
+        }
+      }
     },
     "None" : {
       "comment" : "Amplifier Entity Subtype\nArmored Vehicle Entity Subtype\nFog Entity Subtype\nMine Clearing Equipment Entity Subtype\nExplosion Entity Subtype\nMine-Like Echo (MILEC) - General Entity Type\nFire Support Entity Type\nMILCO General Entity Subtype\nSea Mine Decoy Entity Type\nFixed Wing Entity Subtype\nNon-Mine Mine-Like Object (NMLO) - General Entity Type\nCivil Disturbance Entity Type\nLaw Enforcement Subtype\nNegative Reacquisition - General Entity Type\nNot selected.\nSignal Entity Subtype\nCommand and Control Entity Type\nMine-Like Contact Entity Type\nGeologic Entity Subtype",
@@ -6034,7 +7361,15 @@
       }
     },
     "Normal" : {
-      "comment" : "Health and Status Entity Type"
+      "comment" : "Health and Status Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нормальний"
+          }
+        }
+      }
     },
     "Not found" : {
       "localizations" : {
@@ -6047,7 +7382,15 @@
       }
     },
     "Nuclear (Non CBRN Defense)" : {
-      "comment" : "Installation Entity Type"
+      "comment" : "Installation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ядерна (не ХБРЯ захист)"
+          }
+        }
+      }
     },
     "Observer" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -6072,7 +7415,15 @@
       }
     },
     "Occluded Front" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закритий фронт"
+          }
+        }
+      }
     },
     "Occluded Frontolysis" : {
       "comment" : "Frontal Systems Entity Subtype",
@@ -6097,7 +7448,15 @@
       }
     },
     "Oceanography" : {
-      "comment" : "Oceanographic Entity Type"
+      "comment" : "Oceanographic Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Океанографія"
+          }
+        }
+      }
     },
     "Oil/Gas Rig" : {
       "comment" : "Man-Made Structures Entity Type",
@@ -6166,7 +7525,15 @@
       }
     },
     "Openings in the Ice" : {
-      "comment" : "Ice Systems Entity Type"
+      "comment" : "Ice Systems Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отвори в льоду"
+          }
+        }
+      }
     },
     "Operation" : {
       "comment" : "Activities Entity",
@@ -6213,7 +7580,15 @@
       }
     },
     "Organic Peroxide" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Органічний перекис"
+          }
+        }
+      }
     },
     "Other Equipment" : {
       "comment" : "Land Equipment Entity",
@@ -6293,7 +7668,15 @@
       }
     },
     "Pack animals" : {
-      "comment" : "Equipment mobility on land amplifier descriptor"
+      "comment" : "Equipment mobility on land amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pack animals"
+          }
+        }
+      }
     },
     "Pack Animals" : {
       "comment" : "Land Equipment Entity",
@@ -6307,10 +7690,26 @@
       }
     },
     "Passenger" : {
-      "comment" : "Fixed Wing Entity Subtype\nMerchant Ship Entity Subtype"
+      "comment" : "Fixed Wing Entity Subtype\nMerchant Ship Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пасажирський"
+          }
+        }
+      }
     },
     "Patchy" : {
-      "comment" : "Fog Entity Subtype"
+      "comment" : "Fog Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нерівний"
+          }
+        }
+      }
     },
     "Patrol" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -6335,7 +7734,15 @@
       }
     },
     "Patrol Craft, Submarine Chaser/Escort, General" : {
-      "comment" : "Patrol Boat Entity Subtype"
+      "comment" : "Patrol Boat Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Патрульний корабель, переслідувач/супровід підводних човнів, генерал"
+          }
+        }
+      }
     },
     "Patrol Ship, General" : {
       "comment" : "Patrol Boat Entity Subtype",
@@ -6404,10 +7811,26 @@
       }
     },
     "Petroleum Facility" : {
-      "comment" : "Energy Facility Infrastructure Subtype"
+      "comment" : "Energy Facility Infrastructure Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нафтовий завод"
+          }
+        }
+      }
     },
     "Petroleum Oil and Lubricants" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нафта та мастила"
+          }
+        }
+      }
     },
     "Petroleum-Oil and Lubricant" : {
       "comment" : "Utility Vehicles Entity Type",
@@ -6443,7 +7866,15 @@
       }
     },
     "Pharmacy" : {
-      "comment" : "Emergency Medical Operation Entity Subtype"
+      "comment" : "Emergency Medical Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "АПТЕКА"
+          }
+        }
+      }
     },
     "Photographic Reconnaissance" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -6457,7 +7888,15 @@
       }
     },
     "Pile/Piling/Post" : {
-      "comment" : "Man-Made Structures Entity Type"
+      "comment" : "Man-Made Structures Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Купа/Укладання/Пошта"
+          }
+        }
+      }
     },
     "Pipeline" : {
       "comment" : "Sustainment Entity Type",
@@ -6493,7 +7932,15 @@
       }
     },
     "Platoon/Detachment" : {
-      "comment" : "Echelon at brigade and below amplifier descriptor"
+      "comment" : "Echelon at brigade and below amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Взвод"
+          }
+        }
+      }
     },
     "Poisoning" : {
       "comment" : "Criminal Activity Incident Entity Subtype",
@@ -6562,13 +8009,37 @@
       }
     },
     "Postal Distribution Center" : {
-      "comment" : "Postal Services Infrastructure Subtype"
+      "comment" : "Postal Services Infrastructure Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Центр поштового розподілу"
+          }
+        }
+      }
     },
     "Postal Services Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інфраструктура поштових послуг"
+          }
+        }
+      }
     },
     "Power Outage" : {
-      "comment" : "Effect Entity Type"
+      "comment" : "Effect Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відключення електроенергії"
+          }
+        }
+      }
     },
     "Precipitation of Unknown Type and Intensity" : {
       "comment" : "Weather Symbols Entity Type",
@@ -6582,7 +8053,15 @@
       }
     },
     "Predominately Ice Covered" : {
-      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переважно вкриті льодом"
+          }
+        }
+      }
     },
     "Premature IED Explosion" : {
       "comment" : "IED Event Entity Subtype",
@@ -6695,7 +8174,15 @@
       }
     },
     "Propane Facility" : {
-      "comment" : "Energy Facility Infrastructure Subtype"
+      "comment" : "Energy Facility Infrastructure Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропановий завод"
+          }
+        }
+      }
     },
     "Propellant Transporter" : {
       "comment" : "Missile Support Entity Type",
@@ -6731,7 +8218,15 @@
       }
     },
     "Public Venues Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інфраструктура громадських місць"
+          }
+        }
+      }
     },
     "Pumping Station" : {
       "comment" : "Water Supply Infrastructure Subtype",
@@ -6789,7 +8284,15 @@
       }
     },
     "Radio Teletype Center" : {
-      "comment" : "Command and Control Entity Type"
+      "comment" : "Command and Control Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Радіотелетайпний центр"
+          }
+        }
+      }
     },
     "Radioactive Material" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -6814,7 +8317,15 @@
       }
     },
     "Rail" : {
-      "comment" : "Equipment mobility on land amplifier descriptor\nTransportation Incident Entity Type"
+      "comment" : "Equipment mobility on land amplifier descriptor\nTransportation Incident Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Залізничний"
+          }
+        }
+      }
     },
     "Railcar" : {
       "comment" : "Train Entity Type",
@@ -6982,10 +8493,26 @@
       }
     },
     "Regiment/Group" : {
-      "comment" : "Echelon at brigade and below amplifier descriptor"
+      "comment" : "Echelon at brigade and below amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полк / Група"
+          }
+        }
+      }
     },
     "Region/Theater" : {
-      "comment" : "Echelon at division and above amplifier descriptor"
+      "comment" : "Echelon at division and above amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Регіон / Театр"
+          }
+        }
+      }
     },
     "Religious Institution" : {
       "comment" : "Public Venues Infrastructure Subtype",
@@ -6999,7 +8526,15 @@
       }
     },
     "Religious Leader" : {
-      "comment" : "Individual Entity Type"
+      "comment" : "Individual Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Релігійний лідер"
+          }
+        }
+      }
     },
     "Religious Support" : {
       "comment" : "Sustainment Entity Type",
@@ -7024,7 +8559,15 @@
       }
     },
     "Replacement Holding Unit" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заміна блоку зберігання"
+          }
+        }
+      }
     },
     "Reptile" : {
       "comment" : "Infestation Entity Subtype",
@@ -7049,7 +8592,15 @@
       }
     },
     "Residential Fire" : {
-      "comment" : "Fire Event Entity Type"
+      "comment" : "Fire Event Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Житлова пожежа"
+          }
+        }
+      }
     },
     "Rest Stop" : {
       "comment" : "Transportation Infrastructure Subtype",
@@ -7107,7 +8658,15 @@
       }
     },
     "Rime Icing" : {
-      "comment" : "Icing Entity Type"
+      "comment" : "Icing Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Глазур інею"
+          }
+        }
+      }
     },
     "Rise" : {
       "comment" : "Pressure Tendency Entity Subtype",
@@ -7121,13 +8680,37 @@
       }
     },
     "Rise Then Fall Higher" : {
-      "comment" : "Pressure Tendency Entity Subtype"
+      "comment" : "Pressure Tendency Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Встаньте, а потім впадіть вище"
+          }
+        }
+      }
     },
     "Rise Then Fall Lower" : {
-      "comment" : "Pressure Tendency Entity Subtype"
+      "comment" : "Pressure Tendency Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Встаньте, а потім опустіться"
+          }
+        }
+      }
     },
     "Rise Then Rise Higher" : {
-      "comment" : "Pressure Tendency Entity Subtype"
+      "comment" : "Pressure Tendency Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підніміться, а потім підніміться вище"
+          }
+        }
+      }
     },
     "Rise Then Steady" : {
       "comment" : "Pressure Tendency Entity Subtype",
@@ -7174,10 +8757,26 @@
       }
     },
     "Rodent" : {
-      "comment" : "Infestation Entity Subtype"
+      "comment" : "Infestation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гризун"
+          }
+        }
+      }
     },
     "Roll On/Roll Off" : {
-      "comment" : "Merchant Ship Entity Subtype"
+      "comment" : "Merchant Ship Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Згорнути/розгорнути рулон"
+          }
+        }
+      }
     },
     "Rotary Wing" : {
       "comment" : "Civilian Entity Type",
@@ -7224,7 +8823,15 @@
       }
     },
     "Safe House" : {
-      "comment" : "Installation Entity Type"
+      "comment" : "Installation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Безпечний будинок"
+          }
+        }
+      }
     },
     "Scattered Coverage" : {
       "comment" : "Cloud Coverage Symbols Entity Subtype",
@@ -7249,13 +8856,37 @@
       }
     },
     "School Fire" : {
-      "comment" : "Fire Event Entity Type"
+      "comment" : "Fire Event Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Шкільна пожежа"
+          }
+        }
+      }
     },
     "Sea Air Land (SEAL)" : {
-      "comment" : "Movement and Maneuver Entity Type"
+      "comment" : "Movement and Maneuver Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Море Повітря Земля"
+          }
+        }
+      }
     },
     "Sea Ice" : {
-      "comment" : "Ice Systems Entity Type"
+      "comment" : "Ice Systems Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морський лід"
+          }
+        }
+      }
     },
     "Sea Mine Decoy" : {
       "comment" : "Mine Warfare Entity",
@@ -7302,7 +8933,15 @@
       }
     },
     "Sea Mine-Floating" : {
-      "comment" : "Sea Mine General Entity Type"
+      "comment" : "Sea Mine General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морська міна-плаваюча"
+          }
+        }
+      }
     },
     "Sea Mine-General" : {
       "comment" : "Mine Warfare Entity",
@@ -7316,10 +8955,26 @@
       }
     },
     "Sea Mine-Moored" : {
-      "comment" : "Sea Mine General Entity Type"
+      "comment" : "Sea Mine General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морська міна - пршвартована"
+          }
+        }
+      }
     },
     "Sea Mine-Other Position" : {
-      "comment" : "Sea Mine General Entity Type"
+      "comment" : "Sea Mine General Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морська міна-інша позиція"
+          }
+        }
+      }
     },
     "Sea Mine-Rising" : {
       "comment" : "Sea Mine General Entity Type",
@@ -7425,7 +9080,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Секція"
+            "value" : "Відділення / Секція"
           }
         }
       }
@@ -7453,7 +9108,15 @@
       }
     },
     "Self-propelled" : {
-      "comment" : "Field Artillery Entity Subtype"
+      "comment" : "Field Artillery Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Самохідний"
+          }
+        }
+      }
     },
     "Self-Propelled Wheeled" : {
       "comment" : "Mortar Entity Subtype",
@@ -7566,10 +9229,26 @@
       }
     },
     "Shallow Continuous" : {
-      "comment" : "Fog Entity Subtype"
+      "comment" : "Fog Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дрібний безперервний"
+          }
+        }
+      }
     },
     "Shallow Patches" : {
-      "comment" : "Fog Entity Subtype"
+      "comment" : "Fog Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дрібні плями"
+          }
+        }
+      }
     },
     "Shear Line" : {
       "comment" : "Lines Entity Subtype",
@@ -7594,7 +9273,15 @@
       }
     },
     "Shooting" : {
-      "comment" : "Incident Entity Type"
+      "comment" : "Incident Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стрільба"
+          }
+        }
+      }
     },
     "Shore Patrol" : {
       "comment" : "Protection Entity Type",
@@ -7630,7 +9317,14 @@
       }
     },
     "SIDC:" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIDC:"
+          }
+        }
+      }
     },
     "Signal" : {
       "comment" : "Command and Control Entity Type",
@@ -7688,7 +9382,15 @@
       }
     },
     "Sky Obscured" : {
-      "comment" : "Fog Entity Subtype"
+      "comment" : "Fog Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Затьмарене небо"
+          }
+        }
+      }
     },
     "Sky Totally or Partially Obscured" : {
       "comment" : "Cloud Coverage Symbols Entity Subtype",
@@ -7801,10 +9503,26 @@
       }
     },
     "Snow Covering Ground Completely - Deep Drifts" : {
-      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снігове покриття землі повністю - глибокі замети"
+          }
+        }
+      }
     },
     "Snow Grains" : {
-      "comment" : "Weather Symbols Entity Type"
+      "comment" : "Weather Symbols Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снігові зерна"
+          }
+        }
+      }
     },
     "Snow Showers" : {
       "comment" : "Weather Symbols Entity Type",
@@ -7840,10 +9558,26 @@
       }
     },
     "Speaker" : {
-      "comment" : "Individual Entity Type"
+      "comment" : "Individual Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доповідач"
+          }
+        }
+      }
     },
     "Special Boat" : {
-      "comment" : "Special Operations Forces Entity Subtype"
+      "comment" : "Special Operations Forces Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спеціальний човен"
+          }
+        }
+      }
     },
     "Special Forces" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -7857,13 +9591,37 @@
       }
     },
     "Special Needs Fire" : {
-      "comment" : "Fire Event Entity Type"
+      "comment" : "Fire Event Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пожежа з особливими потребами"
+          }
+        }
+      }
     },
     "Special Needs Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інфраструктура для особливих потреб"
+          }
+        }
+      }
     },
     "Special Operations Forces" : {
-      "comment" : "Fixed Wing Entity Subtype"
+      "comment" : "Fixed Wing Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сили спеціальних операцій"
+          }
+        }
+      }
     },
     "Special Operations Forces (SOF)" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -7899,7 +9657,15 @@
       }
     },
     "Spontaneously Combustible Material" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Самозаймистий матеріал"
+          }
+        }
+      }
     },
     "Spy" : {
       "comment" : "Operation Entity Type",
@@ -7913,7 +9679,15 @@
       }
     },
     "Squad" : {
-      "comment" : "Echelon at brigade and below amplifier descriptor"
+      "comment" : "Echelon at brigade and below amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загін"
+          }
+        }
+      }
     },
     "Squall" : {
       "comment" : "Storms Entity Subtype",
@@ -7948,10 +9722,26 @@
       }
     },
     "Stationary Front" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стаціонарний фронт"
+          }
+        }
+      }
     },
     "Stationary Frontogenesis" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стаціонарний фронтогенез"
+          }
+        }
+      }
     },
     "Stationary Frontolysis" : {
       "comment" : "Frontal Systems Entity Subtype",
@@ -8063,7 +9853,15 @@
       }
     },
     "Submarine-Snorkeling" : {
-      "comment" : "Submarine Entity Subtype"
+      "comment" : "Submarine Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підводний човен-Снорклінг"
+          }
+        }
+      }
     },
     "Submarine-Surfaced" : {
       "comment" : "Submarine Entity Subtype",
@@ -8077,7 +9875,15 @@
       }
     },
     "Submerged Crib" : {
-      "comment" : "Man-Made Structures Entity Type"
+      "comment" : "Man-Made Structures Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Занурений"
+          }
+        }
+      }
     },
     "Submersible" : {
       "comment" : "Civilian Entity Type",
@@ -8102,7 +9908,15 @@
       }
     },
     "Supervisory Control and Data Acquisition (SCADA)" : {
-      "comment" : "Device Domain Entity Type"
+      "comment" : "Device Domain Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Диспетчерське управління та збір даних (SCADA)"
+          }
+        }
+      }
     },
     "Supply" : {
       "comment" : "Sustainment Entity Type",
@@ -8127,10 +9941,26 @@
       }
     },
     "Surface Combatant, Line" : {
-      "comment" : "Military Combatant Entity Type"
+      "comment" : "Military Combatant Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надводний боєць, лінія"
+          }
+        }
+      }
     },
     "Surface Dry Without Cracks" : {
-      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поверхня суха без тріщин"
+          }
+        }
+      }
     },
     "Surface Flooded" : {
       "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
@@ -8144,10 +9974,26 @@
       }
     },
     "Surface Frozen" : {
-      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заморожена поверхня"
+          }
+        }
+      }
     },
     "Surface Moist" : {
-      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Волога поверхні"
+          }
+        }
+      }
     },
     "Surface Water Intake" : {
       "comment" : "Water Supply Infrastructure Subtype",
@@ -8161,7 +10007,15 @@
       }
     },
     "Surface Wet - Standing Water" : {
-      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Волога поверхня – стояча вода"
+          }
+        }
+      }
     },
     "Surface-to-Surface Missile Launcher" : {
       "comment" : "Weapon System Entity Type",
@@ -8318,7 +10172,15 @@
       }
     },
     "Target Acquisition" : {
-      "comment" : "Field Artillery Entity Subtype"
+      "comment" : "Field Artillery Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цілеотримання"
+          }
+        }
+      }
     },
     "Taser" : {
       "comment" : "Weapon System Entity Type",
@@ -8343,10 +10205,26 @@
       }
     },
     "Task Force Headquarters" : {
-      "comment" : "Headquarters/Task force/Dummy"
+      "comment" : "Headquarters/Task force/Dummy",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Штаб оперативної групи"
+          }
+        }
+      }
     },
     "Team/Crew" : {
-      "comment" : "Echelon at brigade and below amplifier descriptor"
+      "comment" : "Echelon at brigade and below amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Команда / Экіпаж"
+          }
+        }
+      }
     },
     "Telecommunications" : {
       "comment" : "Telecommunications Infrastructure Subtype",
@@ -8360,7 +10238,15 @@
       }
     },
     "Telecommunications Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Телекомунікаційна інфраструктура"
+          }
+        }
+      }
     },
     "Telecommunications Tower" : {
       "comment" : "Telecommunications Infrastructure Subtype",
@@ -8434,7 +10320,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Театр/Ешелони вище корпусної підтримки"
+            "value" : "Корпус і вище"
           }
         }
       }
@@ -8462,7 +10348,15 @@
       }
     },
     "Thin Loose Dry Dust or Sand Covering Ground Completely" : {
-      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "Without Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тонкий пухкий сухий пил або пісок повністю покривають землю"
+          }
+        }
+      }
     },
     "Thunderstorm" : {
       "comment" : "Bounded Areas of Weather Entity Type",
@@ -8564,7 +10458,15 @@
       }
     },
     "Topographical Features" : {
-      "comment" : "Ice Systems Entity Type"
+      "comment" : "Ice Systems Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Топографічні особливості"
+          }
+        }
+      }
     },
     "Torpedo" : {
       "comment" : "Weapon Entity Type",
@@ -8611,19 +10513,59 @@
       }
     },
     "Towed" : {
-      "comment" : "Equipment mobility on land amplifier descriptor\nMortar Entity Subtype"
+      "comment" : "Equipment mobility on land amplifier descriptor\nMortar Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Буксирований"
+          }
+        }
+      }
     },
     "Toxic Gas" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токсичний газ"
+          }
+        }
+      }
     },
     "Toxic Infectious Material" : {
-      "comment" : "Hazard Materials Incident Subtype"
+      "comment" : "Hazard Materials Incident Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токсичний інфекційний матеріал"
+          }
+        }
+      }
     },
     "Toxic Release Inventory" : {
-      "comment" : "Commercial Infrastructure Subtype"
+      "comment" : "Commercial Infrastructure Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інвентаризація викидів токсичних речовин"
+          }
+        }
+      }
     },
     "Tracked" : {
-      "comment" : "Equipment mobility on land amplifier descriptor"
+      "comment" : "Equipment mobility on land amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гусеничні"
+          }
+        }
+      }
     },
     "Tractor Trailer Truck with Box" : {
       "comment" : "Civilian Vehicle Entity Type",
@@ -8659,7 +10601,15 @@
       }
     },
     "Trafficking" : {
-      "comment" : "Illegal Drug Operation Entity Subtype"
+      "comment" : "Illegal Drug Operation Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Торгівля людьми"
+          }
+        }
+      }
     },
     "Trailer Mounted" : {
       "comment" : "Mine Clearing Equipment Entity Subtype",
@@ -8860,7 +10810,15 @@
       }
     },
     "Tropopause High" : {
-      "comment" : "High Pressure Center Entity Subtype"
+      "comment" : "High Pressure Center Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тропопауза Висока"
+          }
+        }
+      }
     },
     "Tropopause Level" : {
       "comment" : "Weather Symbols Entity Type",
@@ -8885,10 +10843,26 @@
       }
     },
     "Trough Axis" : {
-      "comment" : "Lines Entity Subtype"
+      "comment" : "Lines Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Жолобна вісь"
+          }
+        }
+      }
     },
     "Truck Mounted with Volcano" : {
-      "comment" : "Mine Laying Equipment Entity Subtype"
+      "comment" : "Mine Laying Equipment Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вантажівка, встановлена на вулкані"
+          }
+        }
+      }
     },
     "Tsunami" : {
       "comment" : "Hydro-Meteorological Entity Subtype",
@@ -8957,7 +10931,15 @@
       }
     },
     "Ultra Light" : {
-      "comment" : "Fixed Wing Entity Subtype"
+      "comment" : "Fixed Wing Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ультралегкий"
+          }
+        }
+      }
     },
     "Underwater Demolition Team" : {
       "comment" : "Special Operations Forces Entity Subtype",
@@ -8971,7 +10953,15 @@
       }
     },
     "Uneven Layer of Compact or Wet Snow" : {
-      "comment" : "With Snow or Measurable Ice Cover Entity Subtype"
+      "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нерівний шар щільного або мокрого снігу"
+          }
+        }
+      }
     },
     "Uneven Layer of Loose Dry Snow" : {
       "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
@@ -9040,7 +11030,15 @@
       }
     },
     "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)" : {
-      "comment" : "Civilian Entity Type\nMilitary Entity Type"
+      "comment" : "Civilian Entity Type\nMilitary Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Безпілотний літальний апарат (UA)/Безпілотний літальний апарат (UAV)/Безпілотна літальна система (UAS)/Дистанційно пілотований апарат (RPV)"
+          }
+        }
+      }
     },
     "Unmanned Surface Water Vehicle (USV)" : {
       "comment" : "Civilian Entity Type\nMilitary Combatant Entity Type",
@@ -9054,19 +11052,59 @@
       }
     },
     "Upper Cold Front" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Верхній холодний фронт"
+          }
+        }
+      }
     },
     "Upper Occluded Front" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Верхня закрита передня частина"
+          }
+        }
+      }
     },
     "Upper Stationary Front" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Верхній стаціонарний фронт"
+          }
+        }
+      }
     },
     "Upper Trough Axis" : {
-      "comment" : "Lines Entity Subtype"
+      "comment" : "Lines Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Верхня вісь жолоба"
+          }
+        }
+      }
     },
     "Upper Warm Front" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Верхній теплий фронт"
+          }
+        }
+      }
     },
     "US Marshals Service" : {
       "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
@@ -9080,34 +11118,114 @@
       }
     },
     "US Supply Class I" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "США, клас постачання I"
+          }
+        }
+      }
     },
     "US Supply Class II" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "США, клас постачання II"
+          }
+        }
+      }
     },
     "US Supply Class III" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "США, клас постачання III"
+          }
+        }
+      }
     },
     "US Supply Class IV" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "США, клас постачання IV"
+          }
+        }
+      }
     },
     "US Supply Class IX" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "США, клас постачання IX"
+          }
+        }
+      }
     },
     "US Supply Class V" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "США, клас постачання V"
+          }
+        }
+      }
     },
     "US Supply Class VI" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "США, клас постачання VI"
+          }
+        }
+      }
     },
     "US Supply Class VII" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "США, клас постачання VII"
+          }
+        }
+      }
     },
     "US Supply Class VIII" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "НАТО, клас постачання VIII"
+          }
+        }
+      }
     },
     "US Supply Class X" : {
-      "comment" : "Sustainment Entity Type"
+      "comment" : "Sustainment Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "США, клас постачання X"
+          }
+        }
+      }
     },
     "Use alternate status amplifiers" : {
       "localizations" : {
@@ -9153,7 +11271,15 @@
       }
     },
     "Vandalism / Loot / Ransack / Plunder" : {
-      "comment" : "Criminal Activity Incident Entity Subtype"
+      "comment" : "Criminal Activity Incident Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вандалізм/грабіж/пограбування/грабіж"
+          }
+        }
+      }
     },
     "Vehicle" : {
       "comment" : "Transportation Incident Entity Type\nLand Equipment Entity",
@@ -9200,10 +11326,26 @@
       }
     },
     "Video Imagery Combat Camera" : {
-      "comment" : "Command and Control Entity Type"
+      "comment" : "Command and Control Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відеозображення бойової камери"
+          }
+        }
+      }
     },
     "Virtual Private Network (VPN)" : {
-      "comment" : "Device Type Entity Type"
+      "comment" : "Device Type Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Віртуальна приватна мережа (VPN)"
+          }
+        }
+      }
     },
     "Volcanic Ash" : {
       "comment" : "Volcanic Eruption Entity Subtype",
@@ -9228,13 +11370,37 @@
       }
     },
     "Volcanic Threat" : {
-      "comment" : "Geologic Entity Subtype"
+      "comment" : "Geologic Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вулканічна загроза"
+          }
+        }
+      }
     },
     "VSTOL" : {
-      "comment" : "Fixed Wing Entity Subtype"
+      "comment" : "Fixed Wing Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вертикальний і/або короткий зліт і посадка"
+          }
+        }
+      }
     },
     "Warehouse/Storage Facility" : {
-      "comment" : "Installation Entity Type"
+      "comment" : "Installation Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Склад/Сховище"
+          }
+        }
+      }
     },
     "Warhead Transporter" : {
       "comment" : "Missile Support Entity Type",
@@ -9248,7 +11414,15 @@
       }
     },
     "Warm Front" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Теплий фронт"
+          }
+        }
+      }
     },
     "Warm Frontogenesis" : {
       "comment" : "Frontal Systems Entity Subtype",
@@ -9262,7 +11436,15 @@
       }
     },
     "Warm Frontolysis" : {
-      "comment" : "Frontal Systems Entity Subtype"
+      "comment" : "Frontal Systems Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Теплий фронтоліз"
+          }
+        }
+      }
     },
     "Warrant Served" : {
       "comment" : "Operation Entity Type",
@@ -9320,7 +11502,15 @@
       }
     },
     "Water Supply Infrastructure" : {
-      "comment" : "Infrastructure Entity Type"
+      "comment" : "Infrastructure Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інфраструктура водопостачання"
+          }
+        }
+      }
     },
     "Water Treatment" : {
       "comment" : "Water Supply Infrastructure Subtype",
@@ -9378,13 +11568,37 @@
       }
     },
     "Wheeled and tracked combination" : {
-      "comment" : "Equipment mobility on land amplifier descriptor"
+      "comment" : "Equipment mobility on land amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Колісно-гусенична комбінація"
+          }
+        }
+      }
     },
     "Wheeled cross country" : {
-      "comment" : "Equipment mobility on land amplifier descriptor"
+      "comment" : "Equipment mobility on land amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Колісний всюдихід"
+          }
+        }
+      }
     },
     "Wheeled limited cross country" : {
-      "comment" : "Equipment mobility on land amplifier descriptor"
+      "comment" : "Equipment mobility on land amplifier descriptor",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Колісний обмеженої прохідності"
+          }
+        }
+      }
     },
     "Wheeled Vehicle Explosion" : {
       "comment" : "Transportation Incident Entity Type",
