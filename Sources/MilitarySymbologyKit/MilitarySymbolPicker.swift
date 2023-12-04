@@ -119,12 +119,20 @@ public struct MilitarySymbolPicker: View {
         .animation(.linear, value: searchText)
         .searchable(text: $searchText,
                     isPresented: $isSearchPresented,
-                    placement: .navigationBarDrawer,
+                    placement: searchFieldPlacement,
                     prompt: "Search symbol")
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
     }
     
-    private func copyToPasteboard(_ string: String){
+    private var searchFieldPlacement: SearchFieldPlacement {
+#if os(macOS)
+        .automatic
+#else
+        .navigationBarDrawer
+#endif
+    }
+    
+    private func copyToPasteboard(_ string: String) {
 #if os(macOS)
         let pasteboard = NSPasteboard.general
         pasteboard.setString(string, forType: .string)
