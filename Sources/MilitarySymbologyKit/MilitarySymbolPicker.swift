@@ -16,6 +16,8 @@ public struct MilitarySymbolPicker: View {
 
     public var body: some View {
         Form {
+            
+            // Temporary solution - works okay on iPhone but horrible on Mac.
             MilitarySymbolSearchResults(searchText: $searchText,
                                         selectedSymbol: $symbol,
                                         isSearchPresented: $isSearchPresented,
