@@ -30,8 +30,7 @@ public struct MilitarySymbolPicker: View {
                 LabeledContent("SIDC:", value: symbol.sidc)
                     .contextMenu {
                         Button("Copy", systemImage: "doc.on.doc") {
-                            let pasteboard = UIPasteboard.general
-                            pasteboard.string = symbol.sidc
+                            copyToPasteboard(symbol.sidc)
                         }
                     }
             }
@@ -123,5 +122,15 @@ public struct MilitarySymbolPicker: View {
                     placement: .navigationBarDrawer,
                     prompt: "Search symbol")
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
+    }
+    
+    private func copyToPasteboard(_ string: String){
+#if os(macOS)
+        let pasteboard = NSPasteboard.general
+        pasteboard.setString(string, forType: .string)
+#else
+        let pasteboard = UIPasteboard.general
+        pasteboard.string = string
+#endif
     }
 }
