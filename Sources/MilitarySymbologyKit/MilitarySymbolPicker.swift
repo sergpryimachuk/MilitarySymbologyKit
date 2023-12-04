@@ -9,14 +9,13 @@ public struct MilitarySymbolPicker: View {
     @State private var searchText = ""
     @State private var isSearchPresented = false
     @State private var searchResults: [MilitarySymbol]?
-    
+
     public init(symbol: Binding<MilitarySymbol>) {
         self._symbol = symbol
     }
 
     public var body: some View {
         Form {
-            
             // Temporary solution - works okay on iPhone but horrible on Mac.
             MilitarySymbolSearchResults(searchText: $searchText,
                                         selectedSymbol: $symbol,
@@ -38,75 +37,101 @@ public struct MilitarySymbolPicker: View {
             }
 
             Section {
-                Picker("Context", selection: $symbol.context) {
+                Picker(selection: $symbol.context) {
                     ForEach(Context.allCases) { context in
                         Text(context.id + " " + context.name).tag(context)
                     }
+                } label: {
+                    Text("Context", bundle: .module)
                 }
 
-                Picker("Standard Identity", selection: $symbol.standardIdentity) {
+                Picker(selection: $symbol.standardIdentity) {
                     ForEach(StandardIdentity.allCases) { identity in
                         Text(identity.id + " " + identity.name).tag(identity)
                     }
+                } label: {
+                    Text("Standard Identity", bundle: .module)
                 }
 
-                Picker("Dimention", selection: $symbol.dimention) {
+                Picker(selection: $symbol.dimention) {
                     ForEach(Dimension.allCases) { dimension in
                         Text(dimension.id + " " + dimension.name).tag(dimension)
                     }
+                } label: {
+                    Text("Dimention", bundle: .module)
                 }
 
-                Picker("Status", selection: $symbol.status) {
+                Picker(selection: $symbol.status) {
                     ForEach(Status.allCases) { status in
                         Text(status.id + " " + status.name).tag(status)
                     }
+                } label: {
+                    Text("Status", bundle: .module)
                 }
 
-                Picker("HQ / Task Force / Dummy", selection: $symbol.hqtfd) {
+                Picker(selection: $symbol.hqtfd) {
                     ForEach(HQTFD.allCases) { hqtfd in
                         Text(hqtfd.id + " " + hqtfd.name).tag(hqtfd)
                     }
+                } label: {
+                    Text("HQ / Task Force / Dummy", bundle: .module)
                 }
 
-                Picker("Amplifier", selection: $symbol.amplifier) {
+                Picker(selection: $symbol.amplifier) {
                     ForEach(Amplifier.allCases) { amplifier in
                         Text(amplifier.id + " " + amplifier.name).tag(amplifier)
                     }
+                } label: {
+                    Text("Amplifier", bundle: .module)
                 }
 
-                Picker("Descriptor", selection: $symbol.descriptor) {
+                Picker(selection: $symbol.descriptor) {
                     ForEach(symbol.amplifier.descriptors) { descriptor in
                         Text(descriptor.id + " " + descriptor.name).tag(AnyDescriptor(descriptor))
                     }
+                } label: {
+                    Text("Descriptor", bundle: .module)
                 }
 
-                Picker("Entity", selection: $symbol.entity) {
+                Picker(selection: $symbol.entity) {
                     ForEach(symbol.dimention.entities) { entity in
                         Text(entity.id + " " + entity.name).tag(entity)
                     }
+                } label: {
+                    Text("Entity", bundle: .module)
                 }
 
-                Picker("Entity Type", selection: $symbol.entityType) {
+                Picker(selection: $symbol.entityType) {
                     ForEach(symbol.entity.types) { entityType in
                         Text(entityType.id + " " + entityType.name).tag(entityType)
                     }
+                } label: {
+                    Text("Entity Type", bundle: .module)
                 }
 
-                Picker("Entity Subtype", selection: $symbol.entitySubtype) {
+                Picker(selection: $symbol.entitySubtype) {
                     ForEach(symbol.entityType.subtypes) { entitySubtype in
                         Text(entitySubtype.id + " " + entitySubtype.name).tag(entitySubtype)
                     }
+                } label: {
+                    Text("Entity Subtype", bundle: .module)
                 }
 
                 Toggle("Civilian", isOn: $symbol.isCivilian)
-                    .disabled(symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile)
-                    .onChange(of: symbol.standardIdentity) { _, newValue in
-                        if newValue == .suspect || newValue == .hostile {
-                            symbol.isCivilian = false
-                        }
-                    }
 
-                Toggle("Use alternate status amplifiers", isOn: $symbol.isAlternateStatusAmplifiers)
+                Toggle(isOn: $symbol.isCivilian) {
+                    Text("Civilian", bundle: .module)
+                }
+                .disabled(symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile)
+                .onChange(of: symbol.standardIdentity) { _, newValue in
+                    if newValue == .suspect || newValue == .hostile {
+                        symbol.isCivilian = false
+                    }
+                }
+
+                Toggle(isOn: $symbol.isAlternateStatusAmplifiers) {
+                    Text("Use alternate status amplifiers", bundle: .module)
+                }
                 //                        .disabled(symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile)
                 //                        .onChange(of: symbol.standardIdentity) { _, newValue in
                 //                            if symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile {
@@ -125,7 +150,7 @@ public struct MilitarySymbolPicker: View {
                     prompt: "Search symbol")
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
     }
-    
+
     private var searchFieldPlacement: SearchFieldPlacement {
 #if os(macOS)
         .automatic
@@ -133,7 +158,7 @@ public struct MilitarySymbolPicker: View {
         .navigationBarDrawer
 #endif
     }
-    
+
     private func copyToPasteboard(_ string: String) {
 #if os(macOS)
         let pasteboard = NSPasteboard.general
