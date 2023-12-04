@@ -25,7 +25,6 @@ public struct MilitarySymbolPicker: View {
                 HStack {
                     Spacer()
                     symbol.makeView(size: 200)
-                        .scaleEffect(1.5)
                     Spacer()
                 }
                 LabeledContent("SIDC:", value: symbol.sidc)
