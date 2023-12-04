@@ -299,3 +299,14 @@ public extension MilitarySymbol {
         .frame(width: size, height: size)
     }
 }
+
+public extension MilitarySymbol {
+    static func makeUnknownSymbolView(size: CGFloat? = nil) -> some View {
+        Image(systemName: "questionmark.diamond.fill")
+            .resizable()
+            .scaledToFit()
+            .frame(width: size)
+            .symbolRenderingMode(.hierarchical)
+            .foregroundStyle(.orange)
+    }
+}
