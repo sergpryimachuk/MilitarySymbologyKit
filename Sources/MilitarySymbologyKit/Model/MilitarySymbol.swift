@@ -75,7 +75,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
 }
 
 public extension MilitarySymbol {
-    init(sidc: String) throws {
+    init(sidc: String, isAlternateStatusAmplifiers: Bool = false) throws {
         if sidc.count != 20 {
             throw MilitarySymbolError.sidcIsNot20
         } else {
@@ -141,6 +141,8 @@ public extension MilitarySymbol {
                 throw MilitarySymbolError.entitySubtypeParcingFailed
             }
             self.entitySubtype = entitySubtype
+            
+            self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
         }
     }
 }
