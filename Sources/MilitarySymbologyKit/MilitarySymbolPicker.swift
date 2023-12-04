@@ -117,8 +117,6 @@ public struct MilitarySymbolPicker: View {
                     Text("Entity Subtype", bundle: .module)
                 }
 
-                Toggle("Civilian", isOn: $symbol.isCivilian)
-
                 Toggle(isOn: $symbol.isCivilian) {
                     Text("Civilian", bundle: .module)
                 }
