@@ -145,7 +145,7 @@ public struct MilitarySymbolPicker: View {
         .searchable(text: $searchText,
                     isPresented: $isSearchPresented,
                     placement: searchFieldPlacement,
-                    prompt: "Search symbol")
+                    prompt: Text("Search symbol", bundle: .module))
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
     }
 
