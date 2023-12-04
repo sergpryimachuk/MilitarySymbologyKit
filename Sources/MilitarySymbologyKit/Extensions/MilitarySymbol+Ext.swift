@@ -2,12 +2,11 @@
 //  Created with ♥ by Serhii Pryimachuk on 28.11.2023.
 //
 
+import MilitarySymbologyAssets
 import OSLog
 import SwiftUI
-import MilitarySymbologyAssets
 
 public extension MilitarySymbol {
-    
     /// Init with *default* values.
     init(isAlternateStatusAmplifiers: Bool = true) {
         context = .reality
@@ -195,11 +194,10 @@ public extension MilitarySymbol {
                 return result
             }
         } else {
-            let result =
-                dimention.id
-                    + entity.id
-                    + entityType.id
-                    + entitySubtype.id
+            let result = dimention.id
+                + entity.id
+                + entityType.id
+                + entitySubtype.id
 
             Logger.militarySymbol.info("Made mainIconAssetName WITHOUT AmplifierEntitySubtype: \(result)")
 
