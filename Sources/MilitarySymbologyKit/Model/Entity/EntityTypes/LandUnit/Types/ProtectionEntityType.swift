@@ -33,7 +33,7 @@ public enum ProtectionEntityType: String, CaseIterable, Identifiable, EntityType
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .chemicalBiologicalRadiologicalNuclearDefense:
             String(localized: "Chemical Biological Radiological Nuclear Defense", bundle: .module, comment: "Protection Entity Type")
 

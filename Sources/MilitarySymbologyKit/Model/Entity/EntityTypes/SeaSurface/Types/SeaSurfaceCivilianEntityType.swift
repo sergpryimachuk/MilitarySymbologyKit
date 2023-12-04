@@ -20,7 +20,7 @@ public extension SeaSurfaceEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
 
             case .merchantShip:
                 String(localized: "Merchant Ship", bundle: .module, comment: "Civilian Entity Type")

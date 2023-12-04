@@ -29,7 +29,7 @@ public extension LandUnitEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             case .alcoholTobaccoFirearmsExplosivesATF:
                 String(localized: "Bureau of Alcohol Tobacco Firearms and Explosives (ATF) (Department of Justice)", bundle: .module, comment: "Law Enforcement Entity Type")
 

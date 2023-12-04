@@ -19,7 +19,7 @@ public enum ExerciseMineGeneralSubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .exerciseMineBottom:
             String(localized: "Exercise Mine - Bottom", bundle: .module, comment: "Exercise Mine General Subtype")
         case .exerciseMineMoored:

@@ -16,7 +16,7 @@ public enum DustOrSandEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .lightToModerate:
             String(localized: "Light to Moderate", bundle: .module, comment: "Dust or Sand Entity Subtype")

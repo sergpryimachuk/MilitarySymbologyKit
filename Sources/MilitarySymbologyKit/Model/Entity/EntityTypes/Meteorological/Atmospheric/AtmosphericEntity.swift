@@ -21,7 +21,7 @@ public enum AtmosphericEntity: String, CaseIterable, Entity {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .pressureSystems:
             String(localized: "Pressure Systems", bundle: .module, comment: "Atmospheric Entity Type")
 

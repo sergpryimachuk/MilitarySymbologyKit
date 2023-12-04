@@ -13,7 +13,7 @@ public enum MeetingEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .pollingPlaceElection:
             String(localized: "Polling Place/Election", bundle: .module, comment: "Meeting Entity Subtype")
         }

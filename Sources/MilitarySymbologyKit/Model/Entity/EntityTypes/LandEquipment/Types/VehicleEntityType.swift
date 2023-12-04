@@ -26,7 +26,7 @@ public enum VehicleEntityType: String, CaseIterable, EntityType {
         case .tankRecoveryVehicle:
             String(localized: "Tank Recovery Vehicle", bundle: .module, comment: "Vehicle Entity Type")
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         }
     }
 

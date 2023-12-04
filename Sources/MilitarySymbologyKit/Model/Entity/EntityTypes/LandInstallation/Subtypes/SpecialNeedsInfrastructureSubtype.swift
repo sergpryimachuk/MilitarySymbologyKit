@@ -18,7 +18,7 @@ public enum SpecialNeedsInfrastructureSubtype: String, CaseIterable, EntitySubty
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .adultDayCare:
             String(localized: "Adult Day Care", bundle: .module, comment: "Special Needs Infrastructure Subtype")
         case .childDayCare:

@@ -23,5 +23,5 @@ public extension AnyEntitySubtype {
 
 public extension AnyEntitySubtype {
     static let none: AnyEntitySubtype = .init(id: "00",
-                                              name: String(localized: "None"))
+                                              name: String(localized: "None", bundle: .module))
 }

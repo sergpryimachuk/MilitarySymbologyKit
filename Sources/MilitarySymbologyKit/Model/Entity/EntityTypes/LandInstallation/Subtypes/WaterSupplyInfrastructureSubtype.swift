@@ -26,7 +26,7 @@ public enum WaterSupplyInfrastructureSubtype: String, CaseIterable, EntitySubtyp
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .controlValve:
             String(localized: "Control Valve", bundle: .module, comment: "Water Supply Infrastructure Subtype")
         case .dam:

@@ -17,7 +17,7 @@ public enum EducationalFacilitiesInfrastructureSubtype: String, CaseIterable, En
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .collegeUniversity:
             String(localized: "College/University", bundle: .module, comment: "Educational Facilities Infrastructure Subtype")
         case .school:

@@ -30,7 +30,7 @@ public enum OtherEquipmentEntityType: String, CaseIterable, EntityType {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .antennae:
             String(localized: "Antennae", bundle: .module, comment: "Other Equipment Entity Type")
 

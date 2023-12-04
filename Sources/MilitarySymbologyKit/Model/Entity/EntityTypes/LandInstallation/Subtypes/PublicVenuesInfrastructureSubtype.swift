@@ -19,7 +19,7 @@ public enum PublicVenuesInfrastructureSubtype: String, CaseIterable, EntitySubty
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .enclosedFacility:
             String(localized: "Enclosed Facility", bundle: .module, comment: "Public Venues Infrastructure Subtype")
         case .openFacility:

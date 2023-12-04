@@ -20,7 +20,7 @@ public extension CyberspaceEntity {
             case .nonAdvancedPersistentThreat:
                 String(localized: "Non-Advanced Persistent Threat (NAPT)", bundle: .module, comment: "Infection Entity Type")
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             }
         }
 

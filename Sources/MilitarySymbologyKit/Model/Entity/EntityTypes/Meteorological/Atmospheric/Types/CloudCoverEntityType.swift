@@ -14,7 +14,7 @@ public extension AtmosphericEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
 
             case .cloudCoverageSymbols:
                 String(localized: "Cloud Coverage Symbols", bundle: .module, comment: "Cloud Cover Entity Type")

@@ -16,7 +16,7 @@ public enum TropicalStormSystemsEntitySubtype: String, CaseIterable, EntitySubty
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .tropicalDepression:
             String(localized: "Tropical Depression", bundle: .module, comment: "Tropical Storm Systems Entity Subtype")

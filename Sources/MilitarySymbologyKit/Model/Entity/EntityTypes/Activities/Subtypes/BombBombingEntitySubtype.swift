@@ -13,7 +13,7 @@ public enum BombBombingEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .bombThreat:
             String(localized: "Bomb Threat", bundle: .module, comment: "Bomb/Bombing Entity Subtype")

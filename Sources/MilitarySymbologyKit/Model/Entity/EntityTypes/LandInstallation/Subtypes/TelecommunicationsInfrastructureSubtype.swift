@@ -18,7 +18,7 @@ public enum TelecommunicationsInfrastructureSubtype: String, CaseIterable, Entit
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .broadcastTransmitterAntennae:
             String(localized: "Broadcast Transmitter Antennae", bundle: .module, comment: "Telecommunications Infrastructure Subtype")
         case .telecommunications:

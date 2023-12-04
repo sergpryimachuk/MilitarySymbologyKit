@@ -16,7 +16,7 @@ public enum ServiceCraftYardEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .bargeNotSelfPropelled:
             String(localized: "Barge, Not Self-Propelled", bundle: .module, comment: "Service Craft Yard Entity Subtype")

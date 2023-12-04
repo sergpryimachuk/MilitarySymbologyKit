@@ -15,7 +15,7 @@ public enum SubmarineEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .submarineSurfaced:
             String(localized: "Submarine-Surfaced", bundle: .module, comment: "Submarine Entity Subtype")

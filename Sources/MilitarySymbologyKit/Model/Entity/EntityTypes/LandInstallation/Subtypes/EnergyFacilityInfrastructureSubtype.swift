@@ -21,7 +21,7 @@ public enum EnergyFacilityInfrastructureSubtype: String, CaseIterable, EntitySub
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .electricPower:
             String(localized: "Electric Power", bundle: .module, comment: "Energy Facility Infrastructure Subtype")
         case .generationStation:

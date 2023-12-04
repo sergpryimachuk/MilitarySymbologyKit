@@ -37,7 +37,7 @@ public extension AtmosphericEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
 
             case .rain:
                 String(localized: "Rain", bundle: .module, comment: "Weather Symbols Entity Type")

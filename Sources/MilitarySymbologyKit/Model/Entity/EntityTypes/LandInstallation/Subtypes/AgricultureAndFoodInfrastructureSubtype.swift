@@ -23,7 +23,7 @@ public enum AgricultureAndFoodInfrastructureSubtype: String, CaseIterable, Entit
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .agricultureLaboratory:
             String(localized: "Agriculture Laboratory", bundle: .module, comment: "Agriculture and Food Infrastructure Subtype")
         case .animalFeedlot:

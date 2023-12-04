@@ -18,7 +18,7 @@ public extension AtmosphericEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             case .light:
                 String(localized: "Light", bundle: .module, comment: "Turbulence Entity Type")
 

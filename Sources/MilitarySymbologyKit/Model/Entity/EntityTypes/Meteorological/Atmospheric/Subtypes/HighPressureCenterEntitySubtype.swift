@@ -14,7 +14,7 @@ public enum HighPressureCenterEntitySubtype: String, CaseIterable, EntitySubtype
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .anticycloneCenter:
             String(localized: "Anticyclone Center", bundle: .module, comment: "High Pressure Center Entity Subtype")

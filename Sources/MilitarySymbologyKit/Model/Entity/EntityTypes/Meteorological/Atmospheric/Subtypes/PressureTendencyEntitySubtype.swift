@@ -21,7 +21,7 @@ public enum PressureTendencyEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .riseThenFallHigher:
             String(localized: "Rise Then Fall Higher", bundle: .module, comment: "Pressure Tendency Entity Subtype")

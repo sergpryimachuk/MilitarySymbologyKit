@@ -28,7 +28,7 @@ public enum MerchantShipEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .cargoGeneral:
             String(localized: "Cargo, General", bundle: .module, comment: "Merchant Ship Entity Subtype")

@@ -15,7 +15,7 @@ public enum FireFightingOperationEntitySubtype: String, CaseIterable, EntitySubt
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .fireHydrant:
             String(localized: "Fire Hydrant", bundle: .module, comment: "Firefighting Operation Entity Subtype")
         case .fireStation:

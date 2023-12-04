@@ -17,7 +17,7 @@ public enum NeutralizedMineGeneralEntitySubtype: String, CaseIterable, EntitySub
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .neutralizedMineBottom:
             String(localized: "Neutralized Mine-Bottom", bundle: .module, comment: "Neutralized Mine General Entity Subtype")

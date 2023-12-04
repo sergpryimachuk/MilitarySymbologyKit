@@ -14,7 +14,7 @@ public extension OtherEquipmentEntityType {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
 
             case .medicalEvacuationHelicopter:
                 String(localized: "Medical Evacuation Helicopter", bundle: .module, comment: "Emergency Medical Operation Entity Subtype")

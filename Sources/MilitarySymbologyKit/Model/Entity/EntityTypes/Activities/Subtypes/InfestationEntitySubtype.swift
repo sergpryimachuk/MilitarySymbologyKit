@@ -20,7 +20,7 @@ public enum InfestationEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .bird:
             String(localized: "Bird", bundle: .module, comment: "Infestation Entity Subtype")
         case .insect:

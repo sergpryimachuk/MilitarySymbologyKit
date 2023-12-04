@@ -19,7 +19,7 @@ public enum HQTFD: String, CaseIterable, Identifiable {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .feintDummy:
             String(localized: "Feint/Dummy", bundle: .module, comment: "Headquarters/Task force/Dummy")

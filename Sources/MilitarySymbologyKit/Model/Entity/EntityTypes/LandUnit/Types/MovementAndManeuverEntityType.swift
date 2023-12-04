@@ -32,7 +32,7 @@ public extension LandUnitEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             case .airAssaultWithOrganicLift:
                 String(localized: "Air Assault with Organic Lift", bundle: .module, comment: "Movement and Maneuver Entity Type")
 

@@ -22,7 +22,7 @@ public enum WithSnowOrMeasurableIceCoverEntitySubtype: String, CaseIterable, Ent
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .predominatelyIceCovered:
             String(localized: "Predominately Ice Covered", bundle: .module, comment: "With Snow or Measurable Ice Cover Entity Subtype")

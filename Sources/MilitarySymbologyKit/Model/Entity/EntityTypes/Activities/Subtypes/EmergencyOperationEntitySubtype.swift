@@ -20,7 +20,7 @@ public enum EmergencyOperationEntitySubtype: String, CaseIterable, EntitySubtype
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .emergencyCollectionEvacuationPoint:
             String(localized: "Emergency Collection Evacuation Point", bundle: .module, comment: "Emergency Operation Entity Subtype")
         case .emergencyFoodDistribution:

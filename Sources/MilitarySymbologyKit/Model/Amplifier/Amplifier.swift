@@ -18,7 +18,7 @@ public enum Amplifier: String, CaseIterable, Identifiable {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .echelonBrigadeBelow:
             String(localized: "Echelon at brigade and below", bundle: .module, comment: "Amplifier")

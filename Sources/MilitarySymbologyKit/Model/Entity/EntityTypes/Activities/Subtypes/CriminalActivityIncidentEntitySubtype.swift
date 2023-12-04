@@ -35,7 +35,7 @@ public enum CriminalActivityIncidentEntitySubtype: String, CaseIterable, EntityS
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .arrest:
             String(localized: "Arrest", bundle: .module, comment: "Criminal Activity Incident Entity Subtype")

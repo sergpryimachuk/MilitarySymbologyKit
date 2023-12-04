@@ -25,7 +25,7 @@ public extension LandUnitEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             case .analysis:
                 String(localized: "Analysis", bundle: .module, comment: "Intelligence Entity Type")
 

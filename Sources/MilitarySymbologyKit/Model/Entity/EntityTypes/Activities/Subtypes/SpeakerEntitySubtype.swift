@@ -15,7 +15,7 @@ public enum SpeakerEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         }
     }
 }

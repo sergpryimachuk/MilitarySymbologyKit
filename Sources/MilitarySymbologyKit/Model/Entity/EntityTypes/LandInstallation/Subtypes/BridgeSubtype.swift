@@ -16,7 +16,7 @@ public enum BridgeSubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .bridge:
             String(localized: "Bridge", bundle: .module, comment: "Bridge Subtype")
         }

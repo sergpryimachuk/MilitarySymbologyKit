@@ -17,7 +17,7 @@ public enum PostalServicesInfrastructureSubtype: String, CaseIterable, EntitySub
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .postalDistributionCenter:
             String(localized: "Postal Distribution Center", bundle: .module, comment: "Postal Services Infrastructure Subtype")
         case .postOffice:

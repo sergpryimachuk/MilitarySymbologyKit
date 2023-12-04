@@ -25,7 +25,7 @@ public enum AuxiliaryShipEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .ammunitionShip:
             String(localized: "Ammunition Ship", bundle: .module, comment: "Auxiliary Ship Entity Subtype")

@@ -17,7 +17,7 @@ public extension CyberspaceEntity.InfectionEntityType {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
 
             case .naptWithC2:
                 String(localized: "NAPT with C2", bundle: .module, comment: "NAPT Entity Subtype")

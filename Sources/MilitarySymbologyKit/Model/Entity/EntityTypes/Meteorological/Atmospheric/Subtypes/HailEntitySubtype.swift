@@ -14,7 +14,7 @@ public enum HailEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .lightNotAssociatedWithThunder:
             String(localized: "Light not Associated with Thunder", bundle: .module, comment: "Hail Entity Subtype")

@@ -19,7 +19,7 @@ public enum NamedHeadquartersEntityType: String, CaseIterable, EntityType {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .alliedCommandEuropeRapidReactionCorps:
             String(localized: "Allied Command Europe Rapid Reaction Corps (ARRC)", bundle: .module, comment: "Named Headquarters Entity Type")
 

@@ -14,7 +14,7 @@ public enum LeisureCraftMotorizedEntitySubtype: String, CaseIterable, EntitySubt
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .rigidHullInflatableBoat:
             String(localized: "Rigid-Hull Inflatable Boat (RHIB)", bundle: .module, comment: "Leisure Craft Motorized Entity Subtype")

@@ -20,7 +20,7 @@ public extension AtmosphericEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
 
             case .isobarSurface:
                 String(localized: "Isobar - Surface", bundle: .module, comment: "Isopleths Entity Type")

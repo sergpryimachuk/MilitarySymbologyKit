@@ -20,7 +20,7 @@ public enum TransportationIncidentEntityType: String, CaseIterable, EntityType {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .air:
             String(localized: "Air", bundle: .module, comment: "Transportation Incident Entity Type")
         case .marine:

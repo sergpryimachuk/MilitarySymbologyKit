@@ -17,7 +17,7 @@ public extension CyberspaceEntity.InfectionEntityType {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
 
             case .aptWithC2:
                 String(localized: "APT with C2", bundle: .module, comment: "APT Entity Subtype")

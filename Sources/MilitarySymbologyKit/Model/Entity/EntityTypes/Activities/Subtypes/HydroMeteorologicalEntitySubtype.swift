@@ -18,7 +18,7 @@ public enum HydroMeteorologicalEntitySubtype: String, CaseIterable, EntitySubtyp
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .drought:
             String(localized: "Drought", bundle: .module, comment: "Hydro-Meteorological Entity Subtype")
         case .flood:

@@ -16,7 +16,7 @@ public extension AtmosphericEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             case .clearIcing:
                 String(localized: "Clear Icing", bundle: .module, comment: "Icing Entity Type")
 

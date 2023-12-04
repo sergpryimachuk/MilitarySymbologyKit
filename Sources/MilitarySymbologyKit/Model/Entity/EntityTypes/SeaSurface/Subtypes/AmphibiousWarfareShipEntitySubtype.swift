@@ -20,7 +20,7 @@ public enum AmphibiousWarfareShipEntitySubtype: String, CaseIterable, EntitySubt
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .amphibiousCommandShip:
             String(localized: "Amphibious Command Ship", bundle: .module, comment: "Amphibious Warfare Ship Entity Subtype")

@@ -21,7 +21,7 @@ public enum AirDefenseMissileLauncherEntitySubtype: String, CaseIterable, Entity
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .light:
             String(localized: "Light", bundle: .module, comment: "Air Defense Missile Launcher Entity Subtype")

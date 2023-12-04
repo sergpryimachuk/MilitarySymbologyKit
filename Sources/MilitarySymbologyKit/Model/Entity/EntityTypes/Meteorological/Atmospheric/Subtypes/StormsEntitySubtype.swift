@@ -20,7 +20,7 @@ public enum StormsEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .thunderstormNoPrecipitation:
             String(localized: "Thunderstorm - No Precipitation", bundle: .module, comment: "Storms Entity Subtype")

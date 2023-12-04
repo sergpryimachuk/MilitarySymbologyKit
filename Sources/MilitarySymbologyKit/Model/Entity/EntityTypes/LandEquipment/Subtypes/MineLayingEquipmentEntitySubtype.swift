@@ -15,7 +15,7 @@ public enum MineLayingEquipmentEntitySubtype: String, CaseIterable, EntitySubtyp
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .utilityVehicle:
             String(localized: "Mine Laying Equipment on Utility Vehicle", bundle: .module, comment: "Mine Laying Equipment Entity Subtype")

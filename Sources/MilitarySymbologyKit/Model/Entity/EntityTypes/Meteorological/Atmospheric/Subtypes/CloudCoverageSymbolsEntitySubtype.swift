@@ -18,7 +18,7 @@ public enum CloudCoverageSymbolsEntitySubtype: String, CaseIterable, EntitySubty
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .clearSky:
             String(localized: "Clear Sky", bundle: .module, comment: "Cloud Coverage Symbols Entity Subtype")

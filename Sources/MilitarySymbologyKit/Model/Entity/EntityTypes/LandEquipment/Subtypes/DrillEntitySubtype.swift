@@ -13,7 +13,7 @@ public enum DrillEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .drillMountedOnUtilityVehicle:
             String(localized: "Drill Mounted on Utility Vehicle", bundle: .module, comment: "Drill Entity Subtype")

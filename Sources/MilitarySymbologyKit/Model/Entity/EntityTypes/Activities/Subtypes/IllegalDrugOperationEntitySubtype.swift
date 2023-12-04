@@ -14,7 +14,7 @@ public enum IllegalDrugOperationEntitySubtype: String, CaseIterable, EntitySubty
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .trafficking:
             String(localized: "Trafficking", bundle: .module, comment: "Illegal Drug Operation Entity Subtype")

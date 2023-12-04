@@ -20,7 +20,7 @@ public extension AirUnitEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
 
             case .fixedWing:
                 String(localized: "Fixed-Wing", bundle: .module, comment: "Military Entity Type")

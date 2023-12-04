@@ -22,7 +22,7 @@ public enum BankingFinanceAndInsuranceInfrastructureSubtype: String, CaseIterabl
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .atm:
             String(localized: "ATM", bundle: .module, comment: "Banking, Finance, and Insurance Infrastructure Subtype")
         case .bank:

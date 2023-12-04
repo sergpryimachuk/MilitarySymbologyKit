@@ -17,7 +17,7 @@ public enum NavyTaskOrganizationEntitySubtype: String, CaseIterable, EntitySubty
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .navyTaskElement:
             String(localized: "Navy Task Element", bundle: .module, comment: "Navy Task Organization Entity Subtype")

@@ -19,7 +19,7 @@ public extension OperationEntityType {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             case .emtStationLocation:
                 String(localized: "EMT Station Location", bundle: .module, comment: "Emergency Medical Operation Entity Subtype")
             case .healthDepartmentFacility:

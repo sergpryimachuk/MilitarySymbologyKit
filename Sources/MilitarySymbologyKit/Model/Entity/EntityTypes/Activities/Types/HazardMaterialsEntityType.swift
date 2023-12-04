@@ -16,7 +16,7 @@ public enum HazardMaterialsEntityType: String, CaseIterable, EntityType {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .hazardMaterialsIncident:
             String(localized: "Hazard Materials Incident", bundle: .module, comment: "Hazard Materials Entity Type")
         }

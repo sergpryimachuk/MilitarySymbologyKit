@@ -18,7 +18,7 @@ public enum SurfaceCombatantLineEntitySubtype: String, CaseIterable, EntitySubty
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .battleship:
             String(localized: "Battleship", bundle: .module, comment: "Surface Combatant Line Entity Subtype")

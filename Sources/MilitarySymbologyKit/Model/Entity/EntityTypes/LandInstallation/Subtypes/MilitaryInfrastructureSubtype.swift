@@ -17,7 +17,7 @@ public enum MilitaryInfrastructureSubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .militaryArmory:
             String(localized: "Military Armory", bundle: .module, comment: "Military Infrastructure Subtype")
         case .militaryBase:

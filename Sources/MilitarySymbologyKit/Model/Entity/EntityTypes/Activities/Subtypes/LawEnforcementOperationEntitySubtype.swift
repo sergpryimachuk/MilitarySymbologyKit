@@ -25,7 +25,7 @@ public enum LawEnforcementOperationEntitySubtype: String, CaseIterable, EntitySu
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .ATF:
             String(localized: "Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)", bundle: .module, comment: "Law Enforcement Operation Entity Subtype")
         case .borderPatrol:

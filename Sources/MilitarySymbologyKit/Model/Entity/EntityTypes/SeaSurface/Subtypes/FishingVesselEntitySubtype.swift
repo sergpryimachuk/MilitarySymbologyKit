@@ -15,7 +15,7 @@ public enum FishingVesselEntitySubtype: String, CaseIterable, EntitySubtype {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
 
         case .drifter:
             String(localized: "Drifter", bundle: .module, comment: "Fishing Vessel Entity Subtype")

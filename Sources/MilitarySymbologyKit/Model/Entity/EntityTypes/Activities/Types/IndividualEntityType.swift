@@ -17,7 +17,7 @@ public enum IndividualEntityType: String, CaseIterable, EntityType {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .religiousLeader:
             String(localized: "Religious Leader", bundle: .module, comment: "Individual Entity Type")
         case .speaker:

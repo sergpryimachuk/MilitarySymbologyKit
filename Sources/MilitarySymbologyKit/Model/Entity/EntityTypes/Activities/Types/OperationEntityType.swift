@@ -27,7 +27,7 @@ public enum OperationEntityType: String, CaseIterable, EntityType {
     public var name: String {
         switch self {
         case .none:
-            String(localized: "None")
+            String(localized: "None", bundle: .module)
         case .patrolling:
             String(localized: "Patrolling", bundle: .module, comment: "Operation Entity Type")
         case .militaryInformationSupportOperation:

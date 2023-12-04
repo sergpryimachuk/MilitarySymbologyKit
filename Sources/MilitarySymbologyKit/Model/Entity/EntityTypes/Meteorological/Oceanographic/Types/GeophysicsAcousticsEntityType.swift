@@ -18,7 +18,7 @@ public extension OceanographicEntity {
             case .mineWarfareBottomDescriptors:
                 String(localized: "Mine Warfare (MIW) Bottom Descriptors", bundle: .module, comment: "Geophysics/Acoustics Entity Type")
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             }
         }
     }

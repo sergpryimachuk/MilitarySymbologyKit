@@ -62,7 +62,7 @@ public extension LandUnitEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             case .administrative:
                 String(localized: "Administrative", bundle: .module, comment: "Sustainment Entity Type")
 

@@ -16,7 +16,7 @@ public extension SeaSubsurfaceEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
 
             case .torpedo:
                 String(localized: "Torpedo", bundle: .module, comment: "Weapon Entity Type")

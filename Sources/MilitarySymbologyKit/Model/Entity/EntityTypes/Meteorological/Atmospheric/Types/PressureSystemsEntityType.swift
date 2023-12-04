@@ -18,7 +18,7 @@ public extension AtmosphericEntity {
         public var name: String {
             switch self {
             case .none:
-                String(localized: "None")
+                String(localized: "None", bundle: .module)
             case .lowPressureCenter:
                 String(localized: "Low Pressure Center", bundle: .module, comment: "Pressure Systems Entity Type")
 
