@@ -18,7 +18,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-
+    
     public var status: Status = .present
     public var hqtfd: HQTFD = .none
     public var amplifier: Amplifier = .none {
@@ -30,7 +30,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-
+    
     public var descriptor: AnyDescriptor = .none
     public var entity: AnyEntity = .none {
         didSet {
@@ -41,7 +41,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-
+    
     public var entityType: AnyEntityType = .none {
         didSet {
             if let first = entityType.subtypes.first {
@@ -51,14 +51,14 @@ public struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-
+    
     public var entitySubtype: AnyEntitySubtype = .none
-
+    
     public var isCivilian: Bool = false
     public var isAlternateStatusAmplifiers: Bool = false
-
+    
     public let id = UUID()
-
+    
     public var sidc: String {
         version
             + context.id
@@ -84,57 +84,57 @@ public extension MilitarySymbol {
                 throw MilitarySymbolError.contextParcingFailed
             }
             self.context = context
-
+            
             guard let standardIdentity = StandardIdentity(rawValue: sidc[3]) else {
                 print("StandardIdentity")
                 throw MilitarySymbolError.standardIdentityParcingFailed
             }
             self.standardIdentity = standardIdentity
-
+            
             guard let dimention = Dimension(rawValue: sidc[4] + sidc[5]) else {
                 print("Dimension")
                 throw MilitarySymbolError.dimentionParcingFailed
             }
             self.dimention = dimention
-
+            
             guard let status = Status(rawValue: sidc[6]) else {
                 print("Status")
                 throw MilitarySymbolError.statusParcingFailed
             }
             self.status = status
-
+            
             guard let hqtfd = HQTFD(rawValue: sidc[7]) else {
                 print("HQTFD")
                 throw MilitarySymbolError.hqtfdParcingFailed
             }
             self.hqtfd = hqtfd
-
+            
             guard let amplifier = Amplifier(rawValue: sidc[8]) else {
                 print("Amplifier")
                 throw MilitarySymbolError.amplifierParcingFailed
             }
             self.amplifier = amplifier
-
+            
             guard let descriptor = amplifier.descriptors.first(where: { $0.id == sidc[9] }) else {
                 print("Descriptor")
                 throw MilitarySymbolError.descriptorParcingFailed
             }
             self.descriptor = descriptor
-
+            
             let entityDigits: String = sidc[10] + sidc[11]
             guard let entity = dimention.entities.first(where: { $0.id == entityDigits }) else {
                 print("Entity")
                 throw MilitarySymbolError.entityParcingFailed
             }
             self.entity = entity
-
+            
             let entityTypeDigits: String = sidc[12] + sidc[13]
             guard let entityType = entity.types.first(where: { $0.id == entityTypeDigits }) else {
                 print("EntityType")
                 throw MilitarySymbolError.entityTypeParcingFailed
             }
             self.entityType = entityType
-
+            
             let entitySybTypeDigits = sidc[14] + sidc[15]
             guard let entitySubtype = entityType.subtypes.first(where: { $0.id == entitySybTypeDigits }) else {
                 print("EntitySubtype")
@@ -157,20 +157,21 @@ public extension MilitarySymbol {
         entity: AnyEntity,
         entityType: AnyEntityType,
         entitySubtype: AnyEntitySubtype,
-        isAlternateStatusAmplifiers: Bool = true) {
-            self.context = context
-            self.standardIdentity = standardIdentity
-            self.dimention = dimention
-            self.status = status
-            self.hqtfd = hqtfd
-            self.amplifier = amplifier
-            self.descriptor = descriptor
-            self.entity = entity
-            self.entityType = entityType
-            self.entitySubtype = entitySubtype
-            self.isCivilian = false
-            self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
-        }
+        isAlternateStatusAmplifiers: Bool = true
+    ) {
+        self.context = context
+        self.standardIdentity = standardIdentity
+        self.dimention = dimention
+        self.status = status
+        self.hqtfd = hqtfd
+        self.amplifier = amplifier
+        self.descriptor = descriptor
+        self.entity = entity
+        self.entityType = entityType
+        self.entitySubtype = entitySubtype
+        self.isCivilian = false
+        self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
+    }
 }
 
 public extension MilitarySymbol {
