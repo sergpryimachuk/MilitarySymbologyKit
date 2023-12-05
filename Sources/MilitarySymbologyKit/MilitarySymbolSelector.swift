@@ -80,8 +80,7 @@ public struct ContextSelector: View {
                 LabeledContent {
                     Text(context.name)
                 } label: {
-                    illustrationSymbol.makeView(size: 50)
-                        .scaleEffect(2)
+                    illustrationSymbol.makeView(size: 100)
                 }
             }
         }
@@ -118,8 +117,7 @@ public struct StandardIdentitySelector: View {
                 LabeledContent {
                     Text(standardIdentity.name)
                 } label: {
-                    illustrationSymbol.makeView(size: 50)
-                        .scaleEffect(2)
+                    illustrationSymbol.makeView(size: 100)
                 }
             }
         }
@@ -156,8 +154,7 @@ public struct StatusSelector: View {
                 LabeledContent {
                     Text(status.name)
                 } label: {
-                    illustrationSymbol.makeView(size: 50)
-                        .scaleEffect(2)
+                    illustrationSymbol.makeView(size: 100)
                 }
             }
         }
