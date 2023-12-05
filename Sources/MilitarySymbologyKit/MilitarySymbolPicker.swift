@@ -39,7 +39,7 @@ public struct MilitarySymbolPicker: View {
             Section {
                 Picker(selection: $symbol.context) {
                     ForEach(Context.allCases) { context in
-                        Text(context.id + " " + context.name).tag(context)
+                        Text(context.name).tag(context)
                     }
                 } label: {
                     Text("Context", bundle: .module)
@@ -47,7 +47,7 @@ public struct MilitarySymbolPicker: View {
 
                 Picker(selection: $symbol.standardIdentity) {
                     ForEach(StandardIdentity.allCases) { identity in
-                        Text(identity.id + " " + identity.name).tag(identity)
+                        Text(identity.name).tag(identity)
                     }
                 } label: {
                     Text("Standard Identity", bundle: .module)
@@ -55,7 +55,7 @@ public struct MilitarySymbolPicker: View {
 
                 Picker(selection: $symbol.dimention) {
                     ForEach(Dimension.allCases) { dimension in
-                        Text(dimension.id + " " + dimension.name).tag(dimension)
+                        Text(dimension.name).tag(dimension)
                     }
                 } label: {
                     Text("Dimention", bundle: .module)
@@ -63,7 +63,7 @@ public struct MilitarySymbolPicker: View {
 
                 Picker(selection: $symbol.status) {
                     ForEach(Status.allCases) { status in
-                        Text(status.id + " " + status.name).tag(status)
+                        Text(status.name).tag(status)
                     }
                 } label: {
                     Text("Status", bundle: .module)
@@ -71,7 +71,7 @@ public struct MilitarySymbolPicker: View {
 
                 Picker(selection: $symbol.hqtfd) {
                     ForEach(HQTFD.allCases) { hqtfd in
-                        Text(hqtfd.id + " " + hqtfd.name).tag(hqtfd)
+                        Text(hqtfd.name).tag(hqtfd)
                     }
                 } label: {
                     Text("HQ / Task Force / Dummy", bundle: .module)
@@ -79,7 +79,7 @@ public struct MilitarySymbolPicker: View {
 
                 Picker(selection: $symbol.amplifier) {
                     ForEach(Amplifier.allCases) { amplifier in
-                        Text(amplifier.id + " " + amplifier.name).tag(amplifier)
+                        Text(amplifier.name).tag(amplifier)
                     }
                 } label: {
                     Text("Amplifier", bundle: .module)
@@ -87,7 +87,7 @@ public struct MilitarySymbolPicker: View {
 
                 Picker(selection: $symbol.descriptor) {
                     ForEach(symbol.amplifier.descriptors) { descriptor in
-                        Text(descriptor.id + " " + descriptor.name).tag(AnyDescriptor(descriptor))
+                        Text(descriptor.name).tag(AnyDescriptor(descriptor))
                     }
                 } label: {
                     Text("Descriptor", bundle: .module)
@@ -95,7 +95,7 @@ public struct MilitarySymbolPicker: View {
 
                 Picker(selection: $symbol.entity) {
                     ForEach(symbol.dimention.entities) { entity in
-                        Text(entity.id + " " + entity.name).tag(entity)
+                        Text(entity.name).tag(entity)
                     }
                 } label: {
                     Text("Entity", bundle: .module)
@@ -103,7 +103,7 @@ public struct MilitarySymbolPicker: View {
 
                 Picker(selection: $symbol.entityType) {
                     ForEach(symbol.entity.types) { entityType in
-                        Text(entityType.id + " " + entityType.name).tag(entityType)
+                        Text(entityType.name).tag(entityType)
                     }
                 } label: {
                     Text("Entity Type", bundle: .module)
@@ -111,7 +111,7 @@ public struct MilitarySymbolPicker: View {
 
                 Picker(selection: $symbol.entitySubtype) {
                     ForEach(symbol.entityType.subtypes) { entitySubtype in
-                        Text(entitySubtype.id + " " + entitySubtype.name).tag(entitySubtype)
+                        Text(entitySubtype.name).tag(entitySubtype)
                     }
                 } label: {
                     Text("Entity Subtype", bundle: .module)
