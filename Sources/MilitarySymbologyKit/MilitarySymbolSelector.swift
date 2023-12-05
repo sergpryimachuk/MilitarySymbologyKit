@@ -4,6 +4,8 @@
 
 import SwiftUI
 
+
+
 public struct MilitarySymbolSelector: View {
     
     @Binding public var symbol: MilitarySymbol
@@ -14,6 +16,42 @@ public struct MilitarySymbolSelector: View {
     
     public var body: some View {
         List {
+            
+            Section {
+                HStack {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 10)
+                            .frame(width: 140, height: 140)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
+                        symbol.makeView(size: 200)
+                            .padding(-30)
+                    }
+                    
+                    VStack {
+                        
+                        Button {
+                            symbol = MilitarySymbol()
+                        } label: {
+                            Label("Favorite", systemImage: "star")
+                                .frame(maxWidth: .infinity, alignment: .center)
+                                .bold()
+                        }
+                        .buttonStyle(.bordered)
+                        
+                        Button {
+                            symbol = MilitarySymbol()
+                        } label: {
+                            Label("Reset", systemImage: "trash")
+                                .frame(maxWidth: .infinity, alignment: .center)
+                                .foregroundStyle(.red)
+                                .bold()
+                        }
+                        .buttonStyle(.bordered)
+                    }
+                }
+            }
+            
             // MARK: - Context
             Section {
                 NavigationLink {
@@ -38,7 +76,6 @@ public struct MilitarySymbolSelector: View {
             }
             
             // MARK: - Dimention
-            
             Section {
                 NavigationLink {
                     DimentionSelector(symbol: $symbol)
@@ -48,7 +85,6 @@ public struct MilitarySymbolSelector: View {
             } header: {
                 Text("Dimention", bundle: .module)
             }
-            
             
             // MARK: - Status
             Section {
@@ -69,29 +105,23 @@ public struct MilitarySymbolSelector: View {
                     Text("Select HQ / Task Force / Dummy", bundle: .module)
                 }
             } header: {
-                Text("Status", bundle: .module)
+                Text("HQTFDummy", bundle: .module)
             }
             
-            // MARK: - Amplifier
+            // MARK: - Amplifier and Descriptor
             Section {
                 NavigationLink {
                     AmplifierSelector(symbol: $symbol)
                 } label: {
                     Text("Select amplifier", bundle: .module)
                 }
-            } header: {
-                Text("Amplifier", bundle: .module)
-            }
-            
-            // MARK: - Descriptor
-            Section {
                 NavigationLink {
                     DescriptorSelector(symbol: $symbol)
                 } label: {
                     Text("Select descriptor", bundle: .module)
                 }
             } header: {
-                Text("Descriptor", bundle: .module)
+                Text("Amplifier / Descriptor", bundle: .module)
             }
             
             // MARK: - Entity
@@ -101,34 +131,24 @@ public struct MilitarySymbolSelector: View {
                 } label: {
                     Text("Select entity", bundle: .module)
                 }
-            } header: {
-                Text("Entity", bundle: .module)
-            }
-            
-            // MARK: - Entity Type
-            Section {
                 NavigationLink {
                     EntityTypeSelector(symbol: $symbol)
                 } label: {
                     Text("Select entity type", bundle: .module)
                 }
-            } header: {
-                Text("Entity Type", bundle: .module)
-            }
-            
-            // MARK: - Entity Subtype
-            Section {
                 NavigationLink {
                     EntitySubtypeSelector(symbol: $symbol)
                 } label: {
                     Text("Select entity subtype", bundle: .module)
                 }
             } header: {
-                Text("Entity Subtype", bundle: .module)
+                Text("Entity", bundle: .module)
             }
-        }
+            
+        }.listStyle(.insetGrouped)
     }
 }
+
 
 public struct ContextSelector: View {
     
@@ -156,22 +176,32 @@ public struct ContextSelector: View {
                 symbol.context = context
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(context.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(context.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.context == context {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
-        }
-        .navigationTitle(Text("Context", bundle: .module))
+            }.tint(.primary)
+            
+        }.listStyle(.grouped)
+        
+            .navigationTitle(Text("Context", bundle: .module))
     }
 }
 
@@ -201,24 +231,35 @@ public struct StandardIdentitySelector: View {
                 symbol.standardIdentity = standardIdentity
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(standardIdentity.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(standardIdentity.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.standardIdentity == standardIdentity {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
-        }
-        .navigationTitle(Text("Standard identity", bundle: .module))
+            }.tint(.primary)
+            
+        }.listStyle(.grouped)
+        
+            .navigationTitle(Text("Standard identity", bundle: .module))
     }
 }
+
 
 public struct DimentionSelector: View {
     
@@ -246,21 +287,31 @@ public struct DimentionSelector: View {
                 symbol.dimention = dimention
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(dimention.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(dimention.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.dimention == dimention {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
+            }.tint(.primary)
+            
         }
+        .listStyle(.grouped)
         .navigationTitle(Text("Dimention", bundle: .module))
     }
 }
@@ -291,24 +342,35 @@ public struct StatusSelector: View {
                 symbol.status = status
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(status.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(status.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.status == status {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
+            }.tint(.primary)
+            
         }
+        .listStyle(.grouped)
         .navigationTitle(Text("Status", bundle: .module))
     }
 }
+
 
 public struct HQTFDSelector: View {
     
@@ -336,24 +398,35 @@ public struct HQTFDSelector: View {
                 symbol.hqtfd = hqtfd
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(hqtfd.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(hqtfd.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.hqtfd == hqtfd {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
+            }.tint(.primary)
+            
         }
+        .listStyle(.grouped)
         .navigationTitle(Text("HQ / Task Force / Dummy", bundle: .module))
     }
 }
+
 
 public struct AmplifierSelector: View {
     
@@ -381,24 +454,35 @@ public struct AmplifierSelector: View {
                 symbol.amplifier = amplifier
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(amplifier.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(amplifier.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.amplifier == amplifier {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
+            }.tint(.primary)
+            
         }
+        .listStyle(.grouped)
         .navigationTitle(Text("Amplifier", bundle: .module))
     }
 }
+
 
 public struct DescriptorSelector: View {
     
@@ -426,24 +510,35 @@ public struct DescriptorSelector: View {
                 symbol.descriptor = descriptor
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(descriptor.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(descriptor.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.descriptor == descriptor {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
+            }.tint(.primary)
+            
         }
+        .listStyle(.grouped)
         .navigationTitle(Text("Descriptor", bundle: .module))
     }
 }
+
 
 public struct EntitySelector: View {
     
@@ -471,24 +566,35 @@ public struct EntitySelector: View {
                 symbol.entity = entity
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(entity.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(entity.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.entity == entity {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
+            }.tint(.primary)
+            
         }
+        .listStyle(.grouped)
         .navigationTitle(Text("Entity", bundle: .module))
     }
 }
+
 
 public struct EntityTypeSelector: View {
     
@@ -516,24 +622,35 @@ public struct EntityTypeSelector: View {
                 symbol.entityType = entityType
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(entityType.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(entityType.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.entityType == entityType {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
+            }.tint(.primary)
+            
         }
+        .listStyle(.grouped)
         .navigationTitle(Text("Entity Type", bundle: .module))
     }
 }
+
 
 public struct EntitySubtypeSelector: View {
     
@@ -561,21 +678,45 @@ public struct EntitySubtypeSelector: View {
                 symbol.entitySubtype = entitySubtype
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(entitySubtype.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(entitySubtype.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.entitySubtype == entitySubtype {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
+            }.tint(.primary)
+            
         }
+        .listStyle(.grouped)
         .navigationTitle(Text("Entity Subtype", bundle: .module))
     }
+}
+
+fileprivate struct PreviewPrapper: View {
+    @State private var symbol = MilitarySymbol(isAlternateStatusAmplifiers: true)
+    var body: some View {
+        NavigationStack {
+            MilitarySymbolSelector(symbol: $symbol)
+                .navigationTitle(Text(verbatim: "Symbol"))
+        }
+    }
+}
+
+#Preview {
+    PreviewPrapper()
 }
