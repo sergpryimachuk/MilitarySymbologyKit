@@ -30,7 +30,12 @@ public extension MilitarySymbol {
     // All good.
 
     /// **Uses SIDC positions 3-7**, with an underscore between the first digit in the name and the last digit in the name. Purple filled frames for Civilian units, equipment, and installations have a ‘c’ at the end of the file name.
-    var frameAssetName: String {
+    var frameAssetName: String? {
+        
+        guard dimention != .cyberspace else {
+            return nil
+        }
+        
         var statusDigit: String {
             let initial = switch status {
             case .present, .plannedAnticipatedSuspect:
@@ -311,9 +316,12 @@ public extension MilitarySymbol {
 
     func makeView(size: CGFloat? = nil) -> some View {
         ZStack {
-            Image(frameAssetName, bundle: .militarySymbologyAssets)
-                .resizable()
-                .scaledToFit()
+            
+            if let frameAssetName {
+                Image(frameAssetName, bundle: .militarySymbologyAssets)
+                    .resizable()
+                    .scaledToFit()
+            }
 
             if let amplifierAssetName {
                 Image(amplifierAssetName, bundle: .militarySymbologyAssets)
