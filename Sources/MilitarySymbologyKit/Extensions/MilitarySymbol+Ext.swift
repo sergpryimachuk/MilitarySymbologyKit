@@ -60,11 +60,17 @@ public extension MilitarySymbol {
                 dimention.id
             }
         }
-
+        
+        var standardIdentityDigit: String {
+            switch standardIdentity {
+            default:
+                standardIdentity.id
+            }
+        }
 
         return context.id
             + "_"
-            + standardIdentity.assetDigit
+            + standardIdentityDigit
             + dimentionDigit
             + "_"
             + lastDigit
