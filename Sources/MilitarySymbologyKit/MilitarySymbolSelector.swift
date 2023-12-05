@@ -8,6 +8,10 @@ public struct MilitarySymbolSelector: View {
     
     @Binding public var symbol: MilitarySymbol
     
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
+    
     public var body: some View {
         List {
             // MARK: - Context
