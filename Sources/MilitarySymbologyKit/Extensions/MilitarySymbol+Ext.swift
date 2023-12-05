@@ -64,7 +64,7 @@ public extension MilitarySymbol {
 
         return context.id
             + "_"
-            + standardIdentity.id
+            + standardIdentity.assetDigit
             + dimentionDigit
             + "_"
             + lastDigit
