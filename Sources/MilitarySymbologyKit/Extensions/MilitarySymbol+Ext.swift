@@ -127,7 +127,7 @@ public extension MilitarySymbol {
             case .present, .plannedAnticipatedSuspect:
                 return nil
             default:
-                return context.id
+                return Context.reality.id
                     + standardIdentity.assetDigit
                     + dimention.id
                     + status.id
