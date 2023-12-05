@@ -89,6 +89,7 @@ public struct ContextSelector: View {
                 }
             }
         }
+        .navigationTitle(Text("Context", bundle: .module))
     }
 }
 
@@ -102,7 +103,7 @@ public struct StandardIdentitySelector: View {
         List(StandardIdentity.allCases) { standardIdentity in
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
-                standardIdentity: symbol.standardIdentity,
+                standardIdentity: standardIdentity,
                 dimention: symbol.dimention,
                 status: symbol.status,
                 hqtfd: symbol.hqtfd,
@@ -125,6 +126,7 @@ public struct StandardIdentitySelector: View {
                 }
             }
         }
+        .navigationTitle(Text("Standard identity", bundle: .module))
     }
 }
 
@@ -161,5 +163,6 @@ public struct StatusSelector: View {
                 }
             }
         }
+        .navigationTitle(Text("Status", bundle: .module))
     }
 }
