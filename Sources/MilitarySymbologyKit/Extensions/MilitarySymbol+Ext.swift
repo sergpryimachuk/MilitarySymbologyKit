@@ -31,17 +31,19 @@ public extension MilitarySymbol {
 
     /// **Uses SIDC positions 3-7**, with an underscore between the first digit in the name and the last digit in the name. Purple filled frames for Civilian units, equipment, and installations have a ‘c’ at the end of the file name.
     var frameAssetName: String {
-        var lastDigit: String {
+        var statusDigit: String {
             let initial = switch status {
             case .present, .plannedAnticipatedSuspect:
                 
                 switch standardIdentity {
+                case .pending, .assumedFriend, .suspect:
+                    Status.plannedAnticipatedSuspect.id
                 default:
                     status.id
                 }
                 
             default:
-                "0"
+                Status.present.id
             }
 
             if isCivilian {
@@ -73,12 +75,16 @@ public extension MilitarySymbol {
             }
         }
         
-        return context.id
-            + "_"
-            + standardIdentityDigit
-            + dimentionDigit
-            + "_"
-            + lastDigit
+        let result = context.id
+        + "_"
+        + standardIdentityDigit
+        + dimentionDigit
+        + "_"
+        + statusDigit
+        
+        Logger.militarySymbol.info("Made frameAssetName: \(result)")
+        
+        return result
     }
 
     // MARK: - AMPLIFIER
