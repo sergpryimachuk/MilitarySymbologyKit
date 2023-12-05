@@ -31,12 +31,19 @@ public extension MilitarySymbol {
 
     /// **Uses SIDC positions 3-7**, with an underscore between the first digit in the name and the last digit in the name. Purple filled frames for Civilian units, equipment, and installations have a ‘c’ at the end of the file name.
     var frameAssetName: String {
-        var lastDigit: String {
+        var statusDigit: String {
             let initial = switch status {
             case .present, .plannedAnticipatedSuspect:
-                status.id
+                
+                switch standardIdentity {
+                case .pending, .assumedFriend, .suspect:
+                    Status.present.id
+                default:
+                    status.id
+                }
+                
             default:
-                "0"
+                Status.present.id
             }
 
             if isCivilian {
@@ -45,13 +52,39 @@ public extension MilitarySymbol {
                 return initial
             }
         }
-
-        return context.id
-            + "_"
-            + standardIdentity.id
-            + dimention.assetDigit
-            + "_"
-            + lastDigit
+        
+        var dimentionDigit: String {
+            switch dimention {
+            case .airMissile: // .signalsIntelligenceAir:
+                Dimension.air.id
+            case .spaceMissile: // .signalsIntelligenceSpace:
+                Dimension.space.id
+            case .landCivilian: // .signalsIntelligenceLand, .signalsIntelligenceSurface:
+                Dimension.landUnits.id
+            case .mineWarfare: // .signalsIntelligenceSubsurface:
+                Dimension.seaSubsurface.id
+            default:
+                dimention.id
+            }
+        }
+        
+        var standardIdentityDigit: String {
+            switch standardIdentity {
+            default:
+                standardIdentity.id
+            }
+        }
+        
+        let result = context.id
+        + "_"
+        + standardIdentityDigit
+        + dimentionDigit
+        + "_"
+        + statusDigit
+        
+        Logger.militarySymbol.info("Made frameAssetName: \(result)")
+        
+        return result
     }
 
     // MARK: - AMPLIFIER
@@ -69,7 +102,7 @@ public extension MilitarySymbol {
             case .none:
                 return nil
             default:
-                let result = standardIdentity.assetGigit + amplifier.id + descriptor.id
+                let result = standardIdentity.assetDigit + amplifier.id + descriptor.id
                 Logger.militarySymbol.info("Made amplifierAssetName: \(result)")
                 return result
             }
@@ -81,7 +114,23 @@ public extension MilitarySymbol {
         if hqtfd == .none {
             return nil
         } else {
-            let result = standardIdentity.assetGigit + dimention.assetDigit + hqtfd.id
+            
+            var dimentionDigit: String {
+                switch dimention {
+                case .airMissile: // .signalsIntelligenceAir:
+                    Dimension.air.id
+                case .spaceMissile: // .signalsIntelligenceSpace:
+                    Dimension.space.id
+                case .landCivilian: // .signalsIntelligenceLand, .signalsIntelligenceSurface:
+                    Dimension.landUnits.id
+                case .mineWarfare: // .signalsIntelligenceSubsurface:
+                    Dimension.seaSubsurface.id
+                default:
+                    dimention.id
+                }
+            }
+            
+            let result = standardIdentity.assetDigit + dimentionDigit + hqtfd.id
 
             Logger.militarySymbol.info("Made hqtfdAssetName: \(result)")
 
@@ -95,8 +144,8 @@ public extension MilitarySymbol {
             case .present, .plannedAnticipatedSuspect:
                 return nil
             default:
-                return context.id
-                    + standardIdentity.id
+                return Context.reality.id
+                    + standardIdentity.assetDigit
                     + dimention.id
                     + status.id
                     + "2"
