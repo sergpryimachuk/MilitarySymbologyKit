@@ -72,7 +72,7 @@ public struct MilitarySymbolSelector: View {
                     Text("Select standard identity", bundle: .module)
                 }
             } header: {
-                Text("Standard identity", bundle: .module)
+                Text("Standard Identity", bundle: .module)
             }
             
             // MARK: - Dimention
