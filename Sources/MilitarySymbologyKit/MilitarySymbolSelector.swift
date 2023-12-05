@@ -41,12 +41,12 @@ public struct MilitarySymbolSelector: View {
             
             Section {
                 NavigationLink {
-                    StandardIdentitySelector(symbol: $symbol)
+                    DimentionSelector(symbol: $symbol)
                 } label: {
-                    Text("Select standard identity", bundle: .module)
+                    Text("Select dimention", bundle: .module)
                 }
             } header: {
-                Text("Standard identity", bundle: .module)
+                Text("Dimention", bundle: .module)
             }
             
             
