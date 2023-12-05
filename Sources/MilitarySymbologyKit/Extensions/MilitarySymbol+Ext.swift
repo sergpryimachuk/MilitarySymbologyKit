@@ -45,11 +45,27 @@ public extension MilitarySymbol {
                 return initial
             }
         }
+        
+        var dimentionDigit: String {
+            switch dimention {
+            case .airMissile: // .signalsIntelligenceAir:
+                Dimension.air.id
+            case .spaceMissile: // .signalsIntelligenceSpace:
+                Dimension.space.id
+            case .landCivilian: // .signalsIntelligenceLand, .signalsIntelligenceSurface:
+                Dimension.landUnits.id
+            case .mineWarfare: // .signalsIntelligenceSubsurface:
+                Dimension.seaSubsurface.id
+            default:
+                dimention.id
+            }
+        }
+
 
         return context.id
             + "_"
             + standardIdentity.id
-            + dimention.assetDigit
+            + dimentionDigit
             + "_"
             + lastDigit
     }
@@ -81,7 +97,23 @@ public extension MilitarySymbol {
         if hqtfd == .none {
             return nil
         } else {
-            let result = standardIdentity.assetDigit + dimention.assetDigit + hqtfd.id
+            
+            var dimentionDigit: String {
+                switch dimention {
+                case .airMissile: // .signalsIntelligenceAir:
+                    Dimension.air.id
+                case .spaceMissile: // .signalsIntelligenceSpace:
+                    Dimension.space.id
+                case .landCivilian: // .signalsIntelligenceLand, .signalsIntelligenceSurface:
+                    Dimension.landUnits.id
+                case .mineWarfare: // .signalsIntelligenceSubsurface:
+                    Dimension.seaSubsurface.id
+                default:
+                    dimention.id
+                }
+            }
+            
+            let result = standardIdentity.assetDigit + dimentionDigit + hqtfd.id
 
             Logger.militarySymbol.info("Made hqtfdAssetName: \(result)")
 
