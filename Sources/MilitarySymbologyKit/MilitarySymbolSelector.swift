@@ -127,6 +127,7 @@ public struct StandardIdentitySelector: View {
                         illustrationSymbol.makeView(size: 100)
                         Text(standardIdentity.name)
                     }
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 } label: {
                     if symbol.standardIdentity == standardIdentity {
                         Image(systemName: "checkmark.circle.fill")
@@ -171,6 +172,7 @@ public struct StatusSelector: View {
                         illustrationSymbol.makeView(size: 100)
                         Text(status.name)
                     }
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 } label: {
                     if symbol.status == status {
                         Image(systemName: "checkmark.circle.fill")
