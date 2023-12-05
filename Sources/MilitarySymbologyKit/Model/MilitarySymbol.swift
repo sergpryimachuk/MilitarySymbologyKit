@@ -145,6 +145,32 @@ public extension MilitarySymbol {
             self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
         }
     }
+    
+    init(
+        context: Context,
+        standardIdentity: StandardIdentity,
+        dimention: Dimension,
+        status: Status,
+        hqtfd: HQTFD,
+        amplifier: Amplifier,
+        descriptor: AnyDescriptor,
+        entity: AnyEntity,
+        entityType: AnyEntityType,
+        entitySubtype: AnyEntitySubtype,
+        isAlternateStatusAmplifiers: Bool = true) {
+            self.context = context
+            self.standardIdentity = standardIdentity
+            self.dimention = dimention
+            self.status = status
+            self.hqtfd = hqtfd
+            self.amplifier = amplifier
+            self.descriptor = descriptor
+            self.entity = entity
+            self.entityType = entityType
+            self.entitySubtype = entitySubtype
+            self.isCivilian = false
+            self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
+        }
 }
 
 public extension MilitarySymbol {
