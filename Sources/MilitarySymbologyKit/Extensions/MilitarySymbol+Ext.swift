@@ -96,7 +96,7 @@ public extension MilitarySymbol {
                 return nil
             default:
                 return context.id
-                    + standardIdentity.id
+                    + standardIdentity.assetGigit
                     + dimention.id
                     + status.id
                     + "2"
