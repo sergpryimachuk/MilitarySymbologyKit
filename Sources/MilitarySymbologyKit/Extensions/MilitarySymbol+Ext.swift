@@ -37,7 +37,7 @@ public extension MilitarySymbol {
                 
                 switch standardIdentity {
                 case .pending, .assumedFriend, .suspect:
-                    Status.plannedAnticipatedSuspect.id
+                    Status.present.id
                 default:
                     status.id
                 }
