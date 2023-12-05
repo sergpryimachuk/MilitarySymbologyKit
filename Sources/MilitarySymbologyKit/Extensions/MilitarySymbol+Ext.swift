@@ -37,7 +37,7 @@ public extension MilitarySymbol {
                 
                 switch standardIdentity {
                 default:
-                    "0"
+                    status.id
                 }
                 
             default:
