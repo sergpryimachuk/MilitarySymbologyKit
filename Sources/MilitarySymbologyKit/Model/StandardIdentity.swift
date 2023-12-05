@@ -35,7 +35,7 @@ public enum StandardIdentity: String, CaseIterable, Identifiable {
     }
 
     /// Gigit used to retireve svg asset.
-    public var assetGigit: String {
+    public var assetDigit: String {
         switch self {
         case .pending:
             StandardIdentity.unknown.id

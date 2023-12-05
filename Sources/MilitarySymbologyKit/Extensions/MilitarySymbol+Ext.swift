@@ -69,7 +69,7 @@ public extension MilitarySymbol {
             case .none:
                 return nil
             default:
-                let result = standardIdentity.assetGigit + amplifier.id + descriptor.id
+                let result = standardIdentity.assetDigit + amplifier.id + descriptor.id
                 Logger.militarySymbol.info("Made amplifierAssetName: \(result)")
                 return result
             }
@@ -81,7 +81,7 @@ public extension MilitarySymbol {
         if hqtfd == .none {
             return nil
         } else {
-            let result = standardIdentity.assetGigit + dimention.assetDigit + hqtfd.id
+            let result = standardIdentity.assetDigit + dimention.assetDigit + hqtfd.id
 
             Logger.militarySymbol.info("Made hqtfdAssetName: \(result)")
 
@@ -96,7 +96,7 @@ public extension MilitarySymbol {
                 return nil
             default:
                 return context.id
-                    + standardIdentity.assetGigit
+                    + standardIdentity.assetDigit
                     + dimention.id
                     + status.id
                     + "2"
