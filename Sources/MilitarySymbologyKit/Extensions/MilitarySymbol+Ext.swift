@@ -34,7 +34,12 @@ public extension MilitarySymbol {
         var lastDigit: String {
             let initial = switch status {
             case .present, .plannedAnticipatedSuspect:
-                status.id
+                
+                switch standardIdentity {
+                default:
+                    "0"
+                }
+                
             default:
                 "0"
             }
