@@ -78,9 +78,17 @@ public struct ContextSelector: View {
                 dismiss()
             } label: {
                 LabeledContent {
-                    Text(context.name)
+                    HStack {
+                        illustrationSymbol.makeView(size: 100)
+                        Text(context.name)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 } label: {
-                    illustrationSymbol.makeView(size: 100)
+                    if symbol.context == context {
+                        Image(systemName: "checkmark.circle.fill")
+                    } else {
+                        Image(systemName: "circle")
+                    }
                 }
             }
         }

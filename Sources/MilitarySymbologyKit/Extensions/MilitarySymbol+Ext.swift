@@ -61,16 +61,9 @@ public extension MilitarySymbol {
             }
         }
         
-        var standardIdentityDigit: String {
-            switch standardIdentity {
-            default:
-                standardIdentity.id
-            }
-        }
-
         return context.id
             + "_"
-            + standardIdentityDigit
+            + standardIdentity.assetDigit
             + dimentionDigit
             + "_"
             + lastDigit
