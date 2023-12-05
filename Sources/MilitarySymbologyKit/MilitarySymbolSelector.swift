@@ -51,10 +51,6 @@ public struct MilitarySymbolSelector: View {
     }
 }
 
-#Preview {
-    MilitarySymbolSelector(symbol: .constant(.init()))
-}
-
 public struct ContextSelector: View {
     
     @Environment(\.dismiss) private var dismiss
