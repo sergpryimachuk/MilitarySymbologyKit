@@ -123,9 +123,16 @@ public struct StandardIdentitySelector: View {
                 dismiss()
             } label: {
                 LabeledContent {
-                    Text(standardIdentity.name)
+                    HStack {
+                        illustrationSymbol.makeView(size: 100)
+                        Text(standardIdentity.name)
+                    }
                 } label: {
-                    illustrationSymbol.makeView(size: 100)
+                    if symbol.standardIdentity == standardIdentity {
+                        Image(systemName: "checkmark.circle.fill")
+                    } else {
+                        Image(systemName: "circle")
+                    }
                 }
             }
         }
@@ -160,9 +167,16 @@ public struct StatusSelector: View {
                 dismiss()
             } label: {
                 LabeledContent {
-                    Text(status.name)
+                    HStack {
+                        illustrationSymbol.makeView(size: 100)
+                        Text(status.name)
+                    }
                 } label: {
-                    illustrationSymbol.makeView(size: 100)
+                    if symbol.status == status {
+                        Image(systemName: "checkmark.circle.fill")
+                    } else {
+                        Image(systemName: "circle")
+                    }
                 }
             }
         }
