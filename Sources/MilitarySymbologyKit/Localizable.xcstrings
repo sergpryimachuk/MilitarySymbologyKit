@@ -381,7 +381,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Десантний Штурмовий Корабель, Багатоцільовий"
+            "value" : "Багатоцільовий десантний корабель"
           }
         }
       }
@@ -864,7 +864,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ймовірно дружні"
+            "value" : "Ймовірно дружній"
           }
         }
       }
@@ -3387,7 +3387,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ферма/ранчо"
+            "value" : "Ферма / Ранчо"
           }
         }
       }
@@ -3607,7 +3607,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вонева подія"
+            "value" : "Пожежена подія"
           }
         }
       }
@@ -3981,7 +3981,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Дружні"
+            "value" : "Дружній"
           }
         }
       }
@@ -4091,7 +4091,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Підтримка геопросторової інформації/підтримка геопросторової інформації"
+            "value" : "Геопросторове забезпечення/Геопросторова інформаційна підтримка"
           }
         }
       }
@@ -5300,7 +5300,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Земельний цивільний"
+            "value" : "Наземний цивільний"
           }
         }
       }
@@ -5322,7 +5322,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Наземне обладнення"
+            "value" : "Наземні споруди"
           }
         }
       }
@@ -5354,7 +5354,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Наземні одиниці"
+            "value" : "Наземні підрозділи"
           }
         }
       }
@@ -6498,7 +6498,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Мінна боротьба"
+            "value" : "Мінна безпека"
           }
         }
       }
@@ -7147,7 +7147,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Нейтральні"
+            "value" : "Нейтральний"
           }
         }
       }
@@ -7673,7 +7673,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pack animals"
+            "value" : "В'ючні тварини"
           }
         }
       }
@@ -7926,7 +7926,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Запланований /Очікуваний/ Підозрюваний"
+            "value" : "Запланований / Очікуваний / Підозрюваний"
           }
         }
       }
@@ -8355,7 +8355,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Залізничний вокзал/залізнична станція"
+            "value" : "Залізничний вокзал / Залізнична станція"
           }
         }
       }
@@ -9705,7 +9705,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Стандартна ідентичність"
+            "value" : "Стандартний ідентифікатор"
           }
         }
       }
@@ -10067,7 +10067,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Підозрювані / Джокер"
+            "value" : "Підозрюваний / Джокер"
           }
         }
       }
@@ -11013,7 +11013,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Невідомі"
+            "value" : "Невідомий"
           }
         }
       }

@@ -8,7 +8,7 @@
 import Foundation
 
 public enum VehicleEntityType: String, CaseIterable, EntityType {
-    case none
+    case none = "00"
     case armoredVehicle = "01"
     case tank = "02"
     case tankRecoveryVehicle = "03"
@@ -26,14 +26,13 @@ public enum VehicleEntityType: String, CaseIterable, EntityType {
         case .tankRecoveryVehicle:
             String(localized: "Tank Recovery Vehicle", bundle: .module, comment: "Vehicle Entity Type")
         case .none:
-            String(localized: "None", bundle: .module)
+            String(localized: "None", bundle: .module, comment: "Vehicle Entity Type")
         }
     }
 
     public var subtypes: [AnyEntitySubtype] {
         switch self {
-        case .none:
-            [.none]
+            
         case .armoredVehicle:
             ArmoredVehicleEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         default:
