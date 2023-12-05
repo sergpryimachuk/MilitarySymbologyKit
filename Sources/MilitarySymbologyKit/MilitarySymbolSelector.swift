@@ -10,6 +10,30 @@ public struct MilitarySymbolSelector: View {
     
     public var body: some View {
         List {
+            // MARK: - Context
+            Section {
+                NavigationLink {
+                    ContextSelector(symbol: $symbol)
+                } label: {
+                    Text("Select context", bundle: .module)
+                }
+            } header: {
+                Text("Context", bundle: .module)
+            }
+            
+            // MARK: - Standard Identity
+            
+            Section {
+                NavigationLink {
+                    StandardIdentitySelector(symbol: $symbol)
+                } label: {
+                    Text("Select standard identity", bundle: .module)
+                }
+            } header: {
+                Text("Standard identity", bundle: .module)
+            }
+            
+            // MARK: - Status
             Section {
                 NavigationLink {
                     StatusSelector(symbol: $symbol)
@@ -17,7 +41,7 @@ public struct MilitarySymbolSelector: View {
                     Text("Select status", bundle: .module)
                 }
             } header: {
-                Text("Context", bundle: .module)
+                Text("Status", bundle: .module)
             }
         }
     }
@@ -25,6 +49,79 @@ public struct MilitarySymbolSelector: View {
 
 #Preview {
     MilitarySymbolSelector(symbol: .constant(.init()))
+}
+
+
+public struct ContextSelector: View {
+    
+    @Environment(\.dismiss) private var dismiss
+    
+    @Binding var symbol: MilitarySymbol
+    
+    public var body: some View {
+        List(Context.allCases) { context in
+            let illustrationSymbol = MilitarySymbol(
+                context: context,
+                standardIdentity: symbol.standardIdentity,
+                dimention: symbol.dimention,
+                status: symbol.status,
+                hqtfd: symbol.hqtfd,
+                amplifier: symbol.amplifier,
+                descriptor: symbol.descriptor,
+                entity: symbol.entity,
+                entityType: symbol.entityType,
+                entitySubtype: symbol.entitySubtype,
+                isCivilian: symbol.isCivilian,
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
+            
+            Button {
+                symbol.context = context
+                dismiss()
+            } label: {
+                LabeledContent {
+                    Text(context.name)
+                } label: {
+                    illustrationSymbol.makeView(size: 50)
+                }
+            }
+        }
+    }
+}
+
+public struct StandardIdentitySelector: View {
+    
+    @Environment(\.dismiss) private var dismiss
+    
+    @Binding var symbol: MilitarySymbol
+    
+    public var body: some View {
+        List(StandardIdentity.allCases) { standardIdentity in
+            let illustrationSymbol = MilitarySymbol(
+                context: symbol.context,
+                standardIdentity: symbol.standardIdentity,
+                dimention: symbol.dimention,
+                status: symbol.status,
+                hqtfd: symbol.hqtfd,
+                amplifier: symbol.amplifier,
+                descriptor: symbol.descriptor,
+                entity: symbol.entity,
+                entityType: symbol.entityType,
+                entitySubtype: symbol.entitySubtype,
+                isCivilian: symbol.isCivilian,
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
+            
+            Button {
+                symbol.standardIdentity = standardIdentity
+                dismiss()
+            } label: {
+                LabeledContent {
+                    Text(standardIdentity.name)
+                } label: {
+                    illustrationSymbol.makeView(size: 50)
+                }
+            }
+        }
+    }
 }
 
 public struct StatusSelector: View {
@@ -61,8 +158,4 @@ public struct StatusSelector: View {
             }
         }
     }
-}
-
-#Preview {
-    MilitarySymbolPicker(symbol: .constant(.init()))
 }
