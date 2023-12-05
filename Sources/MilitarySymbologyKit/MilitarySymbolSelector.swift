@@ -140,22 +140,32 @@ public struct ContextSelector: View {
                 symbol.context = context
                 dismiss()
             } label: {
-                LabeledContent {
-                    HStack {
+                HStack(spacing: 12) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8)
+                            .frame(width: 70, height: 70)
+                            .foregroundStyle(.gray.opacity(0.1))
+                        
                         illustrationSymbol.makeView(size: 100)
-                        Text(context.name)
+                            .padding(-30)
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                } label: {
+                    Divider()
+                    Text(context.name)
+                        .multilineTextAlignment(.leading)
+                        .lineLimit(3)
+                    
+                    Spacer()
                     if symbol.context == context {
-                        Image(systemName: "checkmark.circle.fill")
-                    } else {
-                        Image(systemName: "circle")
+                        Image(systemName: "checkmark")
+                            .foregroundStyle(Color.accentColor)
+                            .font(.title)
                     }
                 }
-            }
-        }
-        .navigationTitle(Text("Context", bundle: .module))
+            }.tint(.primary)
+            
+        }.listStyle(.grouped)
+        
+            .navigationTitle(Text("Context", bundle: .module))
     }
 }
 
@@ -197,6 +207,7 @@ public struct StandardIdentitySelector: View {
                     Divider()
                     Text(standardIdentity.name)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
                     
                     Spacer()
                     if symbol.standardIdentity == standardIdentity {
@@ -252,6 +263,7 @@ public struct DimentionSelector: View {
                     Divider()
                     Text(dimention.name)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
                     
                     Spacer()
                     if symbol.dimention == dimention {
@@ -306,6 +318,7 @@ public struct StatusSelector: View {
                     Divider()
                     Text(status.name)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
                     
                     Spacer()
                     if symbol.status == status {
@@ -361,6 +374,7 @@ public struct HQTFDSelector: View {
                     Divider()
                     Text(hqtfd.name)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
                     
                     Spacer()
                     if symbol.hqtfd == hqtfd {
@@ -416,6 +430,7 @@ public struct AmplifierSelector: View {
                     Divider()
                     Text(amplifier.name)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
                     
                     Spacer()
                     if symbol.amplifier == amplifier {
@@ -471,6 +486,7 @@ public struct DescriptorSelector: View {
                     Divider()
                     Text(descriptor.name)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
                     
                     Spacer()
                     if symbol.descriptor == descriptor {
@@ -526,6 +542,7 @@ public struct EntitySelector: View {
                     Divider()
                     Text(entity.name)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
                     
                     Spacer()
                     if symbol.entity == entity {
@@ -581,6 +598,7 @@ public struct EntityTypeSelector: View {
                     Divider()
                     Text(entityType.name)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
                     
                     Spacer()
                     if symbol.entityType == entityType {
@@ -636,6 +654,7 @@ public struct EntitySubtypeSelector: View {
                     Divider()
                     Text(entitySubtype.name)
                         .multilineTextAlignment(.leading)
+                        .lineLimit(3)
                     
                     Spacer()
                     if symbol.entitySubtype == entitySubtype {
@@ -652,8 +671,8 @@ public struct EntitySubtypeSelector: View {
     }
 }
 
-//#Preview {
-//    NavigationStack {
-//        EntitySubtypeSelector(symbol: .constant(.init()))
-//    }
-//}
+#Preview {
+    NavigationStack {
+        EntitySubtypeSelector(symbol: .constant(.init()))
+    }
+}
