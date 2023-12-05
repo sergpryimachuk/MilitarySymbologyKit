@@ -55,7 +55,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
     public var entitySubtype: AnyEntitySubtype = .none
     
     public var isCivilian: Bool = false
-    public var isAlternateStatusAmplifiers: Bool = false
+    public var isAlternateStatusAmplifiers: Bool = true
     
     public let id = UUID()
     
