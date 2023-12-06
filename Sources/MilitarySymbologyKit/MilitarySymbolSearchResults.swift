@@ -14,35 +14,43 @@ public struct MilitarySymbolSearchResults: View {
         if let searchResults {
             if !searchText.isEmpty && !searchResults.isEmpty {
                 ForEach(searchResults) { symbol in
+                    
                     Button {
                         selectedSymbol = symbol
                         searchText = ""
                         self.searchResults = nil
                         isSearchPresented = false
                     } label: {
-                        LabeledContent {
-                            HStack {
+                        HStack(spacing: 12) {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 8)
+                                    .frame(width: 70, height: 70)
+                                    .foregroundStyle(.gray.opacity(0.1))
+                                
+                                symbol.makeView(size: 100)
+                                    .padding(-30)
+                            }
+                            Divider()
+                            VStack(alignment: .leading) {
                                 let isEntityTypeNotNone = symbol.entityType != .none
                                 let isEntitySubtypeNotNone = symbol.entitySubtype != .none
 
                                 if isEntityTypeNotNone {
                                     Text(symbol.entityType.name)
                                 }
-
-                                if isEntityTypeNotNone && isEntitySubtypeNotNone {
-                                    Text(verbatim: " - ")
-                                }
-
+                                
                                 if isEntitySubtypeNotNone {
                                     Text(symbol.entitySubtype.name)
                                 }
                             }
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.8)
-                        } label: {
-                            symbol.makeView(size: 50)
+                                .multilineTextAlignment(.leading)
+                                .lineLimit(3)
+                                .minimumScaleFactor(0.8)
+                            
                         }
-                    }
+                    }.tint(.primary)
+                    
+                    
                 }
             } else if !searchText.isEmpty && searchResults.isEmpty {
                 ContentUnavailableView("Not found",
