@@ -15,101 +15,138 @@ public struct MilitarySymbolSelector: View {
     }
     
     public var body: some View {
-        List {
-            // MARK: - Context
-            Section {
-                NavigationLink {
-                    ContextSelector(symbol: $symbol)
-                } label: {
-                    Text("Select context", bundle: .module)
-                }
-            } header: {
-                Text("Context", bundle: .module)
+        VStack {
+            HStack {
+                ZStack {
+                    RoundedRectangle(cornerRadius: 10)
+                        .frame(width: 115, height: 115)
+                        .foregroundStyle(.gray.opacity(0.25))
+                    
+                    MilitarySymbol().makeView(size: 180)
+                        .padding(-30)
+                }.padding(.leading)
+                VStack {
+                    Button {
+                        //
+                    } label: {
+                        HStack {
+                            Image(systemName: "heart").font(.system(size: 22, weight: .bold))
+                            Text("В обрані").bold()
+                        }
+                        .frame(minWidth: 150, maxWidth: .infinity, minHeight: 40, maxHeight: 40, alignment: .center)
+                        
+                    }.buttonStyle(.bordered)
+                    
+                    Button {
+                        //
+                    } label: {
+                        HStack {
+                            Image(systemName: "trash").font(.system(size: 22, weight: .bold))
+                            Text("Скинути").bold()
+                        }
+                        .foregroundColor(.red)
+                        .frame(minWidth: 150, maxWidth: .infinity, minHeight: 40, maxHeight: 40, alignment: .center)
+                    }.buttonStyle(.bordered)
+                    
+                }.padding(.trailing)
             }
             
-            // MARK: - Standard Identity
-            
-            Section {
-                NavigationLink {
-                    StandardIdentitySelector(symbol: $symbol)
-                } label: {
-                    Text("Select standard identity", bundle: .module)
+            List {
+                // MARK: - Context
+                Section {
+                    NavigationLink {
+                        ContextSelector(symbol: $symbol)
+                    } label: {
+                        Text("Select context", bundle: .module)
+                    }
+                } header: {
+                    Text("Context", bundle: .module)
                 }
-            } header: {
-                Text("Standard Identity", bundle: .module)
-            }
-            
-            // MARK: - Dimention
-            Section {
-                NavigationLink {
-                    DimentionSelector(symbol: $symbol)
-                } label: {
-                    Text("Select dimention", bundle: .module)
+                
+                // MARK: - Standard Identity
+                
+                Section {
+                    NavigationLink {
+                        StandardIdentitySelector(symbol: $symbol)
+                    } label: {
+                        Text("Select standard identity", bundle: .module)
+                    }
+                } header: {
+                    Text("Standard Identity", bundle: .module)
                 }
-            } header: {
-                Text("Dimention", bundle: .module)
-            }
-            
-            // MARK: - Status
-            Section {
-                NavigationLink {
-                    StatusSelector(symbol: $symbol)
-                } label: {
-                    Text("Select status", bundle: .module)
+                
+                // MARK: - Dimention
+                Section {
+                    NavigationLink {
+                        DimentionSelector(symbol: $symbol)
+                    } label: {
+                        Text("Select dimention", bundle: .module)
+                    }
+                } header: {
+                    Text("Dimention", bundle: .module)
                 }
-            } header: {
-                Text("Status", bundle: .module)
-            }
-            
-            // MARK: - HQTFD
-            Section {
-                NavigationLink {
-                    HQTFDSelector(symbol: $symbol)
-                } label: {
-                    Text("Select HQ / Task Force / Dummy", bundle: .module)
+                
+                // MARK: - Status
+                Section {
+                    NavigationLink {
+                        StatusSelector(symbol: $symbol)
+                    } label: {
+                        Text("Select status", bundle: .module)
+                    }
+                } header: {
+                    Text("Status", bundle: .module)
                 }
-            } header: {
-                Text("HQTFDummy", bundle: .module)
-            }
-            
-            // MARK: - Amplifier and Descriptor
-            Section {
-                NavigationLink {
-                    AmplifierSelector(symbol: $symbol)
-                } label: {
-                    Text("Select amplifier", bundle: .module)
+                
+                // MARK: - HQTFD
+                Section {
+                    NavigationLink {
+                        HQTFDSelector(symbol: $symbol)
+                    } label: {
+                        Text("Select HQ / Task Force / Dummy", bundle: .module)
+                    }
+                } header: {
+                    Text("HQTFDummy", bundle: .module)
                 }
-                NavigationLink {
-                    DescriptorSelector(symbol: $symbol)
-                } label: {
-                    Text("Select descriptor", bundle: .module)
+                
+                // MARK: - Amplifier and Descriptor
+                Section {
+                    NavigationLink {
+                        AmplifierSelector(symbol: $symbol)
+                    } label: {
+                        Text("Select amplifier", bundle: .module)
+                    }
+                    NavigationLink {
+                        DescriptorSelector(symbol: $symbol)
+                    } label: {
+                        Text("Select descriptor", bundle: .module)
+                    }
+                } header: {
+                    Text("Amplifier / Descriptor", bundle: .module)
                 }
-            } header: {
-                Text("Amplifier / Descriptor", bundle: .module)
-            }
-            
-            // MARK: - Entity
-            Section {
-                NavigationLink {
-                    EntitySelector(symbol: $symbol)
-                } label: {
-                    Text("Select entity", bundle: .module)
+                
+                // MARK: - Entity
+                Section {
+                    NavigationLink {
+                        EntitySelector(symbol: $symbol)
+                    } label: {
+                        Text("Select entity", bundle: .module)
+                    }
+                    NavigationLink {
+                        EntityTypeSelector(symbol: $symbol)
+                    } label: {
+                        Text("Select entity type", bundle: .module)
+                    }
+                    NavigationLink {
+                        EntitySubtypeSelector(symbol: $symbol)
+                    } label: {
+                        Text("Select entity subtype", bundle: .module)
+                    }
+                } header: {
+                    Text("Entity", bundle: .module)
                 }
-                NavigationLink {
-                    EntityTypeSelector(symbol: $symbol)
-                } label: {
-                    Text("Select entity type", bundle: .module)
-                }
-                NavigationLink {
-                    EntitySubtypeSelector(symbol: $symbol)
-                } label: {
-                    Text("Select entity subtype", bundle: .module)
-                }
-            } header: {
-                Text("Entity", bundle: .module)
-            }
-            
-        }.listStyle(.insetGrouped)
+                
+            }.listStyle(.insetGrouped)
+        }
     }
 }
 
