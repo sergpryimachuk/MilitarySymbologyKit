@@ -10,6 +10,18 @@ public struct MilitarySymbolSearchResults: View {
     @Binding public var isSearchPresented: Bool
     @Binding public var searchResults: [MilitarySymbol]?
 
+    public init(
+            searchText: Binding<String>,
+            selectedSymbol: Binding<MilitarySymbol>,
+            isSearchPresented: Binding<Bool>,
+            searchResults: Binding<[MilitarySymbol]?>
+        ) {
+            self._searchText = searchText
+            self._selectedSymbol = selectedSymbol
+            self._isSearchPresented = isSearchPresented
+            self._searchResults = searchResults
+        }
+    
     public var body: some View {
         if let searchResults {
             if !searchText.isEmpty && !searchResults.isEmpty {
