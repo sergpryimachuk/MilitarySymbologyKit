@@ -27,7 +27,6 @@ public struct MilitarySymbolConstructor: View {
                     } label: {
                         Text("Select context", bundle: .module)
                     }
-                    
                 }
             } header: {
                 Text("Context", bundle: .module)
@@ -39,7 +38,11 @@ public struct MilitarySymbolConstructor: View {
                 NavigationLink {
                     StandardIdentitySelector(symbol: $symbol)
                 } label: {
-                    Text("Select standard identity", bundle: .module)
+                    LabeledContent {
+                        Text(symbol.standardIdentity.name)
+                    } label: {
+                        Text("Select standard identity", bundle: .module)
+                    }
                 }
             } header: {
                 Text("Standard Identity", bundle: .module)
@@ -50,7 +53,11 @@ public struct MilitarySymbolConstructor: View {
                 NavigationLink {
                     DimentionSelector(symbol: $symbol)
                 } label: {
-                    Text("Select dimention", bundle: .module)
+                    LabeledContent {
+                        Text(symbol.dimention.name)
+                    } label: {
+                        Text("Select dimention", bundle: .module)
+                    }
                 }
             } header: {
                 Text("Dimention", bundle: .module)
@@ -61,7 +68,11 @@ public struct MilitarySymbolConstructor: View {
                 NavigationLink {
                     StatusSelector(symbol: $symbol)
                 } label: {
-                    Text("Select status", bundle: .module)
+                    LabeledContent {
+                        Text(symbol.status.name)
+                    } label: {
+                        Text("Select status", bundle: .module)
+                    }
                 }
             } header: {
                 Text("Status", bundle: .module)
@@ -72,7 +83,11 @@ public struct MilitarySymbolConstructor: View {
                 NavigationLink {
                     HQTFDSelector(symbol: $symbol)
                 } label: {
-                    Text("Select HQ / Task Force / Dummy", bundle: .module)
+                    LabeledContent {
+                        Text(symbol.hqtfd.name)
+                    } label: {
+                        Text("Select HQ / Task Force / Dummy", bundle: .module)
+                    }
                 }
             } header: {
                 Text("HQTFDummy", bundle: .module)
@@ -83,12 +98,20 @@ public struct MilitarySymbolConstructor: View {
                 NavigationLink {
                     AmplifierSelector(symbol: $symbol)
                 } label: {
-                    Text("Select amplifier", bundle: .module)
+                    LabeledContent {
+                        Text(symbol.amplifier.name)
+                    } label: {
+                        Text("Select amplifier", bundle: .module)
+                    }
                 }
                 NavigationLink {
                     DescriptorSelector(symbol: $symbol)
                 } label: {
-                    Text("Select descriptor", bundle: .module)
+                    LabeledContent {
+                        Text(symbol.descriptor.name)
+                    } label: {
+                        Text("Select descriptor", bundle: .module)
+                    }
                 }
             } header: {
                 Text("Amplifier / Descriptor", bundle: .module)
@@ -99,24 +122,35 @@ public struct MilitarySymbolConstructor: View {
                 NavigationLink {
                     EntitySelector(symbol: $symbol)
                 } label: {
-                    Text("Select entity", bundle: .module)
+                    LabeledContent {
+                        Text(symbol.entity.name)
+                    } label: {
+                        Text("Select entity", bundle: .module)
+                    }
                 }
                 NavigationLink {
                     EntityTypeSelector(symbol: $symbol)
                 } label: {
-                    Text("Select entity type", bundle: .module)
+                    LabeledContent {
+                        Text(symbol.entityType.name)
+                    } label: {
+                        Text("Select entity type", bundle: .module)
+                    }
                 }
                 NavigationLink {
                     EntitySubtypeSelector(symbol: $symbol)
                 } label: {
-                    Text("Select entity subtype", bundle: .module)
+                    LabeledContent {
+                        Text(symbol.entitySubtype.name)
+                    } label: {
+                        Text("Select entity subtype", bundle: .module)
+                    }
                 }
             } header: {
                 Text("Entity", bundle: .module)
             }
             
         }.listStyle(.insetGrouped)
-        
     }
 }
 
