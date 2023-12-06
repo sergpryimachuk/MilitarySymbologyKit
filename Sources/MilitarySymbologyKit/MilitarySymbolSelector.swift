@@ -16,42 +16,6 @@ public struct MilitarySymbolSelector: View {
     
     public var body: some View {
         List {
-            
-            Section {
-                HStack {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 10)
-                            .frame(width: 140, height: 140)
-                            .foregroundStyle(.gray.opacity(0.1))
-                        
-                        symbol.makeView(size: 200)
-                            .padding(-30)
-                    }
-                    
-                    VStack {
-                        
-                        Button {
-                            symbol = MilitarySymbol()
-                        } label: {
-                            Label("Favorite", systemImage: "star")
-                                .frame(maxWidth: .infinity, alignment: .center)
-                                .bold()
-                        }
-                        .buttonStyle(.bordered)
-                        
-                        Button {
-                            symbol = MilitarySymbol()
-                        } label: {
-                            Label("Reset", systemImage: "trash")
-                                .frame(maxWidth: .infinity, alignment: .center)
-                                .foregroundStyle(.red)
-                                .bold()
-                        }
-                        .buttonStyle(.bordered)
-                    }
-                }
-            }
-            
             // MARK: - Context
             Section {
                 NavigationLink {
