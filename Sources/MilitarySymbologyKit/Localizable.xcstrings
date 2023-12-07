@@ -128,7 +128,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Зброя ППО"
+            "value" : "Зенітна гармата"
           }
         }
       }
@@ -452,7 +452,14 @@
       }
     },
     "Amplifier / Descriptor" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підсилювач / Дескриптор"
+          }
+        }
+      }
     },
     "Analysis" : {
       "comment" : "Intelligence Entity Type\nElectronic Warfare Entity Subtype",
@@ -559,7 +566,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Протитанкова ракетна установка"
+            "value" : "ПТРК"
           }
         }
       }
@@ -570,7 +577,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Протитанкова ракетна установка"
+            "value" : "РПГ"
           }
         }
       }
@@ -702,7 +709,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Бойова броньована машина (ББМ)"
+            "value" : "Бойова машина піхоти (БМП)"
           }
         }
       }
@@ -724,7 +731,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Бронетранспортер"
+            "value" : "Бронетранспортер (БТР)"
           }
         }
       }
@@ -2119,7 +2126,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Корпус / MEF"
+            "value" : "Корпус  (ОТУ, КМП)"
           }
         }
       }
@@ -4767,7 +4774,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Індивідуальний"
+            "value" : "Окрема особа"
           }
         }
       }
@@ -5317,7 +5324,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Наземна техніка"
+            "value" : "Наземна техніка (ОВТ)"
           }
         }
       }
@@ -6856,7 +6863,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ракетна установка залпового вогню"
+            "value" : "Ракетна установка залпового вогню (РСЗВ)"
           }
         }
       }
@@ -8790,7 +8797,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Поворотне крило"
+            "value" : "Гвинтокрил (вертоліт, гелікоптер)"
           }
         }
       }
@@ -8801,7 +8808,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Роторне крило"
+            "value" : "Гвинтокрил (вертоліт, гелікоптер)"
           }
         }
       }
@@ -9032,7 +9039,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Морська поверхня"
+            "value" : "Надводний"
           }
         }
       }
@@ -9086,7 +9093,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Відділення / Секція"
+            "value" : "Секція"
           }
         }
       }
@@ -9114,34 +9121,104 @@
       }
     },
     "Select amplifier" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть підсилювач"
+          }
+        }
+      }
     },
     "Select context" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть контекст"
+          }
+        }
+      }
     },
     "Select descriptor" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть дескриптор"
+          }
+        }
+      }
     },
     "Select dimention" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть розмір"
+          }
+        }
+      }
     },
     "Select entity" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть сутність"
+          }
+        }
+      }
     },
     "Select entity subtype" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть підтип сутності"
+          }
+        }
+      }
     },
     "Select entity type" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть тип сутності"
+          }
+        }
+      }
     },
     "Select HQ / Task Force / Dummy" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть Штаб / Цільову групу / Макет"
+          }
+        }
+      }
     },
     "Select standard identity" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть стандартну ідентичність"
+          }
+        }
+      }
     },
     "Select status" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть статус"
+          }
+        }
+      }
     },
     "Self-propelled" : {
       "comment" : "Field Artillery Entity Subtype",
@@ -9720,7 +9797,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Загін"
+            "value" : "Відділення"
           }
         }
       }
@@ -9737,7 +9814,14 @@
       }
     },
     "Standard identity" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стандартна ідентичність"
+          }
+        }
+      }
     },
     "Standard Identity" : {
       "localizations" : {
@@ -11030,7 +11114,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Відправлення для розгортання одиниць"
+            "value" : "Відправлення для розгортання підрозділів"
           }
         }
       }
@@ -11063,7 +11147,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Безпілотні літальні системи (БПЛА)"
+            "value" : "Безпілотні літальні системи (БпАК)"
           }
         }
       }
@@ -11074,7 +11158,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Безпілотний літальний апарат (UA) / Безпілотний літальний апарат (UAV) / Безпілотна літальна система (UAS) / Дистанційно пілотований апарат (RPV)"
+            "value" : "Безпілотний літальний апарат (БПЛА) /  / Безпілотна літальна система (UAS) / Дистанційно пілотований апарат (RPV)"
           }
         }
       }
