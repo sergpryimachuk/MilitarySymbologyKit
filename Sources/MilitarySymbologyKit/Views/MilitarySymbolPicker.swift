@@ -8,24 +8,28 @@ public struct MilitarySymbolPicker: View {
     @Binding public var symbol: MilitarySymbol
     @State private var searchText = ""
     @State private var isSearchPresented = false
-    @State private var searchResults: [MilitarySymbol]?
-
+    
     public init(symbol: Binding<MilitarySymbol>) {
         self._symbol = symbol
     }
-
+    
+    var searchResults: [MilitarySymbol] {
+        .allEntityCases(initialValue: symbol).filtered(searchText: searchText)
+    }
+    
     public var body: some View {
         Form {
             // Temporary solution - works okay on iPhone but horrible on Mac.
             MilitarySymbolSearchResults(searchText: $searchText,
                                         selectedSymbol: $symbol,
                                         isSearchPresented: $isSearchPresented,
-                                        searchResults: $searchResults)
-
+                                        searchResults: searchResults)
+            
             Section {
                 HStack {
                     Spacer()
                     symbol.makeView(size: 200)
+                        .padding(-30)
                     Spacer()
                 }
                 LabeledContent("SIDC:", value: symbol.sidc)
@@ -35,7 +39,7 @@ public struct MilitarySymbolPicker: View {
                         }
                     }
             }
-
+            
             Section {
                 Picker(selection: $symbol.context) {
                     ForEach(Context.allCases) { context in
@@ -44,7 +48,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Context", bundle: .module)
                 }
-
+                
                 Picker(selection: $symbol.standardIdentity) {
                     ForEach(StandardIdentity.allCases) { identity in
                         Text(identity.name).tag(identity)
@@ -52,7 +56,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Standard Identity", bundle: .module)
                 }
-
+                
                 Picker(selection: $symbol.dimention) {
                     ForEach(Dimension.allCases) { dimension in
                         Text(dimension.name).tag(dimension)
@@ -60,7 +64,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Dimention", bundle: .module)
                 }
-
+                
                 Picker(selection: $symbol.status) {
                     ForEach(Status.allCases) { status in
                         Text(status.name).tag(status)
@@ -68,7 +72,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Status", bundle: .module)
                 }
-
+                
                 Picker(selection: $symbol.hqtfd) {
                     ForEach(HQTFD.allCases) { hqtfd in
                         Text(hqtfd.name).tag(hqtfd)
@@ -76,7 +80,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("HQ / Task Force / Dummy", bundle: .module)
                 }
-
+                
                 Picker(selection: $symbol.amplifier) {
                     ForEach(Amplifier.allCases) { amplifier in
                         Text(amplifier.name).tag(amplifier)
@@ -84,7 +88,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Amplifier", bundle: .module)
                 }
-
+                
                 Picker(selection: $symbol.descriptor) {
                     ForEach(symbol.amplifier.descriptors) { descriptor in
                         Text(descriptor.name).tag(AnyDescriptor(descriptor))
@@ -92,7 +96,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Descriptor", bundle: .module)
                 }
-
+                
                 Picker(selection: $symbol.entity) {
                     ForEach(symbol.dimention.entities) { entity in
                         Text(entity.name).tag(entity)
@@ -100,7 +104,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Entity", bundle: .module)
                 }
-
+                
                 Picker(selection: $symbol.entityType) {
                     ForEach(symbol.entity.types) { entityType in
                         Text(entityType.name).tag(entityType)
@@ -108,7 +112,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Entity Type", bundle: .module)
                 }
-
+                
                 Picker(selection: $symbol.entitySubtype) {
                     ForEach(symbol.entityType.subtypes) { entitySubtype in
                         Text(entitySubtype.name).tag(entitySubtype)
@@ -116,7 +120,11 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Entity Subtype", bundle: .module)
                 }
-
+                
+                
+                // This one is unclear when to use - let it be without it for now.
+                
+                /*
                 Toggle(isOn: $symbol.isCivilian) {
                     Text("Civilian", bundle: .module)
                 }
@@ -126,29 +134,30 @@ public struct MilitarySymbolPicker: View {
                         symbol.isCivilian = false
                     }
                 }
-
+                */
+                
                 Toggle(isOn: $symbol.isAlternateStatusAmplifiers) {
                     Text("Use alternate status amplifiers", bundle: .module)
                 }
-                //                        .disabled(symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile)
-                //                        .onChange(of: symbol.standardIdentity) { _, newValue in
-                //                            if symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile {
-                //                                symbol.isCivilian = false
-                //                            }
-                //                        }
+                
+                Button(role: .destructive) {
+                    symbol = .init()
+                } label: {
+                    Text("Reset to default value", bundle: .module)
+                }
             }
         }
-        .onChange(of: searchText) { _, searchText in
-            searchResults = MilitarySymbol.searched(text: searchText, currentSymbol: symbol)
-        }
-        .animation(.linear, value: searchText)
+        .animation(.linear, value: searchResults)
         .searchable(text: $searchText,
                     isPresented: $isSearchPresented,
                     placement: searchFieldPlacement,
                     prompt: Text("Search symbol", bundle: .module))
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
+        #if os(iOS)
+        .navigationBarTitleDisplayMode(.inline)
+        #endif
     }
-
+    
     private var searchFieldPlacement: SearchFieldPlacement {
 #if os(macOS)
         .automatic
@@ -156,7 +165,7 @@ public struct MilitarySymbolPicker: View {
         .navigationBarDrawer
 #endif
     }
-
+    
     private func copyToPasteboard(_ string: String) {
 #if os(macOS)
         let pasteboard = NSPasteboard.general
@@ -166,4 +175,19 @@ public struct MilitarySymbolPicker: View {
         pasteboard.string = string
 #endif
     }
+}
+
+fileprivate struct PreviewWrapper: View {
+    
+    @State private var symbol: MilitarySymbol = .init()
+    
+    var body: some View {
+        NavigationStack {
+            MilitarySymbolPicker(symbol: $symbol)
+        }
+    }
+}
+
+#Preview {
+    PreviewWrapper()
 }

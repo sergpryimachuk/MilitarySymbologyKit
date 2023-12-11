@@ -4,8 +4,6 @@
 
 import SwiftUI
 
-
-
 public struct MilitarySymbolConstructor: View {
     
     @Binding public var symbol: MilitarySymbol
@@ -15,7 +13,6 @@ public struct MilitarySymbolConstructor: View {
     }
     
     public var body: some View {
-        
         List {
             // MARK: - Context
             Section {
@@ -33,7 +30,6 @@ public struct MilitarySymbolConstructor: View {
             }
             
             // MARK: - Standard Identity
-            
             Section {
                 NavigationLink {
                     StandardIdentitySelector(symbol: $symbol)
@@ -149,8 +145,7 @@ public struct MilitarySymbolConstructor: View {
             } header: {
                 Text("Entity", bundle: .module)
             }
-            
-        }.listStyle(.insetGrouped)
+        }
     }
 }
 
@@ -159,6 +154,10 @@ public struct ContextSelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(Context.allCases) { context in
@@ -203,8 +202,7 @@ public struct ContextSelector: View {
                 }
             }.tint(.primary)
             
-        }.listStyle(.grouped)
-        
+        }
             .navigationTitle(Text("Context", bundle: .module))
     }
 }
@@ -214,6 +212,10 @@ public struct StandardIdentitySelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(StandardIdentity.allCases) { standardIdentity in
@@ -258,9 +260,8 @@ public struct StandardIdentitySelector: View {
                 }
             }.tint(.primary)
             
-        }.listStyle(.grouped)
-        
-            .navigationTitle(Text("Standard identity", bundle: .module))
+        }
+        .navigationTitle(Text("Standard identity", bundle: .module))
     }
 }
 
@@ -269,6 +270,10 @@ public struct DimentionSelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(Dimension.allCases) { dimention in
@@ -314,7 +319,6 @@ public struct DimentionSelector: View {
             }.tint(.primary)
             
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Dimention", bundle: .module))
     }
 }
@@ -324,6 +328,10 @@ public struct StatusSelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(Status.allCases) { status in
@@ -369,7 +377,6 @@ public struct StatusSelector: View {
             }.tint(.primary)
             
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Status", bundle: .module))
     }
 }
@@ -379,6 +386,10 @@ public struct HQTFDSelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(HQTFD.allCases) { hqtfd in
@@ -424,7 +435,6 @@ public struct HQTFDSelector: View {
             }.tint(.primary)
             
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("HQ / Task Force / Dummy", bundle: .module))
     }
 }
@@ -434,6 +444,10 @@ public struct AmplifierSelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(Amplifier.allCases) { amplifier in
@@ -479,7 +493,6 @@ public struct AmplifierSelector: View {
             }.tint(.primary)
             
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Amplifier", bundle: .module))
     }
 }
@@ -489,6 +502,10 @@ public struct DescriptorSelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(symbol.amplifier.descriptors) { descriptor in
@@ -534,7 +551,6 @@ public struct DescriptorSelector: View {
             }.tint(.primary)
             
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Descriptor", bundle: .module))
     }
 }
@@ -544,6 +560,10 @@ public struct EntitySelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(symbol.dimention.entities) { entity in
@@ -589,7 +609,6 @@ public struct EntitySelector: View {
             }.tint(.primary)
             
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Entity", bundle: .module))
     }
 }
@@ -599,6 +618,10 @@ public struct EntityTypeSelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(symbol.entity.types) { entityType in
@@ -641,10 +664,9 @@ public struct EntityTypeSelector: View {
                             .font(.title)
                     }
                 }
-            }.tint(.primary)
-            
+            }
+            .tint(.primary)
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Entity Type", bundle: .module))
     }
 }
@@ -654,6 +676,10 @@ public struct EntitySubtypeSelector: View {
     @Environment(\.dismiss) private var dismiss
     
     @Binding var symbol: MilitarySymbol
+    
+    public init(symbol: Binding<MilitarySymbol>) {
+        self._symbol = symbol
+    }
     
     public var body: some View {
         List(symbol.entityType.subtypes) { entitySubtype in
@@ -696,10 +722,10 @@ public struct EntitySubtypeSelector: View {
                             .font(.title)
                     }
                 }
-            }.tint(.primary)
+            }
+            .tint(.primary)
             
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Entity Subtype", bundle: .module))
     }
 }
@@ -708,6 +734,8 @@ fileprivate struct PreviewPrapper: View {
     @State private var symbol = MilitarySymbol(isAlternateStatusAmplifiers: true)
     var body: some View {
         NavigationStack {
+            MilitarySymbolPreview(symbol: symbol, size: 200)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
             MilitarySymbolConstructor(symbol: $symbol)
                 .navigationTitle(Text(verbatim: "Constructor"))
         }
