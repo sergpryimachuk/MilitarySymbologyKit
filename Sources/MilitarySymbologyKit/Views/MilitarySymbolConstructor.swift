@@ -730,6 +730,7 @@ public struct EntitySubtypeSelector: View {
     }
 }
 
+/*
 fileprivate struct PreviewPrapper: View {
     @State private var symbol = MilitarySymbol(isAlternateStatusAmplifiers: true)
     var body: some View {
@@ -745,3 +746,4 @@ fileprivate struct PreviewPrapper: View {
 #Preview {
     PreviewPrapper()
 }
+*/

@@ -177,6 +177,7 @@ public struct MilitarySymbolPicker: View {
     }
 }
 
+/*
 fileprivate struct PreviewWrapper: View {
     
     @State private var symbol: MilitarySymbol = .init()
@@ -191,3 +192,4 @@ fileprivate struct PreviewWrapper: View {
 #Preview {
     PreviewWrapper()
 }
+*/

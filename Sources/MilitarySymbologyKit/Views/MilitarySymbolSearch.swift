@@ -47,6 +47,7 @@ public struct MilitarySymbolSearch: View {
     }
 }
 
+/*
 fileprivate struct PreviewWrapper: View {
     @State private var symbol = MilitarySymbol()
     var body: some View {
@@ -59,3 +60,4 @@ fileprivate struct PreviewWrapper: View {
 #Preview {
     PreviewWrapper()
 }
+*/

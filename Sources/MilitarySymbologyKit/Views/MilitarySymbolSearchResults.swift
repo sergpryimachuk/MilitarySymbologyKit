@@ -48,6 +48,7 @@ public struct MilitarySymbolSearchResults: View {
     }
 }
 
+/*
 private struct PreviewWprapper: View {
     @State private var text = ""
     @State private var symbol = MilitarySymbol()
@@ -73,3 +74,4 @@ private struct PreviewWprapper: View {
         PreviewWprapper()
     }
 }
+*/
