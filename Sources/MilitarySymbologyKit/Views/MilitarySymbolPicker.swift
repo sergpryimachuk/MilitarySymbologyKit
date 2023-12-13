@@ -4,6 +4,7 @@
 
 import SwiftUI
 
+/// Form view for constructing MilitarySymbol with each property as a picker.
 public struct MilitarySymbolPicker: View {
     @Binding public var symbol: MilitarySymbol
     
