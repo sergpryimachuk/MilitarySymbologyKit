@@ -36,9 +36,19 @@ public struct MilitarySymbolSearch: View {
         .searchable(
             text: $searchText,
             isPresented: $isSearchPresented,
-            placement: .toolbar,
+            placement: searchPlacement,
             prompt: Text("Search symbol", bundle: .militarySymbologyKit, comment: "Search bar")
         )
+    }
+}
+
+private extension MilitarySymbolSearch {
+    var searchPlacement: SearchFieldPlacement {
+#if os(iOS)
+            .navigationBarDrawer
+#else
+            .toolBar
+#endif
     }
 }
 
