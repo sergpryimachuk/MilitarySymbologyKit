@@ -17,7 +17,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-    
+
     public var status: Status = .present
     public var hqtfd: HQTFD = .none
     public var amplifier: Amplifier = .none {
@@ -29,7 +29,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-    
+
     public var descriptor: AnyDescriptor = .none
     public var entity: AnyEntity = .none {
         didSet {
@@ -40,7 +40,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-    
+
     public var entityType: AnyEntityType = .none {
         didSet {
             if let first = entityType.subtypes.first {
@@ -50,26 +50,26 @@ public struct MilitarySymbol: Identifiable, Hashable {
             }
         }
     }
-    
+
     public var entitySubtype: AnyEntitySubtype = .none
-    
+
     public var isCivilian: Bool = false
     public var isAlternateStatusAmplifiers: Bool = true
-    
+
     public let id = UUID()
-    
+
     public var sidc: String {
         version
-        + context.id
-        + standardIdentity.id
-        + dimention.id
-        + status.id
-        + hqtfd.id
-        + amplifier.id
-        + descriptor.id
-        + entity.id
-        + entityType.id
-        + entitySubtype.id
-        + "0000" // Modifiers are not taken into account for now.
+            + context.id
+            + standardIdentity.id
+            + dimention.id
+            + status.id
+            + hqtfd.id
+            + amplifier.id
+            + descriptor.id
+            + entity.id
+            + entityType.id
+            + entitySubtype.id
+            + "0000" // Modifiers are not taken into account for now.
     }
 }

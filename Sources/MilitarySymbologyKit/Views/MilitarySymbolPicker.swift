@@ -7,18 +7,18 @@ import SwiftUI
 /// Form view for constructing MilitarySymbol with each property as a picker.
 public struct MilitarySymbolPicker: View {
     @Binding public var symbol: MilitarySymbol
-    
+
     public init(symbol: Binding<MilitarySymbol>) {
-        self._symbol = symbol
+        _symbol = symbol
     }
-    
+
     public var body: some View {
         Form {
             Section {
                 symbol.makeView(size: 200)
                     .padding(-30)
                     .frame(maxWidth: .infinity, alignment: .center)
-                
+
                 LabeledContent("SIDC:", value: symbol.sidc)
                     .contextMenu {
                         Button("Copy", systemImage: "doc.on.doc") {
@@ -26,7 +26,7 @@ public struct MilitarySymbolPicker: View {
                         }
                     }
             }
-            
+
             Section {
                 Picker(selection: $symbol.context) {
                     ForEach(Context.allCases) { context in
@@ -35,7 +35,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Context", bundle: .module)
                 }
-                
+
                 Picker(selection: $symbol.standardIdentity) {
                     ForEach(StandardIdentity.allCases) { identity in
                         Text(identity.name).tag(identity)
@@ -43,7 +43,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Standard Identity", bundle: .module)
                 }
-                
+
                 Picker(selection: $symbol.dimention) {
                     ForEach(Dimension.allCases) { dimension in
                         Text(dimension.name).tag(dimension)
@@ -51,7 +51,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Dimention", bundle: .module)
                 }
-                
+
                 Picker(selection: $symbol.status) {
                     ForEach(Status.allCases) { status in
                         Text(status.name).tag(status)
@@ -59,7 +59,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Status", bundle: .module)
                 }
-                
+
                 Picker(selection: $symbol.hqtfd) {
                     ForEach(HQTFD.allCases) { hqtfd in
                         Text(hqtfd.name).tag(hqtfd)
@@ -67,7 +67,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("HQ / Task Force / Dummy", bundle: .module)
                 }
-                
+
                 Picker(selection: $symbol.amplifier) {
                     ForEach(Amplifier.allCases) { amplifier in
                         Text(amplifier.name).tag(amplifier)
@@ -75,7 +75,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Amplifier", bundle: .module)
                 }
-                
+
                 Picker(selection: $symbol.descriptor) {
                     ForEach(symbol.amplifier.descriptors) { descriptor in
                         Text(descriptor.name).tag(AnyDescriptor(descriptor))
@@ -83,7 +83,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Descriptor", bundle: .module)
                 }
-                
+
                 Picker(selection: $symbol.entity) {
                     ForEach(symbol.dimention.entities) { entity in
                         Text(entity.name).tag(entity)
@@ -91,7 +91,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Entity", bundle: .module)
                 }
-                
+
                 Picker(selection: $symbol.entityType) {
                     ForEach(symbol.entity.types) { entityType in
                         Text(entityType.name).tag(entityType)
@@ -99,7 +99,7 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Entity Type", bundle: .module)
                 }
-                
+
                 Picker(selection: $symbol.entitySubtype) {
                     ForEach(symbol.entityType.subtypes) { entitySubtype in
                         Text(entitySubtype.name).tag(entitySubtype)
@@ -107,10 +107,9 @@ public struct MilitarySymbolPicker: View {
                 } label: {
                     Text("Entity Subtype", bundle: .module)
                 }
-                
-                
+
                 // This one is unclear when to use - let it be without it for now.
-                
+
                 /*
                  Toggle(isOn: $symbol.isCivilian) {
                  Text("Civilian", bundle: .module)
@@ -122,11 +121,11 @@ public struct MilitarySymbolPicker: View {
                  }
                  }
                  */
-                
+
                 Toggle(isOn: $symbol.isAlternateStatusAmplifiers) {
                     Text("Use alternate status amplifiers", bundle: .module)
                 }
-                
+
                 Button(role: .destructive) {
                     symbol = .init()
                 } label: {
@@ -135,43 +134,43 @@ public struct MilitarySymbolPicker: View {
             }
         }
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
-#if os(iOS)
-        .navigationBarTitleDisplayMode(.inline)
-#endif
+        #if os(iOS)
+            .navigationBarTitleDisplayMode(.inline)
+        #endif
     }
-    
+
     private var searchFieldPlacement: SearchFieldPlacement {
-#if os(macOS)
-        .automatic
-#else
-        .navigationBarDrawer
-#endif
+        #if os(macOS)
+            .automatic
+        #else
+            .navigationBarDrawer
+        #endif
     }
-    
+
     private func copyToPasteboard(_ string: String) {
-#if os(macOS)
-        let pasteboard = NSPasteboard.general
-        pasteboard.setString(string, forType: .string)
-#else
-        let pasteboard = UIPasteboard.general
-        pasteboard.string = string
-#endif
+        #if os(macOS)
+            let pasteboard = NSPasteboard.general
+            pasteboard.setString(string, forType: .string)
+        #else
+            let pasteboard = UIPasteboard.general
+            pasteboard.string = string
+        #endif
     }
 }
 
 /*
-fileprivate struct PreviewWrapper: View {
-    
-    @State private var symbol: MilitarySymbol = .init()
-    
-    var body: some View {
-        NavigationStack {
-            MilitarySymbolPicker(symbol: $symbol)
-        }
-    }
-}
+ fileprivate struct PreviewWrapper: View {
 
-#Preview {
-    PreviewWrapper()
-}
-*/
+     @State private var symbol: MilitarySymbol = .init()
+
+     var body: some View {
+         NavigationStack {
+             MilitarySymbolPicker(symbol: $symbol)
+         }
+     }
+ }
+
+ #Preview {
+     PreviewWrapper()
+ }
+ */

@@ -1,16 +1,15 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 11.12.2023.
-//  
+//
 
 import SwiftUI
 
 public struct MilitarySymbolForEach: View {
-    
     public typealias SelectedMilitarySymbol = MilitarySymbol
-    
+
     private let symbols: [MilitarySymbol]
     private let onSelected: (_: SelectedMilitarySymbol) -> Void
-    
+
     public init(
         for symbols: [MilitarySymbol],
         onSelected: @escaping (_: SelectedMilitarySymbol) -> Void
@@ -18,7 +17,7 @@ public struct MilitarySymbolForEach: View {
         self.symbols = symbols
         self.onSelected = onSelected
     }
-    
+
     public var body: some View {
         ForEach(symbols) { symbol in
             Button {
@@ -31,17 +30,18 @@ public struct MilitarySymbolForEach: View {
                     VStack(alignment: .leading) {
                         let isEntityTypeNone = symbol.entityType == .none
                         let isEntitySubtypeNone = symbol.entitySubtype == .none
-                        
+
                         if isEntityTypeNone
-                            && isEntitySubtypeNone {
+                            && isEntitySubtypeNone
+                        {
                             Text(symbol.dimention.name)
                             Text(symbol.entity.name)
                         }
-                        
+
                         if !isEntityTypeNone {
                             Text(symbol.entityType.name)
                         }
-                        
+
                         if !isEntitySubtypeNone {
                             Text(symbol.entitySubtype.name)
                         }
@@ -49,7 +49,6 @@ public struct MilitarySymbolForEach: View {
                     .multilineTextAlignment(.leading)
                     .lineLimit(3)
                     .minimumScaleFactor(0.8)
-                    
                 }
             }.tint(.primary)
         }

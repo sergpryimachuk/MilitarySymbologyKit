@@ -7,6 +7,7 @@ import OSLog
 import SwiftUI
 
 // MARK: - Conformance to protocols
+
 extension MilitarySymbol: Comparable {
     public static func < (lhs: MilitarySymbol, rhs: MilitarySymbol) -> Bool {
         if lhs.dimention.id == rhs.dimention.id {
@@ -14,13 +15,13 @@ extension MilitarySymbol: Comparable {
                 if lhs.entityType.id == rhs.entityType.id {
                     return lhs.entitySubtype.id > rhs.entitySubtype.id
                 }
-                
+
                 return lhs.entity.id < rhs.entity.id
             }
-            
+
             return lhs.entity.id < rhs.entity.id
         }
-        
+
         return lhs.dimention.id < rhs.dimention.id
     }
 }
@@ -44,7 +45,7 @@ public extension MilitarySymbol {
         isCivilian = false
         self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
     }
-    
+
     /// Init from *SIDC* code.
     /// Possible to change Status Amplifiers style.
     init(sidc: String, isAlternateStatusAmplifiers: Bool = false) throws {
@@ -56,68 +57,68 @@ public extension MilitarySymbol {
                 throw MilitarySymbolError.contextParcingFailed
             }
             self.context = context
-            
+
             guard let standardIdentity = StandardIdentity(rawValue: sidc[3]) else {
                 print("StandardIdentity")
                 throw MilitarySymbolError.standardIdentityParcingFailed
             }
             self.standardIdentity = standardIdentity
-            
+
             guard let dimention = Dimension(rawValue: sidc[4] + sidc[5]) else {
                 print("Dimension")
                 throw MilitarySymbolError.dimentionParcingFailed
             }
             self.dimention = dimention
-            
+
             guard let status = Status(rawValue: sidc[6]) else {
                 print("Status")
                 throw MilitarySymbolError.statusParcingFailed
             }
             self.status = status
-            
+
             guard let hqtfd = HQTFD(rawValue: sidc[7]) else {
                 print("HQTFD")
                 throw MilitarySymbolError.hqtfdParcingFailed
             }
             self.hqtfd = hqtfd
-            
+
             guard let amplifier = Amplifier(rawValue: sidc[8]) else {
                 print("Amplifier")
                 throw MilitarySymbolError.amplifierParcingFailed
             }
             self.amplifier = amplifier
-            
+
             guard let descriptor = amplifier.descriptors.first(where: { $0.id == sidc[9] }) else {
                 print("Descriptor")
                 throw MilitarySymbolError.descriptorParcingFailed
             }
             self.descriptor = descriptor
-            
+
             let entityDigits: String = sidc[10] + sidc[11]
             guard let entity = dimention.entities.first(where: { $0.id == entityDigits }) else {
                 print("Entity")
                 throw MilitarySymbolError.entityParcingFailed
             }
             self.entity = entity
-            
+
             let entityTypeDigits: String = sidc[12] + sidc[13]
             guard let entityType = entity.types.first(where: { $0.id == entityTypeDigits }) else {
                 print("EntityType")
                 throw MilitarySymbolError.entityTypeParcingFailed
             }
             self.entityType = entityType
-            
+
             let entitySybTypeDigits = sidc[14] + sidc[15]
             guard let entitySubtype = entityType.subtypes.first(where: { $0.id == entitySybTypeDigits }) else {
                 print("EntitySubtype")
                 throw MilitarySymbolError.entitySubtypeParcingFailed
             }
             self.entitySubtype = entitySubtype
-            
+
             self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
         }
     }
-    
+
     /// Init for custom values.
     init(
         context: Context,
@@ -142,33 +143,33 @@ public extension MilitarySymbol {
         self.entity = entity
         self.entityType = entityType
         self.entitySubtype = entitySubtype
-        self.isCivilian = false
+        isCivilian = false
         self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
     }
 }
 
 // MARK: - Asset name generators
+
 public extension MilitarySymbol {
     // MARK: - FRAME
 
     /// **Uses SIDC positions 3-7**, with an underscore between the first digit in the name and the last digit in the name. Purple filled frames for Civilian units, equipment, and installations have a ‘c’ at the end of the file name.
     var frameAssetName: String? {
-        
         guard dimention != .cyberspace else {
             return nil
         }
-        
+
         var statusDigit: String {
             let initial = switch status {
             case .present, .plannedAnticipatedSuspect:
-                
+
                 switch standardIdentity {
                 case .pending, .assumedFriend, .suspect:
                     Status.present.id
                 default:
                     status.id
                 }
-                
+
             default:
                 Status.present.id
             }
@@ -179,7 +180,7 @@ public extension MilitarySymbol {
                 return initial
             }
         }
-        
+
         var dimentionDigit: String {
             switch dimention {
             case .airMissile: // .signalsIntelligenceAir:
@@ -194,23 +195,23 @@ public extension MilitarySymbol {
                 dimention.id
             }
         }
-        
+
         var standardIdentityDigit: String {
             switch standardIdentity {
             default:
                 standardIdentity.id
             }
         }
-        
+
         let result = context.id
-        + "_"
-        + standardIdentityDigit
-        + dimentionDigit
-        + "_"
-        + statusDigit
-        
+            + "_"
+            + standardIdentityDigit
+            + dimentionDigit
+            + "_"
+            + statusDigit
+
         Logger.militarySymbol.info("Made frameAssetName: \(result)")
-        
+
         return result
     }
 
@@ -235,13 +236,12 @@ public extension MilitarySymbol {
     }
 
     // MARK: - HQTFD
-    
+
     /// Uses SIDC **positions 4-6 (StandardIdentity-Dimention)** and position **8 (hqtfd)**.
     var hqtfdAssetName: String? {
         if hqtfd == .none {
             return nil
         } else {
-            
             var dimentionDigit: String {
                 switch dimention {
                 case .airMissile: // .signalsIntelligenceAir:
@@ -256,7 +256,7 @@ public extension MilitarySymbol {
                     dimention.id
                 }
             }
-            
+
             let result = standardIdentity.assetDigit + dimentionDigit + hqtfd.id
 
             Logger.militarySymbol.info("Made hqtfdAssetName: \(result)")
@@ -264,7 +264,7 @@ public extension MilitarySymbol {
             return result
         }
     }
-    
+
     // MARK: - OCA
 
     var ocaAssetName: String? {
@@ -289,7 +289,7 @@ public extension MilitarySymbol {
             }
         }
     }
-    
+
     // MARK: - Main icons
 
     /// Uses SIDC positions **5-6 (Symbol Set) and 11-16 (Entity, EntityType, EntitySubtype)**.
@@ -444,10 +444,8 @@ public extension MilitarySymbol {
 // MARK: - Views
 
 public extension MilitarySymbol {
-    
     func makeView(size: CGFloat? = nil) -> some View {
         ZStack {
-            
             if let frameAssetName {
                 Image(frameAssetName, bundle: .militarySymbologyAssets)
                     .resizable()
@@ -484,7 +482,7 @@ public extension MilitarySymbol {
         }
         .frame(width: size, height: size)
     }
-    
+
     static func makeUnknownSymbolView(size: CGFloat? = nil) -> some View {
         Image(systemName: "questionmark.diamond.fill")
             .resizable()
@@ -496,10 +494,10 @@ public extension MilitarySymbol {
 }
 
 // MARK: - Filtering
+
 // TODO: Delete this later.
 
 public extension MilitarySymbol {
-    
     static func searched(text: String, currentSymbol: MilitarySymbol?) -> [MilitarySymbol] {
         if text.isEmpty {
             return []

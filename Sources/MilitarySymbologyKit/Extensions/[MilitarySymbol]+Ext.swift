@@ -5,15 +5,13 @@
 import Foundation
 
 public extension [MilitarySymbol] {
-    
     /// Generates symbols with all cases of entities, its types and subtypes.
     /// Used for search.
     static func allEntityCases(
         initialValue: MilitarySymbol
     ) -> [MilitarySymbol] {
-        
         var result: [MilitarySymbol] = []
-        
+
         Dimension.allCases.forEach { dimention in
             dimention.entities.forEach { entity in
                 entity.types.forEach { entityType in
@@ -28,16 +26,17 @@ public extension [MilitarySymbol] {
                             descriptor: initialValue.descriptor,
                             entity: entity,
                             entityType: entityType,
-                            entitySubtype: entitySubtype)
+                            entitySubtype: entitySubtype
+                        )
                         )
                     }
                 }
             }
         }
-        
+
         return result
     }
-    
+
     func filtered(searchText: String) -> [MilitarySymbol] {
         if self.isEmpty {
             self
@@ -47,9 +46,9 @@ public extension [MilitarySymbol] {
             } else {
                 self.filter { symbol in
                     symbol.dimention.name.localizedCaseInsensitiveContains(searchText)
-                    || symbol.entity.name.localizedCaseInsensitiveContains(searchText)
-                    || symbol.entityType.name.localizedCaseInsensitiveContains(searchText)
-                    || symbol.entitySubtype.name.localizedCaseInsensitiveContains(searchText)
+                        || symbol.entity.name.localizedCaseInsensitiveContains(searchText)
+                        || symbol.entityType.name.localizedCaseInsensitiveContains(searchText)
+                        || symbol.entitySubtype.name.localizedCaseInsensitiveContains(searchText)
                 }
             }
         }

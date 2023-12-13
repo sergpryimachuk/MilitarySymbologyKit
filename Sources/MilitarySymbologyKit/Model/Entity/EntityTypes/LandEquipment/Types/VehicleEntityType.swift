@@ -32,7 +32,6 @@ public enum VehicleEntityType: String, CaseIterable, EntityType {
 
     public var subtypes: [AnyEntitySubtype] {
         switch self {
-            
         case .armoredVehicle:
             ArmoredVehicleEntitySubtype.allCases.map { AnyEntitySubtype($0) }
         default:

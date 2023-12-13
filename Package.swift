@@ -12,17 +12,17 @@ let package = Package(
         .library(
             name: "MilitarySymbologyKit",
             targets: ["MilitarySymbologyKit"]
-        )
+        ),
     ],
     dependencies: [
-        .package(url: "https://github.com/sergpryimachuk/MilitarySymbologyAssets", branch: "main")
+        .package(url: "https://github.com/sergpryimachuk/MilitarySymbologyAssets", branch: "main"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "MilitarySymbologyKit", 
+            name: "MilitarySymbologyKit",
             dependencies: ["MilitarySymbologyAssets"]
-        )
+        ),
     ]
 )
