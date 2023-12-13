@@ -127,7 +127,7 @@ public struct MilitarySymbolPicker: View {
                 }
 
                 Button(role: .destructive) {
-                    symbol = .init()
+                    symbol = MilitarySymbol()
                 } label: {
                     Text("Reset to default value", bundle: .module)
                 }
