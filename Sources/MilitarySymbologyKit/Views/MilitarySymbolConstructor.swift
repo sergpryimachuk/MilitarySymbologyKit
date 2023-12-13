@@ -4,6 +4,7 @@
 
 import SwiftUI
 
+/// List View for constructing MilitarySymbol with each property as a NavigationLink to another view with a symbol preview.
 public struct MilitarySymbolConstructor: View {
     
     @Binding public var symbol: MilitarySymbol
