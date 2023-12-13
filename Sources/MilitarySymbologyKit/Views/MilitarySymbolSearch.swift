@@ -24,18 +24,14 @@ public struct MilitarySymbolSearch: View {
     
     public var body: some View {
         List {
-            if searchText.isEmpty {
-                MilitarySymbolForEach(for: allSymbols) { selectedSymbol in
-                    self.selectedSymbol = selectedSymbol
-                }
-            } else {
-               MilitarySymbolSearchResults(
+            MilitarySymbolSearchResults(
                 searchText: $searchText,
                 selectedSymbol: $selectedSymbol,
                 isSearchPresented: $isSearchPresented,
-                searchResults: filteredSymbols
-               )
-            }
+                searchResults: searchText.isEmpty
+                ? allSymbols
+                : filteredSymbols
+            )
         }
         .animation(.linear, value: filteredSymbols)
         .searchable(

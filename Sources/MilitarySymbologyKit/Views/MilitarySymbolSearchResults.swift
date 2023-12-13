@@ -23,28 +23,52 @@ public struct MilitarySymbolSearchResults: View {
         self.searchResults = searchResults
     }
     
-    public var body: some View {
+    private var searchState: SearchState {
         if !searchText.isEmpty && !searchResults.isEmpty {
+            .showResults
+        } else if !searchText.isEmpty && searchResults.isEmpty {
+            .noResults
+        } else {
+            .showAll
+        }
+    }
+    
+    public var body: some View {
+        
+        switch searchState {
+        case .showAll:
             MilitarySymbolForEach(for: searchResults) { selectedSymbol in
                 self.selectedSymbol = selectedSymbol
                 searchText = ""
                 isSearchPresented = false
             }
-        } else if !searchText.isEmpty && searchResults.isEmpty {
+        case .noResults:
             let comment: StaticString = "Symbol search"
             ContentUnavailableView(label: {
                 Label(
                     title: {
-                        Text("Not found", bundle: .module, comment: comment)
+                        Text("Not found", bundle: .militarySymbologyKit, comment: comment)
                     },
                     icon: {
                         Image(systemName: "questionmark.diamond")
                     }
                 )
             }, description: {
-                Text("No results for '\(searchText)'", bundle: .module, comment: comment)
+                Text("No results for '\(searchText)'", bundle: .militarySymbologyKit, comment: comment)
             })
+        case .showResults:
+            MilitarySymbolForEach(for: searchResults) { selectedSymbol in
+                self.selectedSymbol = selectedSymbol
+                searchText = ""
+                isSearchPresented = false
+            }
         }
+    }
+}
+
+private extension MilitarySymbolSearchResults {
+    enum SearchState {
+        case showAll, noResults, showResults
     }
 }
 
