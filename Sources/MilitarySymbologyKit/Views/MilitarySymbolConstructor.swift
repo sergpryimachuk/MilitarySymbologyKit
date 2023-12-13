@@ -4,20 +4,18 @@
 
 import SwiftUI
 
-
-
+/// List View for constructing MilitarySymbol with each property as a NavigationLink to another view with a symbol preview.
 public struct MilitarySymbolConstructor: View {
-    
     @Binding public var symbol: MilitarySymbol
-    
+
     public init(symbol: Binding<MilitarySymbol>) {
-        self._symbol = symbol
+        _symbol = symbol
     }
-    
+
     public var body: some View {
-        
         List {
             // MARK: - Context
+
             Section {
                 NavigationLink {
                     ContextSelector(symbol: $symbol)
@@ -31,9 +29,9 @@ public struct MilitarySymbolConstructor: View {
             } header: {
                 Text("Context", bundle: .module)
             }
-            
+
             // MARK: - Standard Identity
-            
+
             Section {
                 NavigationLink {
                     StandardIdentitySelector(symbol: $symbol)
@@ -47,8 +45,9 @@ public struct MilitarySymbolConstructor: View {
             } header: {
                 Text("Standard Identity", bundle: .module)
             }
-            
+
             // MARK: - Dimention
+
             Section {
                 NavigationLink {
                     DimentionSelector(symbol: $symbol)
@@ -62,8 +61,9 @@ public struct MilitarySymbolConstructor: View {
             } header: {
                 Text("Dimention", bundle: .module)
             }
-            
+
             // MARK: - Status
+
             Section {
                 NavigationLink {
                     StatusSelector(symbol: $symbol)
@@ -77,8 +77,9 @@ public struct MilitarySymbolConstructor: View {
             } header: {
                 Text("Status", bundle: .module)
             }
-            
+
             // MARK: - HQTFD
+
             Section {
                 NavigationLink {
                     HQTFDSelector(symbol: $symbol)
@@ -92,8 +93,9 @@ public struct MilitarySymbolConstructor: View {
             } header: {
                 Text("HQTFDummy", bundle: .module)
             }
-            
+
             // MARK: - Amplifier and Descriptor
+
             Section {
                 NavigationLink {
                     AmplifierSelector(symbol: $symbol)
@@ -116,8 +118,9 @@ public struct MilitarySymbolConstructor: View {
             } header: {
                 Text("Amplifier / Descriptor", bundle: .module)
             }
-            
+
             // MARK: - Entity
+
             Section {
                 NavigationLink {
                     EntitySelector(symbol: $symbol)
@@ -149,17 +152,19 @@ public struct MilitarySymbolConstructor: View {
             } header: {
                 Text("Entity", bundle: .module)
             }
-            
-        }.listStyle(.insetGrouped)
+        }
     }
 }
 
 public struct ContextSelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(Context.allCases) { context in
             let illustrationSymbol = MilitarySymbol(
@@ -174,8 +179,9 @@ public struct ContextSelector: View {
                 entityType: symbol.entityType,
                 entitySubtype: symbol.entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.context = context
                 dismiss()
@@ -185,7 +191,7 @@ public struct ContextSelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -193,7 +199,7 @@ public struct ContextSelector: View {
                     Text(context.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.context == context {
                         Image(systemName: "checkmark")
@@ -202,19 +208,20 @@ public struct ContextSelector: View {
                     }
                 }
             }.tint(.primary)
-            
-        }.listStyle(.grouped)
-        
-            .navigationTitle(Text("Context", bundle: .module))
+        }
+        .navigationTitle(Text("Context", bundle: .module))
     }
 }
 
 public struct StandardIdentitySelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(StandardIdentity.allCases) { standardIdentity in
             let illustrationSymbol = MilitarySymbol(
@@ -229,8 +236,9 @@ public struct StandardIdentitySelector: View {
                 entityType: symbol.entityType,
                 entitySubtype: symbol.entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.standardIdentity = standardIdentity
                 dismiss()
@@ -240,7 +248,7 @@ public struct StandardIdentitySelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -248,7 +256,7 @@ public struct StandardIdentitySelector: View {
                     Text(standardIdentity.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.standardIdentity == standardIdentity {
                         Image(systemName: "checkmark")
@@ -257,19 +265,20 @@ public struct StandardIdentitySelector: View {
                     }
                 }
             }.tint(.primary)
-            
-        }.listStyle(.grouped)
-        
-            .navigationTitle(Text("Standard identity", bundle: .module))
+        }
+        .navigationTitle(Text("Standard identity", bundle: .module))
     }
 }
 
 public struct DimentionSelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(Dimension.allCases) { dimention in
             let illustrationSymbol = MilitarySymbol(
@@ -284,8 +293,9 @@ public struct DimentionSelector: View {
                 entityType: symbol.entityType,
                 entitySubtype: symbol.entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.dimention = dimention
                 dismiss()
@@ -295,7 +305,7 @@ public struct DimentionSelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -303,7 +313,7 @@ public struct DimentionSelector: View {
                     Text(dimention.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.dimention == dimention {
                         Image(systemName: "checkmark")
@@ -312,19 +322,20 @@ public struct DimentionSelector: View {
                     }
                 }
             }.tint(.primary)
-            
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Dimention", bundle: .module))
     }
 }
 
 public struct StatusSelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(Status.allCases) { status in
             let illustrationSymbol = MilitarySymbol(
@@ -339,8 +350,9 @@ public struct StatusSelector: View {
                 entityType: symbol.entityType,
                 entitySubtype: symbol.entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.status = status
                 dismiss()
@@ -350,7 +362,7 @@ public struct StatusSelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -358,7 +370,7 @@ public struct StatusSelector: View {
                     Text(status.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.status == status {
                         Image(systemName: "checkmark")
@@ -367,19 +379,20 @@ public struct StatusSelector: View {
                     }
                 }
             }.tint(.primary)
-            
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Status", bundle: .module))
     }
 }
 
 public struct HQTFDSelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(HQTFD.allCases) { hqtfd in
             let illustrationSymbol = MilitarySymbol(
@@ -394,8 +407,9 @@ public struct HQTFDSelector: View {
                 entityType: symbol.entityType,
                 entitySubtype: symbol.entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.hqtfd = hqtfd
                 dismiss()
@@ -405,7 +419,7 @@ public struct HQTFDSelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -413,7 +427,7 @@ public struct HQTFDSelector: View {
                     Text(hqtfd.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.hqtfd == hqtfd {
                         Image(systemName: "checkmark")
@@ -422,19 +436,20 @@ public struct HQTFDSelector: View {
                     }
                 }
             }.tint(.primary)
-            
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("HQ / Task Force / Dummy", bundle: .module))
     }
 }
 
 public struct AmplifierSelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(Amplifier.allCases) { amplifier in
             let illustrationSymbol = MilitarySymbol(
@@ -449,8 +464,9 @@ public struct AmplifierSelector: View {
                 entityType: symbol.entityType,
                 entitySubtype: symbol.entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.amplifier = amplifier
                 dismiss()
@@ -460,7 +476,7 @@ public struct AmplifierSelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -468,7 +484,7 @@ public struct AmplifierSelector: View {
                     Text(amplifier.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.amplifier == amplifier {
                         Image(systemName: "checkmark")
@@ -477,19 +493,20 @@ public struct AmplifierSelector: View {
                     }
                 }
             }.tint(.primary)
-            
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Amplifier", bundle: .module))
     }
 }
 
 public struct DescriptorSelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(symbol.amplifier.descriptors) { descriptor in
             let illustrationSymbol = MilitarySymbol(
@@ -504,8 +521,9 @@ public struct DescriptorSelector: View {
                 entityType: symbol.entityType,
                 entitySubtype: symbol.entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.descriptor = descriptor
                 dismiss()
@@ -515,7 +533,7 @@ public struct DescriptorSelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -523,7 +541,7 @@ public struct DescriptorSelector: View {
                     Text(descriptor.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.descriptor == descriptor {
                         Image(systemName: "checkmark")
@@ -532,19 +550,20 @@ public struct DescriptorSelector: View {
                     }
                 }
             }.tint(.primary)
-            
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Descriptor", bundle: .module))
     }
 }
 
 public struct EntitySelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(symbol.dimention.entities) { entity in
             let illustrationSymbol = MilitarySymbol(
@@ -559,8 +578,9 @@ public struct EntitySelector: View {
                 entityType: symbol.entityType,
                 entitySubtype: symbol.entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.entity = entity
                 dismiss()
@@ -570,7 +590,7 @@ public struct EntitySelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -578,7 +598,7 @@ public struct EntitySelector: View {
                     Text(entity.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.entity == entity {
                         Image(systemName: "checkmark")
@@ -587,19 +607,20 @@ public struct EntitySelector: View {
                     }
                 }
             }.tint(.primary)
-            
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Entity", bundle: .module))
     }
 }
 
 public struct EntityTypeSelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(symbol.entity.types) { entityType in
             let illustrationSymbol = MilitarySymbol(
@@ -614,8 +635,9 @@ public struct EntityTypeSelector: View {
                 entityType: entityType,
                 entitySubtype: symbol.entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.entityType = entityType
                 dismiss()
@@ -625,7 +647,7 @@ public struct EntityTypeSelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -633,7 +655,7 @@ public struct EntityTypeSelector: View {
                     Text(entityType.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.entityType == entityType {
                         Image(systemName: "checkmark")
@@ -641,20 +663,22 @@ public struct EntityTypeSelector: View {
                             .font(.title)
                     }
                 }
-            }.tint(.primary)
-            
+            }
+            .tint(.primary)
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Entity Type", bundle: .module))
     }
 }
 
 public struct EntitySubtypeSelector: View {
-    
     @Environment(\.dismiss) private var dismiss
-    
+
     @Binding var symbol: MilitarySymbol
-    
+
+    public init(symbol: Binding<MilitarySymbol>) {
+        _symbol = symbol
+    }
+
     public var body: some View {
         List(symbol.entityType.subtypes) { entitySubtype in
             let illustrationSymbol = MilitarySymbol(
@@ -669,8 +693,9 @@ public struct EntitySubtypeSelector: View {
                 entityType: symbol.entityType,
                 entitySubtype: entitySubtype,
                 isCivilian: symbol.isCivilian,
-                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers)
-            
+                isAlternateStatusAmplifiers: symbol.isAlternateStatusAmplifiers
+            )
+
             Button {
                 symbol.entitySubtype = entitySubtype
                 dismiss()
@@ -680,7 +705,7 @@ public struct EntitySubtypeSelector: View {
                         RoundedRectangle(cornerRadius: 8)
                             .frame(width: 70, height: 70)
                             .foregroundStyle(.gray.opacity(0.1))
-                        
+
                         illustrationSymbol.makeView(size: 100)
                             .padding(-30)
                     }
@@ -688,7 +713,7 @@ public struct EntitySubtypeSelector: View {
                     Text(entitySubtype.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
-                    
+
                     Spacer()
                     if symbol.entitySubtype == entitySubtype {
                         Image(systemName: "checkmark")
@@ -696,24 +721,27 @@ public struct EntitySubtypeSelector: View {
                             .font(.title)
                     }
                 }
-            }.tint(.primary)
-            
+            }
+            .tint(.primary)
         }
-        .listStyle(.grouped)
         .navigationTitle(Text("Entity Subtype", bundle: .module))
     }
 }
 
-fileprivate struct PreviewPrapper: View {
-    @State private var symbol = MilitarySymbol(isAlternateStatusAmplifiers: true)
-    var body: some View {
-        NavigationStack {
-            MilitarySymbolConstructor(symbol: $symbol)
-                .navigationTitle(Text(verbatim: "Constructor"))
-        }
-    }
-}
+/*
+ fileprivate struct PreviewPrapper: View {
+     @State private var symbol = MilitarySymbol(isAlternateStatusAmplifiers: true)
+     var body: some View {
+         NavigationStack {
+             MilitarySymbolPreview(symbol: symbol, size: 200)
+                 .clipShape(RoundedRectangle(cornerRadius: 10))
+             MilitarySymbolConstructor(symbol: $symbol)
+                 .navigationTitle(Text(verbatim: "Constructor"))
+         }
+     }
+ }
 
-#Preview {
-    PreviewPrapper()
-}
+ #Preview {
+     PreviewPrapper()
+ }
+ */
