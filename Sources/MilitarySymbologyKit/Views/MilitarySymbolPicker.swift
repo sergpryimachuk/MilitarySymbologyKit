@@ -6,25 +6,13 @@ import SwiftUI
 
 public struct MilitarySymbolPicker: View {
     @Binding public var symbol: MilitarySymbol
-    @State private var searchText = ""
-    @State private var isSearchPresented = false
     
     public init(symbol: Binding<MilitarySymbol>) {
         self._symbol = symbol
     }
     
-    var searchResults: [MilitarySymbol] {
-        .allEntityCases(initialValue: symbol).filtered(searchText: searchText)
-    }
-    
     public var body: some View {
         Form {
-            // Temporary solution - works okay on iPhone but horrible on Mac.
-            MilitarySymbolSearchResults(searchText: $searchText,
-                                        selectedSymbol: $symbol,
-                                        isSearchPresented: $isSearchPresented,
-                                        searchResults: searchResults)
-            
             Section {
                 HStack {
                     Spacer()
@@ -147,11 +135,6 @@ public struct MilitarySymbolPicker: View {
                 }
             }
         }
-        .animation(.linear, value: searchResults)
-        .searchable(text: $searchText,
-                    isPresented: $isSearchPresented,
-                    placement: searchFieldPlacement,
-                    prompt: Text("Search symbol", bundle: .module))
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
         #if os(iOS)
         .navigationBarTitleDisplayMode(.inline)
