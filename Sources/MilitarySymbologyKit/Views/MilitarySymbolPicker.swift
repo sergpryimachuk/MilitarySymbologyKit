@@ -14,12 +14,10 @@ public struct MilitarySymbolPicker: View {
     public var body: some View {
         Form {
             Section {
-                HStack {
-                    Spacer()
-                    symbol.makeView(size: 200)
-                        .padding(-30)
-                    Spacer()
-                }
+                symbol.makeView(size: 200)
+                    .padding(-30)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                
                 LabeledContent("SIDC:", value: symbol.sidc)
                     .contextMenu {
                         Button("Copy", systemImage: "doc.on.doc") {
@@ -113,16 +111,16 @@ public struct MilitarySymbolPicker: View {
                 // This one is unclear when to use - let it be without it for now.
                 
                 /*
-                Toggle(isOn: $symbol.isCivilian) {
-                    Text("Civilian", bundle: .module)
-                }
-                .disabled(symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile)
-                .onChange(of: symbol.standardIdentity) { _, newValue in
-                    if newValue == .suspect || newValue == .hostile {
-                        symbol.isCivilian = false
-                    }
-                }
-                */
+                 Toggle(isOn: $symbol.isCivilian) {
+                 Text("Civilian", bundle: .module)
+                 }
+                 .disabled(symbol.standardIdentity == .suspect || symbol.standardIdentity == .hostile)
+                 .onChange(of: symbol.standardIdentity) { _, newValue in
+                 if newValue == .suspect || newValue == .hostile {
+                 symbol.isCivilian = false
+                 }
+                 }
+                 */
                 
                 Toggle(isOn: $symbol.isAlternateStatusAmplifiers) {
                     Text("Use alternate status amplifiers", bundle: .module)
@@ -136,9 +134,9 @@ public struct MilitarySymbolPicker: View {
             }
         }
         .navigationTitle(symbol.entity.name + " - " + symbol.entityType.name)
-        #if os(iOS)
+#if os(iOS)
         .navigationBarTitleDisplayMode(.inline)
-        #endif
+#endif
     }
     
     private var searchFieldPlacement: SearchFieldPlacement {
