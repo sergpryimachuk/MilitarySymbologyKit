@@ -16,18 +16,19 @@ public extension [MilitarySymbol] {
             dimention.entities.forEach { entity in
                 entity.types.forEach { entityType in
                     entityType.subtypes.forEach { entitySubtype in
-                        result.append(MilitarySymbol(
-                            context: initialValue.context,
-                            standardIdentity: initialValue.standardIdentity,
-                            dimention: dimention,
-                            status: initialValue.status,
-                            hqtfd: initialValue.hqtfd,
-                            amplifier: initialValue.amplifier,
-                            descriptor: initialValue.descriptor,
-                            entity: entity,
-                            entityType: entityType,
-                            entitySubtype: entitySubtype
-                        )
+                        result.append(
+                            MilitarySymbol(
+                                context: initialValue.context,
+                                standardIdentity: initialValue.standardIdentity,
+                                dimention: dimention,
+                                status: initialValue.status,
+                                hqtfd: initialValue.hqtfd,
+                                amplifier: initialValue.amplifier,
+                                descriptor: initialValue.descriptor,
+                                entity: entity,
+                                entityType: entityType,
+                                entitySubtype: entitySubtype
+                            )
                         )
                     }
                 }
@@ -36,7 +37,9 @@ public extension [MilitarySymbol] {
 
         return result
     }
-
+    
+    /// Filters self accoring to search text.
+    /// Filters by dimention, entity, enitityType and subtype.
     func filtered(searchText: String) -> [MilitarySymbol] {
         if self.isEmpty {
             self
