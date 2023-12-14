@@ -5,7 +5,7 @@
 
 > [!IMPORTANT]
 >
-> This library in active development, some changes may apply.
+> This library is in active development, some changes may apply.
 
 ## About 
 
