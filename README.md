@@ -3,17 +3,17 @@
 </p>
 <h1 align="center">MilitarySymbologyKit</h1>
 
+[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
+
 > [!IMPORTANT]
 >
-> This library in active development, some changes may apply.
+> This library is in active development, some changes may apply.
 
 ## About 
 
 MilitarySymbologyKit helps you create military symbols, generate their SIDC codes and display them in SwiftUI.
 
-It encapsulates Joint [Military Symbology Markup Language (JMSML)](https://github.com/Esri/joint-military-symbology-xml) in native Swift enums and structs. This enables type safety and easier transaction via Xcode String Catalog.
-
-Currently, the project in active development and changes may apply.
+It encapsulates [Joint Military Symbology Markup Language (JMSML)](https://github.com/Esri/joint-military-symbology-xml) in native Swift enums and structs. This enables type safety and easier transaction via Xcode String Catalog.
 
 ## Installation
 
