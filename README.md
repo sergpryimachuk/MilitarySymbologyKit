@@ -13,8 +13,6 @@ MilitarySymbologyKit helps you create military symbols, generate their SIDC code
 
 It encapsulates [Joint Military Symbology Markup Language (JMSML)](https://github.com/Esri/joint-military-symbology-xml) in native Swift enums and structs. This enables type safety and easier transaction via Xcode String Catalog.
 
-Currently, the project in active development and changes may apply.
-
 ## Installation
 
 MilitarySymbologyKit can be installed with the Swift Package Manager:
