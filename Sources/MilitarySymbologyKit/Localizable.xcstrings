@@ -2443,7 +2443,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вимірювання"
+            "value" : "Простір"
           }
         }
       }
@@ -8616,7 +8616,14 @@
       }
     },
     "Reset to default value" : {
-
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скидання до значення за замовчуванням"
+          }
+        }
+      }
     },
     "Residential Fire" : {
       "comment" : "Fire Event Entity Type",
@@ -9170,7 +9177,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Виберіть розмір"
+            "value" : "Виберіть простір"
           }
         }
       }
@@ -10348,7 +10355,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Оперативная группа"
+            "value" : "Оперативна группа"
           }
         }
       }
