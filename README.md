@@ -1,7 +1,11 @@
 <p align="center">
   <img src="https://github.com/sergpryimachuk/MilitarySymbologyKit/blob/bbcc9f42ae96827fe833dbd224e03dad6530b7aa/Media/Icon.svg" width="100"/>
 </p>
-# MilitarySymbologyKit (work in progress)
+# MilitarySymbologyKit
+
+> [!IMPORTANT]
+>
+> This library in active development, some changes may apply.
 
 ## About 
 
@@ -48,7 +52,7 @@ let symbol = MilitarySymbol(
 )
 ```
 
-3. Initialise with one, a valid SIDC code:
+3. Initialise one with a valid SIDC code:
 
 ```swift
 let symbol = try? MilitarySymbol(sidc: "10031004121211000000")
@@ -64,7 +68,7 @@ For each initialisation method, you can specify two additional options:
 All source files for rendering symbols are in another dependency, [MilitarySymbologyAssets](https://github.com/sergpryimachuk/MilitarySymbologyAssets), which holds all the needed `svg` files. 
 
 > [!WARNING]  
-> Since we're using Assets Catalog with **3790** `svg` single scale images with preserving vector data, initial Xcode build might take some time [^1]. Ones all files have been cached the builds will be as usual.
+> Since we're using Asset Catalog with **3790** `svg` single scale images with preserving vector data, initial Xcode build might take some time [^1]. Ones all files have been cached the builds will be as usual.
 >
 > This is the main reason we keep MilitarySymbologyAssets separate - changes in MilitarySymbologyKit won't trigger re-compiling the Asset Catalog.
 
