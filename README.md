@@ -3,6 +3,8 @@
 </p>
 <h1 align="center">MilitarySymbologyKit</h1>
 
+[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine/)
+
 > [!IMPORTANT]
 >
 > This library is in active development, some changes may apply.
