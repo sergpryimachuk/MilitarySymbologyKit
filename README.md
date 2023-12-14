@@ -41,7 +41,7 @@ let symbol = MilitarySymbol()
 let symbol = MilitarySymbol(
     context: .reality,
     standardIdentity: .friend,
-    dimention: .landUnits,
+    dimension: .landUnits,
     status: .present,
     hqtfd: .taskForce,
     amplifier: .echelonBrigadeBelow,
