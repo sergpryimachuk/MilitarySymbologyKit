@@ -17,10 +17,10 @@ public struct AnyEntity: Entity, Hashable, Identifiable {
 }
 
 public extension AnyEntity {
-    init<T: Entity>(_ descriptor: T) {
-        id = descriptor.id
-        name = descriptor.name
-        types = descriptor.types
+    init<T: Entity>(_ entity: T) {
+        id = entity.id
+        name = entity.name
+        types = entity.types
     }
 }
 

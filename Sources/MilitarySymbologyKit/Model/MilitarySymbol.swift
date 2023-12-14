@@ -8,9 +8,9 @@ public struct MilitarySymbol: Identifiable, Hashable {
     public let version: String = "01"
     public var context: Context = .reality
     public var standardIdentity: StandardIdentity = .unknown
-    public var dimention: Dimension = .landUnits {
+    public var dimension: Dimension = .landUnits {
         didSet {
-            if let first = dimention.entities.first {
+            if let first = dimension.entities.first {
                 entity = first
             } else {
                 entity = .none
@@ -62,7 +62,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
         version
             + context.id
             + standardIdentity.id
-            + dimention.id
+            + dimension.id
             + status.id
             + hqtfd.id
             + amplifier.id

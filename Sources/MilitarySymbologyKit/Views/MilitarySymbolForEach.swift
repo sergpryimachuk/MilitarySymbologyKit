@@ -34,7 +34,7 @@ public struct MilitarySymbolForEach: View {
                         if isEntityTypeNone
                             && isEntitySubtypeNone
                         {
-                            Text(symbol.dimention.name)
+                            Text(symbol.dimension.name)
                             Text(symbol.entity.name)
                         }
 

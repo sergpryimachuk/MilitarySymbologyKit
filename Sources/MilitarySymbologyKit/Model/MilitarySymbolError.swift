@@ -8,7 +8,7 @@ public enum MilitarySymbolError: Error {
     case sidcIsNot20
     case contextParcingFailed
     case standardIdentityParcingFailed
-    case dimentionParcingFailed
+    case dimensionParcingFailed
     case statusParcingFailed
     case hqtfdParcingFailed
     case amplifierParcingFailed
@@ -27,7 +27,7 @@ extension MilitarySymbolError: LocalizedError {
             String(localized: "Wrong symbol context.", bundle: .module, comment: "Military Symbol init from SIDC Error")
         case .standardIdentityParcingFailed:
             String(localized: "Wrong symbol standard identity.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .dimentionParcingFailed:
+        case .dimensionParcingFailed:
             String(localized: "Wrong symbol set.", bundle: .module, comment: "Military Symbol init from SIDC Error")
         case .statusParcingFailed:
             String(localized: "Wrong symbol status.", bundle: .module, comment: "Military Symbol init from SIDC Error")

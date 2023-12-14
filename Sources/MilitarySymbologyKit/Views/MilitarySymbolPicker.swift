@@ -44,12 +44,12 @@ public struct MilitarySymbolPicker: View {
                     Text("Standard Identity", bundle: .module)
                 }
 
-                Picker(selection: $symbol.dimention) {
+                Picker(selection: $symbol.dimension) {
                     ForEach(Dimension.allCases) { dimension in
                         Text(dimension.name).tag(dimension)
                     }
                 } label: {
-                    Text("Dimention", bundle: .module)
+                    Text("Dimension", bundle: .module)
                 }
 
                 Picker(selection: $symbol.status) {
@@ -85,7 +85,7 @@ public struct MilitarySymbolPicker: View {
                 }
 
                 Picker(selection: $symbol.entity) {
-                    ForEach(symbol.dimention.entities) { entity in
+                    ForEach(symbol.dimension.entities) { entity in
                         Text(entity.name).tag(entity)
                     }
                 } label: {

@@ -10,7 +10,7 @@ import SwiftUI
 
 extension MilitarySymbol: Comparable {
     public static func < (lhs: MilitarySymbol, rhs: MilitarySymbol) -> Bool {
-        if lhs.dimention.id == rhs.dimention.id {
+        if lhs.dimension.id == rhs.dimension.id {
             if lhs.entity.id == rhs.entity.id {
                 if lhs.entityType.id == rhs.entityType.id {
                     return lhs.entitySubtype.id > rhs.entitySubtype.id
@@ -22,7 +22,7 @@ extension MilitarySymbol: Comparable {
             return lhs.entity.id < rhs.entity.id
         }
 
-        return lhs.dimention.id < rhs.dimention.id
+        return lhs.dimension.id < rhs.dimension.id
     }
 }
 
@@ -34,7 +34,7 @@ public extension MilitarySymbol {
     init(isAlternateStatusAmplifiers: Bool = true) {
         context = .reality
         standardIdentity = .pending
-        dimention = .landUnits
+        dimension = .landUnits
         status = .present
         hqtfd = .none
         amplifier = .none
@@ -64,11 +64,11 @@ public extension MilitarySymbol {
             }
             self.standardIdentity = standardIdentity
 
-            guard let dimention = Dimension(rawValue: sidc[4] + sidc[5]) else {
+            guard let dimension = Dimension(rawValue: sidc[4] + sidc[5]) else {
                 print("Dimension")
-                throw MilitarySymbolError.dimentionParcingFailed
+                throw MilitarySymbolError.dimensionParcingFailed
             }
-            self.dimention = dimention
+            self.dimension = dimension
 
             guard let status = Status(rawValue: sidc[6]) else {
                 print("Status")
@@ -95,7 +95,7 @@ public extension MilitarySymbol {
             self.descriptor = descriptor
 
             let entityDigits: String = sidc[10] + sidc[11]
-            guard let entity = dimention.entities.first(where: { $0.id == entityDigits }) else {
+            guard let entity = dimension.entities.first(where: { $0.id == entityDigits }) else {
                 print("Entity")
                 throw MilitarySymbolError.entityParcingFailed
             }
@@ -123,7 +123,7 @@ public extension MilitarySymbol {
     init(
         context: Context,
         standardIdentity: StandardIdentity,
-        dimention: Dimension,
+        dimension: Dimension,
         status: Status,
         hqtfd: HQTFD,
         amplifier: Amplifier,
@@ -135,7 +135,7 @@ public extension MilitarySymbol {
     ) {
         self.context = context
         self.standardIdentity = standardIdentity
-        self.dimention = dimention
+        self.dimension = dimension
         self.status = status
         self.hqtfd = hqtfd
         self.amplifier = amplifier
@@ -155,7 +155,7 @@ public extension MilitarySymbol {
 
     /// **Uses SIDC positions 3-7**, with an underscore between the first digit in the name and the last digit in the name. Purple filled frames for Civilian units, equipment, and installations have a ‘c’ at the end of the file name.
     var frameAssetName: String? {
-        guard dimention != .cyberspace else {
+        guard dimension != .cyberspace else {
             return nil
         }
 
@@ -181,8 +181,8 @@ public extension MilitarySymbol {
             }
         }
 
-        var dimentionDigit: String {
-            switch dimention {
+        var dimensionDigit: String {
+            switch dimension {
             case .airMissile: // .signalsIntelligenceAir:
                 Dimension.air.id
             case .spaceMissile: // .signalsIntelligenceSpace:
@@ -192,7 +192,7 @@ public extension MilitarySymbol {
             case .mineWarfare: // .signalsIntelligenceSubsurface:
                 Dimension.seaSubsurface.id
             default:
-                dimention.id
+                dimension.id
             }
         }
 
@@ -206,7 +206,7 @@ public extension MilitarySymbol {
         let result = context.id
             + "_"
             + standardIdentityDigit
-            + dimentionDigit
+            + dimensionDigit
             + "_"
             + statusDigit
 
@@ -237,13 +237,13 @@ public extension MilitarySymbol {
 
     // MARK: - HQTFD
 
-    /// Uses SIDC **positions 4-6 (StandardIdentity-Dimention)** and position **8 (hqtfd)**.
+    /// Uses SIDC **positions 4-6 (StandardIdentity-Dimension)** and position **8 (hqtfd)**.
     var hqtfdAssetName: String? {
         if hqtfd == .none {
             return nil
         } else {
-            var dimentionDigit: String {
-                switch dimention {
+            var dimensionDigit: String {
+                switch dimension {
                 case .airMissile: // .signalsIntelligenceAir:
                     Dimension.air.id
                 case .spaceMissile: // .signalsIntelligenceSpace:
@@ -253,11 +253,11 @@ public extension MilitarySymbol {
                 case .mineWarfare: // .signalsIntelligenceSubsurface:
                     Dimension.seaSubsurface.id
                 default:
-                    dimention.id
+                    dimension.id
                 }
             }
 
-            let result = standardIdentity.assetDigit + dimentionDigit + hqtfd.id
+            let result = standardIdentity.assetDigit + dimensionDigit + hqtfd.id
 
             Logger.militarySymbol.info("Made hqtfdAssetName: \(result)")
 
@@ -275,7 +275,7 @@ public extension MilitarySymbol {
             default:
                 return Context.reality.id
                     + standardIdentity.assetDigit
-                    + dimention.id
+                    + dimension.id
                     + status.id
                     + "2"
             }
@@ -297,7 +297,7 @@ public extension MilitarySymbol {
         if AmplifierEntitySubtype.allCases.dropFirst()
             .map({ $0.id }).contains(entitySubtype.id)
         {
-            switch dimention {
+            switch dimension {
             case .landUnits:
 
                 let standardIdentityDigits: String = switch standardIdentity {
@@ -341,7 +341,7 @@ public extension MilitarySymbol {
                      AnyEntityType(LandUnitEntity.SustainmentEntityType.usSupplyClassIX),
                      AnyEntityType(LandUnitEntity.SustainmentEntityType.usSupplyClassX),
                      AnyEntityType(LandUnitEntity.SustainmentEntityType.supply):
-                    let result = dimention.id
+                    let result = dimension.id
                         + entity.id
                         + entityType.id
                         + "00_"
@@ -350,7 +350,7 @@ public extension MilitarySymbol {
                     return result
 
                 case AnyEntityType(LandUnitEntity.FiresEntityType.fieldArtillery):
-                    let result = dimention.id
+                    let result = dimension.id
                         + entity.id
                         + entityType.id
                         + "00"
@@ -358,7 +358,7 @@ public extension MilitarySymbol {
                     Logger.militarySymbol.info("Made mainIconAssetName WITH AmplifierEntitySubtype: \(result)")
                     return result
                 default:
-                    let result = dimention.id
+                    let result = dimension.id
                         + entity.id
                         + entityType.id
                         + "00"
@@ -366,7 +366,7 @@ public extension MilitarySymbol {
                     return result
                 }
             default:
-                let result = dimention.id
+                let result = dimension.id
                     + entity.id
                     + entityType.id
                     + "00"
@@ -374,7 +374,7 @@ public extension MilitarySymbol {
                 return result
             }
         } else {
-            let result = dimention.id
+            let result = dimension.id
                 + entity.id
                 + entityType.id
                 + entitySubtype.id
@@ -391,7 +391,7 @@ public extension MilitarySymbol {
     /// _2 = Neutral
     /// _3 = Hostile
     var fullFrameMainIconAssetName: String {
-        if dimention == .landUnits
+        if dimension == .landUnits
             && AmplifierEntitySubtype.allCases.dropFirst()
             .map({ $0.id }).contains(entitySubtype.id)
         {
@@ -406,7 +406,7 @@ public extension MilitarySymbol {
                 context == .exercise ? "1" : "3"
             }
 
-            let result = dimention.id
+            let result = dimension.id
                 + "xxxx"
                 + (entitySubtype.id)
                 + "_"
@@ -427,7 +427,7 @@ public extension MilitarySymbol {
                 context == .exercise ? "1" : "3"
             }
 
-            let result = dimention.id
+            let result = dimension.id
                 + entity.id
                 + entityType.id
                 + entitySubtype.id
@@ -503,8 +503,8 @@ public extension MilitarySymbol {
             return []
         } else {
             var result: [MilitarySymbol] = []
-            Dimension.allCases.forEach { dimention in
-                dimention.entities.forEach { entity in
+            Dimension.allCases.forEach { dimension in
+                dimension.entities.forEach { entity in
                     entity.types.forEach { entityType in
                         entityType.subtypes.forEach { entitySubtype in
                             if entity.name.localizedStandardContains(text)
@@ -516,7 +516,7 @@ public extension MilitarySymbol {
                                         /// Version with current symbol properties.
                                         MilitarySymbol(context: currentSymbol.context,
                                                        standardIdentity: currentSymbol.standardIdentity,
-                                                       dimention: dimention,
+                                                       dimension: dimension,
                                                        status: currentSymbol.status,
                                                        hqtfd: currentSymbol.hqtfd,
                                                        amplifier: currentSymbol.amplifier,
@@ -530,7 +530,7 @@ public extension MilitarySymbol {
                                 } else {
                                     result.append(
                                         /// Version with default symbol properties.
-                                        MilitarySymbol(dimention: dimention,
+                                        MilitarySymbol(dimension: dimension,
                                                        entity: entity,
                                                        entityType: entityType,
                                                        entitySubtype: entitySubtype)

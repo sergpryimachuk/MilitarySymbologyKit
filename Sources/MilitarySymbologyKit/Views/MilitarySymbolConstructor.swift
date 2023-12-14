@@ -46,20 +46,20 @@ public struct MilitarySymbolConstructor: View {
                 Text("Standard Identity", bundle: .module)
             }
 
-            // MARK: - Dimention
+            // MARK: - Dimension
 
             Section {
                 NavigationLink {
-                    DimentionSelector(symbol: $symbol)
+                    DimensionSelector(symbol: $symbol)
                 } label: {
                     LabeledContent {
-                        Text(symbol.dimention.name)
+                        Text(symbol.dimension.name)
                     } label: {
-                        Text("Select dimention", bundle: .module)
+                        Text("Select dimension", bundle: .module)
                     }
                 }
             } header: {
-                Text("Dimention", bundle: .module)
+                Text("Dimension", bundle: .module)
             }
 
             // MARK: - Status
@@ -170,7 +170,7 @@ public struct ContextSelector: View {
             let illustrationSymbol = MilitarySymbol(
                 context: context,
                 standardIdentity: symbol.standardIdentity,
-                dimention: symbol.dimention,
+                dimension: symbol.dimension,
                 status: symbol.status,
                 hqtfd: symbol.hqtfd,
                 amplifier: symbol.amplifier,
@@ -227,7 +227,7 @@ public struct StandardIdentitySelector: View {
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
                 standardIdentity: standardIdentity,
-                dimention: symbol.dimention,
+                dimension: symbol.dimension,
                 status: symbol.status,
                 hqtfd: symbol.hqtfd,
                 amplifier: symbol.amplifier,
@@ -270,7 +270,7 @@ public struct StandardIdentitySelector: View {
     }
 }
 
-public struct DimentionSelector: View {
+public struct DimensionSelector: View {
     @Environment(\.dismiss) private var dismiss
 
     @Binding var symbol: MilitarySymbol
@@ -280,11 +280,11 @@ public struct DimentionSelector: View {
     }
 
     public var body: some View {
-        List(Dimension.allCases) { dimention in
+        List(Dimension.allCases) { dimension in
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
                 standardIdentity: symbol.standardIdentity,
-                dimention: dimention,
+                dimension: dimension,
                 status: symbol.status,
                 hqtfd: symbol.hqtfd,
                 amplifier: symbol.amplifier,
@@ -297,7 +297,7 @@ public struct DimentionSelector: View {
             )
 
             Button {
-                symbol.dimention = dimention
+                symbol.dimension = dimension
                 dismiss()
             } label: {
                 HStack(spacing: 12) {
@@ -310,12 +310,12 @@ public struct DimentionSelector: View {
                             .padding(-30)
                     }
                     Divider()
-                    Text(dimention.name)
+                    Text(dimension.name)
                         .multilineTextAlignment(.leading)
                         .lineLimit(3)
 
                     Spacer()
-                    if symbol.dimention == dimention {
+                    if symbol.dimension == dimension {
                         Image(systemName: "checkmark")
                             .foregroundStyle(Color.accentColor)
                             .font(.title)
@@ -323,7 +323,7 @@ public struct DimentionSelector: View {
                 }
             }.tint(.primary)
         }
-        .navigationTitle(Text("Dimention", bundle: .module))
+        .navigationTitle(Text("Dimension", bundle: .module))
     }
 }
 
@@ -341,7 +341,7 @@ public struct StatusSelector: View {
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
                 standardIdentity: symbol.standardIdentity,
-                dimention: symbol.dimention,
+                dimension: symbol.dimension,
                 status: status,
                 hqtfd: symbol.hqtfd,
                 amplifier: symbol.amplifier,
@@ -398,7 +398,7 @@ public struct HQTFDSelector: View {
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
                 standardIdentity: symbol.standardIdentity,
-                dimention: symbol.dimention,
+                dimension: symbol.dimension,
                 status: symbol.status,
                 hqtfd: hqtfd,
                 amplifier: symbol.amplifier,
@@ -455,7 +455,7 @@ public struct AmplifierSelector: View {
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
                 standardIdentity: symbol.standardIdentity,
-                dimention: symbol.dimention,
+                dimension: symbol.dimension,
                 status: symbol.status,
                 hqtfd: symbol.hqtfd,
                 amplifier: amplifier,
@@ -512,7 +512,7 @@ public struct DescriptorSelector: View {
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
                 standardIdentity: symbol.standardIdentity,
-                dimention: symbol.dimention,
+                dimension: symbol.dimension,
                 status: symbol.status,
                 hqtfd: symbol.hqtfd,
                 amplifier: symbol.amplifier,
@@ -565,11 +565,11 @@ public struct EntitySelector: View {
     }
 
     public var body: some View {
-        List(symbol.dimention.entities) { entity in
+        List(symbol.dimension.entities) { entity in
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
                 standardIdentity: symbol.standardIdentity,
-                dimention: symbol.dimention,
+                dimension: symbol.dimension,
                 status: symbol.status,
                 hqtfd: symbol.hqtfd,
                 amplifier: symbol.amplifier,
@@ -626,7 +626,7 @@ public struct EntityTypeSelector: View {
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
                 standardIdentity: symbol.standardIdentity,
-                dimention: symbol.dimention,
+                dimension: symbol.dimension,
                 status: symbol.status,
                 hqtfd: symbol.hqtfd,
                 amplifier: symbol.amplifier,
@@ -684,7 +684,7 @@ public struct EntitySubtypeSelector: View {
             let illustrationSymbol = MilitarySymbol(
                 context: symbol.context,
                 standardIdentity: symbol.standardIdentity,
-                dimention: symbol.dimention,
+                dimension: symbol.dimension,
                 status: symbol.status,
                 hqtfd: symbol.hqtfd,
                 amplifier: symbol.amplifier,

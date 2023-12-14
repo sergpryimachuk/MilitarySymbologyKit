@@ -244,7 +244,7 @@
       }
     },
     "Airship" : {
-      "comment" : "Military Entity Type\nCivilian Entity Type",
+      "comment" : "Civilian Entity Type\nMilitary Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -343,7 +343,7 @@
       }
     },
     "Amphibious" : {
-      "comment" : "Equipment mobility on water amplifier descriptor\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype\nMovement and Maneuver Entity Type\nInfantry Entity Subtype",
+      "comment" : "Movement and Maneuver Entity Type\nEquipment mobility on water amplifier descriptor\nInfantry Entity Subtype\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1265,7 +1265,7 @@
       }
     },
     "Border Patrol" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1309,7 +1309,7 @@
       }
     },
     "Bridge" : {
-      "comment" : "Bridge Subtype\nEngineer Vehicles and Equipment Entity Type",
+      "comment" : "Engineer Vehicles and Equipment Entity Type\nBridge Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1639,7 +1639,7 @@
       }
     },
     "Civilian" : {
-      "comment" : "Sea Subsurface Entity\nSea Surface Entity\nAir Unit Entity",
+      "comment" : "Sea Surface Entity\nSea Subsurface Entity\nAir Unit Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1705,7 +1705,7 @@
       }
     },
     "Coast Guard" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2231,7 +2231,7 @@
       }
     },
     "Customs Service" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2363,7 +2363,7 @@
       }
     },
     "Department of Justice (DOJ)" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2438,7 +2438,18 @@
         }
       }
     },
+    "Dimension" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вимірювання"
+          }
+        }
+      }
+    },
     "Dimention" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2691,7 +2702,7 @@
       }
     },
     "Drug Enforcement Administration (DEA)" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2735,7 +2746,7 @@
       }
     },
     "Dust or Sand" : {
-      "comment" : "Weather Symbols Entity Type\nBounded Areas of Weather Entity Type",
+      "comment" : "Bounded Areas of Weather Entity Type\nWeather Symbols Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2955,7 +2966,7 @@
       }
     },
     "Emergency Medical Operation" : {
-      "comment" : "Other Equipment Entity Type\nOperation Entity Type\nEmergency Operation Subtype",
+      "comment" : "Emergency Operation Subtype\nOperation Entity Type\nOther Equipment Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2966,7 +2977,7 @@
       }
     },
     "Emergency Operation" : {
-      "comment" : "Land Equipment Entity\nOperation Entity Type\nInstallation Entity Type\nLand Unit Entity",
+      "comment" : "Installation Entity Type\nLand Equipment Entity\nOperation Entity Type\nLand Unit Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3403,7 +3414,7 @@
       }
     },
     "Federal Bureau of Investigation (FBI)" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3634,7 +3645,7 @@
       }
     },
     "Fire Fighting/Fire Protection" : {
-      "comment" : "Protection Entity Type\nEmergency Operation Entity Type",
+      "comment" : "Emergency Operation Entity Type\nProtection Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3667,7 +3678,7 @@
       }
     },
     "Fire Station" : {
-      "comment" : "Firefighting Operation Entity Subtype\nEmergency Operation Subtype",
+      "comment" : "Emergency Operation Subtype\nFirefighting Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3843,7 +3854,7 @@
       }
     },
     "Fog" : {
-      "comment" : "Weather Symbols Entity Type\nBounded Areas of Weather Entity Type",
+      "comment" : "Bounded Areas of Weather Entity Type\nWeather Symbols Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4030,7 +4041,7 @@
       }
     },
     "Fused Track" : {
-      "comment" : "Sea Subsurface Entity\nSea Surface Entity",
+      "comment" : "Sea Surface Entity\nSea Subsurface Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4118,7 +4129,7 @@
       }
     },
     "Government" : {
-      "comment" : "Fixed Wing Entity Subtype\nDevice Domain Entity Type",
+      "comment" : "Device Domain Entity Type\nFixed Wing Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4459,7 +4470,7 @@
       }
     },
     "Hospital Ship" : {
-      "comment" : "Auxiliary Ship Entity Subtype\nMerchant Ship Entity Subtype",
+      "comment" : "Merchant Ship Entity Subtype\nAuxiliary Ship Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4813,7 +4824,7 @@
       }
     },
     "Infection" : {
-      "comment" : "Cyberspace Entity Type\nEffect Entity Type",
+      "comment" : "Effect Entity Type\nCyberspace Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4978,7 +4989,7 @@
       }
     },
     "Intermittent Heavy" : {
-      "comment" : "Rain Entity Subtype\nSnow Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4989,7 +5000,7 @@
       }
     },
     "Intermittent Heavy/Continuous Heavy" : {
-      "comment" : "Rain Entity Subtype\nSnow Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5000,7 +5011,7 @@
       }
     },
     "Intermittent Light" : {
-      "comment" : "Rain Entity Subtype\nSnow Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5022,7 +5033,7 @@
       }
     },
     "Intermittent Moderate" : {
-      "comment" : "Rain Entity Subtype\nSnow Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5033,7 +5044,7 @@
       }
     },
     "Intermittent Moderate/Continuous Moderate" : {
-      "comment" : "Rain Entity Subtype\nSnow Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5044,7 +5055,7 @@
       }
     },
     "Internal Security Force" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5461,7 +5472,7 @@
       }
     },
     "Law Enforcement" : {
-      "comment" : "Land Equipment Entity\nInstallation Entity Type\nLand Unit Entity",
+      "comment" : "Installation Entity Type\nLand Equipment Entity\nLand Unit Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5538,7 +5549,7 @@
       }
     },
     "Light" : {
-      "comment" : "Air Defense Missile Launcher Entity Subtype\nLight/Heavy Entity Subtype\nTurbulence Entity Type\nLight/Medium/Heavy Entity Subtype\nLight/Medium/Severe Entity Subtype\nRain and Snow Mixed Entity Subtype",
+      "comment" : "Rain and Snow Mixed Entity Subtype\nAir Defense Missile Launcher Entity Subtype\nTurbulence Entity Type\nLight/Medium/Severe Entity Subtype\nLight/Heavy Entity Subtype\nLight/Medium/Heavy Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5615,7 +5626,7 @@
       }
     },
     "Lighter Than Air" : {
-      "comment" : "Military Entity Type\nCivilian Entity Type",
+      "comment" : "Civilian Entity Type\nMilitary Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5846,7 +5857,7 @@
       }
     },
     "Manual Track" : {
-      "comment" : "Sea Subsurface Entity\nLand Equipment Entity\nSea Surface Entity\nAir Unit Entity",
+      "comment" : "Sea Surface Entity\nLand Equipment Entity\nSea Subsurface Entity\nAir Unit Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5945,7 +5956,7 @@
       }
     },
     "Medical" : {
-      "comment" : "Utility Vehicles Entity Type\nSustainment Entity Type\nMedical Infrastructure Subtype",
+      "comment" : "Sustainment Entity Type\nMedical Infrastructure Subtype\nUtility Vehicles Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6033,7 +6044,7 @@
       }
     },
     "Medium" : {
-      "comment" : "Air Defense Missile Launcher Entity Subtype\nLight/Medium/Heavy Entity Subtype\nLight/Medium/Severe Entity Subtype",
+      "comment" : "Air Defense Missile Launcher Entity Subtype\nLight/Medium/Severe Entity Subtype\nLight/Medium/Heavy Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6209,7 +6220,7 @@
       }
     },
     "Military" : {
-      "comment" : "Sea Subsurface Entity\nSea Surface Entity\nAir Unit Entity",
+      "comment" : "Sea Surface Entity\nSea Subsurface Entity\nAir Unit Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6594,7 +6605,7 @@
       }
     },
     "Missile" : {
-      "comment" : "Fire Support Entity Type\nAir Defense Entity Subtype",
+      "comment" : "Air Defense Entity Subtype\nFire Support Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6682,7 +6693,7 @@
       }
     },
     "Moderate/Heavy" : {
-      "comment" : "Entity Subtype\nRain and Snow Mixed Entity Subtype",
+      "comment" : "Rain and Snow Mixed Entity Subtype\nEntity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6781,7 +6792,7 @@
       }
     },
     "Motorized" : {
-      "comment" : "Antitank/Antiarmor Entity Subtype\nCBRND Defense Entity Subtype\nInfantry Entity Subtype\nReconnaissance/Cavalry/Scout Entity Subtype\nEngineer Entity Subtype",
+      "comment" : "CBRND Defense Entity Subtype\nAntitank/Antiarmor Entity Subtype\nInfantry Entity Subtype\nEngineer Entity Subtype\nReconnaissance/Cavalry/Scout Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7144,7 +7155,7 @@
       }
     },
     "Network Outage" : {
-      "comment" : "Health and Status Entity Type\nEffect Entity Type",
+      "comment" : "Effect Entity Type\nHealth and Status Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7341,7 +7352,7 @@
       }
     },
     "None" : {
-      "comment" : "Fire Support Entity Type\nCivil Disturbance Entity Type\nNon-Mine Mine-Like Object (NMLO) - General Entity Type\nSea Mine Decoy Entity Type\nVehicle Entity Type\nMine Clearing Equipment Entity Subtype\nSignal Entity Subtype\nAmplifier Entity Subtype\nMine-Like Contact Entity Type\nNegative Reacquisition - General Entity Type\nMine-Like Echo (MILEC) - General Entity Type\nMILCO General Entity Subtype\nExplosion Entity Subtype\nFixed Wing Entity Subtype\nArmored Vehicle Entity Subtype\nLaw Enforcement Subtype\nNot selected.\nFog Entity Subtype\nGeologic Entity Subtype\nCommand and Control Entity Type",
+      "comment" : "Law Enforcement Subtype\nMine-Like Echo (MILEC) - General Entity Type\nFire Support Entity Type\nExplosion Entity Subtype\nMine-Like Contact Entity Type\nFog Entity Subtype\nNon-Mine Mine-Like Object (NMLO) - General Entity Type\nFixed Wing Entity Subtype\nSignal Entity Subtype\nArmored Vehicle Entity Subtype\nCivil Disturbance Entity Type\nMine Clearing Equipment Entity Subtype\nNot selected.\nSea Mine Decoy Entity Type\nMILCO General Entity Subtype\nAmplifier Entity Subtype\nGeologic Entity Subtype\nVehicle Entity Type\nNegative Reacquisition - General Entity Type\nCommand and Control Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7571,7 +7582,7 @@
       }
     },
     "Operator-Defined Freeform" : {
-      "comment" : "Isopleths Entity Type\nBounded Areas of Weather Entity Type",
+      "comment" : "Bounded Areas of Weather Entity Type\nIsopleths Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7967,7 +7978,7 @@
       }
     },
     "Police" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8176,7 +8187,7 @@
       }
     },
     "Prison" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8330,7 +8341,7 @@
       }
     },
     "Rail" : {
-      "comment" : "Transportation Incident Entity Type\nEquipment mobility on land amplifier descriptor",
+      "comment" : "Equipment mobility on land amplifier descriptor\nTransportation Incident Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8429,7 +8440,7 @@
       }
     },
     "Reconnaissance" : {
-      "comment" : "Fixed Wing Entity Subtype\nCBRND Defense Entity Subtype\nEngineer Entity Subtype",
+      "comment" : "CBRND Defense Entity Subtype\nFixed Wing Entity Subtype\nEngineer Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8473,7 +8484,7 @@
       }
     },
     "Reconnaissance/Cavalry/Scout" : {
-      "comment" : "Armor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype\nMovement and Maneuver Entity Type",
+      "comment" : "Movement and Maneuver Entity Type\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8663,7 +8674,7 @@
       }
     },
     "Rigid-Hull Inflatable Boat (RHIB)" : {
-      "comment" : "Speedboat Entity Subtype\nLeisure Craft Motorized Entity Subtype",
+      "comment" : "Leisure Craft Motorized Entity Subtype\nSpeedboat Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -9154,7 +9165,18 @@
         }
       }
     },
+    "Select dimension" : {
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Виберіть розмір"
+          }
+        }
+      }
+    },
     "Select dimention" : {
+      "extractionState" : "stale",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -9269,7 +9291,7 @@
       }
     },
     "Sensor" : {
-      "comment" : "Sensors Entity Type\nIntelligence Entity Type",
+      "comment" : "Intelligence Entity Type\nSensors Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -9554,7 +9576,7 @@
       }
     },
     "Smoke" : {
-      "comment" : "Fire Event Entity Type\nWeather Symbols Entity Type",
+      "comment" : "Weather Symbols Entity Type\nFire Event Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -9763,7 +9785,7 @@
       }
     },
     "Speedboat" : {
-      "comment" : "Leisure Craft Motorized Entity Subtype\nMilitary Combatant Entity Type",
+      "comment" : "Military Combatant Entity Type\nLeisure Craft Motorized Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10640,7 +10662,7 @@
       }
     },
     "Towed" : {
-      "comment" : "Mortar Entity Subtype\nEquipment mobility on land amplifier descriptor",
+      "comment" : "Equipment mobility on land amplifier descriptor\nMortar Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10849,7 +10871,7 @@
       }
     },
     "Transportation Security Administration (TSA)" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11014,7 +11036,7 @@
       }
     },
     "Tug, Ocean Going" : {
-      "comment" : "Auxiliary Ship Entity Subtype\nMerchant Ship Entity Subtype",
+      "comment" : "Merchant Ship Entity Subtype\nAuxiliary Ship Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11102,7 +11124,7 @@
       }
     },
     "Unexploded Ordnance" : {
-      "comment" : "Hazard Materials Incident Subtype\nMine Warfare Entity",
+      "comment" : "Mine Warfare Entity\nHazard Materials Incident Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11124,7 +11146,7 @@
       }
     },
     "United States Secret Service (USSS)" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11135,7 +11157,7 @@
       }
     },
     "Unknown" : {
-      "comment" : "Health and Status Entity Type\nStandard identity",
+      "comment" : "Standard identity\nHealth and Status Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11157,7 +11179,7 @@
       }
     },
     "Unmanned Aircraft (UA)/Unmanned Aerial Vehicle (UAV)/Unmanned Aircraft System (UAS)/Remote Piloted Vehicle (RPV)" : {
-      "comment" : "Military Entity Type\nCivilian Entity Type",
+      "comment" : "Civilian Entity Type\nMilitary Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11234,7 +11256,7 @@
       }
     },
     "US Marshals Service" : {
-      "comment" : "Law Enforcement Operation Entity Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Subtype\nLaw Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11376,7 +11398,7 @@
       }
     },
     "Utility Vehicle" : {
-      "comment" : "Utility Vehicles Entity Type\nCivilian Vehicle Entity Type",
+      "comment" : "Civilian Vehicle Entity Type\nUtility Vehicles Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11486,7 +11508,7 @@
       }
     },
     "Volcanic Eruption" : {
-      "comment" : "Geologic Entity Subtype\nWeather Symbols Entity Type",
+      "comment" : "Weather Symbols Entity Type\nGeologic Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11596,7 +11618,7 @@
       }
     },
     "Water" : {
-      "comment" : "Water Supply Infrastructure Subtype\nUtility Vehicles Entity Type\nSustainment Entity Type",
+      "comment" : "Sustainment Entity Type\nWater Supply Infrastructure Subtype\nUtility Vehicles Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
