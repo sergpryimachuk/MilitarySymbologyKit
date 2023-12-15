@@ -131,6 +131,7 @@ public extension MilitarySymbol {
         entity: AnyEntity,
         entityType: AnyEntityType,
         entitySubtype: AnyEntitySubtype,
+        isCivilian: Bool = false,
         isAlternateStatusAmplifiers: Bool = true
     ) {
         self.context = context
@@ -143,7 +144,7 @@ public extension MilitarySymbol {
         self.entity = entity
         self.entityType = entityType
         self.entitySubtype = entitySubtype
-        isCivilian = false
+        self.isCivilian = isCivilian
         self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
     }
 }
