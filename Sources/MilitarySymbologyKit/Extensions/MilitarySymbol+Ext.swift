@@ -46,34 +46,34 @@ public extension MilitarySymbol {
         self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
     }
     
-//    /// Init for custom values.
-//    init(
-//        context: Context,
-//        standardIdentity: StandardIdentity,
-//        dimension: Dimension,
-//        status: Status,
-//        hqtfd: HQTFD,
-//        amplifier: Amplifier,
-//        descriptor: AnyDescriptor,
-//        entity: AnyEntity,
-//        entityType: AnyEntityType,
-//        entitySubtype: AnyEntitySubtype,
-//        isCivilian: Bool = false,
-//        isAlternateStatusAmplifiers: Bool = false
-//    ) {
-//        self.context = context
-//        self.standardIdentity = standardIdentity
-//        self.dimension = dimension
-//        self.status = status
-//        self.hqtfd = hqtfd
-//        self.amplifier = amplifier
-//        self.descriptor = descriptor
-//        self.entity = entity
-//        self.entityType = entityType
-//        self.entitySubtype = entitySubtype
-//        self.isCivilian = isCivilian
-//        self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
-//    }
+    /// Init for custom values.
+    init(
+        context: Context,
+        standardIdentity: StandardIdentity,
+        dimension: Dimension,
+        status: Status,
+        hqtfd: HQTFD,
+        amplifier: Amplifier,
+        descriptor: AnyDescriptor,
+        entity: AnyEntity,
+        entityType: AnyEntityType,
+        entitySubtype: AnyEntitySubtype,
+        isCivilian: Bool = false,
+        isAlternateStatusAmplifiers: Bool = false
+    ) {
+        self.context = context
+        self.standardIdentity = standardIdentity
+        self.dimension = dimension
+        self.status = status
+        self.hqtfd = hqtfd
+        self.amplifier = amplifier
+        self.descriptor = descriptor
+        self.entity = entity
+        self.entityType = entityType
+        self.entitySubtype = entitySubtype
+        self.isCivilian = isCivilian
+        self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
+    }
     
     /// Init from *SIDC* code.
     /// Possible to change Status Amplifiers style.
@@ -491,58 +491,5 @@ public extension MilitarySymbol {
             .frame(width: size)
             .symbolRenderingMode(.hierarchical)
             .foregroundStyle(.orange)
-    }
-}
-
-// MARK: - Filtering
-
-// TODO: Delete this later.
-
-public extension MilitarySymbol {
-    static func searched(text: String, currentSymbol: MilitarySymbol?) -> [MilitarySymbol] {
-        if text.isEmpty {
-            return []
-        } else {
-            var result: [MilitarySymbol] = []
-            Dimension.allCases.forEach { dimension in
-                dimension.entities.forEach { entity in
-                    entity.types.forEach { entityType in
-                        entityType.subtypes.forEach { entitySubtype in
-                            if entity.name.localizedStandardContains(text)
-                                || entityType.name.localizedStandardContains(text)
-                                || entitySubtype.name.localizedStandardContains(text)
-                            {
-                                if let currentSymbol {
-                                    result.append(
-                                        /// Version with current symbol properties.
-                                        MilitarySymbol(context: currentSymbol.context,
-                                                       standardIdentity: currentSymbol.standardIdentity,
-                                                       dimension: dimension,
-                                                       status: currentSymbol.status,
-                                                       hqtfd: currentSymbol.hqtfd,
-                                                       amplifier: currentSymbol.amplifier,
-                                                       descriptor: currentSymbol.descriptor,
-                                                       entity: entity,
-                                                       entityType: entityType,
-                                                       entitySubtype: entitySubtype,
-                                                       isCivilian: currentSymbol.isCivilian,
-                                                       isAlternateStatusAmplifiers: currentSymbol.isAlternateStatusAmplifiers)
-                                    )
-                                } else {
-                                    result.append(
-                                        /// Version with default symbol properties.
-                                        MilitarySymbol(dimension: dimension,
-                                                       entity: entity,
-                                                       entityType: entityType,
-                                                       entitySubtype: entitySubtype)
-                                    )
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            return result
-        }
     }
 }

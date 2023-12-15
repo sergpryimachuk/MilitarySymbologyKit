@@ -72,19 +72,6 @@ public struct MilitarySymbol: Identifiable, Hashable {
             + entitySubtype.id
             + "0000" // Modifiers are not taken into account for now.
     }
-//    
-//    public init() {
-//        self.context = .reality
-//        self.standardIdentity = .unknown
-//        self.dimension = .landUnits
-//        self.status = .present
-//        self.hqtfd = .none
-//        self.amplifier = .none
-//        self.descriptor = .none
-//        self.entity = .none
-//        self.entityType = .none
-//        self.entitySubtype = .none
-//        self.isCivilian = false
-//        self.isAlternateStatusAmplifiers = false
-//    }
+    
+    public init() { }
 }
