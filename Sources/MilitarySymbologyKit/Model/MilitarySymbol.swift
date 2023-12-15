@@ -72,6 +72,7 @@ public struct MilitarySymbol: Identifiable, Hashable {
             + entitySubtype.id
             + "0000" // Modifiers are not taken into account for now.
     }
-    
+   
+    /// Init with default values.
     public init() { }
 }

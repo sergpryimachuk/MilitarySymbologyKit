@@ -45,7 +45,7 @@ public extension MilitarySymbol {
         self.isCivilian = isCivilian
         self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
     }
-    
+
     /// Init for custom values.
     init(
         context: Context,
@@ -74,10 +74,14 @@ public extension MilitarySymbol {
         self.isCivilian = isCivilian
         self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
     }
-    
+
     /// Init from *SIDC* code.
     /// Possible to change Status Amplifiers style.
-    init(sidc: String, isAlternateStatusAmplifiers: Bool = false) throws {
+    init(
+        sidc: String,
+        isAlternateStatusAmplifiers: Bool = false,
+        isCivilian: Bool = false
+    ) throws {
         if sidc.count != 20 {
             throw MilitarySymbolError.sidcIsNot20
         } else {
@@ -144,6 +148,7 @@ public extension MilitarySymbol {
             }
             self.entitySubtype = entitySubtype
 
+            self.isCivilian = isCivilian
             self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
         }
     }
