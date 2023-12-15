@@ -31,7 +31,7 @@ extension MilitarySymbol: Comparable {
 public extension MilitarySymbol {
     /// Init with *default* values.
     /// Possible to change Status Amplifiers style.
-    init(isAlternateStatusAmplifiers: Bool = true) {
+    init(isAlternateStatusAmplifiers: Bool = false, isCivilian: Bool = false) {
         context = .reality
         standardIdentity = .pending
         dimension = .landUnits
@@ -42,10 +42,39 @@ public extension MilitarySymbol {
         entity = .none
         entityType = .none
         entitySubtype = .none
-        isCivilian = false
+        self.isCivilian = isCivilian
         self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
     }
-
+    
+//    /// Init for custom values.
+//    init(
+//        context: Context,
+//        standardIdentity: StandardIdentity,
+//        dimension: Dimension,
+//        status: Status,
+//        hqtfd: HQTFD,
+//        amplifier: Amplifier,
+//        descriptor: AnyDescriptor,
+//        entity: AnyEntity,
+//        entityType: AnyEntityType,
+//        entitySubtype: AnyEntitySubtype,
+//        isCivilian: Bool = false,
+//        isAlternateStatusAmplifiers: Bool = false
+//    ) {
+//        self.context = context
+//        self.standardIdentity = standardIdentity
+//        self.dimension = dimension
+//        self.status = status
+//        self.hqtfd = hqtfd
+//        self.amplifier = amplifier
+//        self.descriptor = descriptor
+//        self.entity = entity
+//        self.entityType = entityType
+//        self.entitySubtype = entitySubtype
+//        self.isCivilian = isCivilian
+//        self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
+//    }
+    
     /// Init from *SIDC* code.
     /// Possible to change Status Amplifiers style.
     init(sidc: String, isAlternateStatusAmplifiers: Bool = false) throws {
@@ -117,34 +146,6 @@ public extension MilitarySymbol {
 
             self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
         }
-    }
-
-    /// Init for custom values.
-    init(
-        context: Context,
-        standardIdentity: StandardIdentity,
-        dimension: Dimension,
-        status: Status,
-        hqtfd: HQTFD,
-        amplifier: Amplifier,
-        descriptor: AnyDescriptor,
-        entity: AnyEntity,
-        entityType: AnyEntityType,
-        entitySubtype: AnyEntitySubtype,
-        isAlternateStatusAmplifiers: Bool = true
-    ) {
-        self.context = context
-        self.standardIdentity = standardIdentity
-        self.dimension = dimension
-        self.status = status
-        self.hqtfd = hqtfd
-        self.amplifier = amplifier
-        self.descriptor = descriptor
-        self.entity = entity
-        self.entityType = entityType
-        self.entitySubtype = entitySubtype
-        self.isCivilian = false
-        self.isAlternateStatusAmplifiers = isAlternateStatusAmplifiers
     }
 }
 
