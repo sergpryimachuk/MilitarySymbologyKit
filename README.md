@@ -13,7 +13,24 @@
 
 MilitarySymbologyKit helps you create military symbols, generate their SIDC codes and display them in SwiftUI.
 
-It encapsulates [Joint Military Symbology Markup Language (JMSML)](https://github.com/Esri/joint-military-symbology-xml) in native Swift enums and structs. This enables type safety and easier transaction via Xcode String Catalog.
+Project is inspired by [Joint military symbology explorer](https://explorer.milsymb.net/#/home). It encapsulates [Joint Military Symbology Markup Language (JMSML)](https://github.com/Esri/joint-military-symbology-xml) in native Swift enums and structs. This enables type safety and easier transaction via Xcode String Catalog.
+
+## Roadmap
+
+- [ ] Implement all data types
+  - [x] Context 
+  - [x]  Standard identity
+  - [x] Dimension (*some dimentions and their entities are skipped for now* [^2])
+  - [x]  Status
+  - [x]  HQTFDummy
+  - [x]  Amplifier
+  - [x]  Entity
+  - [x]  Entity type
+  - [x]  Entity subtype
+  - [ ]  Sector one modifier
+  - [ ]  Sector two modifier
+- [ ] Implement symbol rendering from Asset Catalog
+- [ ] Test other symbol rendering methods to decrease build time
 
 ## Installation
 
@@ -92,3 +109,4 @@ You can customise the size of the icon in `CGFloat` by providing the `CGFloat` s
 You check how we use this package in the UI implementation in Views folder.
 
 [^1]:  On MacBook Pro 14, M1 Pro, with 16 GB RAM, it takes ~6 min.
+[^2]: Such as meteorological and signals, see the code for more details For our use case those are not needed.
