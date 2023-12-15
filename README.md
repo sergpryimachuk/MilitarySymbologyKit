@@ -89,6 +89,6 @@ You can customise the size of the icon in `CGFloat` by providing the `CGFloat` s
 
 ## Examples
 
-You check how we use this package in the UI implementation - [MilitarySymbologyUI](https://github.com/sergpryimachuk/MilitarySymbologyUI.git).
+You check how we use this package in the UI implementation in Views folder.
 
 [^1]:  On MacBook Pro 14, M1 Pro, with 16 GB RAM, it takes ~6 min.
