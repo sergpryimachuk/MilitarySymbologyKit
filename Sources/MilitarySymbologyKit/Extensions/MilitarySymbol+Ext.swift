@@ -124,25 +124,40 @@ public extension MilitarySymbol {
 
             let descriptorDigit = sidc[9]
             guard let descriptor = amplifier.descriptors.first(where: { $0.id == descriptorDigit }) else {
-                throw MilitarySymbolError.descriptorParcingFailed(descriptorDigit)
+                throw MilitarySymbolError.descriptorParcingFailed(
+                    amplifierDigits: amplifierDigit,
+                    wrongDigits: descriptorDigit
+                )
             }
             self.descriptor = descriptor
 
             let entityDigits: String = sidc[10] + sidc[11]
             guard let entity = dimension.entities.first(where: { $0.id == entityDigits }) else {
-                throw MilitarySymbolError.entityParcingFailed(entityDigits)
+                throw MilitarySymbolError.entityParcingFailed(
+                    dimensionDigits: dimensionDigits,
+                    wrongDigits: entityDigits
+                )
             }
             self.entity = entity
 
             let entityTypeDigits: String = sidc[12] + sidc[13]
             guard let entityType = entity.types.first(where: { $0.id == entityTypeDigits }) else {
-                throw MilitarySymbolError.entityTypeParcingFailed(entityTypeDigits)
+                throw MilitarySymbolError.entityTypeParcingFailed(
+                    dimensionDigits: dimensionDigits,
+                    entityDigits: entityDigits,
+                    wrongDigits: entityTypeDigits
+                )
             }
             self.entityType = entityType
 
             let entitySybTypeDigits = sidc[14] + sidc[15]
             guard let entitySubtype = entityType.subtypes.first(where: { $0.id == entitySybTypeDigits }) else {
-                throw MilitarySymbolError.entitySubtypeParcingFailed(entitySybTypeDigits)
+                throw MilitarySymbolError.entitySubtypeParcingFailed(
+                    dimensionDigits: dimensionDigits,
+                    entityDigits: entityDigits,
+                    entityTypeDigits: entityTypeDigits,
+                    wrongDigits: entitySybTypeDigits
+                )
             }
             self.entitySubtype = entitySubtype
 

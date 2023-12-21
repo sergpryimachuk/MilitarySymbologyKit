@@ -5,20 +5,17 @@
 import Foundation
 
 public enum MilitarySymbolError: Error {
-    
-    public typealias Digits = String
-    
     case sidcIsNot20
-    case contextParcingFailed(Digits)
-    case standardIdentityParcingFailed(Digits)
-    case dimensionParcingFailed(Digits)
-    case statusParcingFailed(Digits)
-    case hqtfdParcingFailed(Digits)
-    case amplifierParcingFailed(Digits)
-    case descriptorParcingFailed(Digits)
-    case entityParcingFailed(Digits)
-    case entityTypeParcingFailed(Digits)
-    case entitySubtypeParcingFailed(Digits)
+    case contextParcingFailed(String)
+    case standardIdentityParcingFailed(String)
+    case dimensionParcingFailed(String)
+    case statusParcingFailed(String)
+    case hqtfdParcingFailed(String)
+    case amplifierParcingFailed(String)
+    case descriptorParcingFailed(amplifierDigits: String, wrongDigits: String)
+    case entityParcingFailed(dimensionDigits: String, wrongDigits: String)
+    case entityTypeParcingFailed(dimensionDigits: String, entityDigits: String, wrongDigits: String)
+    case entitySubtypeParcingFailed(dimensionDigits: String, entityDigits: String, entityTypeDigits: String, wrongDigits: String)
 }
 
 extension MilitarySymbolError: LocalizedError {
@@ -66,27 +63,42 @@ extension MilitarySymbolError: LocalizedError {
                 bundle: .module,
                 comment: "Military Symbol init from SIDC Error"
             )
-        case .descriptorParcingFailed(let digits):
+        case .descriptorParcingFailed(
+            let amplifierDigits, 
+            let wrongDigits
+        ):
             String(
-                localized: "Wrong symbol amplifier descriptor. Wrong digits: \(digits).",
+                localized: "Wrong symbol amplifier descriptor. Amplifier digits: \(amplifierDigits). Wrong digits: \(wrongDigits).",
                 bundle: .module,
                 comment: "Military Symbol init from SIDC Error"
             )
-        case .entityParcingFailed(let digits):
+        case .entityParcingFailed(
+            let dimensionDigits,
+            let wrongDigits
+        ):
             String(
-                localized: "Wrong symbol entity. Wrong digits: \(digits).",
+                localized: "Wrong symbol entity. Dimension digits: \(dimensionDigits). Wrong digits: \(wrongDigits).",
                 bundle: .module,
                 comment: "Military Symbol init from SIDC Error"
             )
-        case .entityTypeParcingFailed(let digits):
+        case .entityTypeParcingFailed(
+            let dimensionDigits,
+            let entityDigits,
+            let wrongDigits
+        ):
             String(
-                localized: "Wrong symbol entity type. Wrong digits: \(digits).",
+                localized: "Wrong symbol entity type. Dimension digits: \(dimensionDigits). Entity digits: \(entityDigits). Wrong digits: \(wrongDigits).",
                 bundle: .module,
                 comment: "Military Symbol init from SIDC Error"
             )
-        case .entitySubtypeParcingFailed(let digits):
+        case .entitySubtypeParcingFailed(
+            let dimensionDigits,
+            let entityDigits,
+            let entityTypeDigits,
+            let wrongDigits
+        ):
             String(
-                localized: "Wrong symbol entity subtype. Wrong digits: \(digits).",
+                localized: "Wrong symbol entity subtype. Dimension digits: \(dimensionDigits). Entity digits: \(entityDigits). EntityType Digits: \(entityTypeDigits). Wrong digits: \(wrongDigits).",
                 bundle: .module,
                 comment: "Military Symbol init from SIDC Error"
             )
