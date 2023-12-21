@@ -25,27 +25,71 @@ extension MilitarySymbolError: LocalizedError {
     public var errorDescription: String? {
         switch self {
         case .sidcIsNot20:
-            String(localized: "SIDC is not 20 characters.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .contextParcingFailed:
-            String(localized: "Wrong symbol context.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .standardIdentityParcingFailed:
-            String(localized: "Wrong symbol standard identity.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .dimensionParcingFailed:
-            String(localized: "Wrong symbol set.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .statusParcingFailed:
-            String(localized: "Wrong symbol status.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .hqtfdParcingFailed:
-            String(localized: "Wrong symbol HQTFD.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .amplifierParcingFailed:
-            String(localized: "Wrong symbol amplifier.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .descriptorParcingFailed:
-            String(localized: "Wrong symbol amplifier descriptor.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .entityParcingFailed:
-            String(localized: "Wrong symbol entity.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .entityTypeParcingFailed:
-            String(localized: "Wrong symbol entity type.", bundle: .module, comment: "Military Symbol init from SIDC Error")
-        case .entitySubtypeParcingFailed:
-            String(localized: "Wrong symbol entity subtype.", bundle: .module, comment: "Military Symbol init from SIDC Error")
+            String(
+                localized: "SIDC is not 20 characters.",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .contextParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol context. Wrong digits: \(digits).",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .standardIdentityParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol standard identity. Wrong digits: \(digits).",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .dimensionParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol set. Wrong digits: \(digits).",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .statusParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol status. Wrong digits: \(digits).",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .hqtfdParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol HQTFD. Wrong digits: \(digits).",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .amplifierParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol amplifier. Wrong digits: \(digits)",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .descriptorParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol amplifier descriptor. Wrong digits: \(digits).",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .entityParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol entity. Wrong digits: \(digits).",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .entityTypeParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol entity type. Wrong digits: \(digits).",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
+        case .entitySubtypeParcingFailed(let digits):
+            String(
+                localized: "Wrong symbol entity subtype. Wrong digits: \(digits).",
+                bundle: .module,
+                comment: "Military Symbol init from SIDC Error"
+            )
         }
     }
 }
