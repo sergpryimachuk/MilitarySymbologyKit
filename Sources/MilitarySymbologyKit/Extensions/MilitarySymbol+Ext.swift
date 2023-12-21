@@ -88,70 +88,60 @@ public extension MilitarySymbol {
             
             let contextDigit = sidc[2]
             guard let context = Context(rawValue: contextDigit) else {
-                print("Context")
                 throw MilitarySymbolError.contextParcingFailed(contextDigit)
             }
             self.context = context
             
             let standardIdentityDigit = sidc[3]
             guard let standardIdentity = StandardIdentity(rawValue: standardIdentityDigit) else {
-                print("StandardIdentity")
                 throw MilitarySymbolError.standardIdentityParcingFailed(standardIdentityDigit)
             }
             self.standardIdentity = standardIdentity
 
             let dimensionDigits = sidc[4] + sidc[5]
             guard let dimension = Dimension(rawValue: dimensionDigits) else {
-                print("Dimension")
                 throw MilitarySymbolError.dimensionParcingFailed(dimensionDigits)
             }
             self.dimension = dimension
 
             let statusDigit = sidc[6]
             guard let status = Status(rawValue: statusDigit) else {
-                print("Status")
                 throw MilitarySymbolError.statusParcingFailed(statusDigit)
             }
             self.status = status
             
             let hqtfdDigit = sidc[7]
             guard let hqtfd = HQTFD(rawValue: hqtfdDigit) else {
-                print("HQTFD")
                 throw MilitarySymbolError.hqtfdParcingFailed(hqtfdDigit)
             }
             self.hqtfd = hqtfd
 
             let amplifierDigit = sidc[8]
             guard let amplifier = Amplifier(rawValue: amplifierDigit) else {
-                print("Amplifier")
                 throw MilitarySymbolError.amplifierParcingFailed(amplifierDigit)
             }
             self.amplifier = amplifier
 
             let descriptorDigit = sidc[9]
             guard let descriptor = amplifier.descriptors.first(where: { $0.id == descriptorDigit }) else {
-                print("Descriptor")
                 throw MilitarySymbolError.descriptorParcingFailed(descriptorDigit)
             }
             self.descriptor = descriptor
 
             let entityDigits: String = sidc[10] + sidc[11]
             guard let entity = dimension.entities.first(where: { $0.id == entityDigits }) else {
-                print("Entity")
                 throw MilitarySymbolError.entityParcingFailed(entityDigits)
             }
             self.entity = entity
 
             let entityTypeDigits: String = sidc[12] + sidc[13]
             guard let entityType = entity.types.first(where: { $0.id == entityTypeDigits }) else {
-                print("EntityType")
                 throw MilitarySymbolError.entityTypeParcingFailed(entityTypeDigits)
             }
             self.entityType = entityType
 
             let entitySybTypeDigits = sidc[14] + sidc[15]
             guard let entitySubtype = entityType.subtypes.first(where: { $0.id == entitySybTypeDigits }) else {
-                print("EntitySubtype")
                 throw MilitarySymbolError.entitySubtypeParcingFailed(entitySybTypeDigits)
             }
             self.entitySubtype = entitySubtype
