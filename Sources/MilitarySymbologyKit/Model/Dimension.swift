@@ -13,7 +13,7 @@ public enum Dimension: String, CaseIterable, Identifiable {
     case landCivilian = "11"
     case landEquipment = "15"
     case landInstallation = "20"
-//    case controlMeasure = "25"
+    case controlMeasure = "25"
     case seaSurface = "30"
     case seaSubsurface = "35"
     case mineWarfare = "36"
@@ -56,8 +56,8 @@ public enum Dimension: String, CaseIterable, Identifiable {
         case .landInstallation:
             String(localized: "Land Installation", bundle: .module, comment: "Dimension")
 
-//        case .controlMeasure:
-//            String(localized: "Control Measure", bundle: .module, comment: "Dimension")
+        case .controlMeasure:
+            String(localized: "Control Measure", bundle: .module, comment: "Dimension")
 
         case .seaSurface:
             String(localized: "Sea Surface", bundle: .module, comment: "Dimension")
@@ -118,8 +118,8 @@ public enum Dimension: String, CaseIterable, Identifiable {
             LandEquipmentEntity.allCases.map { AnyEntity($0) }
         case .landInstallation:
             LandInstallationEntity.allCases.map { AnyEntity($0) }
-//        case .controlMeasure:
-//            ControlMeasureEntity.allCases.map { AnyEntity($0) }
+        case .controlMeasure:
+            ControlMeasureEntity.allCases.map { AnyEntity($0) }
         case .seaSurface:
             SeaSurfaceEntity.allCases.map { AnyEntity($0) }
         case .seaSubsurface:

@@ -7,6 +7,34 @@ import Foundation
 public extension [MilitarySymbol] {
     /// Generates symbols with all cases of entities, its types and subtypes.
     /// Used for search.
+
+    static func allEntityCases2(
+        initialValue: MilitarySymbol = MilitarySymbol()
+    ) -> [MilitarySymbol] {
+        Dimension.allCases.reduce(into: [MilitarySymbol]()) { symbols, dimension in
+            dimension.entities.forEach { entity in
+                entity.types.forEach { entityType in
+                    entityType.subtypes.forEach { entitySubtype in
+                        symbols.append(
+                            MilitarySymbol(
+                                context: initialValue.context,
+                                standardIdentity: initialValue.standardIdentity,
+                                dimension: dimension,
+                                status: initialValue.status,
+                                hqtfd: initialValue.hqtfd,
+                                amplifier: initialValue.amplifier,
+                                descriptor: initialValue.descriptor,
+                                entity: entity,
+                                entityType: entityType,
+                                entitySubtype: entitySubtype
+                            )
+                        )
+                    }
+                }
+            }
+        }
+    }
+
     static func allEntityCases(
         initialValue: MilitarySymbol
     ) -> [MilitarySymbol] {
@@ -37,7 +65,7 @@ public extension [MilitarySymbol] {
 
         return result
     }
-    
+
     /// Filters self accoring to search text.
     /// Filters by dimension, entity, enitityType and subtype.
     func filtered(searchText: String) -> [MilitarySymbol] {
