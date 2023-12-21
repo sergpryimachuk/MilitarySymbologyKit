@@ -5,17 +5,20 @@
 import Foundation
 
 public enum MilitarySymbolError: Error {
+    
+    public typealias Digits = String
+    
     case sidcIsNot20
-    case contextParcingFailed
-    case standardIdentityParcingFailed
-    case dimensionParcingFailed
-    case statusParcingFailed
-    case hqtfdParcingFailed
-    case amplifierParcingFailed
-    case descriptorParcingFailed
-    case entityParcingFailed
-    case entityTypeParcingFailed
-    case entitySubtypeParcingFailed
+    case contextParcingFailed(Digits)
+    case standardIdentityParcingFailed(Digits)
+    case dimensionParcingFailed(Digits)
+    case statusParcingFailed(Digits)
+    case hqtfdParcingFailed(Digits)
+    case amplifierParcingFailed(Digits)
+    case descriptorParcingFailed(Digits)
+    case entityParcingFailed(Digits)
+    case entityTypeParcingFailed(Digits)
+    case entitySubtypeParcingFailed(Digits)
 }
 
 extension MilitarySymbolError: LocalizedError {
