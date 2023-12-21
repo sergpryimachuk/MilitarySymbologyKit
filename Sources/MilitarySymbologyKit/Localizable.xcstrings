@@ -2,19 +2,59 @@
   "sourceLanguage" : "en",
   "strings" : {
     "A" : {
-      "comment" : "Harbor Entrance Point Entity Subtype"
+      "comment" : "Harbor Entrance Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A"
+          }
+        }
+      }
     },
     "Abatis" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Абат/Настоятель"
+          }
+        }
+      }
     },
     "Acoustic Countermeasure (Decoy)" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Акустична протидія (приманка)"
+          }
+        }
+      }
     },
     "Acoustic Fix" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Акустичне виправлення"
+          }
+        }
+      }
     },
     "Action Point (General)" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка дії (загальне)"
+          }
+        }
+      }
     },
     "Activities" : {
       "comment" : "Dimension",
@@ -61,7 +101,15 @@
       }
     },
     "AEW Station" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Станція AEW"
+          }
+        }
+      }
     },
     "Aftershock" : {
       "comment" : "Geologic Entity Subtype",
@@ -108,7 +156,15 @@
       }
     },
     "Aim Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка прицілювання"
+          }
+        }
+      }
     },
     "Air" : {
       "comment" : "Transportation Incident Entity Type\nDimension",
@@ -133,10 +189,26 @@
       }
     },
     "Air Control Point" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт управління повітрям"
+          }
+        }
+      }
     },
     "Air Control Rendezvous" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зустріч авіадиспетчерів"
+          }
+        }
+      }
     },
     "Air Defense" : {
       "comment" : "Fire Support Entity Type",
@@ -172,7 +244,15 @@
       }
     },
     "Air Detonation" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повітряна детонація"
+          }
+        }
+      }
     },
     "Air Missile" : {
       "comment" : "Dimension",
@@ -208,7 +288,15 @@
       }
     },
     "Air Transportable Communication" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повітряне транспортне сполучення"
+          }
+        }
+      }
     },
     "Air-Land-Naval Gunfire Liaison" : {
       "comment" : "Fire Support Entity Type",
@@ -255,7 +343,15 @@
       }
     },
     "Airfield" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Аеродром"
+          }
+        }
+      }
     },
     "Airport of Debarkation/Airport of Embarkation" : {
       "comment" : "Sustainment Entity Type",
@@ -291,7 +387,15 @@
       }
     },
     "Airspace Control Points" : {
-      "comment" : "ControlMeasure Entity"
+      "comment" : "ControlMeasure Entity",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункти контролю повітряного простору"
+          }
+        }
+      }
     },
     "All Classes of Supply" : {
       "comment" : "Sustainment Entity Type",
@@ -327,7 +431,15 @@
       }
     },
     "Ambient Noise" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навколишній шум"
+          }
+        }
+      }
     },
     "Ambulance" : {
       "comment" : "Emergency Operation Entity Type",
@@ -341,7 +453,15 @@
       }
     },
     "Ambulance Exchange Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт обміну швидкої допомоги"
+          }
+        }
+      }
     },
     "Ammunition" : {
       "comment" : "Sustainment Entity Type",
@@ -388,13 +508,37 @@
       }
     },
     "Ammunition Supply Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання боєприпасів"
+          }
+        }
+      }
     },
     "Ammunition Transfer Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт передачі боєприпасів"
+          }
+        }
+      }
     },
     "Amnesty Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт амністії"
+          }
+        }
+      }
     },
     "Amphibious" : {
       "comment" : "Infantry Entity Subtype\nMovement and Maneuver Entity Type\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype\nEquipment mobility on water amplifier descriptor",
@@ -573,10 +717,26 @@
       }
     },
     "Antipersonnel Mine" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Протипіхотна міна"
+          }
+        }
+      }
     },
     "Antipersonnel Mine with Directional Effects" : {
-      "comment" : "Antipersonnel Mine Entity Subtype"
+      "comment" : "Antipersonnel Mine Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Протипіхотна міна спрямованої дії"
+          }
+        }
+      }
     },
     "Antisubmarine Warfare" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -590,7 +750,15 @@
       }
     },
     "Antisubmarine Warfare, Rotary Wing" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Протичовнова війна, роторне крило"
+          }
+        }
+      }
     },
     "Antisurface Warfare" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -626,7 +794,15 @@
       }
     },
     "Antitank Mine with Anti-handling Device" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Протитанкова міна з пристроєм проти вилучення"
+          }
+        }
+      }
     },
     "Antitank Missile Launcher" : {
       "comment" : "Weapon System Entity Type",
@@ -948,16 +1124,48 @@
       }
     },
     "ASW (Helo and F/W) Station" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Станція ASW (Helo and F/W)."
+          }
+        }
+      }
     },
     "ASW Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наземна станція ASW"
+          }
+        }
+      }
     },
     "ASW Unmanned Underwater Vehicle Subsurface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підводна станція безпілотного підводного апарату ПЛО"
+          }
+        }
+      }
     },
     "ASW Unmanned Underwater Vehicle Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надводна станція безпілотного підводного апарату протикарабельної оборони"
+          }
+        }
+      }
     },
     "ATM" : {
       "comment" : "Banking, Finance, and Insurance Infrastructure Subtype",
@@ -1169,10 +1377,26 @@
       }
     },
     "Barra" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Назовні"
+          }
+        }
+      }
     },
     "Bathythermograph Transmitting" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Батитермограф передає"
+          }
+        }
+      }
     },
     "Battalion/Squadron" : {
       "comment" : "Echelon at brigade and below amplifier descriptor",
@@ -1208,10 +1432,26 @@
       }
     },
     "Below Ground Shelter" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підземне укриття"
+          }
+        }
+      }
     },
     "Biological Event" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Біологічна подія"
+          }
+        }
+      }
     },
     "Bioluminescence" : {
       "comment" : "Oceanography Entity Type",
@@ -1390,16 +1630,48 @@
       }
     },
     "Bottom Return/Non-MILCO-Wreck-Dangerous" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повернення з дна/Не MILCO-Wreck-Dangerous"
+          }
+        }
+      }
     },
     "Bottom Return/Non-MILCO-Wreck-Non Dangerous" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повернення з дна/Не MILCO-Wreck-Non Dangerous"
+          }
+        }
+      }
     },
     "Bottom Return/Non-Mine Like Bottom Object (NOMBO)" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повернення з дна/об’єкт, що не є мінним, як дно (NOMBO)"
+          }
+        }
+      }
     },
     "Bottom Return/Non-Mine Like Bottom Object (NOMBO)/Installation Manmade" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повернення з дна/об’єкт, який не є мінним, як дно (NOMBOR)/інсталяція штучна"
+          }
+        }
+      }
     },
     "Bounded Areas of Weather" : {
       "comment" : "Atmospheric Entity Type",
@@ -1435,7 +1707,15 @@
       }
     },
     "Brief Contact" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Короткий контакт"
+          }
+        }
+      }
     },
     "Brigade" : {
       "comment" : "Echelon at brigade and below amplifier descriptor",
@@ -1482,7 +1762,15 @@
       }
     },
     "BT Buoy Drop" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скидання буя BT"
+          }
+        }
+      }
     },
     "Bullion Storage" : {
       "comment" : "Banking, Finance, and Insurance Infrastructure Subtype",
@@ -1595,10 +1883,26 @@
       }
     },
     "Cannibalization Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка канібалізації"
+          }
+        }
+      }
     },
     "CAP Station" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Станція CAP"
+          }
+        }
+      }
     },
     "Cargo" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -1634,7 +1938,15 @@
       }
     },
     "Casualty Collection Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт збору поранених"
+          }
+        }
+      }
     },
     "Cave Entrance" : {
       "comment" : "Geologic Entity Subtype",
@@ -1659,13 +1971,37 @@
       }
     },
     "CBRN Observation Outpost" : {
-      "comment" : "Observation Post Outpost Entity Subtype"
+      "comment" : "Observation Post Outpost Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ХБРЯ спостережний пост"
+          }
+        }
+      }
     },
     "Center of Main Effort" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Центр головного зусилля"
+          }
+        }
+      }
     },
     "Checkpoint" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "КПП"
+          }
+        }
+      }
     },
     "Chemical Agent" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -1690,7 +2026,15 @@
       }
     },
     "Chemical Event" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Хімічна подія"
+          }
+        }
+      }
     },
     "Chemical Plant" : {
       "comment" : "Commercial Infrastructure Subtype",
@@ -1781,7 +2125,15 @@
       }
     },
     "Civilian Collection Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цивільний збірний пункт"
+          }
+        }
+      }
     },
     "Civilian Vehicle" : {
       "comment" : "Land Equipment Entity",
@@ -1839,7 +2191,15 @@
       }
     },
     "Clutter-Stationary or Cease Reporting" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повідомлення про безлад або припинення роботи"
+          }
+        }
+      }
     },
     "Coast Guard" : {
       "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
@@ -1930,7 +2290,15 @@
       }
     },
     "Combat Outpost" : {
-      "comment" : "Observation Post Outpost Entity Subtype"
+      "comment" : "Observation Post Outpost Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бойовий пост"
+          }
+        }
+      }
     },
     "Combat Search and Rescue (CSAR)" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -2010,10 +2378,26 @@
       }
     },
     "Command Active Multi-Beam (CAMBS)" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Командний активний мультипромінь (CAMBS)"
+          }
+        }
+      }
     },
     "Command Active Sonobuoy Directional Command Active Sonobuoy System (CASS)" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Командний активний гідроакустичний буй Дирекційна система активного гідроакустичного буя (CASS)"
+          }
+        }
+      }
     },
     "Command and Control" : {
       "comment" : "Land Unit Entity",
@@ -2038,7 +2422,15 @@
       }
     },
     "Command and Control Points" : {
-      "comment" : "ControlMeasure Entity"
+      "comment" : "ControlMeasure Entity",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункти управління та контролю"
+          }
+        }
+      }
     },
     "Command Launch Equipment (CLE)" : {
       "comment" : "Other Equipment Entity Type",
@@ -2085,7 +2477,15 @@
       }
     },
     "Communications Checkpoint" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контрольно-пропускний пункт зв'язку"
+          }
+        }
+      }
     },
     "Compact or Wet Snow (At Least One-Half of Ground)" : {
       "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
@@ -2154,7 +2554,15 @@
       }
     },
     "Contact Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка контакту"
+          }
+        }
+      }
     },
     "Container Ship" : {
       "comment" : "Merchant Ship Entity Subtype",
@@ -2223,7 +2631,15 @@
       }
     },
     "Control Measure" : {
-      "comment" : "Dimension"
+      "comment" : "Dimension",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контрольні заходи"
+          }
+        }
+      }
     },
     "Control Valve" : {
       "comment" : "Water Supply Infrastructure Subtype",
@@ -2259,7 +2675,15 @@
       }
     },
     "Coordinating Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Координаційний пункт"
+          }
+        }
+      }
     },
     "Copy" : {
       "extractionState" : "stale",
@@ -2306,7 +2730,15 @@
       }
     },
     "Corridor Tab Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка закладки коридору"
+          }
+        }
+      }
     },
     "Corrosive Material" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -2463,7 +2895,15 @@
       }
     },
     "Data Link Reference Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Базова точка каналу передачі даних"
+          }
+        }
+      }
     },
     "Data Manipulation" : {
       "comment" : "Effect Entity Type",
@@ -2488,7 +2928,15 @@
       }
     },
     "Datum Lost Contact" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дата втрати контакту"
+          }
+        }
+      }
     },
     "Dead Body" : {
       "comment" : "Criminal Activity Incident Entity Subtype",
@@ -2502,7 +2950,15 @@
       }
     },
     "Decision Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка прийняття рішення"
+          }
+        }
+      }
     },
     "Decoy" : {
       "comment" : "Weapon Entity Type\nMilitary Combatant Entity Type",
@@ -2516,7 +2972,15 @@
       }
     },
     "Defended Asset" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Захищений актив"
+          }
+        }
+      }
     },
     "Degradation" : {
       "comment" : "Effect Entity Type",
@@ -2596,7 +3060,15 @@
       }
     },
     "Detainee Collection Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт збору затриманих"
+          }
+        }
+      }
     },
     "Device Domain" : {
       "comment" : "Cyberspace Entity Type",
@@ -2632,7 +3104,15 @@
       }
     },
     "Digital Frequency Analysis and Recording (DIFAR)" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цифровий частотний аналіз і запис (DIFAR)"
+          }
+        }
+      }
     },
     "Dimension" : {
       "extractionState" : "stale",
@@ -2657,7 +3137,15 @@
       }
     },
     "Dip Position" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позиція занурення"
+          }
+        }
+      }
     },
     "Direct Fire Gun" : {
       "comment" : "Weapon System Entity Type",
@@ -2682,7 +3170,15 @@
       }
     },
     "Directional Command Active Sonobuoy System (DICASS)" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Активна система гідроакустичних буїв спрямованого керування (DICASS)"
+          }
+        }
+      }
     },
     "Discharge Outfall" : {
       "comment" : "Water Supply Infrastructure Subtype",
@@ -2707,13 +3203,37 @@
       }
     },
     "Distress Call" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сигнал про лихо"
+          }
+        }
+      }
     },
     "Distressed Vessel" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Судно, що зазнало лиха"
+          }
+        }
+      }
     },
     "Ditched Aircraft/Downed Aircraft" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Збитий літак"
+          }
+        }
+      }
     },
     "Dive Report Location" : {
       "comment" : "Mine Warfare Entity",
@@ -2738,7 +3258,15 @@
       }
     },
     "Diversion Route" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрут відводу"
+          }
+        }
+      }
     },
     "Diving" : {
       "comment" : "Protection Entity Type",
@@ -2796,7 +3324,15 @@
       }
     },
     "Downed Aircraft Pick-up Point" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт збору збитих літаків"
+          }
+        }
+      }
     },
     "Dozer" : {
       "comment" : "Engineer Vehicles and Equipment Entity Type",
@@ -2909,7 +3445,15 @@
       }
     },
     "Drop Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка висадки"
+          }
+        }
+      }
     },
     "Drought" : {
       "comment" : "Hydro-Meteorological Entity Subtype",
@@ -3099,10 +3643,26 @@
       }
     },
     "Electromagnetic - Magnetic Anomaly Detection (MAD)" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Електромагнітне виявлення магнітної аномалії (MAD)"
+          }
+        }
+      }
     },
     "Electromagnetic Fix" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Електромагнітне виправлення"
+          }
+        }
+      }
     },
     "Electronic Attack (EA)" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -3127,7 +3687,15 @@
       }
     },
     "Electronic Countermeasures (ECM) Decoy" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приманка засобів електронної протидії (ECM)."
+          }
+        }
+      }
     },
     "Electronic Ranging" : {
       "comment" : "Intelligence Entity Type",
@@ -3295,10 +3863,26 @@
       }
     },
     "Enemy Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка ворога"
+          }
+        }
+      }
     },
     "Enemy Prisoner of War Collection Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт збору ворожих військовополонених"
+          }
+        }
+      }
     },
     "Energy Facility Infrastructure" : {
       "comment" : "Infrastructure Entity Type",
@@ -3323,7 +3907,15 @@
       }
     },
     "Engineer Regulating Point" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інженерно-регулювальний пункт"
+          }
+        }
+      }
     },
     "Engineer Vehicles and Equipment" : {
       "comment" : "Land Equipment Entity",
@@ -3381,10 +3973,26 @@
       }
     },
     "Entry Control Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контрольний пункт в'їзду"
+          }
+        }
+      }
     },
     "Entry Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка входу"
+          }
+        }
+      }
     },
     "Environmental Protection" : {
       "comment" : "Land Civilian Entity Type",
@@ -3464,7 +4072,15 @@
       }
     },
     "Estimated Position (EP)" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очікувана позиція (EP)"
+          }
+        }
+      }
     },
     "Even Layer of Compact or Wet Snow" : {
       "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
@@ -3549,7 +4165,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Навчальна міна - загальне"
+            "value" : "Навчальна міна (загальне)"
           }
         }
       }
@@ -3566,10 +4182,26 @@
       }
     },
     "Expendable Reliable Acoustic Path Sonobuoy (ERAPS)" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надійний гідроакустичний буй (ERAPS)"
+          }
+        }
+      }
     },
     "Expired" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Термін дії минув"
+          }
+        }
+      }
     },
     "Explosion" : {
       "comment" : "Incident Entity Type",
@@ -3990,7 +4622,15 @@
       }
     },
     "Fires Points" : {
-      "comment" : "ControlMeasure Entity"
+      "comment" : "ControlMeasure Entity",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вогневі точки"
+          }
+        }
+      }
     },
     "Firewall" : {
       "comment" : "Device Type Entity Type",
@@ -4004,7 +4644,15 @@
       }
     },
     "Firing Point" : {
-      "comment" : "Fires Points Entity Type"
+      "comment" : "Fires Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вогнева точка"
+          }
+        }
+      }
     },
     "Fishing Vessel" : {
       "comment" : "Civilian Entity Type",
@@ -4018,7 +4666,15 @@
       }
     },
     "Fixed and Prefabricated" : {
-      "comment" : "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles Entity Subtype"
+      "comment" : "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стаціонарні та збірні"
+          }
+        }
+      }
     },
     "Fixed Bridge" : {
       "comment" : "Engineer Vehicles and Equipment Entity Type",
@@ -4131,16 +4787,48 @@
       }
     },
     "Fly-To-Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переліт до точки"
+          }
+        }
+      }
     },
     "Fly-To-Point (Normal)" : {
-      "comment" : "Fly-To-Point Entity Subtype"
+      "comment" : "Fly-To-Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Політ до точки (звичайний)"
+          }
+        }
+      }
     },
     "Fly-To-Point (Sonobuoy)" : {
-      "comment" : "Fly-To-Point Entity Subtype"
+      "comment" : "Fly-To-Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Політ до точки (гідроакустичний буй)"
+          }
+        }
+      }
     },
     "Fly-To-Point (Weapon)" : {
-      "comment" : "Fly-To-Point Entity Subtype"
+      "comment" : "Fly-To-Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Політ до точки (зброя)"
+          }
+        }
+      }
     },
     "Fog" : {
       "comment" : "Bounded Areas of Weather Entity Type\nWeather Symbols Entity Type",
@@ -4220,16 +4908,48 @@
       }
     },
     "Formation" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Формування"
+          }
+        }
+      }
     },
     "Fort" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Форт"
+          }
+        }
+      }
     },
     "Forward Observer / Spotter Position" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позиція передового спостерігача/корегувальника"
+          }
+        }
+      }
     },
     "Forward Observer Outpost" : {
-      "comment" : "Observation Post Outpost Entity Subtype"
+      "comment" : "Observation Post Outpost Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пост передового спостереження"
+          }
+        }
+      }
     },
     "Freezing Drizzle" : {
       "comment" : "Weather Symbols Entity Type",
@@ -4353,7 +5073,15 @@
       }
     },
     "General Decontamination Point/Site" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт/майданчик загальної дезактивації"
+          }
+        }
+      }
     },
     "General Mine Anchor" : {
       "comment" : "Mine Warfare Entity",
@@ -4361,22 +5089,54 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Міна - загальне"
+            "value" : "Міна (загальне)"
           }
         }
       }
     },
     "General Route" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрут (загальне)"
+          }
+        }
+      }
     },
     "General Subsurface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підземна станція (загальне)"
+          }
+        }
+      }
     },
     "General Supply Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загальний пункт постачання"
+          }
+        }
+      }
     },
     "General Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наземна станція (загальне)"
+          }
+        }
+      }
     },
     "Generation Station" : {
       "comment" : "Energy Facility Infrastructure Subtype",
@@ -4566,7 +5326,15 @@
       }
     },
     "Ground Zero" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Граунд Зеро"
+          }
+        }
+      }
     },
     "Ground-based Midcourse Defense (GMD) Fire Control (GFC) Center" : {
       "comment" : "Other Equipment Entity Type",
@@ -4591,10 +5359,26 @@
       }
     },
     "Harbor" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гавань"
+          }
+        }
+      }
     },
     "Harbor Entrance Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка входу в гавань"
+          }
+        }
+      }
     },
     "Hazard Materials" : {
       "comment" : "Activities Entity",
@@ -4773,7 +5557,15 @@
       }
     },
     "Hide Point" : {
-      "comment" : "Fires Points Entity Type"
+      "comment" : "Fires Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приховати точку"
+          }
+        }
+      }
     },
     "High Pressure Center" : {
       "comment" : "Pressure Systems Entity Type",
@@ -4963,7 +5755,15 @@
       }
     },
     "Iceberg" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Айсберг"
+          }
+        }
+      }
     },
     "Icebergs" : {
       "comment" : "Ice Systems Entity Type",
@@ -5054,7 +5854,15 @@
       }
     },
     "Impact Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка удару"
+          }
+        }
+      }
     },
     "Impaired" : {
       "comment" : "Health and Status Entity Type",
@@ -5662,7 +6470,15 @@
       }
     },
     "Kingpin" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кінгпінь"
+          }
+        }
+      }
     },
     "Known Insurgent Vehicle" : {
       "comment" : "Civilian Vehicle Entity Type",
@@ -5829,13 +6645,37 @@
       }
     },
     "Launch Event (Point of Interest)" : {
-      "comment" : "Point Of Interest Entity Subtype"
+      "comment" : "Point Of Interest Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стартова подія (об'єкт інтересу)"
+          }
+        }
+      }
     },
     "Launch Point" : {
-      "comment" : "Fires Points Entity Type"
+      "comment" : "Fires Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка запуску"
+          }
+        }
+      }
     },
     "Launched Torpedo" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запущена Торпеда"
+          }
+        }
+      }
     },
     "Laundry/Bath" : {
       "comment" : "Sustainment Entity Type",
@@ -6058,7 +6898,15 @@
       }
     },
     "Linkup Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка підключення"
+          }
+        }
+      }
     },
     "Liquid Precipitation - Convective" : {
       "comment" : "Entity Subtype",
@@ -6116,7 +6964,15 @@
       }
     },
     "Logistics Release Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт випуску матеріально-технічного забезпечення"
+          }
+        }
+      }
     },
     "Long Towed Array" : {
       "comment" : "Naval towed array amplifier descriptor",
@@ -6163,10 +7019,26 @@
       }
     },
     "Lost Contact" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Втрачений контакт"
+          }
+        }
+      }
     },
     "Low Frequency Analysis and Recording (LOFAR)" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Низькочастотний аналіз і запис (LOFAR)"
+          }
+        }
+      }
     },
     "Low Pressure Center" : {
       "comment" : "Pressure Systems Entity Type",
@@ -6224,7 +7096,15 @@
       }
     },
     "Maintenance Collection Point (MCP)" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт технічного обслуговування (MCP)"
+          }
+        }
+      }
     },
     "Maintenance Facility" : {
       "comment" : "Transportation Infrastructure Subtype",
@@ -6249,7 +7129,15 @@
       }
     },
     "Maneuver Points" : {
-      "comment" : "ControlMeasure Entity"
+      "comment" : "ControlMeasure Entity",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точки маневру"
+          }
+        }
+      }
     },
     "Manual Track" : {
       "comment" : "Sea Surface Entity\nAir Unit Entity\nSea Subsurface Entity\nLand Equipment Entity",
@@ -6285,7 +7173,15 @@
       }
     },
     "Marine Life" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морське життя"
+          }
+        }
+      }
     },
     "Maritime Area" : {
       "comment" : "Limits Entity Type",
@@ -6299,7 +7195,15 @@
       }
     },
     "Maritime Control Points" : {
-      "comment" : "ControlMeasure Entity"
+      "comment" : "ControlMeasure Entity",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морські контрольні пункти"
+          }
+        }
+      }
     },
     "Maritime Limit Boundary" : {
       "comment" : "Limits Entity Type",
@@ -6313,7 +7217,15 @@
       }
     },
     "Marshall Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршал точка"
+          }
+        }
+      }
     },
     "Mass Grave Site" : {
       "comment" : "Installation Entity Type",
@@ -6393,7 +7305,15 @@
       }
     },
     "Medical Evacuation (MEDEVAC) Pick-up Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт медичної евакуації (MEDEVAC)."
+          }
+        }
+      }
     },
     "Medical Evacuation Helicopter" : {
       "comment" : "Emergency Medical Operation Entity Subtype",
@@ -6429,7 +7349,15 @@
       }
     },
     "Medical Supply Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт медичного забезпечення"
+          }
+        }
+      }
     },
     "Medical Treatment Facility" : {
       "comment" : "Sustainment Entity Type",
@@ -6960,13 +7888,37 @@
       }
     },
     "Mine Warfare Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наземна станція протимінної боротьби"
+          }
+        }
+      }
     },
     "Mine Warfare Unmanned Underwater Vehicle Subsurface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Безпілотна підводна підводна станція протимінної боротьби"
+          }
+        }
+      }
     },
     "Mine Warfare Unmanned Underwater Vehicle Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Протимінна безпілотна підводна надводна станція"
+          }
+        }
+      }
     },
     "Mine-Like Contact (MILCO)" : {
       "comment" : "Mine Warfare Entity",
@@ -7046,7 +7998,15 @@
       }
     },
     "Missile Detection Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка виявлення ракети"
+          }
+        }
+      }
     },
     "Missile Launcher" : {
       "comment" : "Weapon System Entity Type",
@@ -7082,10 +8042,26 @@
       }
     },
     "MIW - Fixed Wing" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MIW - Фіксоване крило"
+          }
+        }
+      }
     },
     "MIW - Rotary Wing" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MIW - роторне крило"
+          }
+        }
+      }
     },
     "Mixed Icing" : {
       "comment" : "Icing Entity Type",
@@ -7242,10 +8218,26 @@
       }
     },
     "Movable" : {
-      "comment" : "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles Entity Subtype"
+      "comment" : "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пересувний"
+          }
+        }
+      }
     },
     "Movable and Prefabricated" : {
-      "comment" : "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles Entity Subtype"
+      "comment" : "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пересувні та збірні"
+          }
+        }
+      }
     },
     "Movement and Maneuver" : {
       "comment" : "Land Unit Entity",
@@ -7259,7 +8251,15 @@
       }
     },
     "Moving Haven" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переїзд Haven"
+          }
+        }
+      }
     },
     "Multifunctional Earthmover/Digger" : {
       "comment" : "Earthmover Entity Subtype",
@@ -7372,22 +8372,70 @@
       }
     },
     "NATO Class I Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання НАТО класу I"
+          }
+        }
+      }
     },
     "NATO Class II Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання НАТО класу II"
+          }
+        }
+      }
     },
     "NATO Class III Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання НАТО класу III"
+          }
+        }
+      }
     },
     "NATO Class IV Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання НАТО класу IV"
+          }
+        }
+      }
     },
     "NATO Class V Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання НАТО класу V"
+          }
+        }
+      }
     },
     "NATO Multiple Class Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Багатокласний пункт постачання НАТО"
+          }
+        }
+      }
     },
     "NATO Supply Class I" : {
       "comment" : "Sustainment Entity Type",
@@ -7511,10 +8559,26 @@
       }
     },
     "Navigational" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навігаційна"
+          }
+        }
+      }
     },
     "Navigational Reference Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Навігаційний орієнтир"
+          }
+        }
+      }
     },
     "Navy Task Element" : {
       "comment" : "Navy Task Organization Entity Subtype",
@@ -7737,7 +8801,15 @@
       }
     },
     "Non-Combatant Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Небойова надводна станція"
+          }
+        }
+      }
     },
     "Non-Flammable Gas" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -7883,16 +8955,48 @@
       }
     },
     "Nuclear Event" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ядерна подія"
+          }
+        }
+      }
     },
     "Nuclear Fallout Producing Event" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подія, що спричинила ядерні опади"
+          }
+        }
+      }
     },
     "Observation Post/Outpost (Specified)" : {
-      "comment" : "Maneuver Points Entity Type"
+      "comment" : "Maneuver Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спостережний пост/пункт (визначений)"
+          }
+        }
+      }
     },
     "Observation Post/Outpost (Unspecified)" : {
-      "comment" : "Maneuver Points Entity Type"
+      "comment" : "Maneuver Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спостережний пост/пункт (невизначений)"
+          }
+        }
+      }
     },
     "Observer" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -7961,7 +9065,15 @@
       }
     },
     "Oil Rig" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бурова"
+          }
+        }
+      }
     },
     "Oil/Gas Rig" : {
       "comment" : "Man-Made Structures Entity Type",
@@ -8074,19 +9186,59 @@
       }
     },
     "Optical Fix" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Оптичний фіксатор"
+          }
+        }
+      }
     },
     "Orbit" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Орбіта"
+          }
+        }
+      }
     },
     "Orbit - Figure Eight" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Орбіта - вісімка"
+          }
+        }
+      }
     },
     "Orbit - Race Track" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Орбіта - гоночна траса"
+          }
+        }
+      }
     },
     "Orbit - Random Closed" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Орбіта - випадково закрита"
+          }
+        }
+      }
     },
     "Ordnance" : {
       "comment" : "Sustainment Entity Type",
@@ -8177,7 +9329,15 @@
       }
     },
     "Overhead Wire" : {
-      "comment" : "Vertical Obstructions Entity Subtype"
+      "comment" : "Vertical Obstructions Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Накладний провід"
+          }
+        }
+      }
     },
     "Own Ship" : {
       "comment" : "Sea Surface Entity",
@@ -8224,7 +9384,15 @@
       }
     },
     "Passage Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка проходу"
+          }
+        }
+      }
     },
     "Passenger" : {
       "comment" : "Fixed Wing Entity Subtype\nMerchant Ship Entity Subtype",
@@ -8276,7 +9444,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Патрульний човен, переслідувач / Супровід підводних човнів - загальне"
+            "value" : "Патрульний човен, переслідувач / Супровід підводних човнів (загальне)"
           }
         }
       }
@@ -8287,7 +9455,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сторожовий корабель - загальне"
+            "value" : "Сторожовий корабель (загальне)"
           }
         }
       }
@@ -8304,7 +9472,15 @@
       }
     },
     "Pattern Center" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Центр візерунка"
+          }
+        }
+      }
     },
     "Peer-to-Peer Node" : {
       "comment" : "Device Type Entity Type",
@@ -8329,7 +9505,15 @@
       }
     },
     "Person in Water/Bailout" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Людина у воді/рятування"
+          }
+        }
+      }
     },
     "Personnel Recovery" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -8431,10 +9615,26 @@
       }
     },
     "Picket Route" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрут пікетування"
+          }
+        }
+      }
     },
     "Picket Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наземна станція «Пікет»."
+          }
+        }
+      }
     },
     "Pile/Piling/Post" : {
       "comment" : "Man-Made Structures Entity Type",
@@ -8470,7 +9670,15 @@
       }
     },
     "Plan Ship" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "План корабля"
+          }
+        }
+      }
     },
     "Planned/Anticipated/Suspect" : {
       "comment" : "Status",
@@ -8495,13 +9703,37 @@
       }
     },
     "Point of Departure" : {
-      "comment" : "Maneuver Points Entity Type"
+      "comment" : "Maneuver Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт відправлення"
+          }
+        }
+      }
     },
     "Point of Interest" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка інтересу"
+          }
+        }
+      }
     },
     "Point R Route" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка R Маршрут"
+          }
+        }
+      }
     },
     "Poisoning" : {
       "comment" : "Criminal Activity Incident Entity Subtype",
@@ -8537,7 +9769,15 @@
       }
     },
     "Pop-up Point" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спливаюча точка"
+          }
+        }
+      }
     },
     "Ports and Harbors" : {
       "comment" : "Hydrography Entity Type",
@@ -8551,10 +9791,26 @@
       }
     },
     "Position and Intended Movement (PIM)" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Позиція та запланований рух (PIM)"
+          }
+        }
+      }
     },
     "Position and Intended Movement (PIM) Route" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрут розташування та передбачуваного руху (PIM)."
+          }
+        }
+      }
     },
     "Post Office" : {
       "comment" : "Postal Services Infrastructure Subtype",
@@ -8612,7 +9868,15 @@
       }
     },
     "Pre-Landfall Waypoint" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрутна точка перед виходом на сушу"
+          }
+        }
+      }
     },
     "Precipitation of Unknown Type and Intensity" : {
       "comment" : "Weather Symbols Entity Type",
@@ -8626,7 +9890,15 @@
       }
     },
     "Predicted Impact Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Прогнозована точка впливу"
+          }
+        }
+      }
     },
     "Predominately Ice Covered" : {
       "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
@@ -8783,7 +10055,15 @@
       }
     },
     "Protection Points" : {
-      "comment" : "ControlMeasure Entity"
+      "comment" : "ControlMeasure Entity",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точки захисту"
+          }
+        }
+      }
     },
     "Public Affairs/Public Information" : {
       "comment" : "Sustainment Entity Type",
@@ -8819,7 +10099,15 @@
       }
     },
     "Q" : {
-      "comment" : "Harbor Entrance Point Entity Subtype"
+      "comment" : "Harbor Entrance Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Q"
+          }
+        }
+      }
     },
     "Quartermaster" : {
       "comment" : "Sustainment Entity Type",
@@ -8888,7 +10176,15 @@
       }
     },
     "Radiological" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Радіологічний"
+          }
+        }
+      }
     },
     "Raid on House" : {
       "comment" : "Operation Entity Type",
@@ -8979,10 +10275,26 @@
       }
     },
     "Rally Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка збору"
+          }
+        }
+      }
     },
     "Range Only" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тільки дальність"
+          }
+        }
+      }
     },
     "Reality" : {
       "comment" : "Context",
@@ -8996,7 +10308,15 @@
       }
     },
     "Rearm-Refuel and Resupply Point (R3P)" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт переозброєння, дозаправки та поповнення (R3P)"
+          }
+        }
+      }
     },
     "Recoilless Gun" : {
       "comment" : "Weapon System Entity Type",
@@ -9054,7 +10374,15 @@
       }
     },
     "Reconnaissance Outpost" : {
-      "comment" : "Observation Post Outpost Entity Subtype"
+      "comment" : "Observation Post Outpost Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розвідувальний пост"
+          }
+        }
+      }
     },
     "Reconnaissance/Cavalry/Scout" : {
       "comment" : "Movement and Maneuver Entity Type\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype",
@@ -9090,10 +10418,26 @@
       }
     },
     "Reference Point" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Орієнтир"
+          }
+        }
+      }
     },
     "Refuel on the Move (ROM) Point" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка дозаправки в русі (ROM)."
+          }
+        }
+      }
     },
     "Regiment/Group" : {
       "comment" : "Echelon at brigade and below amplifier descriptor",
@@ -9118,7 +10462,15 @@
       }
     },
     "Release Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт випуску"
+          }
+        }
+      }
     },
     "Religious Institution" : {
       "comment" : "Public Venues Infrastructure Subtype",
@@ -9154,16 +10506,48 @@
       }
     },
     "Reload Point" : {
-      "comment" : "Fires Points Entity Type"
+      "comment" : "Fires Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точка перезавантаження"
+          }
+        }
+      }
     },
     "Remote Multi-Mission Vehicle Mine Warfare Unmanned Underwater" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Віддалений багатоцільовий транспортний засіб протимінної боротьби без екіпажу під водою"
+          }
+        }
+      }
     },
     "Rendezvous Route" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрут зустрічей"
+          }
+        }
+      }
     },
     "Rendezvous Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Наземна станція «Рандеву»."
+          }
+        }
+      }
     },
     "Repair Ship" : {
       "comment" : "Auxiliary Ship Entity Subtype",
@@ -9188,13 +10572,37 @@
       }
     },
     "Replenishment at Sea Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поповнення запасів на морській станції"
+          }
+        }
+      }
     },
     "Replenishment Station" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Станція поповнення запасів"
+          }
+        }
+      }
     },
     "Reported Bottom Sub" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повідомлено про нижню частину"
+          }
+        }
+      }
     },
     "Reptile" : {
       "comment" : "Infestation Entity Subtype",
@@ -9208,10 +10616,26 @@
       }
     },
     "Rescue" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Порятунок"
+          }
+        }
+      }
     },
     "Rescue Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рятувальна надводна станція"
+          }
+        }
+      }
     },
     "Reservoir" : {
       "comment" : "Water Supply Infrastructure Subtype",
@@ -9511,7 +10935,15 @@
       }
     },
     "Screen Center" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Центр екрану"
+          }
+        }
+      }
     },
     "Sea Air Land (SEAL)" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -9525,7 +10957,15 @@
       }
     },
     "Sea Anomaly (Wake-Current-Knuckle)" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морська аномалія (кільватерна течія)"
+          }
+        }
+      }
     },
     "Sea Ice" : {
       "comment" : "Ice Systems Entity Type",
@@ -9605,7 +11045,15 @@
       }
     },
     "Sea Mine-Like" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Морська міна"
+          }
+        }
+      }
     },
     "Sea Mine-Moored" : {
       "comment" : "Sea Mine General Entity Type",
@@ -9718,10 +11166,26 @@
       }
     },
     "Search Area" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошукова область"
+          }
+        }
+      }
     },
     "Search Center" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пошуковий центр"
+          }
+        }
+      }
     },
     "Search symbol" : {
       "comment" : "Search bar",
@@ -9956,7 +11420,15 @@
       }
     },
     "Sensor Outpost/Listening Post" : {
-      "comment" : "Observation Post Outpost Entity Subtype"
+      "comment" : "Observation Post Outpost Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сенсорний пост/Пост прослуховування"
+          }
+        }
+      }
     },
     "Sensors" : {
       "comment" : "Land Equipment Entity",
@@ -10047,10 +11519,26 @@
       }
     },
     "Shelter" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Притулок"
+          }
+        }
+      }
     },
     "Shelter Above Ground" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Укриття над землею"
+          }
+        }
+      }
     },
     "Ship Yard" : {
       "comment" : "Transportation Infrastructure Subtype",
@@ -10075,7 +11563,15 @@
       }
     },
     "Shore Control Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Береговий пункт управління"
+          }
+        }
+      }
     },
     "Shore Patrol" : {
       "comment" : "Protection Entity Type",
@@ -10177,7 +11673,15 @@
       }
     },
     "Sinker" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Грузило"
+          }
+        }
+      }
     },
     "Sky Obscured" : {
       "comment" : "Fog Entity Subtype",
@@ -10334,7 +11838,15 @@
       }
     },
     "Sonobuoy" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Гідроакустичний буй"
+          }
+        }
+      }
     },
     "Space" : {
       "comment" : "Dimension\nSpace Entity",
@@ -10436,7 +11948,15 @@
       }
     },
     "Special Point" : {
-      "comment" : "Maritime Control Points Entity Type\nCommand and Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type\nCommand and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Особлива точка"
+          }
+        }
+      }
     },
     "Special SSNR" : {
       "comment" : "Special Operations Forces Entity Subtype",
@@ -10527,7 +12047,15 @@
       }
     },
     "Start Point" : {
-      "comment" : "Command and Control Points Entity Type"
+      "comment" : "Command and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Початкова точка"
+          }
+        }
+      }
     },
     "State of the Ground" : {
       "comment" : "Atmospheric Entity Type",
@@ -10629,7 +12157,15 @@
       }
     },
     "Strike Initial Point" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Початкова точка удару"
+          }
+        }
+      }
     },
     "Submarine" : {
       "comment" : "Military Entity Type",
@@ -10643,7 +12179,15 @@
       }
     },
     "Submarine Antisubmarine Warfare Subsurface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підводна станція протичовнової боротьби з підводними човнами"
+          }
+        }
+      }
     },
     "Submarine Cable" : {
       "comment" : "Man-Made Structures Entity Type",
@@ -10657,7 +12201,15 @@
       }
     },
     "Submarine Subsurface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підводна станція"
+          }
+        }
+      }
     },
     "Submarine Tender" : {
       "comment" : "Auxiliary Ship Entity Subtype",
@@ -10737,10 +12289,26 @@
       }
     },
     "SUCAP - Fixed Wing" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SUCAP - нерухоме крило"
+          }
+        }
+      }
     },
     "SUCAP - Rotary Wing" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SUCAP - роторне крило"
+          }
+        }
+      }
     },
     "Supervisory Control and Data Acquisition (SCADA)" : {
       "comment" : "Device Domain Entity Type",
@@ -10831,13 +12399,37 @@
       }
     },
     "Surface Warfare Mine Warfare Unmanned Underwater Vehicle" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надводний бойовий мінний безпілотний підводний апарат"
+          }
+        }
+      }
     },
     "Surface Warfare Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надземна станція для наземної оборони"
+          }
+        }
+      }
     },
     "Surface Warfare Unmanned Underwater Vehicle Subsurface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надводна бойова безпілотна підводна підводна станція"
+          }
+        }
+      }
     },
     "Surface Water Intake" : {
       "comment" : "Water Supply Infrastructure Subtype",
@@ -10895,7 +12487,15 @@
       }
     },
     "Survey Control Point" : {
-      "comment" : "Fires Points Entity Type"
+      "comment" : "Fires Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Контрольна точка зйомки"
+          }
+        }
+      }
     },
     "Survey Ship" : {
       "comment" : "Auxiliary Ship Entity Subtype",
@@ -10942,7 +12542,15 @@
       }
     },
     "Sustainment Points" : {
-      "comment" : "ControlMeasure Entity"
+      "comment" : "ControlMeasure Entity",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Точки підтримки"
+          }
+        }
+      }
     },
     "Sustainment Shipments" : {
       "comment" : "Other Equipment Entity Type",
@@ -10978,7 +12586,15 @@
       }
     },
     "TACAN" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TACAN"
+          }
+        }
+      }
     },
     "Tactical Satellite" : {
       "comment" : "Command and Control Entity Type\nSignal Entity Subtype",
@@ -11025,7 +12641,15 @@
       }
     },
     "Tanking" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Танкування"
+          }
+        }
+      }
     },
     "Target Acquisition" : {
       "comment" : "Field Artillery Entity Subtype",
@@ -11039,7 +12663,15 @@
       }
     },
     "Target Reference Point" : {
-      "comment" : "Maneuver Points Entity Type"
+      "comment" : "Maneuver Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цільова точка відліку"
+          }
+        }
+      }
     },
     "Taser" : {
       "comment" : "Weapon System Entity Type",
@@ -11141,7 +12773,15 @@
       }
     },
     "Tentative or Provisional Track" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Орієнтовна або тимчасова доріжка"
+          }
+        }
+      }
     },
     "Tented Camp" : {
       "comment" : "Installation Entity Type",
@@ -11177,7 +12817,15 @@
       }
     },
     "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тетраедри, зуби дракона та інші подібні перешкоди"
+          }
+        }
+      }
     },
     "Theater/Echelons Above Corps Support" : {
       "comment" : "Amplifier Entity Subtype\nSignal Entity Subtype",
@@ -11312,7 +12960,15 @@
       }
     },
     "Tomcat" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomcat"
+          }
+        }
+      }
     },
     "Topographic" : {
       "comment" : "Protection Entity Type",
@@ -11392,10 +13048,26 @@
       }
     },
     "Tower-High" : {
-      "comment" : "Vertical Obstructions Entity Subtype"
+      "comment" : "Vertical Obstructions Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вежа-висока"
+          }
+        }
+      }
     },
     "Tower-Low" : {
-      "comment" : "Vertical Obstructions Entity Subtype"
+      "comment" : "Vertical Obstructions Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вежа-низька"
+          }
+        }
+      }
     },
     "Toxic Gas" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -11409,7 +13081,15 @@
       }
     },
     "Toxic Industrial Material" : {
-      "comment" : "Chemical Event Entity Subtype"
+      "comment" : "Chemical Event Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Токсичний промисловий матеріал"
+          }
+        }
+      }
     },
     "Toxic Infectious Material" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -11467,7 +13147,15 @@
       }
     },
     "Traffic Control Post (TCP)" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пост регулювання дорожнього руху (ППД)"
+          }
+        }
+      }
     },
     "Traffic Inspection Facility" : {
       "comment" : "Transportation Infrastructure Subtype",
@@ -11503,7 +13191,15 @@
       }
     },
     "Trailer Transfer Point (TTP)" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт передачі причепа (TTP)"
+          }
+        }
+      }
     },
     "Train" : {
       "comment" : "Land Equipment Entity",
@@ -11649,7 +13345,15 @@
       }
     },
     "Trial Track" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пробний трек"
+          }
+        }
+      }
     },
     "Tropical Depression" : {
       "comment" : "Tropical Storm Systems Entity Subtype",
@@ -11883,7 +13587,15 @@
       }
     },
     "Unit Maintenance Collection Point (UMCP)" : {
-      "comment" : "Sustainment Points Entity Subtype"
+      "comment" : "Sustainment Points Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт збору технічного обслуговування підрозділів (UMCP)"
+          }
+        }
+      }
     },
     "United States Secret Service (USSS)" : {
       "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
@@ -11908,7 +13620,15 @@
       }
     },
     "Unmanned Aerial System (UAS/UA)" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Безпілотна літальна система (UAS/UA)"
+          }
+        }
+      }
     },
     "Unmanned Aerial Systems" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -11944,13 +13664,37 @@
       }
     },
     "Unmanned Underwater Vehicle Subsurface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підводна станція безпілотного підводного апарату"
+          }
+        }
+      }
     },
     "Unmanned Underwater Vehicle Surface Station" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надводна станція безпілотного підводного апарату"
+          }
+        }
+      }
     },
     "Unspecified Mine" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Невизначена міна"
+          }
+        }
+      }
     },
     "Upper Cold Front" : {
       "comment" : "Frontal Systems Entity Subtype",
@@ -12008,34 +13752,114 @@
       }
     },
     "US Class I Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу I"
+          }
+        }
+      }
     },
     "US Class II Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу II"
+          }
+        }
+      }
     },
     "US Class III Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу III"
+          }
+        }
+      }
     },
     "US Class IV Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу IV"
+          }
+        }
+      }
     },
     "US Class IX Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу IX"
+          }
+        }
+      }
     },
     "US Class V Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу V"
+          }
+        }
+      }
     },
     "US Class VI Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу VI"
+          }
+        }
+      }
     },
     "US Class VII Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу VII"
+          }
+        }
+      }
     },
     "US Class VIII Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу VIII"
+          }
+        }
+      }
     },
     "US Class X Supply Point" : {
-      "comment" : "General Supply Point Entity Subtype"
+      "comment" : "General Supply Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пункт постачання США класу X"
+          }
+        }
+      }
     },
     "US Marshals Service" : {
       "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
@@ -12225,10 +14049,26 @@
       }
     },
     "Vertical Line Array Directional Frequency Analysis and Recording (DIFAR)" : {
-      "comment" : "Sonobuoy Entity Subtype"
+      "comment" : "Sonobuoy Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Спрямований частотний аналіз і запис вертикальної лінійної матриці (DIFAR)"
+          }
+        }
+      }
     },
     "Vertical Obstructions" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вертикальні перешкоди"
+          }
+        }
+      }
     },
     "Vertical-Takeoff UAV (VT-UAV)" : {
       "comment" : "Military Entity Type",
@@ -12297,7 +14137,15 @@
       }
     },
     "Vital Area Center" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Центр життєдіяльності"
+          }
+        }
+      }
     },
     "Volcanic Ash" : {
       "comment" : "Volcanic Eruption Entity Subtype",
@@ -12344,7 +14192,15 @@
       }
     },
     "VTUA" : {
-      "comment" : "Airspace Control Points Entity Points"
+      "comment" : "Airspace Control Points Entity Points",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VTUA"
+          }
+        }
+      }
     },
     "Warehouse/Storage Facility" : {
       "comment" : "Installation Entity Type",
@@ -12479,10 +14335,26 @@
       }
     },
     "Waypoint" : {
-      "comment" : "Maritime Control Points Entity Type\nCommand and Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type\nCommand and Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрутна точка"
+          }
+        }
+      }
     },
     "Waypoint Route" : {
-      "comment" : "Maritime Control Points Entity Type"
+      "comment" : "Maritime Control Points Entity Type",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Маршрутна точка"
+          }
+        }
+      }
     },
     "Weapon" : {
       "comment" : "Air Unit Entity\nSea Subsurface Entity",
@@ -12584,7 +14456,15 @@
       }
     },
     "Wide Area Antitank Mine" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Протитанкова міна широкого радіусу дії"
+          }
+        }
+      }
     },
     "Wild Fire" : {
       "comment" : "Fire Event Entity Type",
@@ -12763,7 +14643,15 @@
       }
     },
     "Y" : {
-      "comment" : "Harbor Entrance Point Entity Subtype"
+      "comment" : "Harbor Entrance Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Y"
+          }
+        }
+      }
     },
     "Zombie" : {
       "comment" : "Botnet Entity Type",
@@ -12777,7 +14665,15 @@
       }
     },
     "Х" : {
-      "comment" : "Harbor Entrance Point Entity Subtype"
+      "comment" : "Harbor Entrance Point Entity Subtype",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Х"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
