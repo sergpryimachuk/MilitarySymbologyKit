@@ -1,6 +1,21 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "A" : {
+      "comment" : "Harbor Entrance Point Entity Subtype"
+    },
+    "Abatis" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
+    "Acoustic Countermeasure (Decoy)" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Acoustic Fix" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Action Point (General)" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
     "Activities" : {
       "comment" : "Dimension",
       "localizations" : {
@@ -44,6 +59,9 @@
           }
         }
       }
+    },
+    "AEW Station" : {
+      "comment" : "Airspace Control Points Entity Points"
     },
     "Aftershock" : {
       "comment" : "Geologic Entity Subtype",
@@ -89,6 +107,9 @@
         }
       }
     },
+    "Aim Point" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Air" : {
       "comment" : "Transportation Incident Entity Type\nDimension",
       "localizations" : {
@@ -110,6 +131,12 @@
           }
         }
       }
+    },
+    "Air Control Point" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
+    "Air Control Rendezvous" : {
+      "comment" : "Airspace Control Points Entity Points"
     },
     "Air Defense" : {
       "comment" : "Fire Support Entity Type",
@@ -144,6 +171,9 @@
         }
       }
     },
+    "Air Detonation" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Air Missile" : {
       "comment" : "Dimension",
       "localizations" : {
@@ -176,6 +206,9 @@
           }
         }
       }
+    },
+    "Air Transportable Communication" : {
+      "comment" : "Sonobuoy Entity Subtype"
     },
     "Air-Land-Naval Gunfire Liaison" : {
       "comment" : "Fire Support Entity Type",
@@ -221,6 +254,9 @@
         }
       }
     },
+    "Airfield" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
     "Airport of Debarkation/Airport of Embarkation" : {
       "comment" : "Sustainment Entity Type",
       "localizations" : {
@@ -253,6 +289,9 @@
           }
         }
       }
+    },
+    "Airspace Control Points" : {
+      "comment" : "ControlMeasure Entity"
     },
     "All Classes of Supply" : {
       "comment" : "Sustainment Entity Type",
@@ -287,6 +326,9 @@
         }
       }
     },
+    "Ambient Noise" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
     "Ambulance" : {
       "comment" : "Emergency Operation Entity Type",
       "localizations" : {
@@ -297,6 +339,9 @@
           }
         }
       }
+    },
+    "Ambulance Exchange Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
     },
     "Ammunition" : {
       "comment" : "Sustainment Entity Type",
@@ -342,8 +387,17 @@
         }
       }
     },
+    "Ammunition Supply Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
+    "Ammunition Transfer Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
+    "Amnesty Point" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
     "Amphibious" : {
-      "comment" : "Armor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype\nInfantry Entity Subtype\nEquipment mobility on water amplifier descriptor\nMovement and Maneuver Entity Type",
+      "comment" : "Infantry Entity Subtype\nMovement and Maneuver Entity Type\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype\nEquipment mobility on water amplifier descriptor",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -518,6 +572,12 @@
         }
       }
     },
+    "Antipersonnel Mine" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
+    "Antipersonnel Mine with Directional Effects" : {
+      "comment" : "Antipersonnel Mine Entity Subtype"
+    },
     "Antisubmarine Warfare" : {
       "comment" : "Fixed Wing Entity Subtype",
       "localizations" : {
@@ -528,6 +588,9 @@
           }
         }
       }
+    },
+    "Antisubmarine Warfare, Rotary Wing" : {
+      "comment" : "Airspace Control Points Entity Points"
     },
     "Antisurface Warfare" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -552,7 +615,7 @@
       }
     },
     "Antitank Mine" : {
-      "comment" : "Land Mines Entity Type",
+      "comment" : "Land Mines Entity Type\nProtection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -561,6 +624,9 @@
           }
         }
       }
+    },
+    "Antitank Mine with Anti-handling Device" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
     },
     "Antitank Missile Launcher" : {
       "comment" : "Weapon System Entity Type",
@@ -881,6 +947,18 @@
         }
       }
     },
+    "ASW (Helo and F/W) Station" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
+    "ASW Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "ASW Unmanned Underwater Vehicle Subsurface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "ASW Unmanned Underwater Vehicle Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "ATM" : {
       "comment" : "Banking, Finance, and Insurance Infrastructure Subtype",
       "localizations" : {
@@ -1069,7 +1147,7 @@
       }
     },
     "Barge, Not Self-Propelled" : {
-      "comment" : "Service Craft Yard Entity Subtype\nMerchant Ship Entity Subtype",
+      "comment" : "Merchant Ship Entity Subtype\nService Craft Yard Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1089,6 +1167,12 @@
           }
         }
       }
+    },
+    "Barra" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
+    "Bathythermograph Transmitting" : {
+      "comment" : "Sonobuoy Entity Subtype"
     },
     "Battalion/Squadron" : {
       "comment" : "Echelon at brigade and below amplifier descriptor",
@@ -1122,6 +1206,12 @@
           }
         }
       }
+    },
+    "Below Ground Shelter" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
+    "Biological Event" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
     },
     "Bioluminescence" : {
       "comment" : "Oceanography Entity Type",
@@ -1256,7 +1346,7 @@
       }
     },
     "Booby Trap" : {
-      "comment" : "Other Equipment Entity Type\nCriminal Activity Incident Entity Subtype",
+      "comment" : "Other Equipment Entity Type\nProtection Points Entity Type\nCriminal Activity Incident Entity Subtype\nGeneral Decontamination Point Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1267,7 +1357,7 @@
       }
     },
     "Border Patrol" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1298,6 +1388,18 @@
           }
         }
       }
+    },
+    "Bottom Return/Non-MILCO-Wreck-Dangerous" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Bottom Return/Non-MILCO-Wreck-Non Dangerous" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Bottom Return/Non-Mine Like Bottom Object (NOMBO)" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Bottom Return/Non-Mine Like Bottom Object (NOMBO)/Installation Manmade" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Bounded Areas of Weather" : {
       "comment" : "Atmospheric Entity Type",
@@ -1331,6 +1433,9 @@
           }
         }
       }
+    },
+    "Brief Contact" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Brigade" : {
       "comment" : "Echelon at brigade and below amplifier descriptor",
@@ -1375,6 +1480,9 @@
           }
         }
       }
+    },
+    "BT Buoy Drop" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Bullion Storage" : {
       "comment" : "Banking, Finance, and Insurance Infrastructure Subtype",
@@ -1486,6 +1594,12 @@
         }
       }
     },
+    "Cannibalization Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
+    "CAP Station" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
     "Cargo" : {
       "comment" : "Fixed Wing Entity Subtype",
       "localizations" : {
@@ -1519,6 +1633,9 @@
         }
       }
     },
+    "Casualty Collection Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
     "Cave Entrance" : {
       "comment" : "Geologic Entity Subtype",
       "localizations" : {
@@ -1541,6 +1658,15 @@
         }
       }
     },
+    "CBRN Observation Outpost" : {
+      "comment" : "Observation Post Outpost Entity Subtype"
+    },
+    "Center of Main Effort" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
+    "Checkpoint" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
     "Chemical Agent" : {
       "comment" : "Hazard Materials Incident Subtype",
       "localizations" : {
@@ -1562,6 +1688,9 @@
           }
         }
       }
+    },
+    "Chemical Event" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
     },
     "Chemical Plant" : {
       "comment" : "Commercial Infrastructure Subtype",
@@ -1641,7 +1770,7 @@
       }
     },
     "Civilian" : {
-      "comment" : "Sea Surface Entity\nSea Subsurface Entity\nLand Civilian Entity\nAir Unit Entity",
+      "comment" : "Sea Surface Entity\nLand Civilian Entity\nAir Unit Entity\nSea Subsurface Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1650,6 +1779,9 @@
           }
         }
       }
+    },
+    "Civilian Collection Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
     },
     "Civilian Vehicle" : {
       "comment" : "Land Equipment Entity",
@@ -1706,8 +1838,11 @@
         }
       }
     },
+    "Clutter-Stationary or Cease Reporting" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Coast Guard" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1794,6 +1929,9 @@
         }
       }
     },
+    "Combat Outpost" : {
+      "comment" : "Observation Post Outpost Entity Subtype"
+    },
     "Combat Search and Rescue (CSAR)" : {
       "comment" : "Fixed Wing Entity Subtype",
       "localizations" : {
@@ -1871,6 +2009,12 @@
         }
       }
     },
+    "Command Active Multi-Beam (CAMBS)" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
+    "Command Active Sonobuoy Directional Command Active Sonobuoy System (CASS)" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
     "Command and Control" : {
       "comment" : "Land Unit Entity",
       "localizations" : {
@@ -1892,6 +2036,9 @@
           }
         }
       }
+    },
+    "Command and Control Points" : {
+      "comment" : "ControlMeasure Entity"
     },
     "Command Launch Equipment (CLE)" : {
       "comment" : "Other Equipment Entity Type",
@@ -1927,7 +2074,7 @@
       }
     },
     "Communications" : {
-      "comment" : "Signal Intercept Entity Type\nFixed Wing Entity Subtype",
+      "comment" : "Fixed Wing Entity Subtype\nSignal Intercept Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1936,6 +2083,9 @@
           }
         }
       }
+    },
+    "Communications Checkpoint" : {
+      "comment" : "Airspace Control Points Entity Points"
     },
     "Compact or Wet Snow (At Least One-Half of Ground)" : {
       "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
@@ -2003,6 +2153,9 @@
         }
       }
     },
+    "Contact Point" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
     "Container Ship" : {
       "comment" : "Merchant Ship Entity Subtype",
       "localizations" : {
@@ -2069,6 +2222,9 @@
         }
       }
     },
+    "Control Measure" : {
+      "comment" : "Dimension"
+    },
     "Control Valve" : {
       "comment" : "Water Supply Infrastructure Subtype",
       "localizations" : {
@@ -2102,6 +2258,9 @@
         }
       }
     },
+    "Coordinating Point" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
     "Copy" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -2125,7 +2284,7 @@
       }
     },
     "Corps Support" : {
-      "comment" : "Signal Entity Subtype\nAmplifier Entity Subtype",
+      "comment" : "Amplifier Entity Subtype\nSignal Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2145,6 +2304,9 @@
           }
         }
       }
+    },
+    "Corridor Tab Point" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Corrosive Material" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -2246,7 +2408,7 @@
       }
     },
     "Customs Service" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2300,6 +2462,9 @@
         }
       }
     },
+    "Data Link Reference Point" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Data Manipulation" : {
       "comment" : "Effect Entity Type",
       "localizations" : {
@@ -2322,6 +2487,9 @@
         }
       }
     },
+    "Datum Lost Contact" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Dead Body" : {
       "comment" : "Criminal Activity Incident Entity Subtype",
       "localizations" : {
@@ -2333,8 +2501,11 @@
         }
       }
     },
+    "Decision Point" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
     "Decoy" : {
-      "comment" : "Military Combatant Entity Type\nWeapon Entity Type",
+      "comment" : "Weapon Entity Type\nMilitary Combatant Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2343,6 +2514,9 @@
           }
         }
       }
+    },
+    "Defended Asset" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Degradation" : {
       "comment" : "Effect Entity Type",
@@ -2378,7 +2552,7 @@
       }
     },
     "Department of Justice (DOJ)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2421,6 +2595,9 @@
         }
       }
     },
+    "Detainee Collection Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
     "Device Domain" : {
       "comment" : "Cyberspace Entity Type",
       "localizations" : {
@@ -2454,6 +2631,9 @@
         }
       }
     },
+    "Digital Frequency Analysis and Recording (DIFAR)" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
     "Dimension" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -2475,6 +2655,9 @@
           }
         }
       }
+    },
+    "Dip Position" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Direct Fire Gun" : {
       "comment" : "Weapon System Entity Type",
@@ -2498,6 +2681,9 @@
         }
       }
     },
+    "Directional Command Active Sonobuoy System (DICASS)" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
     "Discharge Outfall" : {
       "comment" : "Water Supply Infrastructure Subtype",
       "localizations" : {
@@ -2520,6 +2706,15 @@
         }
       }
     },
+    "Distress Call" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
+    "Distressed Vessel" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Ditched Aircraft/Downed Aircraft" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Dive Report Location" : {
       "comment" : "Mine Warfare Entity",
       "localizations" : {
@@ -2532,7 +2727,7 @@
       }
     },
     "Diver" : {
-      "comment" : "Military Entity Type\nCivilian Entity Type",
+      "comment" : "Civilian Entity Type\nMilitary Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2541,6 +2736,9 @@
           }
         }
       }
+    },
+    "Diversion Route" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Diving" : {
       "comment" : "Protection Entity Type",
@@ -2565,7 +2763,7 @@
       }
     },
     "Division and Below Support" : {
-      "comment" : "Signal Entity Subtype\nAmplifier Entity Subtype",
+      "comment" : "Amplifier Entity Subtype\nSignal Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2596,6 +2794,9 @@
           }
         }
       }
+    },
+    "Downed Aircraft Pick-up Point" : {
+      "comment" : "Airspace Control Points Entity Points"
     },
     "Dozer" : {
       "comment" : "Engineer Vehicles and Equipment Entity Type",
@@ -2707,6 +2908,9 @@
         }
       }
     },
+    "Drop Point" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Drought" : {
       "comment" : "Hydro-Meteorological Entity Subtype",
       "localizations" : {
@@ -2719,7 +2923,7 @@
       }
     },
     "Drug Enforcement Administration (DEA)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2763,7 +2967,7 @@
       }
     },
     "Dust or Sand" : {
-      "comment" : "Weather Symbols Entity Type\nBounded Areas of Weather Entity Type",
+      "comment" : "Bounded Areas of Weather Entity Type\nWeather Symbols Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2894,6 +3098,12 @@
         }
       }
     },
+    "Electromagnetic - Magnetic Anomaly Detection (MAD)" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Electromagnetic Fix" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Electronic Attack (EA)" : {
       "comment" : "Fixed Wing Entity Subtype",
       "localizations" : {
@@ -2915,6 +3125,9 @@
           }
         }
       }
+    },
+    "Electronic Countermeasures (ECM) Decoy" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Electronic Ranging" : {
       "comment" : "Intelligence Entity Type",
@@ -2983,7 +3196,7 @@
       }
     },
     "Emergency Medical Operation" : {
-      "comment" : "Other Equipment Entity Type\nEmergency Operation Subtype\nOperation Entity Type\nLand Civilian Entity Type",
+      "comment" : "Operation Entity Type\nLand Civilian Entity Type\nOther Equipment Entity Type\nEmergency Operation Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2994,7 +3207,7 @@
       }
     },
     "Emergency Operation" : {
-      "comment" : "Land Unit Entity\nLand Equipment Entity\nInstallation Entity Type\nOperation Entity Type",
+      "comment" : "Operation Entity Type\nLand Unit Entity\nInstallation Entity Type\nLand Equipment Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3081,6 +3294,12 @@
         }
       }
     },
+    "Enemy Point" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Enemy Prisoner of War Collection Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
     "Energy Facility Infrastructure" : {
       "comment" : "Infrastructure Entity Type",
       "localizations" : {
@@ -3102,6 +3321,9 @@
           }
         }
       }
+    },
+    "Engineer Regulating Point" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
     },
     "Engineer Vehicles and Equipment" : {
       "comment" : "Land Equipment Entity",
@@ -3157,6 +3379,12 @@
           }
         }
       }
+    },
+    "Entry Control Point" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
+    "Entry Point" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Environmental Protection" : {
       "comment" : "Land Civilian Entity Type",
@@ -3234,6 +3462,9 @@
           }
         }
       }
+    },
+    "Estimated Position (EP)" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Even Layer of Compact or Wet Snow" : {
       "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
@@ -3324,7 +3555,7 @@
       }
     },
     "Exfiltration" : {
-      "comment" : "Effect Entity Type\nOperation Entity Type",
+      "comment" : "Operation Entity Type\nEffect Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3333,6 +3564,12 @@
           }
         }
       }
+    },
+    "Expendable Reliable Acoustic Path Sonobuoy (ERAPS)" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
+    "Expired" : {
+      "comment" : "Sonobuoy Entity Subtype"
     },
     "Explosion" : {
       "comment" : "Incident Entity Type",
@@ -3445,7 +3682,7 @@
       }
     },
     "Federal Bureau of Investigation (FBI)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3752,6 +3989,9 @@
         }
       }
     },
+    "Fires Points" : {
+      "comment" : "ControlMeasure Entity"
+    },
     "Firewall" : {
       "comment" : "Device Type Entity Type",
       "localizations" : {
@@ -3763,6 +4003,9 @@
         }
       }
     },
+    "Firing Point" : {
+      "comment" : "Fires Points Entity Type"
+    },
     "Fishing Vessel" : {
       "comment" : "Civilian Entity Type",
       "localizations" : {
@@ -3773,6 +4016,9 @@
           }
         }
       }
+    },
+    "Fixed and Prefabricated" : {
+      "comment" : "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles Entity Subtype"
     },
     "Fixed Bridge" : {
       "comment" : "Engineer Vehicles and Equipment Entity Type",
@@ -3884,8 +4130,20 @@
         }
       }
     },
+    "Fly-To-Point" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
+    "Fly-To-Point (Normal)" : {
+      "comment" : "Fly-To-Point Entity Subtype"
+    },
+    "Fly-To-Point (Sonobuoy)" : {
+      "comment" : "Fly-To-Point Entity Subtype"
+    },
+    "Fly-To-Point (Weapon)" : {
+      "comment" : "Fly-To-Point Entity Subtype"
+    },
     "Fog" : {
-      "comment" : "Weather Symbols Entity Type\nBounded Areas of Weather Entity Type",
+      "comment" : "Bounded Areas of Weather Entity Type\nWeather Symbols Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3960,6 +4218,18 @@
           }
         }
       }
+    },
+    "Formation" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Fort" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
+    "Forward Observer / Spotter Position" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Forward Observer Outpost" : {
+      "comment" : "Observation Post Outpost Entity Subtype"
     },
     "Freezing Drizzle" : {
       "comment" : "Weather Symbols Entity Type",
@@ -4082,6 +4352,9 @@
         }
       }
     },
+    "General Decontamination Point/Site" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
     "General Mine Anchor" : {
       "comment" : "Mine Warfare Entity",
       "localizations" : {
@@ -4092,6 +4365,18 @@
           }
         }
       }
+    },
+    "General Route" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "General Subsurface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "General Supply Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
+    "General Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Generation Station" : {
       "comment" : "Energy Facility Infrastructure Subtype",
@@ -4280,6 +4565,9 @@
         }
       }
     },
+    "Ground Zero" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Ground-based Midcourse Defense (GMD) Fire Control (GFC) Center" : {
       "comment" : "Other Equipment Entity Type",
       "localizations" : {
@@ -4301,6 +4589,12 @@
           }
         }
       }
+    },
+    "Harbor" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Harbor Entrance Point" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Hazard Materials" : {
       "comment" : "Activities Entity",
@@ -4380,7 +4674,7 @@
       }
     },
     "Headquarters Element" : {
-      "comment" : "Signal Entity Subtype\nAmplifier Entity Subtype",
+      "comment" : "Amplifier Entity Subtype\nSignal Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4413,7 +4707,7 @@
       }
     },
     "Heavy" : {
-      "comment" : "Air Defense Missile Launcher Entity Subtype\nLight/Heavy Entity Subtype\nLight/Medium/Heavy Entity Subtype",
+      "comment" : "Air Defense Missile Launcher Entity Subtype\nLight/Medium/Heavy Entity Subtype\nLight/Heavy Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4478,6 +4772,9 @@
         }
       }
     },
+    "Hide Point" : {
+      "comment" : "Fires Points Entity Type"
+    },
     "High Pressure Center" : {
       "comment" : "Pressure Systems Entity Type",
       "localizations" : {
@@ -4512,7 +4809,7 @@
       }
     },
     "Hospital Ship" : {
-      "comment" : "Auxiliary Ship Entity Subtype\nMerchant Ship Entity Subtype",
+      "comment" : "Merchant Ship Entity Subtype\nAuxiliary Ship Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4665,6 +4962,9 @@
         }
       }
     },
+    "Iceberg" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Icebergs" : {
       "comment" : "Ice Systems Entity Type",
       "localizations" : {
@@ -4753,6 +5053,9 @@
         }
       }
     },
+    "Impact Point" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Impaired" : {
       "comment" : "Health and Status Entity Type",
       "localizations" : {
@@ -4820,7 +5123,7 @@
       }
     },
     "Individual" : {
-      "comment" : "Activities Entity\nLand Civilian Entity Type",
+      "comment" : "Land Civilian Entity Type\nActivities Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5029,7 +5332,7 @@
       }
     },
     "Intermittent Heavy" : {
-      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5040,7 +5343,7 @@
       }
     },
     "Intermittent Heavy/Continuous Heavy" : {
-      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5051,7 +5354,7 @@
       }
     },
     "Intermittent Light" : {
-      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5062,7 +5365,7 @@
       }
     },
     "Intermittent Light/Continuous Light" : {
-      "comment" : "Drizzle Entity Subtype\nSnow Entity Subtype",
+      "comment" : "Snow Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5073,7 +5376,7 @@
       }
     },
     "Intermittent Moderate" : {
-      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5084,7 +5387,7 @@
       }
     },
     "Intermittent Moderate/Continuous Moderate" : {
-      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
+      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5358,6 +5661,9 @@
         }
       }
     },
+    "Kingpin" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
     "Known Insurgent Vehicle" : {
       "comment" : "Civilian Vehicle Entity Type",
       "localizations" : {
@@ -5522,6 +5828,15 @@
         }
       }
     },
+    "Launch Event (Point of Interest)" : {
+      "comment" : "Point Of Interest Entity Subtype"
+    },
+    "Launch Point" : {
+      "comment" : "Fires Points Entity Type"
+    },
+    "Launched Torpedo" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Laundry/Bath" : {
       "comment" : "Sustainment Entity Type",
       "localizations" : {
@@ -5534,7 +5849,7 @@
       }
     },
     "Law Enforcement" : {
-      "comment" : "Land Unit Entity\nLand Equipment Entity\nInstallation Entity Type",
+      "comment" : "Land Unit Entity\nInstallation Entity Type\nLand Equipment Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5611,7 +5926,7 @@
       }
     },
     "Light" : {
-      "comment" : "Air Defense Missile Launcher Entity Subtype\nEntity Subtype\nTurbulence Entity Type\nLight/Heavy Entity Subtype\nLight/Medium/Severe Entity Subtype\nLight/Medium/Heavy Entity Subtype\nRain and Snow Mixed Entity Subtype",
+      "comment" : "Air Defense Missile Launcher Entity Subtype\nEntity Subtype\nLight/Medium/Heavy Entity Subtype\nLight/Medium/Severe Entity Subtype\nRain and Snow Mixed Entity Subtype\nLight/Heavy Entity Subtype\nTurbulence Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5742,6 +6057,9 @@
         }
       }
     },
+    "Linkup Point" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
     "Liquid Precipitation - Convective" : {
       "comment" : "Entity Subtype",
       "localizations" : {
@@ -5797,6 +6115,9 @@
         }
       }
     },
+    "Logistics Release Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
     "Long Towed Array" : {
       "comment" : "Naval towed array amplifier descriptor",
       "localizations" : {
@@ -5841,6 +6162,12 @@
         }
       }
     },
+    "Lost Contact" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Low Frequency Analysis and Recording (LOFAR)" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
     "Low Pressure Center" : {
       "comment" : "Pressure Systems Entity Type",
       "localizations" : {
@@ -5875,7 +6202,7 @@
       }
     },
     "Main Gun System" : {
-      "comment" : "Infantry Entity Subtype\nAir Defense Entity Subtype",
+      "comment" : "Air Defense Entity Subtype\nInfantry Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5895,6 +6222,9 @@
           }
         }
       }
+    },
+    "Maintenance Collection Point (MCP)" : {
+      "comment" : "Sustainment Points Entity Subtype"
     },
     "Maintenance Facility" : {
       "comment" : "Transportation Infrastructure Subtype",
@@ -5918,8 +6248,11 @@
         }
       }
     },
+    "Maneuver Points" : {
+      "comment" : "ControlMeasure Entity"
+    },
     "Manual Track" : {
-      "comment" : "Sea Surface Entity\nSea Subsurface Entity\nLand Equipment Entity\nAir Unit Entity",
+      "comment" : "Sea Surface Entity\nAir Unit Entity\nSea Subsurface Entity\nLand Equipment Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5941,7 +6274,7 @@
       }
     },
     "Marine" : {
-      "comment" : "Transportation Incident Entity Type\nReconnaissance/Cavalry/Scout Entity Subtype",
+      "comment" : "Reconnaissance/Cavalry/Scout Entity Subtype\nTransportation Incident Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5950,6 +6283,9 @@
           }
         }
       }
+    },
+    "Marine Life" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Maritime Area" : {
       "comment" : "Limits Entity Type",
@@ -5962,6 +6298,9 @@
         }
       }
     },
+    "Maritime Control Points" : {
+      "comment" : "ControlMeasure Entity"
+    },
     "Maritime Limit Boundary" : {
       "comment" : "Limits Entity Type",
       "localizations" : {
@@ -5972,6 +6311,9 @@
           }
         }
       }
+    },
+    "Marshall Point" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Mass Grave Site" : {
       "comment" : "Installation Entity Type",
@@ -6018,7 +6360,7 @@
       }
     },
     "Medical" : {
-      "comment" : "Medical Infrastructure Subtype\nSustainment Entity Type\nUtility Vehicles Entity Type",
+      "comment" : "Utility Vehicles Entity Type\nSustainment Entity Type\nMedical Infrastructure Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6049,6 +6391,9 @@
           }
         }
       }
+    },
+    "Medical Evacuation (MEDEVAC) Pick-up Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
     },
     "Medical Evacuation Helicopter" : {
       "comment" : "Emergency Medical Operation Entity Subtype",
@@ -6083,6 +6428,9 @@
         }
       }
     },
+    "Medical Supply Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
     "Medical Treatment Facility" : {
       "comment" : "Sustainment Entity Type",
       "localizations" : {
@@ -6106,7 +6454,7 @@
       }
     },
     "Medium" : {
-      "comment" : "Air Defense Missile Launcher Entity Subtype\nLight/Medium/Severe Entity Subtype\nLight/Medium/Heavy Entity Subtype",
+      "comment" : "Air Defense Missile Launcher Entity Subtype\nLight/Medium/Heavy Entity Subtype\nLight/Medium/Severe Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6282,7 +6630,7 @@
       }
     },
     "Military" : {
-      "comment" : "Sea Surface Entity\nSea Subsurface Entity\nAir Unit Entity",
+      "comment" : "Sea Surface Entity\nAir Unit Entity\nSea Subsurface Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6524,7 +6872,7 @@
       }
     },
     "Mine Laying" : {
-      "comment" : "Protection Entity Type\nOperation Entity Type",
+      "comment" : "Operation Entity Type\nProtection Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6611,6 +6959,15 @@
         }
       }
     },
+    "Mine Warfare Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Mine Warfare Unmanned Underwater Vehicle Subsurface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Mine Warfare Unmanned Underwater Vehicle Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Mine-Like Contact (MILCO)" : {
       "comment" : "Mine Warfare Entity",
       "localizations" : {
@@ -6667,7 +7024,7 @@
       }
     },
     "Missile" : {
-      "comment" : "Air Defense Entity Subtype\nFire Support Entity Type",
+      "comment" : "Fire Support Entity Type\nAir Defense Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6687,6 +7044,9 @@
           }
         }
       }
+    },
+    "Missile Detection Point" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Missile Launcher" : {
       "comment" : "Weapon System Entity Type",
@@ -6720,6 +7080,12 @@
           }
         }
       }
+    },
+    "MIW - Fixed Wing" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
+    "MIW - Rotary Wing" : {
+      "comment" : "Airspace Control Points Entity Points"
     },
     "Mixed Icing" : {
       "comment" : "Icing Entity Type",
@@ -6821,7 +7187,7 @@
       }
     },
     "Mortar" : {
-      "comment" : "Weapon System Entity Type\nFire Support Entity Type",
+      "comment" : "Fire Support Entity Type\nWeapon System Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6854,7 +7220,7 @@
       }
     },
     "Motorized" : {
-      "comment" : "CBRND Defense Entity Subtype\nInfantry Entity Subtype\nReconnaissance/Cavalry/Scout Entity Subtype\nEngineer Entity Subtype\nAntitank/Antiarmor Entity Subtype",
+      "comment" : "Antitank/Antiarmor Entity Subtype\nInfantry Entity Subtype\nReconnaissance/Cavalry/Scout Entity Subtype\nCBRND Defense Entity Subtype\nEngineer Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6875,6 +7241,12 @@
         }
       }
     },
+    "Movable" : {
+      "comment" : "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles Entity Subtype"
+    },
+    "Movable and Prefabricated" : {
+      "comment" : "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles Entity Subtype"
+    },
     "Movement and Maneuver" : {
       "comment" : "Land Unit Entity",
       "localizations" : {
@@ -6885,6 +7257,9 @@
           }
         }
       }
+    },
+    "Moving Haven" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Multifunctional Earthmover/Digger" : {
       "comment" : "Earthmover Entity Subtype",
@@ -6995,6 +7370,24 @@
           }
         }
       }
+    },
+    "NATO Class I Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "NATO Class II Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "NATO Class III Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "NATO Class IV Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "NATO Class V Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "NATO Multiple Class Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
     },
     "NATO Supply Class I" : {
       "comment" : "Sustainment Entity Type",
@@ -7116,6 +7509,12 @@
           }
         }
       }
+    },
+    "Navigational" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Navigational Reference Point" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Navy Task Element" : {
       "comment" : "Navy Task Organization Entity Subtype",
@@ -7337,6 +7736,9 @@
         }
       }
     },
+    "Non-Combatant Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Non-Flammable Gas" : {
       "comment" : "Hazard Materials Incident Subtype",
       "localizations" : {
@@ -7415,7 +7817,7 @@
       }
     },
     "None" : {
-      "comment" : "Civil Disturbance Entity Type\nMILCO General Entity Subtype\nNegative Reacquisition - General Entity Type\nNot selected.\nExplosion Entity Subtype\nMine-Like Echo (MILEC) - General Entity Type\nSignal Entity Subtype\nArmored Vehicle Entity Subtype\nFixed Wing Entity Subtype\nGeologic Entity Subtype\nNon-Mine Mine-Like Object (NMLO) - General Entity Type\nCommand and Control Entity Type\nMine-Like Contact Entity Type\nAmplifier Entity Subtype\nVehicle Entity Type\nSea Mine Decoy Entity Type\nMine Clearing Equipment Entity Subtype\nFire Support Entity Type\nLaw Enforcement Subtype\nFog Entity Subtype",
+      "comment" : "Mine-Like Echo (MILEC) - General Entity Type\nFire Support Entity Type\nMine-Like Contact Entity Type\nAmplifier Entity Subtype\nNon-Mine Mine-Like Object (NMLO) - General Entity Type\nFog Entity Subtype\nSea Mine Decoy Entity Type\nCommand and Control Entity Type\nLaw Enforcement Subtype\nArmored Vehicle Entity Subtype\nFixed Wing Entity Subtype\nMILCO General Entity Subtype\nGeneral Supply Point Entity Subtype\nGeologic Entity Subtype\nMine Clearing Equipment Entity Subtype\nNot selected.\nExplosion Entity Subtype\nCivil Disturbance Entity Type\nNegative Reacquisition - General Entity Type\nSignal Entity Subtype\nVehicle Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7479,6 +7881,18 @@
           }
         }
       }
+    },
+    "Nuclear Event" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
+    "Nuclear Fallout Producing Event" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
+    "Observation Post/Outpost (Specified)" : {
+      "comment" : "Maneuver Points Entity Type"
+    },
+    "Observation Post/Outpost (Unspecified)" : {
+      "comment" : "Maneuver Points Entity Type"
     },
     "Observer" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -7545,6 +7959,9 @@
           }
         }
       }
+    },
+    "Oil Rig" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Oil/Gas Rig" : {
       "comment" : "Man-Made Structures Entity Type",
@@ -7656,6 +8073,21 @@
         }
       }
     },
+    "Optical Fix" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Orbit" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
+    "Orbit - Figure Eight" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
+    "Orbit - Race Track" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
+    "Orbit - Random Closed" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
     "Ordnance" : {
       "comment" : "Sustainment Entity Type",
       "localizations" : {
@@ -7744,6 +8176,9 @@
         }
       }
     },
+    "Overhead Wire" : {
+      "comment" : "Vertical Obstructions Entity Subtype"
+    },
     "Own Ship" : {
       "comment" : "Sea Surface Entity",
       "localizations" : {
@@ -7787,6 +8222,9 @@
           }
         }
       }
+    },
+    "Passage Point" : {
+      "comment" : "Command and Control Points Entity Type"
     },
     "Passenger" : {
       "comment" : "Fixed Wing Entity Subtype\nMerchant Ship Entity Subtype",
@@ -7865,6 +8303,9 @@
         }
       }
     },
+    "Pattern Center" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
     "Peer-to-Peer Node" : {
       "comment" : "Device Type Entity Type",
       "localizations" : {
@@ -7886,6 +8327,9 @@
           }
         }
       }
+    },
+    "Person in Water/Bailout" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Personnel Recovery" : {
       "comment" : "Fixed Wing Entity Subtype",
@@ -7986,6 +8430,12 @@
         }
       }
     },
+    "Picket Route" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Picket Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Pile/Piling/Post" : {
       "comment" : "Man-Made Structures Entity Type",
       "localizations" : {
@@ -8019,6 +8469,9 @@
         }
       }
     },
+    "Plan Ship" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Planned/Anticipated/Suspect" : {
       "comment" : "Status",
       "localizations" : {
@@ -8041,6 +8494,15 @@
         }
       }
     },
+    "Point of Departure" : {
+      "comment" : "Maneuver Points Entity Type"
+    },
+    "Point of Interest" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
+    "Point R Route" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Poisoning" : {
       "comment" : "Criminal Activity Incident Entity Subtype",
       "localizations" : {
@@ -8053,7 +8515,7 @@
       }
     },
     "Police" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8074,6 +8536,9 @@
         }
       }
     },
+    "Pop-up Point" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
     "Ports and Harbors" : {
       "comment" : "Hydrography Entity Type",
       "localizations" : {
@@ -8084,6 +8549,12 @@
           }
         }
       }
+    },
+    "Position and Intended Movement (PIM)" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Position and Intended Movement (PIM) Route" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Post Office" : {
       "comment" : "Postal Services Infrastructure Subtype",
@@ -8140,6 +8611,9 @@
         }
       }
     },
+    "Pre-Landfall Waypoint" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Precipitation of Unknown Type and Intensity" : {
       "comment" : "Weather Symbols Entity Type",
       "localizations" : {
@@ -8150,6 +8624,9 @@
           }
         }
       }
+    },
+    "Predicted Impact Point" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Predominately Ice Covered" : {
       "comment" : "With Snow or Measurable Ice Cover Entity Subtype",
@@ -8262,7 +8739,7 @@
       }
     },
     "Prison" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8305,6 +8782,9 @@
         }
       }
     },
+    "Protection Points" : {
+      "comment" : "ControlMeasure Entity"
+    },
     "Public Affairs/Public Information" : {
       "comment" : "Sustainment Entity Type",
       "localizations" : {
@@ -8338,6 +8818,9 @@
         }
       }
     },
+    "Q" : {
+      "comment" : "Harbor Entrance Point Entity Subtype"
+    },
     "Quartermaster" : {
       "comment" : "Sustainment Entity Type",
       "localizations" : {
@@ -8350,7 +8833,7 @@
       }
     },
     "Radar" : {
-      "comment" : "Signal Intercept Entity Type\nSensors Entity Type",
+      "comment" : "Sensors Entity Type\nSignal Intercept Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8361,7 +8844,7 @@
       }
     },
     "Radio" : {
-      "comment" : "Signal Entity Subtype\nCommand and Control Entity Type",
+      "comment" : "Command and Control Entity Type\nSignal Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8372,7 +8855,7 @@
       }
     },
     "Radio Relay" : {
-      "comment" : "Signal Entity Subtype\nCommand and Control Entity Type",
+      "comment" : "Command and Control Entity Type\nSignal Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8404,6 +8887,9 @@
         }
       }
     },
+    "Radiological" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
     "Raid on House" : {
       "comment" : "Operation Entity Type",
       "localizations" : {
@@ -8416,7 +8902,7 @@
       }
     },
     "Rail" : {
-      "comment" : "Transportation Incident Entity Type\nEquipment mobility on land amplifier descriptor",
+      "comment" : "Equipment mobility on land amplifier descriptor\nTransportation Incident Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8492,6 +8978,12 @@
         }
       }
     },
+    "Rally Point" : {
+      "comment" : "Command and Control Points Entity Type"
+    },
+    "Range Only" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
     "Reality" : {
       "comment" : "Context",
       "localizations" : {
@@ -8502,6 +8994,9 @@
           }
         }
       }
+    },
+    "Rearm-Refuel and Resupply Point (R3P)" : {
+      "comment" : "Sustainment Points Entity Subtype"
     },
     "Recoilless Gun" : {
       "comment" : "Weapon System Entity Type",
@@ -8515,7 +9010,7 @@
       }
     },
     "Reconnaissance" : {
-      "comment" : "CBRND Defense Entity Subtype\nEngineer Entity Subtype\nFixed Wing Entity Subtype",
+      "comment" : "Fixed Wing Entity Subtype\nCBRND Defense Entity Subtype\nEngineer Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8558,8 +9053,11 @@
         }
       }
     },
+    "Reconnaissance Outpost" : {
+      "comment" : "Observation Post Outpost Entity Subtype"
+    },
     "Reconnaissance/Cavalry/Scout" : {
-      "comment" : "Armor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype\nMovement and Maneuver Entity Type",
+      "comment" : "Movement and Maneuver Entity Type\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8591,6 +9089,12 @@
         }
       }
     },
+    "Reference Point" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Refuel on the Move (ROM) Point" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
     "Regiment/Group" : {
       "comment" : "Echelon at brigade and below amplifier descriptor",
       "localizations" : {
@@ -8612,6 +9116,9 @@
           }
         }
       }
+    },
+    "Release Point" : {
+      "comment" : "Command and Control Points Entity Type"
     },
     "Religious Institution" : {
       "comment" : "Public Venues Infrastructure Subtype",
@@ -8646,6 +9153,18 @@
         }
       }
     },
+    "Reload Point" : {
+      "comment" : "Fires Points Entity Type"
+    },
+    "Remote Multi-Mission Vehicle Mine Warfare Unmanned Underwater" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Rendezvous Route" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Rendezvous Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Repair Ship" : {
       "comment" : "Auxiliary Ship Entity Subtype",
       "localizations" : {
@@ -8668,6 +9187,15 @@
         }
       }
     },
+    "Replenishment at Sea Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Replenishment Station" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
+    "Reported Bottom Sub" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Reptile" : {
       "comment" : "Infestation Entity Subtype",
       "localizations" : {
@@ -8678,6 +9206,12 @@
           }
         }
       }
+    },
+    "Rescue" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
+    "Rescue Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Reservoir" : {
       "comment" : "Water Supply Infrastructure Subtype",
@@ -8757,7 +9291,7 @@
       }
     },
     "Rigid-Hull Inflatable Boat (RHIB)" : {
-      "comment" : "Leisure Craft Motorized Entity Subtype\nSpeedboat Entity Subtype",
+      "comment" : "Speedboat Entity Subtype\nLeisure Craft Motorized Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8976,6 +9510,9 @@
         }
       }
     },
+    "Screen Center" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Sea Air Land (SEAL)" : {
       "comment" : "Movement and Maneuver Entity Type",
       "localizations" : {
@@ -8986,6 +9523,9 @@
           }
         }
       }
+    },
+    "Sea Anomaly (Wake-Current-Knuckle)" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Sea Ice" : {
       "comment" : "Ice Systems Entity Type",
@@ -9063,6 +9603,9 @@
           }
         }
       }
+    },
+    "Sea Mine-Like" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Sea Mine-Moored" : {
       "comment" : "Sea Mine General Entity Type",
@@ -9153,7 +9696,7 @@
       }
     },
     "Search" : {
-      "comment" : "Electronic Warfare Entity Subtype\nIntelligence Entity Type",
+      "comment" : "Maritime Control Points Entity Type\nElectronic Warfare Entity Subtype\nIntelligence Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -9173,6 +9716,12 @@
           }
         }
       }
+    },
+    "Search Area" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Search Center" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Search symbol" : {
       "comment" : "Search bar",
@@ -9406,6 +9955,9 @@
         }
       }
     },
+    "Sensor Outpost/Listening Post" : {
+      "comment" : "Observation Post Outpost Entity Subtype"
+    },
     "Sensors" : {
       "comment" : "Land Equipment Entity",
       "localizations" : {
@@ -9440,7 +9992,7 @@
       }
     },
     "Severe" : {
-      "comment" : "Dust or Sand Entity Subtype\nTurbulence Entity Type\nLight/Medium/Severe Entity Subtype",
+      "comment" : "Dust or Sand Entity Subtype\nLight/Medium/Severe Entity Subtype\nTurbulence Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -9494,6 +10046,12 @@
         }
       }
     },
+    "Shelter" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
+    "Shelter Above Ground" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
     "Ship Yard" : {
       "comment" : "Transportation Infrastructure Subtype",
       "localizations" : {
@@ -9515,6 +10073,9 @@
           }
         }
       }
+    },
+    "Shore Control Station" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Shore Patrol" : {
       "comment" : "Protection Entity Type",
@@ -9614,6 +10175,9 @@
           }
         }
       }
+    },
+    "Sinker" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Sky Obscured" : {
       "comment" : "Fog Entity Subtype",
@@ -9769,8 +10333,11 @@
         }
       }
     },
+    "Sonobuoy" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Space" : {
-      "comment" : "Space Entity\nDimension",
+      "comment" : "Dimension\nSpace Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -9868,6 +10435,9 @@
         }
       }
     },
+    "Special Point" : {
+      "comment" : "Maritime Control Points Entity Type\nCommand and Control Points Entity Type"
+    },
     "Special SSNR" : {
       "comment" : "Special Operations Forces Entity Subtype",
       "localizations" : {
@@ -9955,6 +10525,9 @@
           }
         }
       }
+    },
+    "Start Point" : {
+      "comment" : "Command and Control Points Entity Type"
     },
     "State of the Ground" : {
       "comment" : "Atmospheric Entity Type",
@@ -10055,6 +10628,9 @@
         }
       }
     },
+    "Strike Initial Point" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
     "Submarine" : {
       "comment" : "Military Entity Type",
       "localizations" : {
@@ -10066,6 +10642,9 @@
         }
       }
     },
+    "Submarine Antisubmarine Warfare Subsurface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Submarine Cable" : {
       "comment" : "Man-Made Structures Entity Type",
       "localizations" : {
@@ -10076,6 +10655,9 @@
           }
         }
       }
+    },
+    "Submarine Subsurface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Submarine Tender" : {
       "comment" : "Auxiliary Ship Entity Subtype",
@@ -10153,6 +10735,12 @@
           }
         }
       }
+    },
+    "SUCAP - Fixed Wing" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
+    "SUCAP - Rotary Wing" : {
+      "comment" : "Airspace Control Points Entity Points"
     },
     "Supervisory Control and Data Acquisition (SCADA)" : {
       "comment" : "Device Domain Entity Type",
@@ -10242,6 +10830,15 @@
         }
       }
     },
+    "Surface Warfare Mine Warfare Unmanned Underwater Vehicle" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Surface Warfare Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Surface Warfare Unmanned Underwater Vehicle Subsurface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Surface Water Intake" : {
       "comment" : "Water Supply Infrastructure Subtype",
       "localizations" : {
@@ -10297,6 +10894,9 @@
         }
       }
     },
+    "Survey Control Point" : {
+      "comment" : "Fires Points Entity Type"
+    },
     "Survey Ship" : {
       "comment" : "Auxiliary Ship Entity Subtype",
       "localizations" : {
@@ -10341,6 +10941,9 @@
         }
       }
     },
+    "Sustainment Points" : {
+      "comment" : "ControlMeasure Entity"
+    },
     "Sustainment Shipments" : {
       "comment" : "Other Equipment Entity Type",
       "localizations" : {
@@ -10374,8 +10977,11 @@
         }
       }
     },
+    "TACAN" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
     "Tactical Satellite" : {
-      "comment" : "Signal Entity Subtype\nCommand and Control Entity Type",
+      "comment" : "Command and Control Entity Type\nSignal Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10418,6 +11024,9 @@
         }
       }
     },
+    "Tanking" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
     "Target Acquisition" : {
       "comment" : "Field Artillery Entity Subtype",
       "localizations" : {
@@ -10428,6 +11037,9 @@
           }
         }
       }
+    },
+    "Target Reference Point" : {
+      "comment" : "Maneuver Points Entity Type"
     },
     "Taser" : {
       "comment" : "Weapon System Entity Type",
@@ -10528,6 +11140,9 @@
         }
       }
     },
+    "Tentative or Provisional Track" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Tented Camp" : {
       "comment" : "Installation Entity Type",
       "localizations" : {
@@ -10561,8 +11176,11 @@
         }
       }
     },
+    "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
+    },
     "Theater/Echelons Above Corps Support" : {
-      "comment" : "Signal Entity Subtype\nAmplifier Entity Subtype",
+      "comment" : "Amplifier Entity Subtype\nSignal Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10693,6 +11311,9 @@
         }
       }
     },
+    "Tomcat" : {
+      "comment" : "Airspace Control Points Entity Points"
+    },
     "Topographic" : {
       "comment" : "Protection Entity Type",
       "localizations" : {
@@ -10760,7 +11381,7 @@
       }
     },
     "Towed" : {
-      "comment" : "Mortar Entity Subtype\nEquipment mobility on land amplifier descriptor",
+      "comment" : "Equipment mobility on land amplifier descriptor\nMortar Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10769,6 +11390,12 @@
           }
         }
       }
+    },
+    "Tower-High" : {
+      "comment" : "Vertical Obstructions Entity Subtype"
+    },
+    "Tower-Low" : {
+      "comment" : "Vertical Obstructions Entity Subtype"
     },
     "Toxic Gas" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -10780,6 +11407,9 @@
           }
         }
       }
+    },
+    "Toxic Industrial Material" : {
+      "comment" : "Chemical Event Entity Subtype"
     },
     "Toxic Infectious Material" : {
       "comment" : "Hazard Materials Incident Subtype",
@@ -10836,6 +11466,9 @@
         }
       }
     },
+    "Traffic Control Post (TCP)" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
     "Traffic Inspection Facility" : {
       "comment" : "Transportation Infrastructure Subtype",
       "localizations" : {
@@ -10868,6 +11501,9 @@
           }
         }
       }
+    },
+    "Trailer Transfer Point (TTP)" : {
+      "comment" : "Sustainment Points Entity Subtype"
     },
     "Train" : {
       "comment" : "Land Equipment Entity",
@@ -10969,7 +11605,7 @@
       }
     },
     "Transportation Security Administration (TSA)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11011,6 +11647,9 @@
           }
         }
       }
+    },
+    "Trial Track" : {
+      "comment" : "Maritime Control Points Entity Type"
     },
     "Tropical Depression" : {
       "comment" : "Tropical Storm Systems Entity Subtype",
@@ -11134,7 +11773,7 @@
       }
     },
     "Tug, Ocean Going" : {
-      "comment" : "Auxiliary Ship Entity Subtype\nMerchant Ship Entity Subtype",
+      "comment" : "Merchant Ship Entity Subtype\nAuxiliary Ship Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11243,8 +11882,11 @@
         }
       }
     },
+    "Unit Maintenance Collection Point (UMCP)" : {
+      "comment" : "Sustainment Points Entity Subtype"
+    },
     "United States Secret Service (USSS)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11255,7 +11897,7 @@
       }
     },
     "Unknown" : {
-      "comment" : "Health and Status Entity Type\nStandard identity",
+      "comment" : "Standard identity\nHealth and Status Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11264,6 +11906,9 @@
           }
         }
       }
+    },
+    "Unmanned Aerial System (UAS/UA)" : {
+      "comment" : "Airspace Control Points Entity Points"
     },
     "Unmanned Aerial Systems" : {
       "comment" : "Movement and Maneuver Entity Type",
@@ -11297,6 +11942,15 @@
           }
         }
       }
+    },
+    "Unmanned Underwater Vehicle Subsurface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Unmanned Underwater Vehicle Surface Station" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
+    "Unspecified Mine" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
     },
     "Upper Cold Front" : {
       "comment" : "Frontal Systems Entity Subtype",
@@ -11353,8 +12007,38 @@
         }
       }
     },
+    "US Class I Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "US Class II Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "US Class III Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "US Class IV Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "US Class IX Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "US Class V Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "US Class VI Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "US Class VII Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "US Class VIII Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
+    "US Class X Supply Point" : {
+      "comment" : "General Supply Point Entity Subtype"
+    },
     "US Marshals Service" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11497,7 +12181,7 @@
       }
     },
     "Utility Vehicle" : {
-      "comment" : "Civilian Vehicle Entity Type\nUtility Vehicles Entity Type",
+      "comment" : "Utility Vehicles Entity Type\nCivilian Vehicle Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11539,6 +12223,12 @@
           }
         }
       }
+    },
+    "Vertical Line Array Directional Frequency Analysis and Recording (DIFAR)" : {
+      "comment" : "Sonobuoy Entity Subtype"
+    },
+    "Vertical Obstructions" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
     },
     "Vertical-Takeoff UAV (VT-UAV)" : {
       "comment" : "Military Entity Type",
@@ -11606,6 +12296,9 @@
         }
       }
     },
+    "Vital Area Center" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Volcanic Ash" : {
       "comment" : "Volcanic Eruption Entity Subtype",
       "localizations" : {
@@ -11649,6 +12342,9 @@
           }
         }
       }
+    },
+    "VTUA" : {
+      "comment" : "Airspace Control Points Entity Points"
     },
     "Warehouse/Storage Facility" : {
       "comment" : "Installation Entity Type",
@@ -11728,7 +12424,7 @@
       }
     },
     "Water" : {
-      "comment" : "Sustainment Entity Type\nUtility Vehicles Entity Type\nWater Supply Infrastructure Subtype",
+      "comment" : "Water Supply Infrastructure Subtype\nUtility Vehicles Entity Type\nSustainment Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11782,8 +12478,14 @@
         }
       }
     },
+    "Waypoint" : {
+      "comment" : "Maritime Control Points Entity Type\nCommand and Control Points Entity Type"
+    },
+    "Waypoint Route" : {
+      "comment" : "Maritime Control Points Entity Type"
+    },
     "Weapon" : {
-      "comment" : "Sea Subsurface Entity\nAir Unit Entity",
+      "comment" : "Air Unit Entity\nSea Subsurface Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11880,6 +12582,9 @@
           }
         }
       }
+    },
+    "Wide Area Antitank Mine" : {
+      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype"
     },
     "Wild Fire" : {
       "comment" : "Fire Event Entity Type",
@@ -12057,6 +12762,9 @@
         }
       }
     },
+    "Y" : {
+      "comment" : "Harbor Entrance Point Entity Subtype"
+    },
     "Zombie" : {
       "comment" : "Botnet Entity Type",
       "localizations" : {
@@ -12067,6 +12775,9 @@
           }
         }
       }
+    },
+    "Х" : {
+      "comment" : "Harbor Entrance Point Entity Subtype"
     }
   },
   "version" : "1.0"
