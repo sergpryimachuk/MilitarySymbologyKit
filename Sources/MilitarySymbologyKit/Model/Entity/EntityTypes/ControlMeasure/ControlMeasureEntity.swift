@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 21.12.2023.
-//  
+//
 
 import Foundation
 
@@ -106,9 +106,8 @@ public enum ControlMeasureEntity: String, CaseIterable, Entity {
 //        case .missionTasks:
 //            return String(localized: "Mission Tasks", bundle: .module, comment: "ControlMeasure Entity")
         }
-            
     }
-    
+
     public var types: [AnyEntityType] {
         switch self {
         case .commandAndControlPoints:

@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 21.12.2023.
-//  
+//
 
 import Foundation
 
@@ -26,9 +26,9 @@ public enum GeneralDecontaminationPointEntitySubtype: String, CaseIterable, Enti
     case generalDecontaminationPointSite = "18"
     case tetrahedronsDragonsTeethSimilarObstacles = "19"
     case verticalObstructions = "20"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

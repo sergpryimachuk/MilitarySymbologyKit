@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 21.12.2023.
-//  
+//
 
 import Foundation
 
@@ -9,9 +9,9 @@ public enum VerticalObstructionsEntitySubtype: String, CaseIterable, EntitySubty
     case towerLow = "01"
     case towerHigh = "02"
     case overheadWire = "03"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

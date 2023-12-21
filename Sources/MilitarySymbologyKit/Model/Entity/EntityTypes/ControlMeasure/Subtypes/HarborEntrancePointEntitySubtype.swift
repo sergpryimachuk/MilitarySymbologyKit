@@ -10,9 +10,9 @@ public enum HarborEntrancePointEntitySubtype: String, CaseIterable, EntitySubtyp
     case q = "02"
     case х = "03"
     case y = "04"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

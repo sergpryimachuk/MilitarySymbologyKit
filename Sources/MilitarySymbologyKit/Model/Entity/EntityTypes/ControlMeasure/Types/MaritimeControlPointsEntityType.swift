@@ -98,9 +98,9 @@ public enum MaritimeControlPointsEntityType: String, CaseIterable, EntityType {
     case seaAnomalyWakeCurrentKnuckle = "90"
     case bottomReturnNonMILCOWreckDangerous = "91"
     case bottomReturnNonMILCOWreckNonDangerous = "92"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
@@ -291,7 +291,7 @@ public enum MaritimeControlPointsEntityType: String, CaseIterable, EntityType {
             return String(localized: "Bottom Return/Non-MILCO-Wreck-Non Dangerous", bundle: .module, comment: "Maritime Control Points Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .harborEntrancePoint:

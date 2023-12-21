@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 21.12.2023.
-//  
+//
 
 import Foundation
 
@@ -9,9 +9,9 @@ public enum TetrahedronsDragonsTeethSimilarObstaclesEntitySubtype: String, CaseI
     case fixedAndPrefabricated = "01"
     case movable = "02"
     case movableAndPrefabricated = "03"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

@@ -11,9 +11,9 @@ public enum FiresPointsEntityType: String, CaseIterable, EntityType {
     case launchPoint = "03"
     case reloadPoint = "04"
     case surveyControlPoint = "05"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
@@ -30,7 +30,7 @@ public enum FiresPointsEntityType: String, CaseIterable, EntityType {
             return String(localized: "Survey Control Point", bundle: .module, comment: "Fires Points Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         [.none]
     }

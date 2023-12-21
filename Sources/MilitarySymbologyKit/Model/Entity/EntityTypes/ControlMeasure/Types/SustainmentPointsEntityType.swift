@@ -24,9 +24,9 @@ public enum SustainmentPointsEntityType: String, CaseIterable, EntityType {
     case unitMaintenanceCollectionPoint = "16"
     case generalSupplyPoint = "17"
     case medicalSupplyPoint = "18"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
@@ -69,7 +69,7 @@ public enum SustainmentPointsEntityType: String, CaseIterable, EntityType {
             return String(localized: "Medical Supply Point", bundle: .module, comment: "Sustainment Points Entity Subtype")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .generalSupplyPoint:

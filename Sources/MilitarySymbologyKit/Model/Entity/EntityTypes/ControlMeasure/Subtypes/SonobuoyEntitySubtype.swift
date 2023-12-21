@@ -21,9 +21,9 @@ public enum SonobuoyEntitySubtype: String, CaseIterable, EntitySubtype {
     case patternCenter = "13"
     case rangeOnly = "14"
     case verticalLineArrayDirectionalFrequencyAnalysisRecordingDIFAR = "15"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

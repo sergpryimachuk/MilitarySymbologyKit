@@ -1,6 +1,6 @@
 //
 //  Created with ♥ by Serhii Pryimachuk on 21.12.2023.
-//  
+//
 
 import Foundation
 
@@ -22,9 +22,9 @@ public enum GeneralSupplyPointEntitySubtype: String, CaseIterable, EntitySubtype
     case usClassVIIISupplyPoint = "14"
     case usClassIXSupplyPoint = "15"
     case usClassXSupplyPoint = "16"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:

@@ -26,9 +26,9 @@ public enum ProtectionPointsEntityType: String, CaseIterable, EntityType {
     case generalDecontaminationPointSite = "18"
     case tetrahedronsDragonsTeethSimilarObstacles = "19"
     case verticalObstructions = "20"
-    
+
     public var id: String { rawValue }
-    
+
     public var name: String {
         switch self {
         case .none:
@@ -75,7 +75,7 @@ public enum ProtectionPointsEntityType: String, CaseIterable, EntityType {
             return String(localized: "Vertical Obstructions", bundle: .module, comment: "Protection Points Entity Type")
         }
     }
-    
+
     public var subtypes: [AnyEntitySubtype] {
         switch self {
         case .antipersonnelMine:
