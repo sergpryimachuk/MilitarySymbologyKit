@@ -13,7 +13,7 @@
       }
     },
     "Abatis" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -167,7 +167,7 @@
       }
     },
     "Air" : {
-      "comment" : "Transportation Incident Entity Type\nDimension",
+      "comment" : "Dimension\nTransportation Incident Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -541,7 +541,7 @@
       }
     },
     "Amphibious" : {
-      "comment" : "Infantry Entity Subtype\nMovement and Maneuver Entity Type\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype\nEquipment mobility on water amplifier descriptor",
+      "comment" : "Armor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype\nEquipment mobility on water amplifier descriptor\nInfantry Entity Subtype\nMovement and Maneuver Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -717,7 +717,7 @@
       }
     },
     "Antipersonnel Mine" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -783,7 +783,7 @@
       }
     },
     "Antitank Mine" : {
-      "comment" : "Land Mines Entity Type\nProtection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nLand Mines Entity Type\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -794,7 +794,7 @@
       }
     },
     "Antitank Mine with Anti-handling Device" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1432,7 +1432,7 @@
       }
     },
     "Below Ground Shelter" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1443,7 +1443,7 @@
       }
     },
     "Biological Event" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1586,7 +1586,7 @@
       }
     },
     "Booby Trap" : {
-      "comment" : "Other Equipment Entity Type\nProtection Points Entity Type\nCriminal Activity Incident Entity Subtype\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "Criminal Activity Incident Entity Subtype\nGeneral Decontamination Point Entity Subtype\nOther Equipment Entity Type\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1597,7 +1597,7 @@
       }
     },
     "Border Patrol" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -1740,7 +1740,7 @@
       }
     },
     "Broadcast Transmitter Antennae" : {
-      "comment" : "Telecommunications Infrastructure Subtype\nCommand and Control Entity Type",
+      "comment" : "Command and Control Entity Type\nTelecommunications Infrastructure Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2026,7 +2026,7 @@
       }
     },
     "Chemical Event" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2114,7 +2114,7 @@
       }
     },
     "Civilian" : {
-      "comment" : "Sea Surface Entity\nLand Civilian Entity\nAir Unit Entity\nSea Subsurface Entity",
+      "comment" : "Air Unit Entity\nLand Civilian Entity\nSea Subsurface Entity\nSea Surface Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2202,7 +2202,7 @@
       }
     },
     "Coast Guard" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2840,7 +2840,7 @@
       }
     },
     "Customs Service" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -2961,7 +2961,7 @@
       }
     },
     "Decoy" : {
-      "comment" : "Weapon Entity Type\nMilitary Combatant Entity Type",
+      "comment" : "Military Combatant Entity Type\nWeapon Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3016,7 +3016,7 @@
       }
     },
     "Department of Justice (DOJ)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3467,7 +3467,7 @@
       }
     },
     "Drug Enforcement Administration (DEA)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3764,7 +3764,7 @@
       }
     },
     "Emergency Medical Operation" : {
-      "comment" : "Operation Entity Type\nLand Civilian Entity Type\nOther Equipment Entity Type\nEmergency Operation Subtype",
+      "comment" : "Emergency Operation Subtype\nLand Civilian Entity Type\nOperation Entity Type\nOther Equipment Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3775,7 +3775,7 @@
       }
     },
     "Emergency Operation" : {
-      "comment" : "Operation Entity Type\nLand Unit Entity\nInstallation Entity Type\nLand Equipment Entity",
+      "comment" : "Installation Entity Type\nLand Equipment Entity\nLand Unit Entity\nOperation Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -3907,7 +3907,7 @@
       }
     },
     "Engineer Regulating Point" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4171,7 +4171,7 @@
       }
     },
     "Exfiltration" : {
-      "comment" : "Operation Entity Type\nEffect Entity Type",
+      "comment" : "Effect Entity Type\nOperation Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4314,7 +4314,7 @@
       }
     },
     "Federal Bureau of Investigation (FBI)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4578,7 +4578,7 @@
       }
     },
     "Fire Station" : {
-      "comment" : "Firefighting Operation Entity Subtype\nEmergency Operation Subtype",
+      "comment" : "Emergency Operation Subtype\nFirefighting Operation Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -4919,7 +4919,7 @@
       }
     },
     "Fort" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5062,7 +5062,7 @@
       }
     },
     "Fused Track" : {
-      "comment" : "Sea Surface Entity\nSea Subsurface Entity",
+      "comment" : "Sea Subsurface Entity\nSea Surface Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5073,7 +5073,7 @@
       }
     },
     "General Decontamination Point/Site" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5491,7 +5491,7 @@
       }
     },
     "Heavy" : {
-      "comment" : "Air Defense Missile Launcher Entity Subtype\nLight/Medium/Heavy Entity Subtype\nLight/Heavy Entity Subtype",
+      "comment" : "Air Defense Missile Launcher Entity Subtype\nLight/Heavy Entity Subtype\nLight/Medium/Heavy Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5601,7 +5601,7 @@
       }
     },
     "Hospital Ship" : {
-      "comment" : "Merchant Ship Entity Subtype\nAuxiliary Ship Entity Subtype",
+      "comment" : "Auxiliary Ship Entity Subtype\nMerchant Ship Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -5931,7 +5931,7 @@
       }
     },
     "Individual" : {
-      "comment" : "Land Civilian Entity Type\nActivities Entity",
+      "comment" : "Activities Entity\nLand Civilian Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6140,7 +6140,7 @@
       }
     },
     "Intermittent Heavy" : {
-      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6151,7 +6151,7 @@
       }
     },
     "Intermittent Heavy/Continuous Heavy" : {
-      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6162,7 +6162,7 @@
       }
     },
     "Intermittent Light" : {
-      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6173,7 +6173,7 @@
       }
     },
     "Intermittent Light/Continuous Light" : {
-      "comment" : "Snow Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Drizzle Entity Subtype\nSnow Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6184,7 +6184,7 @@
       }
     },
     "Intermittent Moderate" : {
-      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6195,7 +6195,7 @@
       }
     },
     "Intermittent Moderate/Continuous Moderate" : {
-      "comment" : "Snow Entity Subtype\nRain Entity Subtype\nDrizzle Entity Subtype",
+      "comment" : "Drizzle Entity Subtype\nRain Entity Subtype\nSnow Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6349,7 +6349,7 @@
       }
     },
     "Jet Ski" : {
-      "comment" : "Military Combatant Entity Type\nCivilian Entity Type",
+      "comment" : "Civilian Entity Type\nMilitary Combatant Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6689,7 +6689,7 @@
       }
     },
     "Law Enforcement" : {
-      "comment" : "Land Unit Entity\nInstallation Entity Type\nLand Equipment Entity",
+      "comment" : "Installation Entity Type\nLand Equipment Entity\nLand Unit Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6766,7 +6766,7 @@
       }
     },
     "Light" : {
-      "comment" : "Air Defense Missile Launcher Entity Subtype\nEntity Subtype\nLight/Medium/Heavy Entity Subtype\nLight/Medium/Severe Entity Subtype\nRain and Snow Mixed Entity Subtype\nLight/Heavy Entity Subtype\nTurbulence Entity Type",
+      "comment" : "Air Defense Missile Launcher Entity Subtype\nEntity Subtype\nLight/Heavy Entity Subtype\nLight/Medium/Heavy Entity Subtype\nLight/Medium/Severe Entity Subtype\nRain and Snow Mixed Entity Subtype\nTurbulence Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -6876,7 +6876,7 @@
       }
     },
     "Limits" : {
-      "comment" : "Oceanographic Entity Type\nIce Systems Entity Type",
+      "comment" : "Ice Systems Entity Type\nOceanographic Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7140,7 +7140,7 @@
       }
     },
     "Manual Track" : {
-      "comment" : "Sea Surface Entity\nAir Unit Entity\nSea Subsurface Entity\nLand Equipment Entity",
+      "comment" : "Air Unit Entity\nLand Equipment Entity\nSea Subsurface Entity\nSea Surface Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7272,7 +7272,7 @@
       }
     },
     "Medical" : {
-      "comment" : "Utility Vehicles Entity Type\nSustainment Entity Type\nMedical Infrastructure Subtype",
+      "comment" : "Medical Infrastructure Subtype\nSustainment Entity Type\nUtility Vehicles Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7558,7 +7558,7 @@
       }
     },
     "Military" : {
-      "comment" : "Sea Surface Entity\nAir Unit Entity\nSea Subsurface Entity",
+      "comment" : "Air Unit Entity\nSea Subsurface Entity\nSea Surface Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7679,7 +7679,7 @@
       }
     },
     "Mine" : {
-      "comment" : "Protection Entity Type\nInstallation Entity Type",
+      "comment" : "Installation Entity Type\nProtection Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -7976,7 +7976,7 @@
       }
     },
     "Missile" : {
-      "comment" : "Fire Support Entity Type\nAir Defense Entity Subtype",
+      "comment" : "Air Defense Entity Subtype\nFire Support Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8196,7 +8196,7 @@
       }
     },
     "Motorized" : {
-      "comment" : "Antitank/Antiarmor Entity Subtype\nInfantry Entity Subtype\nReconnaissance/Cavalry/Scout Entity Subtype\nCBRND Defense Entity Subtype\nEngineer Entity Subtype",
+      "comment" : "Antitank/Antiarmor Entity Subtype\nCBRND Defense Entity Subtype\nEngineer Entity Subtype\nInfantry Entity Subtype\nReconnaissance/Cavalry/Scout Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8515,7 +8515,7 @@
       }
     },
     "Naval" : {
-      "comment" : "Land Unit Entity",
+      "comment" : "Land Unit Entity\nNaval Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8680,7 +8680,7 @@
       }
     },
     "Network Outage" : {
-      "comment" : "Health and Status Entity Type\nEffect Entity Type",
+      "comment" : "Effect Entity Type\nHealth and Status Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8889,7 +8889,7 @@
       }
     },
     "None" : {
-      "comment" : "Mine-Like Echo (MILEC) - General Entity Type\nFire Support Entity Type\nMine-Like Contact Entity Type\nAmplifier Entity Subtype\nNon-Mine Mine-Like Object (NMLO) - General Entity Type\nFog Entity Subtype\nSea Mine Decoy Entity Type\nCommand and Control Entity Type\nLaw Enforcement Subtype\nArmored Vehicle Entity Subtype\nFixed Wing Entity Subtype\nMILCO General Entity Subtype\nGeneral Supply Point Entity Subtype\nGeologic Entity Subtype\nMine Clearing Equipment Entity Subtype\nNot selected.\nExplosion Entity Subtype\nCivil Disturbance Entity Type\nNegative Reacquisition - General Entity Type\nSignal Entity Subtype\nVehicle Entity Type",
+      "comment" : "Amplifier Entity Subtype\nArmored Vehicle Entity Subtype\nCivil Disturbance Entity Type\nCommand and Control Entity Type\nExplosion Entity Subtype\nFire Support Entity Type\nFixed Wing Entity Subtype\nFog Entity Subtype\nGeneral Supply Point Entity Subtype\nGeologic Entity Subtype\nLaw Enforcement Subtype\nMILCO General Entity Subtype\nMine Clearing Equipment Entity Subtype\nMine-Like Contact Entity Type\nMine-Like Echo (MILEC) - General Entity Type\nNegative Reacquisition - General Entity Type\nNon-Mine Mine-Like Object (NMLO) - General Entity Type\nNot selected.\nSea Mine Decoy Entity Type\nSignal Entity Subtype\nVehicle Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8955,7 +8955,7 @@
       }
     },
     "Nuclear Event" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -8966,7 +8966,7 @@
       }
     },
     "Nuclear Fallout Producing Event" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -9175,7 +9175,7 @@
       }
     },
     "Operator-Defined Freeform" : {
-      "comment" : "Isopleths Entity Type\nBounded Areas of Weather Entity Type",
+      "comment" : "Bounded Areas of Weather Entity Type\nIsopleths Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -9747,7 +9747,7 @@
       }
     },
     "Police" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10011,7 +10011,7 @@
       }
     },
     "Prison" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10176,7 +10176,7 @@
       }
     },
     "Radiological" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10330,7 +10330,7 @@
       }
     },
     "Reconnaissance" : {
-      "comment" : "Fixed Wing Entity Subtype\nCBRND Defense Entity Subtype\nEngineer Entity Subtype",
+      "comment" : "CBRND Defense Entity Subtype\nEngineer Entity Subtype\nFixed Wing Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10385,7 +10385,7 @@
       }
     },
     "Reconnaissance/Cavalry/Scout" : {
-      "comment" : "Movement and Maneuver Entity Type\nArmor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype",
+      "comment" : "Armor/Armored/Mechanized/Self-Propelled/Tracked Entity Subtype\nMovement and Maneuver Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -10715,7 +10715,7 @@
       }
     },
     "Rigid-Hull Inflatable Boat (RHIB)" : {
-      "comment" : "Speedboat Entity Subtype\nLeisure Craft Motorized Entity Subtype",
+      "comment" : "Leisure Craft Motorized Entity Subtype\nSpeedboat Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11144,7 +11144,7 @@
       }
     },
     "Search" : {
-      "comment" : "Maritime Control Points Entity Type\nElectronic Warfare Entity Subtype\nIntelligence Entity Type",
+      "comment" : "Electronic Warfare Entity Subtype\nIntelligence Entity Type\nMaritime Control Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11398,7 +11398,7 @@
       }
     },
     "Sensor" : {
-      "comment" : "Sensors Entity Type\nIntelligence Entity Type",
+      "comment" : "Intelligence Entity Type\nSensors Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11519,7 +11519,7 @@
       }
     },
     "Shelter" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11530,7 +11530,7 @@
       }
     },
     "Shelter Above Ground" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11948,7 +11948,7 @@
       }
     },
     "Special Point" : {
-      "comment" : "Maritime Control Points Entity Type\nCommand and Control Points Entity Type",
+      "comment" : "Command and Control Points Entity Type\nMaritime Control Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -11992,7 +11992,7 @@
       }
     },
     "Spy" : {
-      "comment" : "Operation Entity Type\nLand Civilian Entity Type",
+      "comment" : "Land Civilian Entity Type\nOperation Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -12817,7 +12817,7 @@
       }
     },
     "Tetrahedrons, Dragons Teeth, and Other Similar Obstacles" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -13301,7 +13301,7 @@
       }
     },
     "Transportation Security Administration (TSA)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -13477,7 +13477,7 @@
       }
     },
     "Tug, Ocean Going" : {
-      "comment" : "Merchant Ship Entity Subtype\nAuxiliary Ship Entity Subtype",
+      "comment" : "Auxiliary Ship Entity Subtype\nMerchant Ship Entity Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -13565,7 +13565,7 @@
       }
     },
     "Unexploded Ordnance" : {
-      "comment" : "Mine Warfare Entity\nHazard Materials Incident Subtype",
+      "comment" : "Hazard Materials Incident Subtype\nMine Warfare Entity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -13598,7 +13598,7 @@
       }
     },
     "United States Secret Service (USSS)" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -13609,12 +13609,23 @@
       }
     },
     "Unknown" : {
-      "comment" : "Standard identity\nHealth and Status Entity Type",
+      "comment" : "Health and Status Entity Type\nStandard identity",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Невідомий"
+          }
+        }
+      }
+    },
+    "Unknown military symbol" : {
+      "comment" : "Accessibility label",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Невідомий військовий символ"
           }
         }
       }
@@ -13653,7 +13664,7 @@
       }
     },
     "Unmanned Surface Water Vehicle (USV)" : {
-      "comment" : "Military Combatant Entity Type\nCivilian Entity Type",
+      "comment" : "Civilian Entity Type\nMilitary Combatant Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -13686,7 +13697,7 @@
       }
     },
     "Unspecified Mine" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -13862,7 +13873,7 @@
       }
     },
     "US Marshals Service" : {
-      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Subtype\nLaw Enforcement Operation Entity Subtype",
+      "comment" : "Law Enforcement Entity Type\nLaw Enforcement Operation Entity Subtype\nLaw Enforcement Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -14005,7 +14016,7 @@
       }
     },
     "Utility Vehicle" : {
-      "comment" : "Utility Vehicles Entity Type\nCivilian Vehicle Entity Type",
+      "comment" : "Civilian Vehicle Entity Type\nUtility Vehicles Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -14038,7 +14049,7 @@
       }
     },
     "Vehicle" : {
-      "comment" : "Transportation Incident Entity Type\nLand Equipment Entity",
+      "comment" : "Land Equipment Entity\nTransportation Incident Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -14060,7 +14071,7 @@
       }
     },
     "Vertical Obstructions" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -14280,7 +14291,7 @@
       }
     },
     "Water" : {
-      "comment" : "Water Supply Infrastructure Subtype\nUtility Vehicles Entity Type\nSustainment Entity Type",
+      "comment" : "Sustainment Entity Type\nUtility Vehicles Entity Type\nWater Supply Infrastructure Subtype",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -14335,7 +14346,7 @@
       }
     },
     "Waypoint" : {
-      "comment" : "Maritime Control Points Entity Type\nCommand and Control Points Entity Type",
+      "comment" : "Command and Control Points Entity Type\nMaritime Control Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -14456,7 +14467,7 @@
       }
     },
     "Wide Area Antitank Mine" : {
-      "comment" : "Protection Points Entity Type\nGeneral Decontamination Point Entity Subtype",
+      "comment" : "General Decontamination Point Entity Subtype\nProtection Points Entity Type",
       "localizations" : {
         "uk" : {
           "stringUnit" : {
@@ -14532,112 +14543,172 @@
         }
       }
     },
-    "Wrong symbol amplifier descriptor." : {
+    "Wrong symbol amplifier descriptor. Amplifier digits: %@. Wrong digits: %@." : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol amplifier descriptor. Amplifier digits: %1$@. Wrong digits: %2$@."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильний дескриптор підсилювача символів."
+            "value" : "Неправильний дескриптор підсилювача символу. Цифри підсилювача: %1$@. Неправильні цифри: %2$@."
           }
         }
       }
     },
-    "Wrong symbol amplifier." : {
+    "Wrong symbol amplifier. Wrong digits: %@" : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol amplifier. Wrong digits: %1$@"
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильний підсилювач символів."
+            "value" : "Неправильний підсилювач символу. Неправильні цифри: %1$@"
           }
         }
       }
     },
-    "Wrong symbol context." : {
+    "Wrong symbol context. Wrong digits: %@." : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol context. Wrong digits: %1$@."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильний контекст символу."
+            "value" : "Неправильний контекст символу. Неправильні цифри: %1$@."
           }
         }
       }
     },
-    "Wrong symbol entity subtype." : {
+    "Wrong symbol entity subtype. Dimension digits: %@. Entity digits: %@. EntityType Digits: %@. Wrong digits: %@." : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol entity subtype. Dimension digits: %1$@. Entity digits: %2$@. EntityType Digits: %3$@. Wrong digits: %4$@."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильний підтип сутності символу."
+            "value" : "Неправильний підтип сутності символу. Цифри виміру: %1$@. Цифри сутності: %2$@. Цифри типу сутності: %3$@. Неправильні цифри: %4$@."
           }
         }
       }
     },
-    "Wrong symbol entity type." : {
+    "Wrong symbol entity type. Dimension digits: %@. Entity digits: %@. Wrong digits: %@." : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol entity type. Dimension digits: %1$@. Entity digits: %2$@. Wrong digits: %3$@."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильний символ типу сутності."
+            "value" : "Неправильний тип сутності символу. Цифри виміру: %1$@. Цифри сутності: %2$@. Неправильні цифри: %3$@."
           }
         }
       }
     },
-    "Wrong symbol entity." : {
+    "Wrong symbol entity. Dimension digits: %@. Wrong digits: %@." : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol entity. Dimension digits: %1$@. Wrong digits: %2$@."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильний символ сутності."
+            "value" : "Неправильна сутність символу. Цифри виміру: %1$@. Неправильні цифри: %2$@."
           }
         }
       }
     },
-    "Wrong symbol HQTFD." : {
+    "Wrong symbol HQTFD. Wrong digits: %@." : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol HQTFD. Wrong digits: %1$@."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильний символ HQTFD."
+            "value" : "Неправильний символ HQTFD. Неправильні цифри: %1$@."
           }
         }
       }
     },
-    "Wrong symbol set." : {
+    "Wrong symbol set. Wrong digits: %@." : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol set. Wrong digits: %1$@."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильний набір символів."
+            "value" : "Неправильний набір символів. Неправильні цифри: %1$@."
           }
         }
       }
     },
-    "Wrong symbol standard identity." : {
+    "Wrong symbol standard identity. Wrong digits: %@." : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol standard identity. Wrong digits: %1$@."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильна стандартна ідентичність символу."
+            "value" : "Неправильна стандартна ідентичність символу. Неправильні цифри: %1$@."
           }
         }
       }
     },
-    "Wrong symbol status." : {
+    "Wrong symbol status. Wrong digits: %@." : {
       "comment" : "Military Symbol init from SIDC Error",
       "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Wrong symbol status. Wrong digits: %1$@."
+          }
+        },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Неправильний статус символу."
+            "value" : "Неправильний статус символу. Неправильні цифри: %1$@."
           }
         }
       }

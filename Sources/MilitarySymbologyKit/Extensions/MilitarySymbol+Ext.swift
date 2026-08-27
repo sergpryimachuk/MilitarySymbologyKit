@@ -500,6 +500,8 @@ public extension MilitarySymbol {
             }
         }
         .frame(width: size, height: size)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(Text(accessibilityLabel))
     }
 
     static func makeUnknownSymbolView(size: CGFloat? = nil) -> some View {
@@ -509,5 +511,41 @@ public extension MilitarySymbol {
             .frame(width: size)
             .symbolRenderingMode(.hierarchical)
             .foregroundStyle(.orange)
+            .accessibilityLabel(
+                Text(String(localized: "Unknown military symbol", bundle: .module))
+            )
+    }
+
+    private var accessibilityLabel: String {
+        var labels = [standardIdentity.name, dimension.name]
+
+        if entity.id != AnyEntity.none.id {
+            labels.append(entity.name)
+        }
+        if entityType.id != AnyEntityType.none.id {
+            labels.append(entityType.name)
+        }
+        if entitySubtype.id != AnyEntitySubtype.none.id {
+            labels.append(entitySubtype.name)
+        }
+
+        labels.append(status.name)
+        if context != .reality {
+            labels.append(context.name)
+        }
+        if hqtfd != .none {
+            labels.append(hqtfd.name)
+        }
+        if amplifier != .none {
+            labels.append(amplifier.name)
+        }
+        if descriptor.id != AnyDescriptor.none.id {
+            labels.append(descriptor.name)
+        }
+        if isCivilian {
+            labels.append(String(localized: "Civilian", bundle: .module))
+        }
+
+        return labels.joined(separator: ", ")
     }
 }

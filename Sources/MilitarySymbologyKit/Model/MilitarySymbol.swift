@@ -5,7 +5,7 @@
 import Foundation
 
 public struct MilitarySymbol: Identifiable, Hashable {
-    public let version: String = "01"
+    public let version: String = "10"
     public var context: Context = .reality
     public var standardIdentity: StandardIdentity = .unknown
     public var dimension: Dimension = .landUnits {
