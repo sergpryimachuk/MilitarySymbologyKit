@@ -26,7 +26,9 @@ public extension [MilitarySymbol] {
                                 descriptor: initialValue.descriptor,
                                 entity: entity,
                                 entityType: entityType,
-                                entitySubtype: entitySubtype
+                                entitySubtype: entitySubtype,
+                                isCivilian: initialValue.isCivilian,
+                                isAlternateStatusAmplifiers: initialValue.isAlternateStatusAmplifiers
                             )
                         )
                     }
@@ -55,7 +57,9 @@ public extension [MilitarySymbol] {
                                 descriptor: initialValue.descriptor,
                                 entity: entity,
                                 entityType: entityType,
-                                entitySubtype: entitySubtype
+                                entitySubtype: entitySubtype,
+                                isCivilian: initialValue.isCivilian,
+                                isAlternateStatusAmplifiers: initialValue.isAlternateStatusAmplifiers
                             )
                         )
                     }

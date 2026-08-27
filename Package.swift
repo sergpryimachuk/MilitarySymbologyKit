@@ -24,5 +24,9 @@ let package = Package(
             name: "MilitarySymbologyKit",
             dependencies: ["MilitarySymbologyAssets"]
         ),
+        .testTarget(
+            name: "MilitarySymbologyKitTests",
+            dependencies: ["MilitarySymbologyKit"]
+        ),
     ]
 )
